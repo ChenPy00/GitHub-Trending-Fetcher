@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 1,
+      "readme_sha256": "3c512e2a6e162a906e77e2731a59d3885756cc2303170055ccacbbfcde14348b",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 2,
+      "readme_sha256": "eee650c1a2f173be889a548c847a3a965b625fa6789fad80cad3addc359b8f7e",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 3,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 4,
+      "readme_sha256": "12f59ae3b3424823d9c2de0ff5b87ff8bd3d59c92f4704877d18bbef3cfb8ab7",
+      "url": "https://github.com/dotnet/skills"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 5,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 6,
+      "readme_sha256": "a924373defca063d2691050ed2e8dada71f354e53ea0bc2e1fdff78ab5d2a456",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "full_name": "rmyndharis/OpenWA",
+      "project_file": "projects/rmyndharis__OpenWA.md",
+      "rank": 7,
+      "readme_sha256": "c65435d5a821c9e1bb21de8f1ea06d93bb77cc30baf64379bd8a8aeb7be37527",
+      "url": "https://github.com/rmyndharis/OpenWA"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 8,
+      "readme_sha256": "408b90a7a6d62cb3067421cfb77cf33a1dd343bae263cd2e7293343ed9f901db",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 9,
+      "readme_sha256": "7f8cb3e25135c272b04ca9698b98a1ccb04882baaf243c86644b43faf9740bc8",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Unofficial Python API and agentic skill for Google NotebookLM. Full programmatic access to NotebookLM's features—including capabilities the web UI doesn't expose—via Python, CLI, and AI agents like Claude Code, Codex, and OpenClaw.",
+      "full_name": "teng-lin/notebooklm-py",
+      "project_file": "projects/teng-lin__notebooklm-py.md",
+      "rank": 10,
+      "readme_sha256": "ec3a091372a22847948e016bd154d14318059ccf32dc2e0fce717c7d90b774ca",
+      "url": "https://github.com/teng-lin/notebooklm-py"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 11,
+      "readme_sha256": "4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "A Python framework for self-hosted LLM tool-calling and multi-step agentic workflows",
+      "full_name": "antoinezambelli/forge",
+      "project_file": "projects/antoinezambelli__forge.md",
+      "rank": 12,
+      "readme_sha256": "3f569536d9e4fee0470403a1700ff0798e2b7020dbaa83c47208d598064df2e2",
+      "url": "https://github.com/antoinezambelli/forge"
+    },
+    {
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "full_name": "multica-ai/multica",
+      "project_file": "projects/multica-ai__multica.md",
+      "rank": 13,
+      "readme_sha256": "3908dac96d4057caccdb9bf02f457cd4ca0e38e1bdee97608e2bf8f03925a747",
+      "url": "https://github.com/multica-ai/multica"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 14,
+      "readme_sha256": "f278da7689265109cb8ea0010ae596f570b6f44ad2ecf8a124b77ef6d502c79d",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "full_name": "trimstray/the-book-of-secret-knowledge",
+      "project_file": "projects/trimstray__the-book-of-secret-knowledge.md",
+      "rank": 15,
+      "readme_sha256": "c58c93aa753a4a32e1acc182234a07c0b86730e12ecceae3a6214cd96666a78e",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+    },
+    {
+      "description": "A cross-platform Electron Desktop App to stream and download any Movie, TV Series or Anime in the World. Zero Ads and Tracking",
+      "full_name": "truelockmc/streambert",
+      "project_file": "projects/truelockmc__streambert.md",
+      "rank": 16,
+      "readme_sha256": "bcc6dd6464896715cf40131a066c4a2e4ed64b559b85ff657748f962dcea7506",
+      "url": "https://github.com/truelockmc/streambert"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 17,
+      "readme_sha256": "a6a4162937f9eabfb1f2eb0f41f9d9b86d71dce84ce24ed28455b6f9d8123dc8",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "An advanced Web Panel • Built for SagerNet/Sing-Box",
+      "full_name": "alireza0/s-ui",
+      "project_file": "projects/alireza0__s-ui.md",
+      "rank": 18,
+      "readme_sha256": "79b81ada640592497d627e1de0500647cf6ea78c0a16db459484816f8eed154f",
+      "url": "https://github.com/alireza0/s-ui"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 19,
+      "readme_sha256": "72b89430f9c13d5b087d00dd47022b99efa2c544817d4fbacdbe28d8854f7110",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    }
+  ],
+  "snapshot_date": "2026-05-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

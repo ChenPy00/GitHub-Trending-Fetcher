@@ -1,0 +1,121 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 1,
+      "readme_sha256": "8d6d356bdce64caabc3190eb5d497fa70ec1a5bff5b3503dd5e6e2ebc3e76fe2",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 2,
+      "readme_sha256": "eee650c1a2f173be889a548c847a3a965b625fa6789fad80cad3addc359b8f7e",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 3,
+      "readme_sha256": "f278da7689265109cb8ea0010ae596f570b6f44ad2ecf8a124b77ef6d502c79d",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "full_name": "supertone-inc/supertonic",
+      "project_file": "projects/supertone-inc__supertonic.md",
+      "rank": 4,
+      "readme_sha256": "215e611d39dc4bb9bd370b3a4878de2da984d5971fcea22de21094fcce89971a",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 5,
+      "readme_sha256": "89a1727fd9b9b92bc2d36f602b79616bed2dcdee1cf48bdc17286ec63311dd79",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "full_name": "CloakHQ/CloakBrowser",
+      "project_file": "projects/CloakHQ__CloakBrowser.md",
+      "rank": 6,
+      "readme_sha256": "b7d87f5f733836c28a872c5a57f51e417d2336e4c32a01f1e1ba51cecc3a522f",
+      "url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 7,
+      "readme_sha256": "5b08fbb62fa1309c0a702702efb195c796c5d42ad7be95c06cc571853674db5c",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "full_name": "oven-sh/bun",
+      "project_file": "projects/oven-sh__bun.md",
+      "rank": 8,
+      "readme_sha256": "2cf8745404704835c7e1d521446d06e0a39113efcaf35f5b93a1126373ad34e9",
+      "url": "https://github.com/oven-sh/bun"
+    },
+    {
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "full_name": "humanlayer/12-factor-agents",
+      "project_file": "projects/humanlayer__12-factor-agents.md",
+      "rank": 9,
+      "readme_sha256": "898b8879be9279c5c90e302e58232ac4f4f4ab051efe69cff30738b2efbac3c7",
+      "url": "https://github.com/humanlayer/12-factor-agents"
+    },
+    {
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "full_name": "datawhalechina/easy-vibe",
+      "project_file": "projects/datawhalechina__easy-vibe.md",
+      "rank": 10,
+      "readme_sha256": "ae1ff3ac50caf6d75adc6a26ae5b328479a368ca6093775aa13921777f8b5b23",
+      "url": "https://github.com/datawhalechina/easy-vibe"
+    },
+    {
+      "description": "A fast type checker and language server for Python",
+      "full_name": "facebook/pyrefly",
+      "project_file": "projects/facebook__pyrefly.md",
+      "rank": 11,
+      "readme_sha256": "6ddeb9ba04d80869e67b3489be59a86f5168d0cc72ab4a874ece187b521ae453",
+      "url": "https://github.com/facebook/pyrefly"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 12,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "full_name": "HKUDS/ViMax",
+      "project_file": "projects/HKUDS__ViMax.md",
+      "rank": 13,
+      "readme_sha256": "edb4f839b1123c3be08084e909b6bff5c6184938a865e6f0debbbca6c3f4d188",
+      "url": "https://github.com/HKUDS/ViMax"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 14,
+      "readme_sha256": "65e8ce7af3e58b7e57d8f3e6bed05d9bd4e3b1d887be9291d1aa5e6338bf7c71",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "snapshot_date": "2026-05-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
