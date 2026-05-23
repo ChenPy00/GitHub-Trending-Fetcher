@@ -5,7 +5,7 @@
   "full_name": "ruvnet/RuView",
   "url": "https://github.com/ruvnet/RuView",
   "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-  "readme_sha256": "5b08fbb62fa1309c0a702702efb195c796c5d42ad7be95c06cc571853674db5c"
+  "readme_sha256": "d417eab66040f6bce7e273cb120c09634fa844c3f5745595cd65e24392407977"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ruvnet/RuView
 - Description: π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-- README SHA256: `5b08fbb62fa1309c0a702702efb195c796c5d42ad7be95c06cc571853674db5c`
+- README SHA256: `d417eab66040f6bce7e273cb120c09634fa844c3f5745595cd65e24392407977`
 
 ## README
 
@@ -21,10 +21,9 @@
 
 <p align="center">
   <a href="https://cognitum.one/seed">
-    <img src="assets/ruview-small-gemini.jpg" alt="RuView - WiFi DensePose" width="100%">
+    <img src="assets/ruview-seed.png" alt="RuView - WiFi DensePose" width="100%">
   </a>
 </p>
-
 <p align="center">
   <a href="https://cognitum.one/seed">
     <img src="assets/seed.png" alt="Cognitum Seed" width="100%">
@@ -595,6 +594,12 @@ Verify the plugin structure: `bash plugins/ruview/scripts/smoke.sh`. Full detail
 ## 📄 License
 
 MIT License — see [LICENSE](LICENSE) for details.
+
+## 🤝 Creator Affiliate Program
+
+**For TikTok · Instagram · YouTube creators** — earn **25% on every Cognitum sale** you refer. The RuFlo, RuView, and RuVector videos you're already making have done millions of views; get paid for the orders they drive. Click-tracking activates instantly; commissions activate after a quick manual review (usually under 24 hours).
+
+[Apply now → cognitum.one/affiliate](https://cognitum.one/affiliate)
 
 ## 📞 Support
 

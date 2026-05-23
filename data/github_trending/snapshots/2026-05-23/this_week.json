@@ -1,0 +1,129 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 1,
+      "readme_sha256": "5dd21d73c56d58d44f8f0976bff701100faa936a78a12984ade120a50a0c7e37",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 2,
+      "readme_sha256": "82e2ab97d2ead8706a454070a9683710c275f8c9065d865b1e30926bc76ccb8a",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 3,
+      "readme_sha256": "b94f65ce6749eb1a2e7e2c9065a7ea072d5a706e4e2b24c93c05bd9be2f7f24e",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 4,
+      "readme_sha256": "d417eab66040f6bce7e273cb120c09634fa844c3f5745595cd65e24392407977",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 5,
+      "readme_sha256": "9ce73195da3eb28c04010d0e67d422ec4e988bcbb1c61978d77a4fc100224be4",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "full_name": "supertone-inc/supertonic",
+      "project_file": "projects/supertone-inc__supertonic.md",
+      "rank": 6,
+      "readme_sha256": "215e611d39dc4bb9bd370b3a4878de2da984d5971fcea22de21094fcce89971a",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "full_name": "CloakHQ/CloakBrowser",
+      "project_file": "projects/CloakHQ__CloakBrowser.md",
+      "rank": 7,
+      "readme_sha256": "b7d87f5f733836c28a872c5a57f51e417d2336e4c32a01f1e1ba51cecc3a522f",
+      "url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "full_name": "HKUDS/ViMax",
+      "project_file": "projects/HKUDS__ViMax.md",
+      "rank": 8,
+      "readme_sha256": "edb4f839b1123c3be08084e909b6bff5c6184938a865e6f0debbbca6c3f4d188",
+      "url": "https://github.com/HKUDS/ViMax"
+    },
+    {
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "full_name": "humanlayer/12-factor-agents",
+      "project_file": "projects/humanlayer__12-factor-agents.md",
+      "rank": 9,
+      "readme_sha256": "898b8879be9279c5c90e302e58232ac4f4f4ab051efe69cff30738b2efbac3c7",
+      "url": "https://github.com/humanlayer/12-factor-agents"
+    },
+    {
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "full_name": "oven-sh/bun",
+      "project_file": "projects/oven-sh__bun.md",
+      "rank": 10,
+      "readme_sha256": "2cf8745404704835c7e1d521446d06e0a39113efcaf35f5b93a1126373ad34e9",
+      "url": "https://github.com/oven-sh/bun"
+    },
+    {
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "full_name": "datawhalechina/easy-vibe",
+      "project_file": "projects/datawhalechina__easy-vibe.md",
+      "rank": 11,
+      "readme_sha256": "ae1ff3ac50caf6d75adc6a26ae5b328479a368ca6093775aa13921777f8b5b23",
+      "url": "https://github.com/datawhalechina/easy-vibe"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 12,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "A fast type checker and language server for Python",
+      "full_name": "facebook/pyrefly",
+      "project_file": "projects/facebook__pyrefly.md",
+      "rank": 13,
+      "readme_sha256": "6ddeb9ba04d80869e67b3489be59a86f5168d0cc72ab4a874ece187b521ae453",
+      "url": "https://github.com/facebook/pyrefly"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 14,
+      "readme_sha256": "ff2001ed4d2422a142d4a22e420cd97fb8270a6696abc82c581fbf07de0f3185",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Stremio - Freedom to Stream",
+      "full_name": "Stremio/stremio-web",
+      "project_file": "projects/Stremio__stremio-web.md",
+      "rank": 15,
+      "readme_sha256": "c2157ed46421a212da11f91351cd7cf106c9d04fdf29ea19f8d2be5175770aaf",
+      "url": "https://github.com/Stremio/stremio-web"
+    }
+  ],
+  "snapshot_date": "2026-05-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 1,
+      "readme_sha256": "3c512e2a6e162a906e77e2731a59d3885756cc2303170055ccacbbfcde14348b",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 2,
+      "readme_sha256": "5dd21d73c56d58d44f8f0976bff701100faa936a78a12984ade120a50a0c7e37",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 3,
+      "readme_sha256": "d417eab66040f6bce7e273cb120c09634fa844c3f5745595cd65e24392407977",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "ff2001ed4d2422a142d4a22e420cd97fb8270a6696abc82c581fbf07de0f3185",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 5,
+      "readme_sha256": "408b90a7a6d62cb3067421cfb77cf33a1dd343bae263cd2e7293343ed9f901db",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 6,
+      "readme_sha256": "12f59ae3b3424823d9c2de0ff5b87ff8bd3d59c92f4704877d18bbef3cfb8ab7",
+      "url": "https://github.com/dotnet/skills"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 7,
+      "readme_sha256": "72b89430f9c13d5b087d00dd47022b99efa2c544817d4fbacdbe28d8854f7110",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "full_name": "odoo/odoo",
+      "project_file": "projects/odoo__odoo.md",
+      "rank": 8,
+      "readme_sha256": "964c3dc18f056f667fd488efde0d25847aca0f7a8c99feca06d6dd6ef9657659",
+      "url": "https://github.com/odoo/odoo"
+    },
+    {
+      "description": "",
+      "full_name": "byJoey/cfnew",
+      "project_file": "projects/byJoey__cfnew.md",
+      "rank": 9,
+      "readme_sha256": "29f6585029da1301d5d04b4a2b5260d04f5c942c13980c59c101954d45a6274d",
+      "url": "https://github.com/byJoey/cfnew"
+    },
+    {
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "full_name": "trimstray/the-book-of-secret-knowledge",
+      "project_file": "projects/trimstray__the-book-of-secret-knowledge.md",
+      "rank": 10,
+      "readme_sha256": "c58c93aa753a4a32e1acc182234a07c0b86730e12ecceae3a6214cd96666a78e",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+    },
+    {
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "project_file": "projects/Fincept-Corporation__FinceptTerminal.md",
+      "rank": 11,
+      "readme_sha256": "b93f8167a2d67dbfaa9edafb5146387d120f58d2114f7c8df26b8355a695b194",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 12,
+      "readme_sha256": "4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "A feature-rich command-line audio/video downloader",
+      "full_name": "yt-dlp/yt-dlp",
+      "project_file": "projects/yt-dlp__yt-dlp.md",
+      "rank": 13,
+      "readme_sha256": "72c4cd21c456c5267161f983da7c4458e601de5708d752ed52cb90c78d3ef166",
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "description": "Neural Networks: Zero to Hero",
+      "full_name": "karpathy/nn-zero-to-hero",
+      "project_file": "projects/karpathy__nn-zero-to-hero.md",
+      "rank": 14,
+      "readme_sha256": "de022158ce6aa36e11e7c0f5c2235188135c93804c8dc8c4395ff430418cdc29",
+      "url": "https://github.com/karpathy/nn-zero-to-hero"
+    }
+  ],
+  "snapshot_date": "2026-05-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

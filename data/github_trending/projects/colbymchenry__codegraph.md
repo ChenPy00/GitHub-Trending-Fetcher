@@ -4,16 +4,16 @@
   "name": "codegraph",
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
-  "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "eee650c1a2f173be889a548c847a3a965b625fa6789fad80cad3addc359b8f7e"
+  "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+  "readme_sha256": "5dd21d73c56d58d44f8f0976bff701100faa936a78a12984ade120a50a0c7e37"
 }
 ```
 
 # colbymchenry/codegraph
 
 - URL: https://github.com/colbymchenry/codegraph
-- Description: Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, and OpenCode — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `eee650c1a2f173be889a548c847a3a965b625fa6789fad80cad3addc359b8f7e`
+- Description: Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
+- README SHA256: `5dd21d73c56d58d44f8f0976bff701100faa936a78a12984ade120a50a0c7e37`
 
 ## README
 
@@ -29,15 +29,15 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Self-contained](https://img.shields.io/badge/Node.js-bundled%20%C2%B7%20none%20required-brightgreen.svg)](https://nodejs.org/)
 
-[![Windows](https://img.shields.io/badge/Windows-supported-blue.svg)](#)
-[![macOS](https://img.shields.io/badge/macOS-supported-blue.svg)](#)
-[![Linux](https://img.shields.io/badge/Linux-supported-blue.svg)](#)
+[![Windows](https://img.shields.io/badge/Windows-supported-blue.svg)](#supported-platforms)
+[![macOS](https://img.shields.io/badge/macOS-supported-blue.svg)](#supported-platforms)
+[![Linux](https://img.shields.io/badge/Linux-supported-blue.svg)](#supported-platforms)
 
-[![Claude Code](https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg)](#)
-[![Cursor](https://img.shields.io/badge/Cursor-supported-blueviolet.svg)](#)
-[![Codex CLI](https://img.shields.io/badge/Codex_CLI-supported-blueviolet.svg)](#)
-[![opencode](https://img.shields.io/badge/opencode-supported-blueviolet.svg)](#)
-[![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-supported-blueviolet.svg)](#)
+[![Claude Code](https://img.shields.io/badge/Claude_Code-supported-blueviolet.svg)](#supported-agents)
+[![Cursor](https://img.shields.io/badge/Cursor-supported-blueviolet.svg)](#supported-agents)
+[![Codex CLI](https://img.shields.io/badge/Codex_CLI-supported-blueviolet.svg)](#supported-agents)
+[![opencode](https://img.shields.io/badge/opencode-supported-blueviolet.svg)](#supported-agents)
+[![Hermes Agent](https://img.shields.io/badge/Hermes_Agent-supported-blueviolet.svg)](#supported-agents)
 
 </div>
 
@@ -74,6 +74,16 @@ codegraph init -i
 ![1_C_VYnhpys0UHrOuOgpgoyw](https://github.com/user-attachments/assets/f168182f-4d9a-44e0-94d7-08d018cc8a3a)
 
 </div>
+
+### Uninstall
+
+Changed your mind? One command removes CodeGraph from every agent it configured:
+
+```bash
+codegraph uninstall
+```
+
+<sub>Reverses the installer — strips CodeGraph's MCP server config, instructions, and permissions from each configured agent. Your project indexes (`.codegraph/`) are left untouched; remove those per-project with `codegraph uninit`. Use `--target` to remove from specific agents, or `--yes` to run non-interactively.</sub>
 
 ---
 
@@ -352,6 +362,7 @@ At the start of a session, ask the user if they'd like to initialize CodeGraph:
 ```bash
 codegraph                         # Run interactive installer
 codegraph install                 # Run installer (explicit)
+codegraph uninstall               # Remove CodeGraph from your agents (inverse of install)
 codegraph init [path]             # Initialize in a project (--index to also index)
 codegraph uninit [path]           # Remove CodeGraph from a project (--force to skip prompt)
 codegraph index [path]            # Full index (--force to re-index, --quiet for less output)
@@ -360,6 +371,9 @@ codegraph status [path]           # Show statistics
 codegraph query <search>          # Search symbols (--kind, --limit, --json)
 codegraph files [path]            # Show file structure (--format, --filter, --max-depth, --json)
 codegraph context <task>          # Build context for AI (--format, --max-nodes)
+codegraph callers <symbol>        # Find what calls a function/method (--limit, --json)
+codegraph callees <symbol>        # Find what a function/method calls (--limit, --json)
+codegraph impact <symbol>         # Analyze what code is affected by changing a symbol (--depth, --json)
 codegraph affected [files...]     # Find test files affected by changes (see below)
 codegraph serve --mcp             # Start MCP server
 ```
@@ -406,6 +420,7 @@ When running as an MCP server, CodeGraph exposes these tools to Claude Code:
 | `codegraph_callees` | Find what a function calls |
 | `codegraph_impact` | Analyze what code is affected by changing a symbol |
 | `codegraph_node` | Get details about a specific symbol (optionally with source code) |
+| `codegraph_explore` | Return source for several related symbols grouped by file, plus a relationship map, in one call |
 | `codegraph_files` | Get indexed file structure (faster than filesystem scanning) |
 | `codegraph_status` | Check index health and statistics |
 
@@ -454,6 +469,30 @@ What that means in practice:
 > Committed files that aren't gitignored *are* indexed, even under `vendor/` or a
 > committed `dist/`. If you commit a dependency or build directory you don't want
 > in the graph, add it to `.gitignore`.
+
+## Supported Platforms
+
+Every release ships a self-contained build (bundled Node runtime — nothing to
+compile) for all three desktop OSes, on both Intel/AMD (x64) and ARM (arm64):
+
+| Platform | Architectures | Install |
+|----------|---------------|---------|
+| Windows | x64, arm64 | PowerShell installer or npm |
+| macOS | x64, arm64 | shell installer or npm |
+| Linux | x64, arm64 | shell installer or npm |
+
+See [Get Started](#get-started) for the one-line install commands.
+
+## Supported Agents
+
+The interactive installer auto-detects and configures each of these — wiring up
+the MCP server and writing its instructions file:
+
+- **Claude Code**
+- **Cursor**
+- **Codex CLI**
+- **opencode**
+- **Hermes Agent**
 
 ## Supported Languages
 

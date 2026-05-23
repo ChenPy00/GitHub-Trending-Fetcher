@@ -5,7 +5,7 @@
   "full_name": "Alishahryar1/free-claude-code",
   "url": "https://github.com/Alishahryar1/free-claude-code",
   "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
-  "readme_sha256": "5538d0bd7a4fca9a6b977d0e4cf8f7cb3644e0f54a75a6f53818807a0d44620e"
+  "readme_sha256": "11913faef3217d788ddf85aea0c1487c70f089b0dcb7c9ce7729153ca9fe0b78"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Alishahryar1/free-claude-code
 - Description: Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)
-- README SHA256: `5538d0bd7a4fca9a6b977d0e4cf8f7cb3644e0f54a75a6f53818807a0d44620e`
+- README SHA256: `11913faef3217d788ddf85aea0c1487c70f089b0dcb7c9ce7729153ca9fe0b78`
 
 ## README
 
@@ -67,41 +67,25 @@ Free Claude Code routes Anthropic Messages API traffic from Claude Code to any p
 
 ## Quick Start
 
-### 1. Install the latest version of [Claude Code](https://code.claude.com/docs/en/overview)
+### 1. Fast Install
 
-```bash
-npm install -g @anthropic-ai/claude-code
-```
-
-### 2. Install Runtime Requirements
-
-Install the latest version of [uv](https://docs.astral.sh/uv/getting-started/installation/) and Python 3.14.
+Install or update Claude Code, uv, Python 3.14.0, and Free Claude Code:
 
 macOS/Linux:
 
 ```bash
-curl -LsSf https://astral.sh/uv/install.sh | sh
-uv self update
-uv python install 3.14
+curl -fsSL "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh?raw=1" | sh
 ```
 
 Windows PowerShell:
 
 ```powershell
-powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-uv self update
-uv python install 3.14
+irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1" | iex
 ```
 
-### 3. Install The Proxy
+Review the installers at [scripts/install.sh](https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh) and [scripts/install.ps1](https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1).
 
-```bash
-uv tool install --force git+https://github.com/Alishahryar1/free-claude-code.git
-```
-
-Use the same command to update to the latest version.
-
-### 4. Start The Proxy
+### 2. Start The Proxy
 
 ```bash
 fcc-server
@@ -115,7 +99,7 @@ INFO:     Admin UI: http://127.0.0.1:8082/admin (local-only)
 
 Many terminals make these clickable. Use your configured `PORT` if it is not `8082`.
 
-### 5. Open The Admin UI And Configure NVIDIA NIM
+### 3. Open The Admin UI And Configure NVIDIA NIM
 
 Open the **Admin UI** URL from the terminal output.
 
@@ -129,7 +113,7 @@ Paste your NVIDIA NIM API key into `NVIDIA_NIM_API_KEY`, then click **Validate**
 
 The default model is already set to `nvidia_nim/nvidia/nemotron-3-super-120b-a12b`. You can change it later from the same Admin UI.
 
-### 6. Run Claude Code
+### 4. Run Claude Code
 
 ```bash
 fcc-claude
@@ -372,20 +356,41 @@ The bot wrapper runs Claude Code sessions remotely, streams progress, supports r
 
 ### 2. Voice Notes
 
-Voice notes work on Discord and Telegram after you extend your [proxy install](#3-install-the-proxy) with the matching optional extras. Re-run `uv tool install --force` with the extras you need (same Git URL as Quick Start):
+Voice notes work on Discord and Telegram after you extend your [Free Claude Code install](#1-fast-install) with the matching optional extras.
+
+macOS/Linux:
 
 ```bash
 # NVIDIA NIM transcription (Riva gRPC)
-uv tool install --force "free-claude-code[voice] @ git+https://github.com/Alishahryar1/free-claude-code.git"
+curl -fsSL "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh?raw=1" | sh -s -- --voice-nim
 
 # Local Whisper (CPU or CUDA)
-uv tool install --force "free-claude-code[voice_local] @ git+https://github.com/Alishahryar1/free-claude-code.git"
+curl -fsSL "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh?raw=1" | sh -s -- --voice-local
 
 # Both backends
-uv tool install --force "free-claude-code[voice,voice_local] @ git+https://github.com/Alishahryar1/free-claude-code.git"
+curl -fsSL "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh?raw=1" | sh -s -- --voice-all
+
+# Local Whisper with CUDA
+curl -fsSL "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.sh?raw=1" | sh -s -- --voice-local --torch-backend cu130
 ```
 
-For **cuda** local Whisper, add `--torch-backend cu130` to the `voice_local` install command. Restart `fcc-server` after reinstalling.
+Windows PowerShell:
+
+```powershell
+# NVIDIA NIM transcription (Riva gRPC)
+& ([scriptblock]::Create((irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1"))) -VoiceNim
+
+# Local Whisper (CPU or CUDA)
+& ([scriptblock]::Create((irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1"))) -VoiceLocal
+
+# Both backends
+& ([scriptblock]::Create((irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1"))) -VoiceAll
+
+# Local Whisper with CUDA
+& ([scriptblock]::Create((irm "https://github.com/Alishahryar1/free-claude-code/blob/main/scripts/install.ps1?raw=1"))) -VoiceLocal -TorchBackend cu130
+```
+
+Restart `fcc-server` after reinstalling.
 
 In the **Admin UI**, open **Messaging** and scroll to **Voice**. Turn on **Voice Notes**, choose **Whisper Device** (`cpu`, `cuda`, or `nvidia_nim`), set **Whisper Model**, and enter **Hugging Face Token** when your setup needs it. For **nvidia_nim** transcription, install the `voice` extra and set **NVIDIA NIM API Key** on the **Providers** view. The screenshot above shows the **Voice** block in the same view.
 
