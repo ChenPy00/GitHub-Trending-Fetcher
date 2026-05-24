@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 1,
+      "readme_sha256": "80f09dd0eaadb268f5412c6ebae975bbd44f38e1efa172f376f4d2e10e06d947",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 2,
+      "readme_sha256": "3c512e2a6e162a906e77e2731a59d3885756cc2303170055ccacbbfcde14348b",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 3,
+      "readme_sha256": "5dd21d73c56d58d44f8f0976bff701100faa936a78a12984ade120a50a0c7e37",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "ff2001ed4d2422a142d4a22e420cd97fb8270a6696abc82c581fbf07de0f3185",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "project_file": "projects/Fincept-Corporation__FinceptTerminal.md",
+      "rank": 5,
+      "readme_sha256": "b93f8167a2d67dbfaa9edafb5146387d120f58d2114f7c8df26b8355a695b194",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 6,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 7,
+      "readme_sha256": "12f59ae3b3424823d9c2de0ff5b87ff8bd3d59c92f4704877d18bbef3cfb8ab7",
+      "url": "https://github.com/dotnet/skills"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 8,
+      "readme_sha256": "408b90a7a6d62cb3067421cfb77cf33a1dd343bae263cd2e7293343ed9f901db",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 9,
+      "readme_sha256": "8d6e953896a64a3dbffa9bca876238c4c60c0a109d6b9815d68fb49d2e67e788",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "full_name": "presenton/presenton",
+      "project_file": "projects/presenton__presenton.md",
+      "rank": 10,
+      "readme_sha256": "5de2ed0b6a61baa74f726bb2422e635f42d991b3daf10b2715fe6171724be4c7",
+      "url": "https://github.com/presenton/presenton"
+    },
+    {
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "full_name": "multica-ai/multica",
+      "project_file": "projects/multica-ai__multica.md",
+      "rank": 11,
+      "readme_sha256": "633445141ca030040d9b16a6e28f4a659b2252738624b0790fa6ea7f211c0a53",
+      "url": "https://github.com/multica-ai/multica"
+    },
+    {
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "full_name": "trimstray/the-book-of-secret-knowledge",
+      "project_file": "projects/trimstray__the-book-of-secret-knowledge.md",
+      "rank": 12,
+      "readme_sha256": "c58c93aa753a4a32e1acc182234a07c0b86730e12ecceae3a6214cd96666a78e",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+    },
+    {
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "full_name": "odoo/odoo",
+      "project_file": "projects/odoo__odoo.md",
+      "rank": 13,
+      "readme_sha256": "964c3dc18f056f667fd488efde0d25847aca0f7a8c99feca06d6dd6ef9657659",
+      "url": "https://github.com/odoo/odoo"
+    },
+    {
+      "description": "LongLive 2.0: Infra - Long Video Gen",
+      "full_name": "NVlabs/LongLive",
+      "project_file": "projects/NVlabs__LongLive.md",
+      "rank": 14,
+      "readme_sha256": "960ad359352237171716fdbf2bf00f8ad808ae84328f820b524a3befce98fe94",
+      "url": "https://github.com/NVlabs/LongLive"
+    },
+    {
+      "description": "A feature-rich command-line audio/video downloader",
+      "full_name": "yt-dlp/yt-dlp",
+      "project_file": "projects/yt-dlp__yt-dlp.md",
+      "rank": 15,
+      "readme_sha256": "72c4cd21c456c5267161f983da7c4458e601de5708d752ed52cb90c78d3ef166",
+      "url": "https://github.com/yt-dlp/yt-dlp"
+    },
+    {
+      "description": "magic-trace collects and displays high-resolution traces of what a process is doing",
+      "full_name": "janestreet/magic-trace",
+      "project_file": "projects/janestreet__magic-trace.md",
+      "rank": 16,
+      "readme_sha256": "cefd1d7f9e35c248ef57c3fbfce42ad44199c63349d479228ad1037b266203e5",
+      "url": "https://github.com/janestreet/magic-trace"
+    }
+  ],
+  "snapshot_date": "2026-05-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "multica-ai/multica",
   "url": "https://github.com/multica-ai/multica",
   "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-  "readme_sha256": "3908dac96d4057caccdb9bf02f457cd4ca0e38e1bdee97608e2bf8f03925a747"
+  "readme_sha256": "633445141ca030040d9b16a6e28f4a659b2252738624b0790fa6ea7f211c0a53"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/multica-ai/multica
 - Description: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- README SHA256: `3908dac96d4057caccdb9bf02f457cd4ca0e38e1bdee97608e2bf8f03925a747`
+- README SHA256: `633445141ca030040d9b16a6e28f4a659b2252738624b0790fa6ea7f211c0a53`
 
 ## README
 
@@ -206,3 +206,5 @@ make dev
 `make dev` auto-detects your environment (main checkout or worktree), creates the env file, installs dependencies, sets up the database, runs migrations, and starts all services.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full development workflow, worktree support, testing, and troubleshooting.
+
+An iOS mobile client lives in [`apps/mobile/`](apps/mobile/) — see its [README](apps/mobile/README.md) for how to build it onto your own iPhone.

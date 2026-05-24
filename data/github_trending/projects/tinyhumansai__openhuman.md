@@ -5,7 +5,7 @@
   "full_name": "tinyhumansai/openhuman",
   "url": "https://github.com/tinyhumansai/openhuman",
   "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-  "readme_sha256": "82e2ab97d2ead8706a454070a9683710c275f8c9065d865b1e30926bc76ccb8a"
+  "readme_sha256": "eccce200d78f7f4eb2201a55d0e26831e6980f6d3069cbb6aa20511ab687a613"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tinyhumansai/openhuman
 - Description: Your Personal AI super intelligence. Private, Simple and extremely powerful.
-- README SHA256: `82e2ab97d2ead8706a454070a9683710c275f8c9065d865b1e30926bc76ccb8a`
+- README SHA256: `eccce200d78f7f4eb2201a55d0e26831e6980f6d3069cbb6aa20511ab687a613`
 
 ## README
 
@@ -89,6 +89,7 @@ curl -fsSL https://raw.githubusercontent.com/tinyhumansai/openhuman/main/scripts
 irm https://raw.githubusercontent.com/tinyhumansai/openhuman/main/scripts/install.ps1 | iex
 ```
 
+> **Linux:** the AppImage can crash on launch under Wayland (and on Arch-based distros with `sharun: Interpreter not found!`) — see [#2463](https://github.com/tinyhumansai/openhuman/issues/2463) for the cause and env-var workarounds.
 Arch Linux package maintainers can use the [`openhuman-bin` AUR recipe](./packages/arch/openhuman-bin/);
 once published, Arch users can install it with `yay -S openhuman-bin`.
 
