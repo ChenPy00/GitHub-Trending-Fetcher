@@ -5,7 +5,7 @@
   "full_name": "Lum1104/Understand-Anything",
   "url": "https://github.com/Lum1104/Understand-Anything",
   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-  "readme_sha256": "80f09dd0eaadb268f5412c6ebae975bbd44f38e1efa172f376f4d2e10e06d947"
+  "readme_sha256": "7d28fd916ee2d66f1324777c7d6b2a3ed19b6b9cfd9fcdf0de4090a0c31268de"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Lum1104/Understand-Anything
 - Description: Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
-- README SHA256: `80f09dd0eaadb268f5412c6ebae975bbd44f38e1efa172f376f4d2e10e06d947`
+- README SHA256: `7d28fd916ee2d66f1324777c7d6b2a3ed19b6b9cfd9fcdf0de4090a0c31268de`
 
 ## README
 
@@ -225,6 +225,8 @@ The installer clones the repo to `~/.understand-anything/repo` and creates the r
 ### Cursor
 
 Cursor auto-discovers the plugin via `.cursor-plugin/plugin.json` when this repo is cloned. No manual installation needed — just clone and open in Cursor.
+
+If auto-discovery doesn't pick it up, install it manually: open **Cursor Settings → Plugins**, paste `https://github.com/Lum1104/Understand-Anything` into the search field, and add it from there.
 
 ### VS Code + GitHub Copilot
 

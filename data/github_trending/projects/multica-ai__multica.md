@@ -5,7 +5,7 @@
   "full_name": "multica-ai/multica",
   "url": "https://github.com/multica-ai/multica",
   "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
-  "readme_sha256": "633445141ca030040d9b16a6e28f4a659b2252738624b0790fa6ea7f211c0a53"
+  "readme_sha256": "22a3cc8533a68e4290dd0bda3fc334c79eb37f0e9a96fe8c5683d41d6ccda909"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/multica-ai/multica
 - Description: The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.
-- README SHA256: `633445141ca030040d9b16a6e28f4a659b2252738624b0790fa6ea7f211c0a53`
+- README SHA256: `22a3cc8533a68e4290dd0bda3fc334c79eb37f0e9a96fe8c5683d41d6ccda909`
 
 ## README
 
@@ -76,6 +76,7 @@ Multica manages the full agent lifecycle: from task assignment to execution moni
 - **Agents as Teammates** — assign to an agent like you'd assign to a colleague. They have profiles, show up on the board, post comments, create issues, and report blockers proactively.
 - **Squads** — group agents (and humans) under a leader agent and assign work to the *squad*. The leader decides who should pick it up, so routing stays stable as the team grows. `@FrontendTeam` instead of `@alice-or-bob-or-carol`.
 - **Autonomous Execution** — set it and forget it. Full task lifecycle management (enqueue, claim, start, complete/fail) with real-time progress streaming via WebSocket.
+- **Autopilots** — schedule recurring work for agents. Cron triggers, webhooks, or manual runs — each autopilot creates the issue and routes it to an agent automatically, so daily standups, weekly reports, and periodic audits run themselves.
 - **Reusable Skills** — every solution becomes a reusable skill for the whole team. Deployments, migrations, code reviews — skills compound your team's capabilities over time.
 - **Unified Runtimes** — one dashboard for all your compute. Local daemons and cloud runtimes, auto-detection of available CLIs, real-time monitoring.
 - **Multi-Workspace** — organize work across teams with workspace-level isolation. Each workspace has its own agents, issues, and settings.

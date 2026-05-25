@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 1,
+      "readme_sha256": "7d28fd916ee2d66f1324777c7d6b2a3ed19b6b9cfd9fcdf0de4090a0c31268de",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 2,
+      "readme_sha256": "ff2001ed4d2422a142d4a22e420cd97fb8270a6696abc82c581fbf07de0f3185",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 3,
+      "readme_sha256": "3c512e2a6e162a906e77e2731a59d3885756cc2303170055ccacbbfcde14348b",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 4,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 5,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 6,
+      "readme_sha256": "eee452067802bae44d0f6ea023ece37f006f1170e43544d511f945e5a88e2b82",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "Use claude-code for free in the terminal, VSCode extension or discord like OpenClaw (voice supported)",
+      "full_name": "Alishahryar1/free-claude-code",
+      "project_file": "projects/Alishahryar1__free-claude-code.md",
+      "rank": 7,
+      "readme_sha256": "876d0ff25ac6e37f603a9bd1776841d2c9333bae8c41c4cc804dfbe17f25ca59",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 8,
+      "readme_sha256": "6cc1f6cc9a9ae79c8366610f0b001cf719a925d2e80e718b9f852b2798dd7ec1",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "The open-source managed agents platform. Turn coding agents into real teammates — assign tasks, track progress, compound skills.",
+      "full_name": "multica-ai/multica",
+      "project_file": "projects/multica-ai__multica.md",
+      "rank": 9,
+      "readme_sha256": "22a3cc8533a68e4290dd0bda3fc334c79eb37f0e9a96fe8c5683d41d6ccda909",
+      "url": "https://github.com/multica-ai/multica"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 10,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "full_name": "manaflow-ai/cmux",
+      "project_file": "projects/manaflow-ai__cmux.md",
+      "rank": 11,
+      "readme_sha256": "d498023d3f1e3ab8cc7be0f38a75a3b5e4b20b37543e44f1c966e96d70f367b8",
+      "url": "https://github.com/manaflow-ai/cmux"
+    },
+    {
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "full_name": "666ghj/MiroFish",
+      "project_file": "projects/666ghj__MiroFish.md",
+      "rank": 12,
+      "readme_sha256": "92f8093faa20833b75ea238710e88c7f6b05a6c58d2fc62f36d9de5ca00a48b7",
+      "url": "https://github.com/666ghj/MiroFish"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 13,
+      "readme_sha256": "ef8b9a62d496759f7870424b0c9e72dadebfa7a5427615dcb86b12c6d21cb5f3",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 14,
+      "readme_sha256": "12f59ae3b3424823d9c2de0ff5b87ff8bd3d59c92f4704877d18bbef3cfb8ab7",
+      "url": "https://github.com/dotnet/skills"
+    },
+    {
+      "description": "NVR with realtime local object detection for IP cameras",
+      "full_name": "blakeblackshear/frigate",
+      "project_file": "projects/blakeblackshear__frigate.md",
+      "rank": 15,
+      "readme_sha256": "d7872d9c4ca070331d0008bbb1111d931e119a00a8ed0992fa4393a5de84135b",
+      "url": "https://github.com/blakeblackshear/frigate"
+    },
+    {
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 16,
+      "readme_sha256": "8d6e953896a64a3dbffa9bca876238c4c60c0a109d6b9815d68fb49d2e67e788",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    }
+  ],
+  "snapshot_date": "2026-05-25",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

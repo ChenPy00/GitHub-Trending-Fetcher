@@ -5,7 +5,7 @@
   "full_name": "HKUDS/CLI-Anything",
   "url": "https://github.com/HKUDS/CLI-Anything",
   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-  "readme_sha256": "a924373defca063d2691050ed2e8dada71f354e53ea0bc2e1fdff78ab5d2a456"
+  "readme_sha256": "c28850f9f3f6a26ae856597c7ac0933bc10f4b445070dbf66068643b34433169"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/CLI-Anything
 - Description: "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-- README SHA256: `a924373defca063d2691050ed2e8dada71f354e53ea0bc2e1fdff78ab5d2a456`
+- README SHA256: `c28850f9f3f6a26ae856597c7ac0933bc10f4b445070dbf66068643b34433169`
 
 ## README
 
@@ -188,13 +188,84 @@ CLI is the universal interface for both humans and AI agents:
 
 ## 🚀 Quick Start
 
-### Prerequisites
+CLI-Anything has two equally useful starting points:
+
+| Goal | Start Here |
+|------|------------|
+| **Use the existing CLI ecosystem now** | Install `cli-anything-hub`, browse the registry, and install ready-made CLIs. |
+| **Build a new agent-native CLI** | Install the CLI-Anything plugin/skill for your agent, then run the 7-phase harness generator. |
+
+<details open>
+<summary><strong>Phase 1: Empower yourself — your CLI toolkit</strong></summary>
+
+Install the CLI-Hub package manager first. It lets you browse, search, inspect, install, update, uninstall, and launch CLI-Anything harnesses plus public third-party CLIs from one command.
+
+**PIP**
+
+```bash
+pip install cli-anything-hub
+```
+
+| Command | What it does |
+|---------|--------------|
+| `cli-hub list` | Browse the registry |
+| `cli-hub search <query>` | Search by keyword |
+| `cli-hub info <name>` | Inspect one CLI |
+| `cli-hub install <name>` | Install from CLI-Hub |
+| `cli-hub update <name>` | Update an install |
+| `cli-hub uninstall <name>` | Remove an install |
+| `cli-hub launch <name> [args...]` | Run an installed CLI |
+
+```bash
+# Browse what is available
+cli-hub list
+cli-hub search image
+
+# Install and try a CLI immediately
+cli-hub install gimp
+cli-hub info gimp
+cli-hub launch gimp
+```
+
+> Some CLIs wrap real desktop or backend software. If a selected CLI needs GIMP, Blender, LibreOffice, or another upstream tool, install that upstream application too.
+
+</details>
+
+<details open>
+<summary><strong>Phase 1.5: Empower your agents — install in one command</strong></summary>
+
+Give SKILL-compatible agents the CLI-Hub meta-skill so they can discover and install the right CLI for a task.
+
+**Also available on:** [ClawHub](https://clawhub.ai/yuh-yang/cli-anything-hub), [SkillHub](https://www.skillhub.club/web/skills/itsyuhao-cli-anything-hub), [SkillHub.cn](https://skillhub.cn/skills/cli-hub-meta-skill)
+
+**NPX SKILLS**
+
+```bash
+npx skills add HKUDS/CLI-Anything --skill cli-hub-meta-skill -g -y
+```
+
+**Works with:** OpenClaw, Nanobot, Claude Code, Codex, Antigravity, and other SKILL-compatible agents.
+
+Then prompt:
+
+```text
+Find appropriate CLI software in CLI-Hub and complete the task: ...
+```
+
+</details>
+
+<details open>
+<summary><strong>Phase 3: Build a new CLI when the registry does not have one yet</strong></summary>
+
+Use the CLI-Anything generator when you need a new harness for software, a codebase, or an internal tool that is not already available through CLI-Hub.
+
+**Prerequisites**
 
 - **Python 3.10+**
-- Target software installed (e.g., GIMP, Blender, LibreOffice, or your own application)
+- Target software or source repo available locally or online
 - A supported AI coding agent: [Claude Code](#-claude-code) | [Pi](#-pi-coding-agent) | [OpenClaw](#-openclaw) | [OpenCode](#-opencode) | [Codex](#-codex) | [Qodercli](#-qodercli) | [GitHub Copilot CLI](#-github-copilot-cli) | [More Platforms](#-more-platforms-coming-soon)
 
-### Pick Your Platform
+### Pick Your Agent Platform
 
 <details open>
 <summary><h4 id="-claude-code">⚡ Claude Code</h4></summary>
@@ -563,41 +634,27 @@ cli-anything-gimp
 
 Each in-repo harness now has a canonical [`SKILL.md`](#-skillmd-generation) at `skills/cli-anything-<software>/SKILL.md`, which makes the monorepo directly discoverable via `npx skills add HKUDS/CLI-Anything --list`. Installed harness packages still ship a compatibility copy at `cli_anything/<software>/skills/SKILL.md`, and the REPL banner prefers the repo-root canonical file when present, falling back to the packaged copy otherwise.
 
+</details>
+
 ---
 
 ## 🤖 Empower Your Agents with CLI-Hub
 
-CLI-Hub lets agents autonomously discover and install the CLIs they need — zero human intervention required.
-
-We published a **meta-skill** that lets any AI agent freely explore the full catalog of community CLIs and pick the right one for the task.
-
-**Install in one command:**
+CLI-Hub lets agents autonomously discover, install, and use the CLIs they need.
 
 ```bash
-# OpenClaw
-openclaw skills install cli-anything-hub
-
-# nanobot
-nanobot skills install cli-anything-hub
+npx skills add HKUDS/CLI-Anything --skill cli-hub-meta-skill -g -y
 ```
 
-**Then just prompt your agent:**
+**Also available on:** [ClawHub](https://clawhub.ai/yuh-yang/cli-anything-hub), [SkillHub](https://www.skillhub.club/web/skills/itsyuhao-cli-anything-hub), [SkillHub.cn](https://skillhub.cn/skills/cli-hub-meta-skill)
 
+Then prompt:
+
+```text
+Find appropriate CLI software in CLI-Hub and complete the task: ...
 ```
-Find appropriate CLI software in CLI-Hub and complete the task: <your task here>
-```
 
-The agent will browse the catalog, install whichever CLI fits the task, and use it — all autonomously.
-
-**How it works under the hood:**
-
-1. The meta-skill points to the live catalog at [`https://reeceyang.sgp1.cdn.digitaloceanspaces.com/SKILL.md`](https://reeceyang.sgp1.cdn.digitaloceanspaces.com/SKILL.md)
-2. The agent reads 20+ CLIs organized by category with one-line `pip install` commands
-3. The agent installs whichever CLI fits the task, then reads that CLI's own SKILL.md for detailed usage
-
-The catalog auto-updates whenever `registry.json` changes — new community CLIs show up automatically.
-
-> **For Claude Code users:** Copy [`skills/cli-hub-meta-skill/SKILL.md`](skills/cli-hub-meta-skill/SKILL.md) into your project or skills directory for the same automatic CLI discovery.
+The meta-skill points agents to the live CLI-Hub catalog, where they can choose a CLI, install it, and read its own `SKILL.md` for task-specific usage.
 
 ---
 
@@ -1379,6 +1436,24 @@ The playbook distills key insights from successfully building all 18 diverse, pr
 ---
 
 ## 📦 Installation & Usage
+
+### For CLI-Hub Users
+
+```bash
+# Install the package manager
+pip install cli-anything-hub
+
+# Browse, search, inspect, and install CLIs
+cli-hub list
+cli-hub search <query>
+cli-hub info <name>
+cli-hub install <name>
+
+# Manage installed CLIs
+cli-hub update <name>
+cli-hub uninstall <name>
+cli-hub launch <name> [args...]
+```
 
 ### For Plugin Users (Claude Code)
 

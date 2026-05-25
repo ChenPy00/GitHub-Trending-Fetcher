@@ -1,0 +1,145 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 1,
+      "readme_sha256": "6cc1f6cc9a9ae79c8366610f0b001cf719a925d2e80e718b9f852b2798dd7ec1",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 2,
+      "readme_sha256": "eccce200d78f7f4eb2201a55d0e26831e6980f6d3069cbb6aa20511ab687a613",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 3,
+      "readme_sha256": "b94f65ce6749eb1a2e7e2c9065a7ea072d5a706e4e2b24c93c05bd9be2f7f24e",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "ff2001ed4d2422a142d4a22e420cd97fb8270a6696abc82c581fbf07de0f3185",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 5,
+      "readme_sha256": "0b8c68e63625fe7c10fcfd8a20acffb58097b6c78d7b94a2a79ca7f516147652",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 6,
+      "readme_sha256": "9ce73195da3eb28c04010d0e67d422ec4e988bcbb1c61978d77a4fc100224be4",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 7,
+      "readme_sha256": "7d28fd916ee2d66f1324777c7d6b2a3ed19b6b9cfd9fcdf0de4090a0c31268de",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "full_name": "CloakHQ/CloakBrowser",
+      "project_file": "projects/CloakHQ__CloakBrowser.md",
+      "rank": 8,
+      "readme_sha256": "b7d87f5f733836c28a872c5a57f51e417d2336e4c32a01f1e1ba51cecc3a522f",
+      "url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "full_name": "supertone-inc/supertonic",
+      "project_file": "projects/supertone-inc__supertonic.md",
+      "rank": 9,
+      "readme_sha256": "215e611d39dc4bb9bd370b3a4878de2da984d5971fcea22de21094fcce89971a",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 10,
+      "readme_sha256": "4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "full_name": "datawhalechina/easy-vibe",
+      "project_file": "projects/datawhalechina__easy-vibe.md",
+      "rank": 11,
+      "readme_sha256": "ae1ff3ac50caf6d75adc6a26ae5b328479a368ca6093775aa13921777f8b5b23",
+      "url": "https://github.com/datawhalechina/easy-vibe"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 12,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "A set of ready to use Agent Skills for research, science, engineering, analysis, finance and writing.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 13,
+      "readme_sha256": "b2c7179ec7b368aa1c45f93d92c34489b0df133b3f29ad33153fdba4486be2ab",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "Orca is the next-gen IDE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 14,
+      "readme_sha256": "827ee63c73e8b93040d42866acd401fa91a72f9d56e4a03a0f9dafb18fda9307",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 15,
+      "readme_sha256": "c28850f9f3f6a26ae856597c7ac0933bc10f4b445070dbf66068643b34433169",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "Let's use AI to Earn!",
+      "full_name": "yikart/AiToEarn",
+      "project_file": "projects/yikart__AiToEarn.md",
+      "rank": 16,
+      "readme_sha256": "a69bbcc34018c1f6e096e35704f8063971a32aacb152268f1959cbc0f01c0fae",
+      "url": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 17,
+      "readme_sha256": "6966a7c2f6d7595c9a9ac6b1df43b816a13608fd24caf038050565424c1c2931",
+      "url": "https://github.com/cursor/plugins"
+    }
+  ],
+  "snapshot_date": "2026-05-25",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
