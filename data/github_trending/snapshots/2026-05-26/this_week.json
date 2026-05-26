@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 1,
+      "readme_sha256": "e107a37814851bcd3ad64b10c6ba10b42d6c1fadac840e7de6b3d0abc41939a6",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 2,
+      "readme_sha256": "f5e8a652d0ee130c7a22238f8afad9ae514da5eb1aa6debed693c5218181158f",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 3,
+      "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 4,
+      "readme_sha256": "2596e47b03c13a3439b3830f438b8eaea6a591e22c7864222e6f0ce9a8942d6a",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 5,
+      "readme_sha256": "d58539aa6c2d801d325f89019ffc7a52bbe731576a1c98f581225ae9fe47ec18",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 6,
+      "readme_sha256": "f43823bd3348b2709d24c24c40353cf7f3dfe445da18aaa30a043d47fcb8a81b",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 7,
+      "readme_sha256": "222b3fce82d22c3828a619952292697fc32c221e4d6a386044c08948e0ce052c",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "full_name": "CloakHQ/CloakBrowser",
+      "project_file": "projects/CloakHQ__CloakBrowser.md",
+      "rank": 8,
+      "readme_sha256": "b7d87f5f733836c28a872c5a57f51e417d2336e4c32a01f1e1ba51cecc3a522f",
+      "url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "full_name": "supertone-inc/supertonic",
+      "project_file": "projects/supertone-inc__supertonic.md",
+      "rank": 9,
+      "readme_sha256": "215e611d39dc4bb9bd370b3a4878de2da984d5971fcea22de21094fcce89971a",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 10,
+      "readme_sha256": "4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. Self-hosted, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
+      "full_name": "dograh-hq/dograh",
+      "project_file": "projects/dograh-hq__dograh.md",
+      "rank": 11,
+      "readme_sha256": "3b398ce64cbe85c7f3c39f7167b7c50bf705d50fd73e85e119f2b36da77b90ed",
+      "url": "https://github.com/dograh-hq/dograh"
+    },
+    {
+      "description": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "full_name": "presenton/presenton",
+      "project_file": "projects/presenton__presenton.md",
+      "rank": 12,
+      "readme_sha256": "dc38c9ca0e54c6b5239b82bd5273d731e5428b9e292db647f11bebd218d25e00",
+      "url": "https://github.com/presenton/presenton"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 13,
+      "readme_sha256": "c28850f9f3f6a26ae856597c7ac0933bc10f4b445070dbf66068643b34433169",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 14,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站 使用，支持 docker 私有化部署和 Cloudflare 部署。 支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。",
+      "full_name": "wechat-article/wechat-article-exporter",
+      "project_file": "projects/wechat-article__wechat-article-exporter.md",
+      "rank": 15,
+      "readme_sha256": "a0d8b93baf39c9d523b8c6109d2d1e4edb0b20e674f639cbbe2091eb5e75003f",
+      "url": "https://github.com/wechat-article/wechat-article-exporter"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 16,
+      "readme_sha256": "0e948e2a2d5259e916f23add61a73cab08684bcff908323246ae694716ceb01d",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Workspace-first multi-agent coordination platform for AI development, with shared Specs, Kanban orchestration, and MCP/ACP/ A2A support across web and desktop.",
+      "full_name": "phodal/routa",
+      "project_file": "projects/phodal__routa.md",
+      "rank": 17,
+      "readme_sha256": "e76ca3e35983f93dde63176a85b7c953049edb2a522efecae3c35aabdd0e95db",
+      "url": "https://github.com/phodal/routa"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 18,
+      "readme_sha256": "408b90a7a6d62cb3067421cfb77cf33a1dd343bae263cd2e7293343ed9f901db",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    }
+  ],
+  "snapshot_date": "2026-05-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

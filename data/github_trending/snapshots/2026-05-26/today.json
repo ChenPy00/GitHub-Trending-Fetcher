@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 1,
+      "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 2,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 3,
+      "readme_sha256": "d58539aa6c2d801d325f89019ffc7a52bbe731576a1c98f581225ae9fe47ec18",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 4,
+      "readme_sha256": "02938990745b6ebf2e4411cdb67736359325b941957ece088a90c961183a3722",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 5,
+      "readme_sha256": "8d6e953896a64a3dbffa9bca876238c4c60c0a109d6b9815d68fb49d2e67e788",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 6,
+      "readme_sha256": "e107a37814851bcd3ad64b10c6ba10b42d6c1fadac840e7de6b3d0abc41939a6",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents",
+      "full_name": "manaflow-ai/cmux",
+      "project_file": "projects/manaflow-ai__cmux.md",
+      "rank": 7,
+      "readme_sha256": "d498023d3f1e3ab8cc7be0f38a75a3b5e4b20b37543e44f1c966e96d70f367b8",
+      "url": "https://github.com/manaflow-ai/cmux"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 8,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "FinceptTerminal is a modern finance application offering advanced market analytics, investment research, and economic data tools, designed for interactive exploration and data-driven decision-making in a user-friendly environment.",
+      "full_name": "Fincept-Corporation/FinceptTerminal",
+      "project_file": "projects/Fincept-Corporation__FinceptTerminal.md",
+      "rank": 9,
+      "readme_sha256": "b93f8167a2d67dbfaa9edafb5146387d120f58d2114f7c8df26b8355a695b194",
+      "url": "https://github.com/Fincept-Corporation/FinceptTerminal"
+    },
+    {
+      "description": "A community-supported supercharged document management system: scan, index and archive all your documents",
+      "full_name": "paperless-ngx/paperless-ngx",
+      "project_file": "projects/paperless-ngx__paperless-ngx.md",
+      "rank": 10,
+      "readme_sha256": "c53f8a4f9a6ceb243992ec10113d3c68307736ad9892351593da0bd6ae77479b",
+      "url": "https://github.com/paperless-ngx/paperless-ngx"
+    },
+    {
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "full_name": "anthropics/claude-cookbooks",
+      "project_file": "projects/anthropics__claude-cookbooks.md",
+      "rank": 11,
+      "readme_sha256": "4ffad49fa541a076841699ebdc2501124a73a8fa4fbf3164d678e65bfffc2a7a",
+      "url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 12,
+      "readme_sha256": "fc792013f65a283906cf56956bb74076d7867914620ad0c288f7dab583a20677",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "full_name": "moeru-ai/airi",
+      "project_file": "projects/moeru-ai__airi.md",
+      "rank": 13,
+      "readme_sha256": "40fbc3637a571a8b0881d9bcb8e10954b7a38edbc5c98d38640df4673a4c88a5",
+      "url": "https://github.com/moeru-ai/airi"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 14,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Curated list of the best free apps for PC and mobile",
+      "full_name": "Axorax/awesome-free-apps",
+      "project_file": "projects/Axorax__awesome-free-apps.md",
+      "rank": 15,
+      "readme_sha256": "ecedd827603d3afcb9b299261835293376390d5281ac458aa5ca5810ac0b5c6b",
+      "url": "https://github.com/Axorax/awesome-free-apps"
+    },
+    {
+      "description": "A skill file for removing AI tells from prose",
+      "full_name": "hardikpandya/stop-slop",
+      "project_file": "projects/hardikpandya__stop-slop.md",
+      "rank": 16,
+      "readme_sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+      "url": "https://github.com/hardikpandya/stop-slop"
+    },
+    {
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "full_name": "garrytan/gstack",
+      "project_file": "projects/garrytan__gstack.md",
+      "rank": 17,
+      "readme_sha256": "a2feb5827ec201865756f7fc37d6aea4558a7f96ac8a1b4038ba614cf55afb39",
+      "url": "https://github.com/garrytan/gstack"
+    }
+  ],
+  "snapshot_date": "2026-05-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

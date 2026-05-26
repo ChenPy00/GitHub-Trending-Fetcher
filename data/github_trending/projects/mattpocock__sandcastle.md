@@ -5,7 +5,7 @@
   "full_name": "mattpocock/sandcastle",
   "url": "https://github.com/mattpocock/sandcastle",
   "description": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
-  "readme_sha256": "0e56b5a179aa50a757e0a0666864a867500ef7ae6fd8a02089c42c32015ff9e6"
+  "readme_sha256": "f70c55090bc1cb1845bbd0e6f72eeba9808b52863ddfbf2a38e86815be2dd169"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mattpocock/sandcastle
 - Description: Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
-- README SHA256: `0e56b5a179aa50a757e0a0666864a867500ef7ae6fd8a02089c42c32015ff9e6`
+- README SHA256: `f70c55090bc1cb1845bbd0e6f72eeba9808b52863ddfbf2a38e86815be2dd169`
 
 ## README
 
@@ -649,6 +649,26 @@ console.log(result.output.score); // typed as number
 ```
 
 `Output.string({ tag })` extracts the tag contents as a plain string (trimmed, no JSON parsing). Both helpers require `maxIterations` to be `1` (the default). The resolved prompt must contain the configured opening tag literal.
+
+When extraction or validation fails, `run()` throws a `StructuredOutputError`. Alongside `tag`, `rawMatched`, `cause`, `commits`, `branch`, and `preservedWorktreePath`, the error carries the `sessionId` (and `sessionFilePath`, when the session was captured) of the run that produced the bad output. You can resume that session to ask the agent to re-emit corrected output, without repeating the work:
+
+```ts
+import { run, Output, StructuredOutputError } from "@ai-hero/sandcastle";
+
+try {
+  return await run({ ...opts, output });
+} catch (e) {
+  if (e instanceof StructuredOutputError && e.sessionId) {
+    return await run({
+      ...opts,
+      output,
+      resumeSession: e.sessionId,
+      prompt: `Your previous output failed: ${e.message}. Re-emit it inside <${e.tag}> tags.`,
+    });
+  }
+  throw e;
+}
+```
 
 ### Templates
 

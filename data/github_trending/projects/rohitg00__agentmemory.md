@@ -5,7 +5,7 @@
   "full_name": "rohitg00/agentmemory",
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-  "readme_sha256": "9ce73195da3eb28c04010d0e67d422ec4e988bcbb1c61978d77a4fc100224be4"
+  "readme_sha256": "222b3fce82d22c3828a619952292697fc32c221e4d6a386044c08948e0ce052c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rohitg00/agentmemory
 - Description: #1 Persistent memory for AI coding agents based on real-world benchmarks
-- README SHA256: `9ce73195da3eb28c04010d0e67d422ec4e988bcbb1c61978d77a4fc100224be4`
+- README SHA256: `222b3fce82d22c3828a619952292697fc32c221e4d6a386044c08948e0ce052c`
 
 ## README
 
@@ -264,6 +264,8 @@ npx @agentmemory/agentmemory
 > Embedding model: `all-MiniLM-L6-v2` (local, free, no API key). Full reports: [`benchmark/LONGMEMEVAL.md`](benchmark/LONGMEMEVAL.md), [`benchmark/QUALITY.md`](benchmark/QUALITY.md), [`benchmark/SCALE.md`](benchmark/SCALE.md). Competitor comparison: [`benchmark/COMPARISON.md`](benchmark/COMPARISON.md) — agentmemory vs mem0, Letta, Khoj, claude-mem, Hippo.
 
 **Reproduce locally:** [`eval/README.md`](eval/README.md) — adapter-pluggable harness for LongMemEval `_s` (public 500-Q) + `coding-agent-life-v1` (in-house 15-session corpus). Grep / vector / agentmemory adapters score side-by-side, NDJSON output, published scorecards land in [`docs/benchmarks/`](docs/benchmarks/).
+
+**Pairs with [codegraph](https://github.com/colbymchenry/codegraph), [Understand Anything](https://github.com/Lum1104/Understand-Anything), and [Graphify](https://github.com/safishamsi/graphify).** Code-graph indexing, multi-agent build pipelines, and broader knowledge graphs across docs / PDFs / images / videos. agentmemory remembers the work; those three projects light up the rest of the context layer. Recipes + question-routing table: [`docs/recipes/pairings.md`](docs/recipes/pairings.md).
 
 ---
 
@@ -557,6 +559,9 @@ The agentmemory entry is the **same MCP server block** across every host that us
 | **OpenCode (full plugin)** | `plugin/opencode/` | 22 auto-capture hooks covering session lifecycle, messages, tools, errors. Two slash commands (`/recall`, `/remember`). Copy `plugin/opencode/` into your OpenCode workspace and add the plugin entry to `opencode.json`. See [`plugin/opencode/README.md`](plugin/opencode/README.md) for the full hook table + gap analysis. |
 | **pi** | `~/.pi/agent/extensions/agentmemory` | Copy [`integrations/pi`](integrations/pi/) and restart pi. |
 | **Hermes Agent** | `~/.hermes/config.yaml` | Use the deeper [memory provider plugin](integrations/hermes/) with `memory.provider: agentmemory`. |
+| **Qwen Code** | `~/.qwen/settings.json` | `agentmemory connect qwen` writes the standard `mcpServers` block. Hook payload is field-compatible with Claude Code, so the existing 12-hook scripts work without modification — wire them via the `hooks` section in the same `settings.json`. |
+| **Antigravity** (replaces Gemini CLI) | `mcp_config.json` (in Antigravity's User dir) | `agentmemory connect antigravity` writes the standard `mcpServers` block. macOS: `~/Library/Application Support/Antigravity/User/`. Linux: `~/.config/Antigravity/User/`. Use after the 2026-06-18 Gemini CLI sunset. |
+| **Kiro** | `~/.kiro/settings/mcp.json` | `agentmemory connect kiro` writes the user-level config. Workspace overrides go in `.kiro/settings/mcp.json` next to your code. |
 | **Goose** | Goose MCP settings UI | Same `mcpServers` block. |
 | **Aider** | n/a | Talk to the REST API directly: `curl -X POST http://localhost:3111/agentmemory/smart-search -d '{"query": "auth"}'`. |
 | **Any agent (32+)** | n/a | `npx skillkit install agentmemory` auto-detects the host and merges. |
@@ -1105,6 +1110,32 @@ agentmemory auto-detects from your environment. By default, no LLM calls are mad
 | Gemini | `GEMINI_API_KEY` | Also enables embeddings |
 | OpenRouter | `OPENROUTER_API_KEY` | Any model |
 | Claude subscription fallback | `AGENTMEMORY_ALLOW_AGENT_SDK=true` | Opt-in only. Spawns `@anthropic-ai/claude-agent-sdk` sessions — used to cause unbounded Stop-hook recursion (#149 follow-up) so it is no longer the default. |
+
+### Ports
+
+agentmemory + iii-engine bind four ports by default. If a restart fails with `port in use`, this table tells you which process to look for.
+
+| Port | Process | Purpose | Env override |
+|------|---------|---------|--------------|
+| `3111` | agentmemory | REST API + MCP HTTP + `/agentmemory/health` + `/agentmemory/livez` | `III_REST_PORT` |
+| `3112` | iii-engine | Internal streams worker (consumed by agentmemory + viewer) | `III_STREAMS_PORT` |
+| `3113` | agentmemory | Real-time viewer (`http://localhost:3113`) | `AGENTMEMORY_VIEWER_PORT` |
+| `49134` | iii-engine | WebSocket — workers register here, OTel telemetry flows over it | `III_ENGINE_URL` (full URL, default `ws://localhost:49134`) |
+
+Stale-process cleanup when ports stay bound after a crashed run:
+
+```bash
+# macOS / Linux — find whatever is on each port and kill it
+lsof -i :3111,3112,3113,49134
+pkill -f agentmemory || true
+pkill -f 'iii ' || true
+
+# Windows
+netstat -ano | findstr ":3111 :3112 :3113 :49134"
+taskkill /F /PID <pid>
+```
+
+`agentmemory stop` reaps both the worker and the engine pidfile cleanly on graceful shutdown (#640, #474). The manual cleanup above is only for the post-crash case where neither pidfile is left behind.
 
 ### Config File
 

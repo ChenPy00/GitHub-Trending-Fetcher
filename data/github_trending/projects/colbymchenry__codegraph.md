@@ -5,7 +5,7 @@
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
   "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "6cc1f6cc9a9ae79c8366610f0b001cf719a925d2e80e718b9f852b2798dd7ec1"
+  "readme_sha256": "e107a37814851bcd3ad64b10c6ba10b42d6c1fadac840e7de6b3d0abc41939a6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/colbymchenry/codegraph
 - Description: Pre-indexed code knowledge graph for Claude Code, Codex, Cursor, OpenCode, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `6cc1f6cc9a9ae79c8366610f0b001cf719a925d2e80e718b9f852b2798dd7ec1`
+- README SHA256: `e107a37814851bcd3ad64b10c6ba10b42d6c1fadac840e7de6b3d0abc41939a6`
 
 ## README
 
@@ -154,7 +154,7 @@ The gains scale with codebase size: on large repos the agent answers from the in
 | **Full-Text Search** | Find code by name instantly across your entire codebase, powered by FTS5 |
 | **Impact Analysis** | Trace callers, callees, and the full impact radius of any symbol before making changes |
 | **Always Fresh** | File watcher uses native OS events (FSEvents/inotify/ReadDirectoryChangesW) with debounced auto-sync — the graph stays current as you code, zero config |
-| **19+ Languages** | TypeScript, JavaScript, Python, Go, Rust, Java, C#, PHP, Ruby, C, C++, Swift, Kotlin, Dart, Lua, Luau, Svelte, Liquid, Pascal/Delphi |
+| **20+ Languages** | TypeScript, JavaScript, Python, Go, Rust, Java, C#, PHP, Ruby, C, C++, Objective-C, Swift, Kotlin, Dart, Lua, Luau, Svelte, Liquid, Pascal/Delphi |
 | **Framework-aware Routes** | Recognizes web-framework routing files and links URL patterns to their handlers across 14 frameworks |
 | **100% Local** | No data leaves your machine. No API keys. No external services. SQLite database only |
 
@@ -440,23 +440,25 @@ cg.close();
 
 ## Configuration
 
-There isn't any — CodeGraph is zero-config. It indexes every file whose
-extension maps to a [supported language](#supported-languages) and **respects
-your `.gitignore`**: in git repos via git itself, and in non-git projects by
-reading `.gitignore` files directly (root and nested, the same way git would).
+There isn't any — CodeGraph is zero-config, with **no config file** to write or
+keep in sync. Language support is automatic from the file extension; there's
+nothing to wire up per language.
 
-What that means in practice:
+What it skips out of the box:
 
-- Anything git ignores — `node_modules`, build output, secrets in `.env` — is
-  never indexed. **To keep something out of the graph, add it to `.gitignore`.**
-- There's no config file to write or keep in sync, and nothing to wire up per
-  language: support is automatic from the file extension.
-- Files larger than 1 MB are skipped (generated bundles, minified JS, vendored
-  blobs) — they cost parse budget for no useful symbols.
+- **Dependency, build, and cache directories** — `node_modules`, `vendor`,
+  `dist`, `build`, `target`, `.venv`, `Pods`, `.next`, and the like across every
+  [supported stack](#supported-languages) — so the graph is your code, not
+  third-party noise. This holds even with no `.gitignore`.
+- **Anything in your `.gitignore`** — honored in git repos via git, and in
+  non-git projects by reading `.gitignore` directly (root and nested).
+- **Files larger than 1 MB** — generated bundles, minified JS, vendored blobs.
 
-> Committed files that aren't gitignored *are* indexed, even under `vendor/` or a
-> committed `dist/`. If you commit a dependency or build directory you don't want
-> in the graph, add it to `.gitignore`.
+To keep something else out, add it to `.gitignore`. To pull a default-excluded
+directory back **in** (say you really do want a vendored dependency indexed),
+add a negation — `!vendor/`. The defaults apply uniformly, so committing a
+dependency or build directory doesn't force it into the graph; the `.gitignore`
+negation is the explicit opt-in.
 
 ## Supported Platforms
 
@@ -497,6 +499,7 @@ the MCP server and writing its instructions file:
 | Ruby | `.rb` | Full support |
 | C | `.c`, `.h` | Full support |
 | C++ | `.cpp`, `.hpp`, `.cc` | Full support |
+| Objective-C | `.m`, `.mm`, `.h` | Partial support (classes, protocols, methods, `@property`, `#import`, message sends; `.mm` ObjC++ may parse incompletely) |
 | Swift | `.swift` | Full support |
 | Kotlin | `.kt`, `.kts` | Full support |
 | Scala | `.scala`, `.sc` | Full support (classes, traits, methods, type aliases, Scala 3 enums) |
@@ -521,7 +524,7 @@ the MCP server and writing its instructions file:
 
 **MCP server not connecting** — Ensure the project is initialized/indexed, verify the path in your MCP config, and check that `codegraph serve --mcp` works from the command line.
 
-**Missing symbols** — The MCP server auto-syncs on save (wait a couple seconds). Run `codegraph sync` manually if needed. Check that the file's language is supported and isn't excluded by config patterns.
+**Missing symbols** — The MCP server auto-syncs on save (wait a couple seconds). Run `codegraph sync` manually if needed. Check that the file's language is supported and isn't inside a `.gitignore`d or default-excluded directory (e.g. `node_modules`, `dist`).
 
 ## Star History
 

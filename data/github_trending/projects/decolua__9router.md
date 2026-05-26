@@ -5,7 +5,7 @@
   "full_name": "decolua/9router",
   "url": "https://github.com/decolua/9router",
   "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-  "readme_sha256": "bd85028df30b0e6e58f5b5da67d4a0663bab1c647d4c9fb94aa5065f9ad537a9"
+  "readme_sha256": "1f1511d29345c428ebbd7a2b83f3f8ad6af4447eff9a3fbcdae26e5385c03e10"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/decolua/9router
 - Description: Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.
-- README SHA256: `bd85028df30b0e6e58f5b5da67d4a0663bab1c647d4c9fb94aa5065f9ad537a9`
+- README SHA256: `1f1511d29345c428ebbd7a2b83f3f8ad6af4447eff9a3fbcdae26e5385c03e10`
 
 ## README
 
@@ -1318,7 +1318,7 @@ Thanks to all contributors who helped make 9Router better!
 
 Built on the shoulders of giants:
 
-- **CLIProxyAPI(https://github.com/router-for-me/CLIProxyAPI)** — original Go implementation that inspired this JavaScript port.
+- **[CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI)** — original Go implementation that inspired this JavaScript port.
 - **[RTK](https://github.com/rtk-ai/rtk)** ![Stars](https://img.shields.io/github/stars/rtk-ai/rtk?style=flat&color=yellow) — Rust token-saver. 9Router ports its compression pipeline to JS → **−20-40% input tokens** on every request.
 - **[Caveman](https://github.com/JuliusBrussee/caveman)** ![Stars](https://img.shields.io/github/stars/JuliusBrussee/caveman?style=flat&color=yellow) by **[@JuliusBrussee](https://github.com/JuliusBrussee)** — viral *"why use many token when few token do trick"*. 9Router adapts its prompt → **−65% output tokens**.
 
