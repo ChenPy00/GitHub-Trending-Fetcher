@@ -5,7 +5,7 @@
   "full_name": "dotnet/skills",
   "url": "https://github.com/dotnet/skills",
   "description": "Repository for skills to assist AI coding agents with .NET and C#",
-  "readme_sha256": "12f59ae3b3424823d9c2de0ff5b87ff8bd3d59c92f4704877d18bbef3cfb8ab7"
+  "readme_sha256": "5a20e1c183bf2e4420ee09058818e4cfb842d8e40bf1093d2bfad767a9fc20de"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/dotnet/skills
 - Description: Repository for skills to assist AI coding agents with .NET and C#
-- README SHA256: `12f59ae3b3424823d9c2de0ff5b87ff8bd3d59c92f4704877d18bbef3cfb8ab7`
+- README SHA256: `5a20e1c183bf2e4420ee09058818e4cfb842d8e40bf1093d2bfad767a9fc20de`
 
 ## README
 
@@ -40,6 +40,7 @@ This repository contains the .NET team's curated set of core skills and custom a
 | [dotnet-template-engine](plugins/dotnet-template-engine/) | .NET Template Engine skills: template discovery, project scaffolding, and template authoring. |
 | [dotnet-test](plugins/dotnet-test/) | Skills for running, diagnosing, and migrating .NET tests: test execution, filtering, platform detection, and MSTest workflows. |
 | [dotnet-aspnet](plugins/dotnet-aspnet/) | ASP.NET Core web development skills including middleware, endpoints, real-time communication, and API patterns. |
+| [dotnet-blazor](plugins/dotnet-blazor/) | Skills for Blazor development: component authoring, interactivity, and web application patterns. |
 | [dotnet11](plugins/dotnet11/) | Skills for new .NET 11 APIs and language features. |
 
 ## Installation

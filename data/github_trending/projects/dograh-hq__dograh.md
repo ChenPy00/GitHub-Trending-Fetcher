@@ -4,7 +4,7 @@
   "name": "dograh",
   "full_name": "dograh-hq/dograh",
   "url": "https://github.com/dograh-hq/dograh",
-  "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. Self-hosted, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
+  "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
   "readme_sha256": "3b398ce64cbe85c7f3c39f7167b7c50bf705d50fd73e85e119f2b36da77b90ed"
 }
 ```
@@ -12,7 +12,7 @@
 # dograh-hq/dograh
 
 - URL: https://github.com/dograh-hq/dograh
-- Description: Open source voice AI platform. Self-hosted alternative to Vapi and Retell. Self-hosted, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.
+- Description: Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.
 - README SHA256: `3b398ce64cbe85c7f3c39f7167b7c50bf705d50fd73e85e119f2b36da77b90ed`
 
 ## README

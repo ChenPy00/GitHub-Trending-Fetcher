@@ -5,7 +5,7 @@
   "full_name": "Leonxlnx/taste-skill",
   "url": "https://github.com/Leonxlnx/taste-skill",
   "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-  "readme_sha256": "fc792013f65a283906cf56956bb74076d7867914620ad0c288f7dab583a20677"
+  "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Leonxlnx/taste-skill
 - Description: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
-- README SHA256: `fc792013f65a283906cf56956bb74076d7867914620ad0c288f7dab583a20677`
+- README SHA256: `db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f`
 
 ## README
 
@@ -77,6 +77,24 @@ npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-fro
 ```
 
 You can also copy any `SKILL.md` into your project or paste it into ChatGPT / Codex conversations.
+
+### Updating from the previous version
+
+The default `taste-skill` (install name `design-taste-frontend`) is now **v2 (experimental)**, a substantial rewrite of the original v1. If you already have v1 installed, just re-run the install command and you will be upgraded:
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend"
+```
+
+The install name did not change, so no script updates are needed. The newer SKILL.md replaces the older one in place.
+
+If you depend on the exact behavior of v1 and want to pin to it explicitly:
+
+```bash
+npx skills add https://github.com/Leonxlnx/taste-skill --skill "design-taste-frontend-v1"
+```
+
+See [CHANGELOG.md](CHANGELOG.md) for the full v1 to v2 diff and the rationale.
 
 ## Skills
 

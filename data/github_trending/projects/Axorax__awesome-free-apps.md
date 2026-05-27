@@ -5,7 +5,7 @@
   "full_name": "Axorax/awesome-free-apps",
   "url": "https://github.com/Axorax/awesome-free-apps",
   "description": "Curated list of the best free apps for PC and mobile",
-  "readme_sha256": "ecedd827603d3afcb9b299261835293376390d5281ac458aa5ca5810ac0b5c6b"
+  "readme_sha256": "de0a191ed568e732de2bbe7038d20bb1d9fc4cfd5c2afb5282866d9c8aeae98d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Axorax/awesome-free-apps
 - Description: Curated list of the best free apps for PC and mobile
-- README SHA256: `ecedd827603d3afcb9b299261835293376390d5281ac458aa5ca5810ac0b5c6b`
+- README SHA256: `de0a191ed568e732de2bbe7038d20bb1d9fc4cfd5c2afb5282866d9c8aeae98d`
 
 ## README
 
@@ -40,7 +40,7 @@
 
 ## Contents
 
-<!-- AF-TOC : Thursday, March 26, 2026 at 06:32:49 PM UTC -->
+<!-- AF-TOC : Tuesday, May 26, 2026 at 07:53:21 AM UTC -->
 
 - [Audio](#audio)
   - [Audio Players](#audio-players)
@@ -302,6 +302,7 @@
 - [DBeaver](https://dbeaver.io) - Universal database tool for SQL databases like MySQL, MariaDB, PostgreSQL, SQLite, Apache Family, and more. 🪟 🍎 🐧 ⭐
 - [Beekeeper Studio](https://beekeeperstudio.io) - Modern, lightweight SQL client supporting MySQL, Postgres, SQLite, SQL Server, etc. 🪟 🍎 🐧
 - [DB Browser for SQLite](https://sqlitebrowser.org) - Visual tool for creating, browsing, and editing SQLite database files. 🪟 🍎 🐧 [🟢](https://github.com/sqlitebrowser/sqlitebrowser)
+- [DearSQL](https://dearsql.dev) - Lightweight native database client built with Dear ImGui, supporting SQL and NoSQL databases. 🪟 🍎 🐧 [🟢](https://github.com/dunkbing/dearsql)
 
 ### Network Analysis
 
@@ -413,6 +414,7 @@
 - [Simplenote](https://simplenote.com) - Minimalist note-taking app that syncs across devices. 🪟 🍎 🐧 [🟢](https://github.com/Automattic/simplenote-electron)
 - [qnote](https://github.com/Omibranch/qnote) - Minimal frameless notepad with Markdown preview, real PDF export via Typst, OCR via Tesseract, and automatic version history. 🐧 [🟢](https://github.com/Omibranch/qnote)
 - [fylepad](https://fylepad.vercel.app) - Lightweight notepad with powerful rich-text editing. 🪟 🍎 🐧 [🟢](https://github.com/imrofayel/fylepad)
+- [plumio](https://plumio.app) - Privacy-first, open-source, self-hostable notes-taking app. 🪟 🍎 🐧 [🟢](https://github.com/albertasaftei/plumio)
 
 ## Text Editors
 

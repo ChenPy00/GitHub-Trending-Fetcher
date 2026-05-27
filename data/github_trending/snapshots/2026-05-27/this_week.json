@@ -1,0 +1,161 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 1,
+      "readme_sha256": "9e2b1265d5bae7c5996d23144b7ab34d4c2ec881af0e755e12202de42279d421",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 2,
+      "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 3,
+      "readme_sha256": "d58539aa6c2d801d325f89019ffc7a52bbe731576a1c98f581225ae9fe47ec18",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 4,
+      "readme_sha256": "f5e8a652d0ee130c7a22238f8afad9ae514da5eb1aa6debed693c5218181158f",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 5,
+      "readme_sha256": "2596e47b03c13a3439b3830f438b8eaea6a591e22c7864222e6f0ce9a8942d6a",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 6,
+      "readme_sha256": "f43823bd3348b2709d24c24c40353cf7f3dfe445da18aaa30a043d47fcb8a81b",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "full_name": "HKUDS/ViMax",
+      "project_file": "projects/HKUDS__ViMax.md",
+      "rank": 7,
+      "readme_sha256": "edb4f839b1123c3be08084e909b6bff5c6184938a865e6f0debbbca6c3f4d188",
+      "url": "https://github.com/HKUDS/ViMax"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 8,
+      "readme_sha256": "7fb6b2b9b8b3e99b5b68739c902365ba440b55f29294c214a7a5eee7a1c13205",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 9,
+      "readme_sha256": "4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "SANA: Efficient High-Resolution Image Synthesis with Linear Diffusion Transformer",
+      "full_name": "NVlabs/Sana",
+      "project_file": "projects/NVlabs__Sana.md",
+      "rank": 10,
+      "readme_sha256": "4ea4ebb11c632be18916ddd07c9f906cb01c4856ce653a6085bd2cca0589c586",
+      "url": "https://github.com/NVlabs/Sana"
+    },
+    {
+      "description": "Open-Source AI Presentation Generator and API (Gamma, Beautiful AI, Decktopus Alternative)",
+      "full_name": "presenton/presenton",
+      "project_file": "projects/presenton__presenton.md",
+      "rank": 11,
+      "readme_sha256": "dc38c9ca0e54c6b5239b82bd5273d731e5428b9e292db647f11bebd218d25e00",
+      "url": "https://github.com/presenton/presenton"
+    },
+    {
+      "description": "What are the principles we can use to build LLM-powered software that is actually good enough to put in the hands of production customers?",
+      "full_name": "humanlayer/12-factor-agents",
+      "project_file": "projects/humanlayer__12-factor-agents.md",
+      "rank": 12,
+      "readme_sha256": "898b8879be9279c5c90e302e58232ac4f4f4ab051efe69cff30738b2efbac3c7",
+      "url": "https://github.com/humanlayer/12-factor-agents"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 13,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
+      "full_name": "supertone-inc/supertonic",
+      "project_file": "projects/supertone-inc__supertonic.md",
+      "rank": 14,
+      "readme_sha256": "215e611d39dc4bb9bd370b3a4878de2da984d5971fcea22de21094fcce89971a",
+      "url": "https://github.com/supertone-inc/supertonic"
+    },
+    {
+      "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
+      "full_name": "dograh-hq/dograh",
+      "project_file": "projects/dograh-hq__dograh.md",
+      "rank": 15,
+      "readme_sha256": "3b398ce64cbe85c7f3c39f7167b7c50bf705d50fd73e85e119f2b36da77b90ed",
+      "url": "https://github.com/dograh-hq/dograh"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 16,
+      "readme_sha256": "c28850f9f3f6a26ae856597c7ac0933bc10f4b445070dbf66068643b34433169",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle",
+      "full_name": "Chachamaru127/claude-code-harness",
+      "project_file": "projects/Chachamaru127__claude-code-harness.md",
+      "rank": 17,
+      "readme_sha256": "4044c77d369c8721aa622222a54ee382c77b42b9f45427b66147f33af8f17e6b",
+      "url": "https://github.com/Chachamaru127/claude-code-harness"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 18,
+      "readme_sha256": "0e948e2a2d5259e916f23add61a73cab08684bcff908323246ae694716ceb01d",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 19,
+      "readme_sha256": "5a20e1c183bf2e4420ee09058818e4cfb842d8e40bf1093d2bfad767a9fc20de",
+      "url": "https://github.com/dotnet/skills"
+    }
+  ],
+  "snapshot_date": "2026-05-27",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

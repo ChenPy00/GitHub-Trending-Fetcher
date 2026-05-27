@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 1,
+      "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 2,
+      "readme_sha256": "02938990745b6ebf2e4411cdb67736359325b941957ece088a90c961183a3722",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 3,
+      "readme_sha256": "d58539aa6c2d801d325f89019ffc7a52bbe731576a1c98f581225ae9fe47ec18",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 4,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 5,
+      "readme_sha256": "8d6e953896a64a3dbffa9bca876238c4c60c0a109d6b9815d68fb49d2e67e788",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "A skill file for removing AI tells from prose",
+      "full_name": "hardikpandya/stop-slop",
+      "project_file": "projects/hardikpandya__stop-slop.md",
+      "rank": 6,
+      "readme_sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+      "url": "https://github.com/hardikpandya/stop-slop"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 7,
+      "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "full_name": "DigitalPlatDev/FreeDomain",
+      "project_file": "projects/DigitalPlatDev__FreeDomain.md",
+      "rank": 8,
+      "readme_sha256": "3e47dc3c54d8143c7de6a1620ac305ff9dc56a4cbdc7e6395c15e3286cd227c9",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain"
+    },
+    {
+      "description": "The Free Software Media System - Server Backend & API",
+      "full_name": "jellyfin/jellyfin",
+      "project_file": "projects/jellyfin__jellyfin.md",
+      "rank": 9,
+      "readme_sha256": "914b25fd2d743e86bc7c252adad127f50dce63f023efb93934154580cbc8b36b",
+      "url": "https://github.com/jellyfin/jellyfin"
+    },
+    {
+      "description": "Curated list of the best free apps for PC and mobile",
+      "full_name": "Axorax/awesome-free-apps",
+      "project_file": "projects/Axorax__awesome-free-apps.md",
+      "rank": 10,
+      "readme_sha256": "de0a191ed568e732de2bbe7038d20bb1d9fc4cfd5c2afb5282866d9c8aeae98d",
+      "url": "https://github.com/Axorax/awesome-free-apps"
+    },
+    {
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "full_name": "twentyhq/twenty",
+      "project_file": "projects/twentyhq__twenty.md",
+      "rank": 11,
+      "readme_sha256": "b8c15e5bda84be120f054d6c4d52445f5a9a7b9d37617b959956d4ad70b47383",
+      "url": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "full_name": "Open-Dev-Society/OpenStock",
+      "project_file": "projects/Open-Dev-Society__OpenStock.md",
+      "rank": 12,
+      "readme_sha256": "d1016414661b206b9acaec4b8062906838e579362629a751030b7fe2d55ed279",
+      "url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 13,
+      "readme_sha256": "7fd2996f1ee322faea82cb14261be9e71ff0fb76e8b4178ce60b0116f4cd4174",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "A contact solver for physics-based simulations involving 👚 shells, 🪵 solids and 🪢 rods.",
+      "full_name": "st-tech/ppf-contact-solver",
+      "project_file": "projects/st-tech__ppf-contact-solver.md",
+      "rank": 14,
+      "readme_sha256": "84d58a44d68219edfa1e7c097e0767fd9db1ffb29ef6e081ae53bb94ed1b2484",
+      "url": "https://github.com/st-tech/ppf-contact-solver"
+    }
+  ],
+  "snapshot_date": "2026-05-27",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
