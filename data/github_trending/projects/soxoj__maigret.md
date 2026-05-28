@@ -5,7 +5,7 @@
   "full_name": "soxoj/maigret",
   "url": "https://github.com/soxoj/maigret",
   "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
-  "readme_sha256": "9a04a273d87165409551d9a35abbedd5abe7bb479e3bc68c21d586eadbb18f93"
+  "readme_sha256": "e4e76d2bdf40e5c1e6dfa8b6ae757b2fef83f1eaecf5c0409794cd2751ba2935"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/soxoj/maigret
 - Description: 🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites
-- README SHA256: `9a04a273d87165409551d9a35abbedd5abe7bb479e3bc68c21d586eadbb18f93`
+- README SHA256: `e4e76d2bdf40e5c1e6dfa8b6ae757b2fef83f1eaecf5c0409794cd2751ba2935`
 
 ## README
 
@@ -227,6 +227,10 @@ maigret user --tags photo,dating
 
 # search on sites marked with tag us
 maigret user --tags us
+
+# highlight sites whose page also mentions specific keywords
+maigret user --keywords python rust
+# keyword-matched sites are shown with "[++]" in bright green
 
 # search for three usernames on all available sites
 maigret user1 user2 user3 -a

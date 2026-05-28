@@ -5,7 +5,7 @@
   "full_name": "mattpocock/sandcastle",
   "url": "https://github.com/mattpocock/sandcastle",
   "description": "Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()",
-  "readme_sha256": "b3732ef16150ff87c8efd205925ddc97e1ebda63bda1443fe1e919f7c95f6109"
+  "readme_sha256": "754dfdfd75b99f9cb3ca2f3d5b6c775ed1526f0a3ffa9a77a067e986a2339525"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mattpocock/sandcastle
 - Description: Orchestrate sandboxed coding agents in TypeScript with sandcastle.run()
-- README SHA256: `b3732ef16150ff87c8efd205925ddc97e1ebda63bda1443fe1e919f7c95f6109`
+- README SHA256: `754dfdfd75b99f9cb3ca2f3d5b6c775ed1526f0a3ffa9a77a067e986a2339525`
 
 ## README
 
@@ -700,6 +700,8 @@ Select a template during `sandcastle init` when prompted, or re-run init in a fr
 ### `sandcastle init`
 
 Scaffolds the `.sandcastle/` config directory and builds the container image. This is the first command you run in a new repo. You choose a sandbox provider (Docker or Podman) during init — selecting Podman writes a `Containerfile` instead of `Dockerfile` and uses `sandcastle podman build-image` for the build step.
+
+Init detects your host package manager (npm, pnpm, yarn, or bun) from a `packageManager` field or lockfile, defaulting to npm. Templates whose `main` file imports a host dependency — the planner templates import [Zod](https://zod.dev) for their `<plan>` output schema — prompt you to install it with that package manager when it isn't already in your `package.json`, so the first `npx tsx .sandcastle/main.ts` doesn't fail with `ERR_MODULE_NOT_FOUND`.
 
 | Option         | Required | Default                      | Description                                                                  |
 | -------------- | -------- | ---------------------------- | ---------------------------------------------------------------------------- |

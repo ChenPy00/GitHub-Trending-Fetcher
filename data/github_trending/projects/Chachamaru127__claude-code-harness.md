@@ -5,7 +5,7 @@
   "full_name": "Chachamaru127/claude-code-harness",
   "url": "https://github.com/Chachamaru127/claude-code-harness",
   "description": "Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle",
-  "readme_sha256": "4044c77d369c8721aa622222a54ee382c77b42b9f45427b66147f33af8f17e6b"
+  "readme_sha256": "9bf9a19354db8e4dc19ff5cdd2d5af8e3c84ae77b9f81147c2e838c086a30b83"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Chachamaru127/claude-code-harness
 - Description: Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle
-- README SHA256: `4044c77d369c8721aa622222a54ee382c77b42b9f45427b66147f33af8f17e6b`
+- README SHA256: `9bf9a19354db8e4dc19ff5cdd2d5af8e3c84ae77b9f81147c2e838c086a30b83`
 
 ## README
 
@@ -88,7 +88,8 @@ Next command: run `/harness-plan` with one small request.
 1. Install through your tool route.
 2. Run `/harness-setup` or the equivalent setup script.
 3. Run `/harness-plan` with a small request; Harness writes the `spec.md` and
-   `Plans.md` drafts for you to check.
+   `Plans.md` drafts for you to check. Small typo, docs, and status updates stay
+   lightweight.
 4. Approve the generated contract or reply with the correction you want.
 5. Run the smallest approved task, for example `/harness-work 1.1.1`.
 6. Run `/harness-review` and keep the verification output.
@@ -104,18 +105,21 @@ The 5 verb skills keep that surface small: plan, work, review, sync, release.
 1. You describe the outcome in normal language.
 2. `/harness-plan` drafts or updates `spec.md` and `Plans.md` with scope,
    acceptance criteria, unknowns, and stop conditions.
-3. Harness treats those files as the source of truth. Data the agent has not
+3. Non-trivial planning records `team_validation_mode` and validates the plan
+   through team/sub-agent or manual-pass perspectives for spec/Plans alignment,
+   memory reuse, product fit, security fit, and works-in-practice.
+4. Harness treats those files as the source of truth. Data the agent has not
    seen stays `unknown` instead of being silently invented.
-4. `/harness-work` implements the approved slice with TDD and verification.
-5. `/harness-review` separates review from implementation.
-6. `/harness-release` packages only verified evidence.
+5. `/harness-work` implements the approved slice with TDD and verification.
+6. `/harness-review` separates review from implementation.
+7. `/harness-release` packages only verified evidence.
 
 ## Commands
 
 | Command | What happens inside |
 |---------|---------------------|
 | `/harness-setup` | Installs project guidance, command surfaces, hooks, and checks so the workflow starts from one known baseline. |
-| `/harness-plan` | Turns intent into `spec.md` and `Plans.md`, including scope, acceptance criteria, dependencies, unknowns, and stop conditions. |
+| `/harness-plan` | Turns intent into `spec.md` and `Plans.md`, including scope, acceptance criteria, dependencies, unknowns, stop conditions, and non-trivial planning validation. |
 | `/harness-work` | Executes one approved task or range, adds tests when required, runs verification, and keeps work inside the plan. |
 | `/harness-work all` | Runs the approved plan through implementation and review paths; use after the plan is clear and the repo baseline is known. |
 | `/harness-review` | Reviews the result separately from implementation and treats major findings as blockers. |

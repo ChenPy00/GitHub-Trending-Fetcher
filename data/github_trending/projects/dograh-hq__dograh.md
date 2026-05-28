@@ -5,7 +5,7 @@
   "full_name": "dograh-hq/dograh",
   "url": "https://github.com/dograh-hq/dograh",
   "description": "Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.",
-  "readme_sha256": "3b398ce64cbe85c7f3c39f7167b7c50bf705d50fd73e85e119f2b36da77b90ed"
+  "readme_sha256": "5d461198d172095603efcd5ceeb4846de937c467566c912bb1cfef2813fbb425"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/dograh-hq/dograh
 - Description: Open source voice AI platform. Self-hosted alternative to Vapi and Retell. On Prem, BYOK across Speech to Speech or LLM/STT/TTS, with a visual workflow builder, MCP native and telephony support.
-- README SHA256: `3b398ce64cbe85c7f3c39f7167b7c50bf705d50fd73e85e119f2b36da77b90ed`
+- README SHA256: `5d461198d172095603efcd5ceeb4846de937c467566c912bb1cfef2813fbb425`
 
 ## README
 
@@ -48,6 +48,10 @@
 - **100% open source**, self-hostable — no vendor lock-in, unlike Vapi or Retell
 - **Full control & transparency** — every line of code is open, with flexible LLM / TTS / STT integration
 - **Maintained by YC alumni and exit founders**, committed to keeping voice AI open
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/31007" target="_blank"><img src="https://trendshift.io/api/badge/repositories/31007" alt="dograh-hq%2Fdograh | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</p>
 
 ## 🎥 Featured
 

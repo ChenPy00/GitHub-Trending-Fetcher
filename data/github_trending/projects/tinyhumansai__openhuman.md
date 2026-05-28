@@ -5,7 +5,7 @@
   "full_name": "tinyhumansai/openhuman",
   "url": "https://github.com/tinyhumansai/openhuman",
   "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-  "readme_sha256": "f5e8a652d0ee130c7a22238f8afad9ae514da5eb1aa6debed693c5218181158f"
+  "readme_sha256": "4549642e76c95644a87d143de0cb49d72745e2b1557c9d7b199386f1674bf6c1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tinyhumansai/openhuman
 - Description: Your Personal AI super intelligence. Private, Simple and extremely powerful.
-- README SHA256: `f5e8a652d0ee130c7a22238f8afad9ae514da5eb1aa6debed693c5218181158f`
+- README SHA256: `4549642e76c95644a87d143de0cb49d72745e2b1557c9d7b199386f1674bf6c1`
 
 ## README
 
@@ -88,7 +88,7 @@ These paths verify the artifact through your OS package manager's signing chain 
 **macOS (Homebrew tap):**
 
 ```bash
-brew tap tinyhumansai/openhuman
+brew tap tinyhumansai/core
 brew install openhuman
 ```
 

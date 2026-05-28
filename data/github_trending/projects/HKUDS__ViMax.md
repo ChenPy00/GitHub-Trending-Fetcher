@@ -5,7 +5,7 @@
   "full_name": "HKUDS/ViMax",
   "url": "https://github.com/HKUDS/ViMax",
   "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-  "readme_sha256": "edb4f839b1123c3be08084e909b6bff5c6184938a865e6f0debbbca6c3f4d188"
+  "readme_sha256": "c54c2831513a1ad31cac751e2ccdbd6b7393bb2258ef2a9d1fd579b16c3a1868"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/ViMax
 - Description: "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
-- README SHA256: `edb4f839b1123c3be08084e909b6bff5c6184938a865e6f0debbbca6c3f4d188`
+- README SHA256: `c54c2831513a1ad31cac751e2ccdbd6b7393bb2258ef2a9d1fd579b16c3a1868`
 
 ## README
 
@@ -82,7 +82,7 @@ https://github.com/user-attachments/assets/5bad46b2-8276-4e1d-9480-3522640744b2
 - [🚀 Quick Start](#quick-start)
 
 ---
-## 💡Key Features
+## 💡 Key Features
 
 <br/>
 
@@ -284,11 +284,8 @@ https://github.com/user-attachments/assets/5bad46b2-8276-4e1d-9480-3522640744b2
 ### ☄️ **Coming Soon**
 
 - 👨‍💻 **Google AI Studio API config✅**
-- 📹 **Dev mode branch**
-- 🤳 **AutoCameo integrate**
-- 📺 **More demos**
-- 🎞️ **Shot planning**
-- 🤖 **New features**
+- 🤖 **Agents Loop☑️**
+- 📄 **Technical Report☑️**
 
 ---
 

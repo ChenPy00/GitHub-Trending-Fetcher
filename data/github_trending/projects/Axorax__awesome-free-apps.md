@@ -5,7 +5,7 @@
   "full_name": "Axorax/awesome-free-apps",
   "url": "https://github.com/Axorax/awesome-free-apps",
   "description": "Curated list of the best free apps for PC and mobile",
-  "readme_sha256": "de0a191ed568e732de2bbe7038d20bb1d9fc4cfd5c2afb5282866d9c8aeae98d"
+  "readme_sha256": "b6353beb543297e0b44adb8c2d72ac8fe9f90cbf8bf91a5000d94f432fecd8f1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Axorax/awesome-free-apps
 - Description: Curated list of the best free apps for PC and mobile
-- README SHA256: `de0a191ed568e732de2bbe7038d20bb1d9fc4cfd5c2afb5282866d9c8aeae98d`
+- README SHA256: `b6353beb543297e0b44adb8c2d72ac8fe9f90cbf8bf91a5000d94f432fecd8f1`
 
 ## README
 
@@ -249,6 +249,7 @@
 - [ScreenPlay](https://github.com/kelteseth/ScreenPlay) - Wallpaper and widget engine. 🪟 🐧 🟢
 - [Variety](https://github.com/varietywalls/variety) - Wallpaper changer with features for downloading and managing wallpapers. 🐧 🟢
 - [WinDynamicDesktop](https://github.com/t1m0thyj/WinDynamicDesktop) - Port of macOS Mojave Dynamic Desktop feature to Windows. 🪟 🟢
+- [Sucrose](https://github.com/Taiizor/Sucrose) - Versatile wallpaper engine bringing life to your desktop with a wide range of interactive themes. 🪟 🟢
 
 ## Data Management
 
