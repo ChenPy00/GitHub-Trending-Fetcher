@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "0e948e2a2d5259e916f23add61a73cab08684bcff908323246ae694716ceb01d"
+  "readme_sha256": "d9fe5c9fb4fa2a61a9e7c187d2355a5494e476ba1d041b65d25516b73d3e5e81"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `0e948e2a2d5259e916f23add61a73cab08684bcff908323246ae694716ceb01d`
+- README SHA256: `d9fe5c9fb4fa2a61a9e7c187d2355a5494e476ba1d041b65d25516b73d3e5e81`
 
 ## README
 
@@ -27,6 +27,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 |:-------|:-------|:-------|:---------|:-------------------------------------|
 | `continual-learning` | [Continual Learning](continual-learning/) | Cursor | Developer Tools | Incremental transcript-driven memory updates for AGENTS.md using high-signal bullet points only. |
 | `cursor-team-kit` | [Cursor Team Kit](cursor-team-kit/) | Cursor | Developer Tools | Internal team workflows used by Cursor developers for CI, code review, shipping, local automation, and verification. |
+| `thermos` | [Thermos](thermos/) | Cursor | Developer Tools | Thermo-nuclear branch review: deep security/correctness audits, harsh code-quality rubrics, parallel subagents, thermos orchestration, and optional merge-ready PR flows. |
 | `create-plugin` | [Create Plugin](create-plugin/) | Cursor | Developer Tools | Scaffold and validate new Cursor plugins. |
 | `agent-compatibility` | [Agent Compatibility](agent-compatibility/) | Cursor | Developer Tools | CLI-backed repo compatibility scans plus Cursor agents that audit startup, validation, and docs against reality. |
 | `cli-for-agent` | [CLI for Agents](cli-for-agent/) | Cursor | Developer Tools | Patterns for designing CLIs that coding agents can run reliably: flags, help with examples, pipelines, errors, idempotency, dry-run. |

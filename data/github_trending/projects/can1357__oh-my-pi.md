@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8"
+  "readme_sha256": "5d7e70f913d54e740e9e958f89802e5a43b597cb808a7a9dd661d5401db9e9f6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `4e55c7840f7c68984fd1cf3f6afd0ae1811b874ed9ac382ee4f83cdbcf6f50f8`
+- README SHA256: `5d7e70f913d54e740e9e958f89802e5a43b597cb808a7a9dd661d5401db9e9f6`
 
 ## README
 
@@ -270,13 +270,13 @@ Auth tags below: `oauth` signs in with your provider account, `plan` routes thro
 
 Direct APIs and gateways. Mix providers per role.
 
-Anthropic `oauth` · OpenAI · OpenAI Codex `oauth` · Google Gemini · Google Antigravity `oauth` · xAI · Mistral · Groq · Cerebras · Fireworks · Together · Hugging Face · NVIDIA · OpenRouter · Synthetic · Vercel AI Gateway · Cloudflare AI Gateway · Perplexity `oauth`
+Anthropic `oauth` · OpenAI · OpenAI Codex `oauth` · Google Gemini · Google Antigravity `oauth` · xAI · Mistral · Groq · Cerebras · Fireworks · Together · Hugging Face · NVIDIA · OpenRouter · Synthetic · Vercel AI Gateway · Cloudflare AI Gateway · Wafer Serverless · Perplexity `oauth`
 
 ### Coding plans
 
 Subscription-routed. `/login` attaches the session.
 
-Cursor `oauth` · GitHub Copilot `oauth` · GitLab Duo · Kimi Code `plan` · Moonshot · MiniMax Coding Plan `plan` · MiniMax Coding Plan CN `plan` · Alibaba Coding Plan `plan` · Qwen Portal · Z.AI / GLM Coding Plan `plan` · Xiaomi MiMo · Qianfan · NanoGPT · Venice · Kilo · ZenMux · OpenCode Go · OpenCode Zen
+Cursor `oauth` · GitHub Copilot `oauth` · GitLab Duo · Kimi Code `plan` · Moonshot · MiniMax Coding Plan `plan` · MiniMax Coding Plan CN `plan` · Alibaba Coding Plan `plan` · Qwen Portal · Z.AI / GLM Coding Plan `plan` · Xiaomi MiMo · Qianfan · NanoGPT · Venice · Kilo · ZenMux · Wafer Pass `plan` · OpenCode Go · OpenCode Zen
 
 ### Run it yourself
 

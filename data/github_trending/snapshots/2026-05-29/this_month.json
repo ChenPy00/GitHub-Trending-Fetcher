@@ -1,0 +1,161 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 1,
+      "readme_sha256": "e1d47060614b0c93e910a3954513311ee9ffc4711bca26ed9c8dcac5eed54547",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 2,
+      "readme_sha256": "e0014428a81c0aa63b7a54da504741bbc0ce6f56eb4a9ecaf44de3318632f7fc",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "full_name": "CloakHQ/CloakBrowser",
+      "project_file": "projects/CloakHQ__CloakBrowser.md",
+      "rank": 3,
+      "readme_sha256": "e562a20ea3197d6a82e68521ed7f761f2fab1d9b44b9ad274461cb77e86a7bb4",
+      "url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 4,
+      "readme_sha256": "7936e6898f7181dbd721c9b4fed1ff3e111f19ab14c44871c246cbacab18b06b",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 5,
+      "readme_sha256": "65e8ce7af3e58b7e57d8f3e6bed05d9bd4e3b1d887be9291d1aa5e6338bf7c71",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 6,
+      "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 7,
+      "readme_sha256": "2596e47b03c13a3439b3830f438b8eaea6a591e22c7864222e6f0ce9a8942d6a",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 8,
+      "readme_sha256": "d91fc74c5ce1c15472526cb6aa20a6cf9f0c1d026b4e900ffa230d361c06685d",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "full_name": "decolua/9router",
+      "project_file": "projects/decolua__9router.md",
+      "rank": 9,
+      "readme_sha256": "1f1511d29345c428ebbd7a2b83f3f8ad6af4447eff9a3fbcdae26e5385c03e10",
+      "url": "https://github.com/decolua/9router"
+    },
+    {
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "full_name": "soxoj/maigret",
+      "project_file": "projects/soxoj__maigret.md",
+      "rank": 10,
+      "readme_sha256": "e4e76d2bdf40e5c1e6dfa8b6ae757b2fef83f1eaecf5c0409794cd2751ba2935",
+      "url": "https://github.com/soxoj/maigret"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 11,
+      "readme_sha256": "32871cee2625adf0ac0e00d59a4775f4cfa3041dc43e2c5a9a97fe771d8e47a7",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "Coding Agent Harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 12,
+      "readme_sha256": "c221f8f74fda67fe360907d5aa9ea0bd5e2f452ebc671ca9cd3301b8769b91b3",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine",
+      "full_name": "AIDC-AI/Pixelle-Video",
+      "project_file": "projects/AIDC-AI__Pixelle-Video.md",
+      "rank": 13,
+      "readme_sha256": "ddc10b23eddadfb57d8c1af5bce6035481bba474287182581d371b8a11d05fce",
+      "url": "https://github.com/AIDC-AI/Pixelle-Video"
+    },
+    {
+      "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 14,
+      "readme_sha256": "dd4ea0ce468fba3549dfcc43137b65eeb1f4e170817c2944c56931a60af560cc",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 15,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "Let's use AI to Earn!",
+      "full_name": "yikart/AiToEarn",
+      "project_file": "projects/yikart__AiToEarn.md",
+      "rank": 16,
+      "readme_sha256": "a69bbcc34018c1f6e096e35704f8063971a32aacb152268f1959cbc0f01c0fae",
+      "url": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "full_name": "bytedance/UI-TARS-desktop",
+      "project_file": "projects/bytedance__UI-TARS-desktop.md",
+      "rank": 17,
+      "readme_sha256": "0f05aa4f447d43439f6b3f4ab179cbe1e59d170eaf6c0684fa9c2eb0872e5985",
+      "url": "https://github.com/bytedance/UI-TARS-desktop"
+    },
+    {
+      "description": "Warp is an agentic development environment, born out of the terminal.",
+      "full_name": "warpdotdev/warp",
+      "project_file": "projects/warpdotdev__warp.md",
+      "rank": 18,
+      "readme_sha256": "be8f4c849d99de76973f5eb4e4a04979f02a2e195d544c11d672e7a57d233867",
+      "url": "https://github.com/warpdotdev/warp"
+    },
+    {
+      "description": "~95% on SimpleQA (e.g. Qwen3.6-27B on a 3090). Supports all local and cloud LLMs (llama.cpp, Ollama, Google, ...). 10+ search engines - arXiv, PubMed, your private documents. Everything Local & Encrypted.",
+      "full_name": "LearningCircuit/local-deep-research",
+      "project_file": "projects/LearningCircuit__local-deep-research.md",
+      "rank": 19,
+      "readme_sha256": "e21e40ca6b9f46a27b4338c49404c72ff9c5e7cbe396682f99aedce859463bf6",
+      "url": "https://github.com/LearningCircuit/local-deep-research"
+    }
+  ],
+  "snapshot_date": "2026-05-29",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

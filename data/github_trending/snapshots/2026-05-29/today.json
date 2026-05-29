@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 1,
+      "readme_sha256": "e1ecd8c0ccaf6616ee4ea9732a9743cbfe77bc66d89ff7be0b54dd0af15a9ae7",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 2,
+      "readme_sha256": "976b75ac66357a33c7f528b189cb574e7c4337bf0915127b4373b1d30c4e489e",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 3,
+      "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "A skill file for removing AI tells from prose",
+      "full_name": "hardikpandya/stop-slop",
+      "project_file": "projects/hardikpandya__stop-slop.md",
+      "rank": 4,
+      "readme_sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+      "url": "https://github.com/hardikpandya/stop-slop"
+    },
+    {
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "full_name": "twentyhq/twenty",
+      "project_file": "projects/twentyhq__twenty.md",
+      "rank": 5,
+      "readme_sha256": "b8c15e5bda84be120f054d6c4d52445f5a9a7b9d37617b959956d4ad70b47383",
+      "url": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "full_name": "DigitalPlatDev/FreeDomain",
+      "project_file": "projects/DigitalPlatDev__FreeDomain.md",
+      "rank": 6,
+      "readme_sha256": "3e47dc3c54d8143c7de6a1620ac305ff9dc56a4cbdc7e6395c15e3286cd227c9",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain"
+    },
+    {
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "full_name": "byoungd/English-level-up-tips",
+      "project_file": "projects/byoungd__English-level-up-tips.md",
+      "rank": 7,
+      "readme_sha256": "ce37282b76b23a5580f37bb9e592505b9cca4c069a829f4abec5fc0f7aa7719d",
+      "url": "https://github.com/byoungd/English-level-up-tips"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 8,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 9,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "full_name": "revfactory/harness",
+      "project_file": "projects/revfactory__harness.md",
+      "rank": 10,
+      "readme_sha256": "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1",
+      "url": "https://github.com/revfactory/harness"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 11,
+      "readme_sha256": "ef8b9a62d496759f7870424b0c9e72dadebfa7a5427615dcb86b12c6d21cb5f3",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 12,
+      "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "full_name": "unclecode/crawl4ai",
+      "project_file": "projects/unclecode__crawl4ai.md",
+      "rank": 13,
+      "readme_sha256": "33640a32b78310d4f2bb07d2d835c56ace0f6f05abe4c4d8f30763bb70bba682",
+      "url": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
+      "full_name": "OpenMOSS/MOSS-TTS",
+      "project_file": "projects/OpenMOSS__MOSS-TTS.md",
+      "rank": 14,
+      "readme_sha256": "4441d4632926f25b1e9cc0d4f5b596f98665accdfdbc37cc3a358fbdf53d9343",
+      "url": "https://github.com/OpenMOSS/MOSS-TTS"
+    },
+    {
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "project_file": "projects/EveryInc__compound-engineering-plugin.md",
+      "rank": 15,
+      "readme_sha256": "0d178c14e384a510e008039afeb01958101a11c418b978aaf1e25125c40baa7a",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 16,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    }
+  ],
+  "snapshot_date": "2026-05-29",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
