@@ -5,7 +5,7 @@
   "full_name": "anthropics/financial-services",
   "url": "https://github.com/anthropics/financial-services",
   "description": "",
-  "readme_sha256": "e0014428a81c0aa63b7a54da504741bbc0ce6f56eb4a9ecaf44de3318632f7fc"
+  "readme_sha256": "8b0fc62533e1f52e216476af38e10d1dabf1224abc3640388c25943eaf4ff609"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/anthropics/financial-services
 - Description: No description
-- README SHA256: `e0014428a81c0aa63b7a54da504741bbc0ce6f56eb4a9ecaf44de3318632f7fc`
+- README SHA256: `8b0fc62533e1f52e216476af38e10d1dabf1224abc3640388c25943eaf4ff609`
 
 ## README
 
@@ -150,6 +150,7 @@ All connectors are centralized in the **financial-analysis** core plugin and sha
 | [PitchBook](https://pitchbook.com/) | `https://premium.mcp.pitchbook.com/mcp` |
 | [Chronograph](https://www.chronograph.pe/) | `https://ai.chronograph.pe/mcp` |
 | [Egnyte](https://www.egnyte.com/) | `https://mcp-server.egnyte.com/mcp` |
+| [Box](https://www.box.com/home) | `https://mcp.box.com` |
 
 > MCP access may require a subscription or API key from the provider.
 

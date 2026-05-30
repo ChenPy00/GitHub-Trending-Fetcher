@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "5d7e70f913d54e740e9e958f89802e5a43b597cb808a7a9dd661d5401db9e9f6"
+  "readme_sha256": "f7864ff51546f8252712f08326ad47ccb293f5f5018f02d4dc1830619a33e73e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `5d7e70f913d54e740e9e958f89802e5a43b597cb808a7a9dd661d5401db9e9f6`
+- README SHA256: `f7864ff51546f8252712f08326ad47ccb293f5f5018f02d4dc1830619a33e73e`
 
 ## README
 
@@ -252,11 +252,10 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 
 **Misc**
 
-- `calc` — deterministic arithmetic — no model in the loop.
 - `resolve` — apply or discard a queued preview action.
 - `search_tool_bm25` — BM25 over the hidden tool index; activates top matches mid-session.
 
-Setting-gated, off by default: `github`, `calc`, `inspect_image`, `render_mermaid`, `checkpoint`, `rewind`, `search_tool_bm25`, `retain`, `recall`, `reflect`. Flip them on once, scoped per project.
+Setting-gated, off by default: `github`, `inspect_image`, `render_mermaid`, `checkpoint`, `rewind`, `search_tool_bm25`, `retain`, `recall`, `reflect`. Flip them on once, scoped per project.
 
 [Full reference →](https://omp.sh/docs/tools)
 

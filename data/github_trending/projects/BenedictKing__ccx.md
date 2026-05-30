@@ -5,7 +5,7 @@
   "full_name": "BenedictKing/ccx",
   "url": "https://github.com/BenedictKing/ccx",
   "description": "Claude / Codex / Gemini API Proxy - CCX",
-  "readme_sha256": "80f254f9c2bbba41362072b410bc4c70cd2843dd27b517aaa8622b53d0d1bbea"
+  "readme_sha256": "1532709a4caf07e219cf0842aafb2ee380ea19b057dee434b1df9db031463934"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/BenedictKing/ccx
 - Description: Claude / Codex / Gemini API Proxy - CCX
-- README SHA256: `80f254f9c2bbba41362072b410bc4c70cd2843dd27b517aaa8622b53d0d1bbea`
+- README SHA256: `1532709a4caf07e219cf0842aafb2ee380ea19b057dee434b1df9db031463934`
 
 ## README
 
@@ -87,7 +87,7 @@ Images endpoints currently include:
 - `POST /v1/images/edits`
 - `POST /v1/images/variations`
 
-See [ARCHITECTURE.md](ARCHITECTURE.md) for the detailed design.
+See [ARCHITECTURE.md](docs/guide/architecture.md) for the detailed design.
 
 ## Quick Start
 
@@ -102,7 +102,7 @@ If you prefer a desktop experience, start with [CCX Desktop](docs/en/guide/deskt
 
 ```bash
 PROXY_ACCESS_KEY=your-proxy-access-key
-PORT=3000
+PORT=3688
 ENABLE_WEB_UI=true
 APP_UI_LANGUAGE=en
 ```
@@ -146,10 +146,13 @@ docker compose up -d ccx
 
 ### Option 3: Build From Source
 
+Prerequisites: [Go 1.25+](https://go.dev/dl/), [Bun](https://bun.sh), and Make (macOS: `xcode-select --install`).
+
 ```bash
 git clone https://github.com/BenedictKing/ccx
 cd ccx
 cp backend-go/.env.example backend-go/.env
+make install   # install all dependencies (frontend + Go modules + dev tools)
 make run
 ```
 
@@ -165,7 +168,7 @@ make frontend-dev
 ## Core Environment Variables
 
 ```bash
-PORT=3000
+PORT=3688
 ENV=production
 ENABLE_WEB_UI=true
 PROXY_ACCESS_KEY=your-proxy-access-key
@@ -218,11 +221,11 @@ make dev
 - [Client Setup (中文)](docs/guide/clients/)
 - [README.zh-CN.md](README.zh-CN.md)
 - [backend-go/README.md](backend-go/README.md)
-- [ARCHITECTURE.md](ARCHITECTURE.md)
-- [DEVELOPMENT.md](DEVELOPMENT.md)
-- [ENVIRONMENT.md](ENVIRONMENT.md)
+- [ARCHITECTURE.md](docs/guide/architecture.md)
+- [DEVELOPMENT.md](docs/guide/development.md)
+- [ENVIRONMENT.md](docs/guide/environment.md)
 - [docs/service/README.md](docs/service/README.md) - non-Docker service startup
-- [RELEASE.md](RELEASE.md)
+- [RELEASE.md](docs/guide/release.md)
 
 ## Community
 

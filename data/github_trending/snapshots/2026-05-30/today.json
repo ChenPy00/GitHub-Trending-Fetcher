@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 1,
+      "readme_sha256": "9429860f62d78b256da91be14dcb995b8da1f79a59ed8af4c5314a8875dd6048",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 2,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "project_file": "projects/EveryInc__compound-engineering-plugin.md",
+      "rank": 3,
+      "readme_sha256": "0d178c14e384a510e008039afeb01958101a11c418b978aaf1e25125c40baa7a",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+    },
+    {
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "full_name": "twentyhq/twenty",
+      "project_file": "projects/twentyhq__twenty.md",
+      "rank": 4,
+      "readme_sha256": "b8c15e5bda84be120f054d6c4d52445f5a9a7b9d37617b959956d4ad70b47383",
+      "url": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 5,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 6,
+      "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 7,
+      "readme_sha256": "d9fe5c9fb4fa2a61a9e7c187d2355a5494e476ba1d041b65d25516b73d3e5e81",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "A fast, helpful, and open-source document parser",
+      "full_name": "run-llama/liteparse",
+      "project_file": "projects/run-llama__liteparse.md",
+      "rank": 8,
+      "readme_sha256": "1344951eda6743afb8da72e3ae4aad166fe1cf14491efe3de07cc367827a172e",
+      "url": "https://github.com/run-llama/liteparse"
+    },
+    {
+      "description": "A platform for reproducible world model research and evaluation",
+      "full_name": "galilai-group/stable-worldmodel",
+      "project_file": "projects/galilai-group__stable-worldmodel.md",
+      "rank": 9,
+      "readme_sha256": "f938af76ce123712968692ef847b513c59aab551cd8c296cbe1bd7f172f16013",
+      "url": "https://github.com/galilai-group/stable-worldmodel"
+    },
+    {
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "full_name": "byoungd/English-level-up-tips",
+      "project_file": "projects/byoungd__English-level-up-tips.md",
+      "rank": 10,
+      "readme_sha256": "ce37282b76b23a5580f37bb9e592505b9cca4c069a829f4abec5fc0f7aa7719d",
+      "url": "https://github.com/byoungd/English-level-up-tips"
+    },
+    {
+      "description": "",
+      "full_name": "Biohub/esm",
+      "project_file": "projects/Biohub__esm.md",
+      "rank": 11,
+      "readme_sha256": "2a6790ad3da67b05766bb862eea145092071f2fc8a5c9de6b48b517177d75675",
+      "url": "https://github.com/Biohub/esm"
+    },
+    {
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "project_file": "projects/Crosstalk-Solutions__project-nomad.md",
+      "rank": 12,
+      "readme_sha256": "fb5df8985077df1cdd851108412cd978c59450fd7783c26dd6f123877986b52e",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    {
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "full_name": "DigitalPlatDev/FreeDomain",
+      "project_file": "projects/DigitalPlatDev__FreeDomain.md",
+      "rank": 13,
+      "readme_sha256": "3e47dc3c54d8143c7de6a1620ac305ff9dc56a4cbdc7e6395c15e3286cd227c9",
+      "url": "https://github.com/DigitalPlatDev/FreeDomain"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 14,
+      "readme_sha256": "976b75ac66357a33c7f528b189cb574e7c4337bf0915127b4373b1d30c4e489e",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "A skill file for removing AI tells from prose",
+      "full_name": "hardikpandya/stop-slop",
+      "project_file": "projects/hardikpandya__stop-slop.md",
+      "rank": 15,
+      "readme_sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+      "url": "https://github.com/hardikpandya/stop-slop"
+    },
+    {
+      "description": "Data Engineering Zoomcamp is a free 9-week course on building production-ready data pipelines. The next cohort starts in January 2026. Join the course here 👇🏼",
+      "full_name": "DataTalksClub/data-engineering-zoomcamp",
+      "project_file": "projects/DataTalksClub__data-engineering-zoomcamp.md",
+      "rank": 16,
+      "readme_sha256": "3a50aa7653a5d6286112c043282338be8586d518aba13effe47fbdb5a4c55cb0",
+      "url": "https://github.com/DataTalksClub/data-engineering-zoomcamp"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 17,
+      "readme_sha256": "ef8b9a62d496759f7870424b0c9e72dadebfa7a5427615dcb86b12c6d21cb5f3",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    }
+  ],
+  "snapshot_date": "2026-05-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
