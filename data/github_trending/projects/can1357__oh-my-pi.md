@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "f7864ff51546f8252712f08326ad47ccb293f5f5018f02d4dc1830619a33e73e"
+  "readme_sha256": "5c1069380b2dca36741d34383cf078009de439b9588dc7d2e18e8de926d05b18"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `f7864ff51546f8252712f08326ad47ccb293f5f5018f02d4dc1830619a33e73e`
+- README SHA256: `5c1069380b2dca36741d34383cf078009de439b9588dc7d2e18e8de926d05b18`
 
 ## README
 
@@ -72,6 +72,21 @@ mise use -g github:can1357/oh-my-pi
 ```
 
 macOS · Linux · Windows · bun ≥ 1.3.14
+
+### Shell completions
+
+`omp` generates its own completion scripts for **bash**, **zsh**, and **fish** from the live command/flag metadata, so they never drift from the actual CLI. Subcommands, flags, and enum values complete statically; model names (`--model`, `--smol`, `--slow`, `--plan`) resolve against the bundled model catalog and `--resume` against your on-disk sessions.
+
+```sh
+# zsh — add to ~/.zshrc (or write the output into a file on your $fpath)
+eval "$(omp completions zsh)"
+
+# bash — add to ~/.bashrc
+eval "$(omp completions bash)"
+
+# fish
+omp completions fish > ~/.config/fish/completions/omp.fish
+```
 
 ## Every tool, _benchmaxxed_.
 
@@ -217,7 +232,6 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 
 - `bash` — workspace shell, with optional PTY or background-job dispatch.
 - `eval` — persistent Python and JavaScript cells with shared prelude and tool re-entry.
-- `recipe` — invoke a target from a detected task runner — bun, just, make, cargo.
 - `ssh` — one remote command against a configured host.
 
 **Code intelligence**

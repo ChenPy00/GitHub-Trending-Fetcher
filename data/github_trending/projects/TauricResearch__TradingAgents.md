@@ -5,7 +5,7 @@
   "full_name": "TauricResearch/TradingAgents",
   "url": "https://github.com/TauricResearch/TradingAgents",
   "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-  "readme_sha256": "32871cee2625adf0ac0e00d59a4775f4cfa3041dc43e2c5a9a97fe771d8e47a7"
+  "readme_sha256": "2187ec659fb3f115fe405316933aa623d9ccc89cb326b5cbf544e9d0ee89a79c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TauricResearch/TradingAgents
 - Description: TradingAgents: Multi-Agents LLM Financial Trading Framework
-- README SHA256: `32871cee2625adf0ac0e00d59a4775f4cfa3041dc43e2c5a9a97fe771d8e47a7`
+- README SHA256: `2187ec659fb3f115fe405316933aa623d9ccc89cb326b5cbf544e9d0ee89a79c`
 
 ## README
 
@@ -271,6 +271,28 @@ config["checkpoint_enabled"] = True
 ta = TradingAgentsGraph(config=config)
 _, decision = ta.propagate("NVDA", "2026-01-15")
 ```
+
+## Reproducibility
+
+TradingAgents is LLM-driven, so two runs of the same ticker and date can differ. This is expected for a research tool built on language models, not a defect. The variation comes from a few distinct sources, and it helps to separate them.
+
+Language model sampling is non-deterministic. Even at a fixed temperature, providers do not guarantee byte-identical output across calls, and reasoning models (the default GPT-5.x family, and any thinking-mode model) vary the most because their internal reasoning is itself sampled.
+
+Live data moves. News, StockTwits, and Reddit return different content as time passes, so a run today sees different inputs than a run last week even for the same historical trade date. Pin the analysis date to hold the price and indicator window fixed, but the social and news sources still reflect "now".
+
+To reduce variation you can lower the sampling temperature. Set `temperature` in your config (or `TRADINGAGENTS_TEMPERATURE` in `.env`); lower values make models that honor it more repeatable. Reasoning models largely ignore temperature, so for tighter reproducibility pair a low temperature with a non-reasoning model such as `gpt-4.1`.
+
+```python
+config = DEFAULT_CONFIG.copy()
+config["llm_provider"] = "openai"
+config["deep_think_llm"] = "gpt-4.1"      # non-reasoning model honors temperature
+config["quick_think_llm"] = "gpt-4.1"
+config["temperature"] = 0.0
+```
+
+What does not vary anymore: the analyzed company identity is resolved deterministically from the ticker before any agent runs, and the market analyst grounds exact price and indicator claims in a verified data snapshot. Earlier reports of "different companies" or fabricated price levels across runs are addressed by these two mechanisms.
+
+Backtest results are not guaranteed to match any published figure. Returns depend on the model, the temperature, the date range, data quality, and the sampling above. Treat the framework as a research scaffold for studying multi-agent analysis, not as a strategy with a fixed, replicable return.
 
 ## Contributing
 

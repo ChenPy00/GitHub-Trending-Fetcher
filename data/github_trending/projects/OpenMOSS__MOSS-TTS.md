@@ -5,7 +5,7 @@
   "full_name": "OpenMOSS/MOSS-TTS",
   "url": "https://github.com/OpenMOSS/MOSS-TTS",
   "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
-  "readme_sha256": "4441d4632926f25b1e9cc0d4f5b596f98665accdfdbc37cc3a358fbdf53d9343"
+  "readme_sha256": "9b18243cdc98c78c138f6f9eee716978654f52e14f68ac2c111940230daf0067"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/OpenMOSS/MOSS-TTS
 - Description: MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.
-- README SHA256: `4441d4632926f25b1e9cc0d4f5b596f98665accdfdbc37cc3a358fbdf53d9343`
+- README SHA256: `9b18243cdc98c78c138f6f9eee716978654f52e14f68ac2c111940230daf0067`
 
 ## README
 
@@ -27,6 +27,9 @@
   <img src="./assets/mosi-logo.png" height="50" align="middle" />
 </p>
 
+<div align="center">
+  <a href="https://trendshift.io/repositories/22854" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22854" alt="OpenMOSS%2FMOSS-TTS | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+</div>
 
 
 <div align="center">
