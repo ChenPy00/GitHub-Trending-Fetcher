@@ -5,7 +5,7 @@
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
   "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "72441bf2a699d1a3dc87184c165ca331174f1bacbf29593705dd44699f291f51"
+  "readme_sha256": "e3adc1d7e1fe6c59c01f970896f9da919087fe831a19fc7ab013ca9ca4176bd4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/colbymchenry/codegraph
 - Description: Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `72441bf2a699d1a3dc87184c165ca331174f1bacbf29593705dd44699f291f51`
+- README SHA256: `e3adc1d7e1fe6c59c01f970896f9da919087fe831a19fc7ab013ca9ca4176bd4`
 
 ## README
 
@@ -519,8 +519,14 @@ When running as an MCP server, CodeGraph exposes these tools to Claude Code:
 
 ## Library Usage
 
+CodeGraph can be embedded directly. The npm package re-exports its programmatic
+API, so both `import` and `require` resolve the `CodeGraph` class in your own
+process — handy for embedding it in an app (e.g. an Electron main process).
+
 ```typescript
 import CodeGraph from '@colbymchenry/codegraph';
+// CommonJS works too:
+//   const { CodeGraph } = require('@colbymchenry/codegraph');
 
 const cg = await CodeGraph.init('/path/to/project');
 // Or: const cg = await CodeGraph.open('/path/to/project');
@@ -538,6 +544,21 @@ cg.watch();   // auto-sync on file changes
 cg.unwatch(); // stop watching
 cg.close();
 ```
+
+Lower-level building blocks are exported from the same entry point for callers
+that drive the graph directly: `DatabaseConnection`, `QueryBuilder`,
+`getDatabasePath`, `initGrammars` / `loadGrammarsForLanguages`, and `FileLock`.
+
+**Embedding requirements**
+
+- Install from npm (`npm i @colbymchenry/codegraph`) so the matching
+  per-platform package — which carries the compiled library and its
+  dependencies — is fetched alongside the shim.
+- The API runs on **your** runtime, so it needs **Node 22.5+** for the built-in
+  `node:sqlite` (Electron qualifies when its bundled Node is 22.5+). The CLI and
+  MCP server are unaffected — they run on the self-contained bundled runtime.
+- TypeScript types ship with the package. As with any Node-targeting library,
+  keep `@types/node` available and `skipLibCheck: true` (the common default).
 
 ---
 

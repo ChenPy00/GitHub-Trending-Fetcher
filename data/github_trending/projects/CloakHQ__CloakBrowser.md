@@ -5,7 +5,7 @@
   "full_name": "CloakHQ/CloakBrowser",
   "url": "https://github.com/CloakHQ/CloakBrowser",
   "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
-  "readme_sha256": "e562a20ea3197d6a82e68521ed7f761f2fab1d9b44b9ad274461cb77e86a7bb4"
+  "readme_sha256": "e6749f6ccccca6c7cd84ecf14cd1c6ac44a64f0651effe17f0f7a7eee1274bdc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/CloakHQ/CloakBrowser
 - Description: Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.
-- README SHA256: `e562a20ea3197d6a82e68521ed7f761f2fab1d9b44b9ad274461cb77e86a7bb4`
+- README SHA256: `e6749f6ccccca6c7cd84ecf14cd1c6ac44a64f0651effe17f0f7a7eee1274bdc`
 
 ## README
 
@@ -402,6 +402,7 @@ Use this when you need to:
 - **Bypass incognito detection** (some sites flag empty, ephemeral profiles)
 - **Load Chrome extensions** (extensions only work from a real user data dir)
 - **Build natural browsing history** (cached fonts, service workers, IndexedDB accumulate over time, making the profile look more realistic)
+- **Play DRM-protected video** (Widevine) — with a sideloaded CDM, the wrapper enables Widevine on the first launch (see [Widevine / DRM](#widevine--drm))
 
 ```python
 from cloakbrowser import launch_persistent_context
@@ -437,6 +438,26 @@ ctx = launch_persistent_context("./my-profile", args=["--fingerprint-storage-quo
 |---|---|---|
 | Default (auto, ~500MB) | PASS | -10 (flagged as incognito) |
 | `--fingerprint-storage-quota=5000` | May trigger detection | PASS (appears non-incognito) |
+
+### Widevine / DRM
+
+The binary is built with Widevine support, but the Widevine CDM is a proprietary Google component we can't redistribute. Sideload it once by copying a `WidevineCdm/` directory from a real Chrome install next to the binary (full steps in [#96](https://github.com/CloakHQ/CloakBrowser/issues/96)):
+
+```bash
+cp -r /opt/google/chrome/WidevineCdm ~/.cloakbrowser/chromium-<version>/WidevineCdm
+```
+
+With the CDM in place, `launch_persistent_context()` enables Widevine **on the first launch** — the wrapper auto-writes the CDM hint file into the profile, so you don't need the manual two-launch workaround. This lets you play DRM-protected video (e.g. Netflix, Spotify Web) and makes a persistent profile present as a regular Chrome install to detection services that probe for DRM/EME support as a real-browser signal.
+
+```python
+from cloakbrowser import launch_persistent_context
+
+# WidevineCdm sideloaded next to the binary -> Widevine works on first launch
+ctx = launch_persistent_context("./my-profile", headless=False)
+```
+
+- **Linux only.** Chromium's hint-file mechanism is Linux/ChromeOS-specific. On Windows the CDM can't initialise (DRM host verification) and macOS uses a different layout, so seeding is a no-op there.
+- **Auto by presence.** No flag needed — a sideloaded CDM is the opt-in. Point at a CDM in a non-default location with `CLOAKBROWSER_WIDEVINE_CDM=/path/to/WidevineCdm`, or disable seeding entirely with `CLOAKBROWSER_WIDEVINE=0`.
 
 ### CLI
 
@@ -621,6 +642,8 @@ Access the original un-patched Playwright page at `page._original` if you need r
 | `CLOAKBROWSER_AUTO_UPDATE` | `true` | Set to `false` to disable background update checks |
 | `CLOAKBROWSER_SKIP_CHECKSUM` | `false` | Set to `true` to skip SHA-256 verification after download |
 | `CLOAKBROWSER_GEOIP_TIMEOUT_SECONDS` | `5` | Max seconds for GeoIP resolution before continuing without it |
+| `CLOAKBROWSER_WIDEVINE_CDM` | — | Path to a sideloaded `WidevineCdm` directory (overrides auto-detection next to the binary). See [Widevine / DRM](#widevine--drm) |
+| `CLOAKBROWSER_WIDEVINE` | `1` | Set to `0` to disable automatic Widevine hint-file seeding for persistent contexts |
 
 ## Fingerprint Management
 
@@ -1088,7 +1111,9 @@ const browser = await launch({
 
 For persistent contexts (`launch_persistent_context` / `launchPersistentContext`), also add `--fingerprint-storage-quota=500` to the args.
 
-**Storage quota tradeoff:** The binary normalizes storage quota to ~500MB to pass FPJS, but this makes the session look like incognito to other detection services (e.g. BrowserScan's `notPrivate` check, -10 points). Setting `--fingerprint-storage-quota=5000` passes incognito checks but may trigger FPJS. You can't satisfy both simultaneously — choose based on what your target site checks. See the [storage quota tradeoff table](#launch_persistent_context) for details.
+**Storage quota tradeoff:** The binary normalizes storage quota to ~500MB to pass FPJS, but this makes the session look like incognito to other detection services (e.g. BrowserScan's `notPrivate` check, -10 points). Setting `--fingerprint-storage-quota=5000` passes incognito checks but may trigger FPJS. With quota alone you can't satisfy both — choose based on what your target site checks. See the [storage quota tradeoff table](#launch_persistent_context) for details.
+
+**Resolving the tradeoff (Linux):** Sideloading the Widevine CDM lets a persistent context pass FPJS at a higher quota, so you can satisfy both at once. See [Widevine / DRM](#widevine--drm).
 
 ---
 

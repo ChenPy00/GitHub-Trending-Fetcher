@@ -5,7 +5,7 @@
   "full_name": "iii-hq/iii",
   "url": "https://github.com/iii-hq/iii",
   "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
-  "readme_sha256": "cb691e541fb363684346532c07fcc81e781b71e0c0472693363168902e0411ed"
+  "readme_sha256": "28bf6278c3aea1ac8a3511a8cad5abad3d47cfe1c2f71ace204b6e74f594360f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iii-hq/iii
 - Description: Effortlessly compose, extend, and observe every service in real-time for the first time ever.
-- README SHA256: `cb691e541fb363684346532c07fcc81e781b71e0c0472693363168902e0411ed`
+- README SHA256: `28bf6278c3aea1ac8a3511a8cad5abad3d47cfe1c2f71ace204b6e74f594360f`
 
 ## README
 
@@ -27,10 +27,6 @@
 [![npm](https://img.shields.io/npm/v/iii-sdk?label=npm)](https://www.npmjs.com/package/iii-sdk)
 [![PyPI](https://img.shields.io/pypi/v/iii-sdk?label=pypi)](https://pypi.org/project/iii-sdk/)
 [![Crates.io](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fcrates.io%2Fapi%2Fv1%2Fcrates%2Fiii-sdk&query=%24.crate.max_stable_version&label=crates.io&prefix=v&color=orange)](https://crates.io/crates/iii-sdk)
-
-<a href="https://assets.motia.dev/videos/mp4/site/v1/iii-intro.mp4">
-  <img src=".github/assets/iii-intro-preview.gif" alt="Watch the iii intro (click to play)" width="720"/>
-</a>
 
 ## What is iii?
 
@@ -97,6 +93,10 @@ Extending iii is `iii worker add`. Composing iii is calling functions. Observing
 trace.
 
 ## Quick Start
+
+<a href="https://assets.motia.dev/videos/mp4/site/v1/iii-intro.mp4">
+  <img src=".github/assets/iii-intro-preview.gif" alt="Watch the iii intro (click to play)" width="720"/>
+</a>
 
 ```bash
 iii project init myapp    # scaffold a project

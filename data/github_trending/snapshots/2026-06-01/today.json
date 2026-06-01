@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 1,
+      "readme_sha256": "3826f8d45d97111a1a5786186e5185ef3e063d1531a99addcb1710390f453460",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 2,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "full_name": "D4Vinci/Scrapling",
+      "project_file": "projects/D4Vinci__Scrapling.md",
+      "rank": 3,
+      "readme_sha256": "5b63d76e62c61fd2598bdce8b7c6181d8e894d8b48908f7994d4931f20594e5d",
+      "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "full_name": "nesquena/hermes-webui",
+      "project_file": "projects/nesquena__hermes-webui.md",
+      "rank": 4,
+      "readme_sha256": "bd40238e5b117e1050d90511d03e8e98c70da10a3a1efb16243d21b2cf1ff70c",
+      "url": "https://github.com/nesquena/hermes-webui"
+    },
+    {
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "project_file": "projects/EveryInc__compound-engineering-plugin.md",
+      "rank": 5,
+      "readme_sha256": "0d178c14e384a510e008039afeb01958101a11c418b978aaf1e25125c40baa7a",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+    },
+    {
+      "description": "The open-source repo for docs.github.com",
+      "full_name": "github/docs",
+      "project_file": "projects/github__docs.md",
+      "rank": 6,
+      "readme_sha256": "1adc06cb1008208c356da0982fc8b81ee6d006695aae02f8464370ad87d78a5d",
+      "url": "https://github.com/github/docs"
+    },
+    {
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "OpenBMB/VoxCPM",
+      "project_file": "projects/OpenBMB__VoxCPM.md",
+      "rank": 7,
+      "readme_sha256": "e4683587278a088aa8273948b26dc695972f7dbf8f80daa9210bd03e51938899",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "full_name": "revfactory/harness",
+      "project_file": "projects/revfactory__harness.md",
+      "rank": 8,
+      "readme_sha256": "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1",
+      "url": "https://github.com/revfactory/harness"
+    },
+    {
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "full_name": "FareedKhan-dev/train-llm-from-scratch",
+      "project_file": "projects/FareedKhan-dev__train-llm-from-scratch.md",
+      "rank": 9,
+      "readme_sha256": "1688fec7660f901ae606a7a5fc5b4d6c2792f7e1115095c00a7009eba46a2440",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+    },
+    {
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "full_name": "supermemoryai/supermemory",
+      "project_file": "projects/supermemoryai__supermemory.md",
+      "rank": 10,
+      "readme_sha256": "34a2d8ce28f14750b4323897bf5b3d94dd44ea082e75d5e62be172b58a71fb01",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "project_file": "projects/Crosstalk-Solutions__project-nomad.md",
+      "rank": 11,
+      "readme_sha256": "fb5df8985077df1cdd851108412cd978c59450fd7783c26dd6f123877986b52e",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 12,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Pi extension for async subagent delegation with truncation, artifacts, and session sharing",
+      "full_name": "nicobailon/pi-subagents",
+      "project_file": "projects/nicobailon__pi-subagents.md",
+      "rank": 13,
+      "readme_sha256": "3bb26b6622720ebef6bdeaf2a38a5dff1146d2711e80e574f16676db9426f6a3",
+      "url": "https://github.com/nicobailon/pi-subagents"
+    },
+    {
+      "description": "A list of developer portfolios for your inspiration",
+      "full_name": "emmabostian/developer-portfolios",
+      "project_file": "projects/emmabostian__developer-portfolios.md",
+      "rank": 14,
+      "readme_sha256": "368ff93012424c33032be1d4bd352f355335de010b1a4db28a1cd81d569101bf",
+      "url": "https://github.com/emmabostian/developer-portfolios"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 15,
+      "readme_sha256": "ef8b9a62d496759f7870424b0c9e72dadebfa7a5427615dcb86b12c6d21cb5f3",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    }
+  ],
+  "snapshot_date": "2026-06-01",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
