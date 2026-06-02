@@ -5,7 +5,7 @@
   "full_name": "D4Vinci/Scrapling",
   "url": "https://github.com/D4Vinci/Scrapling",
   "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-  "readme_sha256": "5b63d76e62c61fd2598bdce8b7c6181d8e894d8b48908f7994d4931f20594e5d"
+  "readme_sha256": "24e6897adcaafbff955b7fb3498169c04e82b3abdba6b2d7bbd707b04e128b08"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/D4Vinci/Scrapling
 - Description: 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
-- README SHA256: `5b63d76e62c61fd2598bdce8b7c6181d8e894d8b48908f7994d4931f20594e5d`
+- README SHA256: `24e6897adcaafbff955b7fb3498169c04e82b3abdba6b2d7bbd707b04e128b08`
 
 ## README
 
@@ -189,16 +189,6 @@ MySpider().start()
     </td>
     <td>
     Read a full review of <a href="https://substack.thewebscraping.club/p/scrapling-hands-on-guide?utm_source=github&utm_medium=repo&utm_campaign=scrapling" target="_blank">Scrapling on The Web Scraping Club</a> (Nov 2025), the #1 newsletter dedicated to Web Scraping.
-    </td>
-  </tr>
-  <tr>
-    <td width="200">
-      <a href="http://mangoproxy.com/?utm_source=D4Vinci&utm_medium=GitHub&utm_campaign=D4Vinci" target="_blank" title="Proxies You Can Rely On: Residential, Server, and Mobile">
-        <img src="https://raw.githubusercontent.com/D4Vinci/Scrapling/main/images/MangoProxy.png">
-      </a>
-    </td>
-    <td>
-    <a href="http://mangoproxy.com/?utm_source=D4Vinci&utm_medium=GitHub&utm_campaign=D4Vinci" target="_blank">Stable proxies</a> for scraping, automation, and multi-accounting. Clean IPs, fast response, and reliable performance under load. Built for scalable workflows.
     </td>
   </tr>
   <tr>

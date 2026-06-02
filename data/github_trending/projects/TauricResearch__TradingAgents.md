@@ -5,7 +5,7 @@
   "full_name": "TauricResearch/TradingAgents",
   "url": "https://github.com/TauricResearch/TradingAgents",
   "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
-  "readme_sha256": "2187ec659fb3f115fe405316933aa623d9ccc89cb326b5cbf544e9d0ee89a79c"
+  "readme_sha256": "c9c05aee62c3d7556aae6b2376e1c523db4c7e1743b48cde091e2dca371d5440"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TauricResearch/TradingAgents
 - Description: TradingAgents: Multi-Agents LLM Financial Trading Framework
-- README SHA256: `2187ec659fb3f115fe405316933aa623d9ccc89cb326b5cbf544e9d0ee89a79c`
+- README SHA256: `c9c05aee62c3d7556aae6b2376e1c523db4c7e1743b48cde091e2dca371d5440`
 
 ## README
 
@@ -84,7 +84,7 @@ TradingAgents is a multi-agent trading framework that mirrors the dynamics of re
 
 > TradingAgents framework is designed for research purposes. Trading performance may vary based on many factors, including the chosen backbone language models, model temperature, trading periods, the quality of data, and other non-deterministic factors. [It is not intended as financial, investment, or trading advice.](https://tauric.ai/disclaimer/)
 
-Our framework decomposes complex trading tasks into specialized roles. This ensures the system achieves a robust, scalable approach to market analysis and decision-making.
+Our framework decomposes complex trading tasks into specialized roles.
 
 ### Analyst Team
 - Fundamentals Analyst: Evaluates company financials and performance metrics, identifying intrinsic values and potential red flags.
@@ -104,7 +104,7 @@ Our framework decomposes complex trading tasks into specialized roles. This ensu
 </p>
 
 ### Trader Agent
-- Composes reports from the analysts and researchers to make informed trading decisions. It determines the timing and magnitude of trades based on comprehensive market insights.
+- Composes reports from the analysts and researchers to make informed trading decisions, determining the timing and magnitude of trades.
 
 <p align="center">
   <img src="assets/trader.png" width="70%" style="display: inline-block; margin: 0 2%;">
@@ -190,6 +190,16 @@ python -m cli.main     # alternative: run directly from source
 ```
 You will see a screen where you can select your desired tickers, analysis date, LLM provider, research depth, and more.
 
+### Markets and tickers
+
+TradingAgents works with any market Yahoo Finance covers, using the exchange-suffixed ticker. Company identity and the alpha benchmark resolve automatically per market.
+
+- US: `AAPL`, `SPY`
+- Hong Kong: `0700.HK` · Tokyo: `7203.T` · London: `AZN.L`
+- India: `RELIANCE.NS`, `.BO` · Canada: `.TO` · Australia: `.AX`
+- China A-shares: Shanghai `.SS`, Shenzhen `.SZ` (e.g. `600519.SS` for Kweichow Moutai)
+- Crypto: `BTC-USD`, `ETH-USD`
+
 <p align="center">
   <img src="assets/cli/cli_init.png" width="100%" style="display: inline-block; margin: 0 2%;">
 </p>
@@ -233,7 +243,7 @@ from tradingagents.default_config import DEFAULT_CONFIG
 
 config = DEFAULT_CONFIG.copy()
 config["llm_provider"] = "openai"        # openai, google, anthropic, xai, deepseek, qwen, qwen-cn, glm, glm-cn, minimax, minimax-cn, openrouter, ollama, azure
-config["deep_think_llm"] = "gpt-5.4"     # Model for complex reasoning
+config["deep_think_llm"] = "gpt-5.5"     # Model for complex reasoning
 config["quick_think_llm"] = "gpt-5.4-mini" # Model for quick tasks
 config["max_debate_rounds"] = 2
 
@@ -296,9 +306,7 @@ Backtest results are not guaranteed to match any published figure. Returns depen
 
 ## Contributing
 
-We welcome contributions from the community! Whether it's fixing a bug, improving documentation, or suggesting a new feature, your input helps make this project better. If you are interested in this line of research, please consider joining our open-source financial AI research community [Tauric Research](https://tauric.ai/).
-
-Past contributions, including code, design feedback, and bug reports, are credited per release in [`CHANGELOG.md`](CHANGELOG.md).
+Contributions are welcome: bug fixes, documentation, and feature ideas; past contributions are credited per release in [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Citation
 

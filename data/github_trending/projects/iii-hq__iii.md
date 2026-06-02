@@ -5,7 +5,7 @@
   "full_name": "iii-hq/iii",
   "url": "https://github.com/iii-hq/iii",
   "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
-  "readme_sha256": "28bf6278c3aea1ac8a3511a8cad5abad3d47cfe1c2f71ace204b6e74f594360f"
+  "readme_sha256": "e020907dbb294e366145ceb804aa220abfaa5094dd6f1a1f6203c99b3eb0e793"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iii-hq/iii
 - Description: Effortlessly compose, extend, and observe every service in real-time for the first time ever.
-- README SHA256: `28bf6278c3aea1ac8a3511a8cad5abad3d47cfe1c2f71ace204b6e74f594360f`
+- README SHA256: `e020907dbb294e366145ceb804aa220abfaa5094dd6f1a1f6203c99b3eb0e793`
 
 ## README
 
@@ -136,7 +136,7 @@ more. See [skills/](skills/) for the full list.
 
 The [iii-console](console/) is a developer and operations console for inspecting workers, functions,
 triggers, queues, traces, logs, and real-time state. See the
-[Console docs](https://iii.dev/docs/console) for setup and usage.
+[Console docs](https://iii.dev/docs/using-iii/console) for setup and usage.
 
 ## Repository Structure
 

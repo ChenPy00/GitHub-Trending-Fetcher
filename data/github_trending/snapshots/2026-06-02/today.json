@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 1,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "full_name": "nesquena/hermes-webui",
+      "project_file": "projects/nesquena__hermes-webui.md",
+      "rank": 2,
+      "readme_sha256": "bd40238e5b117e1050d90511d03e8e98c70da10a3a1efb16243d21b2cf1ff70c",
+      "url": "https://github.com/nesquena/hermes-webui"
+    },
+    {
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "full_name": "supermemoryai/supermemory",
+      "project_file": "projects/supermemoryai__supermemory.md",
+      "rank": 3,
+      "readme_sha256": "34a2d8ce28f14750b4323897bf5b3d94dd44ea082e75d5e62be172b58a71fb01",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 4,
+      "readme_sha256": "3826f8d45d97111a1a5786186e5185ef3e063d1531a99addcb1710390f453460",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "full_name": "D4Vinci/Scrapling",
+      "project_file": "projects/D4Vinci__Scrapling.md",
+      "rank": 5,
+      "readme_sha256": "24e6897adcaafbff955b7fb3498169c04e82b3abdba6b2d7bbd707b04e128b08",
+      "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 6,
+      "readme_sha256": "9346730cb4cab467937b766a03378792873c936c8ce673b61cb4702b69a652bd",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Fully automatic censorship removal for language models",
+      "full_name": "p-e-w/heretic",
+      "project_file": "projects/p-e-w__heretic.md",
+      "rank": 7,
+      "readme_sha256": "2c4d5225c17dbc60bbb47e53a848d29e3f6b2c4ced48be3c234e4dbcdbbc5b6d",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "project_file": "projects/EveryInc__compound-engineering-plugin.md",
+      "rank": 8,
+      "readme_sha256": "0d178c14e384a510e008039afeb01958101a11c418b978aaf1e25125c40baa7a",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 9,
+      "readme_sha256": "c9c05aee62c3d7556aae6b2376e1c523db4c7e1743b48cde091e2dca371d5440",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "full_name": "revfactory/harness",
+      "project_file": "projects/revfactory__harness.md",
+      "rank": 10,
+      "readme_sha256": "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1",
+      "url": "https://github.com/revfactory/harness"
+    },
+    {
+      "description": "Godot Engine – Multi-platform 2D and 3D game engine",
+      "full_name": "godotengine/godot",
+      "project_file": "projects/godotengine__godot.md",
+      "rank": 11,
+      "readme_sha256": "ff22ca53f67a8703e626570b79635c31c78e8666656f2d8906aee9862642151e",
+      "url": "https://github.com/godotengine/godot"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 12,
+      "readme_sha256": "5c1069380b2dca36741d34383cf078009de439b9588dc7d2e18e8de926d05b18",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "OpenBMB/VoxCPM",
+      "project_file": "projects/OpenBMB__VoxCPM.md",
+      "rank": 13,
+      "readme_sha256": "e4683587278a088aa8273948b26dc695972f7dbf8f80daa9210bd03e51938899",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "full_name": "FareedKhan-dev/train-llm-from-scratch",
+      "project_file": "projects/FareedKhan-dev__train-llm-from-scratch.md",
+      "rank": 14,
+      "readme_sha256": "1688fec7660f901ae606a7a5fc5b4d6c2792f7e1115095c00a7009eba46a2440",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+    },
+    {
+      "description": "Code for Machine Learning for Algorithmic Trading, 2nd edition.",
+      "full_name": "stefan-jansen/machine-learning-for-trading",
+      "project_file": "projects/stefan-jansen__machine-learning-for-trading.md",
+      "rank": 15,
+      "readme_sha256": "b6fbea8d7ace15d55d695de524770484a3da1cd292c072d5733b99355c411666",
+      "url": "https://github.com/stefan-jansen/machine-learning-for-trading"
+    },
+    {
+      "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
+      "full_name": "dmtrKovalenko/fff",
+      "project_file": "projects/dmtrKovalenko__fff.md",
+      "rank": 16,
+      "readme_sha256": "eba304a069fd0a1cb09b4850d2cd687e1e7a86d9adc3353b3423da0182b1b122",
+      "url": "https://github.com/dmtrKovalenko/fff"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 17,
+      "readme_sha256": "ef8b9a62d496759f7870424b0c9e72dadebfa7a5427615dcb86b12c6d21cb5f3",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    }
+  ],
+  "snapshot_date": "2026-06-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

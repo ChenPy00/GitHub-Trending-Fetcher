@@ -5,7 +5,7 @@
   "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
   "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
   "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-  "readme_sha256": "8d6e953896a64a3dbffa9bca876238c4c60c0a109d6b9815d68fb49d2e67e788"
+  "readme_sha256": "4563b7f0616140f96eca945e7b3f31e3456835c1c2439891b658156518391e01"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 - Description: 754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0
-- README SHA256: `8d6e953896a64a3dbffa9bca876238c4c60c0a109d6b9815d68fb49d2e67e788`
+- README SHA256: `4563b7f0616140f96eca945e7b3f31e3456835c1c2439891b658156518391e01`
 
 ## README
 
@@ -64,7 +64,7 @@ No other open-source skills library maps every skill to all five frameworks.  On
 
 | Framework | Version | Scope in this repo | What it maps |
 |---|---|---|---|
-| [MITRE ATT&CK](https://attack.mitre.org) | v18 | 14 tactics · 200+ techniques | Adversary behaviors and TTPs |
+| [MITRE ATT&CK](https://attack.mitre.org) | v19.1 | 15 tactics · 286 techniques | Adversary behaviors and TTPs |
 | [NIST CSF 2.0](https://www.nist.gov/cyberframework) | 2.0 | 6 functions · 22 categories | Organizational security posture |
 | [MITRE ATLAS](https://atlas.mitre.org) | v5.4 | 16 tactics · 84 techniques | AI/ML adversarial threats |
 | [MITRE D3FEND](https://d3fend.mitre.org) | v1.3 | 7 categories · 267 techniques | Defensive countermeasures |
@@ -75,6 +75,28 @@ No other open-source skills library maps every skill to all five frameworks.  On
 | Skill | ATT&CK | NIST CSF | ATLAS | D3FEND | AI RMF |
 |---|---|---|---|---|---|
 | `analyzing-network-traffic-of-malware` | T1071 | DE.CM | AML.T0047 | D3-NTA | MEASURE-2.6 |
+
+### MITRE ATT&CK v19.1 — 754/754 skills mapped
+
+Every skill carries a `mitre_attack` frontmatter list validated against **MITRE ATT&CK v19.1** (the latest release) using the official `mitreattack-python` library — 286 distinct techniques across all 15 Enterprise tactics, plus ICS and Mobile techniques where relevant. Zero revoked or deprecated IDs. v19.1's restructured Defense Evasion (now split into **Stealth** and **Defense Impairment**) is reflected below.
+
+| Tactic | ID | Skills |
+|--------|----|--------|
+| Reconnaissance | TA0043 | 103 |
+| Resource Development | TA0042 | 22 |
+| Initial Access | TA0001 | 467 |
+| Execution | TA0002 | 350 |
+| Persistence | TA0003 | 444 |
+| Privilege Escalation | TA0004 | 464 |
+| Stealth | TA0005 | 442 |
+| Defense Impairment | TA0112 | 92 |
+| Credential Access | TA0006 | 202 |
+| Discovery | TA0007 | 237 |
+| Lateral Movement | TA0008 | 68 |
+| Collection | TA0009 | 172 |
+| Command and Control | TA0011 | 123 |
+| Exfiltration | TA0010 | 82 |
+| Impact | TA0040 | 50 |
 
 ## Quick start
 

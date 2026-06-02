@@ -4,16 +4,16 @@
   "name": "ruflo",
   "full_name": "ruvnet/ruflo",
   "url": "https://github.com/ruvnet/ruflo",
-  "description": "🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
-  "readme_sha256": "510d633b9cd39fe29a73a3320f86a09404557c533e0eebea37515780eac1a611"
+  "description": "🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration",
+  "readme_sha256": "67a91c4faa6803a786621aed63cd08daf238a499ad7f7d289fc1417f65bb02b2"
 }
 ```
 
 # ruvnet/ruflo
 
 - URL: https://github.com/ruvnet/ruflo
-- Description: 🌊 The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
-- README SHA256: `510d633b9cd39fe29a73a3320f86a09404557c533e0eebea37515780eac1a611`
+- Description: 🌊 The leading agent meta-harness for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning swarm intelligence, RAG integration, and native Claude Code / Codex Integration
+- README SHA256: `67a91c4faa6803a786621aed63cd08daf238a499ad7f7d289fc1417f65bb02b2`
 
 ## README
 
@@ -41,7 +41,7 @@
 
 # Ruflo
 
-**Multi-agent AI orchestration for Claude Code**
+**Multi-agent AI harness for Claude Code and Codex**
 
 </div>
 
