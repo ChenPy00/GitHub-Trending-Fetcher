@@ -5,7 +5,7 @@
   "full_name": "rohitg00/agentmemory",
   "url": "https://github.com/rohitg00/agentmemory",
   "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
-  "readme_sha256": "7936e6898f7181dbd721c9b4fed1ff3e111f19ab14c44871c246cbacab18b06b"
+  "readme_sha256": "aed3afcdd18e16379484a8f95acac8797d8e577c92812f15b56a0fef7ae06e3c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rohitg00/agentmemory
 - Description: #1 Persistent memory for AI coding agents based on real-world benchmarks
-- README SHA256: `7936e6898f7181dbd721c9b4fed1ff3e111f19ab14c44871c246cbacab18b06b`
+- README SHA256: `aed3afcdd18e16379484a8f95acac8797d8e577c92812f15b56a0fef7ae06e3c`
 
 ## README
 
@@ -1448,7 +1448,7 @@ Create `~/.agentmemory/.env`:
 
 <h2 id="api"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tags/light/section-api.svg"><img src="assets/tags/section-api.svg" alt="API" height="32" /></picture></h2>
 
-125 endpoints on port `3111`. The REST API binds to `127.0.0.1` by default. Protected endpoints require `Authorization: Bearer <secret>` when `AGENTMEMORY_SECRET` is set, and mesh sync endpoints require `AGENTMEMORY_SECRET` on both peers.
+126 endpoints on port `3111`. The REST API binds to `127.0.0.1` by default. Protected endpoints require `Authorization: Bearer <secret>` when `AGENTMEMORY_SECRET` is set, and mesh sync endpoints require `AGENTMEMORY_SECRET` on both peers.
 
 <details>
 <summary>Key endpoints</summary>
