@@ -5,7 +5,7 @@
   "full_name": "HKUDS/ViMax",
   "url": "https://github.com/HKUDS/ViMax",
   "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-  "readme_sha256": "c54c2831513a1ad31cac751e2ccdbd6b7393bb2258ef2a9d1fd579b16c3a1868"
+  "readme_sha256": "9977e1916f4d6124481a5825f52774cf47f46882f3553e63e86cc19e98d5bc19"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/ViMax
 - Description: "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
-- README SHA256: `c54c2831513a1ad31cac751e2ccdbd6b7393bb2258ef2a9d1fd579b16c3a1868`
+- README SHA256: `9977e1916f4d6124481a5825f52774cf47f46882f3553e63e86cc19e98d5bc19`
 
 ## README
 
@@ -458,13 +458,13 @@ style = "Cartoon"
 
 #### Using MiniMax as Chat Model Provider
 
-[MiniMax](https://www.minimaxi.com/) models can be used as an alternative chat model provider. MiniMax offers OpenAI-compatible API access to models such as **MiniMax-M2.7** (1M context window) and **MiniMax-M2.5** (204K context).
+[MiniMax](https://www.minimaxi.com/) models can be used as an alternative chat model provider. MiniMax offers OpenAI-compatible API access to models such as **MiniMax-M3** (latest) and **MiniMax-M2.7** (1M context window).
 
 Simply set `model_provider: minimax` in your config — the base URL is resolved automatically:
 ```yaml
 chat_model:
   init_args:
-    model: MiniMax-M2.7
+    model: MiniMax-M3
     model_provider: minimax
     api_key: <YOUR_MINIMAX_API_KEY>
 ```
@@ -476,12 +476,11 @@ export MINIMAX_API_KEY=<YOUR_KEY>
 
 See `configs/idea2video_minimax.yaml` and `configs/script2video_minimax.yaml` for complete examples.
 
-| Model | Context | Note |
-|---|---|---|
-| MiniMax-M2.7 | 1M tokens | Latest, recommended |
-| MiniMax-M2.7-highspeed | 1M tokens | Fast variant |
-| MiniMax-M2.5 | 204K tokens | Stable |
-| MiniMax-M2.5-highspeed | 204K tokens | Fast variant |
+| Model | Note |
+|---|---|
+| MiniMax-M3 | Latest, recommended |
+| MiniMax-M2.7 | Previous generation, 1M context |
+| MiniMax-M2.7-highspeed | Fast variant of M2.7 |
 
 ---
 

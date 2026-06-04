@@ -5,7 +5,7 @@
   "full_name": "nesquena/hermes-webui",
   "url": "https://github.com/nesquena/hermes-webui",
   "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-  "readme_sha256": "bd40238e5b117e1050d90511d03e8e98c70da10a3a1efb16243d21b2cf1ff70c"
+  "readme_sha256": "7582d032d8acdf805e4f8659edf3c9eeaae15569c5460a3e37d4f2a76a7c24da"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/nesquena/hermes-webui
 - Description: Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!
-- README SHA256: `bd40238e5b117e1050d90511d03e8e98c70da10a3a1efb16243d21b2cf1ff70c`
+- README SHA256: `7582d032d8acdf805e4f8659edf3c9eeaae15569c5460a3e37d4f2a76a7c24da`
 
 ## README
 
@@ -551,6 +551,16 @@ docker-compose.yml  Compose with named volume and optional auth
 State lives outside the repo at `~/.hermes/webui/` by default
 (sessions, workspaces, settings, projects, last_workspace). Override with `HERMES_WEBUI_STATE_DIR`.
 Full design notes and the endpoint catalog are in [`ARCHITECTURE.md`](ARCHITECTURE.md).
+
+---
+
+## Compatibility
+
+The WebUI is tested against the current hermes-agent release at the time of each WebUI release. Until [#2491](https://github.com/nesquena/hermes-webui/issues/2491) lands a stable agent API, the WebUI imports agent Python modules directly (`api/config.py`, `api/providers.py`, `api/streaming.py`), so version skew can cause silent import errors or incorrect behaviour.
+
+**Upgrade both together.** When you update WebUI, update hermes-agent to the same release date. Running a pinned older agent against a newer WebUI (or vice versa) is untested and unsupported until #2491.
+
+**Docker users: pin both image tags** rather than using `latest` on one and a fixed tag on the other. When upgrading the multi-container setup, follow the agent-image upgrade procedure in [`docs/docker.md`](docs/docker.md) (which requires dropping the `hermes-agent-src` volume before recreating). The current agent/WebUI coupling is tracked in [`docs/rfcs/agent-source-boundary.md`](docs/rfcs/agent-source-boundary.md).
 
 ---
 

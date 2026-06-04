@@ -1,0 +1,161 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 1,
+      "readme_sha256": "4363464f99a249acf07667d83686ddab416ee5e7b45c6ea53ac58e3cd794586a",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 2,
+      "readme_sha256": "8b0fc62533e1f52e216476af38e10d1dabf1224abc3640388c25943eaf4ff609",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "Stealth Chromium that passes every bot detection test. Drop-in Playwright replacement with source-level fingerprint patches. 30/30 tests passed.",
+      "full_name": "CloakHQ/CloakBrowser",
+      "project_file": "projects/CloakHQ__CloakBrowser.md",
+      "rank": 3,
+      "readme_sha256": "e6749f6ccccca6c7cd84ecf14cd1c6ac44a64f0651effe17f0f7a7eee1274bdc",
+      "url": "https://github.com/CloakHQ/CloakBrowser"
+    },
+    {
+      "description": "DeepSeek + MiMo coding agent in terminal",
+      "full_name": "Hmbown/CodeWhale",
+      "project_file": "projects/Hmbown__CodeWhale.md",
+      "rank": 4,
+      "readme_sha256": "219a13fc7e864cbd5204436fbf9ae02a64494e9c946fbe53f71f2b871a79043f",
+      "url": "https://github.com/Hmbown/CodeWhale"
+    },
+    {
+      "description": "#1 Persistent memory for AI coding agents based on real-world benchmarks",
+      "full_name": "rohitg00/agentmemory",
+      "project_file": "projects/rohitg00__agentmemory.md",
+      "rank": 5,
+      "readme_sha256": "daca28c5ee5f2fdd0ed232578f626e2d67104dae125e15eed14f0b7ebe6e6d8a",
+      "url": "https://github.com/rohitg00/agentmemory"
+    },
+    {
+      "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "full_name": "Lum1104/Understand-Anything",
+      "project_file": "projects/Lum1104__Understand-Anything.md",
+      "rank": 6,
+      "readme_sha256": "62a5214672ab8e7b65c9eb32176e3f45a43d0fcb1b26b4ba63e07538f69a0591",
+      "url": "https://github.com/Lum1104/Understand-Anything"
+    },
+    {
+      "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
+      "full_name": "HKUDS/ViMax",
+      "project_file": "projects/HKUDS__ViMax.md",
+      "rank": 7,
+      "readme_sha256": "9977e1916f4d6124481a5825f52774cf47f46882f3553e63e86cc19e98d5bc19",
+      "url": "https://github.com/HKUDS/ViMax"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 8,
+      "readme_sha256": "903b6ff8f8ab7c6984472b13f61cd3b1afa46699b5029b0eb0d9534e4acbed03",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "Desktop Companion for Hermes Agent",
+      "full_name": "fathah/hermes-desktop",
+      "project_file": "projects/fathah__hermes-desktop.md",
+      "rank": 9,
+      "readme_sha256": "c7ffe524994acbed646cd6af5f5a169afdd0ba26c4fbdd2d32caf893cd5a145f",
+      "url": "https://github.com/fathah/hermes-desktop"
+    },
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 10,
+      "readme_sha256": "058dcfc52966eef3633dc8737e7c878767f879e17505152301e8b64d939153cf",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 11,
+      "readme_sha256": "2338bd23766e41cdbe5397a8ff2d66101641071bdeda238385c960705471a745",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 12,
+      "readme_sha256": "65e8ce7af3e58b7e57d8f3e6bed05d9bd4e3b1d887be9291d1aa5e6338bf7c71",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Let's use AI to Earn!",
+      "full_name": "yikart/AiToEarn",
+      "project_file": "projects/yikart__AiToEarn.md",
+      "rank": 13,
+      "readme_sha256": "a69bbcc34018c1f6e096e35704f8063971a32aacb152268f1959cbc0f01c0fae",
+      "url": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
+      "full_name": "decolua/9router",
+      "project_file": "projects/decolua__9router.md",
+      "rank": 14,
+      "readme_sha256": "1f1511d29345c428ebbd7a2b83f3f8ad6af4447eff9a3fbcdae26e5385c03e10",
+      "url": "https://github.com/decolua/9router"
+    },
+    {
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "full_name": "bytedance/UI-TARS-desktop",
+      "project_file": "projects/bytedance__UI-TARS-desktop.md",
+      "rank": 15,
+      "readme_sha256": "0f05aa4f447d43439f6b3f4ab179cbe1e59d170eaf6c0684fa9c2eb0872e5985",
+      "url": "https://github.com/bytedance/UI-TARS-desktop"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 16,
+      "readme_sha256": "c3735ca46d5c75bbe9f97715c0dd2de870220e0d0cf152088381082ea24d0731",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 17,
+      "readme_sha256": "1db4b5d078019f3576730e32c22cb403814385bbeb0840c90a005d5ceaf6e512",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 18,
+      "readme_sha256": "41af50d2d481afa9e80f7b5258585f196e1c02bb9e9a7708f850b27943c9740f",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+      "full_name": "datawhalechina/easy-vibe",
+      "project_file": "projects/datawhalechina__easy-vibe.md",
+      "rank": 19,
+      "readme_sha256": "45654c35dc8ea95eba481a1b9597eace22038d27f519027ae79b52bddcd75372",
+      "url": "https://github.com/datawhalechina/easy-vibe"
+    }
+  ],
+  "snapshot_date": "2026-06-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

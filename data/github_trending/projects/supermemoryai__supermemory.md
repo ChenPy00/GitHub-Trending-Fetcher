@@ -5,7 +5,7 @@
   "full_name": "supermemoryai/supermemory",
   "url": "https://github.com/supermemoryai/supermemory",
   "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-  "readme_sha256": "34a2d8ce28f14750b4323897bf5b3d94dd44ea082e75d5e62be172b58a71fb01"
+  "readme_sha256": "a80d8433f4b0a157926fd4360fabdc40b5b7ae4ec3a78f47a1c7cc1b6f5ebbb7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/supermemoryai/supermemory
 - Description: Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
-- README SHA256: `34a2d8ce28f14750b4323897bf5b3d94dd44ea082e75d5e62be172b58a71fb01`
+- README SHA256: `a80d8433f4b0a157926fd4360fabdc40b5b7ae4ec3a78f47a1c7cc1b6f5ebbb7`
 
 ## README
 
@@ -40,6 +40,10 @@
   <a href="https://www.npmjs.com/package/supermemory"><img src="https://img.shields.io/npm/v/supermemory?style=flat-square&color=blue" alt="npm" /></a>
   <a href="https://pypi.org/project/supermemory/"><img src="https://img.shields.io/pypi/v/supermemory?style=flat-square&color=blue" alt="pypi" /></a>
   <a href="https://supermemory.ai/docs"><img src="https://img.shields.io/badge/docs-supermemory.ai-blue?style=flat-square" alt="docs" /></a>
+</p>
+
+<p align="center">
+  <strong>English</strong> · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 ---

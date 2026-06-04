@@ -5,7 +5,7 @@
   "full_name": "OpenMOSS/MOSS-TTS",
   "url": "https://github.com/OpenMOSS/MOSS-TTS",
   "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
-  "readme_sha256": "9b18243cdc98c78c138f6f9eee716978654f52e14f68ac2c111940230daf0067"
+  "readme_sha256": "3a1cc8446dc58b085c24f598c897c76779dec206bd81de73c760260c15fb9137"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/OpenMOSS/MOSS-TTS
 - Description: MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.
-- README SHA256: `9b18243cdc98c78c138f6f9eee716978654f52e14f68ac2c111940230daf0067`
+- README SHA256: `3a1cc8446dc58b085c24f598c897c76779dec206bd81de73c760260c15fb9137`
 
 ## README
 
@@ -42,7 +42,7 @@
   <a href="https://studio.mosi.cn"><img src="https://img.shields.io/badge/AIStudio-Try-green?logo=internet-explorer&amp"></a>
   <a href="https://studio.mosi.cn/docs/moss-tts"><img src="https://img.shields.io/badge/API-Docs-00A3FF?logo=fastapi&amp"></a>
   <a href="https://x.com/Open_MOSS"><img src="https://img.shields.io/badge/Twitter-Follow-black?logo=x&amp"></a>
-  <a href="https://discord.gg/fvm5TaWjU3"><img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp"></a>
+  <a href="https://discord.gg/Ahu78PH4p"><img src="https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&amp"></a>
   <a href="./assets/wechat.jpg"><img src="https://img.shields.io/badge/WeChat-Join-07C160?logo=wechat&amp;logoColor=white" alt="WeChat"></a>
 </div>
 

@@ -5,7 +5,7 @@
   "full_name": "Lum1104/Understand-Anything",
   "url": "https://github.com/Lum1104/Understand-Anything",
   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-  "readme_sha256": "ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe"
+  "readme_sha256": "62a5214672ab8e7b65c9eb32176e3f45a43d0fcb1b26b4ba63e07538f69a0591"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Lum1104/Understand-Anything
 - Description: Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
-- README SHA256: `ebec9c27cb1b7e9f72e80f7253141ab5d19ebba235224829d827e47660479cfe`
+- README SHA256: `62a5214672ab8e7b65c9eb32176e3f45a43d0fcb1b26b4ba63e07538f69a0591`
 
 ## README
 
@@ -145,6 +145,8 @@ A multi-agent pipeline scans your project, extracts every file, function, class,
 
 # Supported languages: en (default), zh, zh-TW, ja, ko, ru
 ```
+
+On the **first run** in a project — when you don't pass `--language` and no language is stored yet — `/understand` detects the language you're conversing in. If it isn't English, it asks you to confirm (or override) before generating; English conversations are unaffected. Your choice is saved to `.understand-anything/config.json` and reused on every later run.
 
 The `--language` parameter affects:
 - Node summaries and descriptions in the knowledge graph

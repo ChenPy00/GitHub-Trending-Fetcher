@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 1,
+      "readme_sha256": "1db4b5d078019f3576730e32c22cb403814385bbeb0840c90a005d5ceaf6e512",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 2,
+      "readme_sha256": "976b75ac66357a33c7f528b189cb574e7c4337bf0915127b4373b1d30c4e489e",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "full_name": "aquasecurity/trivy",
+      "project_file": "projects/aquasecurity__trivy.md",
+      "rank": 3,
+      "readme_sha256": "217d4d9db626c98b80f0fa214b510705d922f16b9c9452a6ce10d86788be67ba",
+      "url": "https://github.com/aquasecurity/trivy"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 4,
+      "readme_sha256": "f7d8a14f5fd54d1a0803809d1e41c8d5eeac8c4e2c5afb0d1f5e426835c82873",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 5,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "full_name": "nesquena/hermes-webui",
+      "project_file": "projects/nesquena__hermes-webui.md",
+      "rank": 6,
+      "readme_sha256": "7582d032d8acdf805e4f8659edf3c9eeaae15569c5460a3e37d4f2a76a7c24da",
+      "url": "https://github.com/nesquena/hermes-webui"
+    },
+    {
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "full_name": "D4Vinci/Scrapling",
+      "project_file": "projects/D4Vinci__Scrapling.md",
+      "rank": 7,
+      "readme_sha256": "46cc413a7baab7781ca5c6aed5d8018a78fa8bb445e38b7fbaf4d04bf9c3182a",
+      "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
+      "full_name": "opendataloader-project/opendataloader-pdf",
+      "project_file": "projects/opendataloader-project__opendataloader-pdf.md",
+      "rank": 8,
+      "readme_sha256": "a7abc2a6b1124c28df5fee64cac2e492480a4f3c74552890cddcc915fccf5bb1",
+      "url": "https://github.com/opendataloader-project/opendataloader-pdf"
+    },
+    {
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "full_name": "odoo/odoo",
+      "project_file": "projects/odoo__odoo.md",
+      "rank": 9,
+      "readme_sha256": "964c3dc18f056f667fd488efde0d25847aca0f7a8c99feca06d6dd6ef9657659",
+      "url": "https://github.com/odoo/odoo"
+    },
+    {
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "project_file": "projects/Open-LLM-VTuber__Open-LLM-VTuber.md",
+      "rank": 10,
+      "readme_sha256": "3b6cf6adbf7c49a00e89d99c0fdb582a316054f8bb44332f7c95800fdd674140",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber"
+    },
+    {
+      "description": "A complete computer science study plan to become a software engineer.",
+      "full_name": "jwasham/coding-interview-university",
+      "project_file": "projects/jwasham__coding-interview-university.md",
+      "rank": 11,
+      "readme_sha256": "5616cd60c0bf8086a0363e3ec1bef5c49b8fdc10114991974802374c2df3b0ae",
+      "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    {
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 12,
+      "readme_sha256": "63745b7d1d71908dde70765fa3328fbc6d2a783a5b2a9a8907795b87f3a554e3",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "full_name": "supermemoryai/supermemory",
+      "project_file": "projects/supermemoryai__supermemory.md",
+      "rank": 13,
+      "readme_sha256": "a80d8433f4b0a157926fd4360fabdc40b5b7ae4ec3a78f47a1c7cc1b6f5ebbb7",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 14,
+      "readme_sha256": "f398c27f29f8109ce15e021345132bb4c004f4c731a11389eb56c9cbfd178eec",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    }
+  ],
+  "snapshot_date": "2026-06-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

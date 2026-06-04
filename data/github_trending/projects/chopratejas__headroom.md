@@ -5,7 +5,7 @@
   "full_name": "chopratejas/headroom",
   "url": "https://github.com/chopratejas/headroom",
   "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-  "readme_sha256": "05dd6982b7b6c134b42a7f55dcfbe262e029a1928a1fc4d4bf314a6133af2316"
+  "readme_sha256": "1db4b5d078019f3576730e32c22cb403814385bbeb0840c90a005d5ceaf6e512"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chopratejas/headroom
 - Description: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- README SHA256: `05dd6982b7b6c134b42a7f55dcfbe262e029a1928a1fc4d4bf314a6133af2316`
+- README SHA256: `1db4b5d078019f3576730e32c22cb403814385bbeb0840c90a005d5ceaf6e512`
 
 ## README
 
@@ -114,7 +114,7 @@ headroom proxy --port 8787              # drop-in proxy, zero code changes
 # or: from headroom import compress      # inline library
 
 # 3 — See the savings
-headroom stats
+headroom perf
 ```
 
 Granular extras: `[proxy]`, `[mcp]`, `[ml]`, `[agno]`, `[langchain]`, `[evals]`. Requires **Python 3.10+**.

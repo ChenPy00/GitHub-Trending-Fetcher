@@ -5,7 +5,7 @@
   "full_name": "D4Vinci/Scrapling",
   "url": "https://github.com/D4Vinci/Scrapling",
   "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
-  "readme_sha256": "24e6897adcaafbff955b7fb3498169c04e82b3abdba6b2d7bbd707b04e128b08"
+  "readme_sha256": "46cc413a7baab7781ca5c6aed5d8018a78fa8bb445e38b7fbaf4d04bf9c3182a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/D4Vinci/Scrapling
 - Description: 🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!
-- README SHA256: `24e6897adcaafbff955b7fb3498169c04e82b3abdba6b2d7bbd707b04e128b08`
+- README SHA256: `46cc413a7baab7781ca5c6aed5d8018a78fa8bb445e38b7fbaf4d04bf9c3182a`
 
 ## README
 
@@ -208,7 +208,7 @@ MySpider().start()
       </a>
     </td>
     <td>
-    <a href="https://9proxy.com/pricing?tab=traffic&utm_source=Github&utm_campaign=D4vinci" target="_blank">9Proxy</a> provides residential proxies from just $0.015/IP or $0.68/GB. 20M+ IPs across 90+ countries. Sticky or rotating sessions, managed from desktop or mobile app.
+    <a href="https://9proxy.com/pricing?tab=traffic&utm_source=Github&utm_campaign=D4vinci" target="_blank">9Proxy</a> provides residential proxies from just $0.018/IP or $0.68/GB. 20M+ IPs across 90+ countries. Sticky or rotating sessions, managed from desktop or mobile app.
     </td>
   </tr>
   <tr>

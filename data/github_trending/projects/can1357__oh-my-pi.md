@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "5c1069380b2dca36741d34383cf078009de439b9588dc7d2e18e8de926d05b18"
+  "readme_sha256": "41af50d2d481afa9e80f7b5258585f196e1c02bb9e9a7708f850b27943c9740f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `5c1069380b2dca36741d34383cf078009de439b9588dc7d2e18e8de926d05b18`
+- README SHA256: `41af50d2d481afa9e80f7b5258585f196e1c02bb9e9a7708f850b27943c9740f`
 
 ## README
 
@@ -243,7 +243,7 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 
 - `task` — fan out subagents in parallel, optionally workspace-isolated.
 - `irc` — short prose between live agents in this process.
-- `todo_write` — ordered mutations over the session todo list with phase tracking.
+- `todo` — ordered mutations over the session todo list with phase tracking.
 - `job` — wait on or cancel background jobs.
 - `ask` — structured follow-up questions for interactive runs.
 
