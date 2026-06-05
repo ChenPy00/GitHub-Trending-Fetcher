@@ -5,7 +5,7 @@
   "full_name": "OpenMOSS/MOSS-TTS",
   "url": "https://github.com/OpenMOSS/MOSS-TTS",
   "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
-  "readme_sha256": "3a1cc8446dc58b085c24f598c897c76779dec206bd81de73c760260c15fb9137"
+  "readme_sha256": "74f568566be3628b2b60d4a348b77137d7f9cbb60c83c7334f5545e198dde152"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/OpenMOSS/MOSS-TTS
 - Description: MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.
-- README SHA256: `3a1cc8446dc58b085c24f598c897c76779dec206bd81de73c760260c15fb9137`
+- README SHA256: `74f568566be3628b2b60d4a348b77137d7f9cbb60c83c7334f5545e198dde152`
 
 ## README
 
@@ -226,7 +226,16 @@ conda create -n moss-tts python=3.12 -y
 conda activate moss-tts
 ```
 
-Install all required dependencies:
+Install the FFmpeg system dependency (required by `torchcodec` for audio I/O):
+
+```bash
+# Debian/Ubuntu
+sudo apt-get install -y ffmpeg
+# macOS
+brew install ffmpeg
+```
+
+Install all required Python dependencies:
 
 ```bash
 git clone https://github.com/OpenMOSS/MOSS-TTS.git

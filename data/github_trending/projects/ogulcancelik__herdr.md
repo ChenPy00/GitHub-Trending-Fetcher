@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "601caa667cf164b04b6fdf8e9942011ae9885d2c661c0a3bace10799161283c6"
+  "readme_sha256": "7cdd00c92e0532ef4e8b37dcdb95033f0b1121233cdd9cb4c03d9c5c5f6a8efb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `601caa667cf164b04b6fdf8e9942011ae9885d2c661c0a3bace10799161283c6`
+- README SHA256: `7cdd00c92e0532ef4e8b37dcdb95033f0b1121233cdd9cb4c03d9c5c5f6a8efb`
 
 ## README
 
@@ -168,7 +168,7 @@ detection works by reading foreground process and terminal output. zero config, 
 
 ## lives in your terminal
 
-not a gui window, not a web dashboard, not electron. herdr runs inside whatever terminal you already use. single rust binary, no dependencies. works inside tmux.
+not a gui window, not a web dashboard, not electron. herdr runs inside whatever terminal you already use. single rust binary, no dependencies. works inside tmux as the outer terminal environment.
 
 ## what you get
 

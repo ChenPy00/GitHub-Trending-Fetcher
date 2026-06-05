@@ -5,7 +5,7 @@
   "full_name": "fathah/hermes-desktop",
   "url": "https://github.com/fathah/hermes-desktop",
   "description": "Desktop Companion for Hermes Agent",
-  "readme_sha256": "c7ffe524994acbed646cd6af5f5a169afdd0ba26c4fbdd2d32caf893cd5a145f"
+  "readme_sha256": "131d69835d067eac729a71870b4cb207df5ab34f48e098b246d6d44c62c6cbc0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/fathah/hermes-desktop
 - Description: Desktop Companion for Hermes Agent
-- README SHA256: `c7ffe524994acbed646cd6af5f5a169afdd0ba26c4fbdd2d32caf893cd5a145f`
+- README SHA256: `131d69835d067eac729a71870b4cb207df5ab34f48e098b246d6d44c62c6cbc0`
 
 ## README
 
@@ -280,7 +280,7 @@ Hermes files are managed in:
 
 ## Contributing
 
-Contributions are welcome! Check out the [Contributing Guide](CONTRIBUTING.md) to get started. If you're not sure where to begin, take a look at the [open issues](https://github.com/NousResearch/hermes-desktop/issues). Found a bug or have a feature request? [File an issue](https://github.com/NousResearch/hermes-desktop/issues/new).
+Contributions are welcome! Check out the [Contributing Guide](CONTRIBUTING.md) to get started. If you're not sure where to begin, take a look at the [open issues](https://github.com/fathah/hermes-desktop/issues). Found a bug or have a feature request? [File an issue](https://github.com/fathah/hermes-desktop/issues/new).
 
 ## Related Project
 
