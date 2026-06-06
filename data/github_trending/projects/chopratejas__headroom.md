@@ -5,7 +5,7 @@
   "full_name": "chopratejas/headroom",
   "url": "https://github.com/chopratejas/headroom",
   "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-  "readme_sha256": "149fe73d9c89e7bc90f4ac7c3635637ae9b999bb9eb928c4612064bcfe43a0c7"
+  "readme_sha256": "c4da0a1adc2e043ec563dadc6dcb23ac312b545bf2534d6184b3beb30f60d5bb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chopratejas/headroom
 - Description: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- README SHA256: `149fe73d9c89e7bc90f4ac7c3635637ae9b999bb9eb928c4612064bcfe43a0c7`
+- README SHA256: `c4da0a1adc2e043ec563dadc6dcb23ac312b545bf2534d6184b3beb30f60d5bb`
 
 ## README
 
@@ -142,16 +142,22 @@ Granular extras: `[proxy]`, `[mcp]`, `[ml]`, `[code]`, `[memory]`, `[relevance]`
 
 Reproduce: `python -m headroom.evals suite --tier 1` · [Full benchmarks & methodology](https://headroom-docs.vercel.app/docs/benchmarks)
 
+<a href="https://www.star-history.com/?repos=chopratejas%2Fheadroom&type=date&legend=top-left">
+ <picture>
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=chopratejas/headroom&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ## Agent compatibility matrix
 
 | Agent       | `headroom wrap` | Notes                            |
 |-------------|:---------------:|----------------------------------|
-| Claude Code | ●               | `--memory` · `--code-graph`      |
-| Codex       | ●               | shares memory with Claude        |
-| Cursor      | ●               | prints config — paste once       |
-| Aider       | ●               | starts proxy + launches          |
-| Copilot CLI | ●               | starts proxy + launches          |
-| OpenClaw    | ●               | installs as ContextEngine plugin |
+| Claude Code | ✅              | `--memory` · `--code-graph`      |
+| Codex       | ✅              | shares memory with Claude        |
+| Cursor      | ✅              | prints config — paste once       |
+| Aider       | ✅              | starts proxy + launches          |
+| Copilot CLI | ✅              | starts proxy + launches          |
+| OpenClaw    | ✅              | installs as ContextEngine plugin |
 
 Any OpenAI-compatible client works via `headroom proxy`. MCP-native: `headroom mcp install`.
 

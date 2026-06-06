@@ -4,7 +4,7 @@
   "name": "easy-vibe",
   "full_name": "datawhalechina/easy-vibe",
   "url": "https://github.com/datawhalechina/easy-vibe",
-  "description": "💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.",
+  "description": "💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.",
   "readme_sha256": "45654c35dc8ea95eba481a1b9597eace22038d27f519027ae79b52bddcd75372"
 }
 ```
@@ -12,7 +12,7 @@
 # datawhalechina/easy-vibe
 
 - URL: https://github.com/datawhalechina/easy-vibe
-- Description: 💻 vibe coding 2026 | Your first modern Coding course for beginners to master step by step.
+- Description: 💻 vibe coding 2026 | Your first modern Coding course beginners to master step by step.
 - README SHA256: `45654c35dc8ea95eba481a1b9597eace22038d27f519027ae79b52bddcd75372`
 
 ## README

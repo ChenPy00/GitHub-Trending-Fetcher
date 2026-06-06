@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 1,
+      "readme_sha256": "e22d08ef12775eb1c318ba660a5b8904f9a9408bc4d068f431fcf1e504aacfcc",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 2,
+      "readme_sha256": "c4da0a1adc2e043ec563dadc6dcb23ac312b545bf2534d6184b3beb30f60d5bb",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+      "full_name": "CopilotKit/CopilotKit",
+      "project_file": "projects/CopilotKit__CopilotKit.md",
+      "rank": 3,
+      "readme_sha256": "3fc5adaa5dac94d40f70513e5919a6fae9c3c86575e4602ca34c52045e7d17ab",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 4,
+      "readme_sha256": "a6b4972fd7e0c1e254b65fd6570645b12d3f0336bb9130ae7579faa20205a9e8",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 5,
+      "readme_sha256": "37ac7a3f60380b81fc90f779bdb72ea240a5f1291ef9499f93c8fc4056d3512e",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "cfcddda58af531da8c9eb63644d4f33b88d682a67f6f98a9535811f853eb4507",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "full_name": "NVIDIA/cosmos",
+      "project_file": "projects/NVIDIA__cosmos.md",
+      "rank": 7,
+      "readme_sha256": "d5e4617146dee31d4e8e5b674b0921a63bcc4e2f190d33e36cd80718919c51bb",
+      "url": "https://github.com/NVIDIA/cosmos"
+    },
+    {
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "full_name": "666ghj/MiroFish",
+      "project_file": "projects/666ghj__MiroFish.md",
+      "rank": 8,
+      "readme_sha256": "92f8093faa20833b75ea238710e88c7f6b05a6c58d2fc62f36d9de5ca00a48b7",
+      "url": "https://github.com/666ghj/MiroFish"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 9,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "full_name": "PaddlePaddle/PaddleOCR",
+      "project_file": "projects/PaddlePaddle__PaddleOCR.md",
+      "rank": 10,
+      "readme_sha256": "cf0b351fc24a01b13f2b839d4023934f082d0b0dcf1f84486278c0880ffe7d23",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 11,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "full_name": "MemPalace/mempalace",
+      "project_file": "projects/MemPalace__mempalace.md",
+      "rank": 12,
+      "readme_sha256": "83e2687b66dc53b3aa7e101b3959dcdc46409cf7a3f8ddb9741d0fd64231160d",
+      "url": "https://github.com/MemPalace/mempalace"
+    },
+    {
+      "description": "The sandbox agent framework.",
+      "full_name": "withastro/flue",
+      "project_file": "projects/withastro__flue.md",
+      "rank": 13,
+      "readme_sha256": "23be46c5c12e35febe7ba061744edca52c3666e6a1f95bf9093957a87edd59a0",
+      "url": "https://github.com/withastro/flue"
+    },
+    {
+      "description": "Windows companion suite for OpenClaw - System Tray app, Shared library, Node, and PowerToys Command Palette extension",
+      "full_name": "openclaw/openclaw-windows-node",
+      "project_file": "projects/openclaw__openclaw-windows-node.md",
+      "rank": 14,
+      "readme_sha256": "9c63f7a3fe18a35214f35818ffcf8bc32b5d2b0dfe64f75d6b67ab9052d50f89",
+      "url": "https://github.com/openclaw/openclaw-windows-node"
+    },
+    {
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "full_name": "aquasecurity/trivy",
+      "project_file": "projects/aquasecurity__trivy.md",
+      "rank": 15,
+      "readme_sha256": "217d4d9db626c98b80f0fa214b510705d922f16b9c9452a6ce10d86788be67ba",
+      "url": "https://github.com/aquasecurity/trivy"
+    },
+    {
+      "description": "A complete computer science study plan to become a software engineer.",
+      "full_name": "jwasham/coding-interview-university",
+      "project_file": "projects/jwasham__coding-interview-university.md",
+      "rank": 16,
+      "readme_sha256": "5616cd60c0bf8086a0363e3ec1bef5c49b8fdc10114991974802374c2df3b0ae",
+      "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    {
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "full_name": "github/copilot-sdk",
+      "project_file": "projects/github__copilot-sdk.md",
+      "rank": 17,
+      "readme_sha256": "bea75137ba150887541b9e44d6b67dd283089b96d9ab687ebb5708a277a03532",
+      "url": "https://github.com/github/copilot-sdk"
+    }
+  ],
+  "snapshot_date": "2026-06-06",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

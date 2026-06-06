@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/cosmos",
   "url": "https://github.com/NVIDIA/cosmos",
   "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-  "readme_sha256": "18301d868d768dd20c2cf9e663612e68e2b08a6476a8943df838e248b5124711"
+  "readme_sha256": "d5e4617146dee31d4e8e5b674b0921a63bcc4e2f190d33e36cd80718919c51bb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/cosmos
 - Description: NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.
-- README SHA256: `18301d868d768dd20c2cf9e663612e68e2b08a6476a8943df838e248b5124711`
+- README SHA256: `d5e4617146dee31d4e8e5b674b0921a63bcc4e2f190d33e36cd80718919c51bb`
 
 ## README
 
@@ -26,7 +26,8 @@
 
 <p align="center">
   <a href="https://www.nvidia.com/en-us/ai/cosmos/">Website</a> |
-  <a href="https://github.com/NVIDIA/cosmos-framework">Framework</a>
+  <a href="https://github.com/NVIDIA/cosmos-framework">Framework</a> |
+  <a href="https://huggingface.co/collections/nvidia/cosmos3">Models</a>
 </p>
 
 ## Table of Contents
@@ -68,7 +69,7 @@ NVIDIA Cosmos is an open platform of world models, datasets, and tools that enab
 
 ## Cosmos 3
 
-**Cosmos 3** is our newest model family [[Report]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) [[Website]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/). It is a suite of omnimodal world models designed to jointly process and generate language, images, video, audio, and action sequences within a unified Mixture-of-Transformers architecture. By supporting highly flexible input-output configurations, it seamlessly unifies critical modalities for Physical AI — effectively subsuming vision-language models, video generators, world simulators, and world-action models into a single framework.
+**Cosmos 3** is our newest model family [[Models]](<a href="https://huggingface.co/collections/nvidia/cosmos3">) [[Report]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) [[Website]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/). It is a suite of omnimodal world models designed to jointly process and generate language, images, video, audio, and action sequences within a unified Mixture-of-Transformers architecture. By supporting highly flexible input-output configurations, it seamlessly unifies critical modalities for Physical AI — effectively subsuming vision-language models, video generators, world simulators, and world-action models into a single framework.
 
 Cosmos 3 exposes two runtime surfaces:
 

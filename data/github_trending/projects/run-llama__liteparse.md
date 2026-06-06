@@ -5,7 +5,7 @@
   "full_name": "run-llama/liteparse",
   "url": "https://github.com/run-llama/liteparse",
   "description": "A fast, helpful, and open-source document parser",
-  "readme_sha256": "1344951eda6743afb8da72e3ae4aad166fe1cf14491efe3de07cc367827a172e"
+  "readme_sha256": "96a8718af6a06f5d22f34ef18dc16aec29fe3a44b14d13dd7ee0ae6251a55b88"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/run-llama/liteparse
 - Description: A fast, helpful, and open-source document parser
-- README SHA256: `1344951eda6743afb8da72e3ae4aad166fe1cf14491efe3de07cc367827a172e`
+- README SHA256: `96a8718af6a06f5d22f34ef18dc16aec29fe3a44b14d13dd7ee0ae6251a55b88`
 
 ## README
 
@@ -32,6 +32,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 |
 [Docs](https://developers.llamaindex.ai/liteparse/)
+
+English | [简体中文](README.zh-CN.md)
 
 <img src="https://github.com/user-attachments/assets/07ba6a82-6bb1-4dea-b0ef-cad7df7d1622" alt="out" width="600">
 
