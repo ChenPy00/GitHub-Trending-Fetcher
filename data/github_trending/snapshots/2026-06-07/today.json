@@ -1,0 +1,153 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 1,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+      "full_name": "CopilotKit/CopilotKit",
+      "project_file": "projects/CopilotKit__CopilotKit.md",
+      "rank": 2,
+      "readme_sha256": "3fc5adaa5dac94d40f70513e5919a6fae9c3c86575e4602ca34c52045e7d17ab",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "full_name": "MemPalace/mempalace",
+      "project_file": "projects/MemPalace__mempalace.md",
+      "rank": 3,
+      "readme_sha256": "24d98c289b81ad01063adc5e2f6f2e844134e4371d71b67f2be585d6cbe0e4f7",
+      "url": "https://github.com/MemPalace/mempalace"
+    },
+    {
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "full_name": "danielmiessler/Personal_AI_Infrastructure",
+      "project_file": "projects/danielmiessler__Personal_AI_Infrastructure.md",
+      "rank": 4,
+      "readme_sha256": "509e8d5a8e0d5c514348cb4e8494cb781f1a9adad247daeeec4125a32b9dfee3",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 5,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "cfcddda58af531da8c9eb63644d4f33b88d682a67f6f98a9535811f853eb4507",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "web development for the rest of us",
+      "full_name": "sveltejs/svelte",
+      "project_file": "projects/sveltejs__svelte.md",
+      "rank": 7,
+      "readme_sha256": "f58cdd71cf9dfac9397cc683e5116cd100e685c329db534cca6781ff16894b73",
+      "url": "https://github.com/sveltejs/svelte"
+    },
+    {
+      "description": "The official NGINX Open Source repository.",
+      "full_name": "nginx/nginx",
+      "project_file": "projects/nginx__nginx.md",
+      "rank": 8,
+      "readme_sha256": "c20b11d05d64038c63fe78ed177b692ac48d686344be464f326bb48e7d2c224b",
+      "url": "https://github.com/nginx/nginx"
+    },
+    {
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "full_name": "aquasecurity/trivy",
+      "project_file": "projects/aquasecurity__trivy.md",
+      "rank": 9,
+      "readme_sha256": "217d4d9db626c98b80f0fa214b510705d922f16b9c9452a6ce10d86788be67ba",
+      "url": "https://github.com/aquasecurity/trivy"
+    },
+    {
+      "description": "The Go programming language",
+      "full_name": "golang/go",
+      "project_file": "projects/golang__go.md",
+      "rank": 10,
+      "readme_sha256": "8247b7c5de1e74854aac1a08aa5894444d1d33b4045c70d5cc3367ad0e25c3f3",
+      "url": "https://github.com/golang/go"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 11,
+      "readme_sha256": "a6b4972fd7e0c1e254b65fd6570645b12d3f0336bb9130ae7579faa20205a9e8",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 12,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 13,
+      "readme_sha256": "6a25ca41b4ebd3b07142947733da1f6b8715b73ec31526dcf07b3f8a98918ef1",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "Robust Speech Recognition via Large-Scale Weak Supervision",
+      "full_name": "openai/whisper",
+      "project_file": "projects/openai__whisper.md",
+      "rank": 14,
+      "readme_sha256": "38c180c2a8d8ba628a3e131ad42bf06c8a51bb681efb30fbe28d5a0f4b65f288",
+      "url": "https://github.com/openai/whisper"
+    },
+    {
+      "description": "Next generation frontend tooling. It's fast!",
+      "full_name": "vitejs/vite",
+      "project_file": "projects/vitejs__vite.md",
+      "rank": 15,
+      "readme_sha256": "d41584fcf5e678bbcc0b01f08eed88c42cb0d55c2cdf94524854f6a77aa365ee",
+      "url": "https://github.com/vitejs/vite"
+    },
+    {
+      "description": "Policy-driven, layered isolation and containment",
+      "full_name": "microsoft/mxc",
+      "project_file": "projects/microsoft__mxc.md",
+      "rank": 16,
+      "readme_sha256": "3ce1b84f25cb8c7ad9e44f2ff8ffe0f249fb4e54e22092fb3d68e9a57c1514ae",
+      "url": "https://github.com/microsoft/mxc"
+    },
+    {
+      "description": "Turn any PDF or image document into structured data for your AI. A powerful, lightweight OCR toolkit that bridges the gap between images/PDFs and LLMs. Supports 100+ languages.",
+      "full_name": "PaddlePaddle/PaddleOCR",
+      "project_file": "projects/PaddlePaddle__PaddleOCR.md",
+      "rank": 17,
+      "readme_sha256": "cf0b351fc24a01b13f2b839d4023934f082d0b0dcf1f84486278c0880ffe7d23",
+      "url": "https://github.com/PaddlePaddle/PaddleOCR"
+    },
+    {
+      "description": "Open-Source Frontier Voice AI",
+      "full_name": "microsoft/VibeVoice",
+      "project_file": "projects/microsoft__VibeVoice.md",
+      "rank": 18,
+      "readme_sha256": "44d8870d2d1de1f23832776477afc559d9d01b8e4aff74f2558eea205f96f24b",
+      "url": "https://github.com/microsoft/VibeVoice"
+    }
+  ],
+  "snapshot_date": "2026-06-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,169 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 1,
+      "readme_sha256": "0b5ced9673dd2a726224572cb12c233900b4ec2dab63475744605cebb98ae1d8",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 2,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 3,
+      "readme_sha256": "058dcfc52966eef3633dc8737e7c878767f879e17505152301e8b64d939153cf",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "full_name": "revfactory/harness",
+      "project_file": "projects/revfactory__harness.md",
+      "rank": 4,
+      "readme_sha256": "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1",
+      "url": "https://github.com/revfactory/harness"
+    },
+    {
+      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
+      "full_name": "supermemoryai/supermemory",
+      "project_file": "projects/supermemoryai__supermemory.md",
+      "rank": 5,
+      "readme_sha256": "a80d8433f4b0a157926fd4360fabdc40b5b7ae4ec3a78f47a1c7cc1b6f5ebbb7",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 6,
+      "readme_sha256": "d5f5fcafb5997beed74f8edbbd4720c27ebc87480499b44f4a32a3e6211a5085",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Official Compound Engineering plugin for Claude Code, Codex, Cursor, and more",
+      "full_name": "EveryInc/compound-engineering-plugin",
+      "project_file": "projects/EveryInc__compound-engineering-plugin.md",
+      "rank": 7,
+      "readme_sha256": "b0c366eb0b61d216d2d1f3e68f5d4841ff2ff16c52f94977fa1c918e0f17d90f",
+      "url": "https://github.com/EveryInc/compound-engineering-plugin"
+    },
+    {
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "project_file": "projects/Open-LLM-VTuber__Open-LLM-VTuber.md",
+      "rank": 8,
+      "readme_sha256": "3b6cf6adbf7c49a00e89d99c0fdb582a316054f8bb44332f7c95800fdd674140",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber"
+    },
+    {
+      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
+      "full_name": "can1357/oh-my-pi",
+      "project_file": "projects/can1357__oh-my-pi.md",
+      "rank": 9,
+      "readme_sha256": "41af50d2d481afa9e80f7b5258585f196e1c02bb9e9a7708f850b27943c9740f",
+      "url": "https://github.com/can1357/oh-my-pi"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 10,
+      "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "A fast, helpful, and open-source document parser",
+      "full_name": "run-llama/liteparse",
+      "project_file": "projects/run-llama__liteparse.md",
+      "rank": 11,
+      "readme_sha256": "96a8718af6a06f5d22f34ef18dc16aec29fe3a44b14d13dd7ee0ae6251a55b88",
+      "url": "https://github.com/run-llama/liteparse"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 12,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "full_name": "aquasecurity/trivy",
+      "project_file": "projects/aquasecurity__trivy.md",
+      "rank": 13,
+      "readme_sha256": "217d4d9db626c98b80f0fa214b510705d922f16b9c9452a6ce10d86788be67ba",
+      "url": "https://github.com/aquasecurity/trivy"
+    },
+    {
+      "description": "A skill file for removing AI tells from prose",
+      "full_name": "hardikpandya/stop-slop",
+      "project_file": "projects/hardikpandya__stop-slop.md",
+      "rank": 14,
+      "readme_sha256": "d5c699e712e62d286aa4314e6b4ba02cde7a9da36ce56102660f98d1a8ceebba",
+      "url": "https://github.com/hardikpandya/stop-slop"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 15,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "🕷️ An adaptive Web Scraping framework that handles everything from a single request to a full-scale crawl!",
+      "full_name": "D4Vinci/Scrapling",
+      "project_file": "projects/D4Vinci__Scrapling.md",
+      "rank": 16,
+      "readme_sha256": "46cc413a7baab7781ca5c6aed5d8018a78fa8bb445e38b7fbaf4d04bf9c3182a",
+      "url": "https://github.com/D4Vinci/Scrapling"
+    },
+    {
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 17,
+      "readme_sha256": "4563b7f0616140f96eca945e7b3f31e3456835c1c2439891b658156518391e01",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "OpenBMB/VoxCPM",
+      "project_file": "projects/OpenBMB__VoxCPM.md",
+      "rank": 18,
+      "readme_sha256": "e4683587278a088aa8273948b26dc695972f7dbf8f80daa9210bd03e51938899",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "full_name": "nesquena/hermes-webui",
+      "project_file": "projects/nesquena__hermes-webui.md",
+      "rank": 19,
+      "readme_sha256": "40d1b01051db7a9ac1bc6971df211dbe02b1d4b2d1011f64dc790a7924fb2987",
+      "url": "https://github.com/nesquena/hermes-webui"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 20,
+      "readme_sha256": "e22d08ef12775eb1c318ba660a5b8904f9a9408bc4d068f431fcf1e504aacfcc",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    }
+  ],
+  "snapshot_date": "2026-06-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "decolua/9router",
   "url": "https://github.com/decolua/9router",
   "description": "Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.",
-  "readme_sha256": "1f1511d29345c428ebbd7a2b83f3f8ad6af4447eff9a3fbcdae26e5385c03e10"
+  "readme_sha256": "0a82d419a947ee1441632e5524e5733c5e178ce0be6b301e8abb8e0423dad925"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/decolua/9router
 - Description: Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.
-- README SHA256: `1f1511d29345c428ebbd7a2b83f3f8ad6af4447eff9a3fbcdae26e5385c03e10`
+- README SHA256: `0a82d419a947ee1441632e5524e5733c5e178ce0be6b301e8abb8e0423dad925`
 
 ## README
 
@@ -36,7 +36,7 @@
   
   [🚀 Quick Start](#-quick-start) • [💡 Features](#-key-features) • [📖 Setup](#-setup-guide) • [🌐 Website](https://9router.com)
 
-  [🇻🇳 Tiếng Việt](./i18n/README.vi.md) • [🇨🇳 中文](./i18n/README.zh-CN.md) • [🇯🇵 日本語](./i18n/README.ja-JP.md)
+  [🇻🇳 Tiếng Việt](./i18n/README.vi.md) • [🇨🇳 中文](./i18n/README.zh-CN.md) • [🇯🇵 日本語](./i18n/README.ja-JP.md) • [🇷🇺 Русский](./i18n/README.ru.md)
 </div>
 
 ---

@@ -5,7 +5,7 @@
   "full_name": "rohitg00/ai-engineering-from-scratch",
   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
   "description": "Learn it. Build it. Ship it for others.",
-  "readme_sha256": "2338bd23766e41cdbe5397a8ff2d66101641071bdeda238385c960705471a745"
+  "readme_sha256": "9963a3664f98f4bd191d252b2b949b0720eb8e61e266b46c1c670047b4159ba3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rohitg00/ai-engineering-from-scratch
 - Description: Learn it. Build it. Ship it for others.
-- README SHA256: `2338bd23766e41cdbe5397a8ff2d66101641071bdeda238385c960705471a745`
+- README SHA256: `9963a3664f98f4bd191d252b2b949b0720eb8e61e266b46c1c670047b4159ba3`
 
 ## README
 
@@ -29,6 +29,8 @@
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
 </p>
 
+## From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href="https://github.com/rohitg00/agentmemory/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a> which naturally works with any agents or chat assistants.
+
 ```
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
 ```
@@ -40,6 +42,10 @@
 > a reusable artifact: a prompt, a skill, an agent, an MCP server. Free, open source, MIT.
 >
 > You don't just learn AI. You build it. End-to-end. By hand.
+
+<!-- STATS:START (generated from site/stats.json by build.js — do not edit by hand) -->
+<p align="center"><sub><b>150,639</b> readers &nbsp;·&nbsp; <b>241,669</b> page views in the last 30 days &nbsp;·&nbsp; as of 2026-06-07</sub></p>
+<!-- STATS:END -->
 
 ## How this works
 

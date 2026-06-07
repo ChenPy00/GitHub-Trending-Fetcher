@@ -4,7 +4,7 @@
   "name": "CopilotKit",
   "full_name": "CopilotKit/CopilotKit",
   "url": "https://github.com/CopilotKit/CopilotKit",
-  "description": "The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol",
+  "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
   "readme_sha256": "3fc5adaa5dac94d40f70513e5919a6fae9c3c86575e4602ca34c52045e7d17ab"
 }
 ```
@@ -12,7 +12,7 @@
 # CopilotKit/CopilotKit
 
 - URL: https://github.com/CopilotKit/CopilotKit
-- Description: The Frontend Stack for Agents & Generative UI. React + Angular. Makers of the AG-UI Protocol
+- Description: The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol
 - README SHA256: `3fc5adaa5dac94d40f70513e5919a6fae9c3c86575e4602ca34c52045e7d17ab`
 
 ## README

@@ -5,7 +5,7 @@
   "full_name": "MemPalace/mempalace",
   "url": "https://github.com/MemPalace/mempalace",
   "description": "The best-benchmarked open-source AI memory system. And it's free.",
-  "readme_sha256": "83e2687b66dc53b3aa7e101b3959dcdc46409cf7a3f8ddb9741d0fd64231160d"
+  "readme_sha256": "24d98c289b81ad01063adc5e2f6f2e844134e4371d71b67f2be585d6cbe0e4f7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/MemPalace/mempalace
 - Description: The best-benchmarked open-source AI memory system. And it's free.
-- README SHA256: `83e2687b66dc53b3aa7e101b3959dcdc46409cf7a3f8ddb9741d0fd64231160d`
+- README SHA256: `24d98c289b81ad01063adc5e2f6f2e844134e4371d71b67f2be585d6cbe0e4f7`
 
 ## README
 
@@ -297,7 +297,7 @@ PRs welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 MIT — see [LICENSE](LICENSE).
 
 <!-- Link Definitions -->
-[version-shield]: https://img.shields.io/badge/version-3.3.6-4dc9f6?style=flat-square&labelColor=0a0e14
+[version-shield]: https://img.shields.io/badge/version-3.4.0-4dc9f6?style=flat-square&labelColor=0a0e14
 [release-link]: https://github.com/MemPalace/mempalace/releases
 [python-shield]: https://img.shields.io/badge/python-3.9+-7dd8f8?style=flat-square&labelColor=0a0e14&logo=python&logoColor=7dd8f8
 [python-link]: https://www.python.org/

@@ -5,7 +5,7 @@
   "full_name": "chopratejas/headroom",
   "url": "https://github.com/chopratejas/headroom",
   "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-  "readme_sha256": "c4da0a1adc2e043ec563dadc6dcb23ac312b545bf2534d6184b3beb30f60d5bb"
+  "readme_sha256": "0b5ced9673dd2a726224572cb12c233900b4ec2dab63475744605cebb98ae1d8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chopratejas/headroom
 - Description: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- README SHA256: `c4da0a1adc2e043ec563dadc6dcb23ac312b545bf2534d6184b3beb30f60d5bb`
+- README SHA256: `0b5ced9673dd2a726224572cb12c233900b4ec2dab63475744605cebb98ae1d8`
 
 ## README
 
