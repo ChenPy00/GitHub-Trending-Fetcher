@@ -5,7 +5,7 @@
   "full_name": "dmtrKovalenko/fff",
   "url": "https://github.com/dmtrKovalenko/fff",
   "description": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS",
-  "readme_sha256": "eba304a069fd0a1cb09b4850d2cd687e1e7a86d9adc3353b3423da0182b1b122"
+  "readme_sha256": "ca048caa21d5dd2564b8aba3a21b4a702413351a21cbea1c78ff751f1aa0f4b0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/dmtrKovalenko/fff
 - Description: The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS
-- README SHA256: `eba304a069fd0a1cb09b4850d2cd687e1e7a86d9adc3353b3423da0182b1b122`
+- README SHA256: `ca048caa21d5dd2564b8aba3a21b4a702413351a21cbea1c78ff751f1aa0f4b0`
 
 ## README
 
@@ -275,6 +275,12 @@ require('fff').setup({
   max_threads = 4,
   lazy_sync = true,
   prompt_vim_mode = false,
+  follow_symlinks = false,
+  -- Allow indexing the user's $HOME directory. Enabled by default.
+  -- Disable if you strictly sure you don't want this, as it makes whole fff error hard
+  enable_home_dir_scanning = true,
+  -- Allow indexing a filesystem root (e.g. `/`, `C:\`). Disabled by default
+  enable_fs_root_scanning = false,
   layout = {
     height = 0.8,
     width = 0.8,
@@ -359,9 +365,11 @@ require('fff').setup({
     },
   },
   logging = {
-    enabled = true,
+    -- logs will be written in a parent directory of this file path in files like
+    -- `<stem>+<UTC-timestamp>+<pid>.<ext>`. Run :FFFOpenLog to open current one
     log_file = vim.fn.stdpath('log') .. '/fff.log',
     log_level = 'info',
+    retain_runs = 20,
   },
 })
 ```
@@ -461,7 +469,9 @@ Run `:FFFScan` to force a rescan.
 ### Troubleshooting
 
 - `:FFFHealth` verifies picker init, optional dependencies, and DB connectivity.
-- `:FFFOpenLog` opens the log file.
+- `:FFFOpenLog` opens the current session's log file.
+- Historical log files are stored near the main log file `<state>/log/fff+<UTC-timestamp>+<pid>.log` (up to 20 files)
+- For a crash backtrace, run `lldb -- nvim` or `gdb -- nvim` and reproduce 
 
 </details>
 
@@ -493,6 +503,9 @@ const hits = finder.value.grep("GetOffTheRecordProfile", {
   afterContext: 1,
   classifyDefinitions: true,
 });
+
+// Run extremely fast glob matching which is significantly (10-100 times) faster than Bun's and Node implementation
+const rustFiles = finder.value.glob("**/*.rs", { pageSize: 100 });
 
 finder.value.destroy();
 ```
@@ -597,6 +610,35 @@ int main(void) {
     fff_destroy(handle);
     return 0;
 }
+```
+
+### Versioned options struct (preferred)
+
+For instance creation use [`FffCreateOptions`](./crates/fff-c/include/fff.h) — a
+versioned struct that evolves without ABI breaks. C99 designated
+initializers keep call sites readable and zero-init unspecified fields:
+
+```c
+FffResult *res = fff_create_instance_with(&(FffCreateOptions){
+    .version = FFF_CREATE_OPTIONS_VERSION,
+    .base_path = "/path/to/repo",
+    .ai_mode = true,
+    .watch = true, 
+    .enable_fs_root_scanning = false,   // off by default
+    .enable_home_dir_scanning = false,  // off by default
+});
+```
+
+### Glob-only search
+
+`fff_glob` filters indexed files by a single glob pattern, ranks by frecency,
+paginates — bypasses the regular query parser entirely. Use this when you
+already have a literal glob (`*.rs`, `**/*.test.ts`, `src/**`) and don't want
+fuzzy matching layered on top.
+
+```c
+FffResult *res = fff_glob(handle, "**/*.rs", "", 0, 0, 100);
+// FffSearchResult in res->handle, free with fff_free_search_result.
 ```
 
 ### Notes

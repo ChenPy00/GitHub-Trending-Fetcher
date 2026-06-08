@@ -5,7 +5,7 @@
   "full_name": "refactoringhq/tolaria",
   "url": "https://github.com/refactoringhq/tolaria",
   "description": "Desktop app to manage markdown knowledge bases",
-  "readme_sha256": "6f1e3630e99dc56b589550fa1801e3cfdde3ad2ca33038fb9f7ab06d2d5bdbd1"
+  "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/refactoringhq/tolaria
 - Description: Desktop app to manage markdown knowledge bases
-- README SHA256: `6f1e3630e99dc56b589550fa1801e3cfdde3ad2ca33038fb9f7ab06d2d5bdbd1`
+- README SHA256: `b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6`
 
 ## README
 
@@ -62,7 +62,7 @@ brew install --cask tolaria
 
 ### Download from releases
 
-Download the [latest release here](https://refactoringhq.github.io/tolaria/download/) for macOS, Windows, or Linux.
+Download the [latest release here](https://refactoringhq.github.io/tolaria/download/) for macOS, Windows, or Linux. Windows installers are Authenticode-signed; company-managed devices may still require IT approval of the Tolaria publisher before first install.
 
 ## Getting started
 

@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 1,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "Open Source Computer Vision Library",
+      "full_name": "opencv/opencv",
+      "project_file": "projects/opencv__opencv.md",
+      "rank": 2,
+      "readme_sha256": "8b79d16417280719517b40f2995d8e3772aa68b34bdd44cfd1163eec733415a0",
+      "url": "https://github.com/opencv/opencv"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 3,
+      "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 4,
+      "readme_sha256": "e7efae866ad5c4b133324c15da361a3445ba5698b55e041ffcee749c41d23f69",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 5,
+      "readme_sha256": "a6b4972fd7e0c1e254b65fd6570645b12d3f0336bb9130ae7579faa20205a9e8",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "Let's use AI to Earn!",
+      "full_name": "yikart/AiToEarn",
+      "project_file": "projects/yikart__AiToEarn.md",
+      "rank": 6,
+      "readme_sha256": "a69bbcc34018c1f6e096e35704f8063971a32aacb152268f1959cbc0f01c0fae",
+      "url": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "full_name": "aaif-goose/goose",
+      "project_file": "projects/aaif-goose__goose.md",
+      "rank": 7,
+      "readme_sha256": "77164e1e3aab2c6d70bd543186e255c76d7a7c2aeeea8246eb506b4d80341c3c",
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "project_file": "projects/Crosstalk-Solutions__project-nomad.md",
+      "rank": 8,
+      "readme_sha256": "fb5df8985077df1cdd851108412cd978c59450fd7783c26dd6f123877986b52e",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    {
+      "description": "LLM inference in C/C++",
+      "full_name": "ggml-org/llama.cpp",
+      "project_file": "projects/ggml-org__llama.cpp.md",
+      "rank": 9,
+      "readme_sha256": "b675609ce3354fc7e7379ecf47cfc5964150463e335c34b0e0cc7bb1f18c254a",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    {
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "full_name": "RyanCodrai/turbovec",
+      "project_file": "projects/RyanCodrai__turbovec.md",
+      "rank": 10,
+      "readme_sha256": "8c71ec86f46908e0779f62f3ec5803875b0171f7223cdaf1887c549ae9a548b7",
+      "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 11,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 12,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 13,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "Useful tool to track location or mobile number",
+      "full_name": "HunxByts/GhostTrack",
+      "project_file": "projects/HunxByts__GhostTrack.md",
+      "rank": 14,
+      "readme_sha256": "87178ec01cec5fcc35bd2b3f5db650dcf2107fa5951a11c8e315a4e40f3346c7",
+      "url": "https://github.com/HunxByts/GhostTrack"
+    },
+    {
+      "description": "PostgreSQL in-database durable execution",
+      "full_name": "microsoft/pg_durable",
+      "project_file": "projects/microsoft__pg_durable.md",
+      "rank": 15,
+      "readme_sha256": "598ee81182be6ad554fdef6c645d127c2978e51bcc1494c816b012de9968fdcb",
+      "url": "https://github.com/microsoft/pg_durable"
+    }
+  ],
+  "snapshot_date": "2026-06-08",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "NousResearch/hermes-agent",
   "url": "https://github.com/NousResearch/hermes-agent",
   "description": "The agent that grows with you",
-  "readme_sha256": "e22d08ef12775eb1c318ba660a5b8904f9a9408bc4d068f431fcf1e504aacfcc"
+  "readme_sha256": "e7efae866ad5c4b133324c15da361a3445ba5698b55e041ffcee749c41d23f69"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NousResearch/hermes-agent
 - Description: The agent that grows with you
-- README SHA256: `e22d08ef12775eb1c318ba660a5b8904f9a9408bc4d068f431fcf1e504aacfcc`
+- README SHA256: `e7efae866ad5c4b133324c15da361a3445ba5698b55e041ffcee749c41d23f69`
 
 ## README
 
@@ -29,6 +29,7 @@
   <a href="https://github.com/NousResearch/hermes-agent/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT"></a>
   <a href="https://nousresearch.com"><img src="https://img.shields.io/badge/Built%20by-Nous%20Research-blueviolet?style=for-the-badge" alt="Built by Nous Research"></a>
   <a href="README.zh-CN.md"><img src="https://img.shields.io/badge/Lang-中文-red?style=for-the-badge" alt="中文"></a>
+  <a href="README.ur-pk.md"><img src="https://img.shields.io/badge/Lang-اردو-green?style=for-the-badge" alt="اردو"></a>
 </p>
 
 **The self-improving AI agent built by [Nous Research](https://nousresearch.com).** It's the only agent with a built-in learning loop — it creates skills from experience, improves them during use, nudges itself to persist knowledge, searches its own past conversations, and builds a deepening model of who you are across sessions. Run it on a $5 VPS, a GPU cluster, or serverless infrastructure that costs nearly nothing when idle. It's not tied to your laptop — talk to it from Telegram while it works on a cloud VM.
