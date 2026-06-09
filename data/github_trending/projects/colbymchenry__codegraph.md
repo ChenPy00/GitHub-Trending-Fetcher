@@ -5,7 +5,7 @@
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
   "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "441891b369d2f786584ad50fae890f49e335c6ec5e6bddc36626dab5e1f61128"
+  "readme_sha256": "7bd40c7ee4ee5c004e7bcacdadd5f142b8160d714c9507d8782dee3dc53517ba"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/colbymchenry/codegraph
 - Description: Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `441891b369d2f786584ad50fae890f49e335c6ec5e6bddc36626dab5e1f61128`
+- README SHA256: `7bd40c7ee4ee5c004e7bcacdadd5f142b8160d714c9507d8782dee3dc53517ba`
 
 ## README
 
@@ -702,6 +702,8 @@ Framework routing is validated the same way, on a canonical app per framework: E
 **MCP server not connecting** — Ensure the project is initialized/indexed, verify the path in your MCP config, and check that `codegraph serve --mcp` works from the command line.
 
 **Missing symbols** — The MCP server auto-syncs on save (wait a couple seconds). Run `codegraph sync` manually if needed. Check that the file's language is supported and isn't inside a `.gitignore`d or default-excluded directory (e.g. `node_modules`, `dist`).
+
+**Sharing one checkout between Windows and WSL** — Don't point both at the same `.codegraph/`: the background-server lock and the SQLite index are tied to the OS that wrote them, and SQLite locking across the WSL2/Windows filesystem boundary is unreliable. Give each side its own index in the same tree by setting `CODEGRAPH_DIR` to a distinct name on one of them — e.g. `CODEGRAPH_DIR=.codegraph-win` on Windows, leaving WSL on the default `.codegraph`. CodeGraph skips any sibling `.codegraph-*` directory when indexing and watching, so the two never trip over each other.
 
 ## Star History
 

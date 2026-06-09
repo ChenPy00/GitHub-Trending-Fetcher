@@ -5,7 +5,7 @@
   "full_name": "NousResearch/hermes-agent",
   "url": "https://github.com/NousResearch/hermes-agent",
   "description": "The agent that grows with you",
-  "readme_sha256": "e7efae866ad5c4b133324c15da361a3445ba5698b55e041ffcee749c41d23f69"
+  "readme_sha256": "19b0d5b80bd0645a42b4165828d9d2eb7b65d9972692087d626042dc7fb37968"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NousResearch/hermes-agent
 - Description: The agent that grows with you
-- README SHA256: `e7efae866ad5c4b133324c15da361a3445ba5698b55e041ffcee749c41d23f69`
+- README SHA256: `19b0d5b80bd0645a42b4165828d9d2eb7b65d9972692087d626042dc7fb37968`
 
 ## README
 
@@ -72,7 +72,7 @@ If you already have Git installed, the installer detects it and uses that instea
 
 > **Android / Termux:** The tested manual path is documented in the [Termux guide](https://hermes-agent.nousresearch.com/docs/getting-started/termux). On Termux, Hermes installs a curated `.[termux]` extra because the full `.[all]` extra currently pulls Android-incompatible voice dependencies.
 >
-> **Windows:** Native Windows is fully supported — the PowerShell one-liner above installs everything. If you'd rather use WSL2, the Linux command works there too. Native Windows install lives under `%LOCALAPPDATA%\hermes`; WSL2 installs under `~/.hermes` as on Linux. The only Hermes feature that currently needs WSL2 specifically is the browser-based dashboard chat pane (it uses a POSIX PTY — classic CLI and gateway both run natively).
+> **Windows:** Native Windows is fully supported — the PowerShell one-liner above installs everything. If you'd rather use WSL2, the Linux command works there too. Native Windows install lives under `%LOCALAPPDATA%\hermes`; WSL2 installs under `~/.hermes` as on Linux.
 
 After installation:
 

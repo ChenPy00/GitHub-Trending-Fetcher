@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 1,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "full_name": "RyanCodrai/turbovec",
+      "project_file": "projects/RyanCodrai__turbovec.md",
+      "rank": 2,
+      "readme_sha256": "8c71ec86f46908e0779f62f3ec5803875b0171f7223cdaf1887c549ae9a548b7",
+      "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 3,
+      "readme_sha256": "8ff2233ec5bc7695aa4bc4f331af2c1e7db266742e6cdb1c9dde260ee4b4bc10",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 4,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 5,
+      "readme_sha256": "cfcddda58af531da8c9eb63644d4f33b88d682a67f6f98a9535811f853eb4507",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Agentic AI Infrastructure for magnifying HUMAN capabilities.",
+      "full_name": "danielmiessler/Personal_AI_Infrastructure",
+      "project_file": "projects/danielmiessler__Personal_AI_Infrastructure.md",
+      "rank": 6,
+      "readme_sha256": "509e8d5a8e0d5c514348cb4e8494cb781f1a9adad247daeeec4125a32b9dfee3",
+      "url": "https://github.com/danielmiessler/Personal_AI_Infrastructure"
+    },
+    {
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 7,
+      "readme_sha256": "fc64b0df9f34413a23dc955c814ca61bd7c980d4c41b44c95f98e5dd415809d5",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 8,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 9,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "full_name": "Andyyyy64/whichllm",
+      "project_file": "projects/Andyyyy64__whichllm.md",
+      "rank": 10,
+      "readme_sha256": "268cdc628e599c9e2f56987e27da1af217539595942faea683d9a5e2b50ea165",
+      "url": "https://github.com/Andyyyy64/whichllm"
+    },
+    {
+      "description": "The best-benchmarked open-source AI memory system. And it's free.",
+      "full_name": "MemPalace/mempalace",
+      "project_file": "projects/MemPalace__mempalace.md",
+      "rank": 11,
+      "readme_sha256": "24d98c289b81ad01063adc5e2f6f2e844134e4371d71b67f2be585d6cbe0e4f7",
+      "url": "https://github.com/MemPalace/mempalace"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 12,
+      "readme_sha256": "67757f29c89da349e3b60e3ac6ae33c3cd2745dd52b75b9a792252d39bcec39e",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+      "full_name": "CopilotKit/CopilotKit",
+      "project_file": "projects/CopilotKit__CopilotKit.md",
+      "rank": 13,
+      "readme_sha256": "3fc5adaa5dac94d40f70513e5919a6fae9c3c86575e4602ca34c52045e7d17ab",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 14,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "full_name": "luongnv89/claude-howto",
+      "project_file": "projects/luongnv89__claude-howto.md",
+      "rank": 15,
+      "readme_sha256": "282ebcdab469d9198bbce2b9628e6a9f78a3144286173706b80cb2281ba992f2",
+      "url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "full_name": "aaif-goose/goose",
+      "project_file": "projects/aaif-goose__goose.md",
+      "rank": 16,
+      "readme_sha256": "77164e1e3aab2c6d70bd543186e255c76d7a7c2aeeea8246eb506b4d80341c3c",
+      "url": "https://github.com/aaif-goose/goose"
+    }
+  ],
+  "snapshot_date": "2026-06-09",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

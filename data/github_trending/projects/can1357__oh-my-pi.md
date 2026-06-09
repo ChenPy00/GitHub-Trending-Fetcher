@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "41af50d2d481afa9e80f7b5258585f196e1c02bb9e9a7708f850b27943c9740f"
+  "readme_sha256": "4fa48810603a508cfebbad868cd42ed6416e36f45e2a012aa0334a9271133546"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `41af50d2d481afa9e80f7b5258585f196e1c02bb9e9a7708f850b27943c9740f`
+- README SHA256: `4fa48810603a508cfebbad868cd42ed6416e36f45e2a012aa0334a9271133546`
 
 ## README
 
@@ -51,6 +51,12 @@ The most capable agent surface that ships. Continuously tuned by real-world use 
 
 ```sh
 curl -fsSL https://omp.sh/install | sh
+```
+
+**Homebrew**
+
+```sh
+brew install can1357/tap/omp
 ```
 
 **Bun (recommended)**

@@ -5,7 +5,7 @@
   "full_name": "HKUDS/ViMax",
   "url": "https://github.com/HKUDS/ViMax",
   "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-  "readme_sha256": "9977e1916f4d6124481a5825f52774cf47f46882f3553e63e86cc19e98d5bc19"
+  "readme_sha256": "ef411114c5c090d3cd49164f3a1cba7d88d3f4619752ffc3d7d15f80d154db35"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/ViMax
 - Description: "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
-- README SHA256: `9977e1916f4d6124481a5825f52774cf47f46882f3553e63e86cc19e98d5bc19`
+- README SHA256: `ef411114c5c090d3cd49164f3a1cba7d88d3f4619752ffc3d7d15f80d154db35`
 
 ## README
 
@@ -277,6 +277,8 @@ https://github.com/user-attachments/assets/5bad46b2-8276-4e1d-9480-3522640744b2
 | One-Prompt to Finished Video | From Any Narrative to Reality | Synchronized Storytelling | Movie-Grade Output | Make Your Own Cameo Video
 | Skip the technical complexity—just describe your vision and let ViMax handle script generation, storyboarding, shot design, reference management, and consistency validation | No creative limits—whether it's a trailer, short story, novel chapter, or original concept, ViMax intelligently structures narratives and designs cinematography to bring any idea to life | Seamlessly integrate character voice, and sound effects with visual content to create immersive experiences where audio and video work in perfect harmony | Automated quality control ensures character consistency, proper scene composition, and professional visual standards across every frame of your video | Interact in your own short stories by uploading your photo—ViMax intelligently integrates you as a character with consistent appearance and natural interactions throughout the entire video
 
+ViMax now also includes an **Agents Loop + TUI** workflow for interactive planning, revision, rendering control, session reuse, and context compaction while preserving the original direct pipeline entrypoints.
+
 
 
 ---
@@ -284,7 +286,7 @@ https://github.com/user-attachments/assets/5bad46b2-8276-4e1d-9480-3522640744b2
 ### ☄️ **Coming Soon**
 
 - 👨‍💻 **Google AI Studio API config✅**
-- 🤖 **Agents Loop☑️**
+- 🤖 **Agents Loop + TUI✅**
 - 📄 **Technical Report☑️**
 
 ---
@@ -419,6 +421,40 @@ uv sync
 ```
 
 
+### 🧠 **Agent TUI**
+ViMax also provides a minimal TUI for interactive agent-based video creation. Configure the model and API key information in `configs/agent.local.yaml`, including the LLM, image generator, and video generator, as shown below.
+```yaml
+llm:
+  model_provider: openai
+  model: <YOUR_LLM_MODEL>
+  base_url: <YOUR_LLM_BASE_URL>
+  api_key: <YOUR_API_KEY>
+
+image:
+  model: <YOUR_IMAGE_MODEL>
+  base_url: <YOUR_IMAGE_BASE_URL>
+  api_key: <YOUR_API_KEY>
+
+video:
+  model: <YOUR_VIDEO_MODEL>
+  base_url: <YOUR_VIDEO_BASE_URL>
+  api_key: <YOUR_API_KEY>
+```
+
+Then, start the TUI from the ViMax root directory:
+```bash
+vimax tui
+```
+
+Start a new session or resume an existing one:
+```bash
+vimax tui new
+vimax tui resume
+vimax tui resume <session_id>
+```
+
+You can also keep `configs/agent.local.yaml` empty and provide the same values through environment variables, such as `VIMAX_LLM_API_KEY`, `VIMAX_IMAGE_API_KEY`, and `VIMAX_VIDEO_API_KEY`.
+
 ### 🎯 **Usage**
 main_idea2video.py is used to convert your ideas into videos.
 You need to configure the model and API key information in the configs/idea2video.yaml file, including three parts—the chat model, the image generator, and the video generator, as shown below
@@ -455,34 +491,6 @@ For children, do not exceed 3 scenes.
 """
 style = "Cartoon"
 ```
-
-#### Using MiniMax as Chat Model Provider
-
-[MiniMax](https://www.minimaxi.com/) models can be used as an alternative chat model provider. MiniMax offers OpenAI-compatible API access to models such as **MiniMax-M3** (latest) and **MiniMax-M2.7** (1M context window).
-
-Simply set `model_provider: minimax` in your config — the base URL is resolved automatically:
-```yaml
-chat_model:
-  init_args:
-    model: MiniMax-M3
-    model_provider: minimax
-    api_key: <YOUR_MINIMAX_API_KEY>
-```
-
-Or export the API key as an environment variable and leave `api_key` empty:
-```bash
-export MINIMAX_API_KEY=<YOUR_KEY>
-```
-
-See `configs/idea2video_minimax.yaml` and `configs/script2video_minimax.yaml` for complete examples.
-
-| Model | Note |
-|---|---|
-| MiniMax-M3 | Latest, recommended |
-| MiniMax-M2.7 | Previous generation, 1M context |
-| MiniMax-M2.7-highspeed | Fast variant of M2.7 |
-
----
 
 main_script2video.py generates a video based on a specific script.
 You similarly need to set up the API configuration in configs/script2video.yaml file. Then, provide a scene script and the corresponding creative requirements in main_script2video.py, as shown below.
