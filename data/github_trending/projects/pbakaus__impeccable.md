@@ -5,7 +5,7 @@
   "full_name": "pbakaus/impeccable",
   "url": "https://github.com/pbakaus/impeccable",
   "description": "The design language that makes your AI harness better at design.",
-  "readme_sha256": "e9d4318b7a99e1839a34d464131244fae37d02f1127e9d6d9da706e53a6fb4a8"
+  "readme_sha256": "cdaf88443ab5ffadaed0f61bdd2b3f1966dabef9238fa757ed29b9c686e115d7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pbakaus/impeccable
 - Description: The design language that makes your AI harness better at design.
-- README SHA256: `e9d4318b7a99e1839a34d464131244fae37d02f1127e9d6d9da706e53a6fb4a8`
+- README SHA256: `cdaf88443ab5ffadaed0f61bdd2b3f1966dabef9238fa757ed29b9c686e115d7`
 
 ## README
 
@@ -305,13 +305,11 @@ Join the community and ecosystem conversations:
 
 ## Contributing
 
-See [DEVELOP.md](DEVELOP.md) for contributor guidelines and build instructions.
+See [DEVELOP.md](docs/DEVELOP.md) for contributor guidelines and build instructions.
 
 ## License
 
 Apache 2.0. See [LICENSE](LICENSE).
-
-The impeccable skill builds on [Anthropic's original frontend-design skill](https://github.com/anthropics/skills/tree/main/skills/frontend-design). See [NOTICE.md](NOTICE.md) for attribution.
 
 ---
 

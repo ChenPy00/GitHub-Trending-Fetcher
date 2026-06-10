@@ -5,7 +5,7 @@
   "full_name": "NousResearch/hermes-agent",
   "url": "https://github.com/NousResearch/hermes-agent",
   "description": "The agent that grows with you",
-  "readme_sha256": "19b0d5b80bd0645a42b4165828d9d2eb7b65d9972692087d626042dc7fb37968"
+  "readme_sha256": "1be5064f53bc93d838b8bdaa6a6f55de995fa81d13441314e554001da50dd085"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NousResearch/hermes-agent
 - Description: The agent that grows with you
-- README SHA256: `19b0d5b80bd0645a42b4165828d9d2eb7b65d9972692087d626042dc7fb37968`
+- README SHA256: `1be5064f53bc93d838b8bdaa6a6f55de995fa81d13441314e554001da50dd085`
 
 ## README
 
@@ -22,7 +22,9 @@
 </p>
 
 # Hermes Agent ☤
-
+<p align="center">
+  <a href="https://hermes-agent.nousresearch.com/">Hermes Agent</a> | <a href="https://hermes-agent.nousresearch.com/">Hermes Desktop</a>
+</p>
 <p align="center">
   <a href="https://hermes-agent.nousresearch.com/docs/"><img src="https://img.shields.io/badge/Docs-hermes--agent.nousresearch.com-FFD700?style=for-the-badge" alt="Documentation"></a>
   <a href="https://discord.gg/NousResearch"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>

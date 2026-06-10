@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 1,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "full_name": "RyanCodrai/turbovec",
+      "project_file": "projects/RyanCodrai__turbovec.md",
+      "rank": 2,
+      "readme_sha256": "a096886fed9eaa8beecb67b0f3fe54040ee43bef096abdab252e28bf4a72a942",
+      "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 3,
+      "readme_sha256": "e89247359ec0151768b63738f5d6b35be3db9f0d1626eb696b5a5ac9895a8ea3",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "Open Source Computer Vision Library",
+      "full_name": "opencv/opencv",
+      "project_file": "projects/opencv__opencv.md",
+      "rank": 4,
+      "readme_sha256": "8b79d16417280719517b40f2995d8e3772aa68b34bdd44cfd1163eec733415a0",
+      "url": "https://github.com/opencv/opencv"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 5,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "full_name": "aaif-goose/goose",
+      "project_file": "projects/aaif-goose__goose.md",
+      "rank": 6,
+      "readme_sha256": "77164e1e3aab2c6d70bd543186e255c76d7a7c2aeeea8246eb506b4d80341c3c",
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "description": "Find the local LLM that actually runs and performs best on your hardware. Ranked by real, recency-aware benchmarks, not parameter count. One command, run it instantly.",
+      "full_name": "Andyyyy64/whichllm",
+      "project_file": "projects/Andyyyy64__whichllm.md",
+      "rank": 7,
+      "readme_sha256": "268cdc628e599c9e2f56987e27da1af217539595942faea683d9a5e2b50ea165",
+      "url": "https://github.com/Andyyyy64/whichllm"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 8,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "project_file": "projects/x1xhlol__system-prompts-and-models-of-ai-tools.md",
+      "rank": 9,
+      "readme_sha256": "e8b467b6b55e434e9f5e7094052cf3d5cedc42728acf78249d4822c18397d5b0",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "description": "Let's use AI to Earn!",
+      "full_name": "yikart/AiToEarn",
+      "project_file": "projects/yikart__AiToEarn.md",
+      "rank": 10,
+      "readme_sha256": "a69bbcc34018c1f6e096e35704f8063971a32aacb152268f1959cbc0f01c0fae",
+      "url": "https://github.com/yikart/AiToEarn"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 11,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 12,
+      "readme_sha256": "32d460ed90fa1e5c75bb8737607daf6d1401d639fad920b3bf0f557fe66f717d",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 13,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "open-source healthcare ai",
+      "full_name": "maziyarpanahi/openmed",
+      "project_file": "projects/maziyarpanahi__openmed.md",
+      "rank": 14,
+      "readme_sha256": "2c5fb8fa786b7ce913d33ccf65db3c067cd1be080a442fe7eadfef6f433c723f",
+      "url": "https://github.com/maziyarpanahi/openmed"
+    },
+    {
+      "description": "🛜 ESPectre 👻 - Motion detection system based on Wi-Fi spectre analysis (CSI), with Home Assistant integration.",
+      "full_name": "francescopace/espectre",
+      "project_file": "projects/francescopace__espectre.md",
+      "rank": 15,
+      "readme_sha256": "1a08f1ed45abc435d0b09afe9d974bc226c14917ecd990786d4621e8940d5deb",
+      "url": "https://github.com/francescopace/espectre"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 16,
+      "readme_sha256": "63222e05cac30b211bc9edab956a16e3b5393b202741c5fcb0f4febc06f0bdc2",
+      "url": "https://github.com/addyosmani/agent-skills"
+    }
+  ],
+  "snapshot_date": "2026-06-10",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

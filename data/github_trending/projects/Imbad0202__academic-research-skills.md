@@ -5,7 +5,7 @@
   "full_name": "Imbad0202/academic-research-skills",
   "url": "https://github.com/Imbad0202/academic-research-skills",
   "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-  "readme_sha256": "d77e8fce9d5064d85ee5a176d3ed5fe3fcc6047eec9e2ebc7f93ce0800d93145"
+  "readme_sha256": "44a964f86a64d0a12c5fe49432939b104fddad30bd5a53b20c67b4deb9495361"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Imbad0202/academic-research-skills
 - Description: Academic Research Skills for Claude Code: research → write → review → revise → finalize
-- README SHA256: `d77e8fce9d5064d85ee5a176d3ed5fe3fcc6047eec9e2ebc7f93ce0800d93145`
+- README SHA256: `44a964f86a64d0a12c5fe49432939b104fddad30bd5a53b20c67b4deb9495361`
 
 ## README
 
@@ -445,7 +445,7 @@ https://github.com/Imbad0202/academic-research-skills
 
 ### v3.6.7 (2026-04-30) — Downstream-Agent Pattern Protection (Step 1+2)
 
-- **Three downstream agents hardened against 13 of 18 documented hallucination/drift patterns**: `synthesis_agent` (A1–A5 narrative-side), the survey-designer mode of `research_architect_agent` (B1–B5 instrument-side), and the abstract-only mode of `report_compiler_agent` (C1–C3 publication-side). Each agent prompt now carries a `PATTERN PROTECTION (v3.6.7)` block.
+- **Three downstream agents hardened against 13 of 17 documented hallucination/drift patterns**: `synthesis_agent` (A1–A5 narrative-side), the survey-designer mode of `research_architect_agent` (B1–B5 instrument-side), and the abstract-only mode of `report_compiler_agent` (C1–C3 publication-side). Each agent prompt now carries a `PATTERN PROTECTION (v3.6.7)` block.
 - **Four reference files in `shared/references/`**: `irb_terminology_glossary.md`, `psychometric_terminology_glossary.md`, `protected_hedging_phrases.md`, `word_count_conventions.md`. The reference files carry operational contracts that the agent prompts cite by path.
 - **Cross-model audit prompt template** at `shared/templates/codex_audit_multifile_template.md` with seven audit dimensions and a mandatory three-part Section 4(f) check for `report_compiler_agent` bundles. Failure of any sub-check is a P1 finding.
 - **Static lint + 29-test mutation suite**: `scripts/check_v3_6_7_pattern_protection.py` enforces protection-clause presence and obligation-phrase shape; `scripts/test_check_v3_6_7_pattern_protection.py` preserves codex review evidence so future checker regressions surface in CI. Both are wired into `.github/workflows/spec-consistency.yml`.

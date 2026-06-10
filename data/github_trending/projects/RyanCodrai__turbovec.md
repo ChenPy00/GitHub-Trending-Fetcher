@@ -5,7 +5,7 @@
   "full_name": "RyanCodrai/turbovec",
   "url": "https://github.com/RyanCodrai/turbovec",
   "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-  "readme_sha256": "8c71ec86f46908e0779f62f3ec5803875b0171f7223cdaf1887c549ae9a548b7"
+  "readme_sha256": "a096886fed9eaa8beecb67b0f3fe54040ee43bef096abdab252e28bf4a72a942"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/RyanCodrai/turbovec
 - Description: A vector index built on TurboQuant, written in Rust with Python bindings
-- README SHA256: `8c71ec86f46908e0779f62f3ec5803875b0171f7223cdaf1887c549ae9a548b7`
+- README SHA256: `a096886fed9eaa8beecb67b0f3fe54040ee43bef096abdab252e28bf4a72a942`
 
 ## README
 
@@ -56,8 +56,8 @@ index.add(more_vectors)
 
 scores, indices = index.search(query, k=10)
 
-index.write("my_index.tq")
-loaded = TurboQuantIndex.load("my_index.tq")
+index.write("my_index.tv")
+loaded = TurboQuantIndex.load("my_index.tv")
 ```
 
 Need stable ids that survive deletes? Use `IdMapIndex`:
@@ -119,7 +119,7 @@ cargo add turbovec
 ```rust
 use turbovec::TurboQuantIndex;
 
-let mut index = TurboQuantIndex::new(1536, 4);
+let mut index = TurboQuantIndex::new(1536, 4).unwrap();
 index.add(&vectors);
 let results = index.search(&queries, 10);
 index.write("index.tv").unwrap();
@@ -131,8 +131,8 @@ For stable external ids that survive deletes:
 ```rust
 use turbovec::IdMapIndex;
 
-let mut index = IdMapIndex::new(1536, 4);
-index.add_with_ids(&vectors, &[1001, 1002, 1003]);
+let mut index = IdMapIndex::new(1536, 4).unwrap();
+index.add_with_ids(&vectors, &[1001, 1002, 1003]).unwrap();
 let (scores, ids) = index.search(&queries, 10);
 index.remove(1002);
 index.write("index.tvim").unwrap();

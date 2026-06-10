@@ -5,7 +5,7 @@
   "full_name": "Panniantong/Agent-Reach",
   "url": "https://github.com/Panniantong/Agent-Reach",
   "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-  "readme_sha256": "cfcddda58af531da8c9eb63644d4f33b88d682a67f6f98a9535811f853eb4507"
+  "readme_sha256": "8762f1b51d33c921fc7077c9bf6d817d0c9193c1ececcffd54222f4b6d3fb824"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Panniantong/Agent-Reach
 - Description: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-- README SHA256: `cfcddda58af531da8c9eb63644d4f33b88d682a67f6f98a9535811f853eb4507`
+- README SHA256: `8762f1b51d33c921fc7077c9bf6d817d0c9193c1ececcffd54222f4b6d3fb824`
 
 ## README
 
@@ -25,7 +25,7 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.8+"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.10+-green.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.10+"></a>
   <a href="https://github.com/Panniantong/agent-reach/stargazers"><img src="https://img.shields.io/github/stars/Panniantong/agent-reach?style=for-the-badge" alt="GitHub Stars"></a>
 </p>
 

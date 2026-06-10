@@ -5,7 +5,7 @@
   "full_name": "Leonxlnx/taste-skill",
   "url": "https://github.com/Leonxlnx/taste-skill",
   "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-  "readme_sha256": "db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f"
+  "readme_sha256": "eb944ab0b4ec5cb87ea75f21a907eb3b1b2f66df21cace0c156eee991c243b5a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Leonxlnx/taste-skill
 - Description: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
-- README SHA256: `db91a55c87fd9edbdde62872c3f373c621c9cbc437074f3f7bb3d8bb2872dc7f`
+- README SHA256: `eb944ab0b4ec5cb87ea75f21a907eb3b1b2f66df21cace0c156eee991c243b5a`
 
 ## README
 
@@ -181,6 +181,8 @@ If Taste Skill helps you, consider sponsoring:
 <a href="https://github.com/AtharvaJaiswal005"><img src="https://github.com/AtharvaJaiswal005.png" width="40" height="40" style="border-radius:50%" alt="AtharvaJaiswal005" title="AtharvaJaiswal005" /></a>
 <a href="https://github.com/ghughes7"><img src="https://github.com/ghughes7.png" width="40" height="40" style="border-radius:50%" alt="ghughes7" title="ghughes7" /></a>
 <a href="https://github.com/mccun934"><img src="https://github.com/mccun934.png" width="40" height="40" style="border-radius:50%" alt="mccun934" title="mccun934" /></a>
+<a href="https://github.com/techmedic5"><img src="https://github.com/techmedic5.png" width="40" height="40" style="border-radius:50%" alt="techmedic5" title="techmedic5" /></a>
+<a href="https://github.com/bytewerk-dev"><img src="https://github.com/bytewerk-dev.png" width="40" height="40" style="border-radius:50%" alt="bytewerk-dev" title="bytewerk-dev" /></a>
 
 <p align="center">
  <a href="https://www.star-history.com/leonxlnx/taste-skill">

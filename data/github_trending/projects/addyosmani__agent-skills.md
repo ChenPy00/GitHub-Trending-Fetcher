@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "be61683309ec70f8ceb57012966619d4936006ff2c8b9607fe218ced3a912a96"
+  "readme_sha256": "63222e05cac30b211bc9edab956a16e3b5393b202741c5fcb0f4febc06f0bdc2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `be61683309ec70f8ceb57012966619d4936006ff2c8b9607fe218ced3a912a96`
+- README SHA256: `63222e05cac30b211bc9edab956a16e3b5393b202741c5fcb0f4febc06f0bdc2`
 
 ## README
 
@@ -40,6 +40,8 @@ Skills encode the workflows, quality gates, and best practices that senior engin
 | Review before merge | `/review` | Improve code health |
 | Simplify the code | `/code-simplify` | Clarity over cleverness |
 | Ship to production | `/ship` | Faster is safer |
+
+Want fewer manual steps once the spec exists? **`/build auto`** generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously. It removes the human stepping *between* tasks, not the verification: every task is still test-driven and committed individually, and it pauses on failures or risky steps.
 
 Skills also activate automatically based on what you're doing — designing an API triggers `api-and-interface-design`, building UI triggers `frontend-ui-engineering`, and so on.
 

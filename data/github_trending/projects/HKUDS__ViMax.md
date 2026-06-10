@@ -5,7 +5,7 @@
   "full_name": "HKUDS/ViMax",
   "url": "https://github.com/HKUDS/ViMax",
   "description": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\"",
-  "readme_sha256": "ef411114c5c090d3cd49164f3a1cba7d88d3f4619752ffc3d7d15f80d154db35"
+  "readme_sha256": "884d9be817982b8568de09f340ff7e404955a943f1733c005de2b3272a524b2f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/ViMax
 - Description: "ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)"
-- README SHA256: `ef411114c5c090d3cd49164f3a1cba7d88d3f4619752ffc3d7d15f80d154db35`
+- README SHA256: `884d9be817982b8568de09f340ff7e404955a943f1733c005de2b3272a524b2f`
 
 ## README
 
@@ -39,7 +39,8 @@
   </p>
 
   <p align="center">
-    <a href='https://www.youtube.com/@AI-Creator-is-here'><img src='https://badges.aleen42.com/src/youtube.svg' /></a>
+    <a href='https://www.youtube.com/@AI-Creator-is-here'><img src='https://img.shields.io/badge/YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white&labelColor=1a1a2e' /></a>
+    <a href='https://arxiv.org/abs/2606.07649'><img src='https://img.shields.io/badge/arXiv-2606.07649-b31b1b?style=for-the-badge&logo=arxiv&logoColor=white&labelColor=1a1a2e' /></a>
   </p>
 
 </div>
@@ -287,7 +288,7 @@ ViMax now also includes an **Agents Loop + TUI** workflow for interactive planni
 
 - 👨‍💻 **Google AI Studio API config✅**
 - 🤖 **Agents Loop + TUI✅**
-- 📄 **Technical Report☑️**
+- 📄 **Technical Report✅**
 
 ---
 
