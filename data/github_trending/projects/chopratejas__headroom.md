@@ -5,7 +5,7 @@
   "full_name": "chopratejas/headroom",
   "url": "https://github.com/chopratejas/headroom",
   "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-  "readme_sha256": "c0cdb55a47d69d772f1c6657ebf3398cee919a02b68815ad3c71f7643dc2d616"
+  "readme_sha256": "829cba7c6e8d69db3ce75300d8c2fb1bda3004fcf96102c8345f18d997aeafaf"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chopratejas/headroom
 - Description: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- README SHA256: `c0cdb55a47d69d772f1c6657ebf3398cee919a02b68815ad3c71f7643dc2d616`
+- README SHA256: `829cba7c6e8d69db3ce75300d8c2fb1bda3004fcf96102c8345f18d997aeafaf`
 
 ## README
 
@@ -71,7 +71,7 @@ Headroom compresses everything your AI agent reads — tool outputs, logs, RAG c
 - **MCP server** — `headroom_compress`, `headroom_retrieve`, `headroom_stats` for any MCP client
 - **Cross-agent memory** — shared store across Claude, Codex, Gemini, auto-dedup
 - **`headroom learn`** — mines failed sessions, writes corrections to `CLAUDE.md` / `AGENTS.md`
-- **Reversible (CCR)** — originals never deleted; LLM retrieves on demand
+- **Reversible (CCR)** — originals are cached for retrieval on demand
 
 ## How it works (30 seconds)
 
@@ -178,7 +178,7 @@ Platform support note: macOS auth reuse via Copilot CLI Keychain storage has bee
 **Great fit if you…**
 - run AI coding agents daily and want savings without changing your code
 - work across multiple agents and want shared memory
-- need reversible compression — originals always retrievable via CCR
+- need reversible compression — originals are retrievable via CCR within the configured TTL
 
 **Skip it if you…**
 - only use a single provider's native compaction and don't need cross-agent memory

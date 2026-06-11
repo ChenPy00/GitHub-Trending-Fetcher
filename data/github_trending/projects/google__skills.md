@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "8ff2233ec5bc7695aa4bc4f331af2c1e7db266742e6cdb1c9dde260ee4b4bc10"
+  "readme_sha256": "90bd7713af90bbff4b29b2b83b30cba3f6b4fbba7275072e4a3d55a154c134f4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `8ff2233ec5bc7695aa4bc4f331af2c1e7db266742e6cdb1c9dde260ee4b4bc10`
+- README SHA256: `90bd7713af90bbff4b29b2b83b30cba3f6b4fbba7275072e4a3d55a154c134f4`
 
 ## README
 
@@ -58,6 +58,13 @@ repo to install.
     - [Operational excellence](./skills/cloud/google-cloud-waf-operational-excellence)
     - [Performance optimization](./skills/cloud/google-cloud-waf-performance-optimization)
     - [Sustainability](./skills/cloud/google-cloud-waf-sustainability)
+
+## Additional Google skills
+
+-   [**Flutter Skills**](https://github.com/flutter/skills)
+-   [**Dart Skills**](https://github.com/dart-lang/skills)
+
+
 
 ## Support
 

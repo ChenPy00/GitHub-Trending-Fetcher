@@ -5,7 +5,7 @@
   "full_name": "tinyhumansai/openhuman",
   "url": "https://github.com/tinyhumansai/openhuman",
   "description": "Your Personal AI super intelligence. Private, Simple and extremely powerful.",
-  "readme_sha256": "4549642e76c95644a87d143de0cb49d72745e2b1557c9d7b199386f1674bf6c1"
+  "readme_sha256": "0e76fcbb9b2d2629f2532a894392ad7c4d61b524c70b0efc14c947fca936a3d5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tinyhumansai/openhuman
 - Description: Your Personal AI super intelligence. Private, Simple and extremely powerful.
-- README SHA256: `4549642e76c95644a87d143de0cb49d72745e2b1557c9d7b199386f1674bf6c1`
+- README SHA256: `0e76fcbb9b2d2629f2532a894392ad7c4d61b524c70b0efc14c947fca936a3d5`
 
 ## README
 
@@ -58,8 +58,9 @@
 </p>
 
 <p align="center">
-  🇺🇸 <a href="./README.md">English</a> | 🇨🇳 <a href="./README.zh-CN.md">简体中文</a> | 🇯🇵 <a href="./README.ja-JP.md">日本語</a> | 🇰🇷 <a href="./README.ko.md">한국어</a> | 🇩🇪 <a href="./README.de.md">Deutsch</a>
+  🇺🇸 <a href="./README.md">English</a> | 🇨🇳 <a href="./README.zh-CN.md">简体中文</a> | 🇯🇵 <a href="./README.ja-JP.md">日本語</a> | 🇰🇷 <a href="./README.ko.md">한국어</a> | 🇩🇪 <a href="./README.de.md">Deutsch</a> | 🇵🇰 <a href="./README.ur-pk.md">اردو</a>
 </p>
+
 
 
 <p align="center">
@@ -71,6 +72,7 @@
  <a href="./README.ja-JP.md"><img src="https://img.shields.io/badge/lang-日本語-blue" alt="日本語" /></a>
  <a href="./README.ko.md"><img src="https://img.shields.io/badge/lang-한국어-blue" alt="한국어" /></a>
  <a href="./README.de.md"><img src="https://img.shields.io/badge/lang-Deutsch-blue" alt="Deutsch" /></a>
+ <a href="./README.ur-pk.md"><img src="https://img.shields.io/badge/lang-اردو-blue" alt="اردو" /></a>
 </p>
 
 > **Early Beta**: Under active development. Expect rough edges.
@@ -125,9 +127,9 @@ curl -fsSL https://raw.githubusercontent.com/tinyhumansai/openhuman/main/scripts
 irm https://raw.githubusercontent.com/tinyhumansai/openhuman/main/scripts/install.ps1 | iex
 ```
 
-## Verified script install (coming soon)
+## Verified script install status
 
-PR2 of [#2620](https://github.com/tinyhumansai/openhuman/issues/2620) will publish `install.sh.asc` / `install.ps1.asc` as release assets and document the `gpg --verify` (and Windows equivalent) flow here, so the script path can be made integrity-checked end-to-end.
+A separately signed script-install path is not currently available. Issue [#2620](https://github.com/tinyhumansai/openhuman/issues/2620) is closed after the native package paths were promoted, but current release assets do not include `install.sh.asc` / `install.ps1.asc` for pre-execution script verification. Treat the script install path as unverified and prefer the native package options above when possible.
 
 # What is OpenHuman?
 

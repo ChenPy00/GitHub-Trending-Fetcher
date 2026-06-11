@@ -5,7 +5,7 @@
   "full_name": "fathah/hermes-desktop",
   "url": "https://github.com/fathah/hermes-desktop",
   "description": "Desktop Companion for Hermes Agent",
-  "readme_sha256": "c7cfd57f0a25e3216e2bd752379567646e9f96813b45c81197168f298b2b4c36"
+  "readme_sha256": "5c024b0aa68504fde23076e1948b049ad0c102ebdd9270aa6ea14c650d3e086c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/fathah/hermes-desktop
 - Description: Desktop Companion for Hermes Agent
-- README SHA256: `c7cfd57f0a25e3216e2bd752379567646e9f96813b45c81197168f298b2b4c36`
+- README SHA256: `5c024b0aa68504fde23076e1948b049ad0c102ebdd9270aa6ea14c650d3e086c`
 
 ## README
 
@@ -31,6 +31,10 @@
   <a href="https://github.com/fathah/hermes-desktop/releases/">
   <img src="https://img.shields.io/github/downloads/fathah/hermes-desktop/total?style=for-the-badge&color=00B496&label=Total%20Downloads" alt="Downloads">
 </a>
+   <a href="https://bankr.bot/launches/0xfda75f77a22b4f4b783bbbb21915ef64d149bba3">
+  <img src="https://img.shields.io/badge/Token-$HD-purple?style=for-the-badge" alt="Downloads">
+</a>
+  
 </p>
 
 <p align="center">

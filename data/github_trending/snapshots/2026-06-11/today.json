@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 1,
+      "readme_sha256": "ad23ad8f7ddea44b610237d0c9c8a302f85c94e5752752599ab306387007a1d5",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 2,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 3,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 4,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "full_name": "soxoj/maigret",
+      "project_file": "projects/soxoj__maigret.md",
+      "rank": 5,
+      "readme_sha256": "084be043830ad7ad9ede27405df441912423774e87a693514b8044f4c740ecb9",
+      "url": "https://github.com/soxoj/maigret"
+    },
+    {
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "project_file": "projects/x1xhlol__system-prompts-and-models-of-ai-tools.md",
+      "rank": 6,
+      "readme_sha256": "e8b467b6b55e434e9f5e7094052cf3d5cedc42728acf78249d4822c18397d5b0",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 7,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "full_name": "masterking32/MasterDnsVPN",
+      "project_file": "projects/masterking32__MasterDnsVPN.md",
+      "rank": 8,
+      "readme_sha256": "43841841cb44d99032d4098d4e08aba761c789e6997423fc2a84cbee7ef21aa9",
+      "url": "https://github.com/masterking32/MasterDnsVPN"
+    },
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 9,
+      "readme_sha256": "0ed397157907b6e1dd1836408760b2debb39c17db72b256ed0cd4cb0c7e936e6",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "open-source healthcare ai",
+      "full_name": "maziyarpanahi/openmed",
+      "project_file": "projects/maziyarpanahi__openmed.md",
+      "rank": 10,
+      "readme_sha256": "2c5fb8fa786b7ce913d33ccf65db3c067cd1be080a442fe7eadfef6f433c723f",
+      "url": "https://github.com/maziyarpanahi/openmed"
+    },
+    {
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "full_name": "luongnv89/claude-howto",
+      "project_file": "projects/luongnv89__claude-howto.md",
+      "rank": 11,
+      "readme_sha256": "282ebcdab469d9198bbce2b9628e6a9f78a3144286173706b80cb2281ba992f2",
+      "url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "description": "One brain for all your agents",
+      "full_name": "activeloopai/hivemind",
+      "project_file": "projects/activeloopai__hivemind.md",
+      "rank": 12,
+      "readme_sha256": "bf3c9ef30056299e643ffa3f31141e2ea2350f66afff32d03ed0d6a75c9363db",
+      "url": "https://github.com/activeloopai/hivemind"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 13,
+      "readme_sha256": "c3735ca46d5c75bbe9f97715c0dd2de870220e0d0cf152088381082ea24d0731",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 14,
+      "readme_sha256": "e89247359ec0151768b63738f5d6b35be3db9f0d1626eb696b5a5ac9895a8ea3",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 15,
+      "readme_sha256": "90bd7713af90bbff4b29b2b83b30cba3f6b4fbba7275072e4a3d55a154c134f4",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "A straightforward method for training your LLM, from downloading data to generating text.",
+      "full_name": "FareedKhan-dev/train-llm-from-scratch",
+      "project_file": "projects/FareedKhan-dev__train-llm-from-scratch.md",
+      "rank": 16,
+      "readme_sha256": "045dc93538be9b3640c300e3d71d1f0938a90bd58526eb0444fcdd0393d45863",
+      "url": "https://github.com/FareedKhan-dev/train-llm-from-scratch"
+    },
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 17,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    }
+  ],
+  "snapshot_date": "2026-06-11",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

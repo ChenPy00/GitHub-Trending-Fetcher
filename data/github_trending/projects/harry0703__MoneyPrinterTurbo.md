@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-  "readme_sha256": "058dcfc52966eef3633dc8737e7c878767f879e17505152301e8b64d939153cf"
+  "readme_sha256": "0ed397157907b6e1dd1836408760b2debb39c17db72b256ed0cd4cb0c7e936e6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- README SHA256: `058dcfc52966eef3633dc8737e7c878767f879e17505152301e8b64d939153cf`
+- README SHA256: `0ed397157907b6e1dd1836408760b2debb39c17db72b256ed0cd4cb0c7e936e6`
 
 ## README
 
@@ -66,6 +66,7 @@
 - [x] 支持 **字幕生成**，可以调整 `字体`、`位置`、`颜色`、`大小`，同时支持`字幕描边`设置
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
 - [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的 **本地素材**
+- [x] 支持多种素材源:**Pexels**、**Pixabay**、**Coverr**(免费高清/4K 素材库,使用须遵守 [Coverr 许可条款](https://coverr.co/license),以 16:9 横屏为主;在 [coverr.co/developers](https://coverr.co/developers?ctx=header_navigation) 注册即可,Demo 套餐 50 次/小时)
 - [x] 支持 **OpenAI**、**AIHubMix**、**Moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama**、**DeepSeek**、**MiniMax**、 **文心一言**, **Pollinations**、**ModelScope** 等多种模型接入
 
 ## 视频演示 📺

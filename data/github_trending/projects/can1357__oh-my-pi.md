@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "4fa48810603a508cfebbad868cd42ed6416e36f45e2a012aa0334a9271133546"
+  "readme_sha256": "16fc3ee08cf4fa976beb70bd3c1ce591969c9184c2c10ffd20299d5715a5cbf3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `4fa48810603a508cfebbad868cd42ed6416e36f45e2a012aa0334a9271133546`
+- README SHA256: `16fc3ee08cf4fa976beb70bd3c1ce591969c9184c2c10ffd20299d5715a5cbf3`
 
 ## README
 
@@ -501,12 +501,16 @@ For architecture and contribution guidelines, see [packages/coding-agent/DEVELOP
 | Package                                                   | Description                                                                |
 | --------------------------------------------------------- | -------------------------------------------------------------------------- |
 | **[@oh-my-pi/pi-ai](packages/ai)**                        | Multi-provider LLM client with streaming and model/provider integration    |
+| **[@oh-my-pi/pi-catalog](packages/catalog)**              | Model catalog: bundled model database, provider descriptors, and identity  |
 | **[@oh-my-pi/pi-agent-core](packages/agent)**             | Agent runtime with tool calling and state management                       |
 | **[@oh-my-pi/pi-coding-agent](packages/coding-agent)**    | Interactive coding agent CLI and SDK                                       |
 | **[@oh-my-pi/pi-tui](packages/tui)**                      | Terminal UI library with differential rendering                            |
 | **[@oh-my-pi/pi-natives](packages/natives)**              | N-API bindings for grep, shell, image, text, syntax highlighting, and more |
 | **[@oh-my-pi/omp-stats](packages/stats)**                 | Local observability dashboard for AI usage statistics                      |
 | **[@oh-my-pi/pi-utils](packages/utils)**                  | Shared utilities (logging, streams, dirs/env/process helpers)              |
+| **[@oh-my-pi/hashline](packages/hashline)**               | Line-anchored patch language and applier behind the `edit` tool            |
+| **[@oh-my-pi/pi-mnemopi](packages/mnemopi)**              | Local SQLite memory engine for Oh My Pi agents                             |
+| **[@oh-my-pi/snapcompact](packages/snapcompact)**         | Bitmap-frame context compression package and SQuAD eval suite              |
 | **[@oh-my-pi/swarm-extension](packages/swarm-extension)** | Swarm orchestration extension package                                      |
 
 ### Rust Crates
