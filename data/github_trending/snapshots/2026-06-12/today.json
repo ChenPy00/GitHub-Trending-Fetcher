@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 1,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "ad23ad8f7ddea44b610237d0c9c8a302f85c94e5752752599ab306387007a1d5",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "open-source healthcare ai",
+      "full_name": "maziyarpanahi/openmed",
+      "project_file": "projects/maziyarpanahi__openmed.md",
+      "rank": 3,
+      "readme_sha256": "2c5fb8fa786b7ce913d33ccf65db3c067cd1be080a442fe7eadfef6f433c723f",
+      "url": "https://github.com/maziyarpanahi/openmed"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 4,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 5,
+      "readme_sha256": "d8f12919173447e1d3d2ed47247e33bc4a2a006e1dc939eb1d9b6fd94bd16888",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "full_name": "soxoj/maigret",
+      "project_file": "projects/soxoj__maigret.md",
+      "rank": 6,
+      "readme_sha256": "084be043830ad7ad9ede27405df441912423774e87a693514b8044f4c740ecb9",
+      "url": "https://github.com/soxoj/maigret"
+    },
+    {
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "project_file": "projects/x1xhlol__system-prompts-and-models-of-ai-tools.md",
+      "rank": 7,
+      "readme_sha256": "e8b467b6b55e434e9f5e7094052cf3d5cedc42728acf78249d4822c18397d5b0",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 8,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 9,
+      "readme_sha256": "3fd67bc92dc7ebdbcb28117f42a68bd043e5f7a815f07dd803e265ab74e57b1f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Fast, secure, efficient backup program",
+      "full_name": "restic/restic",
+      "project_file": "projects/restic__restic.md",
+      "rank": 10,
+      "readme_sha256": "8180046c28e55384c37588607b64a160b3e359a044d6ac59fddb94d659eab75d",
+      "url": "https://github.com/restic/restic"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 11,
+      "readme_sha256": "e868da21a6a93a0d4afdf5f18aac9edb69e80d3a2cc65821823b9c0954895aaf",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Advanced DNS tunneling VPN for censorship bypass, optimized beyond DNSTT and SlipStream with low-overhead ARQ, resolver load balancing, high packet-loss stability and speed.",
+      "full_name": "masterking32/MasterDnsVPN",
+      "project_file": "projects/masterking32__MasterDnsVPN.md",
+      "rank": 12,
+      "readme_sha256": "43841841cb44d99032d4098d4e08aba761c789e6997423fc2a84cbee7ef21aa9",
+      "url": "https://github.com/masterking32/MasterDnsVPN"
+    },
+    {
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "full_name": "chatwoot/chatwoot",
+      "project_file": "projects/chatwoot__chatwoot.md",
+      "rank": 13,
+      "readme_sha256": "00b1867b3e486325ff35a8d5194e937974a02cab39cbbc0a0d9846e3c1ff1ac7",
+      "url": "https://github.com/chatwoot/chatwoot"
+    },
+    {
+      "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
+      "full_name": "kenn-io/agentsview",
+      "project_file": "projects/kenn-io__agentsview.md",
+      "rank": 14,
+      "readme_sha256": "01117620346f1edda29e8c484888f9bf77e0f561a10ab3888e1e2d6c13b8c6f4",
+      "url": "https://github.com/kenn-io/agentsview"
+    },
+    {
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "full_name": "alchaincyf/zhangxuefeng-skill",
+      "project_file": "projects/alchaincyf__zhangxuefeng-skill.md",
+      "rank": 15,
+      "readme_sha256": "f588e715d7a33ca8f1991a4fc012726c4c175f083363e6e486201e997b277a09",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 16,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "SIA is a Self Improving AI framework to autonomously improve the performance of any AI system (Model / Agent) on a benchmark task.",
+      "full_name": "hexo-ai/sia",
+      "project_file": "projects/hexo-ai__sia.md",
+      "rank": 17,
+      "readme_sha256": "bc359d1a3a089f23afeb12cff42cbcf9f96b94d6c1cf5afa82f447f3f6fcd159",
+      "url": "https://github.com/hexo-ai/sia"
+    },
+    {
+      "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+      "full_name": "mattermost/mattermost",
+      "project_file": "projects/mattermost__mattermost.md",
+      "rank": 18,
+      "readme_sha256": "44a585dd1a0c1309415819bbd8ae7fda5411cb994a25641d63423baa0991182e",
+      "url": "https://github.com/mattermost/mattermost"
+    },
+    {
+      "description": "翻墙-科学上网",
+      "full_name": "bannedbook/fanqiang",
+      "project_file": "projects/bannedbook__fanqiang.md",
+      "rank": 19,
+      "readme_sha256": "0ebca5114bbcf9252771729717dfa14816b33ca913613fccfbe47f9530e0a577",
+      "url": "https://github.com/bannedbook/fanqiang"
+    }
+  ],
+  "snapshot_date": "2026-06-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

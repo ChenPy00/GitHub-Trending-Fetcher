@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/cosmos",
   "url": "https://github.com/NVIDIA/cosmos",
   "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-  "readme_sha256": "d5e4617146dee31d4e8e5b674b0921a63bcc4e2f190d33e36cd80718919c51bb"
+  "readme_sha256": "87d5d9da063b1187d598bbe7dfb8722bfa745a41a2e299e218929b1f05641c5e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/cosmos
 - Description: NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.
-- README SHA256: `d5e4617146dee31d4e8e5b674b0921a63bcc4e2f190d33e36cd80718919c51bb`
+- README SHA256: `87d5d9da063b1187d598bbe7dfb8722bfa745a41a2e299e218929b1f05641c5e`
 
 ## README
 
@@ -535,21 +535,25 @@ docker run -it --rm --name=$CONTAINER_NAME \
 The OpenAI-compatible API is then available at `http://127.0.0.1:8000/v1`. Query it with `curl`:
 
 ```shell
+IMAGE_DATA_URI="data:image/jpeg;base64,$(base64 -w 0 cookbooks/cosmos3/reasoner/assets/robot_153.jpg)"
+
 curl -X POST 'http://127.0.0.1:8000/v1/chat/completions' \
   -H 'Accept: application/json' \
   -H 'Content-Type: application/json' \
-  -d '{
+  --data-binary @- <<JSON
+{
     "model": "nvidia/cosmos3-nano-reasoner",
     "messages": [
       {"role": "system", "content": "You are a helpful assistant."},
       {"role": "user", "content": [
-        {"type": "image_url", "image_url": {"url": "https://github.com/nvidia-cosmos/cosmos-dependencies/raw/refs/heads/assets/cosmos3/inputs/vision/robot_153.jpg"}},
+        {"type": "image_url", "image_url": {"url": "$IMAGE_DATA_URI"}},
         {"type": "text", "text": "Describe what is happening in this image in one sentence."}
       ]}
     ],
     "max_tokens": 256,
     "stream": false
-  }'
+  }
+JSON
 ```
 
 Or with the OpenAI Python client:
@@ -647,19 +651,21 @@ We are building examples that show Cosmos 3 capabilities end to end, including w
 | Forward dynamics with vLLM-Omni | Generator | Forward dynamics: action-conditioned future-observation prediction for AV, DROID, and UMI, against an OpenAI-compatible vLLM-Omni server. | [Notebook](cookbooks/cosmos3/generator/action/run_fd_with_vllm.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/generator/action/run_fd_with_vllm.ipynb) |
 | Inverse dynamics with Cosmos Framework | Generator | Inverse dynamics: ego-motion trajectory prediction from input AV video, through the `cosmos_framework.scripts.inference` entrypoint. | [Notebook](cookbooks/cosmos3/generator/action/run_id_with_cosmos_framework.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/generator/action/run_id_with_cosmos_framework.ipynb) |
 | Inverse dynamics with vLLM-Omni | Generator | Inverse dynamics: ego-motion trajectory prediction from input AV video, against an OpenAI-compatible vLLM-Omni server. | [Notebook](cookbooks/cosmos3/generator/action/run_id_with_vllm.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/generator/action/run_id_with_vllm.ipynb) |
+| Transfer with Cosmos Framework | Generator | Video transfer: edge, blur, depth, segmentation, and world-scenario controls with captions, through the `cosmos_framework.scripts.inference` entrypoint. | [Notebook](cookbooks/cosmos3/generator/transfer/run_video_transfer_with_cosmos_framework.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/generator/transfer/run_video_transfer_with_cosmos_framework.ipynb) |
 | Reasoner with Cosmos Framework | Reasoner | Text and image reasoning: detailed captioning, robot task planning, 2D grounding, describe-anything, and action-trajectory prompts, through the `cosmos_framework.scripts.inference` entrypoint. | [Notebook](cookbooks/cosmos3/reasoner/run_with_cosmos_framework.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/reasoner/run_with_cosmos_framework.ipynb) |
 | Reasoner with vLLM | Reasoner | Image and video reasoning: captioning, temporal localization, embodied reasoning, common-sense reasoning, 2D grounding, describe-anything, action CoT, driving scenes, physical-plausibility, and situation understanding, against an OpenAI-compatible vLLM server (Cosmos3-Super on 4 GPUs by default; switch to Nano per the cookbook README). | [Notebook](cookbooks/cosmos3/reasoner/run_with_vllm.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/reasoner/run_with_vllm.ipynb) |
 | Reasoner with NIM | Reasoner | The same image and video reasoning examples as the vLLM notebook, run against the prebuilt, OpenAI-compatible [Cosmos 3 Reasoner NIM](https://catalog.ngc.nvidia.com/orgs/nim/teams/nvidia/containers/cosmos3-reasoner) container; local media is sent as base64 data URIs. | [Notebook](cookbooks/cosmos3/reasoner/run_with_nim.ipynb) | [![Render with nbviewer](https://raw.githubusercontent.com/jupyter/design/master/logos/Badges/nbviewer_badge.svg)](https://nbviewer.org/github/nvidia/cosmos/blob/main/cookbooks/cosmos3/reasoner/run_with_nim.ipynb) |
 
 ### Inference Benchmarks
 
-Cosmos 3 latency and serving numbers live in [`inference_benchmarks.md`](inference_benchmarks.md). Generator sections report diffusion-path latency (seconds) by GPU, engine, resolution, and tensor-parallel width; the Reasoner section reports vLLM serving metrics under concurrent load. Empty cells mean a combination has not been measured yet, not that it is unsupported.
+Cosmos 3 latency and serving numbers live in [`inference_benchmarks.md`](inference_benchmarks.md). Generator sections report diffusion-path latency (seconds) by GPU, engine, resolution, and tensor-parallel width; Reasoner sections report vLLM serving metrics under concurrent load. Empty cells mean a combination has not been measured yet, not that it is unsupported.
 
 | Benchmark | Surface | Model | What it covers |
 | --- | --- | --- | --- |
 | [Cosmos3-Nano generator](inference_benchmarks.md#cosmos3-nano-generator) | Generator | Cosmos3-Nano | Text-to-image, text-to-video, and image-to-video latency across PyTorch, vLLM-Omni, and Diffusers |
 | [Cosmos3-Super generator](inference_benchmarks.md#cosmos3-super-generator) | Generator | Cosmos3-Super | The same modalities and engines at the larger checkpoint scale |
 | [Cosmos3-Nano reasoner](inference_benchmarks.md#cosmos3-nano-reasoner) | Reasoner | Cosmos3-Nano | vLLM serving metrics — TTFT, request latency, and throughput at concurrency 1/64/128/256 |
+| [Cosmos3-Super reasoner](inference_benchmarks.md#cosmos3-super-reasoner) | Reasoner | Cosmos3-Super | The same serving metrics at the larger checkpoint scale; coverage is sparser than Nano |
 
 ### Finetune
 

@@ -5,7 +5,7 @@
   "full_name": "Leonxlnx/taste-skill",
   "url": "https://github.com/Leonxlnx/taste-skill",
   "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-  "readme_sha256": "eb944ab0b4ec5cb87ea75f21a907eb3b1b2f66df21cace0c156eee991c243b5a"
+  "readme_sha256": "eed7814a93cec1d14c9f95bd24b3db972659fa66b5d09e79ff83b5f331964948"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Leonxlnx/taste-skill
 - Description: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
-- README SHA256: `eb944ab0b4ec5cb87ea75f21a907eb3b1b2f66df21cace0c156eee991c243b5a`
+- README SHA256: `eed7814a93cec1d14c9f95bd24b3db972659fa66b5d09e79ff83b5f331964948`
 
 ## README
 
@@ -197,6 +197,16 @@ If Taste Skill helps you, consider sponsoring:
 ## Research
 
 Background writing that shaped these skills lives in [`research/`](research/).
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=Leonxlnx%2Ftaste-skill&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=Leonxlnx/taste-skill&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## Common Questions
 

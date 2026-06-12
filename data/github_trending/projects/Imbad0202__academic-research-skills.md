@@ -5,7 +5,7 @@
   "full_name": "Imbad0202/academic-research-skills",
   "url": "https://github.com/Imbad0202/academic-research-skills",
   "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-  "readme_sha256": "3a5ce24127b9b2ff098627f6c23c4b6c1a4dc706a55070c0d6fdd8b4d77443ed"
+  "readme_sha256": "fa1c7bcc0616c01c83ac08931162e0fbc93b4eb3b323e7dfade4964920b872c1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Imbad0202/academic-research-skills
 - Description: Academic Research Skills for Claude Code: research → write → review → revise → finalize
-- README SHA256: `3a5ce24127b9b2ff098627f6c23c4b6c1a4dc706a55070c0d6fdd8b4d77443ed`
+- README SHA256: `fa1c7bcc0616c01c83ac08931162e0fbc93b4eb3b323e7dfade4964920b872c1`
 
 ## README
 
@@ -143,6 +143,8 @@ ARS Stage 2 WRITE     →  write paper with verified experiment results
 **How to use together**: pause the ARS pipeline after Stage 1, run experiments in a separate experiment-agent session, then bring the results (with Material Passport) back to ARS Stage 2. ARS requires zero modification. See the [experiment-agent README](https://github.com/Imbad0202/experiment-agent) for setup instructions.
 
 **Stage 1 intake declaration (#260)**: at Stage 1, ARS detects whether the run will carry experiment-backed claims and sets a fail-closed `experiment_intake_declaration` on the Material Passport. If you ran experiments externally, the scholar enters one `experiment_provenance[]` entry per experiment (`experiment_id`, nested `repro_lock`, `planned_vs_executed[]`, `negative_results[]`, `known_limitations[]`) and the declaration is set to `experiments_declared`; if not, it is set to `no_experiments_declared`. The declaration is **required on every post-#260 passport** — a run that touches no experiments still declares `no_experiments_declared`, so the integrity gate can never be silently bypassed by a forgotten provenance block. The `experiment_id`s are frozen at this intake point; the writers later reference them via `planned_experiment_ids[]`.
+
+**Teaching-side companion**: [Teaching Skills](https://github.com/YujxZJCN/teaching-skills) applies the ARS architecture (skill ensembles, shared contracts, staged gates, a Course Passport) to the teaching side of academic life — course design → lessons → assessment → delivery → reflection; its `sotl` mode hands classroom-inquiry projects off to ARS deep-research / academic-paper for the publication phase.
 
 ---
 
