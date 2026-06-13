@@ -5,7 +5,7 @@
   "full_name": "chopratejas/headroom",
   "url": "https://github.com/chopratejas/headroom",
   "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-  "readme_sha256": "b45a5ac4dec6d53cf7586e0ba07428fca9894feb9c9f6f9862fd0aa3784ad126"
+  "readme_sha256": "ea8812fa489eb0d24da584b7227d55ba36a160c13572f19e2d06216825f8cf0b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chopratejas/headroom
 - Description: Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.
-- README SHA256: `b45a5ac4dec6d53cf7586e0ba07428fca9894feb9c9f6f9862fd0aa3784ad126`
+- README SHA256: `ea8812fa489eb0d24da584b7227d55ba36a160c13572f19e2d06216825f8cf0b`
 
 ## README
 
@@ -166,10 +166,28 @@ Any OpenAI-compatible client works via `headroom proxy`. MCP-native: `headroom m
 Headroom can route GitHub Copilot CLI subscription traffic through the local proxy:
 
 ```bash
+headroom copilot-auth login
 headroom wrap copilot --subscription -- --model gpt-4o
 ```
 
-This lets Headroom intercept OpenAI-compatible Copilot CLI requests and apply the same proxy compression pipeline before forwarding to GitHub Copilot's hosted API. The wrapper resolves the account-specific Copilot API endpoint and prints it as `COPILOT_PROVIDER_API_URL=...` during launch.
+This lets Headroom intercept OpenAI-compatible Copilot CLI requests and apply the same proxy compression pipeline before forwarding to GitHub Copilot's hosted API. The wrapper exchanges Headroom's reusable GitHub OAuth token for Copilot's short-lived API token and prints the upstream endpoint as `COPILOT_PROVIDER_API_URL=...` during launch.
+
+`headroom copilot-auth login` stores a Headroom-specific Copilot OAuth token.
+This avoids relying on generic GitHub or Copilot CLI tokens that can read
+Copilot account metadata but may still be rejected by Copilot's token-exchange
+endpoint.
+
+For GitHub Enterprise Server or custom-domain Copilot deployments, set the
+deployment domain before launching:
+
+```bash
+export GITHUB_COPILOT_ENTERPRISE_DOMAIN=ghe.example.com
+```
+
+For GitHub.com Enterprise Cloud URLs such as
+`github.com/enterprises/your-enterprise`, do not set an enterprise-domain
+override. Headroom uses GitHub's normal token-exchange endpoint and the Copilot
+API endpoint advertised for the signed-in account.
 
 Platform support note: macOS auth reuse via Copilot CLI Keychain storage has been smoke-tested. Windows Credential Manager, Linux Secret Service / `secret-tool`, and Docker/CI token-injection paths are implemented or planned as auth-discovery paths, but still need real OS validation before they should be considered fully vetted. For Docker and CI, prefer passing an explicit `GITHUB_COPILOT_TOKEN` or `GITHUB_COPILOT_GITHUB_TOKEN` rather than relying on host keychain access.
 
@@ -321,7 +339,7 @@ Headroom runs **locally**, covers **every** content type, works with every major
 
 ```bash
 git clone https://github.com/chopratejas/headroom.git && cd headroom
-pip install -e ".[dev]" && pytest
+uv sync --extra dev && uv run pytest
 ```
 
 Devcontainers in `.devcontainer/` (default + `memory-stack` with Qdrant & Neo4j). See [CONTRIBUTING.md](CONTRIBUTING.md).

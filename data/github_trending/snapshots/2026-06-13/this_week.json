@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 1,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 2,
+      "readme_sha256": "ea8812fa489eb0d24da584b7227d55ba36a160c13572f19e2d06216825f8cf0b",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 3,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 4,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 5,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "965ef036f177afb1cc882a4d30ce7121476c4ceecf4dba4079ba86c026ce8a47",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 7,
+      "readme_sha256": "a6b4972fd7e0c1e254b65fd6570645b12d3f0336bb9130ae7579faa20205a9e8",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 8,
+      "readme_sha256": "eed7814a93cec1d14c9f95bd24b3db972659fa66b5d09e79ff83b5f331964948",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 9,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "full_name": "NVIDIA/cosmos",
+      "project_file": "projects/NVIDIA__cosmos.md",
+      "rank": 10,
+      "readme_sha256": "87d5d9da063b1187d598bbe7dfb8722bfa745a41a2e299e218929b1f05641c5e",
+      "url": "https://github.com/NVIDIA/cosmos"
+    },
+    {
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+      "full_name": "CopilotKit/CopilotKit",
+      "project_file": "projects/CopilotKit__CopilotKit.md",
+      "rank": 11,
+      "readme_sha256": "929c3490535257caddd77b093d9daec22deb1a48c31d2a68752ff56ca0e3d998",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 12,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "full_name": "aaif-goose/goose",
+      "project_file": "projects/aaif-goose__goose.md",
+      "rank": 13,
+      "readme_sha256": "77164e1e3aab2c6d70bd543186e255c76d7a7c2aeeea8246eb506b4d80341c3c",
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+      "full_name": "aquasecurity/trivy",
+      "project_file": "projects/aquasecurity__trivy.md",
+      "rank": 14,
+      "readme_sha256": "217d4d9db626c98b80f0fa214b510705d922f16b9c9452a6ce10d86788be67ba",
+      "url": "https://github.com/aquasecurity/trivy"
+    },
+    {
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 15,
+      "readme_sha256": "b6c1549e58d76e62028b71b1797a9d36f86c1ccc02ab2ee8f6eeea55f4abc878",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
+      "full_name": "Open-LLM-VTuber/Open-LLM-VTuber",
+      "project_file": "projects/Open-LLM-VTuber__Open-LLM-VTuber.md",
+      "rank": 16,
+      "readme_sha256": "3b6cf6adbf7c49a00e89d99c0fdb582a316054f8bb44332f7c95800fdd674140",
+      "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber"
+    },
+    {
+      "description": "Open Source Computer Vision Library",
+      "full_name": "opencv/opencv",
+      "project_file": "projects/opencv__opencv.md",
+      "rank": 17,
+      "readme_sha256": "8b79d16417280719517b40f2995d8e3772aa68b34bdd44cfd1163eec733415a0",
+      "url": "https://github.com/opencv/opencv"
+    },
+    {
+      "description": "web development for the rest of us",
+      "full_name": "sveltejs/svelte",
+      "project_file": "projects/sveltejs__svelte.md",
+      "rank": 18,
+      "readme_sha256": "f58cdd71cf9dfac9397cc683e5116cd100e685c329db534cca6781ff16894b73",
+      "url": "https://github.com/sveltejs/svelte"
+    }
+  ],
+  "snapshot_date": "2026-06-13",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

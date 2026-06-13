@@ -5,7 +5,7 @@
   "full_name": "iii-hq/iii",
   "url": "https://github.com/iii-hq/iii",
   "description": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
-  "readme_sha256": "1efa7bdea28ff8baaf850cd89e995099fc7681eb288befe47b98aa49354c7fe3"
+  "readme_sha256": "606f1f0b63eed29eb73b3e43d5006fd511ed1d036b456d6b79e25cb0d06a1634"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iii-hq/iii
 - Description: Effortlessly compose, extend, and observe every service in real-time for the first time ever.
-- README SHA256: `1efa7bdea28ff8baaf850cd89e995099fc7681eb288befe47b98aa49354c7fe3`
+- README SHA256: `606f1f0b63eed29eb73b3e43d5006fd511ed1d036b456d6b79e25cb0d06a1634`
 
 ## README
 
@@ -21,8 +21,6 @@
 
 ![iii: point-to-point integrations vs zero-integration via shared runtime](.github/assets/zero-integration.png)
 
-[![Engine License](https://img.shields.io/badge/engine-ELv2-blue.svg)](engine/LICENSE)
-[![SDK License](https://img.shields.io/badge/sdk-Apache--2.0-green.svg)](sdk/LICENSE)
 [![Docker](https://img.shields.io/docker/v/iiidev/iii?label=docker)](https://hub.docker.com/r/iiidev/iii)
 [![npm](https://img.shields.io/npm/v/iii-sdk?label=npm)](https://www.npmjs.com/package/iii-sdk)
 [![PyPI](https://img.shields.io/pypi/v/iii-sdk?label=pypi)](https://pypi.org/project/iii-sdk/)

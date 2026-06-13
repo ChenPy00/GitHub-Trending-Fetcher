@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-  "readme_sha256": "fc1b616823047a366d1354171055ce5f2f13d5e048e985853ce9bf1d1f6033c9"
+  "readme_sha256": "55ee2df563a9575b74711a50195860f8490f20f0dba30d1b9b0266e69391dee9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- README SHA256: `fc1b616823047a366d1354171055ce5f2f13d5e048e985853ce9bf1d1f6033c9`
+- README SHA256: `55ee2df563a9575b74711a50195860f8490f20f0dba30d1b9b0266e69391dee9`
 
 ## README
 
@@ -274,7 +274,7 @@ pip install -r requirements.txt
 ###### MacOS or Linux
 
 ```shell
-uv run streamlit run ./webui/Main.py --browser.gatherUsageStats=False
+uv run streamlit run ./webui/Main.py --browser.gatherUsageStats=False --server.showEmailPrompt=False
 ```
 
 如果你已经手动激活了虚拟环境，也可以直接执行：

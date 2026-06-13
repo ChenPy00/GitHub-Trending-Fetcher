@@ -4,22 +4,26 @@
   "name": "codegraph",
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
-  "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "804d9df61db12a4c55e82d4b869dc499d1ae2a7113010d4134855bf0b65d331b"
+  "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+  "readme_sha256": "06a4c205bcbff101db7127b4f6189a100ae0ff2caea17caa6f768f3290e014d2"
 }
 ```
 
 # colbymchenry/codegraph
 
 - URL: https://github.com/colbymchenry/codegraph
-- Description: Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `804d9df61db12a4c55e82d4b869dc499d1ae2a7113010d4134855bf0b65d331b`
+- Description: Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
+- README SHA256: `06a4c205bcbff101db7127b4f6189a100ae0ff2caea17caa6f768f3290e014d2`
 
 ## README
 
 <div align="center">
 
 # CodeGraph
+
+## 🎉 1.0 Released!
+
+Follow [@getcodegraph](https://x.com/getcodegraph) on X for updates.
 
 ### Supercharge Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Gemini, Antigravity, and Kiro with Semantic Code Intelligence
 
@@ -68,7 +72,8 @@ curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install
 irm https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.ps1 | iex
 ```
 
-Already have Node? Use npm instead (works on any version):
+<details>
+<summary><b>Already have Node? Use npm instead (works on any version)</b></summary>
 
 ```bash
 npm i -g @colbymchenry/codegraph
@@ -77,6 +82,8 @@ npm i -g @colbymchenry/codegraph
 <sub>CodeGraph bundles its own runtime — nothing to compile, no native build, works the same everywhere. The installer puts `codegraph` on your PATH but **doesn't change your current shell** — open a new terminal before the next step so the command resolves.</sub>
 
 <sub>**Upgrade any time** with `codegraph upgrade` — it detects how you installed (bundle, npm, or npx) and updates in place. Add `--check` to see if an update is available, or `codegraph upgrade <version>` to pin one.</sub>
+
+</details>
 
 ### 2. Wire up your agent(s)
 
@@ -92,16 +99,20 @@ codegraph install
 
 ```bash
 cd your-project
-codegraph init -i
+codegraph init
 ```
 
-<sub>`codegraph init` just creates the local `.codegraph/` index directory; adding `-i` (`--index`) also builds the initial graph in the same step. Without `-i`, run `codegraph index` afterwards to populate it.</sub>
+<sub>`codegraph init` creates the local `.codegraph/` directory and builds the full graph in the same step — one command, done.</sub>
 
 <div align="center">
 
 ![1_C_VYnhpys0UHrOuOgpgoyw](https://github.com/user-attachments/assets/f168182f-4d9a-44e0-94d7-08d018cc8a3a)
 
 </div>
+
+### 4. No more syncing!
+
+Auto-sync is enabled by default. CodeGraph watches the project and updates the graph on every file change — while your agent edits code, or you add, modify, or delete files. **The index is never stale, and there is nothing to re-run.**
 
 ### Uninstall
 
@@ -244,7 +255,7 @@ CodeGraph cuts **tokens, tool calls, and wall-clock time on every repo** — acr
 | **Full-Text Search** | Find code by name instantly across your entire codebase, powered by FTS5 |
 | **Impact Analysis** | Trace callers, callees, and the full impact radius of any symbol before making changes |
 | **Always Fresh** | File watcher uses native OS events (FSEvents/inotify/ReadDirectoryChangesW) with debounced auto-sync — the graph stays current as you code, zero config |
-| **20+ Languages** | TypeScript, JavaScript, Python, Go, Rust, Java, C#, PHP, Ruby, C, C++, Objective-C, Swift, Kotlin, Scala, Dart, Lua, Luau, Svelte, Vue, Astro, Liquid, Pascal/Delphi |
+| **20+ Languages** | TypeScript, JavaScript, Python, Go, Rust, Java, C#, PHP, Ruby, C, C++, Objective-C, Swift, Kotlin, Scala, Dart, Lua, Luau, R, Svelte, Vue, Astro, Liquid, Pascal/Delphi |
 | **Framework-aware Routes** | Recognizes web-framework routing files and links URL patterns to their handlers across 17 frameworks |
 | **Mixed iOS / React Native / Expo** | Closes cross-language flows that static parsing misses: Swift ↔ ObjC bridging, React Native legacy bridge + TurboModules + Fabric view components, native → JS event emitters, Expo Modules |
 | **100% Local** | No data leaves your machine. No API keys. No external services. SQLite database only |
@@ -374,10 +385,10 @@ Restart your agent (Claude Code / Cursor / Codex CLI / opencode / Hermes Agent /
 
 ```bash
 cd your-project
-codegraph init -i
+codegraph init
 ```
 
-Builds the per-project knowledge graph index. A single global `codegraph install` works in every project you open — no need to re-run the installer per project.
+Builds the per-project knowledge graph index, which then auto-syncs on every file change. A single global `codegraph install` works in every project you open — no need to re-run the installer per project.
 
 That's it — your agent will use CodeGraph tools automatically when a `.codegraph/` directory exists.
 
@@ -608,6 +619,23 @@ add a negation — `!vendor/`. The defaults apply uniformly, so committing a
 dependency or build directory doesn't force it into the graph; the `.gitignore`
 negation is the explicit opt-in.
 
+## Telemetry
+
+CodeGraph collects **anonymous usage statistics** — which tools and commands get
+used, which languages get indexed — to guide where language and agent support
+work goes. **Never** any code, paths, file or symbol names, queries, or IP
+addresses; usage is aggregated locally into daily totals before anything is
+sent, and the ingest endpoint is [public code in this repo](telemetry-worker/)
+that enforces the documented field list. The installer asks up front; turn it
+off any time:
+
+```bash
+codegraph telemetry off    # or: CODEGRAPH_TELEMETRY=0, or DO_NOT_TRACK=1
+```
+
+[`TELEMETRY.md`](TELEMETRY.md) lists every field, with the off-switches and the
+full data-handling story.
+
 ## Supported Platforms
 
 Every release ships a self-contained build (bundled Node runtime — nothing to
@@ -662,6 +690,7 @@ is written):
 | Liquid | `.liquid` | Full support |
 | Pascal / Delphi | `.pas`, `.dpr`, `.dpk`, `.lpr` | Full support (classes, records, interfaces, enums, DFM/FMX form files) |
 | Lua | `.lua` | Full support (functions, methods with receivers, local variables, `require` imports, call edges) |
+| R | `.R` `.r` | Full support (functions in every assignment form, S4/R5/R6 classes with methods, `library`/`require` imports, `source()` file references, call edges) |
 | Luau | `.luau` | Full support (everything in Lua, plus `type`/`export type` aliases, typed signatures, and Roblox instance-path `require`) |
 
 ## Measured cross-file coverage
