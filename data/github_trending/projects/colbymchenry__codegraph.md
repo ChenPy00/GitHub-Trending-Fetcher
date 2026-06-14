@@ -5,7 +5,7 @@
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
   "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "06a4c205bcbff101db7127b4f6189a100ae0ff2caea17caa6f768f3290e014d2"
+  "readme_sha256": "3582e794957515e9278ee54e4eebcd52f338b44762764b02cacd7a565f5440ce"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/colbymchenry/codegraph
 - Description: Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `06a4c205bcbff101db7127b4f6189a100ae0ff2caea17caa6f768f3290e014d2`
+- README SHA256: `3582e794957515e9278ee54e4eebcd52f338b44762764b02cacd7a565f5440ce`
 
 ## README
 
@@ -22,6 +22,8 @@
 # CodeGraph
 
 ## 🎉 1.0 Released!
+
+Already installed? Run `codegraph upgrade` to update in place.
 
 Follow [@getcodegraph](https://x.com/getcodegraph) on X for updates.
 
@@ -493,6 +495,7 @@ codegraph uninit [path]           # Remove CodeGraph from a project (--force to 
 codegraph index [path]            # Full index (--force to re-index, --quiet for less output)
 codegraph sync [path]             # Incremental update
 codegraph status [path]           # Show statistics
+codegraph unlock [path]           # Remove a stale lock file that's blocking indexing
 codegraph query <search>          # Search symbols (--kind, --limit, --json)
 codegraph explore <query>         # Relevant symbols' source + call paths in one shot (same output as the codegraph_explore MCP tool)
 codegraph node <symbol|file>      # One symbol's source + callers, or read a file with line numbers (same output as codegraph_node)
@@ -501,8 +504,11 @@ codegraph callers <symbol>        # Find what calls a function/method (--limit, 
 codegraph callees <symbol>        # Find what a function/method calls (--limit, --json)
 codegraph impact <symbol>         # Analyze what code is affected by changing a symbol (--depth, --json)
 codegraph affected [files...]     # Find test files affected by changes (see below)
-codegraph serve --mcp             # Start MCP server
+codegraph daemon                  # Manage background daemons — pick one to stop (alias: daemons)
+codegraph telemetry [on|off]      # Show or change anonymous usage telemetry
 codegraph upgrade [version]       # Update to the latest release (--check, --force)
+codegraph version                 # Print the installed version (also -v, --version)
+codegraph help [command]          # Show help, optionally for one command
 ```
 
 ### `codegraph affected`
@@ -735,7 +741,7 @@ Framework routing is validated the same way, on a canonical app per framework: E
 - **You're on an old (pre-0.9) install.** Reinstall to get the bundled runtime — `curl -fsSL https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.sh | sh` (macOS/Linux), `irm https://raw.githubusercontent.com/colbymchenry/codegraph/main/install.ps1 | iex` (Windows), or `npm i -g @colbymchenry/codegraph@latest`.
 - **`codegraph status` shows `Journal:` other than `wal`** — WAL couldn't be enabled on this filesystem (common on network shares and WSL2 `/mnt`), so reads can block on writes. Move the project (with its `.codegraph/` folder) onto a local disk.
 
-**MCP server not connecting** — Ensure the project is initialized/indexed, verify the path in your MCP config, and check that `codegraph serve --mcp` works from the command line.
+**MCP server not connecting** — Your agent starts the server itself, so you don't launch it by hand. Make sure the project is initialized and indexed (`codegraph status`) and that the path in your MCP config is correct. If it still won't connect, re-run `codegraph install` to rewrite the config.
 
 **Missing symbols** — The MCP server auto-syncs on save (wait a couple seconds). Run `codegraph sync` manually if needed. Check that the file's language is supported and isn't inside a `.gitignore`d or default-excluded directory (e.g. `node_modules`, `dist`).
 

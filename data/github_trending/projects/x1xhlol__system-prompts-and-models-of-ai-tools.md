@@ -5,7 +5,7 @@
   "full_name": "x1xhlol/system-prompts-and-models-of-ai-tools",
   "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
   "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
-  "readme_sha256": "e8b467b6b55e434e9f5e7094052cf3d5cedc42728acf78249d4822c18397d5b0"
+  "readme_sha256": "d6a46add590432b899a4b3994006816f7ee02d3fe886e2fdc433a7f21601ad79"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
 - Description: FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models
-- README SHA256: `e8b467b6b55e434e9f5e7094052cf3d5cedc42728acf78249d4822c18397d5b0`
+- README SHA256: `d6a46add590432b899a4b3994006816f7ee02d3fe886e2fdc433a7f21601ad79`
 
 ## README
 
@@ -93,7 +93,7 @@ Sponsor the most comprehensive repository of AI system prompts and reach thousan
 
 ## Connect With Me
 
-- **X:** [NotLucknite](https://x.com/Lucknite)
+- **X:** [Lucknite](https://x.com/Lucknite)
 - **Discord**: `x1xhlol`
 - **Email**: `lucasvalbuena@pm.me`
 

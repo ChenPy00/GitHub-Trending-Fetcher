@@ -5,7 +5,7 @@
   "full_name": "ruvnet/RuView",
   "url": "https://github.com/ruvnet/RuView",
   "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
-  "readme_sha256": "786955aa3330a4f79c760eee6c418407a7504439403f6b11cce22f785fc98cd0"
+  "readme_sha256": "7db92ee7cce4e44bf0d9245710d327ddfde9013c530d956debac11d985eaf7d1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ruvnet/RuView
 - Description: π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
-- README SHA256: `786955aa3330a4f79c760eee6c418407a7504439403f6b11cce22f785fc98cd0`
+- README SHA256: `7db92ee7cce4e44bf0d9245710d327ddfde9013c530d956debac11d985eaf7d1`
 
 ## README
 
@@ -213,7 +213,7 @@ The separate **17-keypoint pose-estimation model** is now published at [`ruvnet/
 | **Efficiency frontier** | [`docs/benchmarks/wifi-pose-efficiency-frontier.md`](docs/benchmarks/wifi-pose-efficiency-frontier.md) | SOTA-beating WiFi pose in a 20 KB int4 edge model |
 | **Pretrained encoder** | [`ruvnet/wifi-densepose-pretrained`](https://huggingface.co/ruvnet/wifi-densepose-pretrained) | 82.3% held-out temporal-triplet, 8 KB int4 |
 | **Reproducible proof (Trust Kill Switch)** | [`archive/v1/data/proof/verify.py`](archive/v1/data/proof/verify.py) + [`expected_features.sha256`](archive/v1/data/proof/expected_features.sha256) | one-command deterministic pipeline replay (SHA-256 of output vs published hash) |
-| **Benchmark-proof ADR** | [ADR-147](docs/adr/ADR-147-benchmark-proof.md) | how the numbers are produced and verified |
+| **Benchmark-proof ADR** | [ADR-168](docs/adr/ADR-168-benchmark-proof.md) | how the numbers are produced and verified |
 | **Witness attestation** | [`docs/WITNESS-LOG-028.md`](docs/WITNESS-LOG-028.md) | 33-row capability attestation matrix with per-claim evidence |
 
 ```bash

@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 1,
+      "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 2,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 3,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 4,
+      "readme_sha256": "ea8812fa489eb0d24da584b7227d55ba36a160c13572f19e2d06216825f8cf0b",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 5,
+      "readme_sha256": "c730a0832cf1c3523cbfe006dafc0b15d748f90c792ef3e63c683e4bac61670d",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 6,
+      "readme_sha256": "ad23ad8f7ddea44b610237d0c9c8a302f85c94e5752752599ab306387007a1d5",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 7,
+      "readme_sha256": "965ef036f177afb1cc882a4d30ce7121476c4ceecf4dba4079ba86c026ce8a47",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 8,
+      "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 9,
+      "readme_sha256": "eed7814a93cec1d14c9f95bd24b3db972659fa66b5d09e79ff83b5f331964948",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 10,
+      "readme_sha256": "695e388a5eb4bfab49a9e218fcb0b21b3822aadd5cbf5b1aecc572b0d83e2e6b",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 11,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 12,
+      "readme_sha256": "8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+      "full_name": "aaif-goose/goose",
+      "project_file": "projects/aaif-goose__goose.md",
+      "rank": 13,
+      "readme_sha256": "77164e1e3aab2c6d70bd543186e255c76d7a7c2aeeea8246eb506b4d80341c3c",
+      "url": "https://github.com/aaif-goose/goose"
+    },
+    {
+      "description": "Open Source Computer Vision Library",
+      "full_name": "opencv/opencv",
+      "project_file": "projects/opencv__opencv.md",
+      "rank": 14,
+      "readme_sha256": "8b79d16417280719517b40f2995d8e3772aa68b34bdd44cfd1163eec733415a0",
+      "url": "https://github.com/opencv/opencv"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 15,
+      "readme_sha256": "e89247359ec0151768b63738f5d6b35be3db9f0d1626eb696b5a5ac9895a8ea3",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "The Frontend Stack for Agents & Generative UI. React, Angular, Mobile, Slack, and more. Makers of the AG-UI Protocol",
+      "full_name": "CopilotKit/CopilotKit",
+      "project_file": "projects/CopilotKit__CopilotKit.md",
+      "rank": 16,
+      "readme_sha256": "929c3490535257caddd77b093d9daec22deb1a48c31d2a68752ff56ca0e3d998",
+      "url": "https://github.com/CopilotKit/CopilotKit"
+    },
+    {
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "full_name": "NVIDIA/cosmos",
+      "project_file": "projects/NVIDIA__cosmos.md",
+      "rank": 17,
+      "readme_sha256": "87d5d9da063b1187d598bbe7dfb8722bfa745a41a2e299e218929b1f05641c5e",
+      "url": "https://github.com/NVIDIA/cosmos"
+    },
+    {
+      "description": "An interface library for RL post training with environments.",
+      "full_name": "huggingface/OpenEnv",
+      "project_file": "projects/huggingface__OpenEnv.md",
+      "rank": 18,
+      "readme_sha256": "2cfa8c157449f1d2af5b5a253c74fc1287463a2091433f36d6552eb8acd9180b",
+      "url": "https://github.com/huggingface/OpenEnv"
+    }
+  ],
+  "snapshot_date": "2026-06-14",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

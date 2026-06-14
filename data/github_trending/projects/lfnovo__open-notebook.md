@@ -5,7 +5,7 @@
   "full_name": "lfnovo/open-notebook",
   "url": "https://github.com/lfnovo/open-notebook",
   "description": "An Open Source implementation of Notebook LM with more flexibility and features",
-  "readme_sha256": "a6b4972fd7e0c1e254b65fd6570645b12d3f0336bb9130ae7579faa20205a9e8"
+  "readme_sha256": "8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/lfnovo/open-notebook
 - Description: An Open Source implementation of Notebook LM with more flexibility and features
-- README SHA256: `a6b4972fd7e0c1e254b65fd6570645b12d3f0336bb9130ae7579faa20205a9e8`
+- README SHA256: `8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484`
 
 ## README
 
@@ -175,11 +175,12 @@ docker compose up -d
 Wait 15-20 seconds, then open: **http://localhost:8502**
 
 ### Step 4: Configure AI Provider
-1. Go to **Settings** → **API Keys**
-2. Click **Add Credential**
-3. Choose your provider (OpenAI, Anthropic, Google, etc.)
-4. Paste your API key and click **Save**
-5. Click **Test Connection** → **Discover Models** → **Register Models**
+1. Go to **Models** and choose your provider (OpenAI, Anthropic, Google, etc.)
+2. Click **+ Add Configuration**
+3. Paste your API key and other info as needed and click **Add Configuration**
+4. Click **Test** to test connection
+5. Click **Sync Models** and check models to include
+6. Under **Default Model Assignments**, click **Auto-Assign Defaults** or manually specify which models to use for what 
 
 Done! You're ready to create your first notebook.
 
