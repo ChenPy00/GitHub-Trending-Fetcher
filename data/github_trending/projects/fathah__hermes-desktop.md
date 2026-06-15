@@ -5,7 +5,7 @@
   "full_name": "fathah/hermes-desktop",
   "url": "https://github.com/fathah/hermes-desktop",
   "description": "Desktop Companion for Hermes Agent",
-  "readme_sha256": "e8612fa5aeaf40850368ca84a0de724e6af4b98210eb1ffc6e3d10d67d6390ef"
+  "readme_sha256": "66f7083986f77dce0089a925524d5f47a224036887e202e9b59b6b826185000d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/fathah/hermes-desktop
 - Description: Desktop Companion for Hermes Agent
-- README SHA256: `e8612fa5aeaf40850368ca84a0de724e6af4b98210eb1ffc6e3d10d67d6390ef`
+- README SHA256: `66f7083986f77dce0089a925524d5f47a224036887e202e9b59b6b826185000d`
 
 ## README
 
@@ -22,7 +22,7 @@
 <br/>
 <p align="center">
   <a href="https://hermes-agent.nousresearch.com/docs/"><img src="https://img.shields.io/badge/Docs-hermes--agent.nousresearch.com-FFD700?style=for-the-badge" alt="Documentation"></a>
-  <a href="https://t.me/hermes_agent_desktop"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://discord.gg/Fqu72h8z"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
   <a href="https://github.com/fathah/hermes-desktop/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT"></a>
   <a href="https://hermesagents.cc/"><img src="https://img.shields.io/badge/Download-Releases-FF6600?style=for-the-badge" alt="Releases"></a>
 <a href="https://github.com/fathah/hermes-desktop/stargazers">
