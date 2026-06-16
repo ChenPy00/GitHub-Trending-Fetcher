@@ -1,0 +1,153 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 1,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer= @JakobLichterfeld ]",
+      "full_name": "teslamate-org/teslamate",
+      "project_file": "projects/teslamate-org__teslamate.md",
+      "rank": 2,
+      "readme_sha256": "eccbe4ccdb495878460a24c4a86c09816484f0ba2562cf0f9b11d4c306d2d76e",
+      "url": "https://github.com/teslamate-org/teslamate"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 3,
+      "readme_sha256": "6bf14b3667aa7b583f491c0eaa843d953434105ac4b68b4538e9548d9a746a95",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Meshery, the cloud native manager",
+      "full_name": "meshery/meshery",
+      "project_file": "projects/meshery__meshery.md",
+      "rank": 4,
+      "readme_sha256": "3af48ae0910ffafaae34b9871400284646af29d55ea5f2352a062ba73ea7bda8",
+      "url": "https://github.com/meshery/meshery"
+    },
+    {
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "full_name": "chatwoot/chatwoot",
+      "project_file": "projects/chatwoot__chatwoot.md",
+      "rank": 5,
+      "readme_sha256": "00b1867b3e486325ff35a8d5194e937974a02cab39cbbc0a0d9846e3c1ff1ac7",
+      "url": "https://github.com/chatwoot/chatwoot"
+    },
+    {
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "full_name": "krahets/hello-algo",
+      "project_file": "projects/krahets__hello-algo.md",
+      "rank": 6,
+      "readme_sha256": "be30f8073103b3047c91f45d3c581d9bd7d614de9f1a8f28361290c782f2c6ea",
+      "url": "https://github.com/krahets/hello-algo"
+    },
+    {
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "project_file": "projects/freeCodeCamp__freeCodeCamp.md",
+      "rank": 7,
+      "readme_sha256": "e6f6947ddea88e72a38d6a63c519933ba1e651c13a207cf4af128d30f014f44b",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "description": "Open-source infrastructure for Computer-Use Agents. Sandboxes, SDKs, and benchmarks to train and evaluate AI agents that can control full desktops (macOS, Linux, Windows).",
+      "full_name": "trycua/cua",
+      "project_file": "projects/trycua__cua.md",
+      "rank": 8,
+      "readme_sha256": "27f2704a777d909ae55f0dc083e2dff1445d3d0de96567e29945c1ac80f426d5",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "description": "A complete computer science study plan to become a software engineer.",
+      "full_name": "jwasham/coding-interview-university",
+      "project_file": "projects/jwasham__coding-interview-university.md",
+      "rank": 9,
+      "readme_sha256": "5616cd60c0bf8086a0363e3ec1bef5c49b8fdc10114991974802374c2df3b0ae",
+      "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 10,
+      "readme_sha256": "9963a3664f98f4bd191d252b2b949b0720eb8e61e266b46c1c670047b4159ba3",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "full_name": "music-assistant/server",
+      "project_file": "projects/music-assistant__server.md",
+      "rank": 11,
+      "readme_sha256": "b7e625ccc35471022b50ac078f8056635881f5d479151656d9616d0591f888dc",
+      "url": "https://github.com/music-assistant/server"
+    },
+    {
+      "description": "M3U Playlist for free TV channels",
+      "full_name": "Free-TV/IPTV",
+      "project_file": "projects/Free-TV__IPTV.md",
+      "rank": 12,
+      "readme_sha256": "e6dc68cf668613db278ab6b7483cd7535cb259c687744e01e448810381ea6148",
+      "url": "https://github.com/Free-TV/IPTV"
+    },
+    {
+      "description": "Introduction to Autonomous Robots",
+      "full_name": "Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots",
+      "project_file": "projects/Introduction-to-Autonomous-Robots__Introduction-to-Autonomous-Robots.md",
+      "rank": 13,
+      "readme_sha256": "0a8299680aac74125a6f84a28ef66ab78e91cb0857b7cfc1a7a40e3cff4a91de",
+      "url": "https://github.com/Introduction-to-Autonomous-Robots/Introduction-to-Autonomous-Robots"
+    },
+    {
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "full_name": "Raphire/Win11Debloat",
+      "project_file": "projects/Raphire__Win11Debloat.md",
+      "rank": 14,
+      "readme_sha256": "80b3992d0661755a76ddf35d0c8f7a8d4a28543b88c2cb99c30aefab5b4c4b82",
+      "url": "https://github.com/Raphire/Win11Debloat"
+    },
+    {
+      "description": "Self-Hosting Guide. Learn all about locally hosting (on premises & private web servers) and managing software applications by yourself or your organization. Including Cloud, LLMs, WireGuard, Automation, Home Assistant, and Networking.",
+      "full_name": "mikeroyal/Self-Hosting-Guide",
+      "project_file": "projects/mikeroyal__Self-Hosting-Guide.md",
+      "rank": 15,
+      "readme_sha256": "58b64d80bd9b17965279930bc8c6ab843e54eaf02ff1f0dd8de0e2eb626cca5b",
+      "url": "https://github.com/mikeroyal/Self-Hosting-Guide"
+    },
+    {
+      "description": "Free, open-source Windows optimization tool for performance, privacy, and simplicity.",
+      "full_name": "itsfatduck/optimizerDuck",
+      "project_file": "projects/itsfatduck__optimizerDuck.md",
+      "rank": 16,
+      "readme_sha256": "41969056e02e29bd0699eb31a903a4947dcca7db4e57d2aea86b7954b2a7af3d",
+      "url": "https://github.com/itsfatduck/optimizerDuck"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 17,
+      "readme_sha256": "bf75d79dced64d0fd6ffccd0d54402006644487de2c04e22cca699ad7fc0be1a",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 18,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    }
+  ],
+  "snapshot_date": "2026-06-16",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

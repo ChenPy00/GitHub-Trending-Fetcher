@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "ad23ad8f7ddea44b610237d0c9c8a302f85c94e5752752599ab306387007a1d5"
+  "readme_sha256": "7eb3a2562339ac1588b8fecfc1fb4ab9ed7f04f32aca3e2b7654c3075d63b091"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `ad23ad8f7ddea44b610237d0c9c8a302f85c94e5752752599ab306387007a1d5`
+- README SHA256: `7eb3a2562339ac1588b8fecfc1fb4ab9ed7f04f32aca3e2b7654c3075d63b091`
 
 ## README
 
@@ -243,6 +243,8 @@ Pre-configured specialist personas for targeted reviews:
 | [test-engineer](agents/test-engineer.md) | QA Specialist | Test strategy, coverage analysis, and the Prove-It pattern |
 | [security-auditor](agents/security-auditor.md) | Security Engineer | Vulnerability detection, threat modeling, OWASP assessment |
 | [web-performance-auditor](agents/web-performance-auditor.md) | Web Performance Engineer | Core Web Vitals audit with Quick/Deep modes and a metric-honesty rule; run it via `/webperf` |
+
+See [docs/agents.md](docs/agents.md) for the decision matrix, orchestration rules, and how personas compose with skills and slash commands.
 
 ---
 

@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/SkillSpector",
   "url": "https://github.com/NVIDIA/SkillSpector",
   "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-  "readme_sha256": "c730a0832cf1c3523cbfe006dafc0b15d748f90c792ef3e63c683e4bac61670d"
+  "readme_sha256": "bf75d79dced64d0fd6ffccd0d54402006644487de2c04e22cca699ad7fc0be1a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/SkillSpector
 - Description: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.
-- README SHA256: `c730a0832cf1c3523cbfe006dafc0b15d748f90c792ef3e63c683e4bac61670d`
+- README SHA256: `bf75d79dced64d0fd6ffccd0d54402006644487de2c04e22cca699ad7fc0be1a`
 
 ## README
 
@@ -421,7 +421,7 @@ Issues (2)
 | `OPENAI_BASE_URL` | Override the OpenAI endpoint (e.g. point at Ollama). | Optional |
 | `ANTHROPIC_API_KEY` | Credential for the Anthropic provider (`SKILLSPECTOR_PROVIDER=anthropic`). | Required for LLM analysis when `SKILLSPECTOR_PROVIDER=anthropic` |
 | `SKILLSPECTOR_MODEL` | Override the active provider's default model. See the LLM Analysis table for each provider's default. | Optional |
-| `SKILLSPECTOR_MODEL_REGISTRY` | Override the bundled per-provider YAML registry (`src/skillspector/providers/<provider>.yaml`) with a custom path. | Optional |
+| `SKILLSPECTOR_MODEL_REGISTRY` | Override the bundled per-provider YAML registry (`src/skillspector/providers/<provider>/model_registry.yaml`) with a custom path. | Optional |
 | `SKILLSPECTOR_LOG_LEVEL` | Log level: `DEBUG`, `INFO`, `WARNING`, `ERROR` (default: `WARNING`). | Optional |
 
 ### CLI Options
