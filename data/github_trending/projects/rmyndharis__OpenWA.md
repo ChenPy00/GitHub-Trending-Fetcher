@@ -5,7 +5,7 @@
   "full_name": "rmyndharis/OpenWA",
   "url": "https://github.com/rmyndharis/OpenWA",
   "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
-  "readme_sha256": "c65435d5a821c9e1bb21de8f1ea06d93bb77cc30baf64379bd8a8aeb7be37527"
+  "readme_sha256": "e29c03e5b7e9da834a6b96403cb4db0b9ebe1b779ca16636df01459c544aeea2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rmyndharis/OpenWA
 - Description: Free, Open Source, Self-Hosted WhatsApp API Gateway
-- README SHA256: `c65435d5a821c9e1bb21de8f1ea06d93bb77cc30baf64379bd8a8aeb7be37527`
+- README SHA256: `e29c03e5b7e9da834a6b96403cb4db0b9ebe1b779ca16636df01459c544aeea2`
 
 ## README
 
@@ -35,7 +35,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.6-blue.svg" alt="Version"/>
+  <a href="https://github.com/rmyndharis/OpenWA/actions/workflows/ci.yml"><img src="https://github.com/rmyndharis/OpenWA/actions/workflows/ci.yml/badge.svg?branch=main" alt="CI"/></a>
+  <img src="https://img.shields.io/badge/version-0.2.10-blue.svg" alt="Version"/>
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
   <img src="https://img.shields.io/badge/node-22_LTS-brightgreen.svg" alt="Node"/>
   <img src="https://img.shields.io/badge/NestJS-11.x-red.svg" alt="NestJS"/>
@@ -59,6 +60,7 @@ Built on a **pluggable architecture**, OpenWA lets you swap database engines (SQ
 | 🔹 **Multi-Session Ready**    | Run multiple WhatsApp sessions concurrently on one instance  |
 | 🐳 **Docker Native**          | Production-ready with zero configuration                     |
 | 🔗 **n8n Integration**        | Community nodes for workflow automation                      |
+| 🧩 **Community Adapters**     | Third-party integrations (e.g. ioBroker) — see [docs](./docs/23-community-integrations.md) |
 
 ---
 
@@ -127,6 +129,17 @@ docker compose -f docker-compose.dev.yml up -d
 # Swagger: http://localhost:2785/api/docs
 ```
 
+> **Using Podman instead of Docker?**
+> Podman rootless mode requires the socket to be running and `DOCKER_HOST` to be set:
+>
+> ```bash
+> systemctl --user start podman.socket
+> systemctl --user enable podman.socket
+> export DOCKER_HOST=unix:///run/user/$(id -u)/podman/podman.sock
+> ```
+>
+> Add the `export` line to your `~/.bashrc` to make it permanent.
+
 ### Option B: Local Development
 
 ```bash
@@ -145,6 +158,40 @@ npm run dev
 # API: http://localhost:2785/api
 # Swagger: http://localhost:2785/api/docs
 ```
+
+---
+
+## 🔒 Security Architecture
+
+### Docker Socket Proxy
+
+The production stack never exposes `/var/run/docker.sock` directly to the application container. Instead, a dedicated `docker-proxy` sidecar (based on [`tecnativa/docker-socket-proxy`](https://github.com/Tecnativa/docker-socket-proxy)) acts as the sole gateway to the Docker daemon:
+
+```
+openwa-api  ──TCP 2375──▶  docker-proxy  ──unix──▶  /var/run/docker.sock
+```
+
+Only the operations needed for container orchestration are enabled (`CONTAINERS`, `IMAGES`, `VOLUMES`, `INFO`, `PING`, `POST`, `DELETE`). The application connects via the `DOCKER_HOST=tcp://docker-proxy:2375` environment variable, which `DockerService` detects automatically.
+
+---
+
+## 🔒 Security Architecture
+
+### Non-root Container Execution
+
+The production image never runs the Node.js process as root. On startup, the container follows this chain:
+
+```
+dumb-init (PID 1)
+  └─ docker-entrypoint.sh (root — fixes named-volume ownership via chown)
+       └─ gosu openwa node dist/main  (drops to the openwa user)
+```
+
+- **dumb-init** is PID 1 and forwards signals (SIGTERM, etc.) for graceful shutdown.
+- **docker-entrypoint.sh** runs as root only long enough to `chown` the named-volume mount points so the `openwa` user can write to them.
+- **gosu** performs a clean `exec`-based privilege drop — no `su` or `sudo` wrappers, so the node process is the direct child of dumb-init.
+
+Named volumes (e.g. `openwa-data`) get their ownership corrected automatically on every start, so no manual `chown` step is needed after volume creation.
 
 ---
 
@@ -176,6 +223,10 @@ docker compose --profile full up -d
 >
 > - Development (`docker-compose.dev.yml`): SQLite, local storage, both API & Dashboard included
 > - Production (`docker-compose.yml`): Configurable database, profiles for optional services
+>
+> Official GHCR images are published as multi-arch manifests for:
+> - `linux/amd64`
+> - `linux/arm64`
 
 ## 🔌 Ports
 

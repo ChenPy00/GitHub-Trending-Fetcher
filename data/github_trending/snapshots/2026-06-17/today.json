@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "project_file": "projects/freeCodeCamp__freeCodeCamp.md",
+      "rank": 1,
+      "readme_sha256": "e6f6947ddea88e72a38d6a63c519933ba1e651c13a207cf4af128d30f014f44b",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "description": "Rust-based platform for the Web",
+      "full_name": "swc-project/swc",
+      "project_file": "projects/swc-project__swc.md",
+      "rank": 2,
+      "readme_sha256": "65f3df613b05d22569735813451d38edc5c6b2fb00a52519609628f9006ef441",
+      "url": "https://github.com/swc-project/swc"
+    },
+    {
+      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer= @JakobLichterfeld ]",
+      "full_name": "teslamate-org/teslamate",
+      "project_file": "projects/teslamate-org__teslamate.md",
+      "rank": 3,
+      "readme_sha256": "eccbe4ccdb495878460a24c4a86c09816484f0ba2562cf0f9b11d4c306d2d76e",
+      "url": "https://github.com/teslamate-org/teslamate"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 4,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "JavaScript API for Chrome and Firefox",
+      "full_name": "puppeteer/puppeteer",
+      "project_file": "projects/puppeteer__puppeteer.md",
+      "rank": 5,
+      "readme_sha256": "b2564c37c112336cc191da0890bdc4a8a3e5e039830b17613c69ac7914a7b4bc",
+      "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "description": "Meshery, the cloud native manager",
+      "full_name": "meshery/meshery",
+      "project_file": "projects/meshery__meshery.md",
+      "rank": 6,
+      "readme_sha256": "3af48ae0910ffafaae34b9871400284646af29d55ea5f2352a062ba73ea7bda8",
+      "url": "https://github.com/meshery/meshery"
+    },
+    {
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "full_name": "cypress-io/cypress",
+      "project_file": "projects/cypress-io__cypress.md",
+      "rank": 7,
+      "readme_sha256": "eba13436afb8b34b2b2fdf0a59d133729ac90fd303b045d6d808be9819687882",
+      "url": "https://github.com/cypress-io/cypress"
+    },
+    {
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "full_name": "music-assistant/server",
+      "project_file": "projects/music-assistant__server.md",
+      "rank": 8,
+      "readme_sha256": "b7e625ccc35471022b50ac078f8056635881f5d479151656d9616d0591f888dc",
+      "url": "https://github.com/music-assistant/server"
+    },
+    {
+      "description": "Cross-platform GUI written in Rust using ADB to debloat non-rooted Android devices. Improve your privacy, the security and battery life of your device.",
+      "full_name": "Universal-Debloater-Alliance/universal-android-debloater-next-generation",
+      "project_file": "projects/Universal-Debloater-Alliance__universal-android-debloater-next-generation.md",
+      "rank": 9,
+      "readme_sha256": "b7505d6a9d51b280eb92ac13d45495d0add6d32af5439fef7bd3e59b5582437b",
+      "url": "https://github.com/Universal-Debloater-Alliance/universal-android-debloater-next-generation"
+    },
+    {
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "OpenBMB/VoxCPM",
+      "project_file": "projects/OpenBMB__VoxCPM.md",
+      "rank": 10,
+      "readme_sha256": "18c337d9c53468c7d2822dd7ca63090cadbdf4f55d709d14226d9f19f182d85e",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "full_name": "alibaba/zvec",
+      "project_file": "projects/alibaba__zvec.md",
+      "rank": 11,
+      "readme_sha256": "1806c29a151d2da7a908fe56b54de6150f65f59546fdad620bbe28699f2acf4e",
+      "url": "https://github.com/alibaba/zvec"
+    },
+    {
+      "description": "Free, Open Source, Self-Hosted WhatsApp API Gateway",
+      "full_name": "rmyndharis/OpenWA",
+      "project_file": "projects/rmyndharis__OpenWA.md",
+      "rank": 12,
+      "readme_sha256": "e29c03e5b7e9da834a6b96403cb4db0b9ebe1b779ca16636df01459c544aeea2",
+      "url": "https://github.com/rmyndharis/OpenWA"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 13,
+      "readme_sha256": "36582abfb9f17017f7d88efa43c33927d65d0c92106a016bdba0b441fb16bf23",
+      "url": "https://github.com/n0-computer/iroh"
+    }
+  ],
+  "snapshot_date": "2026-06-17",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

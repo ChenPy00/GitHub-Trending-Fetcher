@@ -5,7 +5,7 @@
   "full_name": "Egonex-AI/Understand-Anything",
   "url": "https://github.com/Egonex-AI/Understand-Anything",
   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-  "readme_sha256": "7e0092694d788f471a2cf898d91e9ed1561fa2e35ca7790dea40db8a5d3d7914"
+  "readme_sha256": "9d0fdd7f3355070a0a6dd82c6ddb2323c9b8dfd2ccd11004684bb25cd63f185e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Egonex-AI/Understand-Anything
 - Description: Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
-- README SHA256: `7e0092694d788f471a2cf898d91e9ed1561fa2e35ca7790dea40db8a5d3d7914`
+- README SHA256: `9d0fdd7f3355070a0a6dd82c6ddb2323c9b8dfd2ccd11004684bb25cd63f185e`
 
 ## README
 
@@ -212,7 +212,9 @@ Understand-Anything works across multiple AI coding platforms.
 /plugin install understand-anything
 ```
 
-### One-line install (Codex / OpenCode / OpenClaw / Antigravity / Gemini CLI / Pi Agent / Vibe CLI / VS Code Copilot / Hermes / Cline / KIMI CLI / Trae / Nanobot)
+
+### One-line install (Codex / OpenCode / OpenClaw / Antigravity / Gemini CLI / Pi Agent / Vibe CLI / VS Code Copilot / Hermes / Cline / KIMI CLI / Trae / Nanobot / Kiro)
+
 
 **macOS / Linux:**
 ```bash
@@ -228,7 +230,7 @@ iwr -useb https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/i
 
 The installer clones the repo to `~/.understand-anything/repo` and creates the right symlinks for the chosen platform. Restart your CLI/IDE afterwards.
 
-- Supported `<platform>` values: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`, `trae`, `nanobot`
+- Supported `<platform>` values: `gemini`, `codex`, `opencode`, `pi`, `openclaw`, `antigravity`, `vibe`, `vscode`, `hermes`, `cline`, `kimi`, `trae`, `nanobot`, `kiro`
 - Update later: `./install.sh --update`
 - Uninstall: `./install.sh --uninstall <platform>`
 
@@ -250,6 +252,18 @@ For personal skills (available across all projects), run the `install.sh` above 
 copilot plugin install Egonex-AI/Understand-Anything:understand-anything-plugin
 ```
 
+### Kiro CLI / IDE
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Egonex-AI/Understand-Anything/main/install.sh | bash -s kiro
+```
+
+After installation:
+- **Kiro CLI**: `kiro-cli chat --agent understand "Analyze this project"`
+- **Kiro IDE**: The skills are symlinked into `~/.kiro/skills/` and the `understand` agent is written to `~/.kiro/agents/understand.json`, so both are available after restarting the IDE.
+
+For personal skills (available across all projects), run the `install.sh` above with the `kiro` platform.
+
 ### Platform Compatibility
 
 | Platform | Status | Install Method |
@@ -270,6 +284,8 @@ copilot plugin install Egonex-AI/Understand-Anything:understand-anything-plugin
 | KIMI CLI | ✅ Supported | `install.sh kimi` |
 | Trae | ✅ Supported | `install.sh trae` |
 | Nanobot | ✅ Supported | `install.sh nanobot` |
+| Kiro CLI / IDE | ✅ Supported | `install.sh kiro` |
+
 
 ---
 

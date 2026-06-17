@@ -5,7 +5,7 @@
   "full_name": "mvanhorn/last30days-skill",
   "url": "https://github.com/mvanhorn/last30days-skill",
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-  "readme_sha256": "4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680"
+  "readme_sha256": "6fa01b697202f9a345896e5573ce77fb547f7a764d05e23398b7572518e1a2ab"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mvanhorn/last30days-skill
 - Description: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
-- README SHA256: `4b414d7e433e64e8a9c6182f17b293f825c3b7d5516bac11e8dfe922bdb70680`
+- README SHA256: `6fa01b697202f9a345896e5573ce77fb547f7a764d05e23398b7572518e1a2ab`
 
 ## README
 
@@ -101,6 +101,8 @@ The synthesis ranks by what real people actually engaged with. Social relevancy,
 ## What people actually use it for
 
 **Before a meeting.** `/last30days Peter Steinberger` - joined OpenAI's Codex team, fighting Anthropic's ban on third-party agents, 23 PRs merged at 85% merge rate on GitHub, building LobsterOS for cross-device agent control. r/ClaudeCode: "Ever since OpenClaw released, it was widely known that if you run it through anything other than the API, you were gonna get banned eventually" (227 upvotes). That's not on LinkedIn.
+
+**To read hiring signals.** `/last30days Listen Labs --hiring-signals` - current jobs and careers pages become cited evidence for focus shifts: hiring into enterprise security, customer success, infrastructure, or product expansion. The report says what the hiring appears to signal, not what the roadmap will ship.
 
 **When something drops.** `/last30days Kanye West` - UK blocked his visa, Wireless Festival canceled, sponsors fled. But BULLY debuted #2 on Billboard. Fantano came back from his "Yay sabbatical" to review it (653K views). SoFi Homecoming brought out Lauryn Hill and Travis Scott for 44 songs. Polymarket: "Will Kanye tweet again?" 86% Yes. 23 Reddit threads, 17 YouTube videos, 86K upvotes.
 
@@ -190,7 +192,7 @@ Say "eli5 on" after any research run. The synthesis rewrites in plain language. 
 | Surface | Install | Updates |
 |---------|---------|---------|
 | **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |
-| **Codex, Cursor, Copilot, Gemini CLI, GitHub Copilot, or any of 50+ [Agent Skills](https://agentskills.io) hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
+| **Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
 | **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via Settings > Capabilities > Skills > + | Re-download and re-upload |
 | **OpenClaw** | `clawhub install last30days-official` | `clawhub update last30days-official` |
 
@@ -306,7 +308,7 @@ See [CONFIGURATION.md](CONFIGURATION.md) for the full per-source key matrix, rea
 
 Two things you'll likely want to know on day one:
 
-**Where research files are saved.** `LAST30DAYS_MEMORY_DIR` defaults to `~/Documents/Last30Days/` (Windows: `C:\Users\<you>\Documents\Last30Days\`). Override by setting that env var to any path in your shell, or `--save-dir <path>` per run. Use `--save-suffix=<name>` to keep multiple variations of the same topic separate (e.g. per client). Each run produces `<slug>-raw[-suffix].md`.
+**Where research files are saved.** `LAST30DAYS_MEMORY_DIR` defaults to `~/Documents/Last30Days/` (Windows: `C:\Users\<you>\Documents\Last30Days\`). Override by setting that env var to any path in your shell, or `--save-dir <path>` per run. Use `--output <file>` when you need the rendered result at an exact path, using the format selected by `--emit`. Use `--save-suffix=<name>` to keep multiple variations of the same topic separate (e.g. per client). Each `--save-dir` run produces `<slug>-raw[-suffix].md`.
 
 **Trend monitoring across runs.** The default mode produces a fresh markdown snapshot per run. To accumulate findings over time, add `--store` to persist into a SQLite database, then use [`scripts/watchlist.py`](skills/last30days/scripts/watchlist.py) for scheduled runs (with optional Slack / webhook delivery on new findings) and [`scripts/briefing.py`](skills/last30days/scripts/briefing.py) for daily / weekly digests. The full cadence pattern is in [CONFIGURATION.md](CONFIGURATION.md#trend-monitoring-store--watchlist--briefings).
 

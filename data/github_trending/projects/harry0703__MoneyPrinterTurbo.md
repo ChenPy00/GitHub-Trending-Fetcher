@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-  "readme_sha256": "20e0c8492a759d605b22bc5322d7b2b45a6d9dd6fc868b677b931fb94fd6e1b9"
+  "readme_sha256": "32c7d95c02d7699cad5a468821994c2b9415edc677d47047cb42040ef9ba3d6e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- README SHA256: `20e0c8492a759d605b22bc5322d7b2b45a6d9dd6fc868b677b931fb94fd6e1b9`
+- README SHA256: `32c7d95c02d7699cad5a468821994c2b9415edc677d47047cb42040ef9ba3d6e`
 
 ## README
 
@@ -69,7 +69,7 @@
   </tr>
   <tr>
     <td align="center" width="160">
-      <a href="https://www.ccsub.net/register?ref=VCVDAWWY"><img src="docs/sponsors/ccsub-logo.jpg" alt="CCSub" height="36"></a><br>
+      <a href="https://www.ccsub.net/register?ref=VCVDAWWY"><img src="docs/sponsors/ccsub-logo.png" alt="CCSub" height="36"></a><br>
       <a href="https://www.ccsub.net/register?ref=VCVDAWWY"><strong>CCSub</strong></a>
     </td>
     <td align="left">

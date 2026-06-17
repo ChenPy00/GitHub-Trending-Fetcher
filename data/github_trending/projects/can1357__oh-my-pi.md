@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "5d20f8be50700e57ec6085dd4b4f6673fb395645900ea9c22b01c9b0ec5504f4"
+  "readme_sha256": "ef09ccd8fd492c0de14c8c497a0ffe48691bd756d5988db179132ce028bcb3f7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `5d20f8be50700e57ec6085dd4b4f6673fb395645900ea9c22b01c9b0ec5504f4`
+- README SHA256: `ef09ccd8fd492c0de14c8c497a0ffe48691bd756d5988db179132ce028bcb3f7`
 
 ## README
 
@@ -260,7 +260,6 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 - `github` — GitHub CLI ops — repo, PR, issues, code search, Actions run-watch.
 - `generate_image` — generate or edit raster images via Gemini, GPT, or xAI Grok image models.
 - `inspect_image` — vision-model analysis of a local image file.
-- `render_mermaid` — Mermaid source to terminal-friendly ASCII or PNG.
 - `tts` — text-to-speech via xAI Grok Voice — five built-in voices, WAV or MP3.
 
 **Memory & state**
@@ -276,7 +275,7 @@ Stealth's on by default, so pages see a normal user instead of a headless bot. T
 - `resolve` — apply or discard a queued preview action.
 - `search_tool_bm25` — BM25 over the hidden tool index; activates top matches mid-session.
 
-Setting-gated, off by default: `github`, `inspect_image`, `render_mermaid`, `tts`, `checkpoint`, `rewind`, `search_tool_bm25`, `retain`, `recall`, `reflect`. Flip them on once, scoped per project.
+Setting-gated, off by default: `github`, `inspect_image`, `tts`, `checkpoint`, `rewind`, `search_tool_bm25`, `retain`, `recall`, `reflect`. Flip them on once, scoped per project.
 
 [Full reference →](https://omp.sh/docs/tools)
 
