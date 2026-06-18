@@ -5,7 +5,7 @@
   "full_name": "mvanhorn/last30days-skill",
   "url": "https://github.com/mvanhorn/last30days-skill",
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-  "readme_sha256": "6fa01b697202f9a345896e5573ce77fb547f7a764d05e23398b7572518e1a2ab"
+  "readme_sha256": "28c2856b790bf27271f238adbca5f8dc99733d074b39cafe104e9f68c0c72464"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mvanhorn/last30days-skill
 - Description: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
-- README SHA256: `6fa01b697202f9a345896e5573ce77fb547f7a764d05e23398b7572518e1a2ab`
+- README SHA256: `28c2856b790bf27271f238adbca5f8dc99733d074b39cafe104e9f68c0c72464`
 
 ## README
 
@@ -193,7 +193,8 @@ Say "eli5 on" after any research run. The synthesis rewrites in plain language. 
 |---------|---------|---------|
 | **Claude Code** (recommended) | `/plugin marketplace add mvanhorn/last30days-skill` | Auto via marketplace, or `claude plugin update last30days@last30days-skill` |
 | **Codex, Cursor, Copilot, Gemini CLI, or any of 50+ [Agent Skills](https://agentskills.io) hosts** | `npx skills add mvanhorn/last30days-skill -g` | `npx skills update last30days -g` |
-| **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via Settings > Capabilities > Skills > + | Re-download and re-upload |
+| **claude.ai** (web) | [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) and upload via claude.ai > Customize > Skills > + > Create skill > Upload a skill | Re-download and re-upload |
+| **Claude Desktop** | [Download the `.mcpb` for your platform](https://github.com/mvanhorn/last30days-skill/releases/latest) and drag into Settings > Extensions | Re-download and drag the new bundle in |
 | **OpenClaw** | `clawhub install last30days-official` | `clawhub update last30days-official` |
 
 ### Claude Code (recommended)
@@ -248,16 +249,40 @@ List and remove with `npx skills list -g` and `npx skills remove last30days -g`.
 ### claude.ai (web)
 
 1. [Download `last30days.skill`](https://github.com/mvanhorn/last30days-skill/releases/latest/download/last30days.skill) from the latest release
-2. Go to [claude.ai Settings > Capabilities > Skills](https://claude.ai/settings/capabilities)
-3. Click the `+` button in the Skills panel and drop the file in
+2. Go to [claude.ai > Customize > Skills](https://claude.ai/customize/skills)
+3. Click the `+` button in the Skills panel > click on `Create skill` > `Upload a skill` and browse/drop the file in
 
 Enable "Code execution and file creation" under Capabilities first — skills won't run without it.
+
+### Claude Desktop
+
+Claude Desktop installs `/last30days` as an MCP server via a `.mcpb` bundle (a one-click Model Context Protocol package).
+
+1. Go to the [latest release](https://github.com/mvanhorn/last30days-skill/releases/latest) and download the `.mcpb` for your platform:
+   - macOS Apple Silicon: `last30days-pp-mcp-darwin-arm64.mcpb`
+   - macOS Intel: `last30days-pp-mcp-darwin-amd64.mcpb`
+   - Linux x86_64: `last30days-pp-mcp-linux-amd64.mcpb`
+2. Open Claude Desktop, go to Settings > Extensions, and drag the file in.
+3. When prompted, paste API keys for the sources you want to enable. Every field is optional — the engine degrades to web-only mode if you skip them all. Keys are stored in your OS keychain.
+4. Restart Claude Desktop. Ask Claude to "research Peter Steinberger" or any topic and it will call the `research` tool.
+
+**Host requirement:** Python 3.12+ on PATH. The bundle ships the engine source but uses your local Python interpreter. Install from [python.org](https://www.python.org/downloads/) on Windows; macOS and most Linux distros ship a compatible version.
+
+**Keys don't sync with the Code skill.** Claude Desktop and Claude Code maintain separate credential stores by design. If you already configured `~/.config/last30days/.env` for the Code skill, you'll re-enter the same keys here once.
+
+Windows support is deferred until per-platform manifest entry points are sorted out; track in a follow-up issue.
 
 ### OpenClaw
 
 ```bash
 clawhub install last30days-official
 ```
+
+For X/Twitter action workflows outside `/last30days` research, such as posting
+tweets or replies, follower export, media handling, monitors, and giveaway
+draws, use [TweetClaw](https://github.com/Xquik-dev/tweetclaw) as the companion
+OpenClaw plugin. TweetClaw is maintained by Xquik-dev and is listed only as an
+optional companion path, not a last30days dependency or endorsement.
 
 ### Manual (developer)
 
@@ -277,7 +302,7 @@ These platforms don't have relationships with each other. X doesn't know what Re
 | Sources | What you need | Cost |
 |---------|---------------|------|
 | Reddit (with comments) + HN + Polymarket + GitHub | Nothing | Free |
-| X / Twitter | Log into x.com in any browser | Free |
+| X / Twitter | Log into x.com in any browser, or set `XQUIK_API_KEY` / `XAI_API_KEY` | Browser cookies are free; keys are provider-specific |
 | YouTube | `brew install yt-dlp` | Free |
 | Bluesky | App password from bsky.app | Free |
 | TikTok + Instagram + Threads + Pinterest + YouTube comments | ScrapeCreators key | 100 free credits, then PAYG |
@@ -338,7 +363,7 @@ MIT license. No tracking. No analytics. Your research stays on your machine. 1,0
 
 Built with Python 3.12+, yt-dlp, Node.js (vendored Bird client for X search), and ScrapeCreators API. v3 engine architecture by [@j-sperling](https://github.com/j-sperling).
 
-See [CHANGELOG.md](CHANGELOG.md) for version history.
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the full list of community contributors and [CHANGELOG.md](CHANGELOG.md) for version history.
 
 ## Star History
 

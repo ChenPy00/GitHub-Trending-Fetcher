@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "ef09ccd8fd492c0de14c8c497a0ffe48691bd756d5988db179132ce028bcb3f7"
+  "readme_sha256": "c89b4c3b08d1d6150cbb3bef41c70008616f8038282d27ccc6013f9b831c0de2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `ef09ccd8fd492c0de14c8c497a0ffe48691bd756d5988db179132ce028bcb3f7`
+- README SHA256: `c89b4c3b08d1d6150cbb3bef41c70008616f8038282d27ccc6013f9b831c0de2`
 
 ## README
 
@@ -492,6 +492,23 @@ Key ideas:
 ---
 
 ## Development
+
+### Getting started from source
+
+Fresh clones need both workspace dependencies and the local Rust/N-API addon before the source CLI can start.
+
+```sh
+bun setup
+bun dev
+```
+
+`bun setup` installs Bun workspaces and builds `@oh-my-pi/pi-natives`. Re-run `bun run build:native` after changing Rust crates or `packages/natives`.
+
+For a non-interactive smoke check:
+
+```sh
+bun dev -- --version
+```
 
 ### Debug Command
 
