@@ -1,0 +1,185 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 1,
+      "readme_sha256": "bf75d79dced64d0fd6ffccd0d54402006644487de2c04e22cca699ad7fc0be1a",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "0e1e0947d408dc1f9fc90aa3b99c1cc55d62d48580878b487b60d3fee9d2131e",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 3,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 4,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 5,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "57467e1e1c04bc07dc88460f8b5ba757d66b837277d919d1f3456c8c05cd7faf",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "full_name": "kenn-io/agentsview",
+      "project_file": "projects/kenn-io__agentsview.md",
+      "rank": 7,
+      "readme_sha256": "39a26f7702798e1690e9a43e869cbb85e2efecde8535c5f1318cf63a136f016a",
+      "url": "https://github.com/kenn-io/agentsview"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 8,
+      "readme_sha256": "21c177ae9453c790045193dc9f2139cf8d8c3046d377f6791cf316cbd29d262c",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 9,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "Meshery, the cloud native manager",
+      "full_name": "meshery/meshery",
+      "project_file": "projects/meshery__meshery.md",
+      "rank": 10,
+      "readme_sha256": "3af48ae0910ffafaae34b9871400284646af29d55ea5f2352a062ba73ea7bda8",
+      "url": "https://github.com/meshery/meshery"
+    },
+    {
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "full_name": "LMCache/LMCache",
+      "project_file": "projects/LMCache__LMCache.md",
+      "rank": 11,
+      "readme_sha256": "6249a4b1fc3b97628cb273995a10ba058cf3a0bd4f026152cebf96a5a30e7326",
+      "url": "https://github.com/LMCache/LMCache"
+    },
+    {
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "full_name": "chatwoot/chatwoot",
+      "project_file": "projects/chatwoot__chatwoot.md",
+      "rank": 12,
+      "readme_sha256": "00b1867b3e486325ff35a8d5194e937974a02cab39cbbc0a0d9846e3c1ff1ac7",
+      "url": "https://github.com/chatwoot/chatwoot"
+    },
+    {
+      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "full_name": "pytest-dev/pytest",
+      "project_file": "projects/pytest-dev__pytest.md",
+      "rank": 13,
+      "readme_sha256": "37c713f12b48774c77c40accfe3a6a28c25d7e763c9c5e34266261cf738713b5",
+      "url": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "description": "JavaScript API for Chrome and Firefox",
+      "full_name": "puppeteer/puppeteer",
+      "project_file": "projects/puppeteer__puppeteer.md",
+      "rank": 14,
+      "readme_sha256": "b2564c37c112336cc191da0890bdc4a8a3e5e039830b17613c69ac7914a7b4bc",
+      "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 15,
+      "readme_sha256": "28c2856b790bf27271f238adbca5f8dc99733d074b39cafe104e9f68c0c72464",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 16,
+      "readme_sha256": "8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "project_file": "projects/freeCodeCamp__freeCodeCamp.md",
+      "rank": 17,
+      "readme_sha256": "e6f6947ddea88e72a38d6a63c519933ba1e651c13a207cf4af128d30f014f44b",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "full_name": "microsoft/PowerToys",
+      "project_file": "projects/microsoft__PowerToys.md",
+      "rank": 18,
+      "readme_sha256": "00d1846859636f6708d3454f5abfb80ea61e3a9bbbc2ee51a2a58c44df9157ff",
+      "url": "https://github.com/microsoft/PowerToys"
+    },
+    {
+      "description": "Mattermost is an open source platform for secure collaboration across the entire software development lifecycle..",
+      "full_name": "mattermost/mattermost",
+      "project_file": "projects/mattermost__mattermost.md",
+      "rank": 19,
+      "readme_sha256": "44a585dd1a0c1309415819bbd8ae7fda5411cb994a25641d63423baa0991182e",
+      "url": "https://github.com/mattermost/mattermost"
+    },
+    {
+      "description": "Fast, secure, efficient backup program",
+      "full_name": "restic/restic",
+      "project_file": "projects/restic__restic.md",
+      "rank": 20,
+      "readme_sha256": "8180046c28e55384c37588607b64a160b3e359a044d6ac59fddb94d659eab75d",
+      "url": "https://github.com/restic/restic"
+    },
+    {
+      "description": "A toolchain for web projects, aimed to provide functionalities to maintain them. Biome offers formatter and linter, usable via CLI and LSP.",
+      "full_name": "biomejs/biome",
+      "project_file": "projects/biomejs__biome.md",
+      "rank": 21,
+      "readme_sha256": "d57d0f4f487ec854ada0295515e67f2f97cea00dc721b1a8d4206a4a99fd52fe",
+      "url": "https://github.com/biomejs/biome"
+    },
+    {
+      "description": "Jenkins automation server",
+      "full_name": "jenkinsci/jenkins",
+      "project_file": "projects/jenkinsci__jenkins.md",
+      "rank": 22,
+      "readme_sha256": "99fd91d9f185bf2989ac2cabdddbb14047321d3ded5d5fb9038697ca4224bd4c",
+      "url": "https://github.com/jenkinsci/jenkins"
+    }
+  ],
+  "snapshot_date": "2026-06-19",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "openai/plugins",
   "url": "https://github.com/openai/plugins",
   "description": "OpenAI Plugins",
-  "readme_sha256": "fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56"
+  "readme_sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/openai/plugins
 - Description: OpenAI Plugins
-- README SHA256: `fe80aaeeeda193e26eb2b1d20ba1c4ff883940b676a77b6388ddccb6289eec56`
+- README SHA256: `b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852`
 
 ## README
 
@@ -25,6 +25,10 @@ Each plugin lives under `plugins/<name>/` with a required
 `.codex-plugin/plugin.json` manifest and optional companion surfaces such as
 `skills/`, `.app.json`, `.mcp.json`, plugin-level `agents/`, `commands/`,
 `hooks.json`, `assets/`, and other supporting files.
+
+The default marketplace lives at `.agents/plugins/marketplace.json` and points
+at the standard `plugins/` directory. API key login users have a separate
+marketplace at `.agents/plugins/api_marketplace.json`.
 
 Highlighted richer examples in this repo include:
 

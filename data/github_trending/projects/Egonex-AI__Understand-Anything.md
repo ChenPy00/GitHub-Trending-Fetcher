@@ -5,7 +5,7 @@
   "full_name": "Egonex-AI/Understand-Anything",
   "url": "https://github.com/Egonex-AI/Understand-Anything",
   "description": "Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
-  "readme_sha256": "9d0fdd7f3355070a0a6dd82c6ddb2323c9b8dfd2ccd11004684bb25cd63f185e"
+  "readme_sha256": "9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Egonex-AI/Understand-Anything
 - Description: Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
-- README SHA256: `9d0fdd7f3355070a0a6dd82c6ddb2323c9b8dfd2ccd11004684bb25cd63f185e`
+- README SHA256: `9af36b88f241cebff485bde0cdd77644af665455af67616e4ffb6182fe465aa4`
 
 ## README
 
@@ -136,6 +136,8 @@ Point `/understand-knowledge` at a [Karpathy-pattern LLM wiki](https://gist.gith
 /plugin install understand-anything
 ```
 
+> **Using a local model?** For privacy or enterprise setups, point your platform at a local model provider such as [Ollama](https://docs.ollama.com/integrations) — follow their integration guide to change the model provider.
+
 ### 2. Analyze your codebase
 
 ```bash
@@ -143,6 +145,8 @@ Point `/understand-knowledge` at a [Karpathy-pattern LLM wiki](https://gist.gith
 ```
 
 A multi-agent pipeline scans your project, extracts every file, function, class, and dependency, then builds a knowledge graph saved to `.understand-anything/knowledge-graph.json`.
+
+> **Heads up on token usage:** The initial `/understand` analyzes your whole codebase and can consume a significant number of tokens on large projects. We recommend running it on a token plan / subscription, or using a local model (see above) for initialization. Subsequent runs are incremental by default — only changed files are re-analyzed — so they use far fewer tokens.
 
 **Localized output:** Use `--language` to generate content in your preferred language:
 

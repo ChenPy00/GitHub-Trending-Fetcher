@@ -4,16 +4,16 @@
   "name": "agentsview",
   "full_name": "kenn-io/agentsview",
   "url": "https://github.com/kenn-io/agentsview",
-  "description": "Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!",
-  "readme_sha256": "01117620346f1edda29e8c484888f9bf77e0f561a10ab3888e1e2d6c13b8c6f4"
+  "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+  "readme_sha256": "39a26f7702798e1690e9a43e869cbb85e2efecde8535c5f1318cf63a136f016a"
 }
 ```
 
 # kenn-io/agentsview
 
 - URL: https://github.com/kenn-io/agentsview
-- Description: Local-first session intelligence and analytics for coding agents, supporting Claude Code, Codex, and more than 20 other agents. Also: 100x faster replacement for ccusage!
-- README SHA256: `01117620346f1edda29e8c484888f9bf77e0f561a10ab3888e1e2d6c13b8c6f4`
+- Description: Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
+- README SHA256: `39a26f7702798e1690e9a43e869cbb85e2efecde8535c5f1318cf63a136f016a`
 
 ## README
 
@@ -55,13 +55,21 @@ docker run --rm -p 127.0.0.1:8080:8080 \
 ## Quick Start
 
 ```bash
-agentsview serve           # start server, open web UI
-agentsview usage daily     # print daily cost summary
+agentsview serve               # start foreground server
+agentsview serve --background  # start server and return to the shell
+agentsview serve status        # show whether a server is running
+agentsview serve stop          # stop the running server
+agentsview usage daily         # print daily cost summary
 ```
 
 On first run, agentsview discovers sessions from every supported agent on your
-machine, syncs them into a local SQLite database, and opens a web UI at
+machine, syncs them into a local SQLite database, and serves a web UI at
 `http://127.0.0.1:8080`.
+
+Use `agentsview serve --background` when you want the dashboard to keep running
+after your terminal prompt returns. The command prints the server URL, process
+ID, and log path (`~/.agentsview/serve.log`). Check on it with
+`agentsview serve status` and shut it down with `agentsview serve stop`.
 
 ## Remote / forwarded access
 
@@ -279,36 +287,44 @@ agentsview stats --include-git-outcomes
 
 agentsview auto-discovers sessions from all of these:
 
-| Agent              | Session Directory                                      |
-| ------------------ | ------------------------------------------------------ |
-| Claude Code        | `~/.claude/projects/`                                  |
-| Codex              | `~/.codex/sessions/`                                   |
-| Copilot CLI        | `~/.copilot/`                                          |
-| Gemini CLI         | `~/.gemini/`                                           |
-| OpenCode           | `~/.local/share/opencode/`                             |
-| OpenHands CLI      | `~/.openhands/conversations/`                          |
-| Cursor             | `~/.cursor/projects/`                                  |
-| Amp                | `~/.local/share/amp/threads/`                          |
-| iFlow              | `~/.iflow/projects/`                                   |
-| Zencoder           | `~/.zencoder/sessions/`                                |
-| Zed                | `~/Library/Application Support/Zed/` (macOS)           |
-| VSCode Copilot     | `~/Library/Application Support/Code/User/` (macOS)     |
-| Pi                 | `~/.pi/agent/sessions/`                                |
-| Qwen Code          | `~/.qwen/projects/`                                    |
-| OpenClaw           | `~/.openclaw/agents/`                                  |
-| QClaw              | `~/.qclaw/agents/`                                     |
-| Kimi               | `~/.kimi/sessions/`                                    |
-| Kiro CLI           | `~/.kiro/sessions/cli/`, `~/.local/share/kiro-cli/`    |
-| Kiro IDE           | `~/Library/Application Support/Kiro/` (macOS)          |
-| Cortex Code        | `~/.snowflake/cortex/conversations/`                   |
-| Hermes Agent       | `~/.hermes/sessions/`                                  |
-| WorkBuddy          | `~/.workbuddy/projects/`                               |
-| Forge              | `~/.forge/`                                            |
-| Piebald            | `~/.local/share/piebald/`                              |
-| Warp               | `~/.warp/` (platform-dependent)                        |
-| Positron Assistant | `~/Library/Application Support/Positron/User/` (macOS) |
-| Antigravity        | `~/.gemini/antigravity/`                               |
-| Antigravity CLI    | `~/.gemini/antigravity-cli/` (see note below)          |
+| Agent                 | Session Directory                                                                                                                                                       |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Amp                   | `~/.local/share/amp/threads/`                                                                                                                                           |
+| Antigravity           | `~/.gemini/antigravity/`                                                                                                                                                |
+| Antigravity CLI       | `~/.gemini/antigravity-cli/` (see note below)                                                                                                                           |
+| Claude Code           | `~/.claude/projects/`                                                                                                                                                   |
+| Claude Cowork         | `~/Library/Application Support/Claude/local-agent-mode-sessions/` (macOS)                                                                                               |
+| Codex                 | `~/.codex/sessions/`                                                                                                                                                    |
+| Copilot CLI           | `~/.copilot/`                                                                                                                                                           |
+| Cortex Code           | `~/.snowflake/cortex/conversations/`                                                                                                                                    |
+| Cursor                | `~/.cursor/projects/`                                                                                                                                                   |
+| DeepSeek TUI          | `~/.codewhale/sessions/`, `~/.deepseek/sessions/`                                                                                                                       |
+| Forge                 | `~/.forge/`                                                                                                                                                             |
+| Gemini CLI            | `~/.gemini/`                                                                                                                                                            |
+| gptme                 | `~/.local/share/gptme/logs/`                                                                                                                                            |
+| Hermes Agent          | `~/.hermes/sessions/`                                                                                                                                                   |
+| iFlow                 | `~/.iflow/projects/`                                                                                                                                                    |
+| Kilo                  | `~/.local/share/kilo/`                                                                                                                                                  |
+| Kimi                  | `~/.kimi/sessions/`                                                                                                                                                     |
+| Kiro CLI              | `~/.kiro/sessions/cli/`, `~/.local/share/kiro-cli/`                                                                                                                     |
+| Kiro IDE              | `~/Library/Application Support/Kiro/` (macOS)                                                                                                                           |
+| MiMoCode              | `~/.local/share/mimocode/`                                                                                                                                              |
+| Mistral Vibe          | `~/.vibe/logs/session/`                                                                                                                                                 |
+| OpenClaw              | `~/.openclaw/agents/`                                                                                                                                                   |
+| OpenCode              | `~/.local/share/opencode/`                                                                                                                                              |
+| OpenHands CLI         | `~/.openhands/conversations/`                                                                                                                                           |
+| Pi                    | `~/.pi/agent/sessions/`                                                                                                                                                 |
+| Piebald               | `~/.local/share/piebald/`                                                                                                                                               |
+| Positron Assistant    | `~/Library/Application Support/Positron/User/` (macOS)                                                                                                                  |
+| QClaw                 | `~/.qclaw/agents/`                                                                                                                                                      |
+| Qwen Code             | `~/.qwen/projects/`                                                                                                                                                     |
+| QwenPaw               | `~/.copaw/workspaces/`, `~/.qwenpaw/workspaces/`                                                                                                                        |
+| VSCode Copilot        | `~/Library/Application Support/Code/User/` (macOS)                                                                                                                      |
+| Visual Studio Copilot | `%LOCALAPPDATA%\\Temp\\VSGitHubCopilotLogs\\traces\\` (Windows), `~/Library/Caches/VSGitHubCopilotLogs/traces/` (macOS), `~/.cache/VSGitHubCopilotLogs/traces/` (Linux) |
+| Warp                  | `~/.warp/` (platform-dependent)                                                                                                                                         |
+| WorkBuddy             | `~/.workbuddy/projects/`                                                                                                                                                |
+| Zed                   | `~/Library/Application Support/Zed/` (macOS)                                                                                                                            |
+| Zencoder              | `~/.zencoder/sessions/`                                                                                                                                                 |
 
 Each directory can be overridden with an environment variable. See the
 [configuration docs](https://agentsview.io/configuration/) for details.
@@ -472,13 +488,13 @@ Requires Go 1.26+ (CGO), Node.js 22+.
 
 ```bash
 make dev            # Go server (dev mode)
-make frontend-dev   # Vite dev server (run alongside make dev)
+make frontend-dev   # Vite+ dev server (run alongside make dev)
 make build          # build binary with embedded frontend
 make install        # install to ~/.local/bin
 ```
 
 ```bash
-make test           # Go tests (CGO_ENABLED=1 -tags "fts5,kit_posthog_disabled")
+make test           # Go tests (CGO_ENABLED=1 -tags "fts5")
 make bench-backends # compare SQLite, DuckDB, and PostgreSQL store reads
 make lint           # golangci-lint + NilAway
 make nilaway        # NilAway through custom golangci-lint
@@ -501,7 +517,7 @@ and `make install-hooks` after cloning (requires `prek` and `uv`).
 ```
 cmd/agentsview/     CLI entrypoint
 internal/           Go packages (config, db, parser, server, sync, postgres)
-frontend/           Svelte 5 SPA (Vite, TypeScript)
+frontend/           Svelte 5 SPA (Vite+, TypeScript)
 desktop/            Tauri desktop wrapper
 ```
 

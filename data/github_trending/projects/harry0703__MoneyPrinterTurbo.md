@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-  "readme_sha256": "5d836c0bbbe9ad960fe36906b8fc3112d3ec18c99c49ae51fa8a1485144fe7ae"
+  "readme_sha256": "74ee01cefd3d98e6218d4d8ae272860032ffcaa6742e1b5d9f19938bf2e65aba"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- README SHA256: `5d836c0bbbe9ad960fe36906b8fc3112d3ec18c99c49ae51fa8a1485144fe7ae`
+- README SHA256: `74ee01cefd3d98e6218d4d8ae272860032ffcaa6742e1b5d9f19938bf2e65aba`
 
 ## README
 
@@ -61,10 +61,10 @@
   <tr>
     <td align="center" width="160">
       <a href="https://www.volcengine.com/activity/codingplan?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=MoneyPrinterTurbo"><img src="docs/sponsors/volcengine-logo.svg" alt="火山引擎" height="32"></a><br>
-      <a href="https://ai.volcengine.com/activity/agentplan?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=MoneyPrinterTurbo"><strong>方舟 Agent Plan</strong></a>
+      <a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=MoneyPrinterTurbo"><strong>方舟 Agent Plan</strong></a>
     </td>
     <td align="left">
-      <sub>感谢 <a href="https://ai.volcengine.com/activity/agentplan?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=MoneyPrinterTurbo">方舟 Agent Plan</a> 对本项目的赞助。模型自由，工具不限，最新支持 MiniMax-M3 与 GLM-5.1，受邀下单叠加 9.5 折！集合主流优秀国产编程模型，多生态兼容，无缝融入您的工具链，依托字节资源保障和工程能力，更大容量，更快、更稳、更丝滑！</sub>
+      <sub>感谢 <a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=MoneyPrinterTurbo">方舟 Agent Plan</a> 对本项目的赞助。模型自由，工具不限，最新支持 MiniMax-M3 与 GLM-5.1，受邀下单叠加 9.5 折！集合主流优秀国产编程模型，多生态兼容，无缝融入您的工具链，依托字节资源保障和工程能力，更大容量，更快、更稳、更丝滑！</sub>
     </td>
   </tr>
   <tr>

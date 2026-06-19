@@ -5,7 +5,7 @@
   "full_name": "can1357/oh-my-pi",
   "url": "https://github.com/can1357/oh-my-pi",
   "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-  "readme_sha256": "c89b4c3b08d1d6150cbb3bef41c70008616f8038282d27ccc6013f9b831c0de2"
+  "readme_sha256": "dc325f4aec78c5678654c9fb16d5bb667cf94dda7b241db2b2b5cc5434bec1dd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/can1357/oh-my-pi
 - Description: ⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more
-- README SHA256: `c89b4c3b08d1d6150cbb3bef41c70008616f8038282d27ccc6013f9b831c0de2`
+- README SHA256: `dc325f4aec78c5678654c9fb16d5bb667cf94dda7b241db2b2b5cc5434bec1dd`
 
 ## README
 
@@ -547,6 +547,15 @@ For architecture and contribution guidelines, see [packages/coding-agent/DEVELOP
 | **[pi-iso](crates/pi-iso)**                                   | Task isolation backend resolver: APFS clones, btrfs/zfs reflinks, overlayfs, projfs, rcopy          |
 | **[brush-core-vendored](crates/brush-core-vendored)**         | Vendored fork of [brush-shell](https://github.com/reubeno/brush) for embedded bash execution        |
 | **[brush-builtins-vendored](crates/brush-builtins-vendored)** | Vendored bash builtins (cd, echo, test, printf, read, export, etc.)                                 |
+
+## Contributing
+
+Issues are open to everyone. **Pull requests require a vouch** — PRs from
+unvouched or denounced authors are closed automatically. If you're not yet
+vouched, open a [Discussion](https://github.com/can1357/oh-my-pi/discussions)
+and ask a maintainer to `!vouch` you rather than opening a PR (which would be
+closed on sight). See **[CONTRIBUTING.md](CONTRIBUTING.md)** and
+[`.github/VOUCHED.td`](.github/VOUCHED.td) for the full policy.
 
 ---
 
