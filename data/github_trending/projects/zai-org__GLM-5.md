@@ -5,7 +5,7 @@
   "full_name": "zai-org/GLM-5",
   "url": "https://github.com/zai-org/GLM-5",
   "description": "GLM-5: From Vibe Coding to Agentic Engineering",
-  "readme_sha256": "7c95dd28708f09ef22dafaaeae9f35572d3348913f7bac7419bfafdc7e5486bc"
+  "readme_sha256": "1fc18237eea2879e95269f334a6dbc56721dc87ea1fc6d6c4b15ae004d042b19"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zai-org/GLM-5
 - Description: GLM-5: From Vibe Coding to Agentic Engineering
-- README SHA256: `7c95dd28708f09ef22dafaaeae9f35572d3348913f7bac7419bfafdc7e5486bc`
+- README SHA256: `1fc18237eea2879e95269f334a6dbc56721dc87ea1fc6d6c4b15ae004d042b19`
 
 ## README
 
@@ -94,6 +94,7 @@ GLM-5.2 supports deployment with the following frameworks. Feel free to try them
 - [vLLM](https://github.com/vllm-project/vllm) (v0.23.0+) — see [recipes](https://recipes.vllm.ai/zai-org/GLM-5.2)
 - [Transformers](https://github.com/huggingface/transformers) (v0.5.12+) — see [transformers docs](https://github.com/huggingface/transformers/blob/main/docs/source/en/model_doc/glm_moe_dsa.md)
 - [KTransformers](https://github.com/kvcache-ai/ktransformers) (v0.5.12+) — see [tutorial](https://github.com/kvcache-ai/ktransformers/blob/main/doc/en/kt-kernel/GLM-5.2-Tutorial.md)
+- [Unsloth](https://github.com/unslothai/unsloth) (v0.1.47-beta+) — see [guide](https://unsloth.ai/docs/models/glm-5.2)
 - For deployment on the `Ascend NPU` platform, inference frameworks such as vLLM-Ascend, xLLM and SGLang are supported — see [here](example/ascend.md).
 
 GLM-5 supports controlling the thinking budget through the `reasoning_effort` parameter, which accepts two levels: `max` and `high`. **`max` is the default** — if `reasoning_effort` is left unset (or set to any value other than `high`), the model runs at `Max`. To use the `High` level, you must explicitly pass `reasoning_effort="high"`. For default scenarios such as benchmark/leaderboard reproduction, keep `Max` (no setting required); only set `reasoning_effort="high"` when you specifically want the `High` level. Thinking can be turned off entirely by setting `enable_thinking=false`.

@@ -1,0 +1,169 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 1,
+      "readme_sha256": "bf75d79dced64d0fd6ffccd0d54402006644487de2c04e22cca699ad7fc0be1a",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 2,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 3,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 4,
+      "readme_sha256": "57467e1e1c04bc07dc88460f8b5ba757d66b837277d919d1f3456c8c05cd7faf",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 5,
+      "readme_sha256": "21c177ae9453c790045193dc9f2139cf8d8c3046d377f6791cf316cbd29d262c",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 6,
+      "readme_sha256": "0e1e0947d408dc1f9fc90aa3b99c1cc55d62d48580878b487b60d3fee9d2131e",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 7,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 8,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 9,
+      "readme_sha256": "8e96d926672570a879f233fd496afd411b9fe8c2e7304a2d63812fff6d9c8e35",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
+      "full_name": "kenn-io/agentsview",
+      "project_file": "projects/kenn-io__agentsview.md",
+      "rank": 10,
+      "readme_sha256": "30b415e273da6612ebf840372400aa2161174f0493e469ccabecfb680928ed01",
+      "url": "https://github.com/kenn-io/agentsview"
+    },
+    {
+      "description": "Rust-based platform for the Web",
+      "full_name": "swc-project/swc",
+      "project_file": "projects/swc-project__swc.md",
+      "rank": 11,
+      "readme_sha256": "65f3df613b05d22569735813451d38edc5c6b2fb00a52519609628f9006ef441",
+      "url": "https://github.com/swc-project/swc"
+    },
+    {
+      "description": "Meshery, the cloud native manager",
+      "full_name": "meshery/meshery",
+      "project_file": "projects/meshery__meshery.md",
+      "rank": 12,
+      "readme_sha256": "3af48ae0910ffafaae34b9871400284646af29d55ea5f2352a062ba73ea7bda8",
+      "url": "https://github.com/meshery/meshery"
+    },
+    {
+      "description": "Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers. The server is the beating heart, the core of Music Assistant and must run on an always-on device like a Raspberry Pi, a NAS or an Intel NUC or alike.",
+      "full_name": "music-assistant/server",
+      "project_file": "projects/music-assistant__server.md",
+      "rank": 13,
+      "readme_sha256": "b7e625ccc35471022b50ac078f8056635881f5d479151656d9616d0591f888dc",
+      "url": "https://github.com/music-assistant/server"
+    },
+    {
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "full_name": "LMCache/LMCache",
+      "project_file": "projects/LMCache__LMCache.md",
+      "rank": 14,
+      "readme_sha256": "6249a4b1fc3b97628cb273995a10ba058cf3a0bd4f026152cebf96a5a30e7326",
+      "url": "https://github.com/LMCache/LMCache"
+    },
+    {
+      "description": "Fast, easy and reliable testing for anything that runs in a browser.",
+      "full_name": "cypress-io/cypress",
+      "project_file": "projects/cypress-io__cypress.md",
+      "rank": 15,
+      "readme_sha256": "eba13436afb8b34b2b2fdf0a59d133729ac90fd303b045d6d808be9819687882",
+      "url": "https://github.com/cypress-io/cypress"
+    },
+    {
+      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "full_name": "pytest-dev/pytest",
+      "project_file": "projects/pytest-dev__pytest.md",
+      "rank": 16,
+      "readme_sha256": "37c713f12b48774c77c40accfe3a6a28c25d7e763c9c5e34266261cf738713b5",
+      "url": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 17,
+      "readme_sha256": "8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "JavaScript API for Chrome and Firefox",
+      "full_name": "puppeteer/puppeteer",
+      "project_file": "projects/puppeteer__puppeteer.md",
+      "rank": 18,
+      "readme_sha256": "b2564c37c112336cc191da0890bdc4a8a3e5e039830b17613c69ac7914a7b4bc",
+      "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "project_file": "projects/freeCodeCamp__freeCodeCamp.md",
+      "rank": 19,
+      "readme_sha256": "e6f6947ddea88e72a38d6a63c519933ba1e651c13a207cf4af128d30f014f44b",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "full_name": "chatwoot/chatwoot",
+      "project_file": "projects/chatwoot__chatwoot.md",
+      "rank": 20,
+      "readme_sha256": "00b1867b3e486325ff35a8d5194e937974a02cab39cbbc0a0d9846e3c1ff1ac7",
+      "url": "https://github.com/chatwoot/chatwoot"
+    }
+  ],
+  "snapshot_date": "2026-06-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

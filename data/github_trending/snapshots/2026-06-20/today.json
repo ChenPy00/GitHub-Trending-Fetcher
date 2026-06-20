@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 1,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 2,
+      "readme_sha256": "736404cbe90f21640b7b19da99f24f126113c28b3a3ec21adfbc4211a96816ed",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "macOS video editor built for AI",
+      "full_name": "palmier-io/palmier-pro",
+      "project_file": "projects/palmier-io__palmier-pro.md",
+      "rank": 3,
+      "readme_sha256": "00f9c8997fb18ad5591c7b5b29e452fd173b76d7b7a793c7796b2dec2bb9227f",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 4,
+      "readme_sha256": "783e467fd78951d8b7474ba092b512088aa2850d8e04e36a63d394eb233ee94b",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "A one stop repository for generative AI research updates, interview resources, notebooks and much more!",
+      "full_name": "aishwaryanr/awesome-generative-ai-guide",
+      "project_file": "projects/aishwaryanr__awesome-generative-ai-guide.md",
+      "rank": 5,
+      "readme_sha256": "a8dff63679a26141c6293cff75b293a54a45f37a825d13206e83a75510fe63f6",
+      "url": "https://github.com/aishwaryanr/awesome-generative-ai-guide"
+    },
+    {
+      "description": "A framework for building agent-native applications.",
+      "full_name": "BuilderIO/agent-native",
+      "project_file": "projects/BuilderIO__agent-native.md",
+      "rank": 6,
+      "readme_sha256": "b85b6302ac1945fb69f389643e1b25a2b765c07f37ba37139bf7674408da570e",
+      "url": "https://github.com/BuilderIO/agent-native"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 7,
+      "readme_sha256": "21c177ae9453c790045193dc9f2139cf8d8c3046d377f6791cf316cbd29d262c",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 8,
+      "readme_sha256": "93efe569170af4a7c302c3bd10786536b045ea485015415118fbfc682d3bb7bd",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "GLM-5: From Vibe Coding to Agentic Engineering",
+      "full_name": "zai-org/GLM-5",
+      "project_file": "projects/zai-org__GLM-5.md",
+      "rank": 9,
+      "readme_sha256": "1fc18237eea2879e95269f334a6dbc56721dc87ea1fc6d6c4b15ae004d042b19",
+      "url": "https://github.com/zai-org/GLM-5"
+    },
+    {
+      "description": "The sandbox agent framework.",
+      "full_name": "withastro/flue",
+      "project_file": "projects/withastro__flue.md",
+      "rank": 10,
+      "readme_sha256": "34809ea100f995b2f673f04dd4781e6c7e76d24ffa582b948e9393ead4270c3f",
+      "url": "https://github.com/withastro/flue"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 11,
+      "readme_sha256": "36582abfb9f17017f7d88efa43c33927d65d0c92106a016bdba0b441fb16bf23",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 12,
+      "readme_sha256": "05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "full_name": "penpot/penpot",
+      "project_file": "projects/penpot__penpot.md",
+      "rank": 13,
+      "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "full_name": "Kong/insomnia",
+      "project_file": "projects/Kong__insomnia.md",
+      "rank": 14,
+      "readme_sha256": "9959819e3ce2d39ffe8e60b1d3d90229a13cb4e9357884863cf238d99d3df406",
+      "url": "https://github.com/Kong/insomnia"
+    },
+    {
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "full_name": "Lightricks/LTX-2",
+      "project_file": "projects/Lightricks__LTX-2.md",
+      "rank": 15,
+      "readme_sha256": "f9147bb03df29601974857eae4d6f818b7b9ce62dfb6f42d35ab3ea37e5cdb6b",
+      "url": "https://github.com/Lightricks/LTX-2"
+    }
+  ],
+  "snapshot_date": "2026-06-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

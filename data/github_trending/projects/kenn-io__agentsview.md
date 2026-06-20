@@ -5,7 +5,7 @@
   "full_name": "kenn-io/agentsview",
   "url": "https://github.com/kenn-io/agentsview",
   "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
-  "readme_sha256": "39a26f7702798e1690e9a43e869cbb85e2efecde8535c5f1318cf63a136f016a"
+  "readme_sha256": "30b415e273da6612ebf840372400aa2161174f0493e469ccabecfb680928ed01"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kenn-io/agentsview
 - Description: Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
-- README SHA256: `39a26f7702798e1690e9a43e869cbb85e2efecde8535c5f1318cf63a136f016a`
+- README SHA256: `30b415e273da6612ebf840372400aa2161174f0493e469ccabecfb680928ed01`
 
 ## README
 
@@ -289,6 +289,7 @@ agentsview auto-discovers sessions from all of these:
 
 | Agent                 | Session Directory                                                                                                                                                       |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Aider                 | `<repo>/.aider.chat.history.md` (per repo; bounded scan of `~`, set `AIDER_DIR` to scope)                                                                               |
 | Amp                   | `~/.local/share/amp/threads/`                                                                                                                                           |
 | Antigravity           | `~/.gemini/antigravity/`                                                                                                                                                |
 | Antigravity CLI       | `~/.gemini/antigravity-cli/` (see note below)                                                                                                                           |
@@ -319,6 +320,7 @@ agentsview auto-discovers sessions from all of these:
 | QClaw                 | `~/.qclaw/agents/`                                                                                                                                                      |
 | Qwen Code             | `~/.qwen/projects/`                                                                                                                                                     |
 | QwenPaw               | `~/.copaw/workspaces/`, `~/.qwenpaw/workspaces/`                                                                                                                        |
+| Reasonix              | `~/.reasonix/`, `%APPDATA%\\reasonix\\` (Windows)                                                                                                                       |
 | VSCode Copilot        | `~/Library/Application Support/Code/User/` (macOS)                                                                                                                      |
 | Visual Studio Copilot | `%LOCALAPPDATA%\\Temp\\VSGitHubCopilotLogs\\traces\\` (Windows), `~/Library/Caches/VSGitHubCopilotLogs/traces/` (macOS), `~/.cache/VSGitHubCopilotLogs/traces/` (Linux) |
 | Warp                  | `~/.warp/` (platform-dependent)                                                                                                                                         |
@@ -328,6 +330,29 @@ agentsview auto-discovers sessions from all of these:
 
 Each directory can be overridden with an environment variable. See the
 [configuration docs](https://agentsview.io/configuration/) for details.
+
+### Aider: per-repo Markdown logs
+
+Aider has no central session store; it writes one `.aider.chat.history.md`
+Markdown log per repository, and one log accumulates many runs (one per `aider`
+launch, delimited by `# aider chat started at ...` headers). agentsview indexes
+**each run as its own session**.
+
+Discovery is a bounded, symlink-safe walk of your home directory: it descends at
+most four levels below `~`, skips vendor/build/VCS directories by name
+(`node_modules`, `target`, `.git`, `Library`, `go`, `.cargo`, and similar), and
+stops after a two-second wall-clock budget so a large home tree cannot stall the
+scan. **A repository whose `.aider.chat.history.md` sits more than four levels
+under `~`, or outside your home directory, will not be found by the default
+scan.** Point `AIDER_DIR` (or the `aider_dirs` config key) at that code root to
+index it and to scope and speed up the walk. The live file watcher only watches
+the home root shallowly (registering it recursively would inotify the entire
+home tree); new repos are picked up by the periodic sync, which runs every 15
+minutes.
+
+Because the format is Markdown-derived, roles are reconstructed from line
+prefixes and there are no per-message timestamps; a run's start time comes from
+its `# aider chat started at ...` header (written in local time, assumed UTC).
 
 ### Antigravity CLI: high-resolution transcripts
 
@@ -509,8 +534,9 @@ default fixture is 1,000 sessions and 64,000 messages; use
 When the Docker CLI uses a non-default socket, export `DOCKER_HOST` for that
 socket before running the benchmark.
 
-Pre-commit hooks via [prek](https://github.com/j178/prek): run `make lint-tools`
-and `make install-hooks` after cloning (requires `prek` and `uv`).
+Pre-commit and pre-push hooks via [prek](https://github.com/j178/prek): run
+`make lint-tools` and `make install-hooks` after cloning (requires `prek` and
+`uv`).
 
 ### Project Layout
 
