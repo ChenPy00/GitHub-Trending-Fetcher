@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "macOS video editor built for AI",
+      "full_name": "palmier-io/palmier-pro",
+      "project_file": "projects/palmier-io__palmier-pro.md",
+      "rank": 1,
+      "readme_sha256": "00f9c8997fb18ad5591c7b5b29e452fd173b76d7b7a793c7796b2dec2bb9227f",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "full_name": "penpot/penpot",
+      "project_file": "projects/penpot__penpot.md",
+      "rank": 2,
+      "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 3,
+      "readme_sha256": "93efe569170af4a7c302c3bd10786536b045ea485015415118fbfc682d3bb7bd",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "full_name": "tursodatabase/turso",
+      "project_file": "projects/tursodatabase__turso.md",
+      "rank": 4,
+      "readme_sha256": "98c32e82ebbc663cfc13bdb8e90144499c93e7547ce280630f648f804373b367",
+      "url": "https://github.com/tursodatabase/turso"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 5,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 6,
+      "readme_sha256": "736404cbe90f21640b7b19da99f24f126113c28b3a3ec21adfbc4211a96816ed",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "full_name": "twentyhq/twenty",
+      "project_file": "projects/twentyhq__twenty.md",
+      "rank": 7,
+      "readme_sha256": "c071d6f378e7aad1508eb4c0b0cd1b54d37db9de1dbc3b870522ae7cf83ceb53",
+      "url": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "full_name": "Kong/insomnia",
+      "project_file": "projects/Kong__insomnia.md",
+      "rank": 8,
+      "readme_sha256": "9959819e3ce2d39ffe8e60b1d3d90229a13cb4e9357884863cf238d99d3df406",
+      "url": "https://github.com/Kong/insomnia"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 9,
+      "readme_sha256": "21c177ae9453c790045193dc9f2139cf8d8c3046d377f6791cf316cbd29d262c",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 10,
+      "readme_sha256": "ca12dae79b9513db2ed0441d6b0faa9ba217db5615b00273e814aa14c360348c",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "full_name": "Kilo-Org/kilocode",
+      "project_file": "projects/Kilo-Org__kilocode.md",
+      "rank": 11,
+      "readme_sha256": "4f0b804d12b749a8e4c317d027904689ed0abb48a7732d6c3e5b855f8fb89a13",
+      "url": "https://github.com/Kilo-Org/kilocode"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 12,
+      "readme_sha256": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The sandbox agent framework.",
+      "full_name": "withastro/flue",
+      "project_file": "projects/withastro__flue.md",
+      "rank": 13,
+      "readme_sha256": "ec004bd5963a12f41b9d4dc8d6bb1d9ff503de4700f6dd138219047ee5abcb77",
+      "url": "https://github.com/withastro/flue"
+    },
+    {
+      "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
+      "full_name": "owainlewis/awesome-artificial-intelligence",
+      "project_file": "projects/owainlewis__awesome-artificial-intelligence.md",
+      "rank": 14,
+      "readme_sha256": "c77075410d538c7ef777be50fb2e4e8410926f9af8148721845ff4ae9fb1a0c9",
+      "url": "https://github.com/owainlewis/awesome-artificial-intelligence"
+    },
+    {
+      "description": "短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正",
+      "full_name": "pppscn/SmsForwarder",
+      "project_file": "projects/pppscn__SmsForwarder.md",
+      "rank": 15,
+      "readme_sha256": "8d19ba2a8599aa207e0fb1d6953d26ec34462dccfec0da9c73271ac207e6b364",
+      "url": "https://github.com/pppscn/SmsForwarder"
+    },
+    {
+      "description": "Coding Agent Harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 16,
+      "readme_sha256": "6d1b16bfbf829f124a39a52c55d41bb329ae3d466ec69deb3435082e07fe3cab",
+      "url": "https://github.com/1jehuang/jcode"
+    }
+  ],
+  "snapshot_date": "2026-06-21",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

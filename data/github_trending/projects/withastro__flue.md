@@ -5,7 +5,7 @@
   "full_name": "withastro/flue",
   "url": "https://github.com/withastro/flue",
   "description": "The sandbox agent framework.",
-  "readme_sha256": "34809ea100f995b2f673f04dd4781e6c7e76d24ffa582b948e9393ead4270c3f"
+  "readme_sha256": "ec004bd5963a12f41b9d4dc8d6bb1d9ff503de4700f6dd138219047ee5abcb77"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/withastro/flue
 - Description: The sandbox agent framework.
-- README SHA256: `34809ea100f995b2f673f04dd4781e6c7e76d24ffa582b948e9393ead4270c3f`
+- README SHA256: `ec004bd5963a12f41b9d4dc8d6bb1d9ff503de4700f6dd138219047ee5abcb77`
 
 ## README
 
@@ -23,7 +23,7 @@ Not another SDK. Build autonomous agents and powerful AI workflows with Flue's p
 
 ```ts
 // agents/triage.ts
-import { createAgent, type AgentRouteHandler } from '@flue/runtime';
+import { defineAgent, type AgentRouteHandler } from '@flue/runtime';
 import { local } from '@flue/runtime/node';
 import triage from '../skills/triage/SKILL.md' with { type: 'skill' };
 import verify from '../skills/verify/SKILL.md' with { type: 'skill' };
@@ -42,7 +42,7 @@ export const route: AgentRouteHandler = async (_c, next) => next();
 
 // Compose the complete harness your agent needs to do real work,
 // complete with virtual, local, or remote container sandbox.
-export default createAgent(() => ({
+export default defineAgent(() => ({
   model: 'anthropic/claude-sonnet-4-6',
   tools: [...githubTools],
   skills: [triage, verify],

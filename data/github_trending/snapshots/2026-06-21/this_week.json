@@ -1,0 +1,177 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 1,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
+      "full_name": "chopratejas/headroom",
+      "project_file": "projects/chopratejas__headroom.md",
+      "rank": 2,
+      "readme_sha256": "21c177ae9453c790045193dc9f2139cf8d8c3046d377f6791cf316cbd29d262c",
+      "url": "https://github.com/chopratejas/headroom"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 3,
+      "readme_sha256": "57467e1e1c04bc07dc88460f8b5ba757d66b837277d919d1f3456c8c05cd7faf",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 4,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 5,
+      "readme_sha256": "bf75d79dced64d0fd6ffccd0d54402006644487de2c04e22cca699ad7fc0be1a",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 6,
+      "readme_sha256": "36582abfb9f17017f7d88efa43c33927d65d0c92106a016bdba0b441fb16bf23",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 7,
+      "readme_sha256": "ebcbdd66b3b7688b098b750ff398c2da2866cc1d42428716e0074ccde78c4500",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 8,
+      "readme_sha256": "8e96d926672570a879f233fd496afd411b9fe8c2e7304a2d63812fff6d9c8e35",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 9,
+      "readme_sha256": "736404cbe90f21640b7b19da99f24f126113c28b3a3ec21adfbc4211a96816ed",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 10,
+      "readme_sha256": "7d2bda69f91ce0a8b8471fec8d529b7e3c82c0574ca8e57c9361f17b6e3e9158",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "Meshery, the cloud native manager",
+      "full_name": "meshery/meshery",
+      "project_file": "projects/meshery__meshery.md",
+      "rank": 11,
+      "readme_sha256": "3af48ae0910ffafaae34b9871400284646af29d55ea5f2352a062ba73ea7bda8",
+      "url": "https://github.com/meshery/meshery"
+    },
+    {
+      "description": "Rust-based platform for the Web",
+      "full_name": "swc-project/swc",
+      "project_file": "projects/swc-project__swc.md",
+      "rank": 12,
+      "readme_sha256": "65f3df613b05d22569735813451d38edc5c6b2fb00a52519609628f9006ef441",
+      "url": "https://github.com/swc-project/swc"
+    },
+    {
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "full_name": "LMCache/LMCache",
+      "project_file": "projects/LMCache__LMCache.md",
+      "rank": 13,
+      "readme_sha256": "6249a4b1fc3b97628cb273995a10ba058cf3a0bd4f026152cebf96a5a30e7326",
+      "url": "https://github.com/LMCache/LMCache"
+    },
+    {
+      "description": "The pytest framework makes it easy to write small tests, yet scales to support complex functional testing",
+      "full_name": "pytest-dev/pytest",
+      "project_file": "projects/pytest-dev__pytest.md",
+      "rank": 14,
+      "readme_sha256": "37c713f12b48774c77c40accfe3a6a28c25d7e763c9c5e34266261cf738713b5",
+      "url": "https://github.com/pytest-dev/pytest"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 15,
+      "readme_sha256": "8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "full_name": "Kong/insomnia",
+      "project_file": "projects/Kong__insomnia.md",
+      "rank": 16,
+      "readme_sha256": "9959819e3ce2d39ffe8e60b1d3d90229a13cb4e9357884863cf238d99d3df406",
+      "url": "https://github.com/Kong/insomnia"
+    },
+    {
+      "description": "JavaScript API for Chrome and Firefox",
+      "full_name": "puppeteer/puppeteer",
+      "project_file": "projects/puppeteer__puppeteer.md",
+      "rank": 17,
+      "readme_sha256": "b2564c37c112336cc191da0890bdc4a8a3e5e039830b17613c69ac7914a7b4bc",
+      "url": "https://github.com/puppeteer/puppeteer"
+    },
+    {
+      "description": "Open-source live-chat, email support, omni-channel desk. An alternative to Intercom, Zendesk, Salesforce Service Cloud etc. 🔥💬",
+      "full_name": "chatwoot/chatwoot",
+      "project_file": "projects/chatwoot__chatwoot.md",
+      "rank": 18,
+      "readme_sha256": "00b1867b3e486325ff35a8d5194e937974a02cab39cbbc0a0d9846e3c1ff1ac7",
+      "url": "https://github.com/chatwoot/chatwoot"
+    },
+    {
+      "description": "The sandbox agent framework.",
+      "full_name": "withastro/flue",
+      "project_file": "projects/withastro__flue.md",
+      "rank": 19,
+      "readme_sha256": "ec004bd5963a12f41b9d4dc8d6bb1d9ff503de4700f6dd138219047ee5abcb77",
+      "url": "https://github.com/withastro/flue"
+    },
+    {
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "project_file": "projects/freeCodeCamp__freeCodeCamp.md",
+      "rank": 20,
+      "readme_sha256": "e6f6947ddea88e72a38d6a63c519933ba1e651c13a207cf4af128d30f014f44b",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "full_name": "makeplane/plane",
+      "project_file": "projects/makeplane__plane.md",
+      "rank": 21,
+      "readme_sha256": "1527e5cd40ef95906faebb6f795e1260321e8296f97b9cc6365a77983197d677",
+      "url": "https://github.com/makeplane/plane"
+    }
+  ],
+  "snapshot_date": "2026-06-21",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

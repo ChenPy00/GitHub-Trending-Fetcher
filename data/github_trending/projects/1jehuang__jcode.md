@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "Coding Agent Harness",
-  "readme_sha256": "c221f8f74fda67fe360907d5aa9ea0bd5e2f452ebc671ca9cd3301b8769b91b3"
+  "readme_sha256": "6d1b16bfbf829f124a39a52c55d41bb329ae3d466ec69deb3435082e07fe3cab"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: Coding Agent Harness
-- README SHA256: `c221f8f74fda67fe360907d5aa9ea0bd5e2f452ebc671ca9cd3301b8769b91b3`
+- README SHA256: `6d1b16bfbf829f124a39a52c55d41bb329ae3d466ec69deb3435082e07fe3cab`
 
 ## README
 
@@ -26,6 +26,7 @@
 [![Platforms](https://img.shields.io/badge/platforms-Linux%20%7C%20macOS%20%7C%20Windows-blue?style=flat-square)](https://github.com/1jehuang/jcode/releases)
 [![Last Commit](https://badgen.net/github/last-commit/1jehuang/jcode/master?icon=github)](https://github.com/1jehuang/jcode/commits/master)
 [![GitHub Stars](https://badgen.net/github/stars/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/stargazers)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/nBe9vGyK9a)
 
 The next generation coding agent harness to raise the skill ceiling. <br>
 Built for multi-session workflows, infinite customizability, and performance. 
@@ -361,6 +362,35 @@ For custom OpenAI-compatible endpoints, jcode now prompts for the API base and s
 
 If you prefer to configure things by editing files instead of using the login UI, jcode supports both a custom OpenAI-compatible endpoint config and MCP config files.
 
+#### OpenAI-compatible providers
+
+Many hosted services speak the standard OpenAI `/v1/chat/completions` API. jcode talks to them through one shared OpenAI-compatible provider, so you can use almost any such endpoint without waiting for a dedicated integration.
+
+There are two ways to set one up:
+
+- **Built-in named profiles** — jcode ships ready-made profiles for several popular OpenAI-compatible services. Log in by id and jcode fills in the base URL and key environment variable for you:
+
+  ```bash
+  jcode login --provider <profile-id>
+  # for example:
+  jcode login --provider openrouter
+  jcode login --provider deepseek
+  jcode login --provider opencode      # OpenCode Zen
+  jcode login --provider moonshotai
+  ```
+
+  Built-in OpenAI-compatible profile ids include: `openrouter`, `deepseek`, `zai`, `kimi`, `moonshotai`, `opencode` (OpenCode Zen), `opencode-go`, `302ai`, `baseten`, `cortecs`, `huggingface`, `nebius`, `scaleway`, `stackit`, and `firmware`. Each profile only sets the endpoint and key variable; you still pick the model with `/model` (or `--model`). Run `jcode login` with no provider to see the interactive list.
+
+- **Any other endpoint** — point jcode at an arbitrary OpenAI-compatible API (hosted or local) with `jcode login --provider openai-compatible` or the scriptable `jcode provider add` command described below.
+
+Useful environment overrides for these endpoints:
+
+- `JCODE_STREAM_IDLE_TIMEOUT_SECS` — raise the streaming idle timeout (default 180s) for slow reasoning models that think silently before emitting tokens. Also settable as `[provider] stream_idle_timeout_secs` in `config.toml`.
+- Per-model `context_window` (alias `context_limit`) in a `[[providers.<name>.models]]` entry — set the context window when the endpoint has no usable `/v1/models` response, so jcode does not fall back to the generic 200k default.
+- `extra_body` — inject non-standard top-level fields into every chat/completions request body for backends that require them. See [Extra request-body fields](#extra-request-body-fields-extra_body) below.
+
+For details on self-hosting, local runtimes, and the exact config file shape, see below.
+
 #### Self-hosted OpenAI-compatible endpoints, including vLLM
 
 For agents and scripts, the preferred path is the one-shot provider profile command. It writes a named profile to `~/.jcode/config.toml`, stores secrets in jcode's private app config directory when requested, and prints exact run/validation commands:
@@ -433,6 +463,32 @@ default_model = "my-model-id"
 id = "my-model-id"
 context_window = 128000
 ```
+
+##### Extra request-body fields (`extra_body`)
+
+Some OpenAI-compatible backends require non-standard top-level request fields. For example, NVIDIA NIM DeepSeek-V4 reasoning models (`deepseek-ai/deepseek-v4-flash`, `deepseek-ai/deepseek-v4-pro`) only enable thinking when the request includes `chat_template_kwargs`; without it they reply without reasoning (or, for some deployments, hang). jcode lets you inject arbitrary top-level fields two ways.
+
+1. Per named profile, via `extra_body` in `config.toml` (a TOML table merged verbatim into the JSON body):
+
+   ```toml
+   [providers.my-nim]
+   type = "openai-compatible"
+   base_url = "https://integrate.api.nvidia.com/v1"
+   api_key_env = "NVIDIA_API_KEY"
+   default_model = "deepseek-ai/deepseek-v4-flash"
+
+   [providers.my-nim.extra_body.chat_template_kwargs]
+   thinking = true
+   reasoning_effort = "high"
+   ```
+
+2. For built-in profiles (e.g. `nvidia-nim`) or any endpoint, via the `JCODE_OPENAI_EXTRA_BODY` environment variable (a JSON object string). It can live in the provider's env file (`~/.config/jcode/nvidia-nim.env`) next to the API key:
+
+   ```bash
+   JCODE_OPENAI_EXTRA_BODY={"chat_template_kwargs":{"thinking":true,"reasoning_effort":"high"}}
+   ```
+
+Keys from `extra_body` are merged last and override any jcode-generated body field with the same name (`JCODE_OPENAI_EXTRA_BODY` wins over the config `extra_body` on key collisions). Invalid values are logged and ignored rather than failing the request.
 
 The custom OpenAI-compatible provider reads overrides from environment variables or from an env file in jcode's app config directory. On Linux this is usually `~/.config/jcode/`, so the default file is usually:
 
