@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "macOS video editor built for AI",
+      "full_name": "palmier-io/palmier-pro",
+      "project_file": "projects/palmier-io__palmier-pro.md",
+      "rank": 1,
+      "readme_sha256": "42a221302d85901d212e0da431ee70dcb52482b419404dfc9a164fa3d389d482",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 2,
+      "readme_sha256": "93efe569170af4a7c302c3bd10786536b045ea485015415118fbfc682d3bb7bd",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Turso is an in-process SQL database, compatible with SQLite.",
+      "full_name": "tursodatabase/turso",
+      "project_file": "projects/tursodatabase__turso.md",
+      "rank": 3,
+      "readme_sha256": "98c32e82ebbc663cfc13bdb8e90144499c93e7547ce280630f648f804373b367",
+      "url": "https://github.com/tursodatabase/turso"
+    },
+    {
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "full_name": "penpot/penpot",
+      "project_file": "projects/penpot__penpot.md",
+      "rank": 4,
+      "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "project_file": "projects/ZhuLinsen__daily_stock_analysis.md",
+      "rank": 5,
+      "readme_sha256": "a5ab51804733163c49f60bbf7a19741368cc1f1f19826cc0215b8eb664de8289",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 6,
+      "readme_sha256": "783e467fd78951d8b7474ba092b512088aa2850d8e04e36a63d394eb233ee94b",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "full_name": "bytedance/deer-flow",
+      "project_file": "projects/bytedance__deer-flow.md",
+      "rank": 7,
+      "readme_sha256": "080e9f0fdc0c4e08695b114b470ad4fcc5e4c53040ee34234f9761d684b2bef3",
+      "url": "https://github.com/bytedance/deer-flow"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 8,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 9,
+      "readme_sha256": "86042f39083b88ede20da0768a36536b7df89fc948af2fb670251d213716d16f",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "b站会员购购票辅助工具",
+      "full_name": "mikumifa/biliTickerBuy",
+      "project_file": "projects/mikumifa__biliTickerBuy.md",
+      "rank": 10,
+      "readme_sha256": "13aa4a39e5501025016b979c8aaea61a73f02963d05b36208c99c3da5df5c926",
+      "url": "https://github.com/mikumifa/biliTickerBuy"
+    },
+    {
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "full_name": "smicallef/spiderfoot",
+      "project_file": "projects/smicallef__spiderfoot.md",
+      "rank": 11,
+      "readme_sha256": "7894cddcd501f65106ffd21fca97e09f01b59fa0e92b1a434e425ef77135089e",
+      "url": "https://github.com/smicallef/spiderfoot"
+    },
+    {
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "full_name": "topoteretes/cognee",
+      "project_file": "projects/topoteretes__cognee.md",
+      "rank": 12,
+      "readme_sha256": "0ca78055449b7959008cf3bc5b8bf61ddb4a2b2a7759dba885848ae3f0e4bf8a",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "full_name": "byoungd/English-level-up-tips",
+      "project_file": "projects/byoungd__English-level-up-tips.md",
+      "rank": 13,
+      "readme_sha256": "75b2c88bb864e1dba75bfd02731e41be18c21168f19e5b03d331b94dce8082d5",
+      "url": "https://github.com/byoungd/English-level-up-tips"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 14,
+      "readme_sha256": "8e96d926672570a879f233fd496afd411b9fe8c2e7304a2d63812fff6d9c8e35",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 15,
+      "readme_sha256": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "snapshot_date": "2026-06-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
