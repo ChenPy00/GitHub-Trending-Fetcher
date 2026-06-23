@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 1,
+      "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 2,
+      "readme_sha256": "89a33e7c48c480aa06aeebc1b34272f3acb1040e9e570aa6a169d077d11fbf95",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 3,
+      "readme_sha256": "57467e1e1c04bc07dc88460f8b5ba757d66b837277d919d1f3456c8c05cd7faf",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 4,
+      "readme_sha256": "36582abfb9f17017f7d88efa43c33927d65d0c92106a016bdba0b441fb16bf23",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 5,
+      "readme_sha256": "736404cbe90f21640b7b19da99f24f126113c28b3a3ec21adfbc4211a96816ed",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 6,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 7,
+      "readme_sha256": "1f57765af8cc36f39dcee7c93f4f2747499c2857ead4bbc170f5c9ee0df3fdd2",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "The sandbox agent framework.",
+      "full_name": "withastro/flue",
+      "project_file": "projects/withastro__flue.md",
+      "rank": 8,
+      "readme_sha256": "ec004bd5963a12f41b9d4dc8d6bb1d9ff503de4700f6dd138219047ee5abcb77",
+      "url": "https://github.com/withastro/flue"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 9,
+      "readme_sha256": "0915370b604ed02b04fef798da34797508c66945e39bca9c865e39f4a6aa6813",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "A self-hosted data logger for your Tesla 🚘 [main maintainer= @JakobLichterfeld ]",
+      "full_name": "teslamate-org/teslamate",
+      "project_file": "projects/teslamate-org__teslamate.md",
+      "rank": 10,
+      "readme_sha256": "eccbe4ccdb495878460a24c4a86c09816484f0ba2562cf0f9b11d4c306d2d76e",
+      "url": "https://github.com/teslamate-org/teslamate"
+    },
+    {
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "full_name": "penpot/penpot",
+      "project_file": "projects/penpot__penpot.md",
+      "rank": 11,
+      "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "full_name": "makeplane/plane",
+      "project_file": "projects/makeplane__plane.md",
+      "rank": 12,
+      "readme_sha256": "1527e5cd40ef95906faebb6f795e1260321e8296f97b9cc6365a77983197d677",
+      "url": "https://github.com/makeplane/plane"
+    },
+    {
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "full_name": "Kong/insomnia",
+      "project_file": "projects/Kong__insomnia.md",
+      "rank": 13,
+      "readme_sha256": "9959819e3ce2d39ffe8e60b1d3d90229a13cb4e9357884863cf238d99d3df406",
+      "url": "https://github.com/Kong/insomnia"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 14,
+      "readme_sha256": "ebcbdd66b3b7688b098b750ff398c2da2866cc1d42428716e0074ccde78c4500",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "full_name": "freeCodeCamp/freeCodeCamp",
+      "project_file": "projects/freeCodeCamp__freeCodeCamp.md",
+      "rank": 15,
+      "readme_sha256": "e6f6947ddea88e72a38d6a63c519933ba1e651c13a207cf4af128d30f014f44b",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 16,
+      "readme_sha256": "783e467fd78951d8b7474ba092b512088aa2850d8e04e36a63d394eb233ee94b",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "LMCache: Supercharge Your LLM with the Fastest KV Cache Layer",
+      "full_name": "LMCache/LMCache",
+      "project_file": "projects/LMCache__LMCache.md",
+      "rank": 17,
+      "readme_sha256": "6249a4b1fc3b97628cb273995a10ba058cf3a0bd4f026152cebf96a5a30e7326",
+      "url": "https://github.com/LMCache/LMCache"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 18,
+      "readme_sha256": "1464891190fda1c67d52baed708f357c4540d9b52b41e35fc16c0bcc07905256",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    }
+  ],
+  "snapshot_date": "2026-06-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

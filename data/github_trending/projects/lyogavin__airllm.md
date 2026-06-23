@@ -5,7 +5,7 @@
   "full_name": "lyogavin/airllm",
   "url": "https://github.com/lyogavin/airllm",
   "description": "AirLLM 70B inference with single 4GB GPU",
-  "readme_sha256": "63745b7d1d71908dde70765fa3328fbc6d2a783a5b2a9a8907795b87f3a554e3"
+  "readme_sha256": "322290a7fea83d17207ef8deca7bf7ca26802bed06eb83d7ba4e4e39105a801c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/lyogavin/airllm
 - Description: AirLLM 70B inference with single 4GB GPU
-- README SHA256: `63745b7d1d71908dde70765fa3328fbc6d2a783a5b2a9a8907795b87f3a554e3`
+- README SHA256: `322290a7fea83d17207ef8deca7bf7ca26802bed06eb83d7ba4e4e39105a801c`
 
 ## README
 
@@ -46,6 +46,8 @@
 * [Best AI Game Sprite Generator](https://godmodeai.co)
 
 * [Best AI Facial Expression Editor](https://crazyfaceai.com)
+
+* [Bloome — build & run AI agent teams in the cloud, zero setup](https://bloome.im/login?ref=G6BYnov0)
 
 ## Updates
 [2024/08/20] v2.11.0: Support Qwen2.5
@@ -344,6 +346,19 @@ BibTex entry:
   year = {2023},
 }
 ```
+
+
+## Sponsors
+
+<a href="https://bloome.im/login?ref=G6BYnov0">
+  <img src="https://github.com/lyogavin/airllm/blob/main/assets/bloome.png?raw=true" alt="Bloome — Run AI Agent Teams in the Cloud" width="50%" />
+</a>
+
+### Run AI Agent Teams in the Cloud — Bloome
+
+Bloome is an AI-agent IM platform: build and run AI agent teams in the cloud with zero setup. Add a skill as an agent in a group chat, run it in one click from web or mobile, and share it with your team — think of it as a group chat where your AI assistants are teammates you can @mention and assign tasks to.
+
+👉 Try Bloome: https://bloome.im/login?ref=G6BYnov0
 
 
 ## Contribution 

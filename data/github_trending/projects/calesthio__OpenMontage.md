@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "93efe569170af4a7c302c3bd10786536b045ea485015415118fbfc682d3bb7bd"
+  "readme_sha256": "89a33e7c48c480aa06aeebc1b34272f3acb1040e9e570aa6a169d077d11fbf95"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `93efe569170af4a7c302c3bd10786536b045ea485015415118fbfc682d3bb7bd`
+- README SHA256: `89a33e7c48c480aa06aeebc1b34272f3acb1040e9e570aa6a169d077d11fbf95`
 
 ## README
 
@@ -37,6 +37,10 @@
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-blue.svg" alt="License"></a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/trending"><img src="https://img.shields.io/badge/%F0%9F%8F%86%20%231%20on%20GitHub%20Trending-Repository%20of%20the%20Day-8957E5?style=for-the-badge&labelColor=1a1a2e" alt="#1 on GitHub Trending — Repository of the Day"></a>
 </p>
 
 <p align="center"><strong>Follow The Build</strong></p>

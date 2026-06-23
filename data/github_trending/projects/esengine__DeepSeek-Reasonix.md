@@ -5,7 +5,7 @@
   "full_name": "esengine/DeepSeek-Reasonix",
   "url": "https://github.com/esengine/DeepSeek-Reasonix",
   "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-  "readme_sha256": "ef8492c32b627bc36fffd11a9c552ec4556ead1bf81baa2ce7b732181007874a"
+  "readme_sha256": "f81225f26c990a2c7e986b0959dc81c308447f0f32f8c9d387673d20f9a970b4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/esengine/DeepSeek-Reasonix
 - Description: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
-- README SHA256: `ef8492c32b627bc36fffd11a9c552ec4556ead1bf81baa2ce7b732181007874a`
+- README SHA256: `f81225f26c990a2c7e986b0959dc81c308447f0f32f8c9d387673d20f9a970b4`
 
 ## README
 
@@ -109,7 +109,7 @@ make cross      # -> dist/ (darwin|linux|windows × amd64|arm64)
 
 ```sh
 reasonix setup                      # config wizard → ./reasonix.toml
-export DEEPSEEK_API_KEY=sk-...      # or let setup save it to the credential store
+export DEEPSEEK_API_KEY=sk-...      # or let setup save it to Reasonix home .env
 reasonix                            # then run /init to generate AGENTS.md (project memory)
 reasonix run "implement the TODOs in main.go"
 reasonix run --model deepseek-pro "add unit tests for this function"
@@ -135,10 +135,13 @@ Resolution order is **flag > `./reasonix.toml` > the user config file >
 built-in defaults**; starting with **Reasonix v1.8.1**, the user file lives at
 `~/.reasonix/config.toml` on macOS/Linux and
 `%AppData%\reasonix\config.toml` on Windows. See
-**[Configuration paths](./docs/CONFIG_PATHS.md)** for migration details. Secrets come from the environment via `api_key_env`, are
-never written to config files, and new keys default to the OS credential store
-with a Reasonix-owned file fallback. Project `.env` files are read as a
-compatibility override, but Reasonix does not write new keys there. Permissions, the sandbox, plugins (MCP), slash
+**[Configuration paths](./docs/CONFIG_PATHS.md)** for migration details and the
+full `config.toml` / `.env` structure. Provider entries name secrets with
+`api_key_env`; the secret values themselves live in Reasonix's global
+`<Reasonix home>/.env`, shared by CLI and desktop. Project `.env` files are not
+provider-key runtime fallbacks, but still feed workspace-scoped, non-provider
+`${VAR}` expansion for MCP/plugin settings without importing Reasonix control
+variables. Permissions, the sandbox, plugins (MCP), slash
 commands, `@` references, and two-model setup are all in the
 **[Guide](./docs/GUIDE.md)**.
 
