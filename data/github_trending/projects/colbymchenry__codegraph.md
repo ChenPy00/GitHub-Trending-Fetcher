@@ -5,7 +5,7 @@
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
   "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "6a3b921fdc006ed2223aaf47512ca31567e4a930f33d6f80951589a229ac736e"
+  "readme_sha256": "d91d62065e7cbe78f964fb85a580542dc2265360c1a1910c868624759082bc51"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/colbymchenry/codegraph
 - Description: Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `6a3b921fdc006ed2223aaf47512ca31567e4a930f33d6f80951589a229ac736e`
+- README SHA256: `d91d62065e7cbe78f964fb85a580542dc2265360c1a1910c868624759082bc51`
 
 ## README
 
@@ -445,7 +445,7 @@ CodeGraph's MCP server delivers its usage guidance to your agent **automatically
 - **Answer structural questions directly with CodeGraph** — it *is* the pre-built index, so a grep/read loop just repeats work it already did. Treat the returned source as already read.
 - **Reach for `codegraph_explore` for almost anything** — "how does X work", a flow/"how does X reach Y", or surveying an area. One call returns the relevant symbols' verbatim source grouped by file, the call paths between them (dynamic-dispatch hops included), and a blast-radius summary. Name a file or symbol in the query to read its current line-numbered source.
 - **Trust the results — don't re-verify with grep**, and check the staleness banner after edits.
-- In a workspace with no index, CodeGraph announces itself inactive and serves no tools — indexing stays your decision.
+- Works **per project**: query any project that has a `.codegraph/` index by passing `projectPath` — so a monorepo where only some services are indexed, or a second repo, works in one session. A path with no index returns clean guidance to use built-in tools; indexing stays your decision.
 
 The exact text is `src/mcp/server-instructions.ts` — the single source of truth for the main agent. Because subagents and non-MCP harnesses never see the MCP guidance, the installer also writes a short marker-fenced section into the agent's instructions file pointing at the `codegraph explore` CLI equivalent.
 
@@ -553,7 +553,7 @@ When running as an MCP server, CodeGraph exposes a **single tool** — `codegrap
 
 The other tools (`codegraph_node`, `codegraph_search`, `codegraph_callers`, `codegraph_callees`, `codegraph_impact`, `codegraph_files`, `codegraph_status`) stay fully functional but **unlisted by default** — everything they return already arrives inline on `codegraph_explore` (its blast-radius section, the relationship map, a symbol's body as its callee list). Re-enable any of them for the MCP surface with the `CODEGRAPH_MCP_TOOLS` environment variable (e.g. `CODEGRAPH_MCP_TOOLS=explore,node,search,callers`), or use their CLI equivalents (`codegraph node` / `query` / `callers` / `callees` / `impact` / `files` / `status`).
 
-In a workspace with no `.codegraph/` index, the server announces itself inactive and lists **no** tools — agents work normally with their built-in tools, and indexing stays your decision.
+Even when the server's own root has no `.codegraph/` index, the tools stay available: pass `projectPath` to query any indexed project — a sub-service in a monorepo, or a second repo — in the same session. A path that has no index returns clean guidance to use built-in tools instead, so nothing fails loudly, and indexing stays your decision.
 
 ---
 

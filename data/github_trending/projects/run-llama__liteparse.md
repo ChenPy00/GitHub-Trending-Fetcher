@@ -5,7 +5,7 @@
   "full_name": "run-llama/liteparse",
   "url": "https://github.com/run-llama/liteparse",
   "description": "A fast, helpful, and open-source document parser",
-  "readme_sha256": "96a8718af6a06f5d22f34ef18dc16aec29fe3a44b14d13dd7ee0ae6251a55b88"
+  "readme_sha256": "2df17304a281bf7e2c1a79bdf0bc0d115c368b312e2e0e0e1f856b1eedb97420"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/run-llama/liteparse
 - Description: A fast, helpful, and open-source document parser
-- README SHA256: `96a8718af6a06f5d22f34ef18dc16aec29fe3a44b14d13dd7ee0ae6251a55b88`
+- README SHA256: `2df17304a281bf7e2c1a79bdf0bc0d115c368b312e2e0e0e1f856b1eedb97420`
 
 ## README
 
@@ -57,7 +57,8 @@ hard stuff so your models see clean, structured data and markdown.
   - **HTTP Servers**: Plug in any OCR server (EasyOCR, PaddleOCR, custom)
   - **Standard API**: Simple, well-defined OCR API specification
 - **Screenshot Generation**: Generate high-quality page screenshots for LLM agents
-- **Multiple Output Formats**: JSON and Text
+- **Multiple Output Formats**: Markdown, JSON, and Text
+- **Markdown Output**: Structured Markdown with headings, tables, lists, images, and links — great for feeding LLMs and RAG pipelines
 - **Bounding Boxes**: Precise text positioning information
 - **Multi-language**: Use from Rust, Node.js/TypeScript, Python, or the browser (WASM)
 - **Multi-platform**: Linux, macOS (Intel/ARM), Windows
@@ -164,6 +165,9 @@ The CLI is the same across all installations (`npm`, `pip`, `cargo install`).
 # Basic parsing
 lit parse document.pdf
 
+# Parse to Markdown — headings, tables, lists, images, links
+lit parse document.pdf --format markdown -o output.md
+
 # Parse with specific format
 lit parse document.pdf --format json -o output.json
 
@@ -176,6 +180,40 @@ lit parse document.pdf --no-ocr
 # Parse a remote PDF
 curl -sL https://example.com/report.pdf | lit parse -
 ```
+
+### Markdown Output
+
+LiteParse can render documents directly to Markdown. This means reconstructing headings,
+tables, lists, images, and links from the spatial layout. This is ideal for
+feeding documents to LLMs and RAG pipelines. This mode is purely heuristics and rule-based,
+so complex documents may not render perfectly, but it will be fast.
+
+```bash
+# Render to Markdown
+lit parse document.pdf --format markdown -o output.md
+
+# Strip images instead of emitting placeholders
+lit parse document.pdf --format markdown --image-mode off
+
+# Extract embedded images to disk and reference them from the markdown
+lit parse document.pdf --format markdown --image-mode embed --image-output-dir ./images
+
+# Emit link text as plain text (no [text](url) syntax)
+lit parse document.pdf --format markdown --no-links
+```
+
+Image handling is controlled by `--image-mode`:
+
+| Mode | Behavior |
+|------|----------|
+| `placeholder` (default) | Emits `![](image_pN_K.png)` references in reading order |
+| `off` | Strips images entirely |
+| `embed` | Writes each image's PNG bytes to `--image-output-dir` and references them |
+
+> Markdown reconstruction quality varies with document complexity. For the
+> hardest documents (dense tables, multi-column layouts, scans),
+> [LlamaParse](https://developers.llamaindex.ai/python/cloud/llamaparse/?utm_source=github&utm_medium=liteparse)
+> remains the most accurate option.
 
 ### Batch Parsing
 
@@ -209,7 +247,7 @@ lit parse [OPTIONS] <file>
 
 Options:
   -o, --output <file>          Output file path
-      --format <format>        Output format: json|text [default: text]
+      --format <format>        Output format: json|text|markdown [default: text]
       --no-ocr                 Disable OCR
       --ocr-language <lang>    OCR language, Tesseract format [default: eng]
       --ocr-server-url <url>   HTTP OCR server URL (uses Tesseract if not provided)
@@ -217,6 +255,9 @@ Options:
       --max-pages <n>          Max pages to parse [default: 1000]
       --target-pages <pages>   Pages to parse (e.g., "1-5,10,15-20")
       --dpi <dpi>              Rendering DPI [default: 150]
+      --image-mode <mode>      Markdown image handling: off|placeholder|embed [default: placeholder]
+      --image-output-dir <dir> Where to write images when --image-mode embed
+      --no-links               Emit link anchor text as plain text (no [text](url)) in markdown
       --preserve-small-text    Keep very small text
       --password <password>    Password for encrypted documents
       --num-workers <n>        Concurrent OCR workers [default: CPU cores - 1]
@@ -230,7 +271,7 @@ Options:
 lit batch-parse [OPTIONS] <input-dir> <output-dir>
 
 Options:
-      --format <format>        Output format: json|text [default: text]
+      --format <format>        Output format: json|text|markdown [default: text]
       --no-ocr                 Disable OCR
       --ocr-language <lang>    OCR language [default: eng]
       --ocr-server-url <url>   HTTP OCR server URL

@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "ebcbdd66b3b7688b098b750ff398c2da2866cc1d42428716e0074ccde78c4500"
+  "readme_sha256": "0e0d00dd12f223decbc91efbd541bf265184891acc6bde2d5c408478e14da5ca"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `ebcbdd66b3b7688b098b750ff398c2da2866cc1d42428716e0074ccde78c4500`
+- README SHA256: `0e0d00dd12f223decbc91efbd541bf265184891acc6bde2d5c408478e14da5ca`
 
 ## README
 
@@ -257,6 +257,7 @@ Quick-reference material that skills pull in when needed:
 
 | Reference | Covers |
 |-----------|--------|
+| [definition-of-done.md](references/definition-of-done.md) | Project-wide standing bar every change clears, contrasted with per-task acceptance criteria |
 | [testing-patterns.md](references/testing-patterns.md) | Test structure, naming, mocking, React/API/E2E examples, anti-patterns |
 | [security-checklist.md](references/security-checklist.md) | Pre-commit checks, auth, input validation, headers, CORS, OWASP Top 10 |
 | [performance-checklist.md](references/performance-checklist.md) | Core Web Vitals targets, frontend/backend checklists, measurement commands |

@@ -5,7 +5,7 @@
   "full_name": "DeusData/codebase-memory-mcp",
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-  "readme_sha256": "410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af"
+  "readme_sha256": "ef07e5472456307be298eb5ebe998208caf1114d175df358db94858a32149d44"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DeusData/codebase-memory-mcp
 - Description: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
-- README SHA256: `410204e484041c9f755dc68c0a47a7d4603d6b0cb2de96d2a7e2373d2b3827af`
+- README SHA256: `ef07e5472456307be298eb5ebe998208caf1114d175df358db94858a32149d44`
 
 ## README
 
@@ -464,6 +464,7 @@ codebase-memory-mcp config reset auto_index              # reset to default
 | `CBM_DOWNLOAD_URL` | *(GitHub releases)* | Override the download URL for updates. Used for testing or self-hosted deployments. |
 | `CBM_LOG_LEVEL` | `info` | Set the minimum log level. Accepted values (case-insensitive): `debug`, `info`, `warn`, `error`, `none` — or their numeric equivalents `0`–`4` matching the internal enum. Logs go to stderr; stdout is reserved for MCP JSON-RPC. |
 | `CBM_WORKERS` | *(detected)* | Override the parallel-indexing worker count returned by `cbm_default_worker_count`. Useful inside containers where `sysconf(_SC_NPROCESSORS_ONLN)` reports host CPUs rather than the cgroup's effective quota. Range 1–256; invalid values are ignored with a warning. |
+| `CBM_DUMP_VERIFY_MIN_RATIO` | `0.5` | After indexing, compare persisted SQLite node count to the in-memory dump count. When persisted nodes fall below this fraction of committed nodes (and committed > 50), `index_repository` returns `status:"degraded"` instead of silent `indexed`. Range 0–1; set `0` to disable. Invalid values are ignored with a warning. |
 
 ```bash
 # Store indexes in a custom directory

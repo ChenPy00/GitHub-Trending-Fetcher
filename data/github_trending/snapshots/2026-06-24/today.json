@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 1,
+      "readme_sha256": "44d40514ba87828e0fc19a47cba4859e070419635514bffd024aea5f7f7b7bec",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "project_file": "projects/ZhuLinsen__daily_stock_analysis.md",
+      "rank": 2,
+      "readme_sha256": "a5ab51804733163c49f60bbf7a19741368cc1f1f19826cc0215b8eb664de8289",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 3,
+      "readme_sha256": "ba7eeb4fdf0380d32d3dfab26cce271503616b4d550362e2f345580714462f42",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "full_name": "garrytan/gstack",
+      "project_file": "projects/garrytan__gstack.md",
+      "rank": 4,
+      "readme_sha256": "9e26e2a12d9a221279e6ce28f0833d6273775030b196565e2b05789d610da51c",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "full_name": "bytedance/deer-flow",
+      "project_file": "projects/bytedance__deer-flow.md",
+      "rank": 5,
+      "readme_sha256": "5570edd4742f5aa6ea3ef5b3f05badd369314202ab611719d2081c51cdeed278",
+      "url": "https://github.com/bytedance/deer-flow"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 6,
+      "readme_sha256": "783e467fd78951d8b7474ba092b512088aa2850d8e04e36a63d394eb233ee94b",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "macOS video editor built for AI",
+      "full_name": "palmier-io/palmier-pro",
+      "project_file": "projects/palmier-io__palmier-pro.md",
+      "rank": 7,
+      "readme_sha256": "42a221302d85901d212e0da431ee70dcb52482b419404dfc9a164fa3d389d482",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 8,
+      "readme_sha256": "78528694854c256a60cd8721279a33afbaa6cf86d51a89e989c2038a3070eb3e",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "from vibe coding to agentic engineering - practice makes claude perfect",
+      "full_name": "shanraisshan/claude-code-best-practice",
+      "project_file": "projects/shanraisshan__claude-code-best-practice.md",
+      "rank": 9,
+      "readme_sha256": "305fbdcbd7f3ce1c5cbfd0f15ca229b950ec85fbe624411953c85cb3e47a2f77",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice"
+    },
+    {
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "full_name": "revfactory/harness",
+      "project_file": "projects/revfactory__harness.md",
+      "rank": 10,
+      "readme_sha256": "ab72bd9b63dd92d5e5cb375be92c668ef20cf4b2e00ad4e72eb8958706ac1eb1",
+      "url": "https://github.com/revfactory/harness"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 11,
+      "readme_sha256": "ca12dae79b9513db2ed0441d6b0faa9ba217db5615b00273e814aa14c360348c",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "Clone any website with one command using AI coding agents",
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "project_file": "projects/JCodesMore__ai-website-cloner-template.md",
+      "rank": 12,
+      "readme_sha256": "915eeb50a01624d4afe49001730565ddce1993fcc99719c88248ed6485675d71",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    },
+    {
+      "description": "An advanced guide to learn English which might benefit you a lot 🎉 . 人生进阶指南 离谱的人生 离谱的英语学习指南/英语学习教程/英语学习/学英语",
+      "full_name": "byoungd/English-level-up-tips",
+      "project_file": "projects/byoungd__English-level-up-tips.md",
+      "rank": 13,
+      "readme_sha256": "75b2c88bb864e1dba75bfd02731e41be18c21168f19e5b03d331b94dce8082d5",
+      "url": "https://github.com/byoungd/English-level-up-tips"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 14,
+      "readme_sha256": "ef07e5472456307be298eb5ebe998208caf1114d175df358db94858a32149d44",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 15,
+      "readme_sha256": "5c8b39f973a8587665c23c9f60048ccb59d35a87da65054de47fdac81d65312f",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 16,
+      "readme_sha256": "f58a3898c5f3700e59783276fa15284ef4e11cc51ac190e65219e6dba793b428",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "snapshot_date": "2026-06-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

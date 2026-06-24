@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "89a33e7c48c480aa06aeebc1b34272f3acb1040e9e570aa6a169d077d11fbf95"
+  "readme_sha256": "44d40514ba87828e0fc19a47cba4859e070419635514bffd024aea5f7f7b7bec"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `89a33e7c48c480aa06aeebc1b34272f3acb1040e9e570aa6a169d077d11fbf95`
+- README SHA256: `44d40514ba87828e0fc19a47cba4859e070419635514bffd024aea5f7f7b7bec`
 
 ## README
 
@@ -686,4 +686,6 @@ make test
 
 **OpenMontage** — Production-grade video with real quality enforcement, orchestrated by your AI assistant.
 
-If this project looks useful to you, a star would really mean a lot — it helps others discover it too.
+If this project looks useful to you, a ⭐ would really mean a lot — it helps others discover it too.
+
+If you'd like to go further, [sponsor the project](https://github.com/sponsors/calesthio) — OpenMontage is built nights and weekends, and your support makes that sustainable.

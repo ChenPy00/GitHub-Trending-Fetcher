@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "67d9087415e0194f516cd49e73b7761fde03caef85b68ff79db9a84489084654"
+  "readme_sha256": "7ad2dfec5ad36d2cb1de07ef32d1d8791e6b0367966ee4d46d62d806d2bdf513"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `67d9087415e0194f516cd49e73b7761fde03caef85b68ff79db9a84489084654`
+- README SHA256: `7ad2dfec5ad36d2cb1de07ef32d1d8791e6b0367966ee4d46d62d806d2bdf513`
 
 ## README
 
@@ -25,7 +25,7 @@
 </p>
 
 <p align="center">
-  <a href="https://herdr.dev">herdr.dev</a> · <a href="#install">install</a> · <a href="#quick-start">quick start</a> · <a href="#supported-agents">supported agents</a> · <a href="https://herdr.dev/docs/integrations/">integrations</a> · <a href="https://herdr.dev/docs/configuration/">configuration</a> · <a href="https://herdr.dev/docs/socket-api/">socket api</a>
+  <a href="https://herdr.dev">herdr.dev</a> · <a href="#install">install</a> · <a href="#quick-start">quick start</a> · <a href="#supported-agents">supported agents</a> · <a href="https://herdr.dev/docs/integrations/">integrations</a> · <a href="https://herdr.dev/docs/configuration/">configuration</a> · <a href="https://herdr.dev/docs/socket-api/">socket api</a> · <a href="#sponsors">sponsor</a>
 </p>
 
 ---
@@ -301,6 +301,12 @@ cargo build --release
 just test        # unit tests
 just check       # formatting, tests, and maintenance checks
 ```
+
+## sponsors
+
+herdr is built full-time, in the open, with no revenue behind it. sponsoring directly funds development, stability, and the path to a real agent runtime.
+
+[**→ become a sponsor**](https://github.com/sponsors/ogulcancelik) · enterprise / partnership: hey@herdr.dev · see [SPONSORS.md](./SPONSORS.md) for tiers. thank you 🐑
 
 ## license
 

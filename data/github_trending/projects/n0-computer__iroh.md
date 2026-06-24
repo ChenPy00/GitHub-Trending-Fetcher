@@ -5,7 +5,7 @@
   "full_name": "n0-computer/iroh",
   "url": "https://github.com/n0-computer/iroh",
   "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
-  "readme_sha256": "36582abfb9f17017f7d88efa43c33927d65d0c92106a016bdba0b441fb16bf23"
+  "readme_sha256": "3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/n0-computer/iroh
 - Description: IP addresses break, dial keys instead. Modular networking stack in Rust.
-- README SHA256: `36582abfb9f17017f7d88efa43c33927d65d0c92106a016bdba0b441fb16bf23`
+- README SHA256: `3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0`
 
 ## README
 
@@ -159,9 +159,9 @@ Copyright 2025 N0, INC.
 This project is licensed under either of
 
  * Apache License, Version 2.0, ([LICENSE-APACHE](LICENSE-APACHE) or
-   http://www.apache.org/licenses/LICENSE-2.0)
+   https://www.apache.org/licenses/LICENSE-2.0)
  * MIT license ([LICENSE-MIT](LICENSE-MIT) or
-   http://opensource.org/licenses/MIT)
+   https://opensource.org/licenses/MIT)
 
 at your option.
 
