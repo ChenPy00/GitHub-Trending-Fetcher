@@ -4,16 +4,16 @@
   "name": "supermemory",
   "full_name": "supermemoryai/supermemory",
   "url": "https://github.com/supermemoryai/supermemory",
-  "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-  "readme_sha256": "a80d8433f4b0a157926fd4360fabdc40b5b7ae4ec3a78f47a1c7cc1b6f5ebbb7"
+  "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+  "readme_sha256": "83919f570f2dff527e503512a6f3a320ce7b59b19f3d43b9a41cc617aef70356"
 }
 ```
 
 # supermemoryai/supermemory
 
 - URL: https://github.com/supermemoryai/supermemory
-- Description: Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.
-- README SHA256: `a80d8433f4b0a157926fd4360fabdc40b5b7ae4ec3a78f47a1c7cc1b6f5ebbb7`
+- Description: Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.
+- README SHA256: `83919f570f2dff527e503512a6f3a320ce7b59b19f3d43b9a41cc617aef70356`
 
 ## README
 
@@ -32,6 +32,7 @@
 <p align="center">
   <a href="https://supermemory.ai/docs">Docs</a> ·
   <a href="https://supermemory.ai/docs/quickstart">Quickstart</a> ·
+  <a href="https://supermemory.ai/docs/self-hosting/overview">Self-host</a> ·
   <a href="https://console.supermemory.ai">Dashboard</a> ·
   <a href="https://supermemory.link/discord">Discord</a>
 </p>
@@ -95,6 +96,21 @@ Add memory, RAG, user profiles, and connectors to your agents and apps with **a 
 No vector DB config. No embedding pipelines. No chunking strategies.
 
 **[→ Jump to developer quickstart](#build-with-supermemory-api)**
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+<h3>🖥️ I want to run it myself</h3>
+
+State-of-the-art memory, on your machine. **One binary. Zero config.** Bring any model — or run fully offline with Ollama.
+
+```bash
+curl -fsSL https://supermemory.ai/install | bash
+```
+
+**[→ Jump to Supermemory local](#supermemory-local--run-it-yourself)**
 
 </td>
 </tr>
@@ -320,6 +336,38 @@ Full API reference → [supermemory.ai/docs](https://supermemory.ai/docs)
 
 ---
 
+## Supermemory local — run it yourself
+
+State-of-the-art memory, on your machine. One binary. Zero config.
+
+```bash
+curl -fsSL https://supermemory.ai/install | bash
+# or
+npx supermemory local
+```
+
+```bash
+supermemory-server
+```
+
+First boot sets up the embedded Supermemory graph engine, local embeddings, and your credentials, then prints an API key. The full Memory API — documents, memories, user profiles, hybrid search — runs against `http://localhost:6767`.
+
+```typescript
+const client = new Supermemory({
+  apiKey: "sm_...",
+  baseURL: "http://localhost:6767", // that's the only change
+});
+```
+
+- **Bring any model** — OpenAI, Anthropic, Gemini, Groq, or any OpenAI-compatible endpoint. An interactive wizard walks you through it on first boot.
+- **Fully offline if you want** — point it at Ollama (`gpt-oss:20b` works great) and nothing leaves your machine.
+- **Your data, one directory** — everything lives in `./.supermemory`, easy to back up or move.
+- **Same API as the platform** — prototype locally, ship on the hosted platform by changing `baseURL`.
+
+Read the [self-hosting docs](https://supermemory.ai/docs/self-hosting/overview) — quickstart, configuration, and [local vs. Enterprise](https://supermemory.ai/docs/self-hosting/local-vs-enterprise).
+
+---
+
 ## Benchmarks
 
 Supermemory is state of the art across all major AI memory benchmarks:
@@ -373,6 +421,7 @@ Your app / AI tool
 
 - 📖 [Documentation](https://supermemory.ai/docs)
 - 🚀 [Quickstart](https://supermemory.ai/docs/quickstart)
+- 🖥️ [Self-hosting (Supermemory local)](https://supermemory.ai/docs/self-hosting/overview)
 - 🧪 [MemoryBench](https://supermemory.ai/docs/memorybench/overview)
 - 🔌 [Integrations](https://supermemory.ai/docs/integrations)
 - 💬 [Discord](https://supermemory.link/discord)

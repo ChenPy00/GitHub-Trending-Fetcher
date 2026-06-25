@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "44d40514ba87828e0fc19a47cba4859e070419635514bffd024aea5f7f7b7bec"
+  "readme_sha256": "f9b2fecb12a9a7573ba0ebec3adcab48c3804e78209deb72ad7df3a81f00c582"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `44d40514ba87828e0fc19a47cba4859e070419635514bffd024aea5f7f7b7bec`
+- README SHA256: `f9b2fecb12a9a7573ba0ebec3adcab48c3804e78209deb72ad7df3a81f00c582`
 
 ## README
 
@@ -32,6 +32,7 @@
   <a href="#pipelines">Pipelines</a> &nbsp;·&nbsp;
   <a href="#how-it-works">How It Works</a> &nbsp;·&nbsp;
   <a href="docs/PROVIDERS.md">Providers</a> &nbsp;·&nbsp;
+  <a href="docs/PR_REVIEW_GUIDE.md">Review Guide</a> &nbsp;·&nbsp;
   <a href="AGENT_GUIDE.md">Agent Guide</a>
 </p>
 

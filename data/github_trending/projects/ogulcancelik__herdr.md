@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "7ad2dfec5ad36d2cb1de07ef32d1d8791e6b0367966ee4d46d62d806d2bdf513"
+  "readme_sha256": "954daf5b482685039a73d48a3886f1f20470f8134d2e4c821da045be1c19e977"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `7ad2dfec5ad36d2cb1de07ef32d1d8791e6b0367966ee4d46d62d806d2bdf513`
+- README SHA256: `954daf5b482685039a73d48a3886f1f20470f8134d2e4c821da045be1c19e977`
 
 ## README
 
@@ -220,7 +220,7 @@ for agents outside the built-in list, herdr still works as a terminal multiplexe
 
 ### direct integrations
 
-official integrations have two roles. claude code, codex, github copilot cli, devin, droid, qodercli, and cursor agent cli report session identity for native restore, while their state still comes from screen detection. pi, kimi code cli, opencode, kilo code cli, and hermes report both semantic state and session identity. omp reports semantic state without native session restore. install with:
+official integrations have two roles. claude code, codex, github copilot cli, devin, droid, qodercli, and cursor agent cli report session identity for native restore, while their state still comes from screen detection. pi, omp, kimi code cli, opencode, kilo code cli, and hermes report both semantic state and session identity. install with:
 
 ```bash
 herdr integration install pi

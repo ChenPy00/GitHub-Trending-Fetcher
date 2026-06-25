@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/SkillSpector",
   "url": "https://github.com/NVIDIA/SkillSpector",
   "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-  "readme_sha256": "60fa8104bd690f4d86db35bff532802c76bb5cbf2d6053bd5260212ea9017a90"
+  "readme_sha256": "b52c1a8b1b020759104f245ac30d12a0768ff5bf750a9d9dc6a1702ed7cce064"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/SkillSpector
 - Description: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.
-- README SHA256: `60fa8104bd690f4d86db35bff532802c76bb5cbf2d6053bd5260212ea9017a90`
+- README SHA256: `b52c1a8b1b020759104f245ac30d12a0768ff5bf750a9d9dc6a1702ed7cce064`
 
 ## README
 
@@ -38,7 +38,7 @@ SkillSpector helps you answer: **"Is this skill safe to install?"**
 ## Features
 
 - **Multi-format input**: Scan Git repos, URLs, zip files, directories, or single files
-- **65 vulnerability patterns** across 16 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning
+- **68 vulnerability patterns** across 17 categories: prompt injection, data exfiltration, privilege escalation, supply chain, excessive agency, output handling, system prompt leakage, memory poisoning, tool misuse, rogue agent, anti-refusal, trigger abuse, dangerous code (AST), taint tracking, YARA signatures, MCP least privilege, and MCP tool poisoning
 - **Two-stage analysis**: Fast static analysis + optional LLM semantic evaluation
 - **Live vulnerability lookups**: SC4 queries [OSV.dev](https://osv.dev) for real-time CVE data with automatic offline fallback
 - **Multiple output formats**: Terminal, JSON, Markdown, and SARIF reports
@@ -239,9 +239,43 @@ skillspector scan ./my-skill/
 skillspector scan ./my-skill/ --no-llm
 ```
 
+### MCP Server
+
+Run SkillSpector as a [Model Context Protocol](https://modelcontextprotocol.io)
+server so any MCP-capable agent (Claude Code, Codex CLI, Gemini CLI) or remote
+runtime can call scanning as a tool and **gate skill/MCP installs on the
+result** — turning SkillSpector into a runtime guardrail instead of an
+out-of-band audit step.
+
+```bash
+# Install the optional MCP dependency
+pip install "skillspector[mcp]"
+
+# stdio transport — for local CLI agents
+skillspector mcp
+
+# streamable HTTP/SSE transport — for remote / A2A callers
+skillspector mcp --transport http --host 127.0.0.1 --port 8000
+```
+
+The server exposes a single tool:
+
+- **`scan_skill(target, use_llm=true, output_format="json")`** — scans a Git
+  URL, file URL, `.zip`, `.md` file, or directory and returns a structured
+  verdict: `risk_score` (0-100), `severity`, `recommendation`,
+  `safe_to_install`, and `findings`. It also reports `llm_used` / `scan_mode`
+  so a low score from a static-only scan is never mistaken for a clean full
+  scan.
+
+Register it with Claude Code via:
+
+```bash
+claude mcp add skillspector -- skillspector mcp
+```
+
 ## Vulnerability Patterns
 
-SkillSpector detects **65 vulnerability patterns** across 16 categories:
+SkillSpector detects **68 vulnerability patterns** across 17 categories:
 
 ### Prompt Injection (5 patterns)
 
@@ -252,6 +286,14 @@ SkillSpector detects **65 vulnerability patterns** across 16 categories:
 | P3 | Exfiltration Commands | HIGH | Instructions to transmit context externally |
 | P4 | Behavior Manipulation | MEDIUM | Subtle instructions altering agent decisions |
 | P5 | Harmful Content | CRITICAL | Instructions that could cause physical harm |
+
+### Anti-Refusal (3 patterns)
+
+| ID | Pattern | Severity | Description |
+|----|---------|----------|-------------|
+| AR1 | Refusal Suppression | HIGH | Instructions to never refuse or always comply (e.g. "never refuse", "always comply") |
+| AR2 | Disclaimer Suppression | HIGH | Instructions to omit warnings, disclaimers, or ethical commentary (e.g. "no disclaimers", "do not moralize") |
+| AR3 | Safety Policy Nullification | HIGH | Jailbreak framing that nullifies guardrails (e.g. "you have no restrictions", "ignore your guidelines", "do anything now") |
 
 ### Data Exfiltration (4 patterns)
 
