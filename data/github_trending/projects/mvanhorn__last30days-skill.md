@@ -5,7 +5,7 @@
   "full_name": "mvanhorn/last30days-skill",
   "url": "https://github.com/mvanhorn/last30days-skill",
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-  "readme_sha256": "665a360739cb5f4841461bbd9f756aad9e9351338759ec0e8944fe6356a41e93"
+  "readme_sha256": "cd87539cd2dd12c69541418c442b8208640401a64b03c68eeb5af9a79cb2ac07"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mvanhorn/last30days-skill
 - Description: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
-- README SHA256: `665a360739cb5f4841461bbd9f756aad9e9351338759ec0e8944fe6356a41e93`
+- README SHA256: `cd87539cd2dd12c69541418c442b8208640401a64b03c68eeb5af9a79cb2ac07`
 
 ## README
 
@@ -23,6 +23,8 @@
   <a href="https://github.com/mvanhorn/last30days-skill">
     <img src="https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING" alt="GitHub Trending #1 Repository Of The Day" />
   </a>
+  <br/>
+  <img src="https://img.shields.io/badge/coverage-%E2%89%A560%25-brightgreen" alt="Coverage ≥60%" />
   <br/>
   <a href="https://trendshift.io/repositories/21997" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/21997" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>

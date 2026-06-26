@@ -5,7 +5,7 @@
   "full_name": "bytedance/deer-flow",
   "url": "https://github.com/bytedance/deer-flow",
   "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-  "readme_sha256": "5570edd4742f5aa6ea3ef5b3f05badd369314202ab611719d2081c51cdeed278"
+  "readme_sha256": "fd102932e52196a67b3299e094cb158f15c39ba76c6e91092a0566004aa5f9d9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/bytedance/deer-flow
 - Description: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
-- README SHA256: `5570edd4742f5aa6ea3ef5b3f05badd369314202ab611719d2081c51cdeed278`
+- README SHA256: `fd102932e52196a67b3299e094cb158f15c39ba76c6e91092a0566004aa5f9d9`
 
 ## README
 
@@ -88,6 +88,7 @@ DeerFlow has newly integrated the intelligent search and crawling toolset indepe
     - [Long-Term Memory](#long-term-memory)
   - [Recommended Models](#recommended-models)
   - [Embedded Python Client](#embedded-python-client)
+  - [Terminal Workbench (TUI)](#terminal-workbench-tui)
   - [Documentation](#documentation)
   - [⚠️ Security Notice](#️-security-notice)
     - [Improper Deployment May Introduce Security Risks](#improper-deployment-may-introduce-security-risks)
@@ -731,6 +732,26 @@ client.upload_files("thread-1", ["./report.pdf"])  # {"success": True, "files": 
 ```
 
 All dict-returning methods are validated against Gateway Pydantic response models in CI (`TestGatewayConformance`), ensuring the embedded client stays in sync with the HTTP API schemas. See `backend/packages/harness/deerflow/client.py` for full API documentation.
+
+## Terminal Workbench (TUI)
+
+`deerflow` is a terminal-native workbench for people who live in the shell. It runs **embedded** over `DeerFlowClient` — no Gateway, frontend, nginx, or Docker required — while honoring the same `config.yaml`, checkpointer, skills, memory, MCP, and sandbox settings as the rest of DeerFlow.
+
+![DeerFlow TUI](docs/tui/tui-preview.svg)
+
+```bash
+uv pip install 'deerflow-harness[tui]'        # optional 'textual' dependency
+
+deerflow                                      # launch the terminal UI (TTY required)
+deerflow --continue                           # resume the most recent thread
+deerflow --resume THREAD                      # resume a thread by id
+deerflow --print "summarize this repo"        # headless one-shot answer to stdout
+deerflow --json  "hello"                       # headless newline-delimited StreamEvents
+```
+
+A keyboard-driven chat surface with a streaming transcript (Markdown-rendered answers), compact tool-activity cards, a `/` slash-command palette, `/model` and `/threads` pickers, input history, and `Esc` / `Ctrl+C` interrupt. Sessions opened in the TUI also appear in the Web UI sidebar — it writes the shared thread store under the local default user, so terminal and web stay in sync **without running the Gateway**.
+
+See [backend/docs/TUI.md](backend/docs/TUI.md) for the full guide.
 
 ## Documentation
 

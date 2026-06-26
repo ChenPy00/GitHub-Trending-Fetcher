@@ -1,0 +1,169 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 1,
+      "readme_sha256": "f9b2fecb12a9a7573ba0ebec3adcab48c3804e78209deb72ad7df3a81f00c582",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 2,
+      "readme_sha256": "ef07e5472456307be298eb5ebe998208caf1114d175df358db94858a32149d44",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 3,
+      "readme_sha256": "736404cbe90f21640b7b19da99f24f126113c28b3a3ec21adfbc4211a96816ed",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 4,
+      "readme_sha256": "783e467fd78951d8b7474ba092b512088aa2850d8e04e36a63d394eb233ee94b",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "Penpot: The open-source design tool for design and code collaboration",
+      "full_name": "penpot/penpot",
+      "project_file": "projects/penpot__penpot.md",
+      "rank": 5,
+      "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 6,
+      "readme_sha256": "ca12dae79b9513db2ed0441d6b0faa9ba217db5615b00273e814aa14c360348c",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 7,
+      "readme_sha256": "1f57765af8cc36f39dcee7c93f4f2747499c2857ead4bbc170f5c9ee0df3fdd2",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 8,
+      "readme_sha256": "07c21176b8117e80b6a843fdcc0ca797c899fc89195dfc2d2ccd43433232f886",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "project_file": "projects/ZhuLinsen__daily_stock_analysis.md",
+      "rank": 9,
+      "readme_sha256": "a5ab51804733163c49f60bbf7a19741368cc1f1f19826cc0215b8eb664de8289",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 10,
+      "readme_sha256": "1464891190fda1c67d52baed708f357c4540d9b52b41e35fc16c0bcc07905256",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "The sandbox agent framework.",
+      "full_name": "withastro/flue",
+      "project_file": "projects/withastro__flue.md",
+      "rank": 11,
+      "readme_sha256": "ec004bd5963a12f41b9d4dc8d6bb1d9ff503de4700f6dd138219047ee5abcb77",
+      "url": "https://github.com/withastro/flue"
+    },
+    {
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 12,
+      "readme_sha256": "ba7eeb4fdf0380d32d3dfab26cce271503616b4d550362e2f345580714462f42",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "#1 PDF Application on GitHub that lets you edit PDFs on any device anywhere",
+      "full_name": "Stirling-Tools/Stirling-PDF",
+      "project_file": "projects/Stirling-Tools__Stirling-PDF.md",
+      "rank": 13,
+      "readme_sha256": "3784e5d809d10848c0e8f56cad1e24139a629d910dd899d7f19d665f9e2fac3e",
+      "url": "https://github.com/Stirling-Tools/Stirling-PDF"
+    },
+    {
+      "description": "AI agent to evaluate and score resumes.",
+      "full_name": "interviewstreet/hiring-agent",
+      "project_file": "projects/interviewstreet__hiring-agent.md",
+      "rank": 14,
+      "readme_sha256": "d0503e4fe7f1880740e5cfb1cb420269edf93b7cb03a53ba9a30a41da2340d62",
+      "url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 15,
+      "readme_sha256": "c9943842e1e60151fdc1b420a504e31e98aaa3abc81df2b43a7de3caf71d9670",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 16,
+      "readme_sha256": "3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "description": "The open-source, cross-platform API client for GraphQL, REST, WebSockets, SSE and gRPC. With Cloud, Local and Git storage.",
+      "full_name": "Kong/insomnia",
+      "project_file": "projects/Kong__insomnia.md",
+      "rank": 17,
+      "readme_sha256": "9959819e3ce2d39ffe8e60b1d3d90229a13cb4e9357884863cf238d99d3df406",
+      "url": "https://github.com/Kong/insomnia"
+    },
+    {
+      "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
+      "full_name": "makeplane/plane",
+      "project_file": "projects/makeplane__plane.md",
+      "rank": 18,
+      "readme_sha256": "1527e5cd40ef95906faebb6f795e1260321e8296f97b9cc6365a77983197d677",
+      "url": "https://github.com/makeplane/plane"
+    },
+    {
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "full_name": "bytedance/deer-flow",
+      "project_file": "projects/bytedance__deer-flow.md",
+      "rank": 19,
+      "readme_sha256": "fd102932e52196a67b3299e094cb158f15c39ba76c6e91092a0566004aa5f9d9",
+      "url": "https://github.com/bytedance/deer-flow"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 20,
+      "readme_sha256": "046e65331ecc5bd83100a9c15e2eb63d458701f91a09ae85890b66a60d8b8bec",
+      "url": "https://github.com/mattpocock/skills"
+    }
+  ],
+  "snapshot_date": "2026-06-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
