@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 1,
+      "readme_sha256": "42784bc25d5011aa5e8862d3a92a9f50d86b3561f65b790fd58df05b13a17dcc",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "full_name": "google-labs-code/design.md",
+      "project_file": "projects/google-labs-code__design.md.md",
+      "rank": 2,
+      "readme_sha256": "77e7795fffc5dd160723b22d958f4ebbd3bb0224bc2cc58bf102dfe83668695f",
+      "url": "https://github.com/google-labs-code/design.md"
+    },
+    {
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "full_name": "commaai/openpilot",
+      "project_file": "projects/commaai__openpilot.md",
+      "rank": 3,
+      "readme_sha256": "b71e2ebf2db2323d719a2d72c76ed76908b321724305765181fa426378179cf9",
+      "url": "https://github.com/commaai/openpilot"
+    },
+    {
+      "description": "git push no-mistakes",
+      "full_name": "kunchenguid/no-mistakes",
+      "project_file": "projects/kunchenguid__no-mistakes.md",
+      "rank": 4,
+      "readme_sha256": "1420eadf11e6cf695f7b2627250d313c3759066221cb136661bec69218d1e179",
+      "url": "https://github.com/kunchenguid/no-mistakes"
+    },
+    {
+      "description": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more.",
+      "full_name": "grafana/grafana",
+      "project_file": "projects/grafana__grafana.md",
+      "rank": 5,
+      "readme_sha256": "a95c5dfcec36ae00098542f62112855fd0b57751a230915e45b3187568ffde74",
+      "url": "https://github.com/grafana/grafana"
+    },
+    {
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "full_name": "ripienaar/free-for-dev",
+      "project_file": "projects/ripienaar__free-for-dev.md",
+      "rank": 6,
+      "readme_sha256": "b2c9e3e67f466abc69b5d58d8ce69f754a27c48c653355b8fbeda14b012329a6",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "full_name": "opendatalab/MinerU",
+      "project_file": "projects/opendatalab__MinerU.md",
+      "rank": 7,
+      "readme_sha256": "60c6ac1e1b824a43a6b09c88d928fd45814a390773e587f0f7aad0a8ea355358",
+      "url": "https://github.com/opendatalab/MinerU"
+    },
+    {
+      "description": "张雪峰.skill — 张雪峰的认知操作系统。高考志愿/考研/职业规划的实战思维框架。由女娲.skill生成。",
+      "full_name": "alchaincyf/zhangxuefeng-skill",
+      "project_file": "projects/alchaincyf__zhangxuefeng-skill.md",
+      "rank": 8,
+      "readme_sha256": "f588e715d7a33ca8f1991a4fc012726c4c175f083363e6e486201e997b277a09",
+      "url": "https://github.com/alchaincyf/zhangxuefeng-skill"
+    },
+    {
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "full_name": "mauriceboe/TREK",
+      "project_file": "projects/mauriceboe__TREK.md",
+      "rank": 9,
+      "readme_sha256": "013e05706aff7518d1419bfbc5ecdb77f8bb193fb8841bcb17cef6c8251066ec",
+      "url": "https://github.com/mauriceboe/TREK"
+    },
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built on Claude Code. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 10,
+      "readme_sha256": "667fcb4ec82a3feba9a7f40301ec335a533e5c4285ebee8562cfa44dec3f83c0",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 11,
+      "readme_sha256": "f9b2fecb12a9a7573ba0ebec3adcab48c3804e78209deb72ad7df3a81f00c582",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "full_name": "aws/agent-toolkit-for-aws",
+      "project_file": "projects/aws__agent-toolkit-for-aws.md",
+      "rank": 12,
+      "readme_sha256": "f257985ad0c71b8f78bef38ca91c5e6502bcb1c9564aecaa673078dfebf30e96",
+      "url": "https://github.com/aws/agent-toolkit-for-aws"
+    },
+    {
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "project_file": "projects/NanmiCoder__MediaCrawler.md",
+      "rank": 13,
+      "readme_sha256": "6d30c690cec0ec06ab3609673b093d0070bbcccf9a5092d61f382625800a2cdf",
+      "url": "https://github.com/NanmiCoder/MediaCrawler"
+    },
+    {
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "full_name": "garrytan/gstack",
+      "project_file": "projects/garrytan__gstack.md",
+      "rank": 14,
+      "readme_sha256": "9e26e2a12d9a221279e6ce28f0833d6273775030b196565e2b05789d610da51c",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "description": "CasaOS - A simple, easy-to-use, elegant open-source Personal Cloud system.",
+      "full_name": "IceWhaleTech/CasaOS",
+      "project_file": "projects/IceWhaleTech__CasaOS.md",
+      "rank": 15,
+      "readme_sha256": "0627ea809c98d6a918bf76e5ec058ff9ff129db8c352b5b9c861fa059a1a48ad",
+      "url": "https://github.com/IceWhaleTech/CasaOS"
+    },
+    {
+      "description": "Clone any website with one command using AI coding agents",
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "project_file": "projects/JCodesMore__ai-website-cloner-template.md",
+      "rank": 16,
+      "readme_sha256": "915eeb50a01624d4afe49001730565ddce1993fcc99719c88248ed6485675d71",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 17,
+      "readme_sha256": "07c21176b8117e80b6a843fdcc0ca797c899fc89195dfc2d2ccd43433232f886",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    }
+  ],
+  "snapshot_date": "2026-06-27",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

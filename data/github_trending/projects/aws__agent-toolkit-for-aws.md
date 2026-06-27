@@ -5,7 +5,7 @@
   "full_name": "aws/agent-toolkit-for-aws",
   "url": "https://github.com/aws/agent-toolkit-for-aws",
   "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
-  "readme_sha256": "4800f5240be453daa231105258e02463cb34f9a0e4947f74e3cd1d2a56df9936"
+  "readme_sha256": "f257985ad0c71b8f78bef38ca91c5e6502bcb1c9564aecaa673078dfebf30e96"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/aws/agent-toolkit-for-aws
 - Description: Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS
-- README SHA256: `4800f5240be453daa231105258e02463cb34f9a0e4947f74e3cd1d2a56df9936`
+- README SHA256: `f257985ad0c71b8f78bef38ca91c5e6502bcb1c9564aecaa673078dfebf30e96`
 
 ## README
 
@@ -99,7 +99,7 @@ Add the AWS MCP Server to your Kiro MCP configuration (`.kiro/settings/mcp.json`
     "aws": {
       "command": "uvx",
       "args": [
-        "mcp-proxy-for-aws@1.6.2",
+        "mcp-proxy-for-aws@1.6.3",
         "https://aws-mcp.us-east-1.api.aws/mcp",
         "--metadata", "AWS_REGION=us-west-2"
       ]
@@ -108,7 +108,7 @@ Add the AWS MCP Server to your Kiro MCP configuration (`.kiro/settings/mcp.json`
 }
 ```
 
-> **Note:** It is recommended to pin to a specific version (e.g., `@1.6.2`) to ensure reproducible behavior and protect against supply chain risks. We recommend regularly checking [PyPI](https://pypi.org/project/mcp-proxy-for-aws/) for new stable versions and updating accordingly.
+> **Note:** It is recommended to pin to a specific version (e.g., `@1.6.3`) to ensure reproducible behavior and protect against supply chain risks. We recommend regularly checking [PyPI](https://pypi.org/project/mcp-proxy-for-aws/) for new stable versions and updating accordingly.
 
 Then install skills from this repository:
 

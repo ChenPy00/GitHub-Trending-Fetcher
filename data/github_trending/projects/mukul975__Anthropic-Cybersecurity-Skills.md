@@ -5,7 +5,7 @@
   "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
   "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
   "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-  "readme_sha256": "ba7eeb4fdf0380d32d3dfab26cce271503616b4d550362e2f345580714462f42"
+  "readme_sha256": "e93cd8db18ea082fc37071ce0ea0484cb9dd129cf5fd329b7dcd90896122831c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mukul975/Anthropic-Cybersecurity-Skills
 - Description: 817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0
-- README SHA256: `ba7eeb4fdf0380d32d3dfab26cce271503616b4d550362e2f345580714462f42`
+- README SHA256: `e93cd8db18ea082fc37071ce0ea0484cb9dd129cf5fd329b7dcd90896122831c`
 
 ## README
 
@@ -51,7 +51,9 @@
 
 ---
 
-> ⚠️ **Community Project** — This is an independent, community-created project. Not affiliated with Anthropic PBC. 
+> ⚠️ **Community Project** — This is an independent, community-created project. Not affiliated with Anthropic PBC.
+>
+> 🔐 **Authorized & lawful use only.** This library includes offensive and dual-use techniques (e.g. red-team C2, phishing simulation, exploitation) intended for **authorized penetration testing, security research, defense, and education**. Only use them against systems you own or have **explicit written permission** to test, and comply with all applicable laws and rules of engagement. You are solely responsible for how you use these skills. See [SECURITY.md](SECURITY.md) and [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## Give any AI agent the security skills of a senior analyst
 

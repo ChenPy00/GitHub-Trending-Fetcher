@@ -5,7 +5,7 @@
   "full_name": "colbymchenry/codegraph",
   "url": "https://github.com/colbymchenry/codegraph",
   "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-  "readme_sha256": "da36afe58fef4a0c5190fb38bc2d868cce31884217903f1e912a619fe0037c42"
+  "readme_sha256": "04f732b5ad30c63676e3725487a70e2c3d7748e2350123a0f04d5275b0b25429"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/colbymchenry/codegraph
 - Description: Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
-- README SHA256: `da36afe58fef4a0c5190fb38bc2d868cce31884217903f1e912a619fe0037c42`
+- README SHA256: `04f732b5ad30c63676e3725487a70e2c3d7748e2350123a0f04d5275b0b25429`
 
 ## README
 
@@ -624,6 +624,18 @@ directory back **in** (say you really do want a vendored dependency indexed),
 add a negation — `!vendor/`. The defaults apply uniformly, so committing a
 dependency or build directory doesn't force it into the graph; the `.gitignore`
 negation is the explicit opt-in.
+
+`.gitignore` can't drop a directory you've **committed**, though. For a vendored
+theme or SDK that's checked into the repo (e.g. a Metronic theme under
+`static/`), list it under `exclude` in `codegraph.json` — gitignore-style
+patterns, matched against repo-root-relative paths, honored on index, sync, and
+watch:
+
+```json
+{
+  "exclude": ["static/", "**/vendor/**"]
+}
+```
 
 ### Custom file extensions
 
