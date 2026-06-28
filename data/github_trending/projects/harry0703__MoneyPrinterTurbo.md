@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-  "readme_sha256": "4b53ddeab6eaccabd0c25df6cf7d7feeb9d000064ac539c8288fe4b63ab7bc83"
+  "readme_sha256": "76a07bd15c876092d0eec9b085222383bffac0bd78eb5d3d1b06c6b49d23abcd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- README SHA256: `4b53ddeab6eaccabd0c25df6cf7d7feeb9d000064ac539c8288fe4b63ab7bc83`
+- README SHA256: `76a07bd15c876092d0eec9b085222383bffac0bd78eb5d3d1b06c6b49d23abcd`
 
 ## README
 
@@ -120,6 +120,7 @@
 - [x] 支持 **背景音乐**，随机或者指定音乐文件，可设置`背景音乐音量`
 - [x] 视频素材来源 **高清**，而且 **无版权**，也可以使用自己的 **本地素材**
 - [x] 支持多种素材源:**Pexels**、**Pixabay**、**Coverr**
+- [x] 可选接入 **TwelveLabs** 视频 AI:用 **Marengo** 多模态向量按主题语义重排素材关键词,用 **Pegasus** 对素材做内容 QA/描述([TwelveLabs API key](https://twelvelabs.io))
 - [x] 支持 **OpenAI**、**AIHubMix**、**AIML API**、**EvoLink**、**Moonshot**、**Azure**、**gpt4free**、**one-api**、**通义千问**、**Google Gemini**、**Ollama**、**DeepSeek**、**MiniMax**、 **文心一言**, **Pollinations**、**ModelScope** 等多种模型接入
 - [x] 支持一键 **跨平台发布**，生成完成后自动上传至 **TikTok**、**Instagram** 和 **YouTube Shorts**（需 [Upload-Post](https://upload-post.com) 账号；YouTube 发布时自动标注 AI 生成内容）；在 `config.toml` 中配置 `upload_post_platforms`、`upload_post_youtube_privacy_status` 等参数
 
