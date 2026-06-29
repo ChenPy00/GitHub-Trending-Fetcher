@@ -5,7 +5,7 @@
   "full_name": "tashfeenahmed/freellmapi",
   "url": "https://github.com/tashfeenahmed/freellmapi",
   "description": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-  "readme_sha256": "2c16e5b306e762fb2614c37ed4513435f8a935ee5a075e4d8c4676d946f710ef"
+  "readme_sha256": "f843f8063ec18bf2b22579ba50fdf3e35408d907709a0d02afb0823db7f307e8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tashfeenahmed/freellmapi
 - Description: OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
-- README SHA256: `2c16e5b306e762fb2614c37ed4513435f8a935ee5a075e4d8c4676d946f710ef`
+- README SHA256: `f843f8063ec18bf2b22579ba50fdf3e35408d907709a0d02afb0823db7f307e8`
 
 ## README
 
@@ -731,6 +731,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full migration CLI and workflow
 <a href="https://github.com/johan-droid"><img src="https://images.weserv.nl/?url=github.com/johan-droid.png&w=60&h=60&fit=cover&mask=circle" width="60" alt="@johan-droid" /></a>
 <a href="https://github.com/redenfire"><img src="https://images.weserv.nl/?url=github.com/redenfire.png&w=60&h=60&fit=cover&mask=circle" width="60" alt="@redenfire" /></a>
 <a href="https://github.com/itzpingcat"><img src="https://images.weserv.nl/?url=github.com/itzpingcat.png&w=60&h=60&fit=cover&mask=circle" width="60" alt="@itzpingcat" /></a>
+<a href="https://github.com/kairwang01"><img src="https://images.weserv.nl/?url=github.com/kairwang01.png&w=60&h=60&fit=cover&mask=circle" width="60" alt="@kairwang01" /></a>
 
 ## Terms of Service review
 

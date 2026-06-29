@@ -5,7 +5,7 @@
   "full_name": "palmier-io/palmier-pro",
   "url": "https://github.com/palmier-io/palmier-pro",
   "description": "macOS video editor built for AI",
-  "readme_sha256": "42a221302d85901d212e0da431ee70dcb52482b419404dfc9a164fa3d389d482"
+  "readme_sha256": "3965cf4554900b54a7e2bd17ce54efe84772eed63e72ea07d97bc10d38188140"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/palmier-io/palmier-pro
 - Description: macOS video editor built for AI
-- README SHA256: `42a221302d85901d212e0da431ee70dcb52482b419404dfc9a164fa3d389d482`
+- README SHA256: `3965cf4554900b54a7e2bd17ce54efe84772eed63e72ea07d97bc10d38188140`
 
 ## README
 
@@ -47,7 +47,8 @@
   <a href="docs/readme/README.it.md">Italiano</a> ·
   <a href="docs/readme/README.pt-BR.md">Português (Brasil)</a> ·
   <a href="docs/readme/README.fr.md">Français</a> ·
-  <a href="docs/readme/README.ru.md">Русский</a>
+  <a href="docs/readme/README.ru.md">Русский</a> ·
+  <a href="docs/readme/README.tr.md">Türkçe</a>
 </p>
 
 </div>

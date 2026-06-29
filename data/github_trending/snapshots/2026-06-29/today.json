@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 1,
+      "readme_sha256": "42784bc25d5011aa5e8862d3a92a9f50d86b3561f65b790fd58df05b13a17dcc",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "full_name": "ripienaar/free-for-dev",
+      "project_file": "projects/ripienaar__free-for-dev.md",
+      "rank": 2,
+      "readme_sha256": "7ffd041b5227e3cd082ddbf7c83beeb062920ebe9a72c5ebbbf7667c0374123f",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "full_name": "commaai/openpilot",
+      "project_file": "projects/commaai__openpilot.md",
+      "rank": 3,
+      "readme_sha256": "b71e2ebf2db2323d719a2d72c76ed76908b321724305765181fa426378179cf9",
+      "url": "https://github.com/commaai/openpilot"
+    },
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 4,
+      "readme_sha256": "42cc4fecd96a23a9c1c2df1eff31ce5608671e458178fdc928c75b3d1ad59c3b",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 5,
+      "readme_sha256": "c86f67045092493b891ebb271f43d3d994b062b40c5131837f99e1e4bc355aa7",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 6,
+      "readme_sha256": "eb9f51093fda6c786325295f4f497c86e289428f9120d7cd8e99468a78b202a1",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "NumPy & SciPy for GPU",
+      "full_name": "cupy/cupy",
+      "project_file": "projects/cupy__cupy.md",
+      "rank": 7,
+      "readme_sha256": "b93eb339882b4e95581b96f2b5492bac00ebcc026633417c93a16baf48be0fc3",
+      "url": "https://github.com/cupy/cupy"
+    },
+    {
+      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 8,
+      "readme_sha256": "74e643195ae157036851db4cd125ea92c1eeeda906a9c5a0e99e562b95430063",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.",
+      "full_name": "opendatalab/MinerU",
+      "project_file": "projects/opendatalab__MinerU.md",
+      "rank": 9,
+      "readme_sha256": "60c6ac1e1b824a43a6b09c88d928fd45814a390773e587f0f7aad0a8ea355358",
+      "url": "https://github.com/opendatalab/MinerU"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 10,
+      "readme_sha256": "a6a859576d8e459b3e7e0125395ba908b18b246c0711de2a7d14ac82099a6283",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "full_name": "ByteByteGoHq/system-design-101",
+      "project_file": "projects/ByteByteGoHq__system-design-101.md",
+      "rank": 11,
+      "readme_sha256": "23b7cf98fbe6b465293555c22d527b74926f165be9a7fc5468e43d66922942e7",
+      "url": "https://github.com/ByteByteGoHq/system-design-101"
+    },
+    {
+      "description": "Open-source AI hackers to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 12,
+      "readme_sha256": "656f22be8a165aaaf9d36c04e9f17fa23cb915a8fb92fa4cccb67a31f8abb56c",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 13,
+      "readme_sha256": "987a0f91ccfcbebfbf3e1d5db34a24280884da7329518f39558380336c9c8684",
+      "url": "https://github.com/browser-use/video-use"
+    }
+  ],
+  "snapshot_date": "2026-06-29",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
