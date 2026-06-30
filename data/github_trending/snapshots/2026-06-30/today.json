@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 1,
+      "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 2,
+      "readme_sha256": "98f5f46fed27140787942e7dc013b17bc0a4ad2fc376671c3c7a4af6a797740c",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "NumPy & SciPy for GPU",
+      "full_name": "cupy/cupy",
+      "project_file": "projects/cupy__cupy.md",
+      "rank": 3,
+      "readme_sha256": "b93eb339882b4e95581b96f2b5492bac00ebcc026633417c93a16baf48be0fc3",
+      "url": "https://github.com/cupy/cupy"
+    },
+    {
+      "description": "FluidVoice - Fastest macOS Offline Dictation app - Voice to Text fully Local. One ⭐ takes us a long way :))",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 4,
+      "readme_sha256": "74e643195ae157036851db4cd125ea92c1eeeda906a9c5a0e99e562b95430063",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "🕵️‍♂️ Collect a dossier on a person by username from 3000+ sites",
+      "full_name": "soxoj/maigret",
+      "project_file": "projects/soxoj__maigret.md",
+      "rank": 5,
+      "readme_sha256": "9304ad8c8fc9e3fc1fb20acd030b1e7ab1a8f6b64a7d3519391291ceadb2a5e2",
+      "url": "https://github.com/soxoj/maigret"
+    },
+    {
+      "description": "openpilot is an operating system for robotics. Currently, it upgrades the driver assistance system on 300+ supported cars.",
+      "full_name": "commaai/openpilot",
+      "project_file": "projects/commaai__openpilot.md",
+      "rank": 6,
+      "readme_sha256": "b71e2ebf2db2323d719a2d72c76ed76908b321724305765181fa426378179cf9",
+      "url": "https://github.com/commaai/openpilot"
+    },
+    {
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "full_name": "ripienaar/free-for-dev",
+      "project_file": "projects/ripienaar__free-for-dev.md",
+      "rank": 7,
+      "readme_sha256": "d59ef054e9ba58963344a06c7511fc56e1051d924c49baa226a069f0d73e1e2f",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "full_name": "logto-io/logto",
+      "project_file": "projects/logto-io__logto.md",
+      "rank": 8,
+      "readme_sha256": "6386fb6b534aee11852488647cf0ae27984b1ce53daa4c1f096aad9c18725d04",
+      "url": "https://github.com/logto-io/logto"
+    },
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 9,
+      "readme_sha256": "42cc4fecd96a23a9c1c2df1eff31ce5608671e458178fdc928c75b3d1ad59c3b",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 10,
+      "readme_sha256": "987a0f91ccfcbebfbf3e1d5db34a24280884da7329518f39558380336c9c8684",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "full_name": "Unclecheng-li/VulnClaw",
+      "project_file": "projects/Unclecheng-li__VulnClaw.md",
+      "rank": 11,
+      "readme_sha256": "6e4719528ea60c1d499cef2895de32767dad589f4152cff0b98b87e866ae55b8",
+      "url": "https://github.com/Unclecheng-li/VulnClaw"
+    },
+    {
+      "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
+      "full_name": "0xNyk/council-of-high-intelligence",
+      "project_file": "projects/0xNyk__council-of-high-intelligence.md",
+      "rank": 12,
+      "readme_sha256": "f077e5c39681a36768b930b18711ad608d8095eac5fed1f1654f99b61513ccb9",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 13,
+      "readme_sha256": "f3df50100df41ff40f2938a2b2111d9ab83d92fac0ccaa7238a25cc156190be2",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 14,
+      "readme_sha256": "b976aa83d93ff74b1086868bca6b2803e51d101682bfd1afe373b0c78a3ec8e6",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "Disk encryption with strong security based on TrueCrypt",
+      "full_name": "veracrypt/VeraCrypt",
+      "project_file": "projects/veracrypt__VeraCrypt.md",
+      "rank": 15,
+      "readme_sha256": "48c6b1de8b97674d485f5d6f80f163f9c5d91fc122dec4b4753db5e3459d8052",
+      "url": "https://github.com/veracrypt/VeraCrypt"
+    }
+  ],
+  "snapshot_date": "2026-06-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "simplex-chat/simplex-chat",
   "url": "https://github.com/simplex-chat/simplex-chat",
   "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
-  "readme_sha256": "42784bc25d5011aa5e8862d3a92a9f50d86b3561f65b790fd58df05b13a17dcc"
+  "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/simplex-chat/simplex-chat
 - Description: SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!
-- README SHA256: `42784bc25d5011aa5e8862d3a92a9f50d86b3561f65b790fd58df05b13a17dcc`
+- README SHA256: `87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9`
 
 ## README
 
@@ -25,7 +25,9 @@
 
 | 30/03/2023 | EN, [FR](/docs/lang/fr/README.md), [CZ](/docs/lang/cs/README.md), [PL](/docs/lang/pl/README.md) |
 
-<img src="images/simplex-chat-logo.svg" alt="SimpleX logo" width="100%">
+<img src="images/github-banner.jpg" alt="SimpleX logo" width="100%">
+
+Invest in SimpleX Chat. [Register now](https://simplexchat.typeform.com/crowdfunding).
 
 # SimpleX - the first messaging platform that has no user identifiers of any kind - 100% private by design!
 
