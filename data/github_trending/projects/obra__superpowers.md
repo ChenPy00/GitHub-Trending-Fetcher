@@ -5,7 +5,7 @@
   "full_name": "obra/superpowers",
   "url": "https://github.com/obra/superpowers",
   "description": "An agentic skills framework & software development methodology that works.",
-  "readme_sha256": "05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50"
+  "readme_sha256": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/obra/superpowers
 - Description: An agentic skills framework & software development methodology that works.
-- README SHA256: `05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50`
+- README SHA256: `993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e`
 
 ## README
 
@@ -30,7 +30,7 @@ If this sounds like someone you know, definitely send them our way.
 
 ## Quickstart
 
-Give your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [Gemini CLI](#gemini-cli), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).
+Give your agent Superpowers: [Claude Code](#claude-code), [Antigravity](#antigravity), [Codex App](#codex-app), [Codex CLI](#codex-cli), [Cursor](#cursor), [Factory Droid](#factory-droid), [GitHub Copilot CLI](#github-copilot-cli), [Kimi Code](#kimi-code), [OpenCode](#opencode), [Pi](#pi).
 
 ## How it works
 
@@ -139,20 +139,6 @@ Superpowers is available via the [official Codex plugin marketplace](https://git
 
   ```bash
   droid plugin install superpowers@superpowers
-  ```
-
-### Gemini CLI
-
-- Install the extension:
-
-  ```bash
-  gemini extensions install https://github.com/obra/superpowers
-  ```
-
-- Update later:
-
-  ```bash
-  gemini extensions update superpowers
   ```
 
 ### GitHub Copilot CLI

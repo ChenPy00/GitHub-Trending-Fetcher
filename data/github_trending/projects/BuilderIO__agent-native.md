@@ -5,7 +5,7 @@
   "full_name": "BuilderIO/agent-native",
   "url": "https://github.com/BuilderIO/agent-native",
   "description": "A framework for building agent-native applications.",
-  "readme_sha256": "5745aa5044f80696d9a63a8aa122ffd3239558ec09a9893bfc75c5226f1f2c4b"
+  "readme_sha256": "fe35d218c18fe14dca6e0ff3618efc19996d699c98e68d6f16dad5d3f1b2ad46"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/BuilderIO/agent-native
 - Description: A framework for building agent-native applications.
-- README SHA256: `5745aa5044f80696d9a63a8aa122ffd3239558ec09a9893bfc75c5226f1f2c4b`
+- README SHA256: `fe35d218c18fe14dca6e0ff3618efc19996d699c98e68d6f16dad5d3f1b2ad46`
 
 ## README
 
@@ -61,7 +61,7 @@ Record your screen with auto-transcripts and captured browser debug logs, share 
 
 **Plans**
 
-<a href="https://agent-native.com/templates/plan"><img src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fb6f4213ac7cc42eeb10c12e8ccda8936?format=webp&width=800" alt="Plans template" width="100%" /></a>
+<a href="https://agent-native.com/templates/plan"><img src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fefc6a3ac908149fa92e2b9392c0bb372?format=webp&width=800" alt="Plans template" width="100%" /></a>
 
 **Visual plan mode for coding agents**
 
@@ -72,7 +72,7 @@ Install `/visual-plan` and `/visual-recap` so your coding agent can plan before 
 
 **Design**
 
-<a href="https://agent-native.com/templates/design"><img src="https://cdn.builder.io/api/v1/image/assets%2F348da13fcd8b414c87de9066196f7266%2F961bedb713a94463b834c1f2f4643bcf?format=webp&width=800" alt="Design template" width="100%" /></a>
+<a href="https://agent-native.com/templates/design"><img src="https://cdn.builder.io/api/v1/image/assets%2FYJIGb4i01jvw0SRdL5Bt%2Fe2c86908c2fa4f119ee4aa90b4823944?format=webp&width=800" alt="Design template" width="100%" /></a>
 
 **Agent-Native design prototyping**
 

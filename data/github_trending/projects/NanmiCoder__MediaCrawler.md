@@ -5,7 +5,7 @@
   "full_name": "NanmiCoder/MediaCrawler",
   "url": "https://github.com/NanmiCoder/MediaCrawler",
   "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-  "readme_sha256": "6d30c690cec0ec06ab3609673b093d0070bbcccf9a5092d61f382625800a2cdf"
+  "readme_sha256": "cdfc8198a2a16124f961ed852526103a8a4b3dd42316b071de6c74e2b797b8ce"
 }
 ```
 
@@ -13,11 +13,29 @@
 
 - URL: https://github.com/NanmiCoder/MediaCrawler
 - Description: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
-- README SHA256: `6d30c690cec0ec06ab3609673b093d0070bbcccf9a5092d61f382625800a2cdf`
+- README SHA256: `cdfc8198a2a16124f961ed852526103a8a4b3dd42316b071de6c74e2b797b8ce`
 
 ## README
 
 # 🔥 MediaCrawler - 自媒体平台爬虫 🕷️
+
+<div align="center">
+
+### 🤝 特别感谢白金赞助商
+
+<a href="https://www.browseract.ai/mediacrawler" target="_blank">
+  <img src="docs/static/images/browseract.png" alt="BrowserAct" width="400">
+</a>
+
+<br>
+
+<a href="https://www.browseract.ai/mediacrawler" target="_blank">
+<small>BrowserAct 是面向 AI Agent 的浏览器自动化工具，支持反机器人拦截应对、受阻时人工接管、多任务并行隔离和多账号独立管理，帮助 Agent 更稳定地完成真实网页任务。</small>
+</a>
+
+</div>
+
+---
 
 <div align="center">
 

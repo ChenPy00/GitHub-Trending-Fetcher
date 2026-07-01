@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 1,
+      "readme_sha256": "72d9fe1bdd7b552d6ea98165200f721f43af6cba00543527252801c12d5302f3",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 2,
+      "readme_sha256": "4e02b74bfd98c798b0c2ae45771322639a74227b6998ec80ac64e39981e104d2",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 3,
+      "readme_sha256": "58084e0c88f23a1a15e7dab3bec6ebf988c7621f58a9c541946e8867b3a2dc7b",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 4,
+      "readme_sha256": "a0758fe2aacf58659758a6e032e34423646192b89626633f7bb2167b4b4fddec",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 5,
+      "readme_sha256": "26c1946d1fc444a5fe0f56a1cf2756db369a9133a5882823e85b341db63abc27",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 6,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 7,
+      "readme_sha256": "e6e9dfb64151f786e7659b723e2006bcfa095225b601d67873b191ac50602380",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "Common User Passwords Profiler (CUPP)",
+      "full_name": "Mebus/cupp",
+      "project_file": "projects/Mebus__cupp.md",
+      "rank": 8,
+      "readme_sha256": "ed64507d8912c6dc4345667a6506cee912a5ae599e7b1e884d496aec82af2883",
+      "url": "https://github.com/Mebus/cupp"
+    },
+    {
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "full_name": "ripienaar/free-for-dev",
+      "project_file": "projects/ripienaar__free-for-dev.md",
+      "rank": 9,
+      "readme_sha256": "dd0c49d36b7cc38165fd6a4eea6766139757851fd49445113f477bf8a361e87d",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "description": "The CLI and skills that turn any coding assistant into an expert at creating, evaluating, and deploying AI agents on Google Cloud.",
+      "full_name": "google/agents-cli",
+      "project_file": "projects/google__agents-cli.md",
+      "rank": 10,
+      "readme_sha256": "385e1da24bd1209f5740c011c9680a2e6d10e23ae74cdbbfefe4713692144e2e",
+      "url": "https://github.com/google/agents-cli"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 11,
+      "readme_sha256": "afbc85415bf37668757fe3c67064370ef0fc8b7172cced454b6da117812a4bfd",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 12,
+      "readme_sha256": "81e1d231e3efaa9afa11b758d0001495c032abf2527b44a2f022de3b3eea6ca4",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 13,
+      "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 14,
+      "readme_sha256": "3dc1e76d233deceb57e55a85a64f54f60750c5cc8f2acd420683055bbc857b0e",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "full_name": "microsoft/AI-For-Beginners",
+      "project_file": "projects/microsoft__AI-For-Beginners.md",
+      "rank": 15,
+      "readme_sha256": "6f1ed5dcfc02f203bdfc55d33af1fa0d2f287feb427f32b3f684074de9fd0ac8",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "facebook/astryx",
+      "project_file": "projects/facebook__astryx.md",
+      "rank": 16,
+      "readme_sha256": "4a079beefd74b08f7f61fec59a2f3eb3be53ade2d765d24abd3f5f8726e59407",
+      "url": "https://github.com/facebook/astryx"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 17,
+      "readme_sha256": "795d1c9147124fd517af0f55e28deed7befc4cb3bfe05fcb23b96d517699ff77",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 18,
+      "readme_sha256": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 19,
+      "readme_sha256": "c86f67045092493b891ebb271f43d3d994b062b40c5131837f99e1e4bc355aa7",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    }
+  ],
+  "snapshot_date": "2026-07-01",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

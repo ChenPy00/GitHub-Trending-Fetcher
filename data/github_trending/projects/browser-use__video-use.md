@@ -5,7 +5,7 @@
   "full_name": "browser-use/video-use",
   "url": "https://github.com/browser-use/video-use",
   "description": "Edit videos with coding agents",
-  "readme_sha256": "987a0f91ccfcbebfbf3e1d5db34a24280884da7329518f39558380336c9c8684"
+  "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/browser-use/video-use
 - Description: Edit videos with coding agents
-- README SHA256: `987a0f91ccfcbebfbf3e1d5db34a24280884da7329518f39558380336c9c8684`
+- README SHA256: `612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f`
 
 ## README
 
@@ -26,6 +26,8 @@
 Introducing **video-use** — edit videos with Claude Code. 100% open source.
 
 Drop raw footage in a folder, chat with Claude Code, get `final.mp4` back. Works for any content — talking heads, montages, tutorials, travel, interviews — without presets or menus.
+
+Try video-use in [Browser Use Cloud](https://cloud.browser-use.com/v4?utm_campaign=video-use-use-in-cloud&utm_source=github).
 
 ## What it does
 
