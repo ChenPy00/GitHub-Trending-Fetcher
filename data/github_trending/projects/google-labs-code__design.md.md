@@ -5,7 +5,7 @@
   "full_name": "google-labs-code/design.md",
   "url": "https://github.com/google-labs-code/design.md",
   "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
-  "readme_sha256": "77e7795fffc5dd160723b22d958f4ebbd3bb0224bc2cc58bf102dfe83668695f"
+  "readme_sha256": "db710f65152ec55d45e2e3af7a96304778c133561362785f2ae37ed361e8414b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google-labs-code/design.md
 - Description: A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.
-- README SHA256: `77e7795fffc5dd160723b22d958f4ebbd3bb0224bc2cc58bf102dfe83668695f`
+- README SHA256: `db710f65152ec55d45e2e3af7a96304778c133561362785f2ae37ed361e8414b`
 
 ## README
 
@@ -306,6 +306,8 @@ npx @google/design.md export --format dtcg DESIGN.md > tokens.json
 | `css-tailwind` | CSS | Tailwind v4 `@theme { ... }` block with CSS custom properties |
 | `tailwind` | JSON | Alias for `json-tailwind` |
 | `dtcg` | JSON | W3C Design Tokens Format Module |
+
+Exit code `0` on a successful export (regardless of any lint findings in the source — run `lint` to gate on those), `1` on an invalid `--format` or an emitter error, and `2` if the input file cannot be read.
 
 ### `spec`
 

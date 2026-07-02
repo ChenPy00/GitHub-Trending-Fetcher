@@ -5,7 +5,7 @@
   "full_name": "Robbyant/lingbot-map",
   "url": "https://github.com/Robbyant/lingbot-map",
   "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-  "readme_sha256": "c86f67045092493b891ebb271f43d3d994b062b40c5131837f99e1e4bc355aa7"
+  "readme_sha256": "22126eb15c6e1cca619c3c136bfd8251419e1100eb5be6c2c3bff2e5a0d338ff"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Robbyant/lingbot-map
 - Description: A feed-forward 3D foundation model for reconstructing scenes from streaming data
-- README SHA256: `c86f67045092493b891ebb271f43d3d994b062b40c5131837f99e1e4bc355aa7`
+- README SHA256: `22126eb15c6e1cca619c3c136bfd8251419e1100eb5be6c2c3bff2e5a0d338ff`
 
 ## README
 
@@ -405,7 +405,6 @@ This builds `voxel_morton_ext` and `frustum_cull_ext` in place — both are impo
 ```
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f4f5e555-22a8-4cc9-b380-dfde5fe1c809" />
-
 
 Flag-by-flag rationale:
 

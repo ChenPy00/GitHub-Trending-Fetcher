@@ -1,0 +1,169 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 1,
+      "readme_sha256": "58084e0c88f23a1a15e7dab3bec6ebf988c7621f58a9c541946e8867b3a2dc7b",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 2,
+      "readme_sha256": "4e02b74bfd98c798b0c2ae45771322639a74227b6998ec80ac64e39981e104d2",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 3,
+      "readme_sha256": "73214b10cbdb3a1e0926cdfc0a4fd49aba01a0b443a5bc7456a62954a046a782",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 4,
+      "readme_sha256": "72d9fe1bdd7b552d6ea98165200f721f43af6cba00543527252801c12d5302f3",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    {
+      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "facebook/astryx",
+      "project_file": "projects/facebook__astryx.md",
+      "rank": 5,
+      "readme_sha256": "4a079beefd74b08f7f61fec59a2f3eb3be53ade2d765d24abd3f5f8726e59407",
+      "url": "https://github.com/facebook/astryx"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 6,
+      "readme_sha256": "26c1946d1fc444a5fe0f56a1cf2756db369a9133a5882823e85b341db63abc27",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+      "full_name": "allenai/olmocr",
+      "project_file": "projects/allenai__olmocr.md",
+      "rank": 7,
+      "readme_sha256": "1383b3f0f5a10cc9a7eebab46e929cddaedf370a80d17b379d21dc380b31ada3",
+      "url": "https://github.com/allenai/olmocr"
+    },
+    {
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "full_name": "logto-io/logto",
+      "project_file": "projects/logto-io__logto.md",
+      "rank": 8,
+      "readme_sha256": "6386fb6b534aee11852488647cf0ae27984b1ce53daa4c1f096aad9c18725d04",
+      "url": "https://github.com/logto-io/logto"
+    },
+    {
+      "description": "Japanese Input Method System for Linux, macOS, Neural Kana-Kanji Conversion Engine",
+      "full_name": "togatoga/karukan",
+      "project_file": "projects/togatoga__karukan.md",
+      "rank": 9,
+      "readme_sha256": "4584b77f3bb2f47448500a89a3e59f722e45effa1e94fcbe9afcd70778e46712",
+      "url": "https://github.com/togatoga/karukan"
+    },
+    {
+      "description": "Common User Passwords Profiler (CUPP)",
+      "full_name": "Mebus/cupp",
+      "project_file": "projects/Mebus__cupp.md",
+      "rank": 10,
+      "readme_sha256": "ed64507d8912c6dc4345667a6506cee912a5ae599e7b1e884d496aec82af2883",
+      "url": "https://github.com/Mebus/cupp"
+    },
+    {
+      "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
+      "full_name": "Unclecheng-li/VulnClaw",
+      "project_file": "projects/Unclecheng-li__VulnClaw.md",
+      "rank": 11,
+      "readme_sha256": "54e2db393ab9b7f8a78176a4d17ace41f9fed76fdc6ffdac3f9f381c172a1b6f",
+      "url": "https://github.com/Unclecheng-li/VulnClaw"
+    },
+    {
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "full_name": "microsoft/AI-For-Beginners",
+      "project_file": "projects/microsoft__AI-For-Beginners.md",
+      "rank": 12,
+      "readme_sha256": "6f1ed5dcfc02f203bdfc55d33af1fa0d2f287feb427f32b3f684074de9fd0ac8",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "description": "Desktop app to manage markdown knowledge bases",
+      "full_name": "refactoringhq/tolaria",
+      "project_file": "projects/refactoringhq__tolaria.md",
+      "rank": 13,
+      "readme_sha256": "6fd76c3e1b8af21ea527d2f8ccb72ffe9162d5d6246a91f8cdf3e80f7222d7e5",
+      "url": "https://github.com/refactoringhq/tolaria"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 14,
+      "readme_sha256": "81e1d231e3efaa9afa11b758d0001495c032abf2527b44a2f022de3b3eea6ca4",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "18 AI personas deliberate your hardest decisions across multiple LLM providers. Aristotle, Feynman, Kahneman, Torvalds & more — structured multi-round deliberation with genuine model diversity. One command: /council",
+      "full_name": "0xNyk/council-of-high-intelligence",
+      "project_file": "projects/0xNyk__council-of-high-intelligence.md",
+      "rank": 15,
+      "readme_sha256": "f077e5c39681a36768b930b18711ad608d8095eac5fed1f1654f99b61513ccb9",
+      "url": "https://github.com/0xNyk/council-of-high-intelligence"
+    },
+    {
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS waitlist open! Linux coming soon.",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 16,
+      "readme_sha256": "132923153c5121bf91d90ce257d62c264d164b69c4f0fec59fe69c0f9e6ca149",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 17,
+      "readme_sha256": "f573891a0a0edbd45434383a2147bd847e5f847de77fb4fd6a4eaec8657bf082",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "full_name": "TencentCloud/CubeSandbox",
+      "project_file": "projects/TencentCloud__CubeSandbox.md",
+      "rank": 18,
+      "readme_sha256": "d9e825d7294d67525344b92046d7addaa74f8d01e2e0113e74d469e75af0e968",
+      "url": "https://github.com/TencentCloud/CubeSandbox"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 19,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "Let's use AI to Earn!",
+      "full_name": "yikart/AiToEarn",
+      "project_file": "projects/yikart__AiToEarn.md",
+      "rank": 20,
+      "readme_sha256": "f0961122c119cc0b2e59066dd37b9fbd29a56d4e1f00db376feec99b6cbc50c4",
+      "url": "https://github.com/yikart/AiToEarn"
+    }
+  ],
+  "snapshot_date": "2026-07-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

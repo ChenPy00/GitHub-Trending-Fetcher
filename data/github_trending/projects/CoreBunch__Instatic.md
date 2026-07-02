@@ -5,7 +5,7 @@
   "full_name": "CoreBunch/Instatic",
   "url": "https://github.com/CoreBunch/Instatic",
   "description": "Instatic is a modern self-hosted visual CMS - get it running in 1 minute",
-  "readme_sha256": "3dc1e76d233deceb57e55a85a64f54f60750c5cc8f2acd420683055bbc857b0e"
+  "readme_sha256": "f573891a0a0edbd45434383a2147bd847e5f847de77fb4fd6a4eaec8657bf082"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/CoreBunch/Instatic
 - Description: Instatic is a modern self-hosted visual CMS - get it running in 1 minute
-- README SHA256: `3dc1e76d233deceb57e55a85a64f54f60750c5cc8f2acd420683055bbc857b0e`
+- README SHA256: `f573891a0a0edbd45434383a2147bd847e5f847de77fb4fd6a4eaec8657bf082`
 
 ## README
 
@@ -24,6 +24,12 @@
 **Own your site. Love building it.**
 
 A self-hosted CMS where the visual editor, content engine, and publisher all live in one Bun server — and the pages it ships are clean enough to read in view-source.
+
+<p>
+  <a href="https://trendshift.io/repositories/66792?utm_source=repository-badge&utm_medium=badge&utm_campaign=badge-repository-66792" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/66792" alt="CoreBunch/Instatic | Trendshift" width="250" height="55">
+  </a>
+</p>
 
 [![Release](https://img.shields.io/github/v/release/corebunch/instatic?color=black&labelColor=black)](https://github.com/corebunch/instatic/releases)
 [![License: MIT](https://img.shields.io/badge/license-MIT-black?labelColor=black&color=blue)](LICENSE)

@@ -5,7 +5,7 @@
   "full_name": "Unclecheng-li/VulnClaw",
   "url": "https://github.com/Unclecheng-li/VulnClaw",
   "description": "基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。",
-  "readme_sha256": "6e4719528ea60c1d499cef2895de32767dad589f4152cff0b98b87e866ae55b8"
+  "readme_sha256": "54e2db393ab9b7f8a78176a4d17ace41f9fed76fdc6ffdac3f9f381c172a1b6f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Unclecheng-li/VulnClaw
 - Description: 基于 AI Agent + MCP 工具链 + 渗透 Skill 编排， 配合大语言模型， 自然语言输入 → 自动完成「信息收集 → 漏洞发现 → 漏洞利用 → 报告生成」全流程。
-- README SHA256: `6e4719528ea60c1d499cef2895de32767dad589f4152cff0b98b87e866ae55b8`
+- README SHA256: `54e2db393ab9b7f8a78176a4d17ace41f9fed76fdc6ffdac3f9f381c172a1b6f`
 
 ## README
 
@@ -34,7 +34,8 @@
 🌐 **English version**: [`README_EN.md`](README_EN.md)
 
 **本项目是可独立运行的 AI 渗透测试 Agent。**
-
+<br>
+项目官网：https://unclecheng-li.github.io/vulnclaw.com/
 <br>
 
 基于 LLM Agent + MCP 工具链 + 渗透 Skill 编排，
@@ -63,6 +64,7 @@ VulnClaw 自动执行：
 
 <img width="1148" height="642" alt="image" src="https://github.com/user-attachments/assets/576e1cf6-25da-4969-864b-40e77d020dbf" />
 
+<img width="2529" height="1136" alt="image" src="https://github.com/user-attachments/assets/9612c633-31f3-4062-8f56-ea5b4989fd50" />
 
 适用于已授权的渗透测试、CTF 竞赛、安全教学、红队演练等场景。
 
@@ -490,7 +492,7 @@ vulnclaw tui --target 192.168.1.100 --mode continuous
 
 ```bash
 # 安装 Web 依赖
-pip install vulnclaw[web]
+pip install 'vulnclaw[web]'
 
 # 启动 Web UI（默认 127.0.0.1:7788）
 vulnclaw web

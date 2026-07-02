@@ -4,7 +4,7 @@
   "name": "iroh",
   "full_name": "n0-computer/iroh",
   "url": "https://github.com/n0-computer/iroh",
-  "description": "IP addresses break, dial keys instead. Modular networking stack in Rust.",
+  "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
   "readme_sha256": "3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0"
 }
 ```
@@ -12,7 +12,7 @@
 # n0-computer/iroh
 
 - URL: https://github.com/n0-computer/iroh
-- Description: IP addresses break, dial keys instead. Modular networking stack in Rust.
+- Description: IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.
 - README SHA256: `3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0`
 
 ## README

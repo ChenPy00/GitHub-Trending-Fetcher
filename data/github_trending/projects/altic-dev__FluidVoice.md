@@ -4,16 +4,16 @@
   "name": "FluidVoice",
   "full_name": "altic-dev/FluidVoice",
   "url": "https://github.com/altic-dev/FluidVoice",
-  "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.",
-  "readme_sha256": "a0758fe2aacf58659758a6e032e34423646192b89626633f7bb2167b4b4fddec"
+  "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS waitlist open! Linux coming soon.",
+  "readme_sha256": "132923153c5121bf91d90ce257d62c264d164b69c4f0fec59fe69c0f9e6ca149"
 }
 ```
 
 # altic-dev/FluidVoice
 
 - URL: https://github.com/altic-dev/FluidVoice
-- Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS and Linux coming soon.
-- README SHA256: `a0758fe2aacf58659758a6e032e34423646192b89626633f7bb2167b4b4fddec`
+- Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS waitlist open! Linux coming soon.
+- README SHA256: `132923153c5121bf91d90ce257d62c264d164b69c4f0fec59fe69c0f9e6ca149`
 
 ## README
 
@@ -34,6 +34,9 @@ Open source voice-to-text dictation app for macOS with on-device AI enhancement.
 **Install with Homebrew:** `brew install --cask fluidvoice`
 
 **Manual download:** [latest release](https://github.com/altic-dev/FluidVoice/releases/latest)
+
+> [!NOTE]
+> FluidVoice is on macOS today. **iOS and Windows are on the way** — join the waitlist to get notified when we launch: **[altic.dev/fluid/waitlist](https://www.altic.dev/fluid/waitlist)**
 
 > [!IMPORTANT]
 > This project is free and open source under GPLv3. If FluidVoice is useful to you, please star the repository — it helps visibility and keeps development going.

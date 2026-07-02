@@ -5,7 +5,7 @@
   "full_name": "xbtlin/ai-berkshire",
   "url": "https://github.com/xbtlin/ai-berkshire",
   "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-  "readme_sha256": "e6e9dfb64151f786e7659b723e2006bcfa095225b601d67873b191ac50602380"
+  "readme_sha256": "36b860496b1e318a2f2c4b07fee4a6292f155b82706fc63c1c27cbc0cf978234"
 }
 ```
 
@@ -13,11 +13,13 @@
 
 - URL: https://github.com/xbtlin/ai-berkshire
 - Description: AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-- README SHA256: `e6e9dfb64151f786e7659b723e2006bcfa095225b601d67873b191ac50602380`
+- README SHA256: `36b860496b1e318a2f2c4b07fee4a6292f155b82706fc63c1c27cbc0cf978234`
 
 ## README
 
 中文 | [English](README_EN.md)
+
+[![GitHub Trending](https://trendshift.io/api/badge/repositories/63696)](https://trendshift.io/repositories/63696)
 
 # AI Berkshire - AI 时代的价值投资研究框架
 
@@ -29,6 +31,8 @@
 
 一个人 + Claude Code / Codex = 一个投研团队。
 
+[实盘业绩](#real-track-record) · [为什么不能直接问AI](#为什么不能直接问-ai) · [Skills 一览](#skills-一览18个) · [快速开始](#快速开始) · [实战报告](#实战研究报告) · [设计理念](#设计理念)
+
 ---
 
 ## Real Track Record
@@ -39,13 +43,13 @@
 
 <img src="assets/2024-returns.jpg" width="300" />
 
-### 2025 年至今收益：+66.38%
+### 2025 全年收益：+66.38%
 
 <img src="assets/2025-returns.jpg" width="300" />
 
 ### 与主要指数对比
 
-| 指标 | 2024 全年 | 2025 至今 |
+| 指标 | 2024 全年 | 2025 全年 |
 |------|----------|----------|
 | **本框架实盘** | **+69.29%** | **+66.38%** |
 | 恒生指数 | +17.67% | +27.77% |
@@ -181,7 +185,7 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 > 图源：[`assets/architecture.mmd`](assets/architecture.mmd)（Mermaid 可编辑源码）
 
 **三层设计哲学**：
-- **Skill 层**：把"你要做什么"抽象成 16 个明确入口——深度研究、财报分析、行业筛选、持仓管理、思维工具，按场景选用
+- **Skill 层**：把"你要做什么"抽象成 18 个明确入口——深度研究、财报分析、行业筛选、持仓管理、思维工具，按场景选用
 - **Agent 层**：每个 skill 内部都是 4 个 Agent 并行——它们各自独立搜索、独立判断、互相挑战，最后由 Team Lead 综合
 - **工具层**：精确计算、实时检索、报告抽检——保证每份报告的数据严谨性可验证
 
@@ -338,7 +342,7 @@ cd ai-berkshire
 
 # 思维工具
 /dyp-ask 拼多多的护城河到底在哪里？
-/wechat-article 大模型OPD技术解读
+/wechat-article 美团
 ```
 
 在 Codex 中安装后重启 Codex，然后直接按 skill 名称描述任务，例如：
@@ -348,7 +352,7 @@ cd ai-berkshire
 使用 earnings-review 分析 PDD 2025年报
 使用 industry-funnel 筛选 AI算力
 使用 bottleneck-hunter 扫描 AI基础设施瓶颈
-使用 wechat-article 写大模型OPD技术解读
+使用 wechat-article 写美团投研文章
 ```
 
 如果安装了 Codex slash prompts，重启 Codex 后也可以在 `/` 菜单里搜索这些 prompt。Codex 官方的 custom prompt 入口通常显示为 `prompts:<name>`，例如：
@@ -678,22 +682,8 @@ cd ai-berkshire
 
 ---
 
-## 项目路线图
+## 未来方向
 
-- [x] 四大师综合分析框架（`/investment-research`）
-- [x] 多Agent并行投研团队（`/investment-team`）
-- [x] 巴菲特买入前 Checklist（`/investment-checklist`）
-- [x] 产业链全景扫描（`/industry-research` + `/industry-funnel`）
-- [x] 未上市公司研究框架（`/private-company-research`）
-- [x] 金融严谨性工具（精确算术、市值验算、多源交叉验证、Benford定律检测）
-- [x] 股价异动快速归因（`/news-pulse` 4 维并行侦察）
-- [x] 财报精读（`/earnings-review` + `/earnings-team` 四大师并行解读）
-- [x] 投资组合管理（`/portfolio-review` 仓位审视与再平衡）
-- [x] 投资论文追踪（`/thesis-tracker` 买入后纪律系统）
-- [x] 管理层纵深研究（`/management-deep-dive`）
-- [x] 去劣快速筛选（`/quality-screen` 7条硬指标排除）
-- [x] 段永平思维模拟（`/dyp-ask`）
-- [x] 深度系列长文（`/deep-company-series` 8篇12万字）
 - [ ] 历史回测：AI研报 vs 实际股价表现
 - [ ] 宏观经济周期分析框架
 - [ ] 基于MCP的实时数据接入（Wind/Bloomberg/Yahoo Finance）
