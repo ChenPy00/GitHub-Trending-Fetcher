@@ -5,7 +5,7 @@
   "full_name": "usestrix/strix",
   "url": "https://github.com/usestrix/strix",
   "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-  "readme_sha256": "4e02b74bfd98c798b0c2ae45771322639a74227b6998ec80ac64e39981e104d2"
+  "readme_sha256": "26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usestrix/strix
 - Description: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
-- README SHA256: `4e02b74bfd98c798b0c2ae45771322639a74227b6998ec80ac64e39981e104d2`
+- README SHA256: `26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4`
 
 ## README
 
@@ -59,7 +59,7 @@
 
 ## Strix Overview
 
-Strix are autonomous AI penetration testing agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proof-of-concepts. Built for developers and security teams who need fast, accurate security testing without the overhead of manual pentesting or the false positives of static analysis tools.
+Strix are autonomous AI penetration testing agents that act just like real hackers - they run your code dynamically, find vulnerabilities, and validate them through actual proofs-of-concept. Built for developers and security teams who need fast, accurate security testing without the overhead of manual pentesting or the false positives of static analysis tools.
 
 **Key Capabilities:**
 
@@ -202,7 +202,7 @@ strix -n --target ./ --scan-mode quick --scope-mode diff --diff-base origin/main
 
 ### Headless Mode
 
-Run Strix programmatically without interactive UI using the `-n/--non-interactive` flag - perfect for servers and automated jobs. The CLI prints real-time vulnerability findings, and the final report before exiting. Exits with non-zero code when vulnerabilities are found.
+Run Strix programmatically without interactive UI using the `-n/--non-interactive` flag - perfect for servers and automated jobs. The CLI prints real-time vulnerability findings and the final report before exiting. Exits with non-zero code when vulnerabilities are found.
 
 ```bash
 strix -n --target https://your-app.com

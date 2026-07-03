@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/cosmos",
   "url": "https://github.com/NVIDIA/cosmos",
   "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-  "readme_sha256": "87d5d9da063b1187d598bbe7dfb8722bfa745a41a2e299e218929b1f05641c5e"
+  "readme_sha256": "2b693d6c970362ae840e7e2d2f8390a3418036e05da8040d37e2931daa91563c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/cosmos
 - Description: NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.
-- README SHA256: `87d5d9da063b1187d598bbe7dfb8722bfa745a41a2e299e218929b1f05641c5e`
+- README SHA256: `2b693d6c970362ae840e7e2d2f8390a3418036e05da8040d37e2931daa91563c`
 
 ## README
 
@@ -69,7 +69,7 @@ NVIDIA Cosmos is an open platform of world models, datasets, and tools that enab
 
 ## Cosmos 3
 
-**Cosmos 3** is our newest model family [[Models]](<a href="https://huggingface.co/collections/nvidia/cosmos3">) [[Report]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) [[Website]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/). It is a suite of omnimodal world models designed to jointly process and generate language, images, video, audio, and action sequences within a unified Mixture-of-Transformers architecture. By supporting highly flexible input-output configurations, it seamlessly unifies critical modalities for Physical AI — effectively subsuming vision-language models, video generators, world simulators, and world-action models into a single framework.
+**Cosmos 3** is our newest model family [[Models]](https://huggingface.co/collections/nvidia/cosmos3) [[Report]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/technical-report.pdf) [[Website]](https://research.nvidia.com/labs/cosmos-lab/cosmos3/). It is a suite of omnimodal world models designed to jointly process and generate language, images, video, audio, and action sequences within a unified Mixture-of-Transformers architecture. By supporting highly flexible input-output configurations, it seamlessly unifies critical modalities for Physical AI — effectively subsuming vision-language models, video generators, world simulators, and world-action models into a single framework.
 
 Cosmos 3 exposes two runtime surfaces:
 
@@ -225,10 +225,15 @@ uvx hf@latest auth login
 
 Set `HF_HOME` if you want to use a shared cache or a disk with more space.
 
+Generator requires the Guardrail. Request access to the gated
+[nvidia/Cosmos-1.0-Guardrail](https://huggingface.co/nvidia/Cosmos-1.0-Guardrail)
+HF repository. To disable the guardrail, set `enable_safety_checker=False` (Diffusers),
+`guardrails: false` (vLLM-Omni `extra_params`/`extra_args`), or
+`--no-guardrails` (Cosmos Framework).
 #### Generator with Diffusers
 
 <details>
-<summary>Expand Diffusers generator setup, example, and modes</summary>
+<summary>Expand Diffusers Generator setup, example, and modes</summary>
 
 Use HuggingFace Diffusers for Cosmos 3 Generator research, training, and model development. This path loads the full Cosmos 3 checkpoint, including the reasoner path, diffusion generation path, and media tokenizers.
 
@@ -300,7 +305,7 @@ See the [Cosmos 3 Diffusers documentation](https://huggingface.co/docs/diffusers
 #### Generator with vLLM-Omni
 
 <details>
-<summary>Expand vLLM-Omni generator setup, endpoints, and request reference</summary>
+<summary>Expand vLLM-Omni Generator setup, endpoints, and request reference</summary>
 
 Use vLLM-Omni for Generator production inference behind an OpenAI-compatible API. This integration loads the full Cosmos 3 checkpoint, including the Qwen3-VL-based reasoner path and the diffusion generation path. For understanding-only tasks that return text, use [Reasoner with vLLM](#reasoner-with-vllm) instead, which loads only the reasoner.
 
@@ -452,25 +457,135 @@ References:
 </details>
 
 #### Reasoner with Transformers
-Coming soon!
-
-#### Reasoner with vLLM
 
 <details>
-<summary>Use vLLM for Reasoner production inference behind an OpenAI-compatible chat-completions API.</summary>
+<summary>Use Transformers for local Reasoner inference from Python.</summary>
+
+Use Hugging Face Transformers for Python-first Reasoner inference. This path
+loads only the Reasoner tower from the unified `nvidia/Cosmos3-Nano` or
+`nvidia/Cosmos3-Super` checkpoint and returns text from text, image, or video
+inputs. It does not load the Generator diffusion, audio, or action heads; use
+[Generator with Diffusers](#generator-with-diffusers) or
+[Generator with vLLM-Omni](#generator-with-vllm-omni) for non-text outputs.
+
+Cosmos3 support first appears in the Transformers `v5.11.0` release tag. Install
+Transformers `5.11.0` or newer:
 
 ```shell
 uv venv --python 3.13 --seed --managed-python
 source .venv/bin/activate
-uv pip install --torch-backend=cu130 "vllm==0.21.0" \
-  "vllm-cosmos3 @ git+https://github.com/NVIDIA/cosmos-framework.git#subdirectory=packages/vllm-cosmos3"
+uv pip install --torch-backend=auto \
+  accelerate \
+  av \
+  pillow \
+  "safetensors>=0.8.0" \
+  torch \
+  "torchvision==0.25.0" \
+  "transformers>=5.11.0"
 ```
 
-The vLLM version and the torch backend are paired: use `--torch-backend=cu130 "vllm==0.21.0"` for a CUDA 13 driver, or `--torch-backend=cu128 "vllm==0.19.1"` for CUDA 12.8. vLLM does not publish wheels for every CUDA minor version, so `--torch-backend=auto` is not reliable here — pick the pair that matches your driver.
+`--torch-backend=auto` lets uv pick a CUDA build that matches your driver. Pin
+an explicit backend instead if needed, for example `--torch-backend=cu128` for a
+CUDA 12.8 driver.
+
+Run an image reasoning request:
+
+```python
+from pathlib import Path
+
+import torch
+from transformers import AutoProcessor, Cosmos3OmniForConditionalGeneration
+
+model_id = "nvidia/Cosmos3-Nano"
+image_path = Path("cookbooks/cosmos3/reasoner/assets/robot_153.jpg").resolve()
+
+processor = AutoProcessor.from_pretrained(model_id)
+model = Cosmos3OmniForConditionalGeneration.from_pretrained(
+    model_id,
+    dtype=torch.bfloat16,
+    device_map="auto",
+)
+
+messages = [
+    {
+        "role": "user",
+        "content": [
+            {"type": "image", "path": str(image_path)},
+            {"type": "text", "text": "Caption the image in detail."},
+        ],
+    }
+]
+
+inputs = processor.apply_chat_template(
+    messages,
+    tokenize=True,
+    add_generation_prompt=True,
+    return_dict=True,
+    return_tensors="pt",
+).to(model.device, torch.bfloat16)
+
+generated_ids = model.generate(**inputs, do_sample=False, max_new_tokens=512)
+generated_ids_trimmed = [
+    out_ids[len(in_ids) :] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+]
+output = processor.batch_decode(
+    generated_ids_trimmed,
+    skip_special_tokens=True,
+    clean_up_tokenization_spaces=False,
+)
+print(output[0])
+```
+
+For video reasoning, use a video content block and pass a frame sampling rate to
+`apply_chat_template`:
+
+```python
+messages = [
+    {
+        "role": "user",
+        "content": [
+            {"type": "video", "path": "cookbooks/cosmos3/reasoner/assets/video_caption.mp4"},
+            {"type": "text", "text": "Describe the notable events in this video."},
+        ],
+    }
+]
+
+inputs = processor.apply_chat_template(
+    messages,
+    fps=2,
+    tokenize=True,
+    add_generation_prompt=True,
+    return_dict=True,
+    return_tensors="pt",
+).to(model.device, torch.bfloat16)
+```
+
+Then reuse the `model.generate` and `batch_decode` block from the image example.
+
+For `nvidia/Cosmos3-Super`, change `model_id` to `nvidia/Cosmos3-Super`.
+`device_map="auto"` can shard the model across multiple GPUs when Accelerate is
+installed. For an OpenAI-compatible server, use
+[Reasoner with vLLM](#reasoner-with-vllm) or [Reasoner with NIM](#reasoner-with-nim).
+
+</details>
+
+#### Reasoner with vLLM
+
+<details>
+<summary>Expand vLLM Reasoner setup, server launch, and configuration</summary>
+
+Use vLLM for Reasoner production inference behind an OpenAI-compatible chat-completions API. This path loads only the reasoner; for generation tasks that return images or video, use [Generator with vLLM-Omni](#generator-with-vllm-omni) instead.
+
+```shell
+uv venv --python 3.13 --seed --managed-python
+source .venv/bin/activate
+uv pip install --torch-backend=auto "vllm>=0.23.0"
+```
+
+Or use `vllm/vllm-openai:v0.23.0` docker image.
 
 ```shell
 vllm serve nvidia/Cosmos3-Nano \
-  --hf-overrides '{"architectures": ["Cosmos3ReasonerForConditionalGeneration"]}' \
   --async-scheduling \
   --allowed-local-media-path / \
   --port 8000
@@ -494,6 +609,7 @@ Configuration notes:
 | `--mm-encoder-tp-mode data` | Data parallelism for the visual encoder in multimodal workloads |
 | `--media-io-kwargs '{"video": {"num_frames": -1}}'` | Allows the processor to consider all available frames before downstream frame sampling |
 | `--allowed-local-media-path` | Required when requests pass local `file://` media paths |
+
 </details>
 
 #### Reasoner with NIM
@@ -601,6 +717,7 @@ References:
 
 </details>
 
+
 ### Troubleshooting
 
 #### Which CUDA version should I use?
@@ -613,7 +730,7 @@ NVIDIA NGC PyTorch: `nvcr.io/nvidia/pytorch:25.09-py3` for CUDA 13, or `nvcr.io/
 
 #### `torch.cuda.is_available()` is `False` ("The NVIDIA driver on your system is too old")
 
-The installed `torch` is newer CUDA than your driver — `uv pip install torch` defaults to CUDA 13 (`cu130`). Install a matching build: `uv pip install --torch-backend=auto torch torchvision` (or pin, e.g. `--torch-backend=cu128`). For `uv sync` notebooks use `COSMOS3_UV_GROUP=cu128-train`; for vLLM pair `cu128` with `vllm==0.19.1`.
+The installed `torch` is newer CUDA than your driver — `uv pip install torch` defaults to CUDA 13 (`cu130`). Install a matching build: `uv pip install --torch-backend=auto torch torchvision` (or pin, e.g. `--torch-backend=cu128`). For `uv sync` notebooks use `COSMOS3_UV_GROUP=cu128-train`; for vLLM, use a vLLM `0.23.0` or newer wheel that matches your CUDA backend.
 
 #### Import fails with `libxcb.so.1: cannot open shared object file`
 
@@ -633,7 +750,7 @@ The Cosmos Framework requires `uv >= 0.11.3` (enforced via its `pyproject.toml`)
 | --- | --- | --- |
 | Generator research or model development | Diffusers | Python-first path for inspecting and modifying generator behavior |
 | Generator production inference | vLLM-Omni | API path for image, video, sound, and action outputs |
-| Reasoner research or model development | Transformers (coming soon) | Python-first path for prompts, processors, and model behavior |
+| Reasoner research or model development | Transformers | Python-first path for prompts, processors, and model behavior |
 | Reasoner production inference | vLLM | OpenAI-compatible endpoint for text outputs from text and vision inputs |
 | Reasoner turnkey deployment | NIM | Prebuilt, optimized OpenAI-compatible container — no vLLM/CUDA setup |
 | Runnable setup, training, or evaluation | Cosmos Framework | Full workflow docs for setup, inference, omni-model training, and evaluation |
@@ -669,9 +786,17 @@ Cosmos 3 latency and serving numbers live in [`inference_benchmarks.md`](inferen
 
 ### Finetune
 
-Finetune Cosmos 3 with the [Cosmos Framework](https://github.com/NVIDIA/cosmos-framework), NVIDIA's end-to-end Physical AI framework for training and serving world models. It provides runnable setup, inference, omni-model training, and evaluation workflows for the Generator and Reasoner surfaces, with reference recipes for vision, action, and reasoning post-training.
+Post-train Cosmos 3 on your own data with the supervised fine-tuning (SFT) cookbooks below. Each recipe is a self-contained launch script: a single `bash launch_sft_<recipe>.sh` prepares or validates the data, prepares the base checkpoint, and runs 8×H100 training.
 
-See the [Cosmos Framework training guide](https://github.com/NVIDIA/cosmos-framework/blob/main/docs/training.md) for the full post-training workflow, including data preparation, configuration, and launch commands.
+| Example | Surface | Model | What it covers | Script |
+| --- | --- | --- | --- | --- |
+| [Vision generator SFT](cookbooks/cosmos3/generator/audiovisual/finetune/README.md) | Generator | Cosmos3-Nano | Full SFT on captioned video | [`launch_sft_vision_nano.sh`](cookbooks/cosmos3/generator/audiovisual/finetune/launch_sft_vision_nano.sh) |
+| [Vision generator SFT](cookbooks/cosmos3/generator/audiovisual/finetune/README.md) | Generator | Cosmos3-Super | LoRA SFT on captioned video | [`launch_sft_vision_super.sh`](cookbooks/cosmos3/generator/audiovisual/finetune/launch_sft_vision_super.sh) |
+| [Policy-DROID SFT](cookbooks/cosmos3/generator/action/finetune/README.md) | Generator | Cosmos3-Nano | Full SFT for action policy on the DROID dataset | [`launch_sft_action_policy_droid.sh`](cookbooks/cosmos3/generator/action/finetune/launch_sft_action_policy_droid.sh) |
+| [Reasoner SFT](cookbooks/cosmos3/reasoner/finetune/README.md) | Reasoner | Cosmos3-Nano | Alignment SFT on LLaVA-OneVision | [`launch_sft_llava_ov.sh`](cookbooks/cosmos3/reasoner/finetune/launch_sft_llava_ov.sh) |
+| [Reasoner SFT](cookbooks/cosmos3/reasoner/finetune/README.md) | Reasoner | Cosmos3-Nano | Physical-plausibility SFT on VideoPhy-2 | [`launch_sft_videophy2_nano.sh`](cookbooks/cosmos3/reasoner/finetune/launch_sft_videophy2_nano.sh) |
+
+These cookbooks run on the [Cosmos Framework](https://github.com/NVIDIA/cosmos-framework), NVIDIA's end-to-end Physical AI framework for training and serving world models. For the full post-training reference — every config field, raw `torchrun`, resuming, and advanced parallelism — see the [Cosmos Framework training guide](https://github.com/NVIDIA/cosmos-framework/blob/main/docs/training.md).
 
 ### Limitations
 

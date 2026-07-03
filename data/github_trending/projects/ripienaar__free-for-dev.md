@@ -5,7 +5,7 @@
   "full_name": "ripienaar/free-for-dev",
   "url": "https://github.com/ripienaar/free-for-dev",
   "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-  "readme_sha256": "84086eabc4da9f2ad33cd17165772e54e32ba3f18ae73b7f31e120a9930da963"
+  "readme_sha256": "4c4f01caa37cdfc44d50c3b4109a6d1bfe23244e6b597f007a8658b2e15f15fb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ripienaar/free-for-dev
 - Description: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
-- README SHA256: `84086eabc4da9f2ad33cd17165772e54e32ba3f18ae73b7f31e120a9930da963`
+- README SHA256: `4c4f01caa37cdfc44d50c3b4109a6d1bfe23244e6b597f007a8658b2e15f15fb`
 
 ## README
 
@@ -425,7 +425,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo
   * [HeySpace](https://hey.space) - Task management tool with chat, calendar, timeline and video calls. Free for up to 5 users.
   * [Huly](https://huly.io/) - All-in-One Project Management Platform (alternative to Linear, Jira, Slack, Notion, Motion) - unlimited users, 10GB storage per workspace, 10GB video(audio) traffic.
   * [Keybase](https://keybase.io/) - Keybase is a FOSS alternative to Slack; it keeps everyone's chats and files safe, from families to communities to companies.
-  * [Knocket](https://trtc.io/solutions/knocket) - Free-forever live chat widget you add with one script tag, plus a shareable contact page and a unified Telegram/email inbox. No ads, no seat limits.
+  * [Knocket](https://trtc.io/solutions/knocket) - Free-forever contact layer for indie developers and small teams: live chat widget for websites and mobile apps (iOS/Android/Flutter/React Native via WebView), a shareable contact page (Linktree-style with socials, booking links, and blog), and a unified Telegram/email inbox. Reply from Telegram directly (no dashboard needed). Meeting scheduler, multi-language, light/dark themes. Companion open-source AI auto-reply agent. No ads, no seat limits.
   * [Linkinize](https://linkinize.com) - Bookmark manager for teams with tagging, multi-workspaces, and collaboration. Free plan includes 4 workspaces and 10 team members.
   * [Lockitbot](https://www.lockitbot.com/) - Reserve and lock shared resources within Slack like Rooms, Dev environments , servers etc. Free for upto 2 resources
   * [meet.jit.si](https://meet.jit.si/) - One-click video conversations, and screen sharing, for free

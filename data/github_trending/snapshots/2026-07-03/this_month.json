@@ -1,0 +1,169 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 1,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 2,
+      "readme_sha256": "eb9f51093fda6c786325295f4f497c86e289428f9120d7cd8e99468a78b202a1",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 3,
+      "readme_sha256": "4e36540947310864e1f879bf19c0e4dd94a1ab48f206b478f2d2c51e7e1a02a1",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 4,
+      "readme_sha256": "22aa1140da2c051eaa99b4c425f774f30f5bb3a211e96197a89381210794555a",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 5,
+      "readme_sha256": "cd87539cd2dd12c69541418c442b8208640401a64b03c68eeb5af9a79cb2ac07",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 6,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+      "full_name": "phuryn/pm-skills",
+      "project_file": "projects/phuryn__pm-skills.md",
+      "rank": 7,
+      "readme_sha256": "6d4e42f75aa5ce085702809738da1aefe8d7de2a83c9cc84ad614b03f607e8b5",
+      "url": "https://github.com/phuryn/pm-skills"
+    },
+    {
+      "description": "An Open Source implementation of Notebook LM with more flexibility and features",
+      "full_name": "lfnovo/open-notebook",
+      "project_file": "projects/lfnovo__open-notebook.md",
+      "rank": 8,
+      "readme_sha256": "8cd2c31a52c21a23e6a8c1abcec7b16e85d6631fdd71a9aa3b1828e1a61f0484",
+      "url": "https://github.com/lfnovo/open-notebook"
+    },
+    {
+      "description": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
+      "full_name": "NVIDIA/cosmos",
+      "project_file": "projects/NVIDIA__cosmos.md",
+      "rank": 9,
+      "readme_sha256": "2b693d6c970362ae840e7e2d2f8390a3418036e05da8040d37e2931daa91563c",
+      "url": "https://github.com/NVIDIA/cosmos"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 10,
+      "readme_sha256": "878c6c38eb110c9bc34edf68262d394ecadd125290060c5ed83c0e90b391f760",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 11,
+      "readme_sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "full_name": "alibaba/zvec",
+      "project_file": "projects/alibaba__zvec.md",
+      "rank": 12,
+      "readme_sha256": "1806c29a151d2da7a908fe56b54de6150f65f59546fdad620bbe28699f2acf4e",
+      "url": "https://github.com/alibaba/zvec"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 13,
+      "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 14,
+      "readme_sha256": "8b7c3b7a3938b8cc66c6c8f37e7c27d19a1a7d07d9361fc1fe5b50efde54be6a",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 15,
+      "readme_sha256": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "full_name": "t8y2/dbx",
+      "project_file": "projects/t8y2__dbx.md",
+      "rank": 16,
+      "readme_sha256": "2abcaf00bd3aab12d4f338d06c885982337a354b46963054a61513bc7b734f35",
+      "url": "https://github.com/t8y2/dbx"
+    },
+    {
+      "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 17,
+      "readme_sha256": "1020155aa39b0c4e896165cec6a09be9c8a0be895c27dfc9cac7892cc7559b5b",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 18,
+      "readme_sha256": "3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 19,
+      "readme_sha256": "afbc85415bf37668757fe3c67064370ef0fc8b7172cced454b6da117812a4bfd",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 20,
+      "readme_sha256": "1464891190fda1c67d52baed708f357c4540d9b52b41e35fc16c0bcc07905256",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    }
+  ],
+  "snapshot_date": "2026-07-03",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

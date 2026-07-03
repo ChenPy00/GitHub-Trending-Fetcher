@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "81e1d231e3efaa9afa11b758d0001495c032abf2527b44a2f022de3b3eea6ca4"
+  "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `81e1d231e3efaa9afa11b758d0001495c032abf2527b44a2f022de3b3eea6ca4`
+- README SHA256: `b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b`
 
 ## README
 
@@ -26,6 +26,12 @@
 
 <p align="center">
   <a href="https://herdr.dev">herdr.dev</a> · <a href="#install">install</a> · <a href="#quick-start">quick start</a> · <a href="#supported-agents">supported agents</a> · <a href="https://herdr.dev/docs/">docs</a> · <a href="https://herdr.dev/docs/socket-api/">socket api</a> · <a href="#sponsors">sponsor</a>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/32084" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/32084" alt="herdr was #1 GitHub Trending repository of the day on Jun 30, 2026" width="250" height="55" />
+  </a>
 </p>
 
 ---

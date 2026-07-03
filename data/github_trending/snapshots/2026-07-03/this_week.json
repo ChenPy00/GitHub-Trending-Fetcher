@@ -1,0 +1,193 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 1,
+      "readme_sha256": "36b860496b1e318a2f2c4b07fee4a6292f155b82706fc63c1c27cbc0cf978234",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 2,
+      "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "full_name": "ripienaar/free-for-dev",
+      "project_file": "projects/ripienaar__free-for-dev.md",
+      "rank": 3,
+      "readme_sha256": "4c4f01caa37cdfc44d50c3b4109a6d1bfe23244e6b597f007a8658b2e15f15fb",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 4,
+      "readme_sha256": "eb9f51093fda6c786325295f4f497c86e289428f9120d7cd8e99468a78b202a1",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "git push no-mistakes",
+      "full_name": "kunchenguid/no-mistakes",
+      "project_file": "projects/kunchenguid__no-mistakes.md",
+      "rank": 5,
+      "readme_sha256": "1420eadf11e6cf695f7b2627250d313c3759066221cb136661bec69218d1e179",
+      "url": "https://github.com/kunchenguid/no-mistakes"
+    },
+    {
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "full_name": "google-labs-code/design.md",
+      "project_file": "projects/google-labs-code__design.md.md",
+      "rank": 6,
+      "readme_sha256": "db710f65152ec55d45e2e3af7a96304778c133561362785f2ae37ed361e8414b",
+      "url": "https://github.com/google-labs-code/design.md"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 7,
+      "readme_sha256": "4e36540947310864e1f879bf19c0e4dd94a1ab48f206b478f2d2c51e7e1a02a1",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 8,
+      "readme_sha256": "d5720e2bb8796069ab1c567000f542888fd3fb5ca462c3774c040dea93929014",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 9,
+      "readme_sha256": "26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "Clone any website with one command using AI coding agents",
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "project_file": "projects/JCodesMore__ai-website-cloner-template.md",
+      "rank": 10,
+      "readme_sha256": "915eeb50a01624d4afe49001730565ddce1993fcc99719c88248ed6485675d71",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    },
+    {
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "full_name": "mauriceboe/TREK",
+      "project_file": "projects/mauriceboe__TREK.md",
+      "rank": 11,
+      "readme_sha256": "013e05706aff7518d1419bfbc5ecdb77f8bb193fb8841bcb17cef6c8251066ec",
+      "url": "https://github.com/mauriceboe/TREK"
+    },
+    {
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "full_name": "topoteretes/cognee",
+      "project_file": "projects/topoteretes__cognee.md",
+      "rank": 12,
+      "readme_sha256": "71c25044c108c050c2d29229a6480426a2b2c0e105e5afde40817bb7bc29d2f3",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 13,
+      "readme_sha256": "8b7c3b7a3938b8cc66c6c8f37e7c27d19a1a7d07d9361fc1fe5b50efde54be6a",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 14,
+      "readme_sha256": "58084e0c88f23a1a15e7dab3bec6ebf988c7621f58a9c541946e8867b3a2dc7b",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "AI agent to evaluate and score resumes.",
+      "full_name": "interviewstreet/hiring-agent",
+      "project_file": "projects/interviewstreet__hiring-agent.md",
+      "rank": 15,
+      "readme_sha256": "d0503e4fe7f1880740e5cfb1cb420269edf93b7cb03a53ba9a30a41da2340d62",
+      "url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 16,
+      "readme_sha256": "22aa1140da2c051eaa99b4c425f774f30f5bb3a211e96197a89381210794555a",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 17,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 18,
+      "readme_sha256": "7d013fc0bee5047603cdbffef012db53b22bdeb5ab0d43cb88b8e3195e6c0f60",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 19,
+      "readme_sha256": "9cf64718f412b78e0ecc955a7027ffd265c14e34e218d3f088e58fa903f4da86",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 20,
+      "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "full_name": "aws/agent-toolkit-for-aws",
+      "project_file": "projects/aws__agent-toolkit-for-aws.md",
+      "rank": 21,
+      "readme_sha256": "f257985ad0c71b8f78bef38ca91c5e6502bcb1c9564aecaa673078dfebf30e96",
+      "url": "https://github.com/aws/agent-toolkit-for-aws"
+    },
+    {
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "project_file": "projects/NanmiCoder__MediaCrawler.md",
+      "rank": 22,
+      "readme_sha256": "fe32eac7c3d9c8792c84e1589682069bba78367c1ec8ae5ca5180a9c788714bc",
+      "url": "https://github.com/NanmiCoder/MediaCrawler"
+    },
+    {
+      "description": "",
+      "full_name": "craft-ai-agents/craft-agents-oss",
+      "project_file": "projects/craft-ai-agents__craft-agents-oss.md",
+      "rank": 23,
+      "readme_sha256": "380047927ef6c78441ca5947da7cbc208fa1d1a6190c3db9199cd356eb0cba8a",
+      "url": "https://github.com/craft-ai-agents/craft-agents-oss"
+    }
+  ],
+  "snapshot_date": "2026-07-03",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

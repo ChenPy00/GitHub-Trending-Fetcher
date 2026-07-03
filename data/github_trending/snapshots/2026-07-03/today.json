@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 1,
+      "readme_sha256": "26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 2,
+      "readme_sha256": "d29273cd6de48a41ad9c04ad9fc1dbf53bb41a02e6d2551ad57be4f6e44eb72a",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 3,
+      "readme_sha256": "58084e0c88f23a1a15e7dab3bec6ebf988c7621f58a9c541946e8867b3a2dc7b",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 4,
+      "readme_sha256": "72d9fe1bdd7b552d6ea98165200f721f43af6cba00543527252801c12d5302f3",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    {
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 5,
+      "readme_sha256": "3463c550c4a511f668e8bdf212b197adcf62f8bdd5ff85079f63beb51601e519",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 6,
+      "readme_sha256": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 7,
+      "readme_sha256": "d124b08364b9b1509884b279fca7685241b914bbdc89a1babcecfd8f11c3ff6f",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 8,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "Action for checking out a repo",
+      "full_name": "actions/checkout",
+      "project_file": "projects/actions__checkout.md",
+      "rank": 9,
+      "readme_sha256": "3df94d90d0df6df603a549cc779bc6cab4b21f8deef82eb6fef1f4d88b788174",
+      "url": "https://github.com/actions/checkout"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 10,
+      "readme_sha256": "f4e45453d7d1c4bbdf2e9c75c9668375a0872f47c2e2551dcaf1acddb46cbdc8",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 11,
+      "readme_sha256": "f94cf850566cb034c3ef655952159aebeb0332a7ee0ed69c46dbe5fea2f6e70e",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Specification and documentation for Agent Skills",
+      "full_name": "agentskills/agentskills",
+      "project_file": "projects/agentskills__agentskills.md",
+      "rank": 12,
+      "readme_sha256": "7ff4a9a612ab21189aa793fd43223bd854280a122ac12ce29f5bea84d5930a1d",
+      "url": "https://github.com/agentskills/agentskills"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 13,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "full_name": "langflow-ai/langflow",
+      "project_file": "projects/langflow-ai__langflow.md",
+      "rank": 14,
+      "readme_sha256": "4dcf55d87265217613ee5ce315a567ee29ced5151c97f828aa6c0bd96c277e7a",
+      "url": "https://github.com/langflow-ai/langflow"
+    },
+    {
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "full_name": "pytorch/pytorch",
+      "project_file": "projects/pytorch__pytorch.md",
+      "rank": 15,
+      "readme_sha256": "65a0869b3a00965771662b3fa56975060142a0361e14887e99cc00dad8ea5468",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "description": "Machine Learning Systems",
+      "full_name": "harvard-edge/cs249r_book",
+      "project_file": "projects/harvard-edge__cs249r_book.md",
+      "rank": 16,
+      "readme_sha256": "f5d0b69b30742fbeb253f7b7be85e957f02a3feb27947050e8a190bd7e6fe772",
+      "url": "https://github.com/harvard-edge/cs249r_book"
+    },
+    {
+      "description": "Clean Code concepts adapted for JavaScript",
+      "full_name": "ryanmcdermott/clean-code-javascript",
+      "project_file": "projects/ryanmcdermott__clean-code-javascript.md",
+      "rank": 17,
+      "readme_sha256": "7e223b44455ed52783a024b02045d90a06daa25b75b6ac6b5cd73a52ae2ca7e1",
+      "url": "https://github.com/ryanmcdermott/clean-code-javascript"
+    }
+  ],
+  "snapshot_date": "2026-07-03",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

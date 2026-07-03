@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-  "readme_sha256": "8a1512ae7451d6d86ced3fe0f3ac3c7e6734554a3a784512738410a5369aaf2c"
+  "readme_sha256": "1020155aa39b0c4e896165cec6a09be9c8a0be895c27dfc9cac7892cc7559b5b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.
-- README SHA256: `8a1512ae7451d6d86ced3fe0f3ac3c7e6734554a3a784512738410a5369aaf2c`
+- README SHA256: `1020155aa39b0c4e896165cec6a09be9c8a0be895c27dfc9cac7892cc7559b5b`
 
 ## README
 
@@ -49,15 +49,6 @@
 ## 特别感谢 🙏
 
 <table align="center">
-  <tr>
-    <td align="center" width="160">
-      <a href="https://aihubmix.com/?aff=CEve"><strong>AIHubMix</strong></a>
-    </td>
-    <td align="left">
-      <sub>感谢 <a href="https://aihubmix.com/?aff=CEve">AIHubMix</a> 对本项目的赞助。AIHubMix 深度适配 OpenAI、Claude、Gemini、DeepSeek、智谱、千问等全球顶级最新模型，一站式快速接入 GPT-5.5、deepseek-v4-flash 等 700+ 模型（含多个免费模型），提供企业级生产稳定性保障。</sub>
-    </td>
-  </tr>
-
   <tr>
     <td align="center" width="160">
       <a href="https://www.volcengine.com/activity/ai618?utm_campaign=hw&utm_content=hw&utm_medium=devrel_tool_web&utm_source=OWO&utm_term=MoneyPrinterTurbo"><img src="docs/sponsors/volcengine-logo.svg" alt="火山引擎" height="32"></a><br>
@@ -218,7 +209,6 @@ git clone https://github.com/harry0703/MoneyPrinterTurbo.git
 - 将 `config.example.toml` 文件复制一份，命名为 `config.toml`
 - 按照 `config.toml` 文件中的说明，配置好 `pexels_api_keys` 和 `llm_provider`，并根据 llm_provider 对应的服务商，配置相关的
   API Key
-- 如果希望使用推荐的大模型平台，也可以将 `llm_provider` 设置为 `aihubmix`，并填写对应的 API Key。
 
 ### Docker部署 🐳
 
