@@ -5,7 +5,7 @@
   "full_name": "DeusData/codebase-memory-mcp",
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-  "readme_sha256": "eb9f51093fda6c786325295f4f497c86e289428f9120d7cd8e99468a78b202a1"
+  "readme_sha256": "4347343b389f85ccd0549d86ba716c4deb1f35babe678ed885f49e8b2b2d436f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DeusData/codebase-memory-mcp
 - Description: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
-- README SHA256: `eb9f51093fda6c786325295f4f497c86e289428f9120d7cd8e99468a78b202a1`
+- README SHA256: `4347343b389f85ccd0549d86ba716c4deb1f35babe678ed885f49e8b2b2d436f`
 
 ## README
 
@@ -78,10 +78,15 @@ Invoke-WebRequest -Uri https://raw.githubusercontent.com/DeusData/codebase-memor
 # 2. (Optional but recommended) Inspect the script
 notepad install.ps1
 
-# 3. Run it
+# 3. Unblock the downloaded file (removes Mark-of-the-Web restriction added by browsers/Invoke-WebRequest)
+Unblock-File .\install.ps1
+
+# 4. Run it
 .\install.ps1
 
 ```
+
+> **Note:** If you see a script execution policy error, run `Set-ExecutionPolicy -Scope Process Bypass` first, or invoke with `PowerShell -ExecutionPolicy Bypass -File .\install.ps1`.
 
 Options: `--ui` (graph visualization), `--skip-config` (binary only, no agent setup), `--dir=<path>` (custom location).
 
@@ -105,6 +110,7 @@ Restart your coding agent. Say **"Index this project"** — done.
    Windows (PowerShell):
    ```powershell
    Expand-Archive codebase-memory-mcp-windows-amd64.zip -DestinationPath .
+   Unblock-File .\install.ps1
    .\install.ps1
    ```
 
@@ -470,6 +476,8 @@ Anything outside this subset (write/`MERGE`/`CALL` clauses, unsupported function
 ## Ignoring Files
 
 Layered: hardcoded patterns (`.git`, `node_modules`, etc.) → `.gitignore` hierarchy → `.cbmignore` (project-specific, gitignore syntax). Symlinks are always skipped.
+
+See [docs/cbmignore.md](docs/cbmignore.md) for the full `.cbmignore` how-to: syntax, precedence across the ignore layers, and negation semantics.
 
 ## Configuration
 

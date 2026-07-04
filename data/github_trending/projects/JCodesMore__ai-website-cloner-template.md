@@ -5,7 +5,7 @@
   "full_name": "JCodesMore/ai-website-cloner-template",
   "url": "https://github.com/JCodesMore/ai-website-cloner-template",
   "description": "Clone any website with one command using AI coding agents",
-  "readme_sha256": "915eeb50a01624d4afe49001730565ddce1993fcc99719c88248ed6485675d71"
+  "readme_sha256": "632c6a6239d4cca422222608bdddb021eef30111308bc401a17de81941251a69"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/JCodesMore/ai-website-cloner-template
 - Description: Clone any website with one command using AI coding agents
-- README SHA256: `915eeb50a01624d4afe49001730565ddce1993fcc99719c88248ed6485675d71`
+- README SHA256: `632c6a6239d4cca422222608bdddb021eef30111308bc401a17de81941251a69`
 
 ## README
 
@@ -23,7 +23,7 @@
 
 A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. 
 
-**Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 4.7 for best results** — but works with a variety of AI coding agents.
+**Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 4.8 for best results** — but works with a variety of AI coding agents.
 
 Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
 
@@ -76,7 +76,7 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 
 | Agent                                                         | Status                     |
 | ------------------------------------------------------------- | -------------------------- |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 4.7 |
+| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | **Recommended** — Opus 4.8 |
 | [Codex CLI](https://github.com/openai/codex)                  | Supported                  |
 | [OpenCode](https://opencode.ai/)                              | Supported                  |
 | [GitHub Copilot](https://github.com/features/copilot)         | Supported                  |

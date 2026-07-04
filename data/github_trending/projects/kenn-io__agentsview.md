@@ -5,7 +5,7 @@
   "full_name": "kenn-io/agentsview",
   "url": "https://github.com/kenn-io/agentsview",
   "description": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
-  "readme_sha256": "d22aa27fee0f0635cba2687e9d01c831d56d46d5a33d7b303270c6a934ee038a"
+  "readme_sha256": "ee47cbd4a81af3bb44cac0f960d0bb4c48d50a89cbe60d5763cea7f0983da4bc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kenn-io/agentsview
 - Description: Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.
-- README SHA256: `d22aa27fee0f0635cba2687e9d01c831d56d46d5a33d7b303270c6a934ee038a`
+- README SHA256: `ee47cbd4a81af3bb44cac0f960d0bb4c48d50a89cbe60d5763cea7f0983da4bc`
 
 ## README
 
@@ -66,6 +66,13 @@ agentsview usage daily         # print daily cost summary
 On first run, agentsview discovers sessions from every supported agent on your
 machine, syncs them into a local SQLite database, and serves a web UI at
 `http://127.0.0.1:8080`.
+
+For Devin CLI, point `DEVIN_DIR` or `devin_dirs` at the local root that contains
+`cli/` — for example `~/Library/Application Support/devin` on macOS,
+`~/.local/share/devin` on Linux, or a redacted path like
+`.../Application Support/devin`. AgentsView reads session data under
+`<root>/cli/...` and intentionally ignores copied config or OAuth paths. Do not
+paste tokens, OAuth files, or other secrets into bug reports.
 
 Claude and Codex sources can also be configured as `s3://` roots, so a central
 AgentsView instance can read sessions that other machines push to S3-compatible
@@ -320,6 +327,7 @@ thread JSON files.
 | Claude Cowork         | `~/Library/Application Support/Claude/local-agent-mode-sessions/` (macOS)                                                                                               |
 | Codex                 | `~/.codex/sessions/`                                                                                                                                                    |
 | Copilot CLI           | `~/.copilot/`                                                                                                                                                           |
+| Devin CLI             | `~/.local/share/devin/` (Linux), `~/Library/Application Support/devin/` (macOS); point `DEVIN_DIR` / `devin_dirs` at the root that contains `cli/`                      |
 | Cortex Code           | `~/.snowflake/cortex/conversations/`                                                                                                                                    |
 | Cursor                | `~/.cursor/projects/`                                                                                                                                                   |
 | DeepSeek TUI          | `~/.codewhale/sessions/`, `~/.deepseek/sessions/`                                                                                                                       |
@@ -353,7 +361,11 @@ thread JSON files.
 | Zencoder              | `~/.zencoder/sessions/`                                                                                                                                                 |
 
 Each directory can be overridden with an environment variable. See the
-[configuration docs](https://agentsview.io/configuration/) for details.
+[configuration docs](https://agentsview.io/configuration/) for details. Cursor
+attribution stats are a live, machine-local read from
+`~/.cursor/ai-tracking/ai-code-tracking.db` by default and can be redirected
+with `AGENTSVIEW_CURSOR_ATTRIBUTION_DB`; they are not synced or aggregated
+through PostgreSQL.
 
 ### Aider: per-repo Markdown logs
 
@@ -381,7 +393,11 @@ its `# aider chat started at ...` header (written in local time, assumed UTC).
 
 ### JetBrains Copilot via exporter
 
-JetBrains IDEs store Copilot chat in a Nitrite database that agentsview does not read directly. The supported path today is to export those sessions to Copilot JSONL with [copilot-jetbrains-exporter](https://github.com/MCBoarder289/copilot-jetbrains-exporter), then point agentsview at that output directory.
+JetBrains IDEs store Copilot chat in a Nitrite database that agentsview does not
+read directly. The supported path today is to export those sessions to Copilot
+JSONL with
+[copilot-jetbrains-exporter](https://github.com/MCBoarder289/copilot-jetbrains-exporter),
+then point agentsview at that output directory.
 
 ```bash
 # Export JetBrains Copilot sessions to JSONL
@@ -397,7 +413,8 @@ Or in `~/.agentsview/config.toml`:
 copilot_dirs = ["~/.copilot/jetbrains-sessions"]
 ```
 
-Re-run the exporter after new JetBrains Copilot sessions if you want agentsview to pick up fresh conversations from that source.
+Re-run the exporter after new JetBrains Copilot sessions if you want agentsview
+to pick up fresh conversations from that source.
 
 ### Antigravity CLI: high-resolution transcripts
 
@@ -409,8 +426,8 @@ structured tool calls, results, reasoning, and diffs -- comes from a
 back to **summary mode**: a heuristic decode of the raw `.db` steps (prompts and
 tool-call names only), or for `.pb` sessions your prompts from `history.jsonl`
 plus any plain-text artifacts under `brain/` (plans, walkthroughs, checkpoints).
-Summary-mode sessions show a "Summary mode" badge in the detail header that links
-here.
+Summary-mode sessions show a "Summary mode" badge in the detail header that
+links here.
 
 To unlock full transcripts for `.db` and `.pb` sessions alike, run
 [agy-reader](https://github.com/mjacobs/agy-reader) alongside agentsview.

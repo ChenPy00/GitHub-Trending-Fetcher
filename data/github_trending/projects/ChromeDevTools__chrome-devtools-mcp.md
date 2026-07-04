@@ -5,7 +5,7 @@
   "full_name": "ChromeDevTools/chrome-devtools-mcp",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "description": "Chrome DevTools for coding agents",
-  "readme_sha256": "d124b08364b9b1509884b279fca7685241b914bbdc89a1babcecfd8f11c3ff6f"
+  "readme_sha256": "2e6cc38f8961a6175b6f256d2257c0a6a3379c22e1f810fff66b00836b74907a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Description: Chrome DevTools for coding agents
-- README SHA256: `d124b08364b9b1509884b279fca7685241b914bbdc89a1babcecfd8f11c3ff6f`
+- README SHA256: `2e6cc38f8961a6175b6f256d2257c0a6a3379c22e1f810fff66b00836b74907a`
 
 ## README
 
@@ -533,13 +533,14 @@ If you run into any issues, checkout our [troubleshooting guide](./docs/troubles
   - [`take_snapshot`](docs/tool-reference.md#take_snapshot)
   - [`screencast_start`](docs/tool-reference.md#screencast_start)
   - [`screencast_stop`](docs/tool-reference.md#screencast_stop)
-- **Memory** (10 tools)
+- **Memory** (11 tools)
   - [`take_heapsnapshot`](docs/tool-reference.md#take_heapsnapshot)
   - [`close_heapsnapshot`](docs/tool-reference.md#close_heapsnapshot)
   - [`compare_heapsnapshots`](docs/tool-reference.md#compare_heapsnapshots)
   - [`get_heapsnapshot_class_nodes`](docs/tool-reference.md#get_heapsnapshot_class_nodes)
   - [`get_heapsnapshot_details`](docs/tool-reference.md#get_heapsnapshot_details)
   - [`get_heapsnapshot_dominators`](docs/tool-reference.md#get_heapsnapshot_dominators)
+  - [`get_heapsnapshot_duplicate_strings`](docs/tool-reference.md#get_heapsnapshot_duplicate_strings)
   - [`get_heapsnapshot_edges`](docs/tool-reference.md#get_heapsnapshot_edges)
   - [`get_heapsnapshot_retainers`](docs/tool-reference.md#get_heapsnapshot_retainers)
   - [`get_heapsnapshot_retaining_paths`](docs/tool-reference.md#get_heapsnapshot_retaining_paths)

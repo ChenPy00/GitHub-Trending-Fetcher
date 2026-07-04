@@ -5,7 +5,7 @@
   "full_name": "phuryn/pm-skills",
   "url": "https://github.com/phuryn/pm-skills",
   "description": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
-  "readme_sha256": "6d4e42f75aa5ce085702809738da1aefe8d7de2a83c9cc84ad614b03f607e8b5"
+  "readme_sha256": "b24f5bf03cf416cf42e78a34b9f7aa7b44c1c83c55ca959c62b91a03761f5f7f"
 }
 ```
 
@@ -13,13 +13,14 @@
 
 - URL: https://github.com/phuryn/pm-skills
 - Description: PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.
-- README SHA256: `6d4e42f75aa5ce085702809738da1aefe8d7de2a83c9cc84ad614b03f607e8b5`
+- README SHA256: `b24f5bf03cf416cf42e78a34b9f7aa7b44c1c83c55ca959c62b91a03761f5f7f`
 
 ## README
 
 ![GitHub stars](https://img.shields.io/github/stars/phuryn/pm-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/phuryn/pm-skills/blob/main/CONTRIBUTING.md)
+[![Tests](https://github.com/phuryn/pm-skills/actions/workflows/tests.yml/badge.svg)](https://github.com/phuryn/pm-skills/actions/workflows/tests.yml)
 [![Companion: pm-skills](https://img.shields.io/badge/companion-pm--brain-blue)](https://github.com/phuryn/pm-brain)
 [![Companion: burnstop](https://img.shields.io/badge/companion-burnstop-blue)](https://github.com/phuryn/burnstop)
 [![Companion: claude-usage](https://img.shields.io/badge/companion-claude--usage-blue)](https://github.com/phuryn/claude-usage)
@@ -471,7 +472,7 @@ For PMs and founders accountable for AI-built code. AI agents write code fast bu
 - `/document-app` — Reverse-engineer a codebase into the system documents reviewers and auditors need — a core set (architecture, flows, permissions, variables) plus conditional docs (emails, cron, SEO, automation) when they apply
 - `/derive-tests` — Turn documented intent into a test-coverage map: inventory the tests that exist today, separate them from proposed tests and unverified gaps, and recommend a green-before-merge CI gate
 - `/security-audit-static` — Static security audit: map trust boundaries, cross-reference documented intent, self-refute every finding, and report only evidence-backed risks
-- `/performance-audit-static` — Static performance audit: find over-fetching, missing indexes, and caching opportunities, ranked by effort and impact
+- `/performance-audit-static` — Static performance audit: find N+1 queries and request waterfalls, over-fetching, missing indexes, and caching opportunities, ranked by effort and impact
 
 **Examples:**
 

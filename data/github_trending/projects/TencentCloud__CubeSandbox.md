@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/CubeSandbox",
   "url": "https://github.com/TencentCloud/CubeSandbox",
   "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-  "readme_sha256": "d9e825d7294d67525344b92046d7addaa74f8d01e2e0113e74d469e75af0e968"
+  "readme_sha256": "15e1438ad599e57be884a9bc85b9c7f5aa4e8bb7d3eefd9560c7373bac5c38c8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/CubeSandbox
 - Description: Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
-- README SHA256: `d9e825d7294d67525344b92046d7addaa74f8d01e2e0113e74d469e75af0e968`
+- README SHA256: `15e1438ad599e57be884a9bc85b9c7f5aa4e8bb7d3eefd9560c7373bac5c38c8`
 
 ## README
 
@@ -374,6 +374,20 @@ We welcome contributions of all kinds—whether it's a bug report, feature sugge
 - 🛠️ **Want to Code?** Check out our <a href="./CONTRIBUTING.md" target="_blank">CONTRIBUTING.md</a> to learn how to submit a Pull Request.
 - 📝 **Want to contribute docs?** Submit bilingual PRs to our community doc channels: <a href="./docs/guide/troubleshooting/index.md" target="_blank">Troubleshooting</a>, <a href="./docs/guide/usecases/index.md" target="_blank">Use Cases</a>, and <a href="./docs/guide/integrations/index.md" target="_blank">Integrations</a>.
 - 💬 **Want to Chat?** Join our <a href="https://discord.gg/kkapzDXShb" target="_blank">Discord</a>.
+
+## Roadmap
+
+**Coming soon** — see the [full roadmap](./docs/guide/roadmap.md) for details.
+
+| Feature | Description |
+|---|---|
+| **Kubernetes-Native Deployment** | Deploy and operate CubeSandbox entirely within a K8s cluster using CRDs, operators, and native scheduling — no out-of-band orchestration |
+| **Volume Support** | Persistent and shared volume support compatible with the E2B volume protocol |
+| **Cross-Node Pause & Resume** | Suspend a sandbox on one node and resume it on another with full memory and filesystem state preserved |
+| **E2B API Compatibility** | Close remaining gaps with the E2B specification for full drop-in compatibility |
+| **Control Plane / Data Plane Separation** | Decouple the control plane from the data plane so control plane upgrades or failures never affect sandboxes already in flight |
+| **Sandbox Fault Recovery** | Automatic detection and recovery of crashed VMs, stuck shim processes, and network partitions with configurable recovery policies |
+| **Scheduling & Operations Enhancements** | Resource-aware placement, affinity rules, live rebalancing, and node drain with sandbox migration |
 
 ## License
 

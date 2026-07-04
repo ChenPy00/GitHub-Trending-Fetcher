@@ -5,7 +5,7 @@
   "full_name": "alibaba/page-agent",
   "url": "https://github.com/alibaba/page-agent",
   "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-  "readme_sha256": "7d013fc0bee5047603cdbffef012db53b22bdeb5ab0d43cb88b8e3195e6c0f60"
+  "readme_sha256": "d58d11a5014c7791194a7883f53bff2571e5f4698fb3453c6d1c6b8f2fb18bea"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/page-agent
 - Description: JavaScript in-page GUI agent. Control web interfaces with natural language.
-- README SHA256: `7d013fc0bee5047603cdbffef012db53b22bdeb5ab0d43cb88b8e3195e6c0f60`
+- README SHA256: `d58d11a5014c7791194a7883f53bff2571e5f4698fb3453c6d1c6b8f2fb18bea`
 
 ## README
 
@@ -71,8 +71,8 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 | Mirrors | URL                                                                                 |
 | ------- | ----------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.10.0/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.10.0/files/dist/iife/page-agent.demo.js |
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.11.0/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.11.0/files/dist/iife/page-agent.demo.js |
 
 Add `?autoInit=false` to load the script without creating the demo agent automatically. You can then instantiate it with `new window.PageAgent(...)`.
 

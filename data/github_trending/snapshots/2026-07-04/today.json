@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 1,
+      "readme_sha256": "26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 2,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 3,
+      "readme_sha256": "c537811c7f6036c4908ea3c17e6a34696ea2331e03ada557d765f04af9b1ec94",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "Free and Open Source, Distributed, RESTful Search Engine",
+      "full_name": "elastic/elasticsearch",
+      "project_file": "projects/elastic__elasticsearch.md",
+      "rank": 4,
+      "readme_sha256": "08f81c149c32baec7f7bda391d2889413743a69c3a6c1c172786dcd96dad7261",
+      "url": "https://github.com/elastic/elasticsearch"
+    },
+    {
+      "description": "Action for checking out a repo",
+      "full_name": "actions/checkout",
+      "project_file": "projects/actions__checkout.md",
+      "rank": 5,
+      "readme_sha256": "3df94d90d0df6df603a549cc779bc6cab4b21f8deef82eb6fef1f4d88b788174",
+      "url": "https://github.com/actions/checkout"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 6,
+      "readme_sha256": "2e6cc38f8961a6175b6f256d2257c0a6a3379c22e1f810fff66b00836b74907a",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Ansible is a radically simple IT automation platform that makes your applications and systems easier to deploy and maintain. Automate everything from code deployment to network configuration to cloud management, in a language that approaches plain English, using SSH, with no agents to install on remote systems. https://docs.ansible.com .",
+      "full_name": "ansible/ansible",
+      "project_file": "projects/ansible__ansible.md",
+      "rank": 7,
+      "readme_sha256": "a0d060dbbf5cc7d8881761018364e29f9b503a1b1229934d1150563f0773448c",
+      "url": "https://github.com/ansible/ansible"
+    },
+    {
+      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "facebook/astryx",
+      "project_file": "projects/facebook__astryx.md",
+      "rank": 8,
+      "readme_sha256": "4a079beefd74b08f7f61fec59a2f3eb3be53ade2d765d24abd3f5f8726e59407",
+      "url": "https://github.com/facebook/astryx"
+    },
+    {
+      "description": "A beautiful, powerful, self-hosted rom manager and player.",
+      "full_name": "rommapp/romm",
+      "project_file": "projects/rommapp__romm.md",
+      "rank": 9,
+      "readme_sha256": "40f5623ee2aad0c29431e753c9f15fd6e9546565afedb4ff38bbc1e31301ebca",
+      "url": "https://github.com/rommapp/romm"
+    },
+    {
+      "description": "Machine Learning Systems",
+      "full_name": "harvard-edge/cs249r_book",
+      "project_file": "projects/harvard-edge__cs249r_book.md",
+      "rank": 10,
+      "readme_sha256": "f5d0b69b30742fbeb253f7b7be85e957f02a3feb27947050e8a190bd7e6fe772",
+      "url": "https://github.com/harvard-edge/cs249r_book"
+    },
+    {
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "full_name": "pytorch/pytorch",
+      "project_file": "projects/pytorch__pytorch.md",
+      "rank": 11,
+      "readme_sha256": "65a0869b3a00965771662b3fa56975060142a0361e14887e99cc00dad8ea5468",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "description": "Apache Maven core",
+      "full_name": "apache/maven",
+      "project_file": "projects/apache__maven.md",
+      "rank": 12,
+      "readme_sha256": "30774745b5fce44ed13f55245d95203b4da74a5f432324f39312211105403c90",
+      "url": "https://github.com/apache/maven"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 13,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 14,
+      "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 15,
+      "readme_sha256": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Specification and documentation for Agent Skills",
+      "full_name": "agentskills/agentskills",
+      "project_file": "projects/agentskills__agentskills.md",
+      "rank": 16,
+      "readme_sha256": "7ff4a9a612ab21189aa793fd43223bd854280a122ac12ce29f5bea84d5930a1d",
+      "url": "https://github.com/agentskills/agentskills"
+    },
+    {
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "full_name": "supabase/supabase",
+      "project_file": "projects/supabase__supabase.md",
+      "rank": 17,
+      "readme_sha256": "6381696523ff0d9b092703949716cfc24b90271fd3e803ae14fb483574f9ea3f",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "full_name": "TencentCloud/CubeSandbox",
+      "project_file": "projects/TencentCloud__CubeSandbox.md",
+      "rank": 18,
+      "readme_sha256": "15e1438ad599e57be884a9bc85b9c7f5aa4e8bb7d3eefd9560c7373bac5c38c8",
+      "url": "https://github.com/TencentCloud/CubeSandbox"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 19,
+      "readme_sha256": "58084e0c88f23a1a15e7dab3bec6ebf988c7621f58a9c541946e8867b3a2dc7b",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    }
+  ],
+  "snapshot_date": "2026-07-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "kunchenguid/no-mistakes",
   "url": "https://github.com/kunchenguid/no-mistakes",
   "description": "git push no-mistakes",
-  "readme_sha256": "1420eadf11e6cf695f7b2627250d313c3759066221cb136661bec69218d1e179"
+  "readme_sha256": "8d8817cb4235c965a24ff795eaa6e910592b803ec4a41d5e888fc206d5f1abdf"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kunchenguid/no-mistakes
 - Description: git push no-mistakes
-- README SHA256: `1420eadf11e6cf695f7b2627250d313c3759066221cb136661bec69218d1e179`
+- README SHA256: `8d8817cb4235c965a24ff795eaa6e910592b803ec4a41d5e888fc206d5f1abdf`
 
 ## README
 
@@ -41,6 +41,10 @@
   /></a>
 </p>
 
+<p align="center">
+  <a href="https://trendshift.io/repositories/27829?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-27829" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/27829" alt="kunchenguid%2Fno-mistakes | Trendshift" width="250" height="55"/></a>
+</p>
+
 <h3 align="center">Kill all the slop. Raise clean PR.</h3>
 
 <p align="center"><strong>English</strong> · <a href="README.zh-CN.md">简体中文</a></p>
@@ -53,7 +57,7 @@
 Push to `no-mistakes` instead of `origin`, and it spins up a disposable worktree, runs an AI-driven validation pipeline, forwards the branch to the configured push target only after every check passes, and opens a clean PR automatically.
 
 - **Non-blocking** - the pipeline runs in an isolated worktree without disrupting your work.
-- **Agent-agnostic** - `claude`, `codex`, `rovodev`, `opencode`, `pi`, `copilot`, or `acp:<target>` via `acpx`.
+- **Agent-agnostic** - `claude`, `codex`, `rovodev`, `opencode`, `pi`, `copilot`, or `acp:<target>` via `acpx`, with ordered fallbacks.
 - **Agent-native** - `/no-mistakes` lets your coding agent do a task and gate it, or gate existing committed work: it runs the pipeline, has the pipeline apply safe fixes, and escalates the rest to you.
 - **Human stays in charge** - auto-fix or review findings, your call.
 - **Clean PRs by default** - push, open PR, watch CI, and auto-fix failures in one shot.
@@ -66,10 +70,10 @@ Full documentation: <https://kunchenguid.github.io/no-mistakes/>
         your branch
             │  git push no-mistakes
             ▼
-   ┌──────────────────────────────────────────────┐
+   ┌────────────────────────────────────────────────┐
    │  disposable worktree — your work stays put     │
    │  review → test → docs → lint → push → PR → CI  │
-   └──────────────────────────────────────────────┘
+   └────────────────────────────────────────────────┘
             │  every check green
             ▼
         clean PR, opened for you
