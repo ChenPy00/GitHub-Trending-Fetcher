@@ -1,0 +1,185 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 1,
+      "readme_sha256": "26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 2,
+      "readme_sha256": "14f1585c2fa782021c315603b016b63b196af3f210d5e7848ecc75f33d212a89",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 3,
+      "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 4,
+      "readme_sha256": "d5720e2bb8796069ab1c567000f542888fd3fb5ca462c3774c040dea93929014",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 5,
+      "readme_sha256": "c8231f2566acf2da43659fca7968b5118a8c588c635f273ccac15982b5687185",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 6,
+      "readme_sha256": "9e89e7d5d41839cf1d6c561ee8e9a37cf5dfd30add0993d8f4b4680a1525d385",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 7,
+      "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "🧑‍🚀 Authentication and authorization infrastructure for SaaS and AI apps, built on OIDC and OAuth 2.1 with multi-tenancy, SSO, and RBAC.",
+      "full_name": "logto-io/logto",
+      "project_file": "projects/logto-io__logto.md",
+      "rank": 8,
+      "readme_sha256": "6386fb6b534aee11852488647cf0ae27984b1ce53daa4c1f096aad9c18725d04",
+      "url": "https://github.com/logto-io/logto"
+    },
+    {
+      "description": "macOS dictation app",
+      "full_name": "Starmel/OpenSuperWhisper",
+      "project_file": "projects/Starmel__OpenSuperWhisper.md",
+      "rank": 9,
+      "readme_sha256": "107ba51b8332369d18e1909501f9827ac65f8f82ba00163a9ba9716249ca7c03",
+      "url": "https://github.com/Starmel/OpenSuperWhisper"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 10,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 11,
+      "readme_sha256": "58084e0c88f23a1a15e7dab3bec6ebf988c7621f58a9c541946e8867b3a2dc7b",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 12,
+      "readme_sha256": "e8badfbc930869db0d059e19a4d6e97d82f0b4030fece68f4cbeb193c471440e",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Clone any website with one command using AI coding agents",
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "project_file": "projects/JCodesMore__ai-website-cloner-template.md",
+      "rank": 13,
+      "readme_sha256": "632c6a6239d4cca422222608bdddb021eef30111308bc401a17de81941251a69",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 14,
+      "readme_sha256": "f928e096bb1e421f83249680ede372ccad4f23f2b3f7f6938ae2bc4aa410ff9c",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 15,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "full_name": "topoteretes/cognee",
+      "project_file": "projects/topoteretes__cognee.md",
+      "rank": 16,
+      "readme_sha256": "71c25044c108c050c2d29229a6480426a2b2c0e105e5afde40817bb7bc29d2f3",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "description": "AI agent to evaluate and score resumes.",
+      "full_name": "interviewstreet/hiring-agent",
+      "project_file": "projects/interviewstreet__hiring-agent.md",
+      "rank": 17,
+      "readme_sha256": "d0503e4fe7f1880740e5cfb1cb420269edf93b7cb03a53ba9a30a41da2340d62",
+      "url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    {
+      "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+      "full_name": "allenai/olmocr",
+      "project_file": "projects/allenai__olmocr.md",
+      "rank": 18,
+      "readme_sha256": "1383b3f0f5a10cc9a7eebab46e929cddaedf370a80d17b379d21dc380b31ada3",
+      "url": "https://github.com/allenai/olmocr"
+    },
+    {
+      "description": "Apache Maven core",
+      "full_name": "apache/maven",
+      "project_file": "projects/apache__maven.md",
+      "rank": 19,
+      "readme_sha256": "30774745b5fce44ed13f55245d95203b4da74a5f432324f39312211105403c90",
+      "url": "https://github.com/apache/maven"
+    },
+    {
+      "description": "",
+      "full_name": "craft-ai-agents/craft-agents-oss",
+      "project_file": "projects/craft-ai-agents__craft-agents-oss.md",
+      "rank": 20,
+      "readme_sha256": "380047927ef6c78441ca5947da7cbc208fa1d1a6190c3db9199cd356eb0cba8a",
+      "url": "https://github.com/craft-ai-agents/craft-agents-oss"
+    },
+    {
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "project_file": "projects/ZhuLinsen__daily_stock_analysis.md",
+      "rank": 21,
+      "readme_sha256": "3ca83319be1ccd49709704a8a6fced7d338870257dd3ed8a5eb7333212ed051b",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 22,
+      "readme_sha256": "d58d11a5014c7791194a7883f53bff2571e5f4698fb3453c6d1c6b8f2fb18bea",
+      "url": "https://github.com/alibaba/page-agent"
+    }
+  ],
+  "snapshot_date": "2026-07-05",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

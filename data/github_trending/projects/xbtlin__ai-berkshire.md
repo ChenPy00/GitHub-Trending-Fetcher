@@ -5,7 +5,7 @@
   "full_name": "xbtlin/ai-berkshire",
   "url": "https://github.com/xbtlin/ai-berkshire",
   "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-  "readme_sha256": "36b860496b1e318a2f2c4b07fee4a6292f155b82706fc63c1c27cbc0cf978234"
+  "readme_sha256": "14f1585c2fa782021c315603b016b63b196af3f210d5e7848ecc75f33d212a89"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/xbtlin/ai-berkshire
 - Description: AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-- README SHA256: `36b860496b1e318a2f2c4b07fee4a6292f155b82706fc63c1c27cbc0cf978234`
+- README SHA256: `14f1585c2fa782021c315603b016b63b196af3f210d5e7848ecc75f33d212a89`
 
 ## README
 
@@ -31,7 +31,7 @@
 
 一个人 + Claude Code / Codex = 一个投研团队。
 
-[实盘业绩](#real-track-record) · [为什么不能直接问AI](#为什么不能直接问-ai) · [Skills 一览](#skills-一览18个) · [快速开始](#快速开始) · [实战报告](#实战研究报告) · [设计理念](#设计理念)
+[实盘业绩](#real-track-record) · [为什么不能直接问AI](#为什么不能直接问-ai) · [Skills 一览](#skills-一览19个) · [快速开始](#快速开始) · [实战报告](#实战研究报告) · [设计理念](#设计理念)
 
 ---
 
@@ -185,13 +185,13 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 > 图源：[`assets/architecture.mmd`](assets/architecture.mmd)（Mermaid 可编辑源码）
 
 **三层设计哲学**：
-- **Skill 层**：把"你要做什么"抽象成 18 个明确入口——深度研究、财报分析、行业筛选、持仓管理、思维工具，按场景选用
+- **Skill 层**：把"你要做什么"抽象成 19 个明确入口——深度研究、财报分析、行业筛选、持仓管理、思维工具，按场景选用
 - **Agent 层**：每个 skill 内部都是 4 个 Agent 并行——它们各自独立搜索、独立判断、互相挑战，最后由 Team Lead 综合
 - **工具层**：精确计算、实时检索、报告抽检——保证每份报告的数据严谨性可验证
 
 ---
 
-## Skills 一览（18个）
+## Skills 一览（19个）
 
 ### 🔬 深度研究类
 
@@ -226,6 +226,7 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 |-------|------|---------|
 | [`/portfolio-review`](skills/portfolio-review.md) | 组合管理与优化 | 从"研究公司"升级到"管理组合"——仓位、集中度、再平衡 |
 | [`/thesis-tracker`](skills/thesis-tracker.md) | 投资论文追踪 | 买入后的纪律系统：持续跟踪论文是否被证伪 |
+| [`/thesis-drift`](skills/thesis-drift.md) | 投资论文漂移检测 | 对比两份论文/报告，区分事实变化、估值变化与措辞变化 |
 | [`/news-pulse`](skills/news-pulse.md) | 股价异动快速归因 | 股价大涨/大跌时10分钟搞清"发生了什么" |
 
 ### 🧠 思维工具类
@@ -239,6 +240,14 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 ---
 
 ## 快速开始
+
+### 成本与模型选择
+
+深度投研类 Skill 默认会进行多轮研究、交叉验证和多 Agent 综合判断，因此 token 消耗较高，这是为了换取更完整的商业、财务、行业和风险分析。
+
+如果是真实投资决策中高风险、高重要性的判断，维护者的观点是：最强模型通常更可能带来更好的分析 ROI，不建议只为节省模型成本而牺牲关键判断质量。轻量模型更适合做初筛、摘要或低风险问题；涉及护城河、估值、管理层和风险交叉判断时，应预期分析质量会更依赖模型能力。
+
+想控制成本时，优先调整 workflow，而不是期待完整深度研究变得便宜：快速排除公司可先用 [`/quality-screen`](skills/quality-screen.md)，股价异动归因可用 [`/news-pulse`](skills/news-pulse.md)。只有当结果值得继续深入时，再运行 [`/investment-research`](skills/investment-research.md) 或 [`/investment-team`](skills/investment-team.md)。
 
 ### 1. 安装 AI 客户端
 
@@ -284,7 +293,7 @@ claude --dangerously-skip-permissions
 
 ### 2. 安装 Skills
 
-Claude Code 用户安装：
+Claude Code 用户安装（macOS / Linux）：
 
 ```bash
 # 克隆仓库
@@ -295,7 +304,15 @@ cd ai-berkshire
 ./scripts/install-claude-commands.sh
 ```
 
-Codex 用户安装：
+Claude Code 用户安装（Windows PowerShell / Command Prompt）：
+
+```bat
+git clone https://github.com/xbtlin/ai-berkshire.git
+cd ai-berkshire
+.\scripts\install-claude-commands.bat
+```
+
+Codex 用户安装（macOS / Linux）：
 
 ```bash
 # 克隆仓库
@@ -308,6 +325,17 @@ cd ai-berkshire
 # 可选：安装 Codex slash prompts 到 ~/.codex/prompts
 # 用于获得接近 Claude Code 的 /investment-research 体验
 ./scripts/install-codex-prompts.sh
+```
+
+Codex 用户安装（Windows PowerShell / Command Prompt）：
+
+```bat
+git clone https://github.com/xbtlin/ai-berkshire.git
+cd ai-berkshire
+.\scripts\install-codex-skills.bat
+
+REM 可选：安装 Codex slash prompts
+.\scripts\install-codex-prompts.bat
 ```
 
 仓库同时维护三套入口：`skills/*.md` 是 Claude Code command 源文件；`codex-skills/*/SKILL.md` 是 Codex skill 包，由 `scripts/sync-codex-skills.py` 从 `skills/*.md` 生成；`codex-prompts/*.md` 是可选的 Codex slash prompt 兼容层。
@@ -338,6 +366,7 @@ cd ai-berkshire
 # 持仓管理
 /portfolio-review 腾讯30%, 美团20%, 茅台20%, 现金30%
 /thesis-tracker 拼多多
+/thesis-drift 拼多多 reports/拼多多-thesis-2025Q4.md reports/拼多多-thesis-2026Q1.md
 /news-pulse 腾讯
 
 # 思维工具
@@ -352,6 +381,7 @@ cd ai-berkshire
 使用 earnings-review 分析 PDD 2025年报
 使用 industry-funnel 筛选 AI算力
 使用 bottleneck-hunter 扫描 AI基础设施瓶颈
+使用 thesis-drift 对比拼多多两份投资论文
 使用 wechat-article 写美团投研文章
 ```
 

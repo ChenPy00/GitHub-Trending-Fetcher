@@ -1,0 +1,153 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 1,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 2,
+      "readme_sha256": "c537811c7f6036c4908ea3c17e6a34696ea2331e03ada557d765f04af9b1ec94",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 3,
+      "readme_sha256": "d58d11a5014c7791194a7883f53bff2571e5f4698fb3453c6d1c6b8f2fb18bea",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 4,
+      "readme_sha256": "26b6aba5e7d3f91c3f54e4db065e38be478997b9805b56f0c62a9f3d83d4f0e4",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 5,
+      "readme_sha256": "2e6cc38f8961a6175b6f256d2257c0a6a3379c22e1f810fff66b00836b74907a",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 6,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 7,
+      "readme_sha256": "878c6c38eb110c9bc34edf68262d394ecadd125290060c5ed83c0e90b391f760",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Machine Learning Systems",
+      "full_name": "harvard-edge/cs249r_book",
+      "project_file": "projects/harvard-edge__cs249r_book.md",
+      "rank": 8,
+      "readme_sha256": "f5d0b69b30742fbeb253f7b7be85e957f02a3feb27947050e8a190bd7e6fe772",
+      "url": "https://github.com/harvard-edge/cs249r_book"
+    },
+    {
+      "description": "A beautiful, powerful, self-hosted rom manager and player.",
+      "full_name": "rommapp/romm",
+      "project_file": "projects/rommapp__romm.md",
+      "rank": 9,
+      "readme_sha256": "40f5623ee2aad0c29431e753c9f15fd6e9546565afedb4ff38bbc1e31301ebca",
+      "url": "https://github.com/rommapp/romm"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 10,
+      "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 11,
+      "readme_sha256": "1cc8c4b3c1288cd6255dc15b87b96c89b68b108e55c00b6d886bdd415419a009",
+      "url": "https://github.com/dotnet/skills"
+    },
+    {
+      "description": "Specification and documentation for Agent Skills",
+      "full_name": "agentskills/agentskills",
+      "project_file": "projects/agentskills__agentskills.md",
+      "rank": 12,
+      "readme_sha256": "7ff4a9a612ab21189aa793fd43223bd854280a122ac12ce29f5bea84d5930a1d",
+      "url": "https://github.com/agentskills/agentskills"
+    },
+    {
+      "description": "High performance self-hosted photo and video management solution.",
+      "full_name": "immich-app/immich",
+      "project_file": "projects/immich-app__immich.md",
+      "rank": 13,
+      "readme_sha256": "69ab297360bc1cfe10a78542110a176af16c44d6e3437a5fb204a0812bc24f37",
+      "url": "https://github.com/immich-app/immich"
+    },
+    {
+      "description": "专注于绚丽的歌词动画效果的本地音乐/navidrome/第三方网易云播放器",
+      "full_name": "chthollyphile/folia-major",
+      "project_file": "projects/chthollyphile__folia-major.md",
+      "rank": 14,
+      "readme_sha256": "12b4a4d0eb6eaa61e1c785f4cc475616350dc0af31e9b2b9746ee1e9651d43d0",
+      "url": "https://github.com/chthollyphile/folia-major"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 15,
+      "readme_sha256": "a88af1f6b5c67fe78392635f37ff566f292065cb168c874bdb4c118786f960ee",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Unity MCP acts as a bridge between AI assistants and your Unity Editor. Give your LLM tools to manage assets, control scenes, edit scripts, and automate tasks within Unity.",
+      "full_name": "CoplayDev/unity-mcp",
+      "project_file": "projects/CoplayDev__unity-mcp.md",
+      "rank": 16,
+      "readme_sha256": "6da8972f144c9a6fe6374a2f4ebefb2af757588ed6530ecea55d3840ed9f2c34",
+      "url": "https://github.com/CoplayDev/unity-mcp"
+    },
+    {
+      "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "full_name": "alirezarezvani/claude-skills",
+      "project_file": "projects/alirezarezvani__claude-skills.md",
+      "rank": 17,
+      "readme_sha256": "d0d767c8a8c038cf8a4468850d3d0bc8b84c2c5875f73ad30b9d35cac1b102db",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "description": "Lightweight (7MB) Terminal-first AI-native dev workspace",
+      "full_name": "crynta/terax-ai",
+      "project_file": "projects/crynta__terax-ai.md",
+      "rank": 18,
+      "readme_sha256": "4655f596861bc0204d2dd546f8a7c11fba97dc7afb021b59afe4bbf260212eb3",
+      "url": "https://github.com/crynta/terax-ai"
+    }
+  ],
+  "snapshot_date": "2026-07-05",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

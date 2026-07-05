@@ -5,7 +5,7 @@
   "full_name": "Leonxlnx/taste-skill",
   "url": "https://github.com/Leonxlnx/taste-skill",
   "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
-  "readme_sha256": "f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6"
+  "readme_sha256": "a490608cb773c28fa75a3fe2918e847b9eb5c30f0c2ba300b795eb6c273494a7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Leonxlnx/taste-skill
 - Description: Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop
-- README SHA256: `f51f773274af8cf72824a3a2f75961d1704bb4dabde5a3c5cf0d6471d4cb7ce6`
+- README SHA256: `a490608cb773c28fa75a3fe2918e847b9eb5c30f0c2ba300b795eb6c273494a7`
 
 ## README
 
@@ -33,9 +33,16 @@
 
 <h3 align="center">Sponsors</h3>
 
-<p align="center"><a href="https://animations.dev"><img src="assets/sponsors/animations-dev.webp" alt="animations.dev" width="62" height="62" valign="middle" /></a><sub><a href="https://github.com/emilkowalski"><strong>Emil Kowalski</strong></a> · <a href="https://animations.dev">animations.dev</a></sub></p>
-
-<p align="center"><a href="https://vercel.com/open-source-program"><img alt="Vercel OSS Program" src="assets/vercel-oss-program-badge.svg" height="24" /></a></p>
+<table align="center">
+  <tr>
+    <td align="center" width="76"><a href="https://animations.dev"><img src="assets/sponsors/animations-dev.webp" alt="animations.dev" width="62" height="62" /></a></td>
+    <td><sub><a href="https://github.com/emilkowalski"><strong>Emil Kowalski</strong></a> · <a href="https://animations.dev">animations.dev</a></sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="76"><a href="https://vercel.com/open-source-program"><img src="assets/sponsors/vercel-logo.svg" alt="Vercel" width="62" height="62" /></a></td>
+    <td><a href="https://vercel.com/open-source-program"><img src="assets/vercel-oss-program-badge.svg" alt="Vercel Open Source Program" height="32" /></a></td>
+  </tr>
+</table>
 
 <p align="center"><sub><a href="https://github.com/sponsors/Leonxlnx">Become a sponsor</a></sub></p>
 

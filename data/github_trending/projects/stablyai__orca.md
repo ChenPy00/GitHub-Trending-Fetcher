@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-  "readme_sha256": "8b7c3b7a3938b8cc66c6c8f37e7c27d19a1a7d07d9361fc1fe5b50efde54be6a"
+  "readme_sha256": "f928e096bb1e421f83249680ede372ccad4f23f2b3f7f6938ae2bc4aa410ff9c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.
-- README SHA256: `8b7c3b7a3938b8cc66c6c8f37e7c27d19a1a7d07d9361fc1fe5b50efde54be6a`
+- README SHA256: `f928e096bb1e421f83249680ede372ccad4f23f2b3f7f6938ae2bc4aa410ff9c`
 
 ## README
 
@@ -31,7 +31,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="docs/readme/README.es.md">Español</a> · <a href="docs/readme/README.zh-CN.md">中文</a> · <a href="docs/readme/README.ja.md">日本語</a> · <a href="docs/readme/README.ko.md">한국어</a></sub>
+  <sub><a href="docs/readme/README.es.md">Español</a> · <a href="docs/readme/README.pt.md">Português</a> · <a href="docs/readme/README.zh-CN.md">中文</a> · <a href="docs/readme/README.ja.md">日本語</a> · <a href="docs/readme/README.ko.md">한국어</a></sub>
 </p>
 
 <p align="center">
@@ -55,7 +55,7 @@
 
 Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.
 
-[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.21](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.21/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
+[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.22](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.22/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
 
 </td>
 <td width="50%">
@@ -249,7 +249,7 @@ yay -S stably-orca-bin
 Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) or [join TestFlight](https://testflight.apple.com/join/YjeGMQBA)
-- **Android:** [Download APK 0.0.21](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.21/app-release.apk)
+- **Android:** [Download APK 0.0.22](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.22/app-release.apk)
 
 ---
 
@@ -274,6 +274,10 @@ Want to contribute or run locally? See our [CONTRIBUTING.md](.github/CONTRIBUTIN
 <a href="https://github.com/stablyai/orca/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=stablyai/orca" alt="Orca contributors" />
 </a>
+
+<p align="center">
+  <img src="docs/assets/star-history.png" alt="GitHub star history chart for stablyai/orca" width="880" />
+</p>
 
 ## License
 
