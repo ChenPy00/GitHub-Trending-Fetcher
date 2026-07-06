@@ -5,7 +5,7 @@
   "full_name": "xbtlin/ai-berkshire",
   "url": "https://github.com/xbtlin/ai-berkshire",
   "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-  "readme_sha256": "14f1585c2fa782021c315603b016b63b196af3f210d5e7848ecc75f33d212a89"
+  "readme_sha256": "3991f3c6f2d507d4b7472976335a72530f42cf17e2ce6de817e274572cc71a15"
 }
 ```
 
@@ -13,11 +13,11 @@
 
 - URL: https://github.com/xbtlin/ai-berkshire
 - Description: AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-- README SHA256: `14f1585c2fa782021c315603b016b63b196af3f210d5e7848ecc75f33d212a89`
+- README SHA256: `3991f3c6f2d507d4b7472976335a72530f42cf17e2ce6de817e274572cc71a15`
 
 ## README
 
-中文 | [English](README_EN.md)
+中文 | [English](README_EN.md) | [日本語](README_JA.md)
 
 [![GitHub Trending](https://trendshift.io/api/badge/repositories/63696)](https://trendshift.io/repositories/63696)
 
@@ -31,7 +31,7 @@
 
 一个人 + Claude Code / Codex = 一个投研团队。
 
-[实盘业绩](#real-track-record) · [为什么不能直接问AI](#为什么不能直接问-ai) · [Skills 一览](#skills-一览19个) · [快速开始](#快速开始) · [实战报告](#实战研究报告) · [设计理念](#设计理念)
+[实盘业绩](#real-track-record) · [为什么不能直接问AI](#为什么不能直接问-ai) · [Skills 一览](#skills-一览19个) · [快速开始](#快速开始) · [实战报告](#实战研究报告) · [设计理念](#设计理念) · [公众号](#精选研究首发于公众号)
 
 ---
 
@@ -64,6 +64,14 @@
 **两年累计实盘收益超 146万元**，连续两年大幅跑赢全球主要指数。
 
 > *免责声明：历史收益不代表未来表现。截图来自富途证券真实账户。*
+
+### 精选研究首发于公众号
+
+仓库里是完整的框架和全量报告，公众号里是**精选**——真正值得下注的公司深度研究，加上报告之外我自己的判断与取舍：
+
+<img src="assets/wechat-qr.png" width="160" alt="微信公众号：复利炼丹炉" />
+
+**复利炼丹炉** —— 用 AI 炼投研这颗丹。
 
 ---
 
@@ -157,18 +165,9 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 
 一个人直接问AI，上下文窗口是一个。4个Agent并行，等于4倍的搜索量、4倍的信息源、4个独立视角。
 
-```
-┌─────────────────────────────────────────────┐
-│              Team Lead (你)                  │
-│         统筹协调 · 汇总研判                  │
-├──────┬──────┬──────────┬───────────┤
-│ Agent 1    │ Agent 2    │ Agent 3        │ Agent 4         │
-│ 商业模式   │ 财务估值    │ 行业竞争       │ 风险管理层       │
-│ 段永平视角 │ 巴菲特视角  │ 芒格视角       │ 李录视角         │
-└──────┴──────┴──────────┴───────────┘
-        ↓ 并行研究，实时汇报进度 ↓
-              最终综合报告
-```
+<p align="center">
+  <img src="assets/team-core.svg" alt="Team Lead 并行调度四大师 Agent" width="720" />
+</p>
 
 ### 一句话总结
 
@@ -179,14 +178,13 @@ AI Berkshire 确保：**同样的输入 → 结构一致、深度一致的输出
 ## 整体架构
 
 <p align="center">
-  <img src="assets/architecture.png" alt="AI Berkshire 整体架构" width="600" />
+  <img src="assets/architecture.svg" alt="AI Berkshire 整体架构" width="760" />
 </p>
 
-> 图源：[`assets/architecture.mmd`](assets/architecture.mmd)（Mermaid 可编辑源码）
 
 **三层设计哲学**：
 - **Skill 层**：把"你要做什么"抽象成 19 个明确入口——深度研究、财报分析、行业筛选、持仓管理、思维工具，按场景选用
-- **Agent 层**：每个 skill 内部都是 4 个 Agent 并行——它们各自独立搜索、独立判断、互相挑战，最后由 Team Lead 综合
+- **Agent 层**：团队型 skill（如 `/investment-team`、`/earnings-team`）由 Team Lead 并行调度 4 个大师视角 Agent——各自独立搜索、独立判断、互相挑战，最后综合研判；轻量 skill 不经过这一层，直连工具快进快出
 - **工具层**：精确计算、实时检索、报告抽检——保证每份报告的数据严谨性可验证
 
 ---
@@ -674,23 +672,11 @@ REM 可选：安装 Codex slash prompts
 
 ### 四大师方法论融合
 
-```
-              ┌──────────────────┐
-              │    段永平         │
-              │  "对的生意"       │
-              │  商业模式本质      │
-              └────────┬─────────┘
-                       │
-    ┌──────────────────┼──────────────────┐
-    │                  │                  │
-    ▼                  ▼                  ▼
-┌────────┐     ┌──────────┐      ┌────────┐
-│ 巴菲特  │     │   芒格    │      │  李录   │
-│ 护城河  │     │ 逆向思考  │      │ 文明趋势│
-│ 安全边际│     │ 风险清单  │      │ 范式转移│
-│ 管理层  │     │ 偏误自查  │      │ 产业价值│
-└────────┘     └──────────┘      └────────┘
-```
+**段永平 · "对的生意"**——商业模式本质，是其余三个视角的共同起点：
+
+| 巴菲特 | 芒格 | 李录 |
+|:---:|:---:|:---:|
+| 护城河<br>安全边际<br>管理层 | 逆向思考<br>风险清单<br>偏误自查 | 文明趋势<br>范式转移<br>产业价值 |
 
 四位大师不是简单的分工，而是设计来**互相挑战**的：
 - 段永平说"好生意"，芒格会问"怎么会死"
@@ -738,6 +724,6 @@ MIT License
 
 ## Star History
 
-如果这个项目对你有帮助，请给一个 Star 支持！
+如果这个项目对你有帮助，请给一个 Star 支持！精选公司研究与个人判断首发于微信公众号「**复利炼丹炉**」（二维码见[文首](#精选研究首发于公众号)）。
 
 [![Star History Chart](https://api.star-history.com/svg?repos=xbtlin/ai-berkshire&type=Date)](https://star-history.com/#xbtlin/ai-berkshire&Date)

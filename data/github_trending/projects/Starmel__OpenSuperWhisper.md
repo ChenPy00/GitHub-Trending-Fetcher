@@ -5,7 +5,7 @@
   "full_name": "Starmel/OpenSuperWhisper",
   "url": "https://github.com/Starmel/OpenSuperWhisper",
   "description": "macOS dictation app",
-  "readme_sha256": "107ba51b8332369d18e1909501f9827ac65f8f82ba00163a9ba9716249ca7c03"
+  "readme_sha256": "3b3c9bdefd3787387e65524bfe48946cd9f7fd838d537adbba4e39e6b0ff19b4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Starmel/OpenSuperWhisper
 - Description: macOS dictation app
-- README SHA256: `107ba51b8332369d18e1909501f9827ac65f8f82ba00163a9ba9716249ca7c03`
+- README SHA256: `3b3c9bdefd3787387e65524bfe48946cd9f7fd838d537adbba4e39e6b0ff19b4`
 
 ## README
 
@@ -30,7 +30,8 @@ OpenSuperWhisper is a macOS application that provides real-time audio transcript
 - 🎙️ Real-time audio recording and transcription
 - 🧠 Two transcription engines: [Whisper](https://github.com/ggerganov/whisper.cpp) and [Parakeet](https://github.com/AntinomyCollective/FluidAudio) — download models directly from the app
 - ⌨️ Global keyboard shortcuts — key combination or single modifier key (e.g. Left ⌘, Right ⌥, Fn)
-- ✊ Hold-to-record mode — hold the shortcut to record, release to stop
+- 🖱️ Mouse button trigger — bind the middle or an extra (thumb) mouse button to start/stop recording
+- ✊ Hold-to-record mode — hold the shortcut, modifier key or mouse button to record, release to stop
 - 📁 Drag & drop audio files for transcription with queue processing
 - 🎤 Microphone selection — switch between built-in, external, Bluetooth and iPhone (Apple Continuity) mics from the menu bar
 - 🌍 Support for multiple languages with auto-detection
