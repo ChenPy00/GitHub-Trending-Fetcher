@@ -5,7 +5,7 @@
   "full_name": "Robbyant/lingbot-map",
   "url": "https://github.com/Robbyant/lingbot-map",
   "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-  "readme_sha256": "d5720e2bb8796069ab1c567000f542888fd3fb5ca462c3774c040dea93929014"
+  "readme_sha256": "46de73dd86fc30af5332e751e82d90526b6180b75b592eb4128d40b08083274f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Robbyant/lingbot-map
 - Description: A feed-forward 3D foundation model for reconstructing scenes from streaming data
-- README SHA256: `d5720e2bb8796069ab1c567000f542888fd3fb5ca462c3774c040dea93929014`
+- README SHA256: `46de73dd86fc30af5332e751e82d90526b6180b75b592eb4128d40b08083274f`
 
 ## README
 
@@ -153,8 +153,8 @@ pip install -e ".[vis]"
 
 | Model Name | Huggingface Repository | ModelScope Repository | Description |
 | :--- | :--- | :--- | :--- |
-| lingbot-map-long | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Better suited for long sequences and large scale scenes (Recommend). |
-| lingbot-map | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Balanced checkpoint — trade off all-around performance across short and long sequences. |
+| lingbot-map-long | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Better suited for long sequences and large scale scenes. |
+| lingbot-map | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Balanced checkpoint (used in paper, benchmark and offline demo) — trade off all-around performance across short and long sequences. |
 | lingbot-map-stage1 | [robbyant/lingbot-map](https://huggingface.co/robbyant/lingbot-map) | [Robbyant/lingbot-map](https://www.modelscope.cn/models/Robbyant/lingbot-map) | Stage-1 training checkpoint of lingbot-map — can be loaded into the VGGT model for bidirectional inference (c2w). |
 
 > 🚧 **Coming soon:** we're training an stronger model that supports longer sequences — stay tuned.

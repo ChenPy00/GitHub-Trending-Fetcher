@@ -5,7 +5,7 @@
   "full_name": "ChromeDevTools/chrome-devtools-mcp",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "description": "Chrome DevTools for coding agents",
-  "readme_sha256": "2e6cc38f8961a6175b6f256d2257c0a6a3379c22e1f810fff66b00836b74907a"
+  "readme_sha256": "be64a1209e41f7385988b41ef33d97b55041e5b5ce7123e0afc0928fd0734fd0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Description: Chrome DevTools for coding agents
-- README SHA256: `2e6cc38f8961a6175b6f256d2257c0a6a3379c22e1f810fff66b00836b74907a`
+- README SHA256: `be64a1209e41f7385988b41ef33d97b55041e5b5ce7123e0afc0928fd0734fd0`
 
 ## README
 
@@ -350,6 +350,16 @@ Alternatively, follow the <a href="https://github.com/google-gemini/gemini-cli/b
   <summary>Gemini Code Assist</summary>
   Follow the <a href="https://cloud.google.com/gemini/docs/codeassist/use-agentic-chat-pair-programmer#configure-mcp-servers">configure MCP guide</a>
   using the standard config from above.
+</details>
+
+<details>
+  <summary>Grok Build CLI</summary>
+
+```bash
+grok mcp add chrome-devtools npx chrome-devtools-mcp@latest
+```
+
+See the <a href="https://docs.x.ai/build/features/skills-plugins-marketplaces">docs</a> for more options
 </details>
 
 <details>

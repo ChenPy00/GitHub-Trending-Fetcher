@@ -5,7 +5,7 @@
   "full_name": "immich-app/immich",
   "url": "https://github.com/immich-app/immich",
   "description": "High performance self-hosted photo and video management solution.",
-  "readme_sha256": "69ab297360bc1cfe10a78542110a176af16c44d6e3437a5fb204a0812bc24f37"
+  "readme_sha256": "cd67d01f164a3f2b3ba1a8c43700a7154140a10f6fdf76d7e75cba5dc718fa2b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/immich-app/immich
 - Description: High performance self-hosted photo and video management solution.
-- README SHA256: `69ab297360bc1cfe10a78542110a176af16c44d6e3437a5fb204a0812bc24f37`
+- README SHA256: `cd67d01f164a3f2b3ba1a8c43700a7154140a10f6fdf76d7e75cba5dc718fa2b`
 
 ## README
 
@@ -56,6 +56,7 @@
   <a href="readme_i18n/README_ar_JO.md">العربية</a>
   <a href="readme_i18n/README_vi_VN.md">Tiếng Việt</a>
   <a href="readme_i18n/README_th_TH.md">ภาษาไทย</a>
+  <a href="readme_i18n/README_ml_IN.md">മലയാളം</a>
 </p>
 
 

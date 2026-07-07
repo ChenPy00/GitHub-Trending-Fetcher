@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-  "readme_sha256": "f928e096bb1e421f83249680ede372ccad4f23f2b3f7f6938ae2bc4aa410ff9c"
+  "readme_sha256": "0b7ecbef0cc2dfd3a61b120fa61e698a5d2e417a0b6b9e7b36631621b41e0437"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.
-- README SHA256: `f928e096bb1e421f83249680ede372ccad4f23f2b3f7f6938ae2bc4aa410ff9c`
+- README SHA256: `0b7ecbef0cc2dfd3a61b120fa61e698a5d2e417a0b6b9e7b36631621b41e0437`
 
 ## README
 
@@ -55,7 +55,7 @@
 
 Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.
 
-[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.22](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.22/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
+[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.24](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.24/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
 
 </td>
 <td width="50%">
@@ -249,7 +249,7 @@ yay -S stably-orca-bin
 Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) or [join TestFlight](https://testflight.apple.com/join/YjeGMQBA)
-- **Android:** [Download APK 0.0.22](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.22/app-release.apk)
+- **Android:** [Download APK 0.0.24](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.24/app-release.apk)
 
 ---
 

@@ -1,0 +1,177 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 1,
+      "readme_sha256": "c9837c759cf9bd026e4352cf24709572d13a2f4deca2cd67b5235f273eb76ffc",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "A comprehensive dataset of 433 fitness exercises. Each entry includes name, category, target muscle group, equipment, instructions, thumbnail image, and animation video.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 2,
+      "readme_sha256": "72d9fe1bdd7b552d6ea98165200f721f43af6cba00543527252801c12d5302f3",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 3,
+      "readme_sha256": "d0f865e8c4c551608d9f3af755c8ea988c86b1b64238a0dc426d7cf5df90acb9",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 4,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 5,
+      "readme_sha256": "f6a40478896a674be5b5bfe4fe0cff425df5f05121eafeffa1c5bcc2490eea6d",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 6,
+      "readme_sha256": "39f59387e900f2497b39f5e0f9705213c9d79b1d3808e1c64f0ed79cd94cc179",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
+      "full_name": "xbtlin/ai-berkshire",
+      "project_file": "projects/xbtlin__ai-berkshire.md",
+      "rank": 7,
+      "readme_sha256": "3991f3c6f2d507d4b7472976335a72530f42cf17e2ce6de817e274572cc71a15",
+      "url": "https://github.com/xbtlin/ai-berkshire"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 8,
+      "readme_sha256": "a0fcf4b1e68c631a9178b447758cf046cc31eae6b996697c849326ec9fc513fb",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 9,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 10,
+      "readme_sha256": "46de73dd86fc30af5332e751e82d90526b6180b75b592eb4128d40b08083274f",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "Build local voice agents with open-source models",
+      "full_name": "huggingface/speech-to-speech",
+      "project_file": "projects/huggingface__speech-to-speech.md",
+      "rank": 11,
+      "readme_sha256": "1de8ac1f09a1718a904b7be04c5ea9f3b2a5e25099502121a8ada6f1b2b8d014",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    },
+    {
+      "description": "Toolkit for linearizing PDFs for LLM datasets/training",
+      "full_name": "allenai/olmocr",
+      "project_file": "projects/allenai__olmocr.md",
+      "rank": 12,
+      "readme_sha256": "1383b3f0f5a10cc9a7eebab46e929cddaedf370a80d17b379d21dc380b31ada3",
+      "url": "https://github.com/allenai/olmocr"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 13,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "macOS dictation app",
+      "full_name": "Starmel/OpenSuperWhisper",
+      "project_file": "projects/Starmel__OpenSuperWhisper.md",
+      "rank": 14,
+      "readme_sha256": "b3bcd263bf8b01b41bf32851bc0e91a7b43f7631ede54e038511b023e8b389c7",
+      "url": "https://github.com/Starmel/OpenSuperWhisper"
+    },
+    {
+      "description": "High performance self-hosted photo and video management solution.",
+      "full_name": "immich-app/immich",
+      "project_file": "projects/immich-app__immich.md",
+      "rank": 15,
+      "readme_sha256": "cd67d01f164a3f2b3ba1a8c43700a7154140a10f6fdf76d7e75cba5dc718fa2b",
+      "url": "https://github.com/immich-app/immich"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 16,
+      "readme_sha256": "2b6cf4b7b556bcdad63080e593e06fddd2d9f2bc742d4d0cf7aa3c72f1adcee8",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 17,
+      "readme_sha256": "c537811c7f6036c4908ea3c17e6a34696ea2331e03ada557d765f04af9b1ec94",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 18,
+      "readme_sha256": "9e89e7d5d41839cf1d6c561ee8e9a37cf5dfd30add0993d8f4b4680a1525d385",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 19,
+      "readme_sha256": "0b7ecbef0cc2dfd3a61b120fa61e698a5d2e417a0b6b9e7b36631621b41e0437",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 20,
+      "readme_sha256": "be64a1209e41f7385988b41ef33d97b55041e5b5ce7123e0afc0928fd0734fd0",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Clone any website with one command using AI coding agents",
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "project_file": "projects/JCodesMore__ai-website-cloner-template.md",
+      "rank": 21,
+      "readme_sha256": "632c6a6239d4cca422222608bdddb021eef30111308bc401a17de81941251a69",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    }
+  ],
+  "snapshot_date": "2026-07-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -4,16 +4,16 @@
   "name": "claude-skills",
   "full_name": "alirezarezvani/claude-skills",
   "url": "https://github.com/alirezarezvani/claude-skills",
-  "description": "337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
-  "readme_sha256": "46c6e13d91545ae58c5b71b312200149fbdd87c75f3c613d1b96ccb4d587871b"
+  "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+  "readme_sha256": "a71a2913f79cf0425656bb1a81a4691520cdf1d976a3063baf4133c0be26dc89"
 }
 ```
 
 # alirezarezvani/claude-skills
 
 - URL: https://github.com/alirezarezvani/claude-skills
-- Description: 337 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.
-- README SHA256: `46c6e13d91545ae58c5b71b312200149fbdd87c75f3c613d1b96ccb4d587871b`
+- Description: 345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.
+- README SHA256: `a71a2913f79cf0425656bb1a81a4691520cdf1d976a3063baf4133c0be26dc89`
 
 ## README
 
@@ -30,9 +30,9 @@ The most comprehensive open-source library of Claude Code skills and agent plugi
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Skills](https://img.shields.io/badge/Skills-355-brightgreen?style=for-the-badge)](#skills-overview)
-[![Agents](https://img.shields.io/badge/Agents-97-blue?style=for-the-badge)](#agents)
+[![Agents](https://img.shields.io/badge/Agents-99-blue?style=for-the-badge)](#agents)
 [![Personas](https://img.shields.io/badge/Personas-7-purple?style=for-the-badge)](#personas)
-[![Commands](https://img.shields.io/badge/Commands-103-orange?style=for-the-badge)](#commands)
+[![Commands](https://img.shields.io/badge/Commands-109-orange?style=for-the-badge)](#commands)
 [![Stars](https://img.shields.io/github/stars/alirezarezvani/claude-skills?style=for-the-badge)](https://github.com/alirezarezvani/claude-skills/stargazers)
 [![SkillCheck Validated](https://img.shields.io/badge/SkillCheck-Validated-4c1?style=for-the-badge)](https://getskillcheck.com)
 

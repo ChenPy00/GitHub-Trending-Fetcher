@@ -5,7 +5,7 @@
   "full_name": "t8y2/dbx",
   "url": "https://github.com/t8y2/dbx",
   "description": "20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
-  "readme_sha256": "e08948b0fec6583c5e464da99158f1ded1f7f94b3126747014775893384375fa"
+  "readme_sha256": "a96973eefb5f05103233430420c9e1887f8c8ce612563674fbe091fc7c932858"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/t8y2/dbx
 - Description: 20MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.20MB，轻量级跨平台数据库客户端、数据库管理工具。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。
-- README SHA256: `e08948b0fec6583c5e464da99158f1ded1f7f94b3126747014775893384375fa`
+- README SHA256: `a96973eefb5f05103233430420c9e1887f8c8ce612563674fbe091fc7c932858`
 
 ## README
 
@@ -21,7 +21,7 @@
   <p style="font-size: 18px; white-space: nowrap;"><strong>60+ databases in 20 MB. Desktop & Docker self-hosting, with built-in AI assistant.</strong></p>
 
   <p>
-    <img src="https://dl.dbxio.com/assets/readme-hero-20260517.png" alt="DBX screenshot" width="820" />
+    <img src="https://dl.dbxio.com/assets/readme-hero-20260707.png" alt="DBX screenshot" width="820" />
   </p>
 
   <p>

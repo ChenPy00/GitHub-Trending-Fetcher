@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "0e0d00dd12f223decbc91efbd541bf265184891acc6bde2d5c408478e14da5ca"
+  "readme_sha256": "6f8cd1f9177f896dbc9b3af4acb9b03899c8262e119e03fde6acf2f28ba1ab19"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `0e0d00dd12f223decbc91efbd541bf265184891acc6bde2d5c408478e14da5ca`
+- README SHA256: `6f8cd1f9177f896dbc9b3af4acb9b03899c8262e119e03fde6acf2f28ba1ab19`
 
 ## README
 
@@ -60,6 +60,23 @@ Skills also activate automatically based on what you're doing — designing an A
 ---
 
 ## Quick Start
+
+**Fastest path — any agent, one command.** The open [skills CLI](https://github.com/vercel-labs/skills) installs into 70+ agents (Claude Code, Cursor, Codex, Copilot, Cline, and more):
+
+```bash
+npx skills add addyosmani/agent-skills            # install all 24 skills
+npx skills add addyosmani/agent-skills --list     # browse before installing
+```
+
+Or grab individual skills:
+
+```bash
+npx skills add addyosmani/agent-skills --skill code-review-and-quality   # five-axis review before merge
+npx skills add addyosmani/agent-skills --skill interview-me              # requirements interrogation, one question at a time
+npx skills add addyosmani/agent-skills --skill test-driven-development   # red-green-refactor, enforced
+```
+
+Prefer a native integration? Pick your tool below.
 
 <details>
 <summary><b>Claude Code (recommended)</b></summary>

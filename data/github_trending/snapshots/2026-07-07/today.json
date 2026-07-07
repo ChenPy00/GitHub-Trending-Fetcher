@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 1,
+      "readme_sha256": "a6b10cdb27892822775e130c29597f5a42deed652ce3913f75e8bb4220da63ad",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "6f8cd1f9177f896dbc9b3af4acb9b03899c8262e119e03fde6acf2f28ba1ab19",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 3,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 4,
+      "readme_sha256": "e78642b8bc3a4efd385200f11123a858a93849f33aa9b4982bd6c67d608ae06c",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 5,
+      "readme_sha256": "a490608cb773c28fa75a3fe2918e847b9eb5c30f0c2ba300b795eb6c273494a7",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "full_name": "alirezarezvani/claude-skills",
+      "project_file": "projects/alirezarezvani__claude-skills.md",
+      "rank": 6,
+      "readme_sha256": "a71a2913f79cf0425656bb1a81a4691520cdf1d976a3063baf4133c0be26dc89",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 7,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 8,
+      "readme_sha256": "cd87539cd2dd12c69541418c442b8208640401a64b03c68eeb5af9a79cb2ac07",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 9,
+      "readme_sha256": "39f59387e900f2497b39f5e0f9705213c9d79b1d3808e1c64f0ed79cd94cc179",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 10,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "description": "A self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search",
+      "full_name": "karakeep-app/karakeep",
+      "project_file": "projects/karakeep-app__karakeep.md",
+      "rank": 11,
+      "readme_sha256": "6c7bea8dd6e686cf7eea1d6a3933ba411b60a48d2bc9157c3d91762667497bba",
+      "url": "https://github.com/karakeep-app/karakeep"
+    },
+    {
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
+      "full_name": "firecrawl/firecrawl",
+      "project_file": "projects/firecrawl__firecrawl.md",
+      "rank": 12,
+      "readme_sha256": "25476cb981dce4618e947fd27ad64be2b5434865ad18f0eff54069849b33a324",
+      "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "full_name": "steipete/CodexBar",
+      "project_file": "projects/steipete__CodexBar.md",
+      "rank": 13,
+      "readme_sha256": "fca9ff8ef4b036f434945d7d2ad786fbe69102033e66c32f5061c1ea2adae761",
+      "url": "https://github.com/steipete/CodexBar"
+    },
+    {
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "full_name": "alibaba/zvec",
+      "project_file": "projects/alibaba__zvec.md",
+      "rank": 14,
+      "readme_sha256": "1806c29a151d2da7a908fe56b54de6150f65f59546fdad620bbe28699f2acf4e",
+      "url": "https://github.com/alibaba/zvec"
+    },
+    {
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "full_name": "sindresorhus/awesome",
+      "project_file": "projects/sindresorhus__awesome.md",
+      "rank": 15,
+      "readme_sha256": "826d182493234eddd16701a249ea4583176fe3b749fbf50bb0babf2235b69982",
+      "url": "https://github.com/sindresorhus/awesome"
+    },
+    {
+      "description": "Gas Town - multi-agent workspace manager",
+      "full_name": "gastownhall/gastown",
+      "project_file": "projects/gastownhall__gastown.md",
+      "rank": 16,
+      "readme_sha256": "76b6fb3b378f3c1186d9c9155b3ea5899842b0644e245a8cfde3c670ef081062",
+      "url": "https://github.com/gastownhall/gastown"
+    }
+  ],
+  "snapshot_date": "2026-07-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

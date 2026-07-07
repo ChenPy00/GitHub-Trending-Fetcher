@@ -4,16 +4,16 @@
   "name": "FluidVoice",
   "full_name": "altic-dev/FluidVoice",
   "url": "https://github.com/altic-dev/FluidVoice",
-  "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS waitlist open! Linux coming soon.",
-  "readme_sha256": "132923153c5121bf91d90ce257d62c264d164b69c4f0fec59fe69c0f9e6ca149"
+  "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+  "readme_sha256": "f6a40478896a674be5b5bfe4fe0cff425df5f05121eafeffa1c5bcc2490eea6d"
 }
 ```
 
 # altic-dev/FluidVoice
 
 - URL: https://github.com/altic-dev/FluidVoice
-- Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model - Local Wispr Flow alternative. One ⭐ takes us a long way :)) Windows, iOS waitlist open! Linux coming soon.
-- README SHA256: `132923153c5121bf91d90ce257d62c264d164b69c4f0fec59fe69c0f9e6ca149`
+- Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.
+- README SHA256: `f6a40478896a674be5b5bfe4fe0cff425df5f05121eafeffa1c5bcc2490eea6d`
 
 ## README
 
@@ -37,6 +37,7 @@ Open source voice-to-text dictation app for macOS with on-device AI enhancement.
 
 > [!NOTE]
 > FluidVoice is on macOS today. **iOS and Windows are on the way** — join the waitlist to get notified when we launch: **[altic.dev/fluid/waitlist](https://www.altic.dev/fluid/waitlist)**
+
 
 > [!IMPORTANT]
 > This project is free and open source under GPLv3. If FluidVoice is useful to you, please star the repository — it helps visibility and keeps development going.
@@ -235,10 +236,10 @@ open Fluid.xcodeproj
 
 Build and run in Xcode. All dependencies are managed via Swift Package Manager.
 
-### Build Only (No Signing)
+Run the build using the script: `./build.sh`
 
 ```bash
-xcodebuild -project Fluid.xcodeproj -scheme Fluid -destination 'platform=macOS' build CODE_SIGNING_ALLOWED=NO
+./build.sh
 ```
 
 ---

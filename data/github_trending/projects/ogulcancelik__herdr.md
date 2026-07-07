@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b"
+  "readme_sha256": "39f59387e900f2497b39f5e0f9705213c9d79b1d3808e1c64f0ed79cd94cc179"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `b30071d1056f312928f89b63dd1030c1fccdb370c819ff877fb7b2c2f6816f1b`
+- README SHA256: `39f59387e900f2497b39f5e0f9705213c9d79b1d3808e1c64f0ed79cd94cc179`
 
 ## README
 
@@ -193,13 +193,3 @@ Herdr is dual-licensed:
 2. Commercial: commercial licenses are available for organizations that cannot comply with AGPL.
 
 Contact: hey@herdr.dev
-
-## mandatory star history
-
-<a href="https://www.star-history.com/?repos=ogulcancelik%2Fherdr&type=date&legend=top-left">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ogulcancelik/herdr&type=date&theme=dark&legend=top-left&v=2026-05-19" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ogulcancelik/herdr&type=date&legend=top-left&v=2026-05-19" />
-   <img alt="star history chart" src="https://api.star-history.com/chart?repos=ogulcancelik/herdr&type=date&legend=top-left&v=2026-05-19" />
- </picture>
-</a>
