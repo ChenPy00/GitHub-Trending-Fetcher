@@ -5,7 +5,7 @@
   "full_name": "alibaba/zvec",
   "url": "https://github.com/alibaba/zvec",
   "description": "A lightweight, lightning-fast, in-process vector database",
-  "readme_sha256": "1806c29a151d2da7a908fe56b54de6150f65f59546fdad620bbe28699f2acf4e"
+  "readme_sha256": "26af6a316def13ea0514dbfd14bb70b61a092cd1d1acebedcef2c0507316e674"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/zvec
 - Description: A lightweight, lightning-fast, in-process vector database
-- README SHA256: `1806c29a151d2da7a908fe56b54de6150f65f59546fdad620bbe28699f2acf4e`
+- README SHA256: `26af6a316def13ea0514dbfd14bb70b61a092cd1d1acebedcef2c0507316e674`
 
 ## README
 
@@ -118,7 +118,7 @@ collection.insert([
 
 # Search by vector similarity
 results = collection.query(
-    zvec.VectorQuery("embedding", vector=[0.4, 0.3, 0.3, 0.1]),
+    zvec.Query(field_name="embedding", vector=[0.4, 0.3, 0.3, 0.1]),
     topk=10
 )
 

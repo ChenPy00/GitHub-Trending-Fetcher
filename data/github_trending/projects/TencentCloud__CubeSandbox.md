@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/CubeSandbox",
   "url": "https://github.com/TencentCloud/CubeSandbox",
   "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-  "readme_sha256": "15e1438ad599e57be884a9bc85b9c7f5aa4e8bb7d3eefd9560c7373bac5c38c8"
+  "readme_sha256": "f1459e3d1b89baa69c2829566faf7f13809c7f3355ff95464da2ecf2e55adcec"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/CubeSandbox
 - Description: Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
-- README SHA256: `15e1438ad599e57be884a9bc85b9c7f5aa4e8bb7d3eefd9560c7373bac5c38c8`
+- README SHA256: `f1459e3d1b89baa69c2829566faf7f13809c7f3355ff95464da2ecf2e55adcec`
 
 ## README
 
@@ -25,6 +25,10 @@
 
 <p align="center">
   <strong>Instant, Concurrent, Secure & Lightweight Sandbox Service for AI Agents</strong>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/26338?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26338" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/26338" alt="TencentCloud/CubeSandbox | Trendshift" width="250" height="55" /></a>
 </p>
 
 <p align="center">
@@ -42,6 +46,8 @@
   <img src="https://img.shields.io/badge/🔌_API-E2B_Compatible-blueviolet" alt="E2B compatible" />
   <img src="https://img.shields.io/badge/📦_Deploy-High_Concurrency·High_Density-orange" alt="High concurrency & high density" />
 </p>
+
+
 
 <p align="center">
   <a href="./README_zh.md"><strong>中文文档</strong></a> ·
@@ -66,8 +72,21 @@ Cube Sandbox is a high-performance, out-of-the-box secure sandbox service built 
 <table>
   <tr>
     <td align="right" valign="top" width="100">
+      <a href="./docs/changelog/v0.5.0.md">
+        <img src="https://img.shields.io/badge/v0.5.0-2026.07.03-dc3545?style=flat-square" alt="v0.5.0" />
+      </a>
+    </td>
+    <td valign="top">
+      <strong>v0.5: AutoPause, Terraform deployer, ARM64 &amp; network policy hardening</strong><br/>
+      <b>AutoPause/AutoResume</b> — idle sandboxes auto-suspend and wake on the next request. <b>Terraform one-click cluster deploy</b> <b>ARM64</b> native full-stack support <b>network policy hardening</b> — per-sandbox traffic tokens, policy-routing egress.<br/>
+      <a href="./docs/changelog/v0.5.0.md">Changelog →</a> ·
+      <a href="./docs/guide/tencentcloud-terraform-deploy.md">Terraform deploy →</a>
+    </td>
+  </tr>
+  <tr>
+    <td align="right" valign="top" width="100">
       <a href="./docs/changelog/v0.4.0.md">
-        <img src="https://img.shields.io/badge/v0.4.0-New!-6f42c1?style=flat-square" alt="v0.4.0" />
+        <img src="https://img.shields.io/badge/v0.4.0-2026.06.14-6f42c1?style=flat-square" alt="v0.4.0" />
       </a>
     </td>
     <td valign="top">
@@ -109,8 +128,8 @@ Cube Sandbox is a high-performance, out-of-the-box secure sandbox service built 
 <table align="center">
   <tr align="center" valign="top">
     <td width="33%">
-      <strong>⚡ Sub-60ms boot · High density</strong><br/><br/>
-      Average &lt;60ms cold start, &lt;5MB overhead per instance — run thousands of Agents on one node<br/><br/>
+      <strong>⚡ Sub-60ms boot · High density · Auto pause/resume</strong><br/><br/>
+      Average &lt;60ms cold start, &lt;5MB overhead per instance — run thousands of Agents on one node. Supports automatic sandbox pause and resume for cost optimization<br/><br/>
       <a href="./docs/guide/quickstart.md">Quick start →</a>
     </td>
     <td width="33%">

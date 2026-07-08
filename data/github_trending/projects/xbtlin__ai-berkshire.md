@@ -5,7 +5,7 @@
   "full_name": "xbtlin/ai-berkshire",
   "url": "https://github.com/xbtlin/ai-berkshire",
   "description": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.",
-  "readme_sha256": "3991f3c6f2d507d4b7472976335a72530f42cf17e2ce6de817e274572cc71a15"
+  "readme_sha256": "e8ba3bb801d3c7d67e96b5186dae83dc61c3decf088a5d97dc0300178f2a1356"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/xbtlin/ai-berkshire
 - Description: AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex. 4 masters' methodologies + multi-agent adversarial analysis.
-- README SHA256: `3991f3c6f2d507d4b7472976335a72530f42cf17e2ce6de817e274572cc71a15`
+- README SHA256: `e8ba3bb801d3c7d67e96b5186dae83dc61c3decf088a5d97dc0300178f2a1356`
 
 ## README
 
@@ -30,6 +30,8 @@
 **AI Berkshire** 是一套同时兼容 Claude Code 与 Codex 的投资研究 Skill 合集，将巴菲特、芒格、段永平、李录四位价值投资大师的方法论系统化、结构化，通过 AI Agent 实现专业级投资研究。
 
 一个人 + Claude Code / Codex = 一个投研团队。
+
+> 📮 **仓库是全量框架，公众号是精选。** 真正值得深研的公司，加上报告之外我自己的判断与取舍，都在微信公众号「**复利炼丹炉**」——[扫码关注 ↓](#精选研究首发于公众号)
 
 [实盘业绩](#real-track-record) · [为什么不能直接问AI](#为什么不能直接问-ai) · [Skills 一览](#skills-一览19个) · [快速开始](#快速开始) · [实战报告](#实战研究报告) · [设计理念](#设计理念) · [公众号](#精选研究首发于公众号)
 
@@ -67,7 +69,7 @@
 
 ### 精选研究首发于公众号
 
-仓库里是完整的框架和全量报告，公众号里是**精选**——真正值得下注的公司深度研究，加上报告之外我自己的判断与取舍：
+仓库里是完整的框架和全量报告，公众号里是**精选**——真正值得深研的公司，加上报告之外我自己的判断与取舍：
 
 <img src="assets/wechat-qr.png" width="160" alt="微信公众号：复利炼丹炉" />
 

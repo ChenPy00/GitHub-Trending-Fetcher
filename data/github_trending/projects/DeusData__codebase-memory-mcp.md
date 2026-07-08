@@ -5,7 +5,7 @@
   "full_name": "DeusData/codebase-memory-mcp",
   "url": "https://github.com/DeusData/codebase-memory-mcp",
   "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
-  "readme_sha256": "9e89e7d5d41839cf1d6c561ee8e9a37cf5dfd30add0993d8f4b4680a1525d385"
+  "readme_sha256": "0cea9eab6a4f2060882791a0385078c80aaab6360f73f3550bf1c521cfcf7fec"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DeusData/codebase-memory-mcp
 - Description: High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.
-- README SHA256: `9e89e7d5d41839cf1d6c561ee8e9a37cf5dfd30add0993d8f4b4680a1525d385`
+- README SHA256: `0cea9eab6a4f2060882791a0385078c80aaab6360f73f3550bf1c521cfcf7fec`
 
 ## README
 
@@ -495,6 +495,7 @@ codebase-memory-mcp config reset auto_index              # reset to default
 
 | Variable | Default | Description |
 |----------|---------|-------------|
+| `CBM_ALLOWED_ROOT` | *(unset)* | Restrict `index_repository` to paths within this directory. When set, a `repo_path` that resolves (after symlink / `..` resolution) outside this root is refused; unset imposes no restriction. Useful when the server may be driven by an untrusted caller, e.g. agentic or multi-tenant deployments. |
 | `CBM_CACHE_DIR` | `~/.cache/codebase-memory-mcp` | Override the database storage directory. All project indexes and config are stored here. |
 | `CBM_DIAGNOSTICS` | `false` | Set to `1` or `true` to enable periodic diagnostics output to `/tmp/cbm-diagnostics-<pid>.json`. |
 | `CBM_DOWNLOAD_URL` | *(GitHub releases)* | Override the download URL for updates. Used for testing or self-hosted deployments. |

@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "AI-powered job application framework built on Claude Code. Fork it, fill in your profile, and let Claude evaluate jobs, tailor CVs, write cover letters, and prepare you for interviews.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 1,
+      "readme_sha256": "4184fbba05ecca590dacc2ba2d14039bea70167bce0581a03423012d071077fa",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows.",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 2,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 3,
+      "readme_sha256": "6f8cd1f9177f896dbc9b3af4acb9b03899c8262e119e03fde6acf2f28ba1ab19",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 4,
+      "readme_sha256": "e78642b8bc3a4efd385200f11123a858a93849f33aa9b4982bd6c67d608ae06c",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 5,
+      "readme_sha256": "a6b10cdb27892822775e130c29597f5a42deed652ce3913f75e8bb4220da63ad",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "full_name": "TencentCloud/CubeSandbox",
+      "project_file": "projects/TencentCloud__CubeSandbox.md",
+      "rank": 6,
+      "readme_sha256": "f1459e3d1b89baa69c2829566faf7f13809c7f3355ff95464da2ecf2e55adcec",
+      "url": "https://github.com/TencentCloud/CubeSandbox"
+    },
+    {
+      "description": "💡 Download the complete source code of any website (including all assets). [ Javascripts, Stylesheets, Images ] using Node.js",
+      "full_name": "AhmadIbrahiim/Website-downloader",
+      "project_file": "projects/AhmadIbrahiim__Website-downloader.md",
+      "rank": 7,
+      "readme_sha256": "94f7e571a11a88bdc7d12797ba35b5f628d868f1e4968260827d7400fe88868f",
+      "url": "https://github.com/AhmadIbrahiim/Website-downloader"
+    },
+    {
+      "description": "Show usage stats for OpenAI Codex and Claude Code, without having to login.",
+      "full_name": "steipete/CodexBar",
+      "project_file": "projects/steipete__CodexBar.md",
+      "rank": 8,
+      "readme_sha256": "fca9ff8ef4b036f434945d7d2ad786fbe69102033e66c32f5061c1ea2adae761",
+      "url": "https://github.com/steipete/CodexBar"
+    },
+    {
+      "description": "Repository for skills to assist AI coding agents with .NET and C#",
+      "full_name": "dotnet/skills",
+      "project_file": "projects/dotnet__skills.md",
+      "rank": 9,
+      "readme_sha256": "1cc8c4b3c1288cd6255dc15b87b96c89b68b108e55c00b6d886bdd415419a009",
+      "url": "https://github.com/dotnet/skills"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 10,
+      "readme_sha256": "0fbc04a8a07f05373c2b8645952f34983ccde5ed18901853327a00a9f8e1d6b3",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 11,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "description": "A TTS that fits in your CPU (and pocket)",
+      "full_name": "kyutai-labs/pocket-tts",
+      "project_file": "projects/kyutai-labs__pocket-tts.md",
+      "rank": 12,
+      "readme_sha256": "0505e9dbd4909421bbf131b28576e9e656385e7edd447d31fac075ce51518e17",
+      "url": "https://github.com/kyutai-labs/pocket-tts"
+    },
+    {
+      "description": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude Code, the undisputed champion of coding companions, from the unstoppable team at Anthropic PBC. A delectable showcase of top tier skills, ambidextrous agents, scintillating status lines, top notch developer tooling, and also we have plugins",
+      "full_name": "hesreallyhim/awesome-claude-code",
+      "project_file": "projects/hesreallyhim__awesome-claude-code.md",
+      "rank": 13,
+      "readme_sha256": "fc605f0a2d3ba1456f677c681ca8dca86764baada369e496bb70523c618877bf",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code"
+    }
+  ],
+  "snapshot_date": "2026-07-08",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "mvanhorn/last30days-skill",
   "url": "https://github.com/mvanhorn/last30days-skill",
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-  "readme_sha256": "cd87539cd2dd12c69541418c442b8208640401a64b03c68eeb5af9a79cb2ac07"
+  "readme_sha256": "ca21ec4f6d2446c70b682bce75d8b178fecc5fba303d1195e631683cbe11fa3a"
 }
 ```
 
@@ -13,18 +13,20 @@
 
 - URL: https://github.com/mvanhorn/last30days-skill
 - Description: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
-- README SHA256: `cd87539cd2dd12c69541418c442b8208640401a64b03c68eeb5af9a79cb2ac07`
+- README SHA256: `ca21ec4f6d2446c70b682bce75d8b178fecc5fba303d1195e631683cbe11fa3a`
 
 ## README
 
 # /last30days
 
 <p align="center">
+  <img src="media/pr-assets/last30days-ad.gif" width="720" alt="last30days - an AI agent-led search engine that searches people, not editors" />
+</p>
+
+<p align="center">
   <a href="https://github.com/mvanhorn/last30days-skill">
     <img src="https://img.shields.io/badge/%231-Repository%20Of%20The%20Day-6f42c1?style=for-the-badge&logo=github&label=GITHUB%20TRENDING" alt="GitHub Trending #1 Repository Of The Day" />
   </a>
-  <br/>
-  <img src="https://img.shields.io/badge/coverage-%E2%89%A560%25-brightgreen" alt="Coverage ≥60%" />
   <br/>
   <a href="https://trendshift.io/repositories/21997" target="_blank">
     <img src="https://trendshift.io/api/badge/repositories/21997" alt="mvanhorn/last30days-skill | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/>
