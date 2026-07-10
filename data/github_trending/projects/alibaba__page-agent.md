@@ -5,7 +5,7 @@
   "full_name": "alibaba/page-agent",
   "url": "https://github.com/alibaba/page-agent",
   "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-  "readme_sha256": "a0fcf4b1e68c631a9178b447758cf046cc31eae6b996697c849326ec9fc513fb"
+  "readme_sha256": "60251c79e0ad2620703c0dcc2f266dcc7aa746c0b8d7ff4f769352338a14e9ed"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/page-agent
 - Description: JavaScript in-page GUI agent. Control web interfaces with natural language.
-- README SHA256: `a0fcf4b1e68c631a9178b447758cf046cc31eae6b996697c849326ec9fc513fb`
+- README SHA256: `60251c79e0ad2620703c0dcc2f266dcc7aa746c0b8d7ff4f769352338a14e9ed`
 
 ## README
 
@@ -24,7 +24,7 @@
   <img alt="Page Agent Banner" src="https://page-agent.github.io/assets/readme/banner-light.png">
 </picture>
 
-[![CI](https://img.shields.io/github/actions/workflow/status/alibaba/page-agent/ci.yml?branch=main&style=flat-square&label=ci)](https://github.com/alibaba/page-agent/actions/workflows/ci.yml)
+[![CI](https://img.shields.io/github/actions/workflow/status/alibaba/page-agent/main-ci.yml?branch=main&style=flat-square&label=ci)](https://github.com/alibaba/page-agent/actions/workflows/main-ci.yml)
 [![npm](https://img.shields.io/npm/v/page-agent?style=flat-square&label=npm)](https://www.npmjs.com/package/page-agent)
 [![downloads](https://img.shields.io/npm/dt/page-agent?style=flat-square)](https://www.npmjs.com/package/page-agent)
 [![size](https://img.shields.io/bundlephobia/minzip/page-agent?style=flat-square&label=size)](https://bundlephobia.com/package/page-agent)
@@ -75,19 +75,18 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 ```html
 <script
-    src="https://cdn.jsdelivr.net/npm/page-agent@1.11.0/dist/iife/page-agent.demo.js"
+    src="https://cdn.jsdelivr.net/npm/page-agent@1.12.0/dist/iife/page-agent.demo.js"
     crossorigin="anonymous"
 ></script>
 ```
 
 > **⚠️ For technical evaluation only.** This demo CDN uses our free [testing LLM API](https://alibaba.github.io/page-agent/docs/features/models#free-testing-api). By using it, you agree to its [terms](https://github.com/alibaba/page-agent/blob/main/docs/terms-and-privacy.md).
+> Add `?autoInit=false` to load the script without creating the demo agent automatically. You can then instantiate it with `new window.PageAgent(...)`.
 
 | Mirrors | URL                                                                                 |
 | ------- | ----------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.11.0/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.11.0/files/dist/iife/page-agent.demo.js |
-
-Add `?autoInit=false` to load the script without creating the demo agent automatically. You can then instantiate it with `new window.PageAgent(...)`.
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.12.0/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.12.0/files/dist/iife/page-agent.demo.js |
 
 ### NPM Installation
 

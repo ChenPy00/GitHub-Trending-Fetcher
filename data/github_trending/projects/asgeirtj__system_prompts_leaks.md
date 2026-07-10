@@ -5,7 +5,7 @@
   "full_name": "asgeirtj/system_prompts_leaks",
   "url": "https://github.com/asgeirtj/system_prompts_leaks",
   "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-  "readme_sha256": "a6b10cdb27892822775e130c29597f5a42deed652ce3913f75e8bb4220da63ad"
+  "readme_sha256": "64a7ee1d1eae63caf33e9806c64adc612b2d4229343e4b6b323babb9d727f4d3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/asgeirtj/system_prompts_leaks
 - Description: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
-- README SHA256: `a6b10cdb27892822775e130c29597f5a42deed652ce3913f75e8bb4220da63ad`
+- README SHA256: `64a7ee1d1eae63caf33e9806c64adc612b2d4229343e4b6b323babb9d727f4d3`
 
 ## README
 
@@ -27,7 +27,6 @@ The purpose of this repo is to document the System Prompt instructions for all t
   <img alt="ChatGPT leaking its system prompt after being asked to repeat all of the above" src=".github/banner-light.png">
 </picture>
 
-[![GitHub Views per Week](https://raw.githubusercontent.com/asgeirtj/system_prompts_leaks/traffic/traffic-system_prompts_leaks/views_per_week.svg)](https://github.com/asgeirtj/system_prompts_leaks)
 ![Last Commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
 
@@ -272,8 +271,6 @@ The purpose of this repo is to document the System Prompt instructions for all t
 ![a](https://badgen.net/email/asgeirtj/gmail.com)
 [![X](https://img.shields.io/badge/@asgeirtj-black?logo=x&logoColor=white)](https://x.com/asgeirtj)
 
-
-## Growth
 
 ## Star History
 

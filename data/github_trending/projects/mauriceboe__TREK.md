@@ -5,7 +5,7 @@
   "full_name": "mauriceboe/TREK",
   "url": "https://github.com/mauriceboe/TREK",
   "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
-  "readme_sha256": "013e05706aff7518d1419bfbc5ecdb77f8bb193fb8841bcb17cef6c8251066ec"
+  "readme_sha256": "97f5372f3a9c32204da2f31f2dcaa99e0464758c59859be206d0d8572275a69f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mauriceboe/TREK
 - Description: A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.
-- README SHA256: `013e05706aff7518d1419bfbc5ecdb77f8bb193fb8841bcb17cef6c8251066ec`
+- README SHA256: `97f5372f3a9c32204da2f31f2dcaa99e0464758c59859be206d0d8572275a69f`
 
 ## README
 
@@ -68,12 +68,12 @@ A self-hosted, real-time collaborative travel planner — with maps, budgets, pa
 
 <div align="center">
   <a href="docs/screenshots/dashboard.png"><img src="docs/screenshots/dashboard.png" alt="Dashboard" width="49%" /></a>
-  <a href="docs/screenshots/trip-planner.png"><img src="docs/screenshots/trip-planner.png" alt="Trip planner with 3D map" width="49%" /></a>
+  <a href="docs/screenshots/trip-planner.png"><img src="docs/screenshots/trip-planner.png" alt="Trip planner · day plan & route" width="49%" /></a>
   <a href="docs/screenshots/journey.png"><img src="docs/screenshots/journey.png" alt="Journey journal" width="49%" /></a>
   <a href="docs/screenshots/budget.png"><img src="docs/screenshots/budget.png" alt="Costs · expense splitting" width="49%" /></a>
   <a href="docs/screenshots/atlas.png"><img src="docs/screenshots/atlas.png" alt="Atlas · visited countries" width="49%" /></a>
   <a href="docs/screenshots/vacay.png"><img src="docs/screenshots/vacay.png" alt="Vacay planner" width="49%" /></a>
-  <a href="docs/screenshots/trip-iceland.png"><img src="docs/screenshots/trip-iceland.png" alt="Trip planner · day plan and route" width="49%" /></a>
+  <a href="docs/screenshots/collections.png"><img src="docs/screenshots/collections.png" alt="Collections · saved place lists" width="49%" /></a>
   <a href="docs/screenshots/admin.png"><img src="docs/screenshots/admin.png" alt="Admin panel" width="49%" /></a>
 </div>
 
@@ -447,6 +447,7 @@ Caddy handles TLS and WebSockets automatically.
 | `ADMIN_PASSWORD` | Password for the first admin on initial boot. Pairs with `ADMIN_EMAIL`. | random |
 | **Other** | | |
 | `DEMO_MODE` | Enable demo mode (hourly data resets) | `false` |
+| `UNSPLASH_ACCESS_KEY` | Optional Unsplash Access Key for trip-cover and place-image search. Without one, TREK uses Unsplash's unauthenticated endpoint, which some datacenter/VPS IPs are blocked from. Get a free key at [unsplash.com/developers](https://unsplash.com/developers). Overrides any per-admin key set in Admin > Settings (where it can also be configured instead). | — |
 | `MCP_RATE_LIMIT` | Max MCP API requests per user per minute | `300` |
 | `MCP_MAX_SESSION_PER_USER` | Max concurrent MCP sessions per user | `20` |
 

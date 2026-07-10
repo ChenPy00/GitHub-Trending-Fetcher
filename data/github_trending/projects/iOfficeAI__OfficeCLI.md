@@ -5,7 +5,7 @@
   "full_name": "iOfficeAI/OfficeCLI",
   "url": "https://github.com/iOfficeAI/OfficeCLI",
   "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-  "readme_sha256": "0fbc04a8a07f05373c2b8645952f34983ccde5ed18901853327a00a9f8e1d6b3"
+  "readme_sha256": "faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iOfficeAI/OfficeCLI
 - Description: OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
-- README SHA256: `0fbc04a8a07f05373c2b8645952f34983ccde5ed18901853327a00a9f8e1d6b3`
+- README SHA256: `faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d`
 
 ## README
 
@@ -238,6 +238,9 @@ irm https://raw.githubusercontent.com/iOfficeAI/OfficeCLI/main/install.ps1 | iex
 # Homebrew (macOS / Linux)
 brew install officecli
 
+# Scoop (Windows)
+scoop install officecli
+
 # npm (all platforms — fetches the native binary for your platform)
 npm install -g @officecli/officecli
 ```
@@ -272,7 +275,7 @@ OfficeCLI is self-contained. The capabilities below ship inside the binary — *
 
 #### Rendering engine — high-fidelity, built-in
 
-OfficeCLI's keystone: a from-scratch, high-fidelity HTML rendering engine that lets an AI agent *see* the rendered document instead of guessing from the DOM. It covers shapes, charts (trendlines, error bars, waterfall, candlestick, sparklines), equations (OMML → MathJax-compatible), 3D `.glb` models via Three.js, morph transitions, slide zoom, and shape effects. Per-page PNG screenshots are produced by piping the rendered HTML through a headless browser. Three modes:
+OfficeCLI's keystone: a from-scratch, high-fidelity HTML rendering engine that lets an AI agent *see* the rendered document instead of guessing from the DOM. It covers shapes, charts (trendlines, error bars, waterfall, candlestick, sparklines), equations (OMML → LaTeX, rendered with KaTeX), 3D `.glb` models via Three.js, morph transitions, slide zoom, and shape effects. Per-page PNG screenshots are produced by piping the rendered HTML through a headless browser. Three modes:
 
 - **`view html`** — standalone HTML file, assets inlined. Open in any browser.
 - **`view screenshot`** — per-page PNG, ready for multimodal agents to read.

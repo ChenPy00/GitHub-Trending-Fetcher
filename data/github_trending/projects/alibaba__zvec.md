@@ -5,7 +5,7 @@
   "full_name": "alibaba/zvec",
   "url": "https://github.com/alibaba/zvec",
   "description": "A lightweight, lightning-fast, in-process vector database",
-  "readme_sha256": "26af6a316def13ea0514dbfd14bb70b61a092cd1d1acebedcef2c0507316e674"
+  "readme_sha256": "8a76686947ed66984f0ddb3650f1110c8293bd902c5a83764bbc5e5783787a7a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/zvec
 - Description: A lightweight, lightning-fast, in-process vector database
-- README SHA256: `26af6a316def13ea0514dbfd14bb70b61a092cd1d1acebedcef2c0507316e674`
+- README SHA256: `8a76686947ed66984f0ddb3650f1110c8293bd902c5a83764bbc5e5783787a7a`
 
 ## README
 
@@ -142,7 +142,7 @@ For detailed benchmark methodology, configurations, and complete results, please
 
 | 💬 DingTalk | 📱 WeChat | 🎮 Discord | X (Twitter) |
 | :---: | :---: | :---: | :---: |
-| <img src="https://zvec.oss-cn-hongkong.aliyuncs.com/qrcode/dingding.png" width="150" alt="DingTalk QR Code"/> | <img src="https://zvec.oss-cn-hongkong.aliyuncs.com/qrcode/wechat.png?v=6" width="150" alt="WeChat QR Code"/> | [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rKddFBBu9z) | [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ZvecAI)](<https://x.com/ZvecAI>) |
+| <img src="https://zvec.oss-cn-hongkong.aliyuncs.com/qrcode/dingding.png" width="150" alt="DingTalk QR Code"/> | <img src="https://zvec.oss-cn-hongkong.aliyuncs.com/qrcode/wechat.png" width="150" alt="WeChat QR Code"/> | [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/rKddFBBu9z) | [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/ZvecAI)](<https://x.com/ZvecAI>) |
 | Scan to join | Scan to join | Click to join | Click to follow |
 
 </div>

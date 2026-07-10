@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Source code for Unturned, a free open-world zombie survival sandbox game.",
+      "full_name": "SmartlyDressedGames/U3-SDK",
+      "project_file": "projects/SmartlyDressedGames__U3-SDK.md",
+      "rank": 1,
+      "readme_sha256": "dbb39f44465ae8598d3aac57d70f01bbfbd9904ad1bc1e134585a60b18659b6a",
+      "url": "https://github.com/SmartlyDressedGames/U3-SDK"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "6294ad143dd511658a8c608612f4e65aa9c7e1420d16eff003537d5f4fbb0cbc",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "full_name": "VoltAgent/awesome-design-md",
+      "project_file": "projects/VoltAgent__awesome-design-md.md",
+      "rank": 3,
+      "readme_sha256": "c9f1a23ded2e3fbda15aa722a989ecf5e4e800edd5d56abe52685573359cc568",
+      "url": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 4,
+      "readme_sha256": "faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 5,
+      "readme_sha256": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "full_name": "anthropics/claude-cookbooks",
+      "project_file": "projects/anthropics__claude-cookbooks.md",
+      "rank": 6,
+      "readme_sha256": "4ffad49fa541a076841699ebdc2501124a73a8fa4fbf3164d678e65bfffc2a7a",
+      "url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "full_name": "vxcontrol/pentagi",
+      "project_file": "projects/vxcontrol__pentagi.md",
+      "rank": 7,
+      "readme_sha256": "4d15b49910efa654285f676381e9c0618173a559ba6e74099073d858d9395321",
+      "url": "https://github.com/vxcontrol/pentagi"
+    },
+    {
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "full_name": "unclecode/crawl4ai",
+      "project_file": "projects/unclecode__crawl4ai.md",
+      "rank": 8,
+      "readme_sha256": "afb3f46001b9db7ee42952ced3d766939fe01dcfb190db65f86354f34d9bea19",
+      "url": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "description": "An evolving how-to guide for securing a Linux server.",
+      "full_name": "imthenachoman/How-To-Secure-A-Linux-Server",
+      "project_file": "projects/imthenachoman__How-To-Secure-A-Linux-Server.md",
+      "rank": 9,
+      "readme_sha256": "6547aa596629776c67c704f038d2ad6a8a6c2f14d5c5fe23a8d57511226e2f80",
+      "url": "https://github.com/imthenachoman/How-To-Secure-A-Linux-Server"
+    },
+    {
+      "description": "Automatic quad remeshing tool",
+      "full_name": "huxingyi/autoremesher",
+      "project_file": "projects/huxingyi__autoremesher.md",
+      "rank": 10,
+      "readme_sha256": "39fb8b069539b4d756e54e7992acea22ac40a46ec072f38cab79d396e0f896b1",
+      "url": "https://github.com/huxingyi/autoremesher"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 11,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "description": "Next-generation ORM for Node.js & TypeScript | PostgreSQL, MySQL, MariaDB, SQL Server, SQLite, MongoDB and CockroachDB",
+      "full_name": "prisma/prisma",
+      "project_file": "projects/prisma__prisma.md",
+      "rank": 12,
+      "readme_sha256": "ce4471ebd8e0d152a34a68c5a7d5de87bfabc6f4bd2368a2abc342e927f2d6fb",
+      "url": "https://github.com/prisma/prisma"
+    },
+    {
+      "description": "A TTS that fits in your CPU (and pocket)",
+      "full_name": "kyutai-labs/pocket-tts",
+      "project_file": "projects/kyutai-labs__pocket-tts.md",
+      "rank": 13,
+      "readme_sha256": "0505e9dbd4909421bbf131b28576e9e656385e7edd447d31fac075ce51518e17",
+      "url": "https://github.com/kyutai-labs/pocket-tts"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 14,
+      "readme_sha256": "64a7ee1d1eae63caf33e9806c64adc612b2d4229343e4b6b323babb9d727f4d3",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    }
+  ],
+  "snapshot_date": "2026-07-10",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
