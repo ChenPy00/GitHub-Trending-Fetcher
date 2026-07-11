@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 1,
+      "readme_sha256": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "full_name": "oven-sh/bun",
+      "project_file": "projects/oven-sh__bun.md",
+      "rank": 2,
+      "readme_sha256": "139c0f0e6aa80f92f62eca7d168ea2e692c3bc6e61d46e24d467b85019e45845",
+      "url": "https://github.com/oven-sh/bun"
+    },
+    {
+      "description": "Abseil Common Libraries (C++)",
+      "full_name": "abseil/abseil-cpp",
+      "project_file": "projects/abseil__abseil-cpp.md",
+      "rank": 3,
+      "readme_sha256": "ef96eba1d2e35b51a36ddd9cff4b1eac25a9702341c00ef0c19d601a37516d10",
+      "url": "https://github.com/abseil/abseil-cpp"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 4,
+      "readme_sha256": "1b715bdf78046bb5bebd0150b64eb7a093b41029fc91a033e9a424685c32507a",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "A YAML parser and emitter in C++",
+      "full_name": "jbeder/yaml-cpp",
+      "project_file": "projects/jbeder__yaml-cpp.md",
+      "rank": 5,
+      "readme_sha256": "79bb5aaf21b865910450d96a660628c307b7e2bf15157b79c4527a8336f041ce",
+      "url": "https://github.com/jbeder/yaml-cpp"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 6,
+      "readme_sha256": "3e718f9539b2a33fd310470fc4a25fa51f523d50013ea3e94a8bfd03dcecb960",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 7,
+      "readme_sha256": "993584ac25724e9dcb1639b12850d922ca8c21a4456bc7edbb1c5cc24456540e",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "full_name": "microsoft/TypeScript",
+      "project_file": "projects/microsoft__TypeScript.md",
+      "rank": 8,
+      "readme_sha256": "13263d9066dd6ae05b2933e7ffa13ea00594d6a55506a67e1dfc1d25f3cb550f",
+      "url": "https://github.com/microsoft/TypeScript"
+    },
+    {
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "full_name": "catchorg/Catch2",
+      "project_file": "projects/catchorg__Catch2.md",
+      "rank": 9,
+      "readme_sha256": "5f7b69cbc20dba4417917c6e5f12b811d2ef100f63dc73e139fbcfb236fbf49d",
+      "url": "https://github.com/catchorg/Catch2"
+    },
+    {
+      "description": "Asio C++ Library",
+      "full_name": "chriskohlhoff/asio",
+      "project_file": "projects/chriskohlhoff__asio.md",
+      "rank": 10,
+      "readme_sha256": "a586a4d07ef0425c21cb941e9ca72c42bfef70b38e7d01c4189428b32947323e",
+      "url": "https://github.com/chriskohlhoff/asio"
+    },
+    {
+      "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 11,
+      "readme_sha256": "7ecd8fa3d6a564bfabffbccb6ff8faa30aaeec79a9feabd1c71d78b7c28df37e",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "full_name": "davila7/claude-code-templates",
+      "project_file": "projects/davila7__claude-code-templates.md",
+      "rank": 12,
+      "readme_sha256": "a078cff1e83ba7763dd37a80d67c63e8ba4006c60d703b54d6ab341cf00e5494",
+      "url": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "description": "Mesh optimization library that makes meshes smaller and faster to render",
+      "full_name": "zeux/meshoptimizer",
+      "project_file": "projects/zeux__meshoptimizer.md",
+      "rank": 13,
+      "readme_sha256": "cc14ca68c58e95712b61fac6afadaa7d4f033cd7c4605f70f67e6b9115cf324f",
+      "url": "https://github.com/zeux/meshoptimizer"
+    },
+    {
+      "description": "The easiest, most secure way to use WireGuard and 2FA.",
+      "full_name": "tailscale/tailscale",
+      "project_file": "projects/tailscale__tailscale.md",
+      "rank": 14,
+      "readme_sha256": "b61e8e03c928ba415f813b5c7301b10d9aba7468975688f345af560807d07c21",
+      "url": "https://github.com/tailscale/tailscale"
+    },
+    {
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "full_name": "google-labs-code/stitch-skills",
+      "project_file": "projects/google-labs-code__stitch-skills.md",
+      "rank": 15,
+      "readme_sha256": "610fa2fc8e4acd53ec5067806445d9154b3a2871c9e386cdef45d49d59168103",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 16,
+      "readme_sha256": "faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "Terraform enables you to safely and predictably create, change, and improve infrastructure. It is a source-available tool that codifies APIs into declarative configuration files that can be shared amongst team members, treated as code, edited, reviewed, and versioned.",
+      "full_name": "hashicorp/terraform",
+      "project_file": "projects/hashicorp__terraform.md",
+      "rank": 17,
+      "readme_sha256": "d40d35d459d5590bf6cc94559ea65e6f55c2e034b9f5fb9cadf16fc0b224f79a",
+      "url": "https://github.com/hashicorp/terraform"
+    },
+    {
+      "description": "C++ based gRPC (C++, Python, Ruby, Objective-C, PHP, C#)",
+      "full_name": "grpc/grpc",
+      "project_file": "projects/grpc__grpc.md",
+      "rank": 18,
+      "readme_sha256": "15823e28dd6dcadfba187ac188bf22d79f26b783d1813eaca58588dbd2781d4f",
+      "url": "https://github.com/grpc/grpc"
+    },
+    {
+      "description": "The React Framework",
+      "full_name": "vercel/next.js",
+      "project_file": "projects/vercel__next.js.md",
+      "rank": 19,
+      "readme_sha256": "4d9da0db1d2883ae6dfa15535d81eca4dfbad493040cb512bf830a22595ce9f6",
+      "url": "https://github.com/vercel/next.js"
+    }
+  ],
+  "snapshot_date": "2026-07-11",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

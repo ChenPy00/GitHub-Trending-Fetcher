@@ -4,16 +4,16 @@
   "name": "system_prompts_leaks",
   "full_name": "asgeirtj/system_prompts_leaks",
   "url": "https://github.com/asgeirtj/system_prompts_leaks",
-  "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-  "readme_sha256": "64a7ee1d1eae63caf33e9806c64adc612b2d4229343e4b6b323babb9d727f4d3"
+  "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+  "readme_sha256": "d5d3c8feceab65b1964bf06ff1080a37fb61696a760d79882646eccb3b096f70"
 }
 ```
 
 # asgeirtj/system_prompts_leaks
 
 - URL: https://github.com/asgeirtj/system_prompts_leaks
-- Description: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT 5.5 Thinking, GPT 5.5 Instant, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
-- README SHA256: `64a7ee1d1eae63caf33e9806c64adc612b2d4229343e4b6b323babb9d727f4d3`
+- Description: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
+- README SHA256: `d5d3c8feceab65b1964bf06ff1080a37fb61696a760d79882646eccb3b096f70`
 
 ## README
 
@@ -30,9 +30,6 @@ The purpose of this repo is to document the System Prompt instructions for all t
 ![Last Commit](https://img.shields.io/github/last-commit/asgeirtj/system_prompts_leaks?style=flat)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](http://makeapullrequest.com)
 
-> 🆕 **[Diff: Claude Opus 4.8 → Claude Fable 5](https://www.diffchecker.com/QJn9jFNk/)** — see exactly what changed in the claude.ai system prompt for Anthropic's newest model
-
-
 
 
 
@@ -40,6 +37,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 
 | What | Date | Link |
 |------|------|------|
+| **GPT-5.6** | July 10, 2026 | [ChatGPT (Sol, extra high)](OpenAI/gpt-5.6-sol-extra-high.md) · [Codex](OpenAI/Codex/gpt-5.6.md) |
 | **Claude Sonnet 5** | July 1, 2026 | [System prompt](Anthropic/claude-sonnet-5.md) |
 | **Claude Design (Opus 4.8 — full prompt + 48 tools + 16 skills + 9 starter sources)** | June 26, 2026 | [System prompt](Anthropic/claude-design.md) |
 | **GitHub Copilot for macOS (app)** | June 18, 2026 | [System prompt](Microsoft/copilot-macos-app.md) |
@@ -99,6 +97,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 
 | Model | Prompt |
 |-------|--------|
+| **GPT-5.6** | [**ChatGPT (Sol, extra high)**](OpenAI/gpt-5.6-sol-extra-high.md) · [**Codex**](OpenAI/Codex/gpt-5.6.md) |
 | **GPT-5.5** | [**Thinking**](OpenAI/gpt-5.5-thinking.md) · [**Instant**](OpenAI/gpt-5.5-instant.md) · [API](OpenAI/gpt-5.5-api.md) · [Pro API](OpenAI/gpt-5.5-pro-api.md) · [**Codex**](OpenAI/Codex/gpt-5.5.md) · [Friendly](OpenAI/Codex/personality_friendly_gpt-5.5.md) · [Pragmatic](OpenAI/Codex/personality_pragmatic_gpt-5.5.md) |
 | **GPT-5.4** | [**API**](OpenAI/gpt-5.4-api.md) · [**Thinking**](OpenAI/gpt-5.4-thinking.md) · [**Codex**](OpenAI/Codex/gpt-5.4.md) · [Codex Mini](OpenAI/Codex/gpt-5.4-mini.md) |
 | **GPT-5.3** | [**Codex**](OpenAI/Codex/gpt-5.3-codex.md) · [Spark](OpenAI/Codex/gpt-5.3-codex-spark.md) · [Codex API](OpenAI/gpt-5.3-codex-api.md) · [Chat API](OpenAI/gpt-5.3-chat-api.md) · [Instant](OpenAI/gpt-5.3-instant.md) |

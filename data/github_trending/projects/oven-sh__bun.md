@@ -5,7 +5,7 @@
   "full_name": "oven-sh/bun",
   "url": "https://github.com/oven-sh/bun",
   "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
-  "readme_sha256": "2cf8745404704835c7e1d521446d06e0a39113efcaf35f5b93a1126373ad34e9"
+  "readme_sha256": "139c0f0e6aa80f92f62eca7d168ea2e692c3bc6e61d46e24d467b85019e45845"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/oven-sh/bun
 - Description: Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one
-- README SHA256: `2cf8745404704835c7e1d521446d06e0a39113efcaf35f5b93a1126373ad34e9`
+- README SHA256: `139c0f0e6aa80f92f62eca7d168ea2e692c3bc6e61d46e24d467b85019e45845`
 
 ## README
 
@@ -45,7 +45,7 @@
 
 Bun is an all-in-one toolkit for JavaScript and TypeScript apps. It ships as a single executable called `bun`.
 
-At its core is the _Bun runtime_, a fast JavaScript runtime designed as **a drop-in replacement for Node.js**. It's written in Zig and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.
+At its core is the _Bun runtime_, a fast JavaScript runtime designed as **a drop-in replacement for Node.js**. It's written in Rust and powered by JavaScriptCore under the hood, dramatically reducing startup times and memory usage.
 
 ```bash
 bun run index.tsx             # TS and JSX supported out-of-the-box

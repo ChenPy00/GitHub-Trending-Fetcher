@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/CubeSandbox",
   "url": "https://github.com/TencentCloud/CubeSandbox",
   "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
-  "readme_sha256": "f1459e3d1b89baa69c2829566faf7f13809c7f3355ff95464da2ecf2e55adcec"
+  "readme_sha256": "59456dda57f624fe8c74211ea80e0956bded2c6abf5f71a5d92e72f0a67ca026"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/CubeSandbox
 - Description: Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.
-- README SHA256: `f1459e3d1b89baa69c2829566faf7f13809c7f3355ff95464da2ecf2e55adcec`
+- README SHA256: `59456dda57f624fe8c74211ea80e0956bded2c6abf5f71a5d92e72f0a67ca026`
 
 ## README
 
@@ -54,7 +54,8 @@
   <a href="./docs/guide/quickstart.md"><strong>Quick Start</strong></a> ·
   <a href="./docs/index.md"><strong>Documentation</strong></a> ·
   <a href="./docs/changelog/index.md"><strong>Changelog</strong></a> ·
-  <a href="https://x.com/CubeSandbox_AI"><strong>X(Twitter)</strong></a>
+  <a href="https://x.com/CubeSandbox_AI"><strong>X(Twitter)</strong></a> ·
+  <a href="https://github.com/TencentCloud/CubeSandbox/issues/158"><strong>End User Program</strong></a>
 </p>
 
 ---

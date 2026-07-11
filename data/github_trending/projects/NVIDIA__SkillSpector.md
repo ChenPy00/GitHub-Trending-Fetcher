@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/SkillSpector",
   "url": "https://github.com/NVIDIA/SkillSpector",
   "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
-  "readme_sha256": "5830f6e1cda00ffc1e31ff4a008afa94ff09224cfff3363d283c45dc326526e6"
+  "readme_sha256": "965bdc3795ffa2b6c9cb5eb0c5124468be2df75a65ac94f67b5b0811c50fc123"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/SkillSpector
 - Description: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.
-- README SHA256: `5830f6e1cda00ffc1e31ff4a008afa94ff09224cfff3363d283c45dc326526e6`
+- README SHA256: `965bdc3795ffa2b6c9cb5eb0c5124468be2df75a65ac94f67b5b0811c50fc123`
 
 ## README
 
@@ -171,6 +171,33 @@ skillspector scan ./my-skill/ --format markdown --output report.md
 # SARIF output - for CI/CD integration and IDE tooling
 skillspector scan ./my-skill/ --format sarif --output report.sarif
 ```
+
+### Batch Scanning
+
+Scan entire directories of skills in parallel from `contrib/batch_scan/`:
+
+```bash
+python -m contrib.batch_scan.batch_scan ./my-skills/ --no-llm
+python -m contrib.batch_scan.batch_scan ./my-skills/ --workers 20 -f json -o report.json 
+python -m contrib.batch_scan.batch_scan ./tests/fixtures/ -f terminal --workers 20
+```
+
+Supports multilingual detection (zh/ja/ko) and terminal/JSON/Markdown output.
+
+For LLM scans with higher concurrency, configure multiple API keys following
+[`.env.example`](contrib/batch_scan/.env.example) — the pool improves throughput
+and resilience, provided the keys don't share an account-level rate limit.
+
+See the [contrib guide](contrib/batch_scan/docs/) for details.
+
+> **Note on LLM support:** The default configuration targets DeepSeek as the
+> cheapest public option. DeepSeek-Chat is
+> [expected to sunset](https://api-docs.deepseek.com/), and the contributor
+> does not have hardware to test against local models. The batch scanner was
+> originally tested with OpenAI-compatible endpoints — DeepSeek's lack of
+> structured-output support required manual JSON-parsing patches. If you can
+> contribute a more universal backend (Ollama, vLLM, or a different provider),
+> PRs are very welcome.
 
 ### Suppressing False Positives (baseline)
 

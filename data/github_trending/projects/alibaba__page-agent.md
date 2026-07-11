@@ -5,7 +5,7 @@
   "full_name": "alibaba/page-agent",
   "url": "https://github.com/alibaba/page-agent",
   "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-  "readme_sha256": "60251c79e0ad2620703c0dcc2f266dcc7aa746c0b8d7ff4f769352338a14e9ed"
+  "readme_sha256": "70657338073217ce5c595749b8b0c3b5826b8b7cb20dcded657c22d9c4c96bc8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/page-agent
 - Description: JavaScript in-page GUI agent. Control web interfaces with natural language.
-- README SHA256: `60251c79e0ad2620703c0dcc2f266dcc7aa746c0b8d7ff4f769352338a14e9ed`
+- README SHA256: `70657338073217ce5c595749b8b0c3b5826b8b7cb20dcded657c22d9c4c96bc8`
 
 ## README
 
@@ -75,7 +75,7 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 ```html
 <script
-    src="https://cdn.jsdelivr.net/npm/page-agent@1.12.0/dist/iife/page-agent.demo.js"
+    src="https://cdn.jsdelivr.net/npm/page-agent@1.12.1/dist/iife/page-agent.demo.js"
     crossorigin="anonymous"
 ></script>
 ```
@@ -85,8 +85,8 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 | Mirrors | URL                                                                                 |
 | ------- | ----------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.12.0/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.12.0/files/dist/iife/page-agent.demo.js |
+| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.12.1/dist/iife/page-agent.demo.js         |
+| China   | https://registry.npmmirror.com/page-agent/1.12.1/files/dist/iife/page-agent.demo.js |
 
 ### NPM Installation
 

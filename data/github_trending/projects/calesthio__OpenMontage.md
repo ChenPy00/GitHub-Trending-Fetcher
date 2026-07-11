@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "e8badfbc930869db0d059e19a4d6e97d82f0b4030fece68f4cbeb193c471440e"
+  "readme_sha256": "2e4d34565e5aea2f7c637765d9906f531d788df7a0976e64456899d616555303"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `e8badfbc930869db0d059e19a4d6e97d82f0b4030fece68f4cbeb193c471440e`
+- README SHA256: `2e4d34565e5aea2f7c637765d9906f531d788df7a0976e64456899d616555303`
 
 ## README
 
@@ -31,6 +31,7 @@
   <a href="#try-these-prompts">Try These Prompts</a> &nbsp;·&nbsp;
   <a href="#pipelines">Pipelines</a> &nbsp;·&nbsp;
   <a href="#how-it-works">How It Works</a> &nbsp;·&nbsp;
+  <a href="#sponsors">Sponsors</a> &nbsp;·&nbsp;
   <a href="docs/PROVIDERS.md">Providers</a> &nbsp;·&nbsp;
   <a href="docs/PR_REVIEW_GUIDE.md">Review Guide</a> &nbsp;·&nbsp;
   <a href="AGENT_GUIDE.md">Agent Guide</a>
@@ -56,6 +57,26 @@
   <a href="https://x.com/calesthioailabs"><img src="https://img.shields.io/badge/X-%40calesthioailabs-111111?style=for-the-badge&logo=x&logoColor=white" alt="X"></a>
   <a href="https://github.com/calesthio/OpenMontage/discussions"><img src="https://img.shields.io/badge/Community-GitHub%20Discussions-0b1220?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Discussions"></a>
 </p>
+
+## Sponsors
+
+> Want to support OpenMontage? [Sponsor the project](https://github.com/sponsors/calesthio).
+
+<details open>
+<summary>Click to collapse</summary>
+
+<table>
+<tr>
+<td width="180" align="center"><a href="https://bloome.im/login?ref=calesthio"><img src="assets/sponsors/bloome.png" alt="Bloome" width="150"></a></td>
+<td><strong>Bloome</strong> lets multiple AI agents (Claude, ChatGPT, DeepSeek, and more) collaborate in one conversation for agentic video pipelines. It has zero setup, runs in the cloud, works on web and mobile, and lets you share a configured agent with your whole team. <strong><a href="https://bloome.im/login?ref=calesthio">Try Bloome</a></strong>.</td>
+</tr>
+<tr>
+<td width="180" align="center"><a href="https://www.atlascloud.ai/coding-plan"><img src="assets/sponsors/atlas-cloud.png" alt="Atlas Cloud" width="150"></a></td>
+<td><strong>Atlas Cloud</strong> is a full-modal AI inference platform that gives developers a single AI API for video generation, image generation, and LLM APIs. Instead of managing multiple vendor integrations, you connect once and get unified access to 300+ curated models across all modalities. Check out Atlas Cloud's new <a href="https://www.atlascloud.ai/coding-plan">coding plan</a> promotion for more budget-friendly API access.</td>
+</tr>
+</table>
+
+</details>
 
 ---
 

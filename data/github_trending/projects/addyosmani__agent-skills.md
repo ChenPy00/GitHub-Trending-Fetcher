@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "6294ad143dd511658a8c608612f4e65aa9c7e1420d16eff003537d5f4fbb0cbc"
+  "readme_sha256": "1b715bdf78046bb5bebd0150b64eb7a093b41029fc91a033e9a424685c32507a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `6294ad143dd511658a8c608612f4e65aa9c7e1420d16eff003537d5f4fbb0cbc`
+- README SHA256: `1b715bdf78046bb5bebd0150b64eb7a093b41029fc91a033e9a424685c32507a`
 
 ## README
 
@@ -395,6 +395,18 @@ Wondering how this stacks up against [Superpowers](https://github.com/obra/super
 Skills should be **specific** (actionable steps, not vague advice), **verifiable** (clear exit criteria with evidence requirements), **battle-tested** (based on real workflows), and **minimal** (only what's needed to guide the agent).
 
 See [docs/skill-anatomy.md](docs/skill-anatomy.md) for the format specification and [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## Team
+
+agent-skills is built and maintained by:
+
+| | Name | GitHub | Role |
+|---|------|--------|------|
+| <img src="https://github.com/addyosmani.png?size=120" width="60" height="60" alt="Addy Osmani"> | **Addy Osmani** | [@addyosmani](https://github.com/addyosmani) | Creator |
+| <img src="https://github.com/federicobartoli.png?size=120" width="60" height="60" alt="Federico Bartoli"> | **Federico Bartoli** | [@federicobartoli](https://github.com/federicobartoli) | Collaborator |
+| <img src="https://github.com/nucliweb.png?size=120" width="60" height="60" alt="Joan León"> | **Joan León** | [@nucliweb](https://github.com/nucliweb) | Collaborator |
 
 ---
 
