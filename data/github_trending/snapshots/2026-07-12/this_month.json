@@ -1,0 +1,161 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 1,
+      "readme_sha256": "66b15fdf18049b843caa57baffebdb88e5226bfb999e7ff8f7b071ac26995cb6",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 2,
+      "readme_sha256": "2e4d34565e5aea2f7c637765d9906f531d788df7a0976e64456899d616555303",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 3,
+      "readme_sha256": "c6ba70f20939e156008e40a2b4540a904ef1e3b582242e812c05e77a00c73eef",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 4,
+      "readme_sha256": "d5d3c8feceab65b1964bf06ff1080a37fb61696a760d79882646eccb3b096f70",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "git push no-mistakes",
+      "full_name": "kunchenguid/no-mistakes",
+      "project_file": "projects/kunchenguid__no-mistakes.md",
+      "rank": 5,
+      "readme_sha256": "e1ea336fcc8a9a69166702d75f5315f9d58c0faaacb98570ebacc3703a9505f5",
+      "url": "https://github.com/kunchenguid/no-mistakes"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 6,
+      "readme_sha256": "c9837c759cf9bd026e4352cf24709572d13a2f4deca2cd67b5235f273eb76ffc",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 7,
+      "readme_sha256": "ee58f111deabc39a2477c4a6f983b721f9f301bad2420e09be7dc1d49a786286",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 8,
+      "readme_sha256": "d1f4d9010fcd72374f71083143394b90c892d2d6c7dc7b3420d609842bfd34c2",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 9,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "AI agent to evaluate and score resumes.",
+      "full_name": "interviewstreet/hiring-agent",
+      "project_file": "projects/interviewstreet__hiring-agent.md",
+      "rank": 10,
+      "readme_sha256": "d0503e4fe7f1880740e5cfb1cb420269edf93b7cb03a53ba9a30a41da2340d62",
+      "url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    {
+      "description": "A lightweight, lightning-fast, in-process vector database",
+      "full_name": "alibaba/zvec",
+      "project_file": "projects/alibaba__zvec.md",
+      "rank": 11,
+      "readme_sha256": "8a76686947ed66984f0ddb3650f1110c8293bd902c5a83764bbc5e5783787a7a",
+      "url": "https://github.com/alibaba/zvec"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 12,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 13,
+      "readme_sha256": "70657338073217ce5c595749b8b0c3b5826b8b7cb20dcded657c22d9c4c96bc8",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 14,
+      "readme_sha256": "d0f865e8c4c551608d9f3af755c8ea988c86b1b64238a0dc426d7cf5df90acb9",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 15,
+      "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, and security risks.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 16,
+      "readme_sha256": "965bdc3795ffa2b6c9cb5eb0c5124468be2df75a65ac94f67b5b0811c50fc123",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "IP addresses break, dial keys instead. A library that adds QUIC + NAT Traversal to your apps.",
+      "full_name": "n0-computer/iroh",
+      "project_file": "projects/n0-computer__iroh.md",
+      "rank": 17,
+      "readme_sha256": "3375564eaa22eabea0d6b8440e9ef6fed2c282f24d02298e741a1d2dc05442b0",
+      "url": "https://github.com/n0-computer/iroh"
+    },
+    {
+      "description": "Fast C++ logging library.",
+      "full_name": "gabime/spdlog",
+      "project_file": "projects/gabime__spdlog.md",
+      "rank": 18,
+      "readme_sha256": "d6ea8fd52d4e3194edf0b1cead3f55e9cd75130a192d52e9cd9aae87c1aa5254",
+      "url": "https://github.com/gabime/spdlog"
+    },
+    {
+      "description": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac. It is written in Swift, and optimized for Apple silicon.",
+      "full_name": "apple/container",
+      "project_file": "projects/apple__container.md",
+      "rank": 19,
+      "readme_sha256": "d553939d46d0da043d67ffb8de088629acc6907f2d1c645defd84eba94914bef",
+      "url": "https://github.com/apple/container"
+    }
+  ],
+  "snapshot_date": "2026-07-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

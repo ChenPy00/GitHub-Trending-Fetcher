@@ -5,7 +5,7 @@
   "full_name": "davila7/claude-code-templates",
   "url": "https://github.com/davila7/claude-code-templates",
   "description": "CLI tool for configuring and monitoring Claude Code",
-  "readme_sha256": "a078cff1e83ba7763dd37a80d67c63e8ba4006c60d703b54d6ab341cf00e5494"
+  "readme_sha256": "42718ed86d7813f5c95493ca01b5ec1665b5597bc52ae8cf7d97c885d6ac45b2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/davila7/claude-code-templates
 - Description: CLI tool for configuring and monitoring Claude Code
-- README SHA256: `a078cff1e83ba7763dd37a80d67c63e8ba4006c60d703b54d6ab341cf00e5494`
+- README SHA256: `42718ed86d7813f5c95493ca01b5ec1665b5597bc52ae8cf7d97c885d6ac45b2`
 
 ## README
 
@@ -173,7 +173,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **🐛 Issues**: [GitHub Issues](https://github.com/davila7/claude-code-templates/issues)
 
 ## Stargazers over time
-[![Stargazers over time](https://starchart.cc/davila7/claude-code-templates.svg?variant=adaptive)](https://starchart.cc/davila7/claude-code-templates)
+[![Stargazers over time](docs/star-history.svg)](https://www.aitmpl.com/component/skill/git/star-history-chart)
 
 ---
 

@@ -1,0 +1,177 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 1,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 2,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 3,
+      "readme_sha256": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 4,
+      "readme_sha256": "d5d3c8feceab65b1964bf06ff1080a37fb61696a760d79882646eccb3b096f70",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 5,
+      "readme_sha256": "ee58f111deabc39a2477c4a6f983b721f9f301bad2420e09be7dc1d49a786286",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "full_name": "TencentCloud/CubeSandbox",
+      "project_file": "projects/TencentCloud__CubeSandbox.md",
+      "rank": 6,
+      "readme_sha256": "59456dda57f624fe8c74211ea80e0956bded2c6abf5f71a5d92e72f0a67ca026",
+      "url": "https://github.com/TencentCloud/CubeSandbox"
+    },
+    {
+      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "facebook/astryx",
+      "project_file": "projects/facebook__astryx.md",
+      "rank": 7,
+      "readme_sha256": "68c31232869bf6674bc128e800fccaca42881d8424c17ab87e9a6012cf0ecb58",
+      "url": "https://github.com/facebook/astryx"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 8,
+      "readme_sha256": "c9837c759cf9bd026e4352cf24709572d13a2f4deca2cd67b5235f273eb76ffc",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 9,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 10,
+      "readme_sha256": "d0f865e8c4c551608d9f3af755c8ea988c86b1b64238a0dc426d7cf5df90acb9",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 11,
+      "readme_sha256": "d1f4d9010fcd72374f71083143394b90c892d2d6c7dc7b3420d609842bfd34c2",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 12,
+      "readme_sha256": "70657338073217ce5c595749b8b0c3b5826b8b7cb20dcded657c22d9c4c96bc8",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 13,
+      "readme_sha256": "deb59226bb2d8074eca4ef8f35bfeb9424b13ef32d8a664f5dd85308aec8f656",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 14,
+      "readme_sha256": "49bb2fcf1f8bfe214588477b5f1e6aa8c3682ba2738909e58a0db9bc5b228008",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 15,
+      "readme_sha256": "faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "345 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 330+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "full_name": "alirezarezvani/claude-skills",
+      "project_file": "projects/alirezarezvani__claude-skills.md",
+      "rank": 16,
+      "readme_sha256": "a71a2913f79cf0425656bb1a81a4691520cdf1d976a3063baf4133c0be26dc89",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 17,
+      "readme_sha256": "c537811c7f6036c4908ea3c17e6a34696ea2331e03ada557d765f04af9b1ec94",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 18,
+      "readme_sha256": "e78642b8bc3a4efd385200f11123a858a93849f33aa9b4982bd6c67d608ae06c",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Abseil Common Libraries (C++)",
+      "full_name": "abseil/abseil-cpp",
+      "project_file": "projects/abseil__abseil-cpp.md",
+      "rank": 19,
+      "readme_sha256": "ef96eba1d2e35b51a36ddd9cff4b1eac25a9702341c00ef0c19d601a37516d10",
+      "url": "https://github.com/abseil/abseil-cpp"
+    },
+    {
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "full_name": "vxcontrol/pentagi",
+      "project_file": "projects/vxcontrol__pentagi.md",
+      "rank": 20,
+      "readme_sha256": "4d15b49910efa654285f676381e9c0618173a559ba6e74099073d858d9395321",
+      "url": "https://github.com/vxcontrol/pentagi"
+    },
+    {
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "full_name": "google-labs-code/stitch-skills",
+      "project_file": "projects/google-labs-code__stitch-skills.md",
+      "rank": 21,
+      "readme_sha256": "610fa2fc8e4acd53ec5067806445d9154b3a2871c9e386cdef45d49d59168103",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+    }
+  ],
+  "snapshot_date": "2026-07-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

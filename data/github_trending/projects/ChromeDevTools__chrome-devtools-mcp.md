@@ -5,7 +5,7 @@
   "full_name": "ChromeDevTools/chrome-devtools-mcp",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "description": "Chrome DevTools for coding agents",
-  "readme_sha256": "be64a1209e41f7385988b41ef33d97b55041e5b5ce7123e0afc0928fd0734fd0"
+  "readme_sha256": "49bb2fcf1f8bfe214588477b5f1e6aa8c3682ba2738909e58a0db9bc5b228008"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Description: Chrome DevTools for coding agents
-- README SHA256: `be64a1209e41f7385988b41ef33d97b55041e5b5ce7123e0afc0928fd0734fd0`
+- README SHA256: `49bb2fcf1f8bfe214588477b5f1e6aa8c3682ba2738909e58a0db9bc5b228008`
 
 ## README
 
@@ -770,6 +770,11 @@ The Chrome DevTools MCP server supports the following configuration option:
 
 - **`--redactNetworkHeaders`/ `--redact-network-headers`**
   If true, redacts some of the network headers considered sensitive before returning to the client.
+  - **Type:** boolean
+  - **Default:** `false`
+
+- **`--allowUnrestrictedPaths`/ `--allow-unrestricted-paths`**
+  If set, disables the default path restriction that applies when the MCP client does not negotiate the roots capability. By default, file-writing tools are restricted to the OS temp directory when no roots are configured. Use this only when connecting a trusted local client that does not implement MCP roots and requires access to paths outside the temp directory.
   - **Type:** boolean
   - **Default:** `false`
 
