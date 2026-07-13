@@ -5,7 +5,7 @@
   "full_name": "chen08209/FlClash",
   "url": "https://github.com/chen08209/FlClash",
   "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
-  "readme_sha256": "9423a1a2c49115efc3eca43696fc9c94f4543131a962dcac51d532c9449646f3"
+  "readme_sha256": "6cf3ec7890628119a5ca5fc8ae35ff3e670e7eff3d3c02e4e4899e44f6bdef8d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chen08209/FlClash
 - Description: A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.
-- README SHA256: `9423a1a2c49115efc3eca43696fc9c94f4543131a962dcac51d532c9449646f3`
+- README SHA256: `6cf3ec7890628119a5ca5fc8ae35ff3e670e7eff3d3c02e4e4899e44f6bdef8d`
 
 ## README
 
@@ -79,6 +79,13 @@ Support the following actions
 ## Download
 
 <a href="https://chen08209.github.io/FlClash-fdroid-repo/repo?fingerprint=789D6D32668712EF7672F9E58DEEB15FBD6DCEEC5AE7A4371EA72F2AAE8A12FD"><img alt="Get it on F-Droid" src="snapshots/get-it-on-fdroid.svg" width="200px"/></a> <a href="https://github.com/chen08209/FlClash/releases"><img alt="Get it on GitHub" src="snapshots/get-it-on-github.svg" width="200px"/></a>
+
+### Homebrew
+
+```bash
+brew tap chen08209/tap
+brew install --cask flclash
+```
 
 ## Build
 

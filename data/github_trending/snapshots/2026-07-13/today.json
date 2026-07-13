@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "project_file": "projects/Dicklesworthstone__destructive_command_guard.md",
+      "rank": 1,
+      "readme_sha256": "9bb895b9bfd6cb496a501f353485b589a062a82ee7375b89d338a5024dec88db",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
+    },
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 2,
+      "readme_sha256": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 3,
+      "readme_sha256": "4e1050e46d1a5bc53f87be7dae88c97a3555c40274b1e54175f5e972a1fef6f6",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Prefect is a workflow orchestration framework for building resilient data pipelines in Python.",
+      "full_name": "PrefectHQ/prefect",
+      "project_file": "projects/PrefectHQ__prefect.md",
+      "rank": 4,
+      "readme_sha256": "755a4de39a3959a2ca1c9c897dedb591217c3c38a11c026abb948333ca9e4077",
+      "url": "https://github.com/PrefectHQ/prefect"
+    },
+    {
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 5,
+      "readme_sha256": "dafc4583b27b820edaae55bcfbcdf1e7c851ae2badaab486841e709f83faa9a5",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "full_name": "anthropics/claude-cookbooks",
+      "project_file": "projects/anthropics__claude-cookbooks.md",
+      "rank": 6,
+      "readme_sha256": "4ffad49fa541a076841699ebdc2501124a73a8fa4fbf3164d678e65bfffc2a7a",
+      "url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "full_name": "home-assistant/core",
+      "project_file": "projects/home-assistant__core.md",
+      "rank": 7,
+      "readme_sha256": "c9955c50630b0e2582cbc56b13f077e778a8c03c8002ce8966a38444a30c4d93",
+      "url": "https://github.com/home-assistant/core"
+    },
+    {
+      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "project_file": "projects/Crosstalk-Solutions__project-nomad.md",
+      "rank": 8,
+      "readme_sha256": "5fe1b0aaa29ba71ed748bbc693a392878aba51e1a697bb8812845b87bdca8ef4",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    {
+      "description": "An open-source background agents coding system",
+      "full_name": "ColeMurray/background-agents",
+      "project_file": "projects/ColeMurray__background-agents.md",
+      "rank": 9,
+      "readme_sha256": "3300d9397fe214786316d65acfed79c841eb0484e42b26cc6259c5b447cde064",
+      "url": "https://github.com/ColeMurray/background-agents"
+    },
+    {
+      "description": "Advanced UX and interoperability extension for Wand (WeMod) app",
+      "full_name": "k1tbyte/Wand-Enhancer",
+      "project_file": "projects/k1tbyte__Wand-Enhancer.md",
+      "rank": 10,
+      "readme_sha256": "80e3b916bf958356c3f8e6c18b649facd8ec159ea3ce64f1c36a46733ac1243f",
+      "url": "https://github.com/k1tbyte/Wand-Enhancer"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 11,
+      "readme_sha256": "858db29e8b9f328472a9ac3d92a0868dc7df134a18512de86c9bd8712f618870",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "An AI Hedge Fund Team",
+      "full_name": "virattt/ai-hedge-fund",
+      "project_file": "projects/virattt__ai-hedge-fund.md",
+      "rank": 12,
+      "readme_sha256": "13085c65f86976d9d9ecb68e11b5761902c834fe8668c35193aef508f836533a",
+      "url": "https://github.com/virattt/ai-hedge-fund"
+    },
+    {
+      "description": "A multi-platform proxy client based on ClashMeta,simple and easy to use, open-source and ad-free.",
+      "full_name": "chen08209/FlClash",
+      "project_file": "projects/chen08209__FlClash.md",
+      "rank": 13,
+      "readme_sha256": "6cf3ec7890628119a5ca5fc8ae35ff3e670e7eff3d3c02e4e4899e44f6bdef8d",
+      "url": "https://github.com/chen08209/FlClash"
+    },
+    {
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "full_name": "davila7/claude-code-templates",
+      "project_file": "projects/davila7__claude-code-templates.md",
+      "rank": 14,
+      "readme_sha256": "968ebfbe305f6d5ae31e2d0890d3af6962d1ba1c89fee5b5820b0334c89ed864",
+      "url": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "description": "An experimental PlayStation 5 emulator project.",
+      "full_name": "par274/sharpemu",
+      "project_file": "projects/par274__sharpemu.md",
+      "rank": 15,
+      "readme_sha256": "46f9d210d6a36245372095cb8475dca47a922a949d14ecc46224960679cf8e6d",
+      "url": "https://github.com/par274/sharpemu"
+    },
+    {
+      "description": "Postgres rewritten in Rust, now passing 100% of the Postgres regression tests",
+      "full_name": "malisper/pgrust",
+      "project_file": "projects/malisper__pgrust.md",
+      "rank": 16,
+      "readme_sha256": "2fc644039517ca2f255e4f2615d86d99ef448d5135bedd1ac501383dcf6d79e2",
+      "url": "https://github.com/malisper/pgrust"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 17,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    }
+  ],
+  "snapshot_date": "2026-07-13",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

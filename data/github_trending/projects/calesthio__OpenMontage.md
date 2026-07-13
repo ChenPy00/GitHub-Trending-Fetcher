@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "2e4d34565e5aea2f7c637765d9906f531d788df7a0976e64456899d616555303"
+  "readme_sha256": "1eb21e82d66632d3831cfed86c9547e1ec84d9c72c52646a6385f18be44cd370"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `2e4d34565e5aea2f7c637765d9906f531d788df7a0976e64456899d616555303`
+- README SHA256: `1eb21e82d66632d3831cfed86c9547e1ec84d9c72c52646a6385f18be44cd370`
 
 ## README
 
@@ -242,6 +242,10 @@ This repo is built for agentic operation. If you're an OpenClaw-style agent, her
 
 # Image + video gateway:
 FAL_KEY=your-key               # FLUX images + Google Veo, Kling, MiniMax video + Recraft images
+
+# Kling official direct API:
+KLING_API_KEY=your-key         # Official Kling video, image, TTS, avatar, lip sync
+KLING_API_BASE_URL=            # Optional; default Singapore API endpoint
 
 # Free stock media:
 PEXELS_API_KEY=your-key        # Free stock footage and images
@@ -488,11 +492,12 @@ Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to
 > **Full setup guide with pricing and free tiers:** [`docs/PROVIDERS.md`](docs/PROVIDERS.md)
 
 <details>
-<summary><strong>Video Generation — 14 providers</strong></summary>
+<summary><strong>Video Generation — 15 providers</strong></summary>
 
 | Provider | Type | Notes |
 |----------|------|-------|
-| **Kling** | Cloud API | High quality, fast |
+| **Kling (fal.ai)** | Cloud API | High quality, fast via fal.ai gateway |
+| **Kling Official** | Cloud API | Official direct API with separate `kling_official` provider |
 | **Runway Gen-4** | Cloud API | Cinematic quality, Gen-3 Alpha Turbo / Gen-4 Turbo / Gen-4 Aleph |
 | **Google Veo 3** | Cloud API | Long-form, cinematic. Via fal.ai or HeyGen. |
 | **Grok Imagine Video** | Cloud API | Strong reference-image video and xAI-native short-form generation |
@@ -510,7 +515,7 @@ Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to
 </details>
 
 <details>
-<summary><strong>Image Generation — 10 tools/providers</strong></summary>
+<summary><strong>Image Generation — 11 tools/providers</strong></summary>
 
 | Provider | Type | Notes |
 |----------|------|-------|
@@ -519,6 +524,7 @@ Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to
 | **Grok Imagine Image** | Cloud API | Strong image edits, style transfer, and multi-image compositing |
 | **GPT Image 2** | Cloud API | OpenAI's image model |
 | **Recraft** | Cloud API | Design-focused generation |
+| **Kling Official** | Cloud API | Official direct API for Kling image generation and reference workflows |
 | **Local Diffusion** | Local GPU | Stable Diffusion, free |
 | **Pexels** | Stock | Free stock images |
 | **Pixabay** | Stock | Free stock images |
@@ -528,12 +534,13 @@ Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to
 </details>
 
 <details>
-<summary><strong>Text-to-Speech — 4 providers</strong></summary>
+<summary><strong>Text-to-Speech — 5 providers</strong></summary>
 
 | Provider | Type | Notes |
 |----------|------|-------|
 | **ElevenLabs** | Cloud API | Premium voice quality |
 | **Google TTS** | Cloud API | 700+ voices, 50+ languages — best for localization |
+| **Kling Official TTS** | Cloud API | Official Kling narration when a `voice_id` is known |
 | **OpenAI TTS** | Cloud API | Fast, affordable |
 | **Piper** | Local | Completely free, offline |
 
@@ -586,6 +593,8 @@ Each tool declares which Layer 3 skills it relies on. The agent reads Layer 1 to
 |------|-------------|
 | **Talking Head** | SadTalker / MuseTalk avatar animation |
 | **Lip Sync** | Wav2Lip audio-driven lip synchronization |
+| **Kling Avatar** | Official Kling cloud avatar presenter generation |
+| **Kling Lip Sync** | Official Kling cloud lip-sync with explicit face selection |
 
 **Composition & Rendering:**
 

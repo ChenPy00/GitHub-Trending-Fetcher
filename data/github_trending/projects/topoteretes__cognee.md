@@ -5,7 +5,7 @@
   "full_name": "topoteretes/cognee",
   "url": "https://github.com/topoteretes/cognee",
   "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
-  "readme_sha256": "71c25044c108c050c2d29229a6480426a2b2c0e105e5afde40817bb7bc29d2f3"
+  "readme_sha256": "d71b8d554343d810643a7219c50d69a58ced9aef3c581ff1dbc960c3231e32d7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/topoteretes/cognee
 - Description: Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
-- README SHA256: `71c25044c108c050c2d29229a6480426a2b2c0e105e5afde40817bb7bc29d2f3`
+- README SHA256: `d71b8d554343d810643a7219c50d69a58ced9aef3c581ff1dbc960c3231e32d7`
 
 ## README
 
@@ -117,9 +117,9 @@ Cognee is an open-source AI memory platform for AI Agents. Ingest data in any fo
 
 ## Basic Usage & Feature Guide
 
-To learn more, [check out this short, end-to-end Colab walkthrough](https://colab.research.google.com/drive/12Vi9zID-M3fpKpKiaqDBvkk98ElkRPWy?usp=sharing) of Cognee's core features.
+To learn more, [check out this short, end-to-end Colab walkthrough](https://colab.research.google.com/drive/1HRrzIvzcbwrESVfX76wJLKmtIg00SUga?usp=sharing) of Cognee's core features.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12Vi9zID-M3fpKpKiaqDBvkk98ElkRPWy?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1HRrzIvzcbwrESVfX76wJLKmtIg00SUga?usp=sharing)
 
 ## Quickstart
 
