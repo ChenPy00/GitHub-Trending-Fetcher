@@ -5,7 +5,7 @@
   "full_name": "OpenCut-app/OpenCut",
   "url": "https://github.com/OpenCut-app/OpenCut",
   "description": "The open-source CapCut alternative",
-  "readme_sha256": "1464891190fda1c67d52baed708f357c4540d9b52b41e35fc16c0bcc07905256"
+  "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/OpenCut-app/OpenCut
 - Description: The open-source CapCut alternative
-- README SHA256: `1464891190fda1c67d52baed708f357c4540d9b52b41e35fc16c0bcc07905256`
+- README SHA256: `a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6`
 
 ## README
 
@@ -44,7 +44,7 @@
 - Headless mode (automation, batch rendering)
 - A scripting tab directly in the editor
 
-You can still find the previous version at [opencut-app/opencut-classic](https://github.com/opencut-app/opencut-classic), which is the one to reach for today. [opencut.app](https://opencut.app) still runs the classic version; the rewrite will live at [new.opencut.app](https://new.opencut.app) until it's ready to take over.
+You can still find the previous version at [opencut-app/opencut-classic](https://github.com/opencut-app/opencut-classic), which is the one to reach for today. [opencut.app](https://opencut.app) still runs the classic version. The rewrite will live at [new.opencut.app](https://new.opencut.app) until it's ready to take over.
 
 ## Development
 
@@ -57,13 +57,13 @@ bash <(curl -fsSL https://moonrepo.dev/install/proto.sh)
 From the repo root:
 
 ```sh
-proto use    # installs bun + moon at the versions pinned in .prototools
-bun install
+proto use    # installs the tools pinned in .prototools
 ```
 
 ```sh
-moon run web:dev   # localhost:5173
-moon run api:dev   # localhost:8787
+moon run web:dev       # localhost:5173
+moon run api:dev       # localhost:8787
+moon run desktop:dev   # see apps/desktop/README.md
 ```
 
 ## Contributing

@@ -5,7 +5,7 @@
   "full_name": "usestrix/strix",
   "url": "https://github.com/usestrix/strix",
   "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-  "readme_sha256": "c9837c759cf9bd026e4352cf24709572d13a2f4deca2cd67b5235f273eb76ffc"
+  "readme_sha256": "3d7e9d797f9ce251adcbc0fc0123af4e1328d73dd163ea02ced481917dc21a07"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usestrix/strix
 - Description: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
-- README SHA256: `c9837c759cf9bd026e4352cf24709572d13a2f4deca2cd67b5235f273eb76ffc`
+- README SHA256: `3d7e9d797f9ce251adcbc0fc0123af4e1328d73dd163ea02ced481917dc21a07`
 
 ## README
 
@@ -46,8 +46,8 @@
 <a href="https://x.com/strix_ai"><img src="https://github.com/usestrix/.github/raw/main/imgs/X.png" height="40" alt="Follow on X"></a>
 
 
-<a href="https://trendshift.io/repositories/15362" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15362" alt="usestrix/strix | Trendshift" width="250" height="55"/></a>
 <a href="https://trendshift.io/repositories/15362?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-15362" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/15362/weekly" alt="usestrix%2Fstrix | Trendshift" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/15362" target="_blank"><img src="https://trendshift.io/api/badge/repositories/15362" alt="usestrix/strix | Trendshift" width="250" height="55"/></a>
 
 </div>
 

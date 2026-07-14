@@ -5,7 +5,7 @@
   "full_name": "HKUDS/Vibe-Trading",
   "url": "https://github.com/HKUDS/Vibe-Trading",
   "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-  "readme_sha256": "4e1050e46d1a5bc53f87be7dae88c97a3555c40274b1e54175f5e972a1fef6f6"
+  "readme_sha256": "cb7000a92710de02d6290d1a6d8e9125d7b112da970eb6260907784df15a000f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/Vibe-Trading
 - Description: "Vibe-Trading: Your Personal Trading Agent"
-- README SHA256: `4e1050e46d1a5bc53f87be7dae88c97a3555c40274b1e54175f5e972a1fef6f6`
+- README SHA256: `cb7000a92710de02d6290d1a6d8e9125d7b112da970eb6260907784df15a000f`
 
 ## README
 
@@ -986,9 +986,17 @@ profile. `run_swarm` requires an LLM key.
 <summary><b>Cursor / Windsurf / other MCP clients</b></summary>
 
 ```bash
-vibe-trading-mcp                  # stdio (default)
-vibe-trading-mcp --transport sse  # SSE for web clients
+vibe-trading-mcp                   # stdio (default)
+vibe-trading-mcp --transport http  # Streamable HTTP (current MCP spec default) at http://127.0.0.1:8900/mcp
+vibe-trading-mcp --transport sse   # legacy SSE (deprecated) for older clients
 ```
+
+For HTTP clients (QwenPaw, and any client that negotiates by POSTing an
+`InitializeRequest`), use `--transport http` and point the client at the single
+`/mcp` endpoint — e.g. `http://127.0.0.1:8900/mcp`. Do **not** point an HTTP
+client at `/sse`; that path belongs to the deprecated two-endpoint SSE transport
+and will return `405 Method Not Allowed` on `POST`. Override the bind address
+with `--host` / `--port`.
 
 </details>
 
