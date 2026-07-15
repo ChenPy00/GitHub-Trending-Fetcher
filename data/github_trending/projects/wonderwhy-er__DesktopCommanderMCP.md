@@ -5,7 +5,7 @@
   "full_name": "wonderwhy-er/DesktopCommanderMCP",
   "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
   "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
-  "readme_sha256": "804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa"
+  "readme_sha256": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/wonderwhy-er/DesktopCommanderMCP
 - Description: This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities
-- README SHA256: `804eb06005dd9b7203f9d26b51f1eb54c10b84053c02f9b35a772c7f526ed2aa`
+- README SHA256: `3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60`
 
 ## README
 
@@ -107,11 +107,10 @@ Execute long-running terminal commands on your computer and manage processes thr
   - All tool calls are automatically logged
   - Log rotation with 10MB size limit
   - Detailed timestamps and arguments
-- Security hardening:
+- Safety guardrails (not a sandbox — see [SECURITY.md](SECURITY.md)):
   - Symlink traversal prevention on file operations
-  - Command blocklist with bypass protection
-  - [Docker isolation](#option-6-docker-installation--auto-updates-no-nodejs-required) for full sandboxing
-  - See [SECURITY.md](SECURITY.md) for details
+  - Command blocklist for accidental execution
+  - [Docker isolation](#option-6-docker-installation--auto-updates-no-nodejs-required) for complete isolation
 
 ## How to install
 

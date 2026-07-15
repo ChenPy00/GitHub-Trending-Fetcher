@@ -5,7 +5,7 @@
   "full_name": "alibaba/zvec",
   "url": "https://github.com/alibaba/zvec",
   "description": "A lightweight, lightning-fast, in-process vector database",
-  "readme_sha256": "8a76686947ed66984f0ddb3650f1110c8293bd902c5a83764bbc5e5783787a7a"
+  "readme_sha256": "162e53bba3f8d6a096c701f13c1c28da5700d52debca241313633611a0370602"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/zvec
 - Description: A lightweight, lightning-fast, in-process vector database
-- README SHA256: `8a76686947ed66984f0ddb3650f1110c8293bd902c5a83764bbc5e5783787a7a`
+- README SHA256: `162e53bba3f8d6a096c701f13c1c28da5700d52debca241313633611a0370602`
 
 ## README
 
@@ -57,7 +57,7 @@
 > 🚀 **v0.5.0 (June 12, 2026)**
 >
 > - **Full-Text Search (FTS)**: Native full-text search — attach an FTS index to any string field and query it with natural-language or structured expressions, no external search engine required.
-> - **Hybrid Retrieval**: Combine full-text and vector search in a single `MultiQuery` across dense vectors, sparse vectors, scalar filters, and text.
+> - **Hybrid Retrieval**: Combine full-text, dense-vector, and sparse-vector retrieval in a single query call, with scalar filtering and reranking.
 > - **DiskANN Index**: New on-disk index that keeps the bulk of the index on disk, drastically cutting memory usage for large-scale datasets.
 > - **Ecosystem & Platforms**: New official [Go](https://github.com/zvec-ai/zvec-go) / [Rust](https://github.com/zvec-ai/zvec-rust) SDKs, the [Zvec Studio](https://github.com/zvec-ai/zvec-studio) visual tool, and RISC-V support.
 >
@@ -78,7 +78,7 @@
 
 Zvec offers official SDKs across multiple languages:
 
-- **[Python](https://pypi.org/project/zvec/)**: `pip install zvec` (requires Python 3.10–3.14)
+- **[Python](https://pypi.org/project/zvec/)**: `pip install zvec` (requires 64-bit Python 3.10–3.14)
 - **[Node.js](https://www.npmjs.com/package/@zvec/zvec)**: `npm install @zvec/zvec`
 - **[Go](https://github.com/zvec-ai/zvec-go)**: High-performance Go bindings.
 - **[Rust](https://github.com/zvec-ai/zvec-rust)**: High-performance Rust bindings.

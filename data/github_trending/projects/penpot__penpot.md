@@ -4,7 +4,7 @@
   "name": "penpot",
   "full_name": "penpot/penpot",
   "url": "https://github.com/penpot/penpot",
-  "description": "Penpot: The open-source design tool for design and code collaboration",
+  "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
   "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e"
 }
 ```
@@ -12,7 +12,7 @@
 # penpot/penpot
 
 - URL: https://github.com/penpot/penpot
-- Description: Penpot: The open-source design tool for design and code collaboration
+- Description: Penpot: The open-source design platform for Product teams that need scalable collaboration.
 - README SHA256: `5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e`
 
 ## README

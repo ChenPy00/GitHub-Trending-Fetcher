@@ -5,7 +5,7 @@
   "full_name": "par274/sharpemu",
   "url": "https://github.com/par274/sharpemu",
   "description": "An experimental PlayStation 5 emulator project.",
-  "readme_sha256": "46f9d210d6a36245372095cb8475dca47a922a949d14ecc46224960679cf8e6d"
+  "readme_sha256": "7e2732809215781190a780f719e40e6cd716ee5c45c6c9285b0ebd2d8bfe5d7b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/par274/sharpemu
 - Description: An experimental PlayStation 5 emulator project.
-- README SHA256: `46f9d210d6a36245372095cb8475dca47a922a949d14ecc46224960679cf8e6d`
+- README SHA256: `7e2732809215781190a780f719e40e6cd716ee5c45c6c9285b0ebd2d8bfe5d7b`
 
 ## README
 
@@ -141,3 +141,16 @@ Provided valuable references for filesystem handling and low-level C# implementa
 # License
 
 - [**GPL-2.0 license**](https://github.com/par274/sharpemu/blob/main/LICENSE)
+
+## Contributing
+
+Before opening an issue or pull request, please read our contribution guidelines:
+
+**[CONTRIBUTING.md](./CONTRIBUTING.md)**
+
+The guide covers:
+- Coding style and formatting
+- AI-assisted contributions
+- Pull request expectations
+- Testing guidelines
+- Legal and reverse engineering policy

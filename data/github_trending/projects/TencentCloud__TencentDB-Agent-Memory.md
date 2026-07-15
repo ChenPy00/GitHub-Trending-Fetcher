@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/TencentDB-Agent-Memory",
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "description": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
-  "readme_sha256": "7ecd8fa3d6a564bfabffbccb6ff8faa30aaeec79a9feabd1c71d78b7c28df37e"
+  "readme_sha256": "fd1cb24cef76a06c1b2a1beec596361d32357c4ca9625bba3a39fc66a0438894"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/TencentDB-Agent-Memory
 - Description: TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.
-- README SHA256: `7ecd8fa3d6a564bfabffbccb6ff8faa30aaeec79a9feabd1c71d78b7c28df37e`
+- README SHA256: `fd1cb24cef76a06c1b2a1beec596361d32357c4ca9625bba3a39fc66a0438894`
 
 ## README
 
@@ -22,6 +22,8 @@
 <img src="./assets/images/logo.png" alt="TencentDB Agent Memory" width="880" />
 
 ### Agents remember,Humans innovate.
+
+<a href="https://trendshift.io/repositories/29310?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-29310" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/29310" alt="TencentCloud%2FTencentDB-Agent-Memory | Trendshift" width="250" height="55"/></a>
 
 [![npm](https://img.shields.io/npm/v/@tencentdb-agent-memory/memory-tencentdb?color=blue)](https://www.npmjs.com/package/@tencentdb-agent-memory/memory-tencentdb)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)

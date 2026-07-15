@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 1,
+      "readme_sha256": "0c784831cba41b2e461873d8b7d9256b821674217fed06bf41c2b0223b7b7379",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 2,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 3,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "An AI Hedge Fund Team",
+      "full_name": "virattt/ai-hedge-fund",
+      "project_file": "projects/virattt__ai-hedge-fund.md",
+      "rank": 4,
+      "readme_sha256": "13085c65f86976d9d9ecb68e11b5761902c834fe8668c35193aef508f836533a",
+      "url": "https://github.com/virattt/ai-hedge-fund"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 5,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 6,
+      "readme_sha256": "46ca26dbdd97ef888fde18e85168bb91adc1bcb4f77177e5b12b0be56f42479c",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "A simple, lightweight PowerShell script that allows you to remove pre-installed apps, disable telemetry, as well as perform various other changes to declutter and customize your Windows experience. Win11Debloat works for both Windows 10 and Windows 11.",
+      "full_name": "Raphire/Win11Debloat",
+      "project_file": "projects/Raphire__Win11Debloat.md",
+      "rank": 7,
+      "readme_sha256": "bea031d5adfa965ce5e0d088823edc5f5ad44fd2694f40d606b6a5abac90889b",
+      "url": "https://github.com/Raphire/Win11Debloat"
+    },
+    {
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 8,
+      "readme_sha256": "7568896170c4e6bcfdb5b5a898daf2010a6ee2bee9522eda1248dd1e65e74f9d",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    {
+      "description": "Penpot: The open-source design platform for Product teams that need scalable collaboration.",
+      "full_name": "penpot/penpot",
+      "project_file": "projects/penpot__penpot.md",
+      "rank": 9,
+      "readme_sha256": "5ceddd9e894a8449c29e664ba50e4ecee6c2da09a112861a0c5c5bdb8ec8401e",
+      "url": "https://github.com/penpot/penpot"
+    },
+    {
+      "description": "A modern video editor built with Tauri, React, and TypeScript. Focus on building free capabilities of premium capcut functionalities",
+      "full_name": "AIEraDev/Clypra",
+      "project_file": "projects/AIEraDev__Clypra.md",
+      "rank": 10,
+      "readme_sha256": "4402bbf06d700e3160ddeb4f8f43bb595b449bf93a6a19acc4e05892609a8911",
+      "url": "https://github.com/AIEraDev/Clypra"
+    },
+    {
+      "description": "An experimental PlayStation 5 emulator project.",
+      "full_name": "par274/sharpemu",
+      "project_file": "projects/par274__sharpemu.md",
+      "rank": 11,
+      "readme_sha256": "7e2732809215781190a780f719e40e6cd716ee5c45c6c9285b0ebd2d8bfe5d7b",
+      "url": "https://github.com/par274/sharpemu"
+    },
+    {
+      "description": "面向 Grok Build、Grok Web 与 Grok Console 的多账号 API 网关",
+      "full_name": "chenyme/grok2api",
+      "project_file": "projects/chenyme__grok2api.md",
+      "rank": 12,
+      "readme_sha256": "e5df1c76f3569b7e59f04ed7096bf2d63aa5354a92b2041e0f8acf34b221f0f8",
+      "url": "https://github.com/chenyme/grok2api"
+    },
+    {
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "full_name": "Graphify-Labs/graphify",
+      "project_file": "projects/Graphify-Labs__graphify.md",
+      "rank": 13,
+      "readme_sha256": "ea4c32098c2fa6c84103aaae5cfd01c62fcd1417e855adc581878513c7a871f0",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "description": "Become a cracked AI/ML Research Engineer",
+      "full_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "project_file": "projects/HenryNdubuaku__maths-cs-ai-compendium.md",
+      "rank": 14,
+      "readme_sha256": "9115813dac273a4a34c5ec512d3426a2045a7607e60cc74cafe0343e8d91e593",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium"
+    }
+  ],
+  "snapshot_date": "2026-07-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
