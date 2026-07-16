@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 1,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 2,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 3,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "full_name": "moeru-ai/airi",
+      "project_file": "projects/moeru-ai__airi.md",
+      "rank": 4,
+      "readme_sha256": "b8c7656e522ee618db718696a9f2da7d9094e5d243f15f02f12c16f1156a948b",
+      "url": "https://github.com/moeru-ai/airi"
+    },
+    {
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "project_file": "projects/Dicklesworthstone__destructive_command_guard.md",
+      "rank": 5,
+      "readme_sha256": "56345d78c9b72eb35c686abb64d5b0369a8a6be55fc5736c58316fd1de340c2a",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 6,
+      "readme_sha256": "5cd0dfc435998ec7f0d125caac2dea7b1a98ba831397d9ed7a72c62bfd62585b",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "A coding agent for low-cost models",
+      "full_name": "openinterpreter/openinterpreter",
+      "project_file": "projects/openinterpreter__openinterpreter.md",
+      "rank": 7,
+      "readme_sha256": "f543b61002eb58559ce3119ca5e5ea0e3b760f5e6d3ef775737206dd84706453",
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 8,
+      "readme_sha256": "716f6705143f5908720fd0be0c44a2b2111ae36f1c6f8ad010129cc129eb3235",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Become a cracked AI/ML Research Engineer",
+      "full_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "project_file": "projects/HenryNdubuaku__maths-cs-ai-compendium.md",
+      "rank": 9,
+      "readme_sha256": "f0e5352a300cafe58742cbd9022f4f50b96460820eb08c868bb1047902169656",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium"
+    },
+    {
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 10,
+      "readme_sha256": "0c784831cba41b2e461873d8b7d9256b821674217fed06bf41c2b0223b7b7379",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "full_name": "coreyhaines31/marketingskills",
+      "project_file": "projects/coreyhaines31__marketingskills.md",
+      "rank": 11,
+      "readme_sha256": "8764f07bbed09c959ebaffabc2cc849bc76bdfabd9f4917bf2d777d685c87505",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Experimental menu for GTA 5: Enhanced",
+      "full_name": "YimMenu/YimMenuV2",
+      "project_file": "projects/YimMenu__YimMenuV2.md",
+      "rank": 12,
+      "readme_sha256": "c84ff87a111da88c3a309fd40fc0a38500707c17027a90e43d2150ad502552a3",
+      "url": "https://github.com/YimMenu/YimMenuV2"
+    },
+    {
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 13,
+      "readme_sha256": "7568896170c4e6bcfdb5b5a898daf2010a6ee2bee9522eda1248dd1e65e74f9d",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    }
+  ],
+  "snapshot_date": "2026-07-16",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

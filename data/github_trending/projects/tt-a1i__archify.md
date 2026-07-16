@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
-  "readme_sha256": "8f6f96e4b990a846cea25e971179eac9082f72bbd8a07b3214584e89ec13e306"
+  "readme_sha256": "718806b36da3db1a00d2eead95885ecd863b97e9de33114b942e77b34be51c08"
 }
 ```
 
@@ -13,9 +13,13 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export
-- README SHA256: `8f6f96e4b990a846cea25e971179eac9082f72bbd8a07b3214584e89ec13e306`
+- README SHA256: `718806b36da3db1a00d2eead95885ecd863b97e9de33114b942e77b34be51c08`
 
 ## README
+
+<p align="center">
+  <strong>English</strong> · <a href="./README_ZH.md">简体中文</a>
+</p>
 
 <p align="center">
   <a href="https://trendshift.io/repositories/31352?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-31352" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/31352" alt="Archify on Trendshift" width="250" height="55"/></a>
@@ -45,8 +49,6 @@ Archify is an agent skill for Claude, Codex CLI, and opencode. It turns a plain-
 ![Version](https://img.shields.io/badge/version-2.10.0-0891b2?style=flat-square)
 
 **Project page:** [tt-a1i.github.io/archify](https://tt-a1i.github.io/archify/)
-
-<p align="right"><a href="./README_ZH.md">中文</a></p>
 
 **Start in 60 seconds:**
 

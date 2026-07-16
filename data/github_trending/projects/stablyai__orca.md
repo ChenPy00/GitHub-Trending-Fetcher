@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-  "readme_sha256": "d1f4d9010fcd72374f71083143394b90c892d2d6c7dc7b3420d609842bfd34c2"
+  "readme_sha256": "c4fee619f9c16caa4115b857250906f2a6911cebeb62172bdf52f89d7455648f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.
-- README SHA256: `d1f4d9010fcd72374f71083143394b90c892d2d6c7dc7b3420d609842bfd34c2`
+- README SHA256: `c4fee619f9c16caa4115b857250906f2a6911cebeb62172bdf52f89d7455648f`
 
 ## README
 
@@ -55,7 +55,7 @@
 
 Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.
 
-[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.27](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.27/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
+[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.31](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.31/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
 
 </td>
 <td width="50%">
@@ -249,7 +249,7 @@ yay -S stably-orca-bin
 Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) or [join TestFlight](https://testflight.apple.com/join/YjeGMQBA)
-- **Android:** [Download APK 0.0.27](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.27/app-release.apk)
+- **Android:** [Download APK 0.0.31](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.31/app-release.apk)
 
 ---
 
@@ -279,6 +279,9 @@ Want to contribute or run locally? See our [CONTRIBUTING.md](.github/CONTRIBUTIN
 <p align="center">
   <img src="docs/assets/star-history.png" alt="GitHub star history chart for stablyai/orca" width="880" />
 </p>
+
+## Signed Builds
+Windows code signing sponored/provided by [SignPath.io](https://signpath.io), certificate by [SignPath Foundation](https://signpath.org).
 
 ## License
 

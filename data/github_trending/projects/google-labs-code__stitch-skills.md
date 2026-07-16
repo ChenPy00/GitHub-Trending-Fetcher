@@ -5,7 +5,7 @@
   "full_name": "google-labs-code/stitch-skills",
   "url": "https://github.com/google-labs-code/stitch-skills",
   "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
-  "readme_sha256": "610fa2fc8e4acd53ec5067806445d9154b3a2871c9e386cdef45d49d59168103"
+  "readme_sha256": "b3595aadabc5b706b4ef823d595c1a47e095221bada2a1cc556b89bc3f9d58e7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google-labs-code/stitch-skills
 - Description: A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.
-- README SHA256: `610fa2fc8e4acd53ec5067806445d9154b3a2871c9e386cdef45d49d59168103`
+- README SHA256: `b3595aadabc5b706b4ef823d595c1a47e095221bada2a1cc556b89bc3f9d58e7`
 
 ## README
 
@@ -100,6 +100,8 @@ npx skills --help
 
 These skills require the **Stitch MCP** server to be configured and running in your agent's environment. Make sure you have followed the [Stitch MCP Setup Instructions](https://stitch.withgoogle.com/docs/mcp/setup/) to register the server and set up appropriate environment variables and credentials.
 
+> **Docs navigation:** If a link on [stitch.withgoogle.com/docs](https://stitch.withgoogle.com/docs/) redirects incorrectly, open the target path under the same host (e.g. `https://stitch.withgoogle.com/docs/learn/device-types/`).
+
 ## Available Plugins
 
 ### Design (`stitch-design`)
@@ -127,6 +129,7 @@ Code generation, framework integration, and asset compilation from Stitch design
 | [stitch::react-native](plugins/stitch-build/skills/react-native/) | Convert Stitch HTML designs to production-ready React Native components with StyleSheet and platform-specific code | · *"Convert the Stitch design to React Native components with proper theme and navigation."*<br>· *"Sync the app to the last updates of the Stitch project `13039335308618232534`."* |
 | [remotion](plugins/stitch-build/skills/remotion/) | Generate walkthrough videos from Stitch projects using Remotion with smooth transitions and zooming | *"Generate a walkthrough video of the Stitch project `projects/456`."* |
 | [shadcn-ui](plugins/stitch-build/skills/shadcn-ui/) | Expert guidance for integrating and building applications with shadcn/ui components | *"Set up shadcn/ui and build a data table with sorting and filtering."* |
+| [react-vite-dashboard](plugins/stitch-build/skills/react-vite-dashboard/) | Convert Stitch screens to React + Vite dashboards with TanStack Query, DESIGN.md tokens, and Web3 read patterns | *"Build a DeFi portfolio dashboard from this Stitch screen using our DESIGN.md."* |
 
 ---
 
@@ -159,6 +162,7 @@ plugins/
 │   └── skills/
 │       ├── react-components/    — stitch::react-components
 │       ├── react-native/
+│       ├── react-vite-dashboard/
 │       ├── remotion/
 │       └── shadcn-ui/
 └── stitch-utilities/       — Design utilities & assistants plugin

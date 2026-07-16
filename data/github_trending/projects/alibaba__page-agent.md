@@ -5,7 +5,7 @@
   "full_name": "alibaba/page-agent",
   "url": "https://github.com/alibaba/page-agent",
   "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-  "readme_sha256": "70657338073217ce5c595749b8b0c3b5826b8b7cb20dcded657c22d9c4c96bc8"
+  "readme_sha256": "574db7577d0be54ebfe99330d89e5d430bfda834813ba1148a9e0f3ec690c465"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/page-agent
 - Description: JavaScript in-page GUI agent. Control web interfaces with natural language.
-- README SHA256: `70657338073217ce5c595749b8b0c3b5826b8b7cb20dcded657c22d9c4c96bc8`
+- README SHA256: `574db7577d0be54ebfe99330d89e5d430bfda834813ba1148a9e0f3ec690c465`
 
 ## README
 
@@ -78,15 +78,14 @@ Fastest way to try PageAgent with our free Demo LLM:
     src="https://cdn.jsdelivr.net/npm/page-agent@1.12.1/dist/iife/page-agent.demo.js"
     crossorigin="anonymous"
 ></script>
+
+<!-- China CDN mirror if you can't access jsDelivr -->
+<!-- https://registry.npmmirror.com/page-agent/1.12.1/files/dist/iife/page-agent.demo.js -->
 ```
 
 > **⚠️ For technical evaluation only.** This demo CDN uses our free [testing LLM API](https://alibaba.github.io/page-agent/docs/features/models#free-testing-api). By using it, you agree to its [terms](https://github.com/alibaba/page-agent/blob/main/docs/terms-and-privacy.md).
-> Add `?autoInit=false` to load the script without creating the demo agent automatically. You can then instantiate it with `new window.PageAgent(...)`.
-
-| Mirrors | URL                                                                                 |
-| ------- | ----------------------------------------------------------------------------------- |
-| Global  | https://cdn.jsdelivr.net/npm/page-agent@1.12.1/dist/iife/page-agent.demo.js         |
-| China   | https://registry.npmmirror.com/page-agent/1.12.1/files/dist/iife/page-agent.demo.js |
+>
+> Add `?autoInit=false` to load the script without creating the demo agent automatically. You can then instantiate it with `new window.PageAgent(...)` and your own LLMs.
 
 ### NPM Installation
 

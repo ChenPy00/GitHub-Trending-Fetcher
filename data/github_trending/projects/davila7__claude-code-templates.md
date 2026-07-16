@@ -5,7 +5,7 @@
   "full_name": "davila7/claude-code-templates",
   "url": "https://github.com/davila7/claude-code-templates",
   "description": "CLI tool for configuring and monitoring Claude Code",
-  "readme_sha256": "968ebfbe305f6d5ae31e2d0890d3af6962d1ba1c89fee5b5820b0334c89ed864"
+  "readme_sha256": "e4b0e967737caca99869aac02bbec1c0d18cbf50bcdeb5eead50f69dade457c4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/davila7/claude-code-templates
 - Description: CLI tool for configuring and monitoring Claude Code
-- README SHA256: `968ebfbe305f6d5ae31e2d0890d3af6962d1ba1c89fee5b5820b0334c89ed864`
+- README SHA256: `e4b0e967737caca99869aac02bbec1c0d18cbf50bcdeb5eead50f69dade457c4`
 
 ## README
 
@@ -49,7 +49,31 @@
 
 ---
 
-> **🧪 NEW: Dashboard** — Explore components, manage collections, and track installations at **[www.aitmpl.com](https://www.aitmpl.com)**. Currently in beta — feedback welcome!
+<p align="center">
+  <a href="https://get.brightdata.com/lcqorc6nzp9w" target="_blank">
+    <img src="https://avatars.githubusercontent.com/u/213028976?s=200&v=4" alt="Bright Data" width="90" />
+  </a>
+</p>
+
+<h3 align="center">Sponsored by <a href="https://get.brightdata.com/lcqorc6nzp9w">Bright Data</a></h3>
+
+<p align="center">
+  <b>Bright Data proudly supports this project.</b><br />
+  Connect Claude Code to live web data — try their <a href="https://get.brightdata.com/lcqorc6nzp9w">Skills and MCPs</a> for web search, scraping, and structured data feeds.
+</p>
+
+<p align="center">
+  <a href="https://get.brightdata.com/lcqorc6nzp9w">
+    <img src="https://img.shields.io/badge/Try%20Bright%20Data-Free-2563eb?style=for-the-badge" alt="Try Bright Data Free" />
+  </a>
+</p>
+
+```bash
+# Install the Bright Data Skills + MCP for Claude Code
+npx claude-code-templates@latest --skill web-data/search,web-data/scrape,web-data/data-feeds,web-data/bright-data-mcp,web-data/bright-data-best-practices,development/brightdata-local-search --mcp web-data/brightdata --yes
+```
+
+---
 
 # Claude Code Templates ([aitmpl.com](https://aitmpl.com))
 
