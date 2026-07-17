@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+      "full_name": "apache/ossie",
+      "project_file": "projects/apache__ossie.md",
+      "rank": 1,
+      "readme_sha256": "8041ca0e6bd4be517dc1cbcf6b442726138def8ea7b9c28908b605be2ed5b567",
+      "url": "https://github.com/apache/ossie"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 2,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 3,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "full_name": "PostHog/posthog",
+      "project_file": "projects/PostHog__posthog.md",
+      "rank": 4,
+      "readme_sha256": "49997498b84abd3b7b60bd5a0ca846d0626d5b4412fbba8b531bc3d2e99e2a7a",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "description": "A coding agent for open models like Kimi K3",
+      "full_name": "openinterpreter/openinterpreter",
+      "project_file": "projects/openinterpreter__openinterpreter.md",
+      "rank": 5,
+      "readme_sha256": "53130cdebf852b7dc7080d684e2a52a4982ef0e48ce7dd07cff4bfa8f6568102",
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "description": "Bonsai Demo",
+      "full_name": "PrismML-Eng/Bonsai-demo",
+      "project_file": "projects/PrismML-Eng__Bonsai-demo.md",
+      "rank": 6,
+      "readme_sha256": "ae0e7ab804d232d4c36fa10e37a92bfe30303cee19ee1d7614db7711da965080",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+    },
+    {
+      "description": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages. The exercise data layer behind the LogPress app.",
+      "full_name": "hasaneyldrm/exercises-dataset",
+      "project_file": "projects/hasaneyldrm__exercises-dataset.md",
+      "rank": 7,
+      "readme_sha256": "b5d2256d61aa938a1be9b6d7d27d82ee92474f616c4114dd76211c69cfb58a89",
+      "url": "https://github.com/hasaneyldrm/exercises-dataset"
+    },
+    {
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 8,
+      "readme_sha256": "0c784831cba41b2e461873d8b7d9256b821674217fed06bf41c2b0223b7b7379",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "🤯 LobeHub is your Chief Agent Operator, organizing your agents into 7×24 operations by hiring, scheduling, and reporting on your entire AI team.",
+      "full_name": "lobehub/lobehub",
+      "project_file": "projects/lobehub__lobehub.md",
+      "rank": 9,
+      "readme_sha256": "d28d4511159dd5d8511ff4166c37855125fea5d5f5d6e0b552f4a32b6090df02",
+      "url": "https://github.com/lobehub/lobehub"
+    },
+    {
+      "description": "Experimental menu for GTA 5: Enhanced",
+      "full_name": "YimMenu/YimMenuV2",
+      "project_file": "projects/YimMenu__YimMenuV2.md",
+      "rank": 10,
+      "readme_sha256": "c84ff87a111da88c3a309fd40fc0a38500707c17027a90e43d2150ad502552a3",
+      "url": "https://github.com/YimMenu/YimMenuV2"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 11,
+      "readme_sha256": "716f6705143f5908720fd0be0c44a2b2111ae36f1c6f8ad010129cc129eb3235",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 12,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "full_name": "github/copilot-sdk",
+      "project_file": "projects/github__copilot-sdk.md",
+      "rank": 13,
+      "readme_sha256": "942bafb90b9df89070a165f88f8a39eebb6ac300f7386cb1157d06dec4ae2d96",
+      "url": "https://github.com/github/copilot-sdk"
+    },
+    {
+      "description": "Skills for Design Engineers",
+      "full_name": "ibelick/ui-skills",
+      "project_file": "projects/ibelick__ui-skills.md",
+      "rank": 14,
+      "readme_sha256": "dc51bb090a6ef112642f1197a09fc50f9184beb5266daa849efa72853aefea0e",
+      "url": "https://github.com/ibelick/ui-skills"
+    },
+    {
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "full_name": "Graphify-Labs/graphify",
+      "project_file": "projects/Graphify-Labs__graphify.md",
+      "rank": 15,
+      "readme_sha256": "ea4c32098c2fa6c84103aaae5cfd01c62fcd1417e855adc581878513c7a871f0",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 16,
+      "readme_sha256": "895a9e99d3964faf6d5992cedce69790b46cbadd59c0fc10dd3d520284aba6f6",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "🎓 Path to a free self-taught education in Computer Science!",
+      "full_name": "ossu/computer-science",
+      "project_file": "projects/ossu__computer-science.md",
+      "rank": 17,
+      "readme_sha256": "b76e47cf8340e743746b968772a24de90ac33893aeb3b3e7e116067f915e073f",
+      "url": "https://github.com/ossu/computer-science"
+    }
+  ],
+  "snapshot_date": "2026-07-17",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

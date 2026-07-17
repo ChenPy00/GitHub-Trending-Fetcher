@@ -5,7 +5,7 @@
   "full_name": "alibaba/page-agent",
   "url": "https://github.com/alibaba/page-agent",
   "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
-  "readme_sha256": "574db7577d0be54ebfe99330d89e5d430bfda834813ba1148a9e0f3ec690c465"
+  "readme_sha256": "749382db2a6246561581f2499cd3bfb32fc33997c9556201ff7c5e3521d625b4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/page-agent
 - Description: JavaScript in-page GUI agent. Control web interfaces with natural language.
-- README SHA256: `574db7577d0be54ebfe99330d89e5d430bfda834813ba1148a9e0f3ec690c465`
+- README SHA256: `749382db2a6246561581f2499cd3bfb32fc33997c9556201ff7c5e3521d625b4`
 
 ## README
 
@@ -75,12 +75,12 @@ Fastest way to try PageAgent with our free Demo LLM:
 
 ```html
 <script
-    src="https://cdn.jsdelivr.net/npm/page-agent@1.12.1/dist/iife/page-agent.demo.js"
+    src="https://cdn.jsdelivr.net/npm/page-agent@1.12.2/dist/iife/page-agent.demo.js"
     crossorigin="anonymous"
 ></script>
 
 <!-- China CDN mirror if you can't access jsDelivr -->
-<!-- https://registry.npmmirror.com/page-agent/1.12.1/files/dist/iife/page-agent.demo.js -->
+<!-- https://registry.npmmirror.com/page-agent/1.12.2/files/dist/iife/page-agent.demo.js -->
 ```
 
 > **⚠️ For technical evaluation only.** This demo CDN uses our free [testing LLM API](https://alibaba.github.io/page-agent/docs/features/models#free-testing-api). By using it, you agree to its [terms](https://github.com/alibaba/page-agent/blob/main/docs/terms-and-privacy.md).

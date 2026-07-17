@@ -1,0 +1,169 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+      "full_name": "google-labs-code/stitch-skills",
+      "project_file": "projects/google-labs-code__stitch-skills.md",
+      "rank": 1,
+      "readme_sha256": "b3595aadabc5b706b4ef823d595c1a47e095221bada2a1cc556b89bc3f9d58e7",
+      "url": "https://github.com/google-labs-code/stitch-skills"
+    },
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 2,
+      "readme_sha256": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "Abseil Common Libraries (C++)",
+      "full_name": "abseil/abseil-cpp",
+      "project_file": "projects/abseil__abseil-cpp.md",
+      "rank": 3,
+      "readme_sha256": "ef96eba1d2e35b51a36ddd9cff4b1eac25a9702341c00ef0c19d601a37516d10",
+      "url": "https://github.com/abseil/abseil-cpp"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 4,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 5,
+      "readme_sha256": "8192a6c8b0a04676ed73570277c253603d50b16453eef714c557b4e761eee8b0",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Asio C++ Library",
+      "full_name": "chriskohlhoff/asio",
+      "project_file": "projects/chriskohlhoff__asio.md",
+      "rank": 6,
+      "readme_sha256": "a586a4d07ef0425c21cb941e9ca72c42bfef70b38e7d01c4189428b32947323e",
+      "url": "https://github.com/chriskohlhoff/asio"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 7,
+      "readme_sha256": "7a175625dff108d43a60e9a97e8ee5b4f3fa25cf8bfabf7dee8aa7763ad173fc",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Incredibly fast JavaScript runtime, bundler, test runner, and package manager – all in one",
+      "full_name": "oven-sh/bun",
+      "project_file": "projects/oven-sh__bun.md",
+      "rank": 8,
+      "readme_sha256": "139c0f0e6aa80f92f62eca7d168ea2e692c3bc6e61d46e24d467b85019e45845",
+      "url": "https://github.com/oven-sh/bun"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 9,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 10,
+      "readme_sha256": "faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 11,
+      "readme_sha256": "0c784831cba41b2e461873d8b7d9256b821674217fed06bf41c2b0223b7b7379",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 12,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "Never stop coding. Free AI gateway: one endpoint, 231+ providers (50+ free), connect Claude Code, Codex, Cursor, Cline & Copilot to FREE Claude/GPT/Gemini. RTK+Caveman stacked compression saves 15-95% tokens, smart auto-fallback, MCP/A2A, multimodal APIs, Desktop/PWA.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 13,
+      "readme_sha256": "d6e655b50dad078be08456b76b8c251c47fc3e617cf0440d0776c84e8c9357ff",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "full_name": "davila7/claude-code-templates",
+      "project_file": "projects/davila7__claude-code-templates.md",
+      "rank": 14,
+      "readme_sha256": "e4b0e967737caca99869aac02bbec1c0d18cbf50bcdeb5eead50f69dade457c4",
+      "url": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 15,
+      "readme_sha256": "6f4b725239c1c9ead30e4631f25ab03a29cbb4dee81e6d8b16bc7927797044c4",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "full_name": "kangarooking/cangjie-skill",
+      "project_file": "projects/kangarooking__cangjie-skill.md",
+      "rank": 16,
+      "readme_sha256": "7902513c9df3db19415a5beb788bf466895272bcc1987bba34e72134de2a7263",
+      "url": "https://github.com/kangarooking/cangjie-skill"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 17,
+      "readme_sha256": "ee58f111deabc39a2477c4a6f983b721f9f301bad2420e09be7dc1d49a786286",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Action for checking out a repo",
+      "full_name": "actions/checkout",
+      "project_file": "projects/actions__checkout.md",
+      "rank": 18,
+      "readme_sha256": "3df94d90d0df6df603a549cc779bc6cab4b21f8deef82eb6fef1f4d88b788174",
+      "url": "https://github.com/actions/checkout"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 19,
+      "readme_sha256": "716f6705143f5908720fd0be0c44a2b2111ae36f1c6f8ad010129cc129eb3235",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "A multi core friendly rigid body physics and collision detection library. Written in C++. Suitable for games and VR applications. Used by Horizon Forbidden West and Death Stranding 2.",
+      "full_name": "jrouwe/JoltPhysics",
+      "project_file": "projects/jrouwe__JoltPhysics.md",
+      "rank": 20,
+      "readme_sha256": "8188246a0be56ebc79c5881e1a3a1660e27bb5d30bdb4e543df4c8b2d57f1277",
+      "url": "https://github.com/jrouwe/JoltPhysics"
+    }
+  ],
+  "snapshot_date": "2026-07-17",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
