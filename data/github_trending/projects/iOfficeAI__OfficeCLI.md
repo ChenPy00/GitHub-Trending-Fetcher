@@ -5,7 +5,7 @@
   "full_name": "iOfficeAI/OfficeCLI",
   "url": "https://github.com/iOfficeAI/OfficeCLI",
   "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-  "readme_sha256": "faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d"
+  "readme_sha256": "22aac434759d198131477787617707d6a50ca0e649ec040599e431c939dd0319"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iOfficeAI/OfficeCLI
 - Description: OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
-- README SHA256: `faad1ff1e57153802f560ec5310928f588c5098149396198267710e14020082d`
+- README SHA256: `22aac434759d198131477787617707d6a50ca0e649ec040599e431c939dd0319`
 
 ## README
 
@@ -333,7 +333,7 @@ officecli set report.docx /body/p[1]/r[1] --prop bold=true
 officecli set report.docx /body/p[2]/r[1] --prop color=FF0000
 officecli close report.docx
 
-# Batch mode — multi-command execution (continues on error by default; --stop-on-error to abort)
+# Batch mode — multi-command execution (atomic by default: any failed item rolls back the whole batch)
 echo '[{"command":"set","path":"/slide[1]/shape[1]","props":{"text":"Hello"}},
       {"command":"set","path":"/slide[1]/shape[2]","props":{"fill":"FF0000"}}]' \
   | officecli batch deck.pptx --json
@@ -341,7 +341,10 @@ echo '[{"command":"set","path":"/slide[1]/shape[1]","props":{"text":"Hello"}},
 # Inline batch with --commands (no stdin needed)
 officecli batch deck.pptx --commands '[{"op":"set","path":"/slide[1]/shape[1]","props":{"text":"Hi"}}]'
 
-# Abort on the first failing command (default is continue-on-error)
+# Keep whatever succeeds even if some items fail (pre-1.0.137 behavior)
+officecli batch deck.pptx --input updates.json --best-effort --json
+
+# Stop at the first failing command instead of running the rest (still rolls back everything unless combined with --best-effort)
 officecli batch deck.pptx --input updates.json --stop-on-error --json
 ```
 
@@ -540,7 +543,7 @@ See `officecli --help` for full details on exit codes and error formats.
 | [`swap`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-swap) | Swap two elements |
 | [`validate`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-validate) | Validate against OpenXML schema |
 | `view <file> issues` | Enumerate document issues (text overflow, missing alt text, formula errors, ...) |
-| [`batch`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-batch) | Multiple operations applied in a single pass (stdin, `--input`, or `--commands`; continues on error by default, `--stop-on-error` to abort) |
+| [`batch`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-batch) | Multiple operations applied in a single pass (stdin, `--input`, or `--commands`; atomic by default — any failed item rolls back the whole batch — `--best-effort` to keep partial progress, `--stop-on-error` to abort early) |
 | [`dump`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-dump) | Serialize a `.docx`, `.pptx`, or `.xlsx` into a replayable batch JSON (round-trip via `batch`); accepts a subtree path |
 | [`refresh`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-refresh) | Recalculate TOC page numbers / `PAGE` / cross-references (`.docx`; Word backend on Windows, headless-HTML fallback) |
 | [`plugins`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-plugins) | List / inspect / lint installed plugins (extend to `.doc`, `.hwpx`, `.pdf` export via dump-reader / exporter / format-handler kinds) |

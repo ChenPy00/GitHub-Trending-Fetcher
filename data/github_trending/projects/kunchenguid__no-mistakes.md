@@ -5,7 +5,7 @@
   "full_name": "kunchenguid/no-mistakes",
   "url": "https://github.com/kunchenguid/no-mistakes",
   "description": "git push no-mistakes",
-  "readme_sha256": "e1ea336fcc8a9a69166702d75f5315f9d58c0faaacb98570ebacc3703a9505f5"
+  "readme_sha256": "e4d0b7f92fd5dbcf816ea085ad3a5bca036e0a18310eb5c3182be0f26d57ae08"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kunchenguid/no-mistakes
 - Description: git push no-mistakes
-- README SHA256: `e1ea336fcc8a9a69166702d75f5315f9d58c0faaacb98570ebacc3703a9505f5`
+- README SHA256: `e4d0b7f92fd5dbcf816ea085ad3a5bca036e0a18310eb5c3182be0f26d57ae08`
 
 ## README
 
@@ -57,7 +57,7 @@
 Push to `no-mistakes` instead of `origin`, and it spins up a disposable worktree, runs an AI-driven validation pipeline, forwards the branch to the configured push target only after every check passes, and opens a clean PR automatically.
 
 - **Non-blocking** - the pipeline runs in an isolated worktree without disrupting your work.
-- **Agent-agnostic** - `claude`, `codex`, `rovodev`, `opencode`, `pi`, `copilot`, or `acp:<target>` via `acpx`, with ordered fallbacks; every gate requires a runnable configured pipeline agent.
+- **Agent-agnostic** - `claude`, `codex`, `rovodev`, `opencode`, `pi`, `copilot`, or `cursor` / `acp:<target>` via `acpx`, with ordered fallbacks; every gate requires a runnable configured pipeline agent.
 - **Agent-native** - `/no-mistakes` lets your coding agent do a task and gate it, or gate existing committed work: it runs the pipeline, has the pipeline apply safe fixes, and escalates the rest to you.
 - **Human stays in charge** - auto-fix or review findings, your call.
 - **Clean PRs by default** - push, open PR, watch CI, and auto-fix failures in one shot.

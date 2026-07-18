@@ -5,7 +5,7 @@
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-  "readme_sha256": "0c784831cba41b2e461873d8b7d9256b821674217fed06bf41c2b0223b7b7379"
+  "readme_sha256": "a307de5022e372a59d35307e6df04719ac6a5f3b768a661ac01d6434eb5d5bda"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Shubhamsaboo/awesome-llm-apps
 - Description: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
-- README SHA256: `0c784831cba41b2e461873d8b7d9256b821674217fed06bf41c2b0223b7b7379`
+- README SHA256: `a307de5022e372a59d35307e6df04719ac6a5f3b768a661ac01d6434eb5d5bda`
 
 ## README
 
@@ -103,6 +103,7 @@ streamlit run travel_agent.py
 *Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](agent_skills/)*
 
 *   [⚰️ Project Graveyard](agent_skills/project-graveyard/) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
+*   [🔭 Scope Creep Detector](agent_skills/scope-creep-detector/) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
 *   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Flabe 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.5 Flash as worker
 *   [♾️ Self-Improving Agent Skills](agent_skills/self-improving-agent-skills/) - Automatically optimize agent skills using Gemini and ADK
 
@@ -155,6 +156,7 @@ streamlit run travel_agent.py
 *Background agents that run on schedules or events, monitor changing context, decide what needs attention, and proactively deliver updates, artifacts, or actions.*
 
 *   [📰 Always-on Hacker News Briefing Agent](always_on_agents/always_on_hn_briefing_agent/) - A scheduled scout that ships a ranked daily brief to Slack or email
+*   [📡 Release Radar Agent](always_on_agents/release_radar_agent/) - Watches dependency releases and briefs you on breaking, deprecated, security, and major-version changes
 
 ### 🤝 Multi-agent Teams
 
@@ -224,6 +226,7 @@ streamlit run travel_agent.py
 *   [🔍 Autonomous RAG](rag_tutorials/autonomous_rag/) - GPT-4o answers from your PDFs, falls back to web search
 *   [🔄 Contextual AI RAG Agent](rag_tutorials/contextualai_rag_agent/) - Managed RAG: datastore to grounded chat in minutes
 *   [🔄 Corrective RAG (CRAG)](rag_tutorials/corrective_rag/) - Retrieval that grades itself and retries before answering
+*   [📎 Typed Agentic RAG with Pydantic AI](rag_tutorials/agentic_typed_rag_pydanticai/) - Validated answers with exact citations, or a refusal when evidence is weak
 *   [🐋 Deepseek Local RAG Agent](rag_tutorials/deepseek_local_rag_agent/) - Local DeepSeek reasoning over your own documents
 *   [🤔 Gemini Agentic RAG](rag_tutorials/gemini_agentic_rag/) - Query rewriting and web fallback with Gemini Flash Thinking
 *   [👀 Hybrid Search RAG (Cloud)](rag_tutorials/hybrid_search_rag/) - Keyword plus vector search feeding Claude

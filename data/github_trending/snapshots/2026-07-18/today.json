@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 1,
+      "readme_sha256": "895a9e99d3964faf6d5992cedce69790b46cbadd59c0fc10dd3d520284aba6f6",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "full_name": "PostHog/posthog",
+      "project_file": "projects/PostHog__posthog.md",
+      "rank": 2,
+      "readme_sha256": "49997498b84abd3b7b60bd5a0ca846d0626d5b4412fbba8b531bc3d2e99e2a7a",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "description": "Become a cracked AI/ML Research Engineer",
+      "full_name": "HenryNdubuaku/maths-cs-ai-compendium",
+      "project_file": "projects/HenryNdubuaku__maths-cs-ai-compendium.md",
+      "rank": 3,
+      "readme_sha256": "2aa9f63bba39a51d42b3d607f60f765b80ec49a09ca225888d78d34ba7e9e287",
+      "url": "https://github.com/HenryNdubuaku/maths-cs-ai-compendium"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 4,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "full_name": "github/copilot-sdk",
+      "project_file": "projects/github__copilot-sdk.md",
+      "rank": 5,
+      "readme_sha256": "942bafb90b9df89070a165f88f8a39eebb6ac300f7386cb1157d06dec4ae2d96",
+      "url": "https://github.com/github/copilot-sdk"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/cwc-workshops",
+      "project_file": "projects/anthropics__cwc-workshops.md",
+      "rank": 6,
+      "readme_sha256": "1ee723437e71e1016028eab76ef6e9b29c279618997085093ef74b48e1e52b52",
+      "url": "https://github.com/anthropics/cwc-workshops"
+    },
+    {
+      "description": "Bonsai Demo",
+      "full_name": "PrismML-Eng/Bonsai-demo",
+      "project_file": "projects/PrismML-Eng__Bonsai-demo.md",
+      "rank": 7,
+      "readme_sha256": "197a4b2ac3837101ee36e6f1ad31e84f900870866ea0732e1235c5a666aca49e",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+    },
+    {
+      "description": "Protocol Buffers - Google's data interchange format",
+      "full_name": "protocolbuffers/protobuf",
+      "project_file": "projects/protocolbuffers__protobuf.md",
+      "rank": 8,
+      "readme_sha256": "766a75d175e1005821ed5996724eb4c051ea6e735fc95c135271fa4068a70a98",
+      "url": "https://github.com/protocolbuffers/protobuf"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 9,
+      "readme_sha256": "5f1593f7dad1f1c75bffdd686a8eba23210f1c1995e9d7ed76c263737e5ed7aa",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "Open source DocuSign alternative. Create, fill, and sign digital documents ✍️",
+      "full_name": "docusealco/docuseal",
+      "project_file": "projects/docusealco__docuseal.md",
+      "rank": 10,
+      "readme_sha256": "57dabc2c41a8297280a3a60ee5bb480b89aed5415a6c6ebfc20e8d05d0b6eb16",
+      "url": "https://github.com/docusealco/docuseal"
+    },
+    {
+      "description": "A coding agent for open models like Kimi K3",
+      "full_name": "openinterpreter/openinterpreter",
+      "project_file": "projects/openinterpreter__openinterpreter.md",
+      "rank": 11,
+      "readme_sha256": "3e51f07f762d9c90dbb96887f859906cda9d3b242c5d98afecaadae2e5cbb73e",
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "full_name": "RyanCodrai/turbovec",
+      "project_file": "projects/RyanCodrai__turbovec.md",
+      "rank": 12,
+      "readme_sha256": "f8cfe91fb554877c8ee9cfd5116f1d69c5319007a5a422b856485f793c756d9d",
+      "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 13,
+      "readme_sha256": "716f6705143f5908720fd0be0c44a2b2111ae36f1c6f8ad010129cc129eb3235",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 14,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    }
+  ],
+  "snapshot_date": "2026-07-18",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

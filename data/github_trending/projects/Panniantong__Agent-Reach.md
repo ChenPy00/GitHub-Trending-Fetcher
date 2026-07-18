@@ -5,7 +5,7 @@
   "full_name": "Panniantong/Agent-Reach",
   "url": "https://github.com/Panniantong/Agent-Reach",
   "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-  "readme_sha256": "c6ba70f20939e156008e40a2b4540a904ef1e3b582242e812c05e77a00c73eef"
+  "readme_sha256": "5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Panniantong/Agent-Reach
 - Description: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-- README SHA256: `c6ba70f20939e156008e40a2b4540a904ef1e3b582242e812c05e77a00c73eef`
+- README SHA256: `5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978`
 
 ## README
 
@@ -337,6 +337,8 @@ Builder 也欢迎备注：`Builder + 你在做什么`
 [方舟 Agent Plan 模型订阅套餐](https://dis.chatdesks.cn/chatdesk/hsyqAgent-Reach.html) — 集成了包含 Doubao-Seed、Doubao-Seedance、Doubao-Seedream 等在内的字节跳动自研 SOTA 级模型，覆盖文本、代码、图像、视频等多模态任务。最新支持 MiniMax-M3、DeepSeek-V4 系列、GLM-5.2、Doubao-Seed-2.0 系列、Kimi-K2.6 等模型，工具不限。超全模态模型与 Harness 升级一步到位，深度支持 Agent 框架与 AI 编程工具。一次订阅，可以为不同任务切换合适的 AI 引擎。
 
 [腾讯云 OpenClaw](https://www.tencentcloud.com/act/pro/intl-openclaw?referral_code=G76Y819A&lang=zh&pg=) — 在腾讯云Lighthouse秒级部署OpenClaw全能助手，可通过对话丝滑接入Agent Reach，给你的OpenClaw一键装上互联网能力。
+
+[Agent Skills Hub](https://agentskillshub.top/) — 找 Claude 技能和 MCP 服务器，不用猜哪个安全：133,000+ 个条目全部安全分级、质量评分，每 8 小时刷新。
 
 [AtomGit 镜像](https://atomgit.com/qq_51337814/Agent-Reach) — Agent Reach 的 AtomGit 同步镜像，便于国内访问与克隆。
 
