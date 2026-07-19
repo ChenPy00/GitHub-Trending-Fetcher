@@ -1,0 +1,97 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 1,
+      "readme_sha256": "54dbdebae93c8d7cb9b5d01cfb9c9cb55d32912118277a30b4f952f87fcf505c",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+      "full_name": "apache/ossie",
+      "project_file": "projects/apache__ossie.md",
+      "rank": 2,
+      "readme_sha256": "8041ca0e6bd4be517dc1cbcf6b442726138def8ea7b9c28908b605be2ed5b567",
+      "url": "https://github.com/apache/ossie"
+    },
+    {
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "full_name": "PostHog/posthog",
+      "project_file": "projects/PostHog__posthog.md",
+      "rank": 3,
+      "readme_sha256": "49997498b84abd3b7b60bd5a0ca846d0626d5b4412fbba8b531bc3d2e99e2a7a",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "description": "Skills for Design Engineers",
+      "full_name": "ibelick/ui-skills",
+      "project_file": "projects/ibelick__ui-skills.md",
+      "rank": 4,
+      "readme_sha256": "dc51bb090a6ef112642f1197a09fc50f9184beb5266daa849efa72853aefea0e",
+      "url": "https://github.com/ibelick/ui-skills"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 5,
+      "readme_sha256": "e3180b13fb7b099b1c79ca76edd59af96c369863ff2ba67cc61b50d4d3b02984",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 6,
+      "readme_sha256": "5f1593f7dad1f1c75bffdd686a8eba23210f1c1995e9d7ed76c263737e5ed7aa",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "LIBERATED AI CHAT",
+      "full_name": "elder-plinius/G0DM0D3",
+      "project_file": "projects/elder-plinius__G0DM0D3.md",
+      "rank": 7,
+      "readme_sha256": "583fccc50139556ff0da8d148f2676ab24b4ec32ce4fe2c21639e7760e100d38",
+      "url": "https://github.com/elder-plinius/G0DM0D3"
+    },
+    {
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 8,
+      "readme_sha256": "53520c45075936ffb2ec07ccb741cfa08c31e00ead68c5344b8a09a510eab2ac",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "full_name": "KnockOutEZ/wigolo",
+      "project_file": "projects/KnockOutEZ__wigolo.md",
+      "rank": 9,
+      "readme_sha256": "0d2de32ed984b66e754a6776014bdb2c043bb3291f5a874c8698bfd51a97691f",
+      "url": "https://github.com/KnockOutEZ/wigolo"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 10,
+      "readme_sha256": "895a9e99d3964faf6d5992cedce69790b46cbadd59c0fc10dd3d520284aba6f6",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "MoonshotAI/kimi-cli",
+      "project_file": "projects/MoonshotAI__kimi-cli.md",
+      "rank": 11,
+      "readme_sha256": "dc8992517be50091b4119410bd31bc53c1cb93e2b905868698ce98ec613b36a7",
+      "url": "https://github.com/MoonshotAI/kimi-cli"
+    }
+  ],
+  "snapshot_date": "2026-07-19",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -4,7 +4,7 @@
   "name": "skills",
   "full_name": "mattpocock/skills",
   "url": "https://github.com/mattpocock/skills",
-  "description": "Skills for Real Engineers. Straight from my .claude directory.",
+  "description": "Skills for Real Engineers. Straight from my .agents directory.",
   "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843"
 }
 ```
@@ -12,7 +12,7 @@
 # mattpocock/skills
 
 - URL: https://github.com/mattpocock/skills
-- Description: Skills for Real Engineers. Straight from my .claude directory.
+- Description: Skills for Real Engineers. Straight from my .agents directory.
 - README SHA256: `de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843`
 
 ## README

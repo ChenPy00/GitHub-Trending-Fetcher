@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.",
-  "readme_sha256": "7a175625dff108d43a60e9a97e8ee5b4f3fa25cf8bfabf7dee8aa7763ad173fc"
+  "readme_sha256": "8fd2bc7b538ff4020c83202bd53157cd971caa99a3a73637d97c3d047706b6cd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop and mobile.
-- README SHA256: `7a175625dff108d43a60e9a97e8ee5b4f3fa25cf8bfabf7dee8aa7763ad173fc`
+- README SHA256: `8fd2bc7b538ff4020c83202bd53157cd971caa99a3a73637d97c3d047706b6cd`
 
 ## README
 
@@ -257,7 +257,7 @@ Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **Discord:** Join the community on **[Discord](https://discord.gg/fzjDKHxv8Q)**.
 - **Twitter / X:** Follow **[@orca_build](https://x.com/orca_build)** for updates and announcements.
-- **WeChat:** First WeChat group is full, now you can join the second one.
+- **WeChat:** Groups 1 and 2 are both full — now you can join the third one.
 
   <img src="docs/assets/wechat-qr.jpg" alt="WeChat QR code for the Orca community" width="160" />
 

@@ -5,7 +5,7 @@
   "full_name": "iOfficeAI/OfficeCLI",
   "url": "https://github.com/iOfficeAI/OfficeCLI",
   "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-  "readme_sha256": "22aac434759d198131477787617707d6a50ca0e649ec040599e431c939dd0319"
+  "readme_sha256": "127f596c936db49f125b6a71cf42ad2570cec362340d0ce1df7b3f28cdd11c63"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iOfficeAI/OfficeCLI
 - Description: OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
-- README SHA256: `22aac434759d198131477787617707d6a50ca0e649ec040599e431c939dd0319`
+- README SHA256: `127f596c936db49f125b6a71cf42ad2570cec362340d0ce1df7b3f28cdd11c63`
 
 ## README
 
@@ -307,8 +307,8 @@ officecli add sales.xlsx '/Sheet1' --type pivottable \
 `merge` replaces `{{key}}` placeholders in any `.docx` / `.xlsx` / `.pptx` with JSON data — across paragraphs, table cells, shapes, headers, footers, and chart titles. Agent designs the layout once (expensive); production code fills it N times (cheap, deterministic, zero token cost). Avoids the failure mode where an agent regenerates each report from scratch and produces N inconsistent layouts.
 
 ```bash
-officecli merge invoice-template.docx out-001.docx '{"client":"Acme","total":"$5,200"}'
-officecli merge q4-template.pptx q4-acme.pptx data.json
+officecli merge invoice-template.docx out-001.docx --data '{"client":"Acme","total":"$5,200"}'
+officecli merge q4-template.pptx q4-acme.pptx --data data.json
 ```
 
 #### Round-trip dump — learn from existing docs
@@ -446,10 +446,9 @@ curl -fsSL https://officecli.ai/SKILL.md -o ~/.claude/skills/officecli.md
 Don't guess property names — drill into the help:
 
 ```bash
-officecli pptx set              # All settable elements and properties
-officecli pptx set shape        # Detail for one element type
-officecli pptx set shape.fill   # One property: format and examples
-officecli docx query            # Selector reference: attributes, :contains, :has(), etc.
+officecli help pptx set              # All settable elements and properties
+officecli help pptx set shape        # Detail for one element type
+officecli help docx query            # Selector reference: attributes, :contains, :has(), etc.
 ```
 
 Run `officecli --help` for the full overview.
@@ -557,7 +556,7 @@ See `officecli --help` for full details on exit codes and error formats.
 | `close` | Save and close resident mode |
 | [`install`](https://github.com/iOfficeAI/OfficeCLI/wiki/command-install) | Install binary + skills + MCP (`all`, `claude`, `cursor`, etc.) |
 | `config` | Get or set configuration |
-| `<format> <command>` | [Built-in help](https://github.com/iOfficeAI/OfficeCLI/wiki/command-reference) (e.g. `officecli pptx set shape`) |
+| `help <format> <command>` | [Built-in help](https://github.com/iOfficeAI/OfficeCLI/wiki/command-reference) (e.g. `officecli help pptx set shape`) |
 
 ## End-to-End Workflow Example
 
@@ -610,10 +609,11 @@ officecli get deck.pptx / --depth 2 --json
 officecli batch budget.xlsx --input updates.json --json
 
 # Import CSV data into an Excel sheet
-officecli add budget.xlsx / --type sheet --prop name="Q1 Data" --prop csv=sales.csv
+officecli add budget.xlsx / --type sheet --prop name="Q1 Data"
+officecli import budget.xlsx "/Q1 Data" sales.csv --header
 
 # Template merge for batch reports
-officecli merge invoice-template.docx invoice-001.docx '{"client":"Acme","total":"$5,200"}'
+officecli merge invoice-template.docx invoice-001.docx --data '{"client":"Acme","total":"$5,200"}'
 
 # Check document quality before delivery
 officecli validate report.docx && officecli view report.docx issues --json
