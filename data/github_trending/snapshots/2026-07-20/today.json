@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "full_name": "bojieli/ai-agent-book",
+      "project_file": "projects/bojieli__ai-agent-book.md",
+      "rank": 1,
+      "readme_sha256": "537630cc7c075128da0ad0b8d7667de191c79dc37dac764ef460707bbff43327",
+      "url": "https://github.com/bojieli/ai-agent-book"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 2,
+      "readme_sha256": "5f1593f7dad1f1c75bffdd686a8eba23210f1c1995e9d7ed76c263737e5ed7aa",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "full_name": "kvcache-ai/ktransformers",
+      "project_file": "projects/kvcache-ai__ktransformers.md",
+      "rank": 3,
+      "readme_sha256": "1506009757b2f3e4f0c7949664091074add5ac1d609b38ba903ae4e07a82cf66",
+      "url": "https://github.com/kvcache-ai/ktransformers"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "e3180b13fb7b099b1c79ca76edd59af96c369863ff2ba67cc61b50d4d3b02984",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 5,
+      "readme_sha256": "ca12dae79b9513db2ed0441d6b0faa9ba217db5615b00273e814aa14c360348c",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "full_name": "KnockOutEZ/wigolo",
+      "project_file": "projects/KnockOutEZ__wigolo.md",
+      "rank": 6,
+      "readme_sha256": "58534d5101eedd9f3964dc71a54e6fa7d599a2788a0d88b07493c56b76ee373f",
+      "url": "https://github.com/KnockOutEZ/wigolo"
+    },
+    {
+      "description": "An unofficial desktop client for Jellyfin",
+      "full_name": "andrewrabert/jellium-desktop",
+      "project_file": "projects/andrewrabert__jellium-desktop.md",
+      "rank": 7,
+      "readme_sha256": "23c97438bb7607f93787c10d9203db9b0c5824d0c5042793a60ed4fff2fa0566",
+      "url": "https://github.com/andrewrabert/jellium-desktop"
+    },
+    {
+      "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
+      "full_name": "github/copilot-sdk",
+      "project_file": "projects/github__copilot-sdk.md",
+      "rank": 8,
+      "readme_sha256": "942bafb90b9df89070a165f88f8a39eebb6ac300f7386cb1157d06dec4ae2d96",
+      "url": "https://github.com/github/copilot-sdk"
+    },
+    {
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "full_name": "PostHog/posthog",
+      "project_file": "projects/PostHog__posthog.md",
+      "rank": 9,
+      "readme_sha256": "49997498b84abd3b7b60bd5a0ca846d0626d5b4412fbba8b531bc3d2e99e2a7a",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "full_name": "microsoft/terminal",
+      "project_file": "projects/microsoft__terminal.md",
+      "rank": 10,
+      "readme_sha256": "9960eef6837777b72f9831fb3e89fb5585427636283933db91ef8488806d53e0",
+      "url": "https://github.com/microsoft/terminal"
+    },
+    {
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "full_name": "AstrBotDevs/AstrBot",
+      "project_file": "projects/AstrBotDevs__AstrBot.md",
+      "rank": 11,
+      "readme_sha256": "0e28aa899452f3fc724aa0e82daa2950fb4b47b1ce57bd59dd39d76282cc08af",
+      "url": "https://github.com/AstrBotDevs/AstrBot"
+    },
+    {
+      "description": "Coding Agent Harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 12,
+      "readme_sha256": "7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "full_name": "trycua/cua",
+      "project_file": "projects/trycua__cua.md",
+      "rank": 13,
+      "readme_sha256": "cd7e3fb8d1b064027d257ccd9b66a5284da3a8e9e34768d3eed6a6059bae57f3",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "MoonshotAI/kimi-cli",
+      "project_file": "projects/MoonshotAI__kimi-cli.md",
+      "rank": 14,
+      "readme_sha256": "dc8992517be50091b4119410bd31bc53c1cb93e2b905868698ce98ec613b36a7",
+      "url": "https://github.com/MoonshotAI/kimi-cli"
+    },
+    {
+      "description": "",
+      "full_name": "Flowseal/zapret-discord-youtube",
+      "project_file": "projects/Flowseal__zapret-discord-youtube.md",
+      "rank": 15,
+      "readme_sha256": "868aecbd1e8fc8e1e52278147f4cec0f628e3765ab9a59da3851ec3c89f728a8",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 16,
+      "readme_sha256": "895a9e99d3964faf6d5992cedce69790b46cbadd59c0fc10dd3d520284aba6f6",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 17,
+      "readme_sha256": "53520c45075936ffb2ec07ccb741cfa08c31e00ead68c5344b8a09a510eab2ac",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "GenBI (Generative BI) for AI agents, an open-source, governed text-to-SQL through an open context layer that turns natural-language questions into trusted dashboards, charts, and SQL across 20+ data sources, such as BigQuery, Snowflake, PostgreSQL, ClickHouse, Amazon Redshift, Databricks and more.",
+      "full_name": "Canner/WrenAI",
+      "project_file": "projects/Canner__WrenAI.md",
+      "rank": 18,
+      "readme_sha256": "344ac6284831eba2a9869bbce274098b4ccfa8761f6a1ebbe619f1c8b90510d4",
+      "url": "https://github.com/Canner/WrenAI"
+    },
+    {
+      "description": "计算机自学指南",
+      "full_name": "PKUFlyingPig/cs-self-learning",
+      "project_file": "projects/PKUFlyingPig__cs-self-learning.md",
+      "rank": 19,
+      "readme_sha256": "19dab86edb401b573a917d159cf925192fe822fe14e95f57077b9ee1da3cfcfb",
+      "url": "https://github.com/PKUFlyingPig/cs-self-learning"
+    }
+  ],
+  "snapshot_date": "2026-07-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

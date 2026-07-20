@@ -5,7 +5,7 @@
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
-  "readme_sha256": "c4f0aa69d58854a700d9d4ead938c089780a13f6fa03c50bd3e97fac599a590a"
+  "readme_sha256": "912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Shubhamsaboo/awesome-llm-apps
 - Description: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
-- README SHA256: `c4f0aa69d58854a700d9d4ead938c089780a13f6fa03c50bd3e97fac599a590a`
+- README SHA256: `912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd`
 
 ## README
 
@@ -105,7 +105,7 @@ streamlit run travel_agent.py
 *   [⚰️ Project Graveyard](agent_skills/project-graveyard/) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
 *   [🔭 Scope Creep Detector](agent_skills/scope-creep-detector/) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
 *   [🏺 Commit Archaeologist](agent_skills/commit-archaeologist/) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
-*   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Flabe 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.5 Flash as worker
+*   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Fable 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.5 Flash as worker
 *   [♾️ Self-Improving Agent Skills](agent_skills/self-improving-agent-skills/) - Automatically optimize agent skills using Gemini and ADK
 
 ### 🌱 Starter AI Agents

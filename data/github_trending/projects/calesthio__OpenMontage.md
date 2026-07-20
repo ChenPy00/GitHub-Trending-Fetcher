@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "fe3966e8532e93a7ad4e4acc2e69cce133a8e53cd9b7a513bffaee769e244bc7"
+  "readme_sha256": "083f5ae256b08fd8ee4b7c155337a7229fa347b3a80236f31382143465c67b0c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `fe3966e8532e93a7ad4e4acc2e69cce133a8e53cd9b7a513bffaee769e244bc7`
+- README SHA256: `083f5ae256b08fd8ee4b7c155337a7229fa347b3a80236f31382143465c67b0c`
 
 ## README
 
@@ -24,6 +24,10 @@
 <h1 align="center">OpenMontage</h1>
 
 <p align="center"><strong>The first open-source, agentic video production system.</strong></p>
+
+<p align="center">
+  <a href="https://openmontage.video"><img src="https://img.shields.io/badge/Website-openmontage.video-d14a28?style=for-the-badge" alt="openmontage.video"></a>
+</p>
 
 <p align="center">
   <a href="#start-from-a-video-you-already-love">Paste A Video</a> &nbsp;·&nbsp;
