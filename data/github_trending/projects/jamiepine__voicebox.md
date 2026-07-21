@@ -5,7 +5,7 @@
   "full_name": "jamiepine/voicebox",
   "url": "https://github.com/jamiepine/voicebox",
   "description": "The open-source AI voice studio. Clone, dictate, create.",
-  "readme_sha256": "ca12dae79b9513db2ed0441d6b0faa9ba217db5615b00273e814aa14c360348c"
+  "readme_sha256": "da442448d30ea2a951419df5e1998ac6587748e8d685ae023e05f601c5adde99"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/jamiepine/voicebox
 - Description: The open-source AI voice studio. Clone, dictate, create.
-- README SHA256: `ca12dae79b9513db2ed0441d6b0faa9ba217db5615b00273e814aa14c360348c`
+- README SHA256: `da442448d30ea2a951419df5e1998ac6587748e8d685ae023e05f601c5adde99`
 
 ## README
 
@@ -289,7 +289,8 @@ Use cases: agent dev loops (dictate a question, hear the answer in a cloned voic
 | Platform                 | Backend        | Notes                                          |
 | ------------------------ | -------------- | ---------------------------------------------- |
 | macOS (Apple Silicon)    | MLX (Metal)    | 4-5x faster via Neural Engine                  |
-| Windows / Linux (NVIDIA) | PyTorch (CUDA) | Auto-downloads CUDA binary from within the app |
+| Windows (NVIDIA)         | PyTorch (CUDA) | Auto-downloads CUDA binary from within the app |
+| Linux (NVIDIA)           | PyTorch (CUDA) | Use a local/remote Python backend with CUDA PyTorch |
 | Linux (AMD)              | PyTorch (ROCm) | Auto-configures HSA_OVERRIDE_GFX_VERSION       |
 | Windows (any GPU)        | DirectML       | Universal Windows GPU support                  |
 | Intel Arc                | IPEX/XPU       | Intel discrete GPU acceleration                |

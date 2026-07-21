@@ -5,7 +5,7 @@
   "full_name": "Robbyant/lingbot-map",
   "url": "https://github.com/Robbyant/lingbot-map",
   "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
-  "readme_sha256": "54dbdebae93c8d7cb9b5d01cfb9c9cb55d32912118277a30b4f952f87fcf505c"
+  "readme_sha256": "562ba7062742c9ed60c6c51c2bbc049804b1d2530695af1da25fe5eb3b63a106"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Robbyant/lingbot-map
 - Description: A feed-forward 3D foundation model for reconstructing scenes from streaming data
-- README SHA256: `54dbdebae93c8d7cb9b5d01cfb9c9cb55d32912118277a30b4f952f87fcf505c`
+- README SHA256: `562ba7062742c9ed60c6c51c2bbc049804b1d2530695af1da25fe5eb3b63a106`
 
 ## README
 
@@ -164,7 +164,7 @@ pip install -e ".[vis]"
 After installation, run your first scene with one command:
 
 ```bash
-python demo.py --model_path /path/to/lingbot-map-long.pt \
+python demo.py --model_path /path/to/lingbot-map.pt \
     --image_folder example/courthouse --mask_sky
 ```
 
@@ -176,10 +176,10 @@ Run `demo.py` for interactive 3D visualization via a browser-based [viser](https
 
 ### Try the Example Scenes
 
-We provide four example scenes in `example/` that you can run out of the box:
+We provide three example scenes in `example/` that you can run out of the box:
 ```bash
 # courthouse scene
-python demo.py --model_path /path/to/lingbot-map-long.pt \
+python demo.py --model_path /path/to/lingbot-map.pt \
     --image_folder example/courthouse --mask_sky
 ```
 
@@ -193,7 +193,7 @@ https://github.com/user-attachments/assets/aa10f7ab-8024-43c7-92f8-d56159ec85c8
 
 ```bash
 # University scene
-python demo.py --model_path /path/to/lingbot-map-long.pt \
+python demo.py --model_path /path/to/lingbot-map.pt \
     --image_folder example/university --mask_sky
 ```
 
@@ -208,26 +208,12 @@ https://github.com/user-attachments/assets/212a1744-6ff5-4ccf-9bd4-728608248b57
 
 ```bash
 # Loop scene (loop closure trajectory)
-python demo.py --model_path /path/to/lingbot-map-long.pt \
+python demo.py --model_path /path/to/lingbot-map.pt \
     --image_folder example/loop
 ```
 
 
 https://github.com/user-attachments/assets/5ae0a292-b081-40c6-838c-b7c1a0538d75
-
-
-
-
-
-```bash
-# Oxford scene with sky masking (outdoor, large scale scene)
-python demo.py --model_path /path/to/lingbot-map-long.pt \
-    --image_folder example/oxford --mask_sky
-```
-
-
-https://github.com/user-attachments/assets/6b8daa95-9ed4-40b2-9902-7435779b886d
-
 
 
 
@@ -240,28 +226,36 @@ https://github.com/user-attachments/assets/6b8daa95-9ed4-40b2-9902-7435779b886d
 
 We will provide more examples in the follow-up.
 
-### Streaming with Keyframe Interval
-
-Use `--keyframe_interval` to reduce KV cache memory by only keeping every N-th frame as a keyframe. Non-keyframe frames still produce predictions but are not stored in the cache. This is useful for long sequences which exceed 320 frames (We train with video RoPE on 320 views, so performance degrades when the KV cache stores more than 320 views. Using a keyframe strategy allows inference over longer sequences.).
-
+### Dynamic Demo (From Droid-W)
 
 **Dataset:** Download the demo sequences from [robbyant/lingbot-map-demo](https://huggingface.co/datasets/robbyant/lingbot-map-demo/tree/main) on Hugging Face.
 
-Example run on the `travel` sequence from the dataset above (sky masking on, 4 camera optimization iterations, keyframe every 2 frames):
+Example run on the `dynamic` sequence from the dataset above (sky masking on, 4 camera optimization iterations, keyframe every 2 frames):
+
+Run the `dynamic` sequence with sky masking, 4 camera optimization iterations, and an input stride of 2:
 
 ```bash
 python demo.py \
-    --image_folder /path/to/lingbot-map-demo/travel/ \
-    --model_path /path/to/lingbot-map-long.pt \
-    --mask_sky \
+    --image_folder /path/to/dynamic\
+    --model_path ../../Lingbot-Map/lingbot-map.pt \
     --camera_num_iterations 4 \
-    --keyframe_interval 2
+    --mask_sky \
+    --stride 2
 ```
 
 
-https://github.com/user-attachments/assets/d350b590-d036-4363-af8c-7af3918338ef
+
+https://github.com/user-attachments/assets/567b6e9b-1cbf-402a-96be-9bab70715ec3
+
+<img width="1453" height="1195" alt="image" src="https://github.com/user-attachments/assets/27f8c6b7-339e-4e5f-9776-7cb577147401" />
 
 
+
+
+
+### Streaming with Keyframe Interval
+
+Use `--keyframe_interval` to reduce KV cache memory by only keeping every N-th frame as a keyframe. Non-keyframe frames still produce predictions but are not stored in the cache. This is useful for long sequences which exceed 320 frames (We train with video RoPE on 320 views, so performance degrades when the KV cache stores more than 320 views. Using a keyframe strategy allows inference over longer sequences.). In demo.py, the keyframe interval is calculated automatically.
 
 > **Note on inference range.** Our method does not perform state resetting by default, so the maximum inference range is bounded by the longest distance seen during training on the dataset. Beyond that distance, state resetting becomes necessary. If you observe pose collapse, switch to windowed mode (`--mode windowed`) — in most cases tuning `--keyframe_interval` alone is enough and the rest of the windowed parameters can stay at their defaults.
 
@@ -269,7 +263,7 @@ https://github.com/user-attachments/assets/d350b590-d036-4363-af8c-7af3918338ef
 ### Windowed Inference (for long sequences, >3000 frames)
 
 ```bash
-python demo.py --model_path /path/to/lingbot-map-long.pt \
+python demo.py --model_path /path/to/lingbot-map.pt \
     --video_path video.mp4 --fps 10 \
     --mode windowed --window_size 128 --overlap_keyframes 16 --keyframe_interval 2 
 ```
@@ -422,9 +416,19 @@ Flag-by-flag rationale:
 | `--save_predictions` | Persist per-frame NPZs alongside the MP4. Useful for inspection or for re-rendering with different camera/overlay settings later. |
 
 
-Replacing keyframe_interval = 10 with image_stride = 10 speeds up rendering. Then, comment out the camera follow section in demo_render/config/indoor.yaml and set the birdeye's ranges to [2000, 2500] to reproduce the indoor fly-through effect shown in the demo:
+Replacing keyframe_interval = 10 with image_stride = 10 speeds up rendering. Then, uncomment the camera follow section in demo_render/config/indoor.yaml and set the birdeye's ranges to [2000, 2500] to reproduce the indoor fly-through effect shown in the demo:
 
 <img width="3822" height="1080" alt="image" src="https://github.com/user-attachments/assets/5581d2b2-cb86-4187-a13d-46ac9a22ce99" />
+
+
+
+
+
+https://github.com/user-attachments/assets/21b444ea-e6b6-48f0-8b34-3acad41166ac
+
+
+
+
 
 
 

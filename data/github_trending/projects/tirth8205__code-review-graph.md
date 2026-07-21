@@ -5,7 +5,7 @@
   "full_name": "tirth8205/code-review-graph",
   "url": "https://github.com/tirth8205/code-review-graph",
   "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
-  "readme_sha256": "5f1593f7dad1f1c75bffdd686a8eba23210f1c1995e9d7ed76c263737e5ed7aa"
+  "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316"
 }
 ```
 
@@ -13,11 +13,13 @@
 
 - URL: https://github.com/tirth8205/code-review-graph
 - Description: Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
-- README SHA256: `5f1593f7dad1f1c75bffdd686a8eba23210f1c1995e9d7ed76c263737e5ed7aa`
+- README SHA256: `edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316`
 
 ## README
 
 <h1 align="center">code-review-graph</h1>
+
+<a href="https://trendshift.io/repositories/23329?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-23329" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/23329" alt="tirth8205%2Fcode-review-graph | Trendshift" width="250" height="55"/></a>
 
 <p align="center">
   <strong>Stop burning tokens. Start reviewing smarter.</strong>

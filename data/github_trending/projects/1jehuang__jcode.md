@@ -4,7 +4,7 @@
   "name": "jcode",
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
-  "description": "Coding Agent Harness",
+  "description": "The most intelligent agent harness for code",
   "readme_sha256": "7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc"
 }
 ```
@@ -12,7 +12,7 @@
 # 1jehuang/jcode
 
 - URL: https://github.com/1jehuang/jcode
-- Description: Coding Agent Harness
+- Description: The most intelligent agent harness for code
 - README SHA256: `7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc`
 
 ## README

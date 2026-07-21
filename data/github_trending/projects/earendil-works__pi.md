@@ -5,7 +5,7 @@
   "full_name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-  "readme_sha256": "9510935c739b6704c215e17aacfeca2e7db3fd10e7ff9a1a6b7d2f971d27f9c7"
+  "readme_sha256": "dad592606eae43a11572d7f489babbe994d6208706c2fcb64f837a6caa3285cc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earendil-works/pi
 - Description: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
-- README SHA256: `9510935c739b6704c215e17aacfeca2e7db3fd10e7ff9a1a6b7d2f971d27f9c7`
+- README SHA256: `dad592606eae43a11572d7f489babbe994d6208706c2fcb64f837a6caa3285cc`
 
 ## README
 
@@ -71,8 +71,9 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines and [AGENTS.m
 
 ```bash
 npm install --ignore-scripts  # Install all dependencies without running lifecycle scripts
-npm run build        # Build all packages
-npm run check        # Lint, format, and type check
+npm run build         # Refresh model data, then build all packages
+npm run build:offline # Rebuild using existing model data without network access
+npm run check         # Lint, format, and type check
 ./test.sh            # Run tests (skips LLM-dependent tests without API keys)
 ./pi-test.sh         # Run pi from sources (can be run from any directory)
 ```

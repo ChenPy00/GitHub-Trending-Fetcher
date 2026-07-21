@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 1,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 2,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 3,
+      "readme_sha256": "912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 4,
+      "readme_sha256": "5156e46907cb9fd330d7daf4ad5b65a228714b77e857426a0049e19f164ce63e",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "project_file": "projects/Dicklesworthstone__destructive_command_guard.md",
+      "rank": 5,
+      "readme_sha256": "9db94b7cc2fd25cd0b839d418b5282faaa6c52166eacca58e568a804cc304d75",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 6,
+      "readme_sha256": "3167449a6365012f2fb2e5d55238fc1c38c403d231656443dc3e5209e2ce0935",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 7,
+      "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "Skills for Design Engineers",
+      "full_name": "ibelick/ui-skills",
+      "project_file": "projects/ibelick__ui-skills.md",
+      "rank": 8,
+      "readme_sha256": "dc51bb090a6ef112642f1197a09fc50f9184beb5266daa849efa72853aefea0e",
+      "url": "https://github.com/ibelick/ui-skills"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 9,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "full_name": "kangarooking/cangjie-skill",
+      "project_file": "projects/kangarooking__cangjie-skill.md",
+      "rank": 10,
+      "readme_sha256": "7902513c9df3db19415a5beb788bf466895272bcc1987bba34e72134de2a7263",
+      "url": "https://github.com/kangarooking/cangjie-skill"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 11,
+      "readme_sha256": "127f596c936db49f125b6a71cf42ad2570cec362340d0ce1df7b3f28cdd11c63",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 12,
+      "readme_sha256": "8ef3dd9dd00c7dd39d1f0b77de69d25cff4dd3fe7768ec3a3cd1fc9c0aa5b76c",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "MoonshotAI/kimi-cli",
+      "project_file": "projects/MoonshotAI__kimi-cli.md",
+      "rank": 13,
+      "readme_sha256": "dc8992517be50091b4119410bd31bc53c1cb93e2b905868698ce98ec613b36a7",
+      "url": "https://github.com/MoonshotAI/kimi-cli"
+    },
+    {
+      "description": "A coding agent for open models like Kimi K3",
+      "full_name": "openinterpreter/openinterpreter",
+      "project_file": "projects/openinterpreter__openinterpreter.md",
+      "rank": 14,
+      "readme_sha256": "3e51f07f762d9c90dbb96887f859906cda9d3b242c5d98afecaadae2e5cbb73e",
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 15,
+      "readme_sha256": "ea58b449c349967035bd454410dd0eff8afb1efa6976a96c470b3c85272c386d",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 16,
+      "readme_sha256": "dad592606eae43a11572d7f489babbe994d6208706c2fcb64f837a6caa3285cc",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 17,
+      "readme_sha256": "895a9e99d3964faf6d5992cedce69790b46cbadd59c0fc10dd3d520284aba6f6",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/cwc-workshops",
+      "project_file": "projects/anthropics__cwc-workshops.md",
+      "rank": 18,
+      "readme_sha256": "1ee723437e71e1016028eab76ef6e9b29c279618997085093ef74b48e1e52b52",
+      "url": "https://github.com/anthropics/cwc-workshops"
+    }
+  ],
+  "snapshot_date": "2026-07-21",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

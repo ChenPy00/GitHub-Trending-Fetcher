@@ -1,0 +1,169 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 1,
+      "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "The most intelligent agent harness for code",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 2,
+      "readme_sha256": "7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Claude, GPT, Gemini, Kimi K3, GLM, DeepSeek. Works with Claude Code, Codex, Cursor, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, multimodal, Desktop/PWA. Built by 500+ contributors.",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 3,
+      "readme_sha256": "1004ac1f79f51b8ffa61281944db0db314a23bd0d87c37c391eefe20779dfba6",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "e3180b13fb7b099b1c79ca76edd59af96c369863ff2ba67cc61b50d4d3b02984",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 5,
+      "readme_sha256": "df60acbe486a9e2e4b12a9942051149cdb7cc5fdd4f089acf40ff0da40198c69",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "full_name": "kvcache-ai/ktransformers",
+      "project_file": "projects/kvcache-ai__ktransformers.md",
+      "rank": 6,
+      "readme_sha256": "1506009757b2f3e4f0c7949664091074add5ac1d609b38ba903ae4e07a82cf66",
+      "url": "https://github.com/kvcache-ai/ktransformers"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 7,
+      "readme_sha256": "da442448d30ea2a951419df5e1998ac6587748e8d685ae023e05f601c5adde99",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.",
+      "full_name": "topoteretes/cognee",
+      "project_file": "projects/topoteretes__cognee.md",
+      "rank": 8,
+      "readme_sha256": "3b297243509f994db4ee7e4bc69c785170af85b7285c86b8d5472b7dc9907b65",
+      "url": "https://github.com/topoteretes/cognee"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 9,
+      "readme_sha256": "562ba7062742c9ed60c6c51c2bbc049804b1d2530695af1da25fe5eb3b63a106",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 10,
+      "readme_sha256": "3b72818bd3796a9035b66135b5eac73b20de116685b17027ef3f18b549d1c50c",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "MoonshotAI/kimi-cli",
+      "project_file": "projects/MoonshotAI__kimi-cli.md",
+      "rank": 11,
+      "readme_sha256": "dc8992517be50091b4119410bd31bc53c1cb93e2b905868698ce98ec613b36a7",
+      "url": "https://github.com/MoonshotAI/kimi-cli"
+    },
+    {
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "full_name": "AstrBotDevs/AstrBot",
+      "project_file": "projects/AstrBotDevs__AstrBot.md",
+      "rank": 12,
+      "readme_sha256": "0e28aa899452f3fc724aa0e82daa2950fb4b47b1ce57bd59dd39d76282cc08af",
+      "url": "https://github.com/AstrBotDevs/AstrBot"
+    },
+    {
+      "description": "🚀 The fast, Pythonic way to build MCP servers and clients.",
+      "full_name": "PrefectHQ/fastmcp",
+      "project_file": "projects/PrefectHQ__fastmcp.md",
+      "rank": 13,
+      "readme_sha256": "b0d6b1b63fec648c459819fe0aafb5dd755e5272243375bcc7bffdbbac64db77",
+      "url": "https://github.com/PrefectHQ/fastmcp"
+    },
+    {
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "full_name": "KnockOutEZ/wigolo",
+      "project_file": "projects/KnockOutEZ__wigolo.md",
+      "rank": 14,
+      "readme_sha256": "93aa09deb4d3313c6417e97fecd2332d6cd6723006a11602a535731984ae35e3",
+      "url": "https://github.com/KnockOutEZ/wigolo"
+    },
+    {
+      "description": "A batteries-included framework for building web apps",
+      "full_name": "tokio-rs/topcoat",
+      "project_file": "projects/tokio-rs__topcoat.md",
+      "rank": 15,
+      "readme_sha256": "9c3ccb624dce90760a10f0fa7b3ad7c266b2150835be196003483fcc9a4a70f8",
+      "url": "https://github.com/tokio-rs/topcoat"
+    },
+    {
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "full_name": "iptv-org/iptv",
+      "project_file": "projects/iptv-org__iptv.md",
+      "rank": 16,
+      "readme_sha256": "cf46be9e40b9ee97e120b0c2461b8316b1d7872682b91ccada76e69e88b72563",
+      "url": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "description": "Self-hosted deployment platform",
+      "full_name": "oblien/openship",
+      "project_file": "projects/oblien__openship.md",
+      "rank": 17,
+      "readme_sha256": "6a9537cade90a0a1b23030043f4e91fbd7cb4e2d78d1725b7276c624514dc093",
+      "url": "https://github.com/oblien/openship"
+    },
+    {
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "full_name": "microsoft/Ontology-Playground",
+      "project_file": "projects/microsoft__Ontology-Playground.md",
+      "rank": 18,
+      "readme_sha256": "d1680a3549b18b8ee40a463e5df62bb9b933fe40780b6007655fa480f884cfa5",
+      "url": "https://github.com/microsoft/Ontology-Playground"
+    },
+    {
+      "description": "ggml speech-to-text inference for 16+ model families",
+      "full_name": "handy-computer/transcribe.cpp",
+      "project_file": "projects/handy-computer__transcribe.cpp.md",
+      "rank": 19,
+      "readme_sha256": "e4b6d1432d65a2e23e8adc183c4a6fd7e0f97dc0caff6f6d8c54798807f710db",
+      "url": "https://github.com/handy-computer/transcribe.cpp"
+    },
+    {
+      "description": "Very low latency speech to text, intent recognition, and text to speech, for building voice agents and interfaces",
+      "full_name": "moonshine-ai/moonshine",
+      "project_file": "projects/moonshine-ai__moonshine.md",
+      "rank": 20,
+      "readme_sha256": "7a38f6ee9e18ce287309e9b1e59f9ab46ed905998aad61e9078cf692674c00d4",
+      "url": "https://github.com/moonshine-ai/moonshine"
+    }
+  ],
+  "snapshot_date": "2026-07-21",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
