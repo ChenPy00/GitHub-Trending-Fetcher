@@ -5,7 +5,7 @@
   "full_name": "iOfficeAI/OfficeCLI",
   "url": "https://github.com/iOfficeAI/OfficeCLI",
   "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
-  "readme_sha256": "127f596c936db49f125b6a71cf42ad2570cec362340d0ce1df7b3f28cdd11c63"
+  "readme_sha256": "6e72c62629241886f40f400534542335ca6fcd9ad69ff9912e0613e45b73bc59"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/iOfficeAI/OfficeCLI
 - Description: OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.
-- README SHA256: `127f596c936db49f125b6a71cf42ad2570cec362340d0ce1df7b3f28cdd11c63`
+- README SHA256: `6e72c62629241886f40f400534542335ca6fcd9ad69ff9912e0613e45b73bc59`
 
 ## README
 
@@ -623,18 +623,19 @@ officecli validate report.docx && officecli view report.docx issues --json
 
 ```python
 # Python — `pip install officecli-sdk`
-from officecli import Doc
-with Doc("deck.pptx") as d:
-    d.add("/", type="slide", title="Q4 Report")
-    print(d.get("/slide[1]"))
+import officecli
+with officecli.create("deck.pptx") as doc:          # or officecli.open("deck.pptx")
+    doc.send({"command": "add", "parent": "/", "type": "slide"})
+    print(doc.send({"command": "get", "path": "/slide[1]"}))
 ```
 
 ```javascript
 // Node.js — `npm install @officecli/sdk`
-import { Doc } from "@officecli/sdk";
-await using d = await Doc.open("deck.pptx");
-await d.add("/", { type: "slide", title: "Q4 Report" });
-console.log(await d.get("/slide[1]"));
+const oc = require("@officecli/sdk");
+const doc = await oc.create("deck.pptx");            // or oc.open("deck.pptx")
+await doc.send({ command: "add", parent: "/", type: "slide" });
+console.log(await doc.send({ command: "get", path: "/slide[1]" }));
+await doc.close();
 ```
 
 Both SDKs auto-provision the native CLI when missing (mirror-first, Windows-capable) and announce the install rather than doing it silently.

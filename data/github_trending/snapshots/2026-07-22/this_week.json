@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 1,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 2,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 3,
+      "readme_sha256": "5156e46907cb9fd330d7daf4ad5b65a228714b77e857426a0049e19f164ce63e",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 4,
+      "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 5,
+      "readme_sha256": "912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "MoonshotAI/kimi-cli",
+      "project_file": "projects/MoonshotAI__kimi-cli.md",
+      "rank": 6,
+      "readme_sha256": "dc8992517be50091b4119410bd31bc53c1cb93e2b905868698ce98ec613b36a7",
+      "url": "https://github.com/MoonshotAI/kimi-cli"
+    },
+    {
+      "description": "Skills for Design Engineers",
+      "full_name": "ibelick/ui-skills",
+      "project_file": "projects/ibelick__ui-skills.md",
+      "rank": 7,
+      "readme_sha256": "dc51bb090a6ef112642f1197a09fc50f9184beb5266daa849efa72853aefea0e",
+      "url": "https://github.com/ibelick/ui-skills"
+    },
+    {
+      "description": "The most intelligent agent harness for code",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 8,
+      "readme_sha256": "7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
+      "full_name": "kangarooking/cangjie-skill",
+      "project_file": "projects/kangarooking__cangjie-skill.md",
+      "rank": 9,
+      "readme_sha256": "7902513c9df3db19415a5beb788bf466895272bcc1987bba34e72134de2a7263",
+      "url": "https://github.com/kangarooking/cangjie-skill"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 10,
+      "readme_sha256": "3f8c36645fb11d08cd32202d13538806b35ce5f1d8871181931fd0eec7ac4605",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 11,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 12,
+      "readme_sha256": "6e72c62629241886f40f400534542335ca6fcd9ad69ff9912e0613e45b73bc59",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 13,
+      "readme_sha256": "b66e24896b084eb28c342f3894e492f2fd224521acb62c768d8e0219104b331c",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "The Destructive Command Guard (dcg) is for blocking dangerous git and shell commands from being executed by agents.",
+      "full_name": "Dicklesworthstone/destructive_command_guard",
+      "project_file": "projects/Dicklesworthstone__destructive_command_guard.md",
+      "rank": 14,
+      "readme_sha256": "9db94b7cc2fd25cd0b839d418b5282faaa6c52166eacca58e568a804cc304d75",
+      "url": "https://github.com/Dicklesworthstone/destructive_command_guard"
+    },
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 15,
+      "readme_sha256": "8ef3dd9dd00c7dd39d1f0b77de69d25cff4dd3fe7768ec3a3cd1fc9c0aa5b76c",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "A coding agent for open models like Kimi K3",
+      "full_name": "openinterpreter/openinterpreter",
+      "project_file": "projects/openinterpreter__openinterpreter.md",
+      "rank": 16,
+      "readme_sha256": "3e51f07f762d9c90dbb96887f859906cda9d3b242c5d98afecaadae2e5cbb73e",
+      "url": "https://github.com/openinterpreter/openinterpreter"
+    },
+    {
+      "description": "Lightweight, open-source AI agent for your tools, chats, and workflows.",
+      "full_name": "HKUDS/nanobot",
+      "project_file": "projects/HKUDS__nanobot.md",
+      "rank": 17,
+      "readme_sha256": "09c6d94e54315b165bec494c321eefa0a8e13a94086ce0efb7b741e03e43a548",
+      "url": "https://github.com/HKUDS/nanobot"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 18,
+      "readme_sha256": "c731247557e7f937387d2c4653bb2c5226b2eb25d29ea63461268faa7ffcf7c9",
+      "url": "https://github.com/stablyai/orca"
+    }
+  ],
+  "snapshot_date": "2026-07-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-  "readme_sha256": "dad592606eae43a11572d7f489babbe994d6208706c2fcb64f837a6caa3285cc"
+  "readme_sha256": "b66e24896b084eb28c342f3894e492f2fd224521acb62c768d8e0219104b331c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earendil-works/pi
 - Description: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
-- README SHA256: `dad592606eae43a11572d7f489babbe994d6208706c2fcb64f837a6caa3285cc`
+- README SHA256: `b66e24896b084eb28c342f3894e492f2fd224521acb62c768d8e0219104b331c`
 
 ## README
 
@@ -77,6 +77,19 @@ npm run check         # Lint, format, and type check
 ./test.sh            # Run tests (skips LLM-dependent tests without API keys)
 ./pi-test.sh         # Run pi from sources (can be run from any directory)
 ```
+
+## Building standalone binaries from release source
+
+GitHub releases include a versioned source archive covered by the release's `SHA256SUMS` file. Extract it and run the same build script used for the official standalone binaries:
+
+```bash
+VERSION="<release-version>"
+tar -xzf "pi-${VERSION}-source.tar.gz"
+cd "pi-${VERSION}"
+./scripts/build-binaries.sh --platform linux-x64 --out "$PWD/out"
+```
+
+The script installs dependencies, builds the monorepo, compiles the Bun executable, and stages its runtime assets. Package maintainers who provide dependencies separately can pass `--skip-install --skip-deps`.
 
 ## Supply-chain hardening
 

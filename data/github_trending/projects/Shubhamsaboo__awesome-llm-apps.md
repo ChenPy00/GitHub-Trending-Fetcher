@@ -4,7 +4,7 @@
   "name": "awesome-llm-apps",
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
-  "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+  "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
   "readme_sha256": "912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd"
 }
 ```
@@ -12,7 +12,7 @@
 # Shubhamsaboo/awesome-llm-apps
 
 - URL: https://github.com/Shubhamsaboo/awesome-llm-apps
-- Description: 100+ AI Agent & RAG apps you can actually run — clone, customize, ship.
+- Description: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
 - README SHA256: `912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd`
 
 ## README

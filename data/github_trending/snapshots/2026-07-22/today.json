@@ -1,0 +1,177 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 1,
+      "readme_sha256": "68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "full_name": "bojieli/ai-agent-book",
+      "project_file": "projects/bojieli__ai-agent-book.md",
+      "rank": 2,
+      "readme_sha256": "424077c41406d2d871ce7271f7b450c399cd2d7cb9162dba95ff5fc4365f2a2d",
+      "url": "https://github.com/bojieli/ai-agent-book"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 3,
+      "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 4,
+      "readme_sha256": "a93654425fcef4f50cf9fc7e95e3f555cfeb0d7b445e5433c6af62f097c00b4c",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 5,
+      "readme_sha256": "0fe12a623ea95b46bb8db033a35a87f0e246bb9e6bb22cd8aee51570bdd1df4d",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "The most intelligent agent harness for code",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 6,
+      "readme_sha256": "7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "Self-hosted deployment platform",
+      "full_name": "oblien/openship",
+      "project_file": "projects/oblien__openship.md",
+      "rank": 7,
+      "readme_sha256": "6a9537cade90a0a1b23030043f4e91fbd7cb4e2d78d1725b7276c624514dc093",
+      "url": "https://github.com/oblien/openship"
+    },
+    {
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "full_name": "AstrBotDevs/AstrBot",
+      "project_file": "projects/AstrBotDevs__AstrBot.md",
+      "rank": 8,
+      "readme_sha256": "0e28aa899452f3fc724aa0e82daa2950fb4b47b1ce57bd59dd39d76282cc08af",
+      "url": "https://github.com/AstrBotDevs/AstrBot"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 9,
+      "readme_sha256": "3b72818bd3796a9035b66135b5eac73b20de116685b17027ef3f18b549d1c50c",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "full_name": "tradesdontlie/tradingview-mcp",
+      "project_file": "projects/tradesdontlie__tradingview-mcp.md",
+      "rank": 10,
+      "readme_sha256": "b298072d44264babb759235aff9820552064d0481f80fde1e68bba505a8fc104",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 11,
+      "readme_sha256": "4f669b12100f73590e539be9e6b109abe96488dca39b07778ec5c83c12f9351e",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "full_name": "hyprwm/Hyprland",
+      "project_file": "projects/hyprwm__Hyprland.md",
+      "rank": 12,
+      "readme_sha256": "36682e45e7e359c33fdecc0dfb5711e53cf916ca5383ca75c99a8aa417300454",
+      "url": "https://github.com/hyprwm/Hyprland"
+    },
+    {
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "full_name": "chrislgarry/Apollo-11",
+      "project_file": "projects/chrislgarry__Apollo-11.md",
+      "rank": 13,
+      "readme_sha256": "51742a8bfc44fd5bc5b32776ebfe11a1d009e55611c35feb4b61ca1fc8d5e7fe",
+      "url": "https://github.com/chrislgarry/Apollo-11"
+    },
+    {
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "full_name": "DioxusLabs/dioxus",
+      "project_file": "projects/DioxusLabs__dioxus.md",
+      "rank": 14,
+      "readme_sha256": "f8a4dc1f1005495e5b205cd0131e059989453d403465b7297d68ea2b1e6c91a1",
+      "url": "https://github.com/DioxusLabs/dioxus"
+    },
+    {
+      "description": "",
+      "full_name": "langchain-ai/open_deep_research",
+      "project_file": "projects/langchain-ai__open_deep_research.md",
+      "rank": 15,
+      "readme_sha256": "0fc75629079c025b0200e6032a038edf9c91c332d4ce925cbc6165910008267f",
+      "url": "https://github.com/langchain-ai/open_deep_research"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 268+ providers (50+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 16,
+      "readme_sha256": "4a65cb3a3c462dbf7125f4f8a02dfc527835da8864f83d2188fb2a3a9264e121",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Web UI for the pi coding agent",
+      "full_name": "agegr/pi-web",
+      "project_file": "projects/agegr__pi-web.md",
+      "rank": 17,
+      "readme_sha256": "827e733f5d2b3a7b59e948ab3ced7a8e021f385606c0040491eaa02fd96bdd14",
+      "url": "https://github.com/agegr/pi-web"
+    },
+    {
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "full_name": "schollz/croc",
+      "project_file": "projects/schollz__croc.md",
+      "rank": 18,
+      "readme_sha256": "e30fa89ada7ed47ae1e3c5a564759128d5a950e3c812e5f9238b293edabf8c46",
+      "url": "https://github.com/schollz/croc"
+    },
+    {
+      "description": "Free, open-source web app for learning about ontologies and Microsoft Fabric IQ. Explore a catalogue of pre-built ontologies, design your own visually, export as RDF/XML, and share interactive diagrams. Zero backend, fully static.",
+      "full_name": "microsoft/Ontology-Playground",
+      "project_file": "projects/microsoft__Ontology-Playground.md",
+      "rank": 19,
+      "readme_sha256": "d1680a3549b18b8ee40a463e5df62bb9b933fe40780b6007655fa480f884cfa5",
+      "url": "https://github.com/microsoft/Ontology-Playground"
+    },
+    {
+      "description": "Structured Outputs",
+      "full_name": "dottxt-ai/outlines",
+      "project_file": "projects/dottxt-ai__outlines.md",
+      "rank": 20,
+      "readme_sha256": "2200c02b392cf368f5c0232d5b2c19f6c3f85cc7643b25b487db6a6394156eab",
+      "url": "https://github.com/dottxt-ai/outlines"
+    },
+    {
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "full_name": "KnockOutEZ/wigolo",
+      "project_file": "projects/KnockOutEZ__wigolo.md",
+      "rank": 21,
+      "readme_sha256": "93aa09deb4d3313c6417e97fecd2332d6cd6723006a11602a535731984ae35e3",
+      "url": "https://github.com/KnockOutEZ/wigolo"
+    }
+  ],
+  "snapshot_date": "2026-07-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
