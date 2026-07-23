@@ -5,7 +5,7 @@
   "full_name": "agegr/pi-web",
   "url": "https://github.com/agegr/pi-web",
   "description": "Web UI for the pi coding agent",
-  "readme_sha256": "827e733f5d2b3a7b59e948ab3ced7a8e021f385606c0040491eaa02fd96bdd14"
+  "readme_sha256": "a73b8df8f2fdd040f8096dc38862fa9ffbde44391d7e94469196b91423cae6fd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agegr/pi-web
 - Description: Web UI for the pi coding agent
-- README SHA256: `827e733f5d2b3a7b59e948ab3ced7a8e021f385606c0040491eaa02fd96bdd14`
+- README SHA256: `a73b8df8f2fdd040f8096dc38862fa9ffbde44391d7e94469196b91423cae6fd`
 
 ## README
 
@@ -54,6 +54,28 @@ pi-web --no-open                # do not open the browser automatically
 
 PORT=8080 pi-web                # environment variable is also supported
 PI_WEB_NO_OPEN=1 pi-web         # useful when running as a background service
+```
+
+## HTTP Proxy
+
+Pi Web reads the standard `HTTP_PROXY`, `HTTPS_PROXY`, and `NO_PROXY` environment variables for server-side model and API requests.
+
+On macOS or Linux:
+
+```bash
+HTTP_PROXY=http://127.0.0.1:7890 \
+HTTPS_PROXY=http://127.0.0.1:7890 \
+NO_PROXY=localhost,127.0.0.1 \
+npx @agegr/pi-web@latest
+```
+
+On Windows PowerShell:
+
+```powershell
+$env:HTTP_PROXY = "http://127.0.0.1:7890"
+$env:HTTPS_PROXY = "http://127.0.0.1:7890"
+$env:NO_PROXY = "localhost,127.0.0.1"
+npx @agegr/pi-web@latest
 ```
 
 ## Features
@@ -118,6 +140,7 @@ components/
   FileExplorer.tsx    # file tree
   FileViewer.tsx      # source, diff, image, audio, PDF, DOCX preview
 lib/
+  http-dispatcher.ts  # HTTP(S) proxy setup for server-side fetch
   rpc-manager.ts      # AgentSessionWrapper lifecycle and global registry
   session-reader.ts   # parses .jsonl session files and branch contexts
   normalize.ts        # normalizes toolCall field names
@@ -132,4 +155,5 @@ hooks/
   useTheme.ts         # theme switching
 bin/
   pi-web.js           # npm CLI entrypoint
+instrumentation.ts    # initializes the server HTTP dispatcher
 ```

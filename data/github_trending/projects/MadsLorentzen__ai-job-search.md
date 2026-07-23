@@ -5,7 +5,7 @@
   "full_name": "MadsLorentzen/ai-job-search",
   "url": "https://github.com/MadsLorentzen/ai-job-search",
   "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-  "readme_sha256": "1a4798de52b02c66a7a6ec825cce3dd345ad3b86852876b817cca9c3a956a51a"
+  "readme_sha256": "7d85a40d7325f950089739735540d486e803d507576b1f5b090cc121f387dea1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/MadsLorentzen/ai-job-search
 - Description: The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-- README SHA256: `1a4798de52b02c66a7a6ec825cce3dd345ad3b86852876b817cca9c3a956a51a`
+- README SHA256: `7d85a40d7325f950089739735540d486e803d507576b1f5b090cc121f387dea1`
 
 ## README
 
@@ -336,6 +336,10 @@ To wipe your profile data and start fresh:
 ```
 
 `/reset` shows exactly what will be deleted and requires you to type `RESET` to confirm. Nothing is deleted until you do.
+
+### Staying up to date
+
+Upstream moves fast. Rather than pulling raw `master` and hoping, update your fork to a tagged [release](../../releases) - a vetted checkpoint described in [CHANGELOG.md](CHANGELOG.md). `python3 tools/check_upstream_updates.py` previews exactly which of your personalized files an update touches before you merge. Full walkthrough in [SETUP.md, section 8](SETUP.md#8-pulling-upstream-updates-into-your-fork).
 
 ## Tips for better results
 

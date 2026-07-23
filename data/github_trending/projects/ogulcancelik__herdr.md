@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "ee58f111deabc39a2477c4a6f983b721f9f301bad2420e09be7dc1d49a786286"
+  "readme_sha256": "21c4a47a8d756e492dd8add4915bb01d18984fda49074ed8def82e848d05cc41"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `ee58f111deabc39a2477c4a6f983b721f9f301bad2420e09be7dc1d49a786286`
+- README SHA256: `21c4a47a8d756e492dd8add4915bb01d18984fda49074ed8def82e848d05cc41`
 
 ## README
 
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-666666?labelColor=333333" alt="AGPL 3.0 license" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-666666?labelColor=333333" alt="Apache 2.0 license" /></a>
   <a href="https://github.com/ogulcancelik/herdr/releases"><img src="https://img.shields.io/github/downloads/ogulcancelik/herdr/total?labelColor=333333&color=666666" alt="total GitHub release downloads" /></a>
   <a href="https://github.com/ogulcancelik/herdr/stargazers"><img src="https://img.shields.io/github/stars/ogulcancelik/herdr?labelColor=333333&color=666666&logo=github" alt="GitHub stars" /></a>
   <a href="https://github.com/ogulcancelik/herdr/releases/latest"><img src="https://img.shields.io/github/v/release/ogulcancelik/herdr?label=release&labelColor=333333&color=666666" alt="latest stable release" /></a>
@@ -99,9 +99,4 @@ just check       # formatting, tests, and maintenance checks
 
 ## license
 
-Herdr is dual-licensed:
-
-1. Open source: GNU Affero General Public License v3.0 or later (AGPL-3.0-or-later).
-2. Commercial: commercial licenses are available for organizations that cannot comply with AGPL.
-
-Contact: hey@herdr.dev
+Herdr is licensed under the [Apache License 2.0](LICENSE).

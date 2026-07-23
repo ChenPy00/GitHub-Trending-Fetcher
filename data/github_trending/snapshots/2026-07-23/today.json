@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 1,
+      "readme_sha256": "68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 2,
+      "readme_sha256": "3e810460b0b5014250f4bb64317cff761563b194b6c259a33926aad54174f6e0",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 3,
+      "readme_sha256": "a6fd9460b7c678e46b02a0c28770609b43b69a8d2e190cc13e1300d4268ad0ae",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "full_name": "schollz/croc",
+      "project_file": "projects/schollz__croc.md",
+      "rank": 4,
+      "readme_sha256": "e30fa89ada7ed47ae1e3c5a564759128d5a950e3c812e5f9238b293edabf8c46",
+      "url": "https://github.com/schollz/croc"
+    },
+    {
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "full_name": "likec4/likec4",
+      "project_file": "projects/likec4__likec4.md",
+      "rank": 5,
+      "readme_sha256": "f05b510af7ddc8285eac0812a358feb97f8f04cf4b3e7a1645109b8853380f54",
+      "url": "https://github.com/likec4/likec4"
+    },
+    {
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "full_name": "chrislgarry/Apollo-11",
+      "project_file": "projects/chrislgarry__Apollo-11.md",
+      "rank": 6,
+      "readme_sha256": "51742a8bfc44fd5bc5b32776ebfe11a1d009e55611c35feb4b61ca1fc8d5e7fe",
+      "url": "https://github.com/chrislgarry/Apollo-11"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 7,
+      "readme_sha256": "da442448d30ea2a951419df5e1998ac6587748e8d685ae023e05f601c5adde99",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 8,
+      "readme_sha256": "7ce0df7f9eced06da49e6291b6ca9aeb7085d8fecacfb93f324a1af7b8febc12",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 9,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "project_file": "projects/ComposioHQ__awesome-claude-skills.md",
+      "rank": 10,
+      "readme_sha256": "8f4fdb047df25b9ce4989a74a50c730f29f371da075672abd233bdd9be8c6c74",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "description": "Self-hosted deployment platform",
+      "full_name": "oblien/openship",
+      "project_file": "projects/oblien__openship.md",
+      "rank": 11,
+      "readme_sha256": "aa18b9cfbc0471c060d6b9baa093782a0cc3a797d0439f48836874721cdde9ac",
+      "url": "https://github.com/oblien/openship"
+    },
+    {
+      "description": "Web UI for the pi coding agent",
+      "full_name": "agegr/pi-web",
+      "project_file": "projects/agegr__pi-web.md",
+      "rank": 12,
+      "readme_sha256": "a73b8df8f2fdd040f8096dc38862fa9ffbde44391d7e94469196b91423cae6fd",
+      "url": "https://github.com/agegr/pi-web"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 13,
+      "readme_sha256": "e3180b13fb7b099b1c79ca76edd59af96c369863ff2ba67cc61b50d4d3b02984",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 14,
+      "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "CloudFlare free temp domain email 免费收发 临时域名邮箱 支持附件 IMAP SMTP TelegramBot",
+      "full_name": "dreamhunter2333/cloudflare_temp_email",
+      "project_file": "projects/dreamhunter2333__cloudflare_temp_email.md",
+      "rank": 15,
+      "readme_sha256": "d88f40b73858f30741d5d721aff12c287687f7cddc08dc71041269b98d4b1255",
+      "url": "https://github.com/dreamhunter2333/cloudflare_temp_email"
+    },
+    {
+      "description": "Fullstack app framework for web, desktop, and mobile.",
+      "full_name": "DioxusLabs/dioxus",
+      "project_file": "projects/DioxusLabs__dioxus.md",
+      "rank": 16,
+      "readme_sha256": "f8a4dc1f1005495e5b205cd0131e059989453d403465b7297d68ea2b1e6c91a1",
+      "url": "https://github.com/DioxusLabs/dioxus"
+    },
+    {
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "full_name": "hyprwm/Hyprland",
+      "project_file": "projects/hyprwm__Hyprland.md",
+      "rank": 17,
+      "readme_sha256": "36682e45e7e359c33fdecc0dfb5711e53cf916ca5383ca75c99a8aa417300454",
+      "url": "https://github.com/hyprwm/Hyprland"
+    },
+    {
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "project_file": "projects/Pumpkin-MC__Pumpkin.md",
+      "rank": 18,
+      "readme_sha256": "72dcd5e4123aadfaf71c4ae7ef1761b82f9621b0320a6bc09ffb159b40f02eba",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    {
+      "description": "Structured Outputs",
+      "full_name": "dottxt-ai/outlines",
+      "project_file": "projects/dottxt-ai__outlines.md",
+      "rank": 19,
+      "readme_sha256": "2200c02b392cf368f5c0232d5b2c19f6c3f85cc7643b25b487db6a6394156eab",
+      "url": "https://github.com/dottxt-ai/outlines"
+    }
+  ],
+  "snapshot_date": "2026-07-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

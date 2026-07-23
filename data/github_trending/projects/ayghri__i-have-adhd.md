@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "a93654425fcef4f50cf9fc7e95e3f555cfeb0d7b445e5433c6af62f097c00b4c"
+  "readme_sha256": "a6fd9460b7c678e46b02a0c28770609b43b69a8d2e190cc13e1300d4268ad0ae"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.
-- README SHA256: `a93654425fcef4f50cf9fc7e95e3f555cfeb0d7b445e5433c6af62f097c00b4c`
+- README SHA256: `a6fd9460b7c678e46b02a0c28770609b43b69a8d2e190cc13e1300d4268ad0ae`
 
 ## README
 
@@ -25,6 +25,12 @@
 </p>
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ayghri/i-have-adhd?style=flat" alt="License"></a>
+</p>
+
+<p align="center">
+  <strong>English</strong> ·
+  <a href="README.zh-CN.md">简体中文</a> ·
+  <a href="README.ja.md">日本語</a>
 </p>
 
 

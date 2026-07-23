@@ -1,0 +1,193 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 1,
+      "readme_sha256": "7d85a40d7325f950089739735540d486e803d507576b1f5b090cc121f387dea1",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 2,
+      "readme_sha256": "fbd27e8fb3a12f63ca04a66b1ec5c2b00be1cebbe3453df9630048721b586a00",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch)",
+      "full_name": "catchorg/Catch2",
+      "project_file": "projects/catchorg__Catch2.md",
+      "rank": 3,
+      "readme_sha256": "5f7b69cbc20dba4417917c6e5f12b811d2ef100f63dc73e139fbcfb236fbf49d",
+      "url": "https://github.com/catchorg/Catch2"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 278+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 4,
+      "readme_sha256": "7ce0df7f9eced06da49e6291b6ca9aeb7085d8fecacfb93f324a1af7b8febc12",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "High-performance code intelligence MCP server. Indexes codebases into a persistent knowledge graph — average repo in milliseconds. 158 languages, sub-ms queries, 99% fewer tokens. Single static binary, zero dependencies.",
+      "full_name": "DeusData/codebase-memory-mcp",
+      "project_file": "projects/DeusData__codebase-memory-mcp.md",
+      "rank": 5,
+      "readme_sha256": "bc23ce4b260c32ac7031df116d65c4484b3c70a10841aa3c89f0b0b26df65262",
+      "url": "https://github.com/DeusData/codebase-memory-mcp"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 6,
+      "readme_sha256": "c731247557e7f937387d2c4653bb2c5226b2eb25d29ea63461268faa7ffcf7c9",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 7,
+      "readme_sha256": "5e0ffe75fd6c3e15951da9abef5f59ea0ae4a879a0f2470878ab04205ec3d752",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "git push no-mistakes",
+      "full_name": "kunchenguid/no-mistakes",
+      "project_file": "projects/kunchenguid__no-mistakes.md",
+      "rank": 8,
+      "readme_sha256": "e4d0b7f92fd5dbcf816ea085ad3a5bca036e0a18310eb5c3182be0f26d57ae08",
+      "url": "https://github.com/kunchenguid/no-mistakes"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 9,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "agent multiplexer that lives in your terminal.",
+      "full_name": "ogulcancelik/herdr",
+      "project_file": "projects/ogulcancelik__herdr.md",
+      "rank": 10,
+      "readme_sha256": "21c4a47a8d756e492dd8add4915bb01d18984fda49074ed8def82e848d05cc41",
+      "url": "https://github.com/ogulcancelik/herdr"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 11,
+      "readme_sha256": "c9065a99d84d295454acf66388ea8a294c1dddbdd76ac16f27e7b1f2b63652b2",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "JavaScript in-page GUI agent. Control web interfaces with natural language.",
+      "full_name": "alibaba/page-agent",
+      "project_file": "projects/alibaba__page-agent.md",
+      "rank": 12,
+      "readme_sha256": "749382db2a6246561581f2499cd3bfb32fc33997c9556201ff7c5e3521d625b4",
+      "url": "https://github.com/alibaba/page-agent"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 13,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 14,
+      "readme_sha256": "562ba7062742c9ed60c6c51c2bbc049804b1d2530695af1da25fe5eb3b63a106",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design! iOS, Android and desktop apps 📱!",
+      "full_name": "simplex-chat/simplex-chat",
+      "project_file": "projects/simplex-chat__simplex-chat.md",
+      "rank": 15,
+      "readme_sha256": "87a0f92415fc771efdbd436ce36b7c3fceaf92c9f26a2e929a2ce75d89ddf1f9",
+      "url": "https://github.com/simplex-chat/simplex-chat"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 16,
+      "readme_sha256": "6e72c62629241886f40f400534542335ca6fcd9ad69ff9912e0613e45b73bc59",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "AI agent to evaluate and score resumes.",
+      "full_name": "interviewstreet/hiring-agent",
+      "project_file": "projects/interviewstreet__hiring-agent.md",
+      "rank": 17,
+      "readme_sha256": "a1effa7179a365b3f8fdfbc2fb56654eeece5537b6a7295d2f745df55d8aa886",
+      "url": "https://github.com/interviewstreet/hiring-agent"
+    },
+    {
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "full_name": "ocornut/imgui",
+      "project_file": "projects/ocornut__imgui.md",
+      "rank": 18,
+      "readme_sha256": "1abb04cbd7419abf31de079a619a9c1e50442d39abc5747b41beee8575da93ff",
+      "url": "https://github.com/ocornut/imgui"
+    },
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 19,
+      "readme_sha256": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 20,
+      "readme_sha256": "5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 21,
+      "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "Clone any website with one command using AI coding agents",
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "project_file": "projects/JCodesMore__ai-website-cloner-template.md",
+      "rank": 22,
+      "readme_sha256": "632c6a6239d4cca422222608bdddb021eef30111308bc401a17de81941251a69",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template"
+    },
+    {
+      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
+      "full_name": "HKUDS/Vibe-Trading",
+      "project_file": "projects/HKUDS__Vibe-Trading.md",
+      "rank": 23,
+      "readme_sha256": "61b26bac86d57056b89281542ea400568cea646de1affe84af34d9245dcb00c6",
+      "url": "https://github.com/HKUDS/Vibe-Trading"
+    }
+  ],
+  "snapshot_date": "2026-07-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
