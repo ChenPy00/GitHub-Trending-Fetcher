@@ -1,0 +1,145 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 1,
+      "readme_sha256": "edd6f3e4935e6431857170d794932932742e7e2763f92a395a89180d7b7c1316",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 2,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
+      "full_name": "MoonshotAI/kimi-code",
+      "project_file": "projects/MoonshotAI__kimi-code.md",
+      "rank": 3,
+      "readme_sha256": "50ea102c7003c746244c69cb78cbd5b1e9158311e5e4e028aee8a2afee698c4c",
+      "url": "https://github.com/MoonshotAI/kimi-code"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 4,
+      "readme_sha256": "68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "The most intelligent agent harness for code",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 5,
+      "readme_sha256": "7470b4982628099780c9f10a86b7caad2407eb46315cd376aa1934e03468becc",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 6,
+      "readme_sha256": "a544dc22adc0193828c05bc1ea7612fb94d5e86d0f6c60fb1e0d65d1de1a94fd",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Bonsai Demo",
+      "full_name": "PrismML-Eng/Bonsai-demo",
+      "project_file": "projects/PrismML-Eng__Bonsai-demo.md",
+      "rank": 7,
+      "readme_sha256": "d3d2c86d52460356ec6f4e6ebb7a0684577abc4d26297f41e8cfc257df754e47",
+      "url": "https://github.com/PrismML-Eng/Bonsai-demo"
+    },
+    {
+      "description": "Skills for Design Engineers",
+      "full_name": "ibelick/ui-skills",
+      "project_file": "projects/ibelick__ui-skills.md",
+      "rank": 8,
+      "readme_sha256": "dc51bb090a6ef112642f1197a09fc50f9184beb5266daa849efa72853aefea0e",
+      "url": "https://github.com/ibelick/ui-skills"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 9,
+      "readme_sha256": "c4ed9d274debcb73da67ae26340022c0092bef19f82d375263aaa82af495465f",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Kimi Code CLI is your next CLI agent.",
+      "full_name": "MoonshotAI/kimi-cli",
+      "project_file": "projects/MoonshotAI__kimi-cli.md",
+      "rank": 10,
+      "readme_sha256": "dc8992517be50091b4119410bd31bc53c1cb93e2b905868698ce98ec613b36a7",
+      "url": "https://github.com/MoonshotAI/kimi-cli"
+    },
+    {
+      "description": "Web UI for the pi coding agent",
+      "full_name": "agegr/pi-web",
+      "project_file": "projects/agegr__pi-web.md",
+      "rank": 11,
+      "readme_sha256": "a73b8df8f2fdd040f8096dc38862fa9ffbde44391d7e94469196b91423cae6fd",
+      "url": "https://github.com/agegr/pi-web"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 12,
+      "readme_sha256": "b66e24896b084eb28c342f3894e492f2fd224521acb62c768d8e0219104b331c",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "A feed-forward 3D foundation model for reconstructing scenes from streaming data",
+      "full_name": "Robbyant/lingbot-map",
+      "project_file": "projects/Robbyant__lingbot-map.md",
+      "rank": 13,
+      "readme_sha256": "562ba7062742c9ed60c6c51c2bbc049804b1d2530695af1da25fe5eb3b63a106",
+      "url": "https://github.com/Robbyant/lingbot-map"
+    },
+    {
+      "description": "Apache Ossie, industry wide specification effort to standardize how we exchange semantic metadata across analytics, AI and BI platforms, providing a vendor neutral, single source of truth for semantic data",
+      "full_name": "apache/ossie",
+      "project_file": "projects/apache__ossie.md",
+      "rank": 14,
+      "readme_sha256": "8041ca0e6bd4be517dc1cbcf6b442726138def8ea7b9c28908b605be2ed5b567",
+      "url": "https://github.com/apache/ossie"
+    },
+    {
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 15,
+      "readme_sha256": "912e720f9e5d19aca36af325405b3f755e1bb8991d7e253ae774cd3d52e87efd",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "full_name": "codecrafters-io/build-your-own-x",
+      "project_file": "projects/codecrafters-io__build-your-own-x.md",
+      "rank": 16,
+      "readme_sha256": "895a9e99d3964faf6d5992cedce69790b46cbadd59c0fc10dd3d520284aba6f6",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    {
+      "description": "A Flexible Framework for Experiencing Heterogeneous LLM Inference/Fine-tune Optimizations",
+      "full_name": "kvcache-ai/ktransformers",
+      "project_file": "projects/kvcache-ai__ktransformers.md",
+      "rank": 17,
+      "readme_sha256": "1506009757b2f3e4f0c7949664091074add5ac1d609b38ba903ae4e07a82cf66",
+      "url": "https://github.com/kvcache-ai/ktransformers"
+    }
+  ],
+  "snapshot_date": "2026-07-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

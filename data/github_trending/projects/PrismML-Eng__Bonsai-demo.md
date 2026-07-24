@@ -5,7 +5,7 @@
   "full_name": "PrismML-Eng/Bonsai-demo",
   "url": "https://github.com/PrismML-Eng/Bonsai-demo",
   "description": "Bonsai Demo",
-  "readme_sha256": "197a4b2ac3837101ee36e6f1ad31e84f900870866ea0732e1235c5a666aca49e"
+  "readme_sha256": "d3d2c86d52460356ec6f4e6ebb7a0684577abc4d26297f41e8cfc257df754e47"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/PrismML-Eng/Bonsai-demo
 - Description: Bonsai Demo
-- README SHA256: `197a4b2ac3837101ee36e6f1ad31e84f900870866ea0732e1235c5a666aca49e`
+- README SHA256: `d3d2c86d52460356ec6f4e6ebb7a0684577abc4d26297f41e8cfc257df754e47`
 
 ## README
 
@@ -124,7 +124,7 @@ See [community-benchmarks/](community-benchmarks/) for results on different hard
 
 Two model families are available, each in sizes **27B**, **8B**, **4B**, and **1.7B**. The 27B models are vision-language models: they accept images as well as text; all 27B repos are gathered in the [Bonsai 27B HF collection](https://huggingface.co/collections/prism-ml/bonsai-27b).
 
-Both formats are landing in mainline llama.cpp: **Q1_0 (1-bit) is fully merged upstream**, and **Q2_0 (ternary) now runs on mainline CPU and Metal**, with Vulkan in review. Details and mainline-compatible files: [binary status](#upstream-status-for-binary) and [ternary status](#upstream-status-for-ternary) below.
+Both formats are landing in mainline llama.cpp: **Q1_0 (1-bit) is fully merged upstream**, and **Q2_0 (ternary) now runs on mainline CPU, Metal, and Vulkan**, with CUDA in review. Details and mainline-compatible files: [binary status](#upstream-status-for-binary) and [ternary status](#upstream-status-for-ternary) below.
 
 ### Bonsai (1-bit)
 
@@ -170,6 +170,8 @@ Both variables are optional. **If you set neither, the default is `Ternary-Bonsa
 | `BONSAI_FAMILY` | `ternary` | `ternary`, `bonsai`, `all`         | Model family. `ternary` = Ternary-Bonsai; `bonsai` = 1-bit Bonsai. `all` expands to both families (setup/download only). |
 | `BONSAI_MODEL`  | `27B`    | `27B`, `8B`, `4B`, `1.7B`, `all`   | Model size. `all` expands to all four sizes (setup/download only). |
 | `BONSAI_TOKEN`  | —        | HF read-only token                 | Only needed for the 27B models while their repos are private (removed at launch). |
+| `BONSAI_SKIP_GGUF` | unset  | `1`                                 | Skip the GGUF download entirely (macOS MLX-only setups, saves disk space). The llama.cpp scripts then point you at the MLX ones instead (see "Running the Model" below). |
+| `BONSAI_SKIP_MLX`  | unset  | `1`                                 | Skip the MLX download (macOS only; MLX is skipped automatically on Intel Macs and non-macOS). |
 
 `all` is only valid for `setup.sh` / `setup.ps1` / `download_models.sh` — the run/server scripts need a concrete family/size.
 
@@ -182,6 +184,7 @@ BONSAI_FAMILY=bonsai ./setup.sh                             # Bonsai-27B (1-bit)
 BONSAI_FAMILY=bonsai BONSAI_MODEL=4B ./setup.sh             # Bonsai-4B
 BONSAI_MODEL=all ./setup.sh                                 # All 4 Ternary-Bonsai sizes
 BONSAI_FAMILY=all BONSAI_MODEL=all ./setup.sh               # Full matrix (8 downloads)
+BONSAI_FAMILY=bonsai BONSAI_SKIP_GGUF=1 ./setup.sh          # Bonsai-27B, MLX only (macOS, saves disk space)
 ```
 
 ## Upstream Status for Binary
@@ -209,11 +212,11 @@ Backend-by-backend migration status:
 |---------|--------|-------|
 | CPU (ARM NEON + generic scalar) | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#24448](https://github.com/ggml-org/llama.cpp/pull/24448) |
 | Metal | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#25419](https://github.com/ggml-org/llama.cpp/pull/25419) |
-| Vulkan | 🔄 In progress upstream (separate PR, not ours) | [ggml-org/llama.cpp#25430](https://github.com/ggml-org/llama.cpp/pull/25430) |
+| Vulkan | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#25430](https://github.com/ggml-org/llama.cpp/pull/25430) |
 | CUDA | 🔄 In review upstream | [ggml-org/llama.cpp#25707](https://github.com/ggml-org/llama.cpp/pull/25707) |
 | x86 (AVX-512-VNNI) | ⏳ Pending | TBD |
 
-**CPU and Metal now run `Q2_0` on mainline llama.cpp, no fork needed** (use a recent `ggml-org/llama.cpp` build with the `*-Q2_0_g64.gguf` files). For CUDA and the other backends, use this demo: it ships the fork [pre-built binaries](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9591-62061f9), so everything works out of the box with the group-128 `*-Q2_0.gguf` files it downloads. MLX 2-bit is supported in stock [MLX](https://github.com/ml-explore/mlx), no fork needed.
+**CPU, Metal, and Vulkan now run `Q2_0` on mainline llama.cpp, no fork needed** (use a recent `ggml-org/llama.cpp` build with the `*-Q2_0_g64.gguf` files). CUDA is the last one in review upstream ([#25707](https://github.com/ggml-org/llama.cpp/pull/25707)); until it merges, use this demo: it ships the fork [pre-built binaries](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9596-9fcaed7), so everything works out of the box with the group-128 `*-Q2_0.gguf` files it downloads. MLX 2-bit is supported in stock [MLX](https://github.com/ml-explore/mlx), no fork needed.
 
 To run the smaller ternary models directly on stock `ggml-org/llama.cpp` (CPU or Metal), use the group-64 files:
 
@@ -237,7 +240,7 @@ The setup script handles everything for you, even on a fresh machine:
 2. **Installs [uv](https://docs.astral.sh/uv/):** fast Python package manager (user-local, not global)
 3. **Creates a Python venv** and runs `uv sync` — installs cmake, ninja, huggingface-cli from `pyproject.toml`
 4. **Downloads models** from HuggingFace (needs `BONSAI_TOKEN` for 27B while its repos are private)
-5. **Downloads pre-built binaries** from [GitHub Release](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9591-62061f9) (or builds from source if you prefer)
+5. **Downloads pre-built binaries** from [GitHub Release](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9596-9fcaed7) (or builds from source if you prefer)
 6. **Builds MLX from source** (macOS only): clones our fork, builds it into the venv, installs the ML stack (mlx-lm, torch, transformers)
 7. **Installs Open WebUI** into the venv for the agentic demo (skip with `BONSAI_OPENWEBUI=0`)
 8. **Builds the code-interpreter venv** (`.venv-jupyter`): Jupyter + matplotlib / pandas / numpy / scipy / sympy / yfinance for the Open WebUI code interpreter (skip with `BONSAI_CODE_INTERPRETER=0`)
@@ -258,6 +261,11 @@ All run scripts respect `BONSAI_MODEL` (default `27B`). Set it to run a differen
 # Run a different model size
 BONSAI_MODEL=4B ./scripts/run_llama.sh -p "Write a haiku about bonsai trees"
 ```
+
+These scripts run the llama.cpp backend and need GGUF weights. On an MLX-only setup
+(e.g. you used `BONSAI_SKIP_GGUF=1`), they stop with an error that points at both
+options — running the MLX script directly (`run_mlx.sh` / `start_mlx_server.sh`), or
+downloading the GGUF weights.
 
 ### llama.cpp (Windows PowerShell)
 
@@ -307,6 +315,8 @@ For Windows PowerShell:
 .\scripts\start_llama_server.ps1
 ```
 
+The scripts auto-detect your GPU (Metal, CUDA, ROCm, Vulkan) and offload all layers. If the detection picks a GPU you do not want, for example Vulkan on a machine whose only GPU is a weak integrated one, set `BONSAI_NGL=0` for CPU-only inference, or any layer count for partial offload (PowerShell: `$env:BONSAI_NGL = "0"`).
+
 #### Thinking
 
 The 27B is a thinking model and serves with thinking **enabled**. To adjust it per conversation in the chat UI (no restart): click the lightbulb in the message box and pick a **Reasoning effort**: Off, Low (512 tokens), Medium (2,048), High (8,192), or Max (unlimited). The pick persists per browser and is sent with every request.
@@ -331,10 +341,13 @@ Two experimental, off-by-default features for the llama.cpp chat server:
 
 - **Speculative decoding**: `BONSAI_SPECULATIVE=1` pairs the 27B with its dspark drafter for roughly 1.8-2x faster decode on code and reasoning (CUDA; Apple Silicon support will be improved later). Trade-offs and verification: [SPECULATIVE.md](SPECULATIVE.md).
 - **4-bit KV cache**: `BONSAI_KV4=1` cuts KV-cache memory roughly 3.5x for very long contexts, with an optional calibration bias for better quality (`./scripts/make_kv_bias.sh`). Details: [KV-CACHE.md](KV-CACHE.md).
+- **Vision projector in RAM**: `BONSAI_MMPROJ_CPU=1` keeps the 27B's vision projector in system RAM instead of VRAM (`--no-mmproj-offload`), freeing ~0.9 GiB of VRAM for KV/context on tight cards. The cost is a slower image prompt (the projector runs on CPU); text-only chat is unaffected.
 
 ### Context Size
 
 The 27B models support up to **262,144 tokens** of context. The FP16 KV cache costs 64 KiB per token (~6.3 GiB at 100K), so **100K context fits on many consumer devices even without KV-cache quantization**. The model's hybrid attention keeps the cache small for its size.
+
+The launch scripts pick a **default context sized to your machine's RAM**, from 8K on small machines up to 131K for the 27B on machines with more than 71 GB (roughly 0.5 to 8 GiB of KV cache), so memory use stays predictable. Override with the `BONSAI_CTX` environment variable: pass any number up to 262144, or `0` (the same as leaving it unset) for the automatic RAM-tiered size. To force the model's full training context, pass the explicit number (e.g. `BONSAI_CTX=262144`) — only recommended on machines with plenty of headroom, since the scripts will not silently do this for you.
 
 With the optional [4-bit KV cache](KV-CACHE.md) (`BONSAI_KV4=1`) the cache drops to roughly 18 KiB per token, about **1.8 GiB at 100K**, shaving ~4.5 GiB off the 100K figures below (for example, Ternary-Bonsai-27B on llama.cpp goes from ~13.7 to ~9.2 GiB).
 
@@ -352,7 +365,7 @@ With the optional [4-bit KV cache](KV-CACHE.md) (`BONSAI_KV4=1`) the cache drops
 
 (The MLX packs are ~400 MiB larger than GGUF because MLX stores both scales and biases, GGUF only scales.)
 
-By default the scripts pass `-c 0`, which lets llama.cpp's `--fit` automatically size the KV cache to your available memory (no pre-allocation waste). If your build doesn't support `-c 0`, the scripts fall back to a safe value based on system RAM. Override with: `./scripts/run_llama.sh -c 8192 -p "Your prompt"`
+Extra arguments pass straight through to llama.cpp, so `./scripts/run_llama.sh -c 8192 -p "Your prompt"` also works for a one-off context override.
 
 The older text-only sizes are smaller across the board; the 8B supports up to 65,536 tokens of context:
 
@@ -461,7 +474,7 @@ Requires Visual Studio Build Tools or full Visual Studio with C++ workload.
 
 ## llama.cpp Pre-built Binary Downloads
 
-All binaries are available from the [GitHub Release](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9591-62061f9):
+All binaries are available from the [GitHub Release](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9596-9fcaed7):
 
 | Platform                          |
 |-----------------------------------|
@@ -544,6 +557,23 @@ Items marked with ← are created at setup time and excluded from git.
 
 ## Appendix — FAQ
 
+### The model allocates huge memory or the machine freezes at startup
+
+Older revisions defaulted to llama.cpp's `-c 0`, which uses the model's full training context (262K on the 27B) regardless of available memory and could exhaust it on constrained machines. The scripts now always use a RAM-tiered context instead; `BONSAI_CTX=0` maps to that same safe default rather than `-c 0`. If you still hit memory pressure, pin a smaller context:
+
+```bash
+BONSAI_CTX=8192 ./scripts/start_llama_server.sh
+```
+
+### M5 Mac on macOS 26.2/26.3: Metal compile errors, then out-of-memory
+
+On M5 devices with certain macOS 26 point releases, the Metal tensor-API probe fails to compile at runtime (`ggml_metal_library_init_from_source: error compiling source`) and can leave the GPU in a bad state. This is an ecosystem-wide issue in the OS Metal headers, hitting every ggml-based project. Workaround, keeps full Metal speed and just skips the tensor-API path:
+
+```bash
+GGML_METAL_TENSOR_DISABLE=1 ./scripts/run_llama.sh -p "Hello"
+```
+
+
 ### CUDA source build runs out of memory or freezes
 
 **Symptom:** `cmake --build` hangs, the system becomes unresponsive, or the build process is killed with an OOM error when building llama.cpp from source with CUDA enabled.
@@ -557,3 +587,26 @@ Detected GPU VRAM: 8.0 GB (< 16 GB) -- limiting CUDA build to -j 2
 ```
 
 **Manual override:** If you still encounter OOM errors, reduce parallelism further by editing the build invocation in the relevant script, or close other GPU-heavy applications before building.
+
+### Metal fails to initialize on Apple M5 (macOS 26.2–26.4)
+
+**Symptom:** On M5 Macs, `run_llama.sh` / `start_llama_server.sh` fail with Metal errors and produce no output, e.g.:
+
+```
+ggml_metal_library_init_from_source: error compiling source
+ggml_metal_device_init: - the tensor API is not supported in this environment - disabling
+ggml_metal_synchronize: error: command buffer 0 failed with status 5
+```
+
+Pre-M5 Apple Silicon (M1–M4) is not affected — those devices load the embedded, precompiled Metal library and never compile shaders at runtime.
+
+**Cause:** On M5 (and A19) devices, ggml compiles its Metal library from source at runtime to enable the tensor API (Neural Accelerators). Some macOS 26 point releases ship stricter MetalPerformancePrimitives headers whose `static_assert` (bfloat/half type mismatch) breaks that runtime compile. This is an ecosystem-wide issue also seen in [ollama](https://github.com/ollama/ollama/issues/15594) and [whisper.cpp](https://github.com/ggml-org/whisper.cpp/issues/3722); see [#93](https://github.com/PrismML-Eng/Bonsai-demo/issues/93).
+
+**Workaround:** Disable the tensor API so the M5 uses the embedded library like pre-M5 devices — full Metal speed is kept, only the Neural Accelerator prefill boost is lost:
+
+```bash
+GGML_METAL_TENSOR_DISABLE=1 ./scripts/run_llama.sh -p "Hello"
+GGML_METAL_TENSOR_DISABLE=1 ./scripts/start_llama_server.sh
+```
+
+This is much faster than falling back to CPU (`BONSAI_NGL=0`). If out-of-memory errors persist afterwards on lower-memory machines, additionally pin a smaller context, e.g. `-c 16384` (extra args pass through to llama.cpp and override the default).

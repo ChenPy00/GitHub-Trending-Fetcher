@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
-  "readme_sha256": "c731247557e7f937387d2c4653bb2c5226b2eb25d29ea63461268faa7ffcf7c9"
+  "readme_sha256": "9b74d98432ec54312a49c8db74b59d1e420464c89df5f8717229af335a21a27e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.
-- README SHA256: `c731247557e7f937387d2c4653bb2c5226b2eb25d29ea63461268faa7ffcf7c9`
+- README SHA256: `9b74d98432ec54312a49c8db74b59d1e420464c89df5f8717229af335a21a27e`
 
 ## README
 
@@ -55,7 +55,7 @@
 
 Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.
 
-[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.31](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.31/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
+[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.32](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.32/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
 
 </td>
 <td width="50%">
@@ -249,7 +249,7 @@ yay -S stably-orca-bin
 Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) or [join TestFlight](https://testflight.apple.com/join/YjeGMQBA)
-- **Android:** [Download APK 0.0.31](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.31/app-release.apk)
+- **Android:** [Download APK 0.0.32](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.32/app-release.apk)
 
 ---
 
@@ -257,7 +257,7 @@ Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **Discord:** Join the community on **[Discord](https://discord.gg/fzjDKHxv8Q)**.
 - **Twitter / X:** Follow **[@orca_build](https://x.com/orca_build)** for updates and announcements.
-- **WeChat:** Groups 1 and 2 are both full — now you can join the third one.
+- **WeChat:** All other groups are full, now we're on group 5.
 
   <img src="docs/assets/wechat-qr.jpg" alt="WeChat QR code for the Orca community" width="160" />
 

@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 1,
+      "readme_sha256": "dee38f89475a30b2b4a72ca9fc316ec69a4918e7544a87be45f3baa6064a7386",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 2,
+      "readme_sha256": "68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 3,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "project_file": "projects/Pumpkin-MC__Pumpkin.md",
+      "rank": 4,
+      "readme_sha256": "72dcd5e4123aadfaf71c4ae7ef1761b82f9621b0320a6bc09ffb159b40f02eba",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    {
+      "description": "The best browser for both you and your AI agents work in parallel.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 5,
+      "readme_sha256": "7ab21038b6211b647f1cd669a391f2fe46dedfe5a72bb4a55ebcc585602f375c",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "full_name": "chrislgarry/Apollo-11",
+      "project_file": "projects/chrislgarry__Apollo-11.md",
+      "rank": 6,
+      "readme_sha256": "51742a8bfc44fd5bc5b32776ebfe11a1d009e55611c35feb4b61ca1fc8d5e7fe",
+      "url": "https://github.com/chrislgarry/Apollo-11"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 7,
+      "readme_sha256": "c4ed9d274debcb73da67ae26340022c0092bef19f82d375263aaa82af495465f",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "project_file": "projects/ComposioHQ__awesome-claude-skills.md",
+      "rank": 8,
+      "readme_sha256": "8f4fdb047df25b9ce4989a74a50c730f29f371da075672abd233bdd9be8c6c74",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 9,
+      "readme_sha256": "0fe12a623ea95b46bb8db033a35a87f0e246bb9e6bb22cd8aee51570bdd1df4d",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Web UI for the pi coding agent",
+      "full_name": "agegr/pi-web",
+      "project_file": "projects/agegr__pi-web.md",
+      "rank": 10,
+      "readme_sha256": "a73b8df8f2fdd040f8096dc38862fa9ffbde44391d7e94469196b91423cae6fd",
+      "url": "https://github.com/agegr/pi-web"
+    },
+    {
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 11,
+      "readme_sha256": "b796bac6f447455c64ea4e29b65a4677e4aa6dac6fdc2ef724d8a7660271fdb8",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 12,
+      "readme_sha256": "3e810460b0b5014250f4bb64317cff761563b194b6c259a33926aad54174f6e0",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "full_name": "likec4/likec4",
+      "project_file": "projects/likec4__likec4.md",
+      "rank": 13,
+      "readme_sha256": "f05b510af7ddc8285eac0812a358feb97f8f04cf4b3e7a1645109b8853380f54",
+      "url": "https://github.com/likec4/likec4"
+    },
+    {
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "full_name": "Automattic/harper",
+      "project_file": "projects/Automattic__harper.md",
+      "rank": 14,
+      "readme_sha256": "e78ead31a439466187e6b488da8d3586ab5c790f8890d85316de80a122176db1",
+      "url": "https://github.com/Automattic/harper"
+    },
+    {
+      "description": "The Free Software Media System - Server Backend & API",
+      "full_name": "jellyfin/jellyfin",
+      "project_file": "projects/jellyfin__jellyfin.md",
+      "rank": 15,
+      "readme_sha256": "88a24330cd3fb606ee827a5b5cf0449230627e6a711c445d84b6452d20afb257",
+      "url": "https://github.com/jellyfin/jellyfin"
+    }
+  ],
+  "snapshot_date": "2026-07-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

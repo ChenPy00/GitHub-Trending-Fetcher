@@ -5,7 +5,7 @@
   "full_name": "OpenCut-app/OpenCut",
   "url": "https://github.com/OpenCut-app/OpenCut",
   "description": "The open-source CapCut alternative",
-  "readme_sha256": "a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6"
+  "readme_sha256": "95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/OpenCut-app/OpenCut
 - Description: The open-source CapCut alternative
-- README SHA256: `a0753329ddff781fb9cc06c80b3ecf67b5d1e9f2a6a3e589d6a9ddcd9f1752a6`
+- README SHA256: `95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050`
 
 ## README
 
@@ -50,8 +50,22 @@ You can still find the previous version at [opencut-app/opencut-classic](https:/
 
 Install [proto](https://moonrepo.dev/proto) if you haven't already:
 
+**Linux, macOS, WSL:**
+
 ```sh
 bash <(curl -fsSL https://moonrepo.dev/install/proto.sh)
+```
+
+**Windows (PowerShell):**
+
+```powershell
+irm https://moonrepo.dev/install/proto.ps1 | iex
+```
+
+If shims fail to run, allow local scripts for your user:
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 ```
 
 From the repo root:
