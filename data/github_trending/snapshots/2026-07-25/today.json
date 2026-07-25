@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 1,
+      "readme_sha256": "5669797319c68bd6bbcf9ae5046e911f51a422f94499e8d7480c1a3d81be53e5",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 2,
+      "readme_sha256": "68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "project_file": "projects/ComposioHQ__awesome-claude-skills.md",
+      "rank": 3,
+      "readme_sha256": "e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "project_file": "projects/Pumpkin-MC__Pumpkin.md",
+      "rank": 4,
+      "readme_sha256": "8a1e9e65b1c6889978c909b3b21aa90b5fb526c1b224492f3a1be9e351ab54ad",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 5,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "full_name": "Automattic/harper",
+      "project_file": "projects/Automattic__harper.md",
+      "rank": 6,
+      "readme_sha256": "e78ead31a439466187e6b488da8d3586ab5c790f8890d85316de80a122176db1",
+      "url": "https://github.com/Automattic/harper"
+    },
+    {
+      "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
+      "full_name": "likec4/likec4",
+      "project_file": "projects/likec4__likec4.md",
+      "rank": 7,
+      "readme_sha256": "f05b510af7ddc8285eac0812a358feb97f8f04cf4b3e7a1645109b8853380f54",
+      "url": "https://github.com/likec4/likec4"
+    },
+    {
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 8,
+      "readme_sha256": "1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "description": "Pretty fancy and modern terminal file manager",
+      "full_name": "yorukot/superfile",
+      "project_file": "projects/yorukot__superfile.md",
+      "rank": 9,
+      "readme_sha256": "0af8951bb5727fad77a2707e3b48595ab3ed4390ff6dacadae3dfa71031ae295",
+      "url": "https://github.com/yorukot/superfile"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 10,
+      "readme_sha256": "877465f2ae1fc53f255fbf26a498948546756c4fe84c30e705a8b5d4426421a3",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 11,
+      "readme_sha256": "f081473687ff59e5102c2376fca1c058400aa34b0b83b9c49b30468d9392cccf",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "full_name": "chrislgarry/Apollo-11",
+      "project_file": "projects/chrislgarry__Apollo-11.md",
+      "rank": 12,
+      "readme_sha256": "51742a8bfc44fd5bc5b32776ebfe11a1d009e55611c35feb4b61ca1fc8d5e7fe",
+      "url": "https://github.com/chrislgarry/Apollo-11"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 13,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "full_name": "Lordog/dive-into-llms",
+      "project_file": "projects/Lordog__dive-into-llms.md",
+      "rank": 14,
+      "readme_sha256": "0fa3c865655ff13d502c91c40d883215030acb77637d9bf6e0ff9e7870b7b609",
+      "url": "https://github.com/Lordog/dive-into-llms"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 15,
+      "readme_sha256": "a6fde85c19722a7023028c3cdf6eb6a6b602523d90f1b48e1b37d3adfc11c5db",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "full_name": "OtterMind/Chat2DB",
+      "project_file": "projects/OtterMind__Chat2DB.md",
+      "rank": 16,
+      "readme_sha256": "05b7a5614fd9011642ade5050303ef67ade4084486c96a73c517f8d362be709a",
+      "url": "https://github.com/OtterMind/Chat2DB"
+    }
+  ],
+  "snapshot_date": "2026-07-25",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

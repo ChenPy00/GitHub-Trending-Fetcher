@@ -5,7 +5,7 @@
   "full_name": "usestrix/strix",
   "url": "https://github.com/usestrix/strix",
   "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-  "readme_sha256": "fbd27e8fb3a12f63ca04a66b1ec5c2b00be1cebbe3453df9630048721b586a00"
+  "readme_sha256": "ccde1b08eeebc82c847aaba44497797929bf44e9302b3dcad5fcc2856a458014"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usestrix/strix
 - Description: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
-- README SHA256: `fbd27e8fb3a12f63ca04a66b1ec5c2b00be1cebbe3453df9630048721b586a00`
+- README SHA256: `ccde1b08eeebc82c847aaba44497797929bf44e9302b3dcad5fcc2856a458014`
 
 ## README
 
@@ -285,6 +285,20 @@ export STRIX_REASONING_EFFORT="high"  # control thinking effort (default: high, 
 
 > [!NOTE]
 > Strix automatically saves your configuration to `~/.strix/cli-config.json`, so you don't have to re-enter it on every run.
+
+#### Sign in with a ChatGPT subscription
+
+Instead of a metered API key, you can run Strix on your ChatGPT Plus/Pro subscription:
+
+```bash
+strix auth login chatgpt      # sign in with your ChatGPT account
+
+export STRIX_LLM="chatgpt/gpt-5.4"   # chatgpt/<model> runs on the subscription
+strix --target ./app-directory
+
+strix auth status             # show the active sign-in
+strix auth logout             # forget the sign-in
+```
 
 **Recommended models for best results:**
 

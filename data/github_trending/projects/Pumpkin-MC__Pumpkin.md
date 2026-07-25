@@ -5,7 +5,7 @@
   "full_name": "Pumpkin-MC/Pumpkin",
   "url": "https://github.com/Pumpkin-MC/Pumpkin",
   "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-  "readme_sha256": "72dcd5e4123aadfaf71c4ae7ef1761b82f9621b0320a6bc09ffb159b40f02eba"
+  "readme_sha256": "8a1e9e65b1c6889978c909b3b21aa90b5fb526c1b224492f3a1be9e351ab54ad"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Pumpkin-MC/Pumpkin
 - Description: Empowering everyone to host fast and efficient Minecraft servers.
-- README SHA256: `72dcd5e4123aadfaf71c4ae7ef1761b82f9621b0320a6bc09ffb159b40f02eba`
+- README SHA256: `8a1e9e65b1c6889978c909b3b21aa90b5fb526c1b224492f3a1be9e351ab54ad`
 
 ## README
 
@@ -31,7 +31,7 @@
 and customizable experience. It prioritizes performance and player enjoyment while adhering to the core mechanics of the game.
 <div align="center">
 
-![Pumpkin Chunk Loading](./assets/pumpkin_chunk_loading.webp)
+![Pumpkin Chunk Loading](./assets/pumpkin_chunk_loading.gif)
 
 </div>
 
@@ -131,4 +131,4 @@ Consider joining [our Discord server](https://discord.gg/wT8XjrjKkf) to stay up-
 
 ## Funding
 
-If you want to fund me and help the project, check out my [GitHub sponsors](https://github.com/sponsors/Pumpkin-MC).
+If you want to fund me and help the project, check out the [Donation Page](https://pumpkinmc.org/donate/).

@@ -4,16 +4,16 @@
   "name": "ego-lite",
   "full_name": "citrolabs/ego-lite",
   "url": "https://github.com/citrolabs/ego-lite",
-  "description": "The best browser for both you and your AI agents work in parallel.",
-  "readme_sha256": "7ab21038b6211b647f1cd669a391f2fe46dedfe5a72bb4a55ebcc585602f375c"
+  "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+  "readme_sha256": "1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8"
 }
 ```
 
 # citrolabs/ego-lite
 
 - URL: https://github.com/citrolabs/ego-lite
-- Description: The best browser for both you and your AI agents work in parallel.
-- README SHA256: `7ab21038b6211b647f1cd669a391f2fe46dedfe5a72bb4a55ebcc585602f375c`
+- Description: The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+- README SHA256: `1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8`
 
 ## README
 
@@ -22,6 +22,8 @@
 <img src="docs/assets/banner.png" alt="ego lite" width="100%" />
 
 **The fastest browser for AI agents to run web automation**
+
+<a href="https://trendshift.io/repositories/42334?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-42334" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/42334" alt="citrolabs%2Fego-lite | Trendshift" width="250" height="55"/></a>
 
 <p>
   <a href="https://cdn.ego.app/channel/github_github_referral/setup/macos/arm64/egolite.dmg"><img src="https://img.shields.io/badge/Download-Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Apple Silicon" /></a>

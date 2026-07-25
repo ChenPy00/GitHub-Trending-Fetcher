@@ -5,7 +5,7 @@
   "full_name": "block/buzz",
   "url": "https://github.com/block/buzz",
   "description": "A hive mind communication platform",
-  "readme_sha256": "dee38f89475a30b2b4a72ca9fc316ec69a4918e7544a87be45f3baa6064a7386"
+  "readme_sha256": "5669797319c68bd6bbcf9ae5046e911f51a422f94499e8d7480c1a3d81be53e5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/block/buzz
 - Description: A hive mind communication platform
-- README SHA256: `dee38f89475a30b2b4a72ca9fc316ec69a4918e7544a87be45f3baa6064a7386`
+- README SHA256: `5669797319c68bd6bbcf9ae5046e911f51a422f94499e8d7480c1a3d81be53e5`
 
 ## README
 
@@ -172,6 +172,8 @@ just dev   # starts the relay + desktop app together
 Relay on `ws://localhost:3000`. Desktop app pops up. You're in.
 
 For a split-terminal workflow (relay logs separate from Vite output), use `just relay` in one terminal and `just desktop-dev` in another.
+
+Want a single-node / VPS relay instead of the local-dev stack? Use the production Compose bundle in [`deploy/compose/`](deploy/compose/README.md) (`docker compose` + Postgres, Redis, MinIO, optional Caddy/TLS). The root [`docker-compose.yml`](docker-compose.yml) is for day-to-day development only.
 
 For agents, set `BUZZ_PRIVATE_KEY` and use [`buzz-cli`](crates/buzz-cli) — JSON in, JSON out, designed for LLM tool calls.
 

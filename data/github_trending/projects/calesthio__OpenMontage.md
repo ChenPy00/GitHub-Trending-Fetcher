@@ -5,7 +5,7 @@
   "full_name": "calesthio/OpenMontage",
   "url": "https://github.com/calesthio/OpenMontage",
   "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
-  "readme_sha256": "5e0ffe75fd6c3e15951da9abef5f59ea0ae4a879a0f2470878ab04205ec3d752"
+  "readme_sha256": "84628d4cb4db1bd4dd5c4097774ba509c4330cb8a7a72e76dd7040e2df6d5a0a"
 }
 ```
 
@@ -13,13 +13,18 @@
 
 - URL: https://github.com/calesthio/OpenMontage
 - Description: World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.
-- README SHA256: `5e0ffe75fd6c3e15951da9abef5f59ea0ae4a879a0f2470878ab04205ec3d752`
+- README SHA256: `84628d4cb4db1bd4dd5c4097774ba509c4330cb8a7a72e76dd7040e2df6d5a0a`
 
 ## README
 
 <p align="center">
-  <img src="assets/logo.png" alt="OpenMontage" width="200">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/monty-dark.svg">
+    <img src="assets/monty-light.svg" alt="Monty the Clapper — the official mascot of OpenMontage" width="200">
+  </picture>
 </p>
+
+<p align="center"><sub><em>Monty the Clapper — the official mascot of OpenMontage</em></sub></p>
 
 <h1 align="center">OpenMontage</h1>
 

@@ -5,7 +5,7 @@
   "full_name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-  "readme_sha256": "b66e24896b084eb28c342f3894e492f2fd224521acb62c768d8e0219104b331c"
+  "readme_sha256": "387661d39786cd81c412d5cea56779e72970aa039c657c7e92c293f24891fac6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earendil-works/pi
 - Description: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
-- README SHA256: `b66e24896b084eb28c342f3894e492f2fd224521acb62c768d8e0219104b331c`
+- README SHA256: `387661d39786cd81c412d5cea56779e72970aa039c657c7e92c293f24891fac6`
 
 ## README
 
@@ -86,10 +86,10 @@ GitHub releases include a versioned source archive covered by the release's `SHA
 VERSION="<release-version>"
 tar -xzf "pi-${VERSION}-source.tar.gz"
 cd "pi-${VERSION}"
-./scripts/build-binaries.sh --platform linux-x64 --out "$PWD/out"
+./scripts/build-binaries.sh --offline-model-data --platform linux-x64 --out "$PWD/out"
 ```
 
-The script installs dependencies, builds the monorepo, compiles the Bun executable, and stages its runtime assets. Package maintainers who provide dependencies separately can pass `--skip-install --skip-deps`.
+The source archive includes the generated provider model data used for the release. `--offline-model-data` builds with that snapshot instead of refreshing it from live provider catalogs. The script still installs dependencies, builds the monorepo, compiles the Bun executable, and stages its runtime assets. Package maintainers who provide dependencies separately can pass `--skip-install --skip-deps`.
 
 ## Supply-chain hardening
 
