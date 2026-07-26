@@ -5,7 +5,7 @@
   "full_name": "block/buzz",
   "url": "https://github.com/block/buzz",
   "description": "A hive mind communication platform",
-  "readme_sha256": "5669797319c68bd6bbcf9ae5046e911f51a422f94499e8d7480c1a3d81be53e5"
+  "readme_sha256": "577770cdcfb967790b509964e7d5d8c0e5f149665f8a6ffeb2269796b2c556ce"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/block/buzz
 - Description: A hive mind communication platform
-- README SHA256: `5669797319c68bd6bbcf9ae5046e911f51a422f94499e8d7480c1a3d81be53e5`
+- README SHA256: `577770cdcfb967790b509964e7d5d8c0e5f149665f8a6ffeb2269796b2c556ce`
 
 ## README
 
@@ -207,7 +207,7 @@ If you'd rather point buzz at a different bash-compatible shell, set `BUZZ_SHELL
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                          buzz-relay                                     │
 │  NIP-01 · NIP-42 auth · channel/DM/media/workflow/git REST · audit log  │
-└───┬──────────────────────────┬──────────────────────────┬──────────────┘
+└───┬──────────────────────────┬──────────────────────────┬───────────────┘
     │                          │                          │
  ┌──▼───────────┐       ┌──────▼──────┐           ┌───────▼─────┐
  │   Postgres   │       │    Redis    │           │   S3/MinIO  │

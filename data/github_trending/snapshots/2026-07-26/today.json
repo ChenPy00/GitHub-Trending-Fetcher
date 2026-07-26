@@ -1,0 +1,153 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 1,
+      "readme_sha256": "577770cdcfb967790b509964e7d5d8c0e5f149665f8a6ffeb2269796b2c556ce",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 2,
+      "readme_sha256": "55b22c3fcabce46e5c2cf5b710b50a7332814acf5369db4512ccd718d230f0f6",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 3,
+      "readme_sha256": "1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "full_name": "ComposioHQ/awesome-claude-skills",
+      "project_file": "projects/ComposioHQ__awesome-claude-skills.md",
+      "rank": 4,
+      "readme_sha256": "e693f2701840f26fb04c3058d55215f2c6575fff7f1c197ada5b64e2f7ee0c12",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    {
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "full_name": "anthropics/claude-cookbooks",
+      "project_file": "projects/anthropics__claude-cookbooks.md",
+      "rank": 5,
+      "readme_sha256": "4ffad49fa541a076841699ebdc2501124a73a8fa4fbf3164d678e65bfffc2a7a",
+      "url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "description": "Offline, privacy-first grammar checker. Fast, open-source, Rust-powered",
+      "full_name": "Automattic/harper",
+      "project_file": "projects/Automattic__harper.md",
+      "rank": 6,
+      "readme_sha256": "e78ead31a439466187e6b488da8d3586ab5c790f8890d85316de80a122176db1",
+      "url": "https://github.com/Automattic/harper"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 7,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 8,
+      "readme_sha256": "05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "project_file": "projects/Pumpkin-MC__Pumpkin.md",
+      "rank": 9,
+      "readme_sha256": "8a1e9e65b1c6889978c909b3b21aa90b5fb526c1b224492f3a1be9e351ab54ad",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat",
+      "project_file": "projects/permissionlesstech__bitchat.md",
+      "rank": 10,
+      "readme_sha256": "fb8eb6a4822c6c4cc9b50933953f2e309862af2de08474446d31f46fa0569ddb",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 11,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "macOS video editor built for AI",
+      "full_name": "palmier-io/palmier-pro",
+      "project_file": "projects/palmier-io__palmier-pro.md",
+      "rank": 12,
+      "readme_sha256": "ab6cb01488bd80b1a453f209b065853de5dc2ce9be5cd370bfe256337d19dfdc",
+      "url": "https://github.com/palmier-io/palmier-pro"
+    },
+    {
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 13,
+      "readme_sha256": "f081473687ff59e5102c2376fca1c058400aa34b0b83b9c49b30468d9392cccf",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "《动手学大模型Dive into LLMs》系列编程实践教程",
+      "full_name": "Lordog/dive-into-llms",
+      "project_file": "projects/Lordog__dive-into-llms.md",
+      "rank": 14,
+      "readme_sha256": "0fa3c865655ff13d502c91c40d883215030acb77637d9bf6e0ff9e7870b7b609",
+      "url": "https://github.com/Lordog/dive-into-llms"
+    },
+    {
+      "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
+      "full_name": "RyanCodrai/turbovec",
+      "project_file": "projects/RyanCodrai__turbovec.md",
+      "rank": 15,
+      "readme_sha256": "7179d6c48dd6f7a94110138e923b3528ed8af291c73dfb98099fad5e362d7f59",
+      "url": "https://github.com/RyanCodrai/turbovec"
+    },
+    {
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "full_name": "OtterMind/Chat2DB",
+      "project_file": "projects/OtterMind__Chat2DB.md",
+      "rank": 16,
+      "readme_sha256": "f3e27e68b1fd966c207faa85f87d90aac2c02c576b5e1914b5323531acf1139e",
+      "url": "https://github.com/OtterMind/Chat2DB"
+    },
+    {
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "full_name": "andrewyng/aisuite",
+      "project_file": "projects/andrewyng__aisuite.md",
+      "rank": 17,
+      "readme_sha256": "37679f72b13ce850144ff13e9b9a82eeb65f77aeabb64b9d5a938faa0f9cde4a",
+      "url": "https://github.com/andrewyng/aisuite"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 18,
+      "readme_sha256": "c427082bc5d0417df8589ce6cfdecc8206f27f9dd49d6b8795b430beca25b43b",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "snapshot_date": "2026-07-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

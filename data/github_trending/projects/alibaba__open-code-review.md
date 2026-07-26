@@ -5,7 +5,7 @@
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
   "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "b796bac6f447455c64ea4e29b65a4677e4aa6dac6fdc2ef724d8a7660271fdb8"
+  "readme_sha256": "55b22c3fcabce46e5c2cf5b710b50a7332814acf5369db4512ccd718d230f0f6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/open-code-review
 - Description: Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `b796bac6f447455c64ea4e29b65a4677e4aa6dac6fdc2ef724d8a7660271fdb8`
+- README SHA256: `55b22c3fcabce46e5c2cf5b710b50a7332814acf5369db4512ccd718d230f0f6`
 
 ## README
 
@@ -184,9 +184,10 @@ Full documentation lives at **[open-codereview.ai/docs](https://open-codereview.
 - [Review Rules](https://open-codereview.ai/docs/review-rules) — customize review rules with path filtering and targeting
 - [Configuration](https://open-codereview.ai/docs/configuration) — config keys and environment variables
 - [MCP Server](https://open-codereview.ai/docs/mcp) — extend the review agent with external tools
-- Coding Agent Integrations — integrate OCR into Claude Code, Codex, Cursor, etc.
+- Coding Agent Integrations — integrate OCR into Claude Code, Codex, Cursor, OpenCode, etc.
   - [Skill](https://open-codereview.ai/docs/agent-skill) — install as a reusable agent skill
   - [Plugin](https://open-codereview.ai/docs/claude-code) — install as a Claude Code / Codex / Cursor plugin
+  - [OpenCode](plugins/open-code-review/opencode/README.md) — install native review tools and slash commands
   - [Delegation Mode](https://open-codereview.ai/docs/delegate) — let your agent review using its own LLM
 - [CI/CD Integration](https://open-codereview.ai/docs/cicd) — GitHub Actions, GitLab CI, GitFlic CI, and Gerrit integration
 - [Session Viewer](https://open-codereview.ai/docs/viewer) — browse and replay review sessions in browser

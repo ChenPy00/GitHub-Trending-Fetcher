@@ -5,7 +5,7 @@
   "full_name": "RyanCodrai/turbovec",
   "url": "https://github.com/RyanCodrai/turbovec",
   "description": "A vector index built on TurboQuant, written in Rust with Python bindings",
-  "readme_sha256": "f8cfe91fb554877c8ee9cfd5116f1d69c5319007a5a422b856485f793c756d9d"
+  "readme_sha256": "7179d6c48dd6f7a94110138e923b3528ed8af291c73dfb98099fad5e362d7f59"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/RyanCodrai/turbovec
 - Description: A vector index built on TurboQuant, written in Rust with Python bindings
-- README SHA256: `f8cfe91fb554877c8ee9cfd5116f1d69c5319007a5a422b856485f793c756d9d`
+- README SHA256: `7179d6c48dd6f7a94110138e923b3528ed8af291c73dfb98099fad5e362d7f59`
 
 ## README
 
@@ -59,6 +59,8 @@ scores, indices = index.search(query, k=10)
 index.write("my_index.tv")
 loaded = TurboQuantIndex.load("my_index.tv")
 ```
+
+`vectors` and `query` are 2-D `float32` arrays of shape `(n, dim)` — other dtypes are rejected rather than silently converted, so cast with `np.asarray(x, dtype=np.float32)` first if needed.
 
 Need stable ids that survive deletes? Use `IdMapIndex`:
 
@@ -197,7 +199,7 @@ Each vector is a direction on a high-dimensional hypersphere. TurboQuant compres
 
 Encoding cost: one extra `d`-dimensional dot product per vector to compute `⟨u, x̂⟩`. On 1M vectors at d=1536 this is sub-second of additional encode time — a one-shot price paid at ingest, not at query.
 
-**Search.** Instead of decompressing every database vector, we rotate the query once into the same domain and score directly against the codebook values. The scoring kernel uses SIMD intrinsics (NEON on ARM, AVX-512BW on modern x86 with an AVX2 fallback) with nibble-split lookup tables for maximum throughput.
+**Search.** Instead of decompressing every database vector, we rotate the query once into the same domain and score directly against the codebook values. The scoring kernel uses SIMD intrinsics (NEON on ARM; AVX-512BW on modern x86, falling back to AVX2, then to a scalar path on pre-AVX2 CPUs) with nibble-split lookup tables for maximum throughput.
 
 The Lloyd-Max codebook achieves distortion within a factor of 2.7x of the information-theoretic lower bound (Shannon's distortion-rate limit); the length-renormalization step removes the residual bias the Lloyd-Max codebook introduces on the inner-product estimator itself.
 
@@ -218,7 +220,7 @@ pip install target/wheels/*.whl
 cargo build --release
 ```
 
-All x86_64 builds target `x86-64-v3` (AVX2 baseline, Haswell 2013+) via `.cargo/config.toml`. Any CPU that can run the AVX2 fallback kernel can run the whole crate — the AVX-512 kernel is gated at runtime via `is_x86_feature_detected!` and only kicks in on hardware that supports it.
+All x86_64 builds target `x86-64-v2` (SSE4.2 baseline, Nehalem 2008+) via `.cargo/config.toml`, so any x86-64-v2 CPU can run the whole crate. The AVX-512 and AVX2 kernels are `#[target_feature]`-gated and selected at runtime via `is_x86_feature_detected!`, so they kick in on hardware that supports them regardless of the compile baseline; CPUs with neither run the scalar fallback.
 
 ## Running benchmarks
 

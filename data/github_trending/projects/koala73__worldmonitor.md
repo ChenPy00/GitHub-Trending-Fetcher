@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62"
+  "readme_sha256": "34fc0d131176f26917dcf1b48cfaea707efe6c9cd2f08871dea4deff84da609c"
 }
 ```
 
@@ -13,13 +13,13 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `68a5cfc852bc603d89d09dc94903f4715c4dceeb2e45c04a2041d3066010de62`
+- README SHA256: `34fc0d131176f26917dcf1b48cfaea707efe6c9cd2f08871dea4deff84da609c`
 
 ## README
 
 # World Monitor
 
-[简体中文](README.zh-CN.md)
+[简体中文](README.zh-CN.md) | [日本語](README.ja-JP.md)
 
 **Real-time global intelligence dashboard** — AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface.
 

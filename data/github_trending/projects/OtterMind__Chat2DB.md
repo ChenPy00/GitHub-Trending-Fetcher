@@ -5,7 +5,7 @@
   "full_name": "OtterMind/Chat2DB",
   "url": "https://github.com/OtterMind/Chat2DB",
   "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
-  "readme_sha256": "05b7a5614fd9011642ade5050303ef67ade4084486c96a73c517f8d362be709a"
+  "readme_sha256": "f3e27e68b1fd966c207faa85f87d90aac2c02c576b5e1914b5323531acf1139e"
 }
 ```
 
@@ -13,12 +13,16 @@
 
 - URL: https://github.com/OtterMind/Chat2DB
 - Description: 🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.
-- README SHA256: `05b7a5614fd9011642ade5050303ef67ade4084486c96a73c517f8d362be709a`
+- README SHA256: `f3e27e68b1fd966c207faa85f87d90aac2c02c576b5e1914b5323531acf1139e`
 
 ## README
 
 <div align="center">
   <img src="./icon.png" alt="Chat2DB" width="100">
+  <div align="center">
+  Powered by  <a href="https://ottermind.ai">OtterMind</a>
+</div>
+  <br/>
   <p><strong>An AI-powered database client and SQL workspace for developers, DBAs, analysts, and data teams.</strong></p>
 </div>
 
@@ -213,6 +217,12 @@ java -Dloader.path=chat2db-community-server/chat2db-community-start/target/lib \
 ```bash
 ./docker/docker-build.sh 5.3.0 chat2db/chat2db:5.3.0
 ```
+
+## Database guides
+
+Step-by-step guides for connecting Chat2DB Community to specific databases:
+
+- [BigQuery](./docs/guides/bigquery.md) — Google BigQuery via a Google Cloud service account.
 
 ## Community vs Commercial Editions
 
