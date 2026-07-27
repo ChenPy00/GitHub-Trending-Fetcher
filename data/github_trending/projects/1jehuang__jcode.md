@@ -4,16 +4,16 @@
   "name": "jcode",
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
-  "description": "The most intelligent agent harness for code",
-  "readme_sha256": "c45f848a966c3acb3e99c10a56256b6e6079742e7e87e880cac5b390da45e76c"
+  "description": "The most RAM effiecent harness",
+  "readme_sha256": "0d4d5295d0a9e95d12f5e096b534640ebcd97fd497d42b110e6e2cfe2b45aca4"
 }
 ```
 
 # 1jehuang/jcode
 
 - URL: https://github.com/1jehuang/jcode
-- Description: The most intelligent agent harness for code
-- README SHA256: `c45f848a966c3acb3e99c10a56256b6e6079742e7e87e880cac5b390da45e76c`
+- Description: The most RAM effiecent harness
+- README SHA256: `0d4d5295d0a9e95d12f5e096b534640ebcd97fd497d42b110e6e2cfe2b45aca4`
 
 ## README
 
@@ -28,10 +28,8 @@
 [![GitHub Stars](https://badgen.net/github/stars/1jehuang/jcode?icon=github)](https://github.com/1jehuang/jcode/stargazers)
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/nBe9vGyK9a)
 
-The next generation coding agent harness to raise the skill ceiling. <br>
-Built for multi-session workflows, infinite customizability, and performance. 
-
-<br>
+The most RAM efficient harness <br>
+The most most intelligent harness
 
 <a href="https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.mp4">
   <img src="https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.webp" alt="jcode memory demonstration" width="800">

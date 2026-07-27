@@ -5,7 +5,7 @@
   "full_name": "Pumpkin-MC/Pumpkin",
   "url": "https://github.com/Pumpkin-MC/Pumpkin",
   "description": "Empowering everyone to host fast and efficient Minecraft servers.",
-  "readme_sha256": "8a1e9e65b1c6889978c909b3b21aa90b5fb526c1b224492f3a1be9e351ab54ad"
+  "readme_sha256": "e998762a01c117e93d9b53595d4ea889003ad34213770dcda95bfa73b2aea568"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Pumpkin-MC/Pumpkin
 - Description: Empowering everyone to host fast and efficient Minecraft servers.
-- README SHA256: `8a1e9e65b1c6889978c909b3b21aa90b5fb526c1b224492f3a1be9e351ab54ad`
+- README SHA256: `e998762a01c117e93d9b53595d4ea889003ad34213770dcda95bfa73b2aea568`
 
 ## README
 
@@ -31,7 +31,7 @@
 and customizable experience. It prioritizes performance and player enjoyment while adhering to the core mechanics of the game.
 <div align="center">
 
-![Pumpkin Chunk Loading](./assets/pumpkin_chunk_loading.gif)
+![Pumpkin Chunk Loading](./assets/pumpkin-chunk-loading.webp)
 
 </div>
 

@@ -5,7 +5,7 @@
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
   "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "55b22c3fcabce46e5c2cf5b710b50a7332814acf5369db4512ccd718d230f0f6"
+  "readme_sha256": "53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/open-code-review
 - Description: Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `55b22c3fcabce46e5c2cf5b710b50a7332814acf5369db4512ccd718d230f0f6`
+- README SHA256: `53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed`
 
 ## README
 
@@ -184,11 +184,15 @@ Full documentation lives at **[open-codereview.ai/docs](https://open-codereview.
 - [Review Rules](https://open-codereview.ai/docs/review-rules) — customize review rules with path filtering and targeting
 - [Configuration](https://open-codereview.ai/docs/configuration) — config keys and environment variables
 - [MCP Server](https://open-codereview.ai/docs/mcp) — extend the review agent with external tools
-- Coding Agent Integrations — integrate OCR into Claude Code, Codex, Cursor, OpenCode, etc.
-  - [Skill](https://open-codereview.ai/docs/agent-skill) — install as a reusable agent skill
-  - [Plugin](https://open-codereview.ai/docs/claude-code) — install as a Claude Code / Codex / Cursor plugin
+- Coding Agent Integrations — choose the platform you use
+  - [Claude Code](plugins/open-code-review/README.md#claude-code) — install a plugin with review slash commands
+  - [Codex](plugins/open-code-review/README.md#codex) — install a plugin with callable review skills
+  - [Cursor](plugins/open-code-review/README.md#cursor) — install a plugin with portable review skills
   - [OpenCode](plugins/open-code-review/opencode/README.md) — install native review tools and slash commands
-  - [Delegation Mode](https://open-codereview.ai/docs/delegate) — let your agent review using its own LLM
+  - [Skill-compatible agents](https://open-codereview.ai/docs/agent-skill) — install the portable agent skill
+- Review Execution Modes — after integration, choose which LLM performs the review
+  - [Default (OCR-managed)](https://open-codereview.ai/docs/configuration) — OCR runs the review using its configured LLM
+  - [Delegation Mode](https://open-codereview.ai/docs/delegate) — your coding agent runs the review using its own LLM; no OCR API key required
 - [CI/CD Integration](https://open-codereview.ai/docs/cicd) — GitHub Actions, GitLab CI, GitFlic CI, and Gerrit integration
 - [Session Viewer](https://open-codereview.ai/docs/viewer) — browse and replay review sessions in browser
 - [Telemetry](https://open-codereview.ai/docs/telemetry) — OpenTelemetry integration for observability

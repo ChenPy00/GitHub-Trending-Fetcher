@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat",
+      "project_file": "projects/permissionlesstech__bitchat.md",
+      "rank": 1,
+      "readme_sha256": "dee519c440dbb04d91c3074eb09c2b85acb75e59816e062e6f26bc3a35fe8dc0",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 2,
+      "readme_sha256": "1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 3,
+      "readme_sha256": "577770cdcfb967790b509964e7d5d8c0e5f149665f8a6ffeb2269796b2c556ce",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 4,
+      "readme_sha256": "6122d027434505c3d21c32678226410b94d439b192a060d237b70ffd446d1959",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 5,
+      "readme_sha256": "f081473687ff59e5102c2376fca1c058400aa34b0b83b9c49b30468d9392cccf",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "Pretty fancy and modern terminal file manager",
+      "full_name": "yorukot/superfile",
+      "project_file": "projects/yorukot__superfile.md",
+      "rank": 6,
+      "readme_sha256": "0af8951bb5727fad77a2707e3b48595ab3ed4390ff6dacadae3dfa71031ae295",
+      "url": "https://github.com/yorukot/superfile"
+    },
+    {
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "full_name": "nodejs/node",
+      "project_file": "projects/nodejs__node.md",
+      "rank": 7,
+      "readme_sha256": "e0feabe136086b41c031ec82058c71ef8905bd8ceef687fda720b59eb736bc82",
+      "url": "https://github.com/nodejs/node"
+    },
+    {
+      "description": "🔥🔥🔥 AI-driven database tool and SQL client, The hottest GUI client, supporting MySQL, Oracle, PostgreSQL, DB2, SQL Server, DB2, SQLite, H2, ClickHouse, and more.",
+      "full_name": "OtterMind/Chat2DB",
+      "project_file": "projects/OtterMind__Chat2DB.md",
+      "rank": 8,
+      "readme_sha256": "f3e27e68b1fd966c207faa85f87d90aac2c02c576b5e1914b5323531acf1139e",
+      "url": "https://github.com/OtterMind/Chat2DB"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 9,
+      "readme_sha256": "76d90e385e888f57813c90739f555da3a925908398e1c4a5a0de8f540da23841",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 10,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 11,
+      "readme_sha256": "53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "full_name": "andrewyng/aisuite",
+      "project_file": "projects/andrewyng__aisuite.md",
+      "rank": 12,
+      "readme_sha256": "37679f72b13ce850144ff13e9b9a82eeb65f77aeabb64b9d5a938faa0f9cde4a",
+      "url": "https://github.com/andrewyng/aisuite"
+    },
+    {
+      "description": "A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.",
+      "full_name": "anthropics/claude-cookbooks",
+      "project_file": "projects/anthropics__claude-cookbooks.md",
+      "rank": 13,
+      "readme_sha256": "4ffad49fa541a076841699ebdc2501124a73a8fa4fbf3164d678e65bfffc2a7a",
+      "url": "https://github.com/anthropics/claude-cookbooks"
+    },
+    {
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "project_file": "projects/Pumpkin-MC__Pumpkin.md",
+      "rank": 14,
+      "readme_sha256": "e998762a01c117e93d9b53595d4ea889003ad34213770dcda95bfa73b2aea568",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat-android",
+      "project_file": "projects/permissionlesstech__bitchat-android.md",
+      "rank": 15,
+      "readme_sha256": "7defc31067fed3f03627cf55414edb218c618419dd7f19e52ed830f8aa028838",
+      "url": "https://github.com/permissionlesstech/bitchat-android"
+    },
+    {
+      "description": "Jenkins automation server",
+      "full_name": "jenkinsci/jenkins",
+      "project_file": "projects/jenkinsci__jenkins.md",
+      "rank": 16,
+      "readme_sha256": "99fd91d9f185bf2989ac2cabdddbb14047321d3ded5d5fb9038697ca4224bd4c",
+      "url": "https://github.com/jenkinsci/jenkins"
+    },
+    {
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "full_name": "amnezia-vpn/amnezia-client",
+      "project_file": "projects/amnezia-vpn__amnezia-client.md",
+      "rank": 17,
+      "readme_sha256": "2962d7a8c6b6251c2b19f59fb83b97b796be218ad050f88bd53d40a36ab3261c",
+      "url": "https://github.com/amnezia-vpn/amnezia-client"
+    }
+  ],
+  "snapshot_date": "2026-07-27",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

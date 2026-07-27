@@ -4,16 +4,16 @@
   "name": "system_prompts_leaks",
   "full_name": "asgeirtj/system_prompts_leaks",
   "url": "https://github.com/asgeirtj/system_prompts_leaks",
-  "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
-  "readme_sha256": "6bf6a9e53c0f490003b7c5020c464ba76a80ca9a1c88e0d5678c688779bf327d"
+  "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+  "readme_sha256": "a877d1c73d9780f61a9f8f4b49d73c2fd9c7d0b88dd9b7d1b643c740cee225f2"
 }
 ```
 
 # asgeirtj/system_prompts_leaks
 
 - URL: https://github.com/asgeirtj/system_prompts_leaks
-- Description: Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design. OpenAI - ChatGPT GPT-5.6, Codex GPT-5.6, GPT-5.5. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
-- README SHA256: `6bf6a9e53c0f490003b7c5020c464ba76a80ca9a1c88e0d5678c688779bf327d`
+- Description: Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.
+- README SHA256: `a877d1c73d9780f61a9f8f4b49d73c2fd9c7d0b88dd9b7d1b643c740cee225f2`
 
 ## README
 
@@ -40,6 +40,8 @@ Leaked system prompts, captured verbatim — the hidden instructions and rules t
 
 | What | Date | Link |
 |------|------|------|
+| **Codex GPT-5.6 (Sol variant)** | July 26, 2026 | [Codex GPT-5.6 system prompt (Terra/Luna)](OpenAI/Codex/gpt-5.6.md) · [Sol](OpenAI/Codex/gpt-5.6-sol.md) |
+| **Grok 4.5** | July 26, 2026 | [Grok 4.5 system prompt](xAI/grok-4.5.md) |
 | **Claude Opus 5** | July 24, 2026 | [Claude Opus 5 system prompt](Anthropic/claude-opus-5.md) · [Claude Code (Opus 5)](Anthropic/Claude%20Code/claude-code-opus-5.md) |
 | **Claude Design (full prompt + 53 tools + 22 skills + 10 starter components)** | July 23, 2026 | [Claude Design system prompt](Anthropic/claude-design.md) · [skills](Anthropic/Claude%20Design/Skills) · [starter components](Anthropic/Claude%20Design/Starter%20components) |
 | **Perplexity** | July 17, 2026 | [Perplexity AI system prompt](Perplexity/perplexity-ai.md) |
@@ -49,7 +51,6 @@ Leaked system prompts, captured verbatim — the hidden instructions and rules t
 | **Perplexity Deep Research** | July 14, 2026 | [Perplexity Deep Research system prompt](Perplexity/deep-research.md) |
 | **DeepSeek** | July 14, 2026 | [DeepSeek system prompt](DeepSeek/deepseek-chat.md) |
 | **ChatGPT 5.6** | July 10, 2026 | [ChatGPT 5.6 system prompt (Sol, extra high)](OpenAI/gpt-5.6-sol-extra-high.md) · [Codex GPT-5.6 system prompt](OpenAI/Codex/gpt-5.6.md) |
-| **Claude Sonnet 5** | July 1, 2026 | [Claude Sonnet 5 system prompt](Anthropic/claude-sonnet-5.md) |
 
 
 ---
@@ -120,7 +121,7 @@ Leaked system prompts, captured verbatim — the hidden instructions and rules t
 
 | Model | Prompt |
 |-------|--------|
-| **Codex GPT-5.6** | [**Codex GPT-5.6 system prompt**](OpenAI/Codex/gpt-5.6.md) |
+| **Codex GPT-5.6** | [**Codex GPT-5.6 system prompt (Terra/Luna)**](OpenAI/Codex/gpt-5.6.md) · [Sol](OpenAI/Codex/gpt-5.6-sol.md) |
 | **Codex GPT-5.5** | [Codex GPT-5.5 system prompt](OpenAI/Codex/gpt-5.5.md) · [Full prompt](OpenAI/Codex/codex-full.md) · [Friendly](OpenAI/Codex/personality_friendly_gpt-5.5.md) · [Pragmatic](OpenAI/Codex/personality_pragmatic_gpt-5.5.md) |
 | Codex GPT-5.4 | [Codex GPT-5.4 system prompt](OpenAI/Codex/gpt-5.4.md) · [Mini](OpenAI/Codex/gpt-5.4-mini.md) |
 | Codex Spark | [Codex Spark system prompt](OpenAI/Codex/gpt-5.3-codex-spark.md) |
@@ -184,6 +185,7 @@ Leaked system prompts, captured verbatim — the hidden instructions and rules t
 
 | Model | Prompt |
 |-------|--------|
+| **Grok 4.5** | [**Grok 4.5 system prompt**](xAI/grok-4.5.md) |
 | **Grok Build** | [**Grok Build system prompt** (CLI agent)](xAI/grok-build.md) |
 | **Grok 4.3 Beta** | [Grok 4.3 Beta system prompt](xAI/grok-4.3-beta.md) |
 | **Grok 4.2** | [**Grok 4.2 system prompt**](xAI/grok-4.2.md) |

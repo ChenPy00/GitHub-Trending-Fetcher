@@ -5,7 +5,7 @@
   "full_name": "schollz/croc",
   "url": "https://github.com/schollz/croc",
   "description": "Easily and securely send things from one computer to another 🐊 📦",
-  "readme_sha256": "1fdaa7333d5dabf7adf1139f27ee4cfdc56e990c6befe08a7a64b8eea31da5e2"
+  "readme_sha256": "1ae34b535e43787d6ec057bb60aea891873d61c0749de1685597750a182ccafd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/schollz/croc
 - Description: Easily and securely send things from one computer to another 🐊 📦
-- README SHA256: `1fdaa7333d5dabf7adf1139f27ee4cfdc56e990c6befe08a7a64b8eea31da5e2`
+- README SHA256: `1ae34b535e43787d6ec057bb60aea891873d61c0749de1685597750a182ccafd`
 
 ## README
 
@@ -191,10 +191,11 @@ go install github.com/schollz/croc/v10@latest
 
 ### On Android
 
-There are two F-Droid apps available:
+There are F-Droid apps available:
 
 - [crocgui](https://f-droid.org/packages/com.github.howeyc.crocgui/) — original port (Go, basic UI)
 - [croc-app](https://f-droid.org/en/packages/com.dking.crocapp/) — native Kotlin/Jetpack Compose client with a modern, mobile-first interface
+- [FlCroc](https://github.com/576576/FlCroc) is a cross-platform Flutter GUI (Android, Windows, Linux) that wraps the `croc` binary as its transfer core.
 
 ## Usage
 
@@ -256,10 +257,16 @@ croc --yes --rename <code>
 
 #### Excluding Folders
 
-To exclude folders from being sent, use the `--exclude` flag with comma-delimited exclusions:
+To exclude folders from being sent, use the `--exclude` flag with comma-delimited exclusions. This does a case-insensitive **substring** match against each file's relative path, so any path containing one of the given strings anywhere is excluded:
 
 ```bash
 croc send --exclude "node_modules,.venv" [folder]
+```
+
+If you need to exclude one specific file rather than every path containing a substring (for example, two files share a name at different depths and only one should be excluded), use `--exclude-file` instead. It takes comma-delimited relative paths and matches them **exactly**:
+
+```bash
+croc send --exclude-file "subfolder/image.jpg" [folder]
 ```
 
 #### Use Pipes - stdin and stdout

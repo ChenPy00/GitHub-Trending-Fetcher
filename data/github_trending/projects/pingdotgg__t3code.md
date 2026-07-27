@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "858db29e8b9f328472a9ac3d92a0868dc7df134a18512de86c9bd8712f618870"
+  "readme_sha256": "6122d027434505c3d21c32678226410b94d439b192a060d237b70ffd446d1959"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `858db29e8b9f328472a9ac3d92a0868dc7df134a18512de86c9bd8712f618870`
+- README SHA256: `6122d027434505c3d21c32678226410b94d439b192a060d237b70ffd446d1959`
 
 ## README
 
@@ -73,6 +73,8 @@ There's no public docs site yet, checkout the miscellaneous markdown files in [d
 ## Documentation
 
 - [Getting started](./docs/getting-started/quick-start.md)
+- [Remote access](./docs/user/remote-access.md)
+- [Keeping T3 Code in sync](./docs/user/server-updates.md)
 - [Architecture overview](./docs/architecture/overview.md)
 - [Provider guides](./docs/providers/codex.md)
 - [Operations](./docs/operations/ci.md)
