@@ -1,0 +1,209 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A skill for your coding agent to stop it from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "02934b9d903176d038ffbc4ecf7a3d69b4487849992364286dee2d34af37d748",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 2,
+      "readme_sha256": "aa923438dff1bdd931510c68514db5cd1e9b354fc282c7a45ce492fabd4944f4",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "full_name": "bojieli/ai-agent-book",
+      "project_file": "projects/bojieli__ai-agent-book.md",
+      "rank": 3,
+      "readme_sha256": "e385c77610648f087d5f26b758c22821db5fe197a87a8f2df9e1484ab94c8b36",
+      "url": "https://github.com/bojieli/ai-agent-book"
+    },
+    {
+      "description": "Self-hosted deployment platform",
+      "full_name": "oblien/openship",
+      "project_file": "projects/oblien__openship.md",
+      "rank": 4,
+      "readme_sha256": "1cbcbb2db01e8d38de9a46a9a9095cf3fb0b3f0cd35d3d1f45bd123f961cc141",
+      "url": "https://github.com/oblien/openship"
+    },
+    {
+      "description": "Web UI for the pi coding agent",
+      "full_name": "agegr/pi-web",
+      "project_file": "projects/agegr__pi-web.md",
+      "rank": 5,
+      "readme_sha256": "96113fcb3d6e26f63a2203807eb878b83bbd3ce2e9b1aaa05e6de40862a05463",
+      "url": "https://github.com/agegr/pi-web"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 6,
+      "readme_sha256": "2e440e63adc398c5bc37624b92d3b58b12acf165ff0790f0419dd08ee8345420",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 7,
+      "readme_sha256": "7f428a86f4f7c783d828774a9af1b74a9b9bbe4b01fac13e793e0f851a1b210b",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "The most RAM effiecent harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 8,
+      "readme_sha256": "0d4d5295d0a9e95d12f5e096b534640ebcd97fd497d42b110e6e2cfe2b45aca4",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 9,
+      "readme_sha256": "de5ccf38ab0b51b3daefef27fdfac1ff5aa818ec34f65a8bf225f9d385eb0843",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 10,
+      "readme_sha256": "387661d39786cd81c412d5cea56779e72970aa039c657c7e92c293f24891fac6",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 11,
+      "readme_sha256": "e794771fe17ed0c7ae9918c6ddba27bb2e8a3f48de9da68193fd1aed9892fb9e",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 12,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Empowering everyone to host fast and efficient Minecraft servers.",
+      "full_name": "Pumpkin-MC/Pumpkin",
+      "project_file": "projects/Pumpkin-MC__Pumpkin.md",
+      "rank": 13,
+      "readme_sha256": "e998762a01c117e93d9b53595d4ea889003ad34213770dcda95bfa73b2aea568",
+      "url": "https://github.com/Pumpkin-MC/Pumpkin"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 14,
+      "readme_sha256": "71f2fd71e0328589ddc40413fc9e02d580de75d9caf30f4d444087c390ede081",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 15,
+      "readme_sha256": "93e55275f11488270427112f7abd265118e438cef86b6009d2839f1c6a2a0be6",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Kimi Code CLI — The Starting Point for Next-Gen Agents",
+      "full_name": "MoonshotAI/kimi-code",
+      "project_file": "projects/MoonshotAI__kimi-code.md",
+      "rank": 16,
+      "readme_sha256": "50ea102c7003c746244c69cb78cbd5b1e9158311e5e4e028aee8a2afee698c4c",
+      "url": "https://github.com/MoonshotAI/kimi-code"
+    },
+    {
+      "description": "Easily and securely send things from one computer to another 🐊 📦",
+      "full_name": "schollz/croc",
+      "project_file": "projects/schollz__croc.md",
+      "rank": 17,
+      "readme_sha256": "1ae34b535e43787d6ec057bb60aea891873d61c0749de1685597750a182ccafd",
+      "url": "https://github.com/schollz/croc"
+    },
+    {
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 18,
+      "readme_sha256": "0fe12a623ea95b46bb8db033a35a87f0e246bb9e6bb22cd8aee51570bdd1df4d",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 19,
+      "readme_sha256": "f081473687ff59e5102c2376fca1c058400aa34b0b83b9c49b30468d9392cccf",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 20,
+      "readme_sha256": "6122d027434505c3d21c32678226410b94d439b192a060d237b70ffd446d1959",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.",
+      "full_name": "hyprwm/Hyprland",
+      "project_file": "projects/hyprwm__Hyprland.md",
+      "rank": 21,
+      "readme_sha256": "36682e45e7e359c33fdecc0dfb5711e53cf916ca5383ca75c99a8aa417300454",
+      "url": "https://github.com/hyprwm/Hyprland"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 22,
+      "readme_sha256": "3b72818bd3796a9035b66135b5eac73b20de116685b17027ef3f18b549d1c50c",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 23,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 24,
+      "readme_sha256": "9b74d98432ec54312a49c8db74b59d1e420464c89df5f8717229af335a21a27e",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "The go-to web for your AI coding agent — local-first search, fetch, crawl & research over MCP. No API keys, no cloud, $0/query. Public beta.",
+      "full_name": "KnockOutEZ/wigolo",
+      "project_file": "projects/KnockOutEZ__wigolo.md",
+      "rank": 25,
+      "readme_sha256": "93aa09deb4d3313c6417e97fecd2332d6cd6723006a11602a535731984ae35e3",
+      "url": "https://github.com/KnockOutEZ/wigolo"
+    }
+  ],
+  "snapshot_date": "2026-07-28",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

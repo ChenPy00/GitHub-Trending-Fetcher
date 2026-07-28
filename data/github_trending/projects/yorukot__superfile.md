@@ -5,7 +5,7 @@
   "full_name": "yorukot/superfile",
   "url": "https://github.com/yorukot/superfile",
   "description": "Pretty fancy and modern terminal file manager",
-  "readme_sha256": "0af8951bb5727fad77a2707e3b48595ab3ed4390ff6dacadae3dfa71031ae295"
+  "readme_sha256": "985acdd4b539d229b5e10b777a8e01a22d57a27349f7e688e76d28af8ac8c48d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/yorukot/superfile
 - Description: Pretty fancy and modern terminal file manager
-- README SHA256: `0af8951bb5727fad77a2707e3b48595ab3ed4390ff6dacadae3dfa71031ae295`
+- README SHA256: `985acdd4b539d229b5e10b777a8e01a22d57a27349f7e688e76d28af8ac8c48d`
 
 ## README
 
@@ -262,11 +262,11 @@ Thanks to JetBrains team for providing open-source licenses to support the maint
 
 **THANKS FOR All OF YOUR STARS!** Your stars are my motivation to keep updating!
 
-<a href="https://star-history.com/#yorukot/superfile&Timeline">
+<a href="https://www.star-history.com/?repos=yorukot%2Fsuperfile&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=yorukot/superfile&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=yorukot/superfile&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=yorukot/superfile&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=yorukot/superfile&type=date&theme=dark&legend=top-left&sealed_token=nEoMOYsfp1zwZ7rT-Fm6VR2yTa6cwW35VR0BwVxTuE8Dt17vRcRIQUFXeWdh6lZixlAl5e_fIVFs2Xe4cRdvAnexR5Q6JqlGVZK05Iu0mko8gYLjTdjq0g" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=yorukot/superfile&type=date&legend=top-left&sealed_token=nEoMOYsfp1zwZ7rT-Fm6VR2yTa6cwW35VR0BwVxTuE8Dt17vRcRIQUFXeWdh6lZixlAl5e_fIVFs2Xe4cRdvAnexR5Q6JqlGVZK05Iu0mko8gYLjTdjq0g" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=yorukot/superfile&type=date&legend=top-left&sealed_token=nEoMOYsfp1zwZ7rT-Fm6VR2yTa6cwW35VR0BwVxTuE8Dt17vRcRIQUFXeWdh6lZixlAl5e_fIVFs2Xe4cRdvAnexR5Q6JqlGVZK05Iu0mko8gYLjTdjq0g" />
  </picture>
 </a>
 

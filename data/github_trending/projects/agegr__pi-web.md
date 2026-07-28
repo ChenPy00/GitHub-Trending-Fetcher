@@ -5,7 +5,7 @@
   "full_name": "agegr/pi-web",
   "url": "https://github.com/agegr/pi-web",
   "description": "Web UI for the pi coding agent",
-  "readme_sha256": "6ded40f2aac3e5306f3d2c97247a323d6e63181e7519930318b2b4e95fe34497"
+  "readme_sha256": "96113fcb3d6e26f63a2203807eb878b83bbd3ce2e9b1aaa05e6de40862a05463"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agegr/pi-web
 - Description: Web UI for the pi coding agent
-- README SHA256: `6ded40f2aac3e5306f3d2c97247a323d6e63181e7519930318b2b4e95fe34497`
+- README SHA256: `96113fcb3d6e26f63a2203807eb878b83bbd3ce2e9b1aaa05e6de40862a05463`
 
 ## README
 
@@ -56,10 +56,12 @@ pi-web --no-open                # do not open the browser automatically
 
 PORT=8080 pi-web                # environment variable is also supported
 PI_WEB_HOSTNAME=0.0.0.0 pi-web  # explicit network exposure
+PI_WEB_ALLOWED_HOSTS=pi-web.internal pi-web  # allow an exact proxy/custom hostname
 PI_WEB_NO_OPEN=1 pi-web         # useful when running as a background service
 ```
 
 Pi Web has no application-level authentication and can invoke a high-privilege agent. Do not expose it to the internet; only use non-loopback bindings on a trusted network.
+API requests accept loopback names, IP literals, the selected bind hostname, and exact comma-separated names in `PI_WEB_ALLOWED_HOSTS`. Configure that variable when a trusted reverse proxy uses a different external hostname.
 
 ## HTTP Proxy
 
@@ -91,6 +93,7 @@ npx @agegr/pi-web@latest
 - **Chat beside the project**: browse files on the left and preview source, docs, images, audio, and PDFs on the right while the agent works.
 - **See session state clearly**: context usage, cost, compaction state, and system prompt details are visible from the top bar.
 - **Configure less from the terminal**: manage models, login/API keys, model tests, and skill switches from the web UI.
+- **Use the interface in your language**: switch between the supported UI languages from the top bar.
 
 ## Notes
 
@@ -100,6 +103,7 @@ npx @agegr/pi-web@latest
 - **File access**: file browsing and preview are scoped to the selected project directory and working directories that appear in sessions.
 - **Git worktrees**: see [Worktrees in Pi Web](./docs/worktrees.md) for when the switcher appears, how new worktrees are created, and what removal does.
 - **Forks vs in-session branches**: Fork creates a new `.jsonl` file. "Edit from here" creates another branch inside the same session file.
+- **Internationalization**: see [Internationalization](./docs/i18n.md) for using translations and adding languages or UI text.
 
 ## Development
 

@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat",
+      "project_file": "projects/permissionlesstech__bitchat.md",
+      "rank": 1,
+      "readme_sha256": "dee519c440dbb04d91c3074eb09c2b85acb75e59816e062e6f26bc3a35fe8dc0",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "description": "Amnezia VPN Client (Desktop+Mobile)",
+      "full_name": "amnezia-vpn/amnezia-client",
+      "project_file": "projects/amnezia-vpn__amnezia-client.md",
+      "rank": 2,
+      "readme_sha256": "2962d7a8c6b6251c2b19f59fb83b97b796be218ad050f88bd53d40a36ab3261c",
+      "url": "https://github.com/amnezia-vpn/amnezia-client"
+    },
+    {
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "full_name": "moeru-ai/airi",
+      "project_file": "projects/moeru-ai__airi.md",
+      "rank": 3,
+      "readme_sha256": "b8c7656e522ee618db718696a9f2da7d9094e5d243f15f02f12c16f1156a948b",
+      "url": "https://github.com/moeru-ai/airi"
+    },
+    {
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "full_name": "opengeos/GeoLibre",
+      "project_file": "projects/opengeos__GeoLibre.md",
+      "rank": 4,
+      "readme_sha256": "de3c739d8c9aebf4b41d661cee5f9f9e9e038fcc8a012d22c529a2ed12d5bc37",
+      "url": "https://github.com/opengeos/GeoLibre"
+    },
+    {
+      "description": "Pretty fancy and modern terminal file manager",
+      "full_name": "yorukot/superfile",
+      "project_file": "projects/yorukot__superfile.md",
+      "rank": 5,
+      "readme_sha256": "985acdd4b539d229b5e10b777a8e01a22d57a27349f7e688e76d28af8ac8c48d",
+      "url": "https://github.com/yorukot/superfile"
+    },
+    {
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "project_file": "projects/NanmiCoder__MediaCrawler.md",
+      "rank": 6,
+      "readme_sha256": "5d85ff2e3d4d30d1c383e5724357434444833c3aa54b91a1abb98969c9299ffd",
+      "url": "https://github.com/NanmiCoder/MediaCrawler"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 7,
+      "readme_sha256": "76d90e385e888f57813c90739f555da3a925908398e1c4a5a0de8f540da23841",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 8,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 9,
+      "readme_sha256": "53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Jenkins automation server",
+      "full_name": "jenkinsci/jenkins",
+      "project_file": "projects/jenkinsci__jenkins.md",
+      "rank": 10,
+      "readme_sha256": "99fd91d9f185bf2989ac2cabdddbb14047321d3ded5d5fb9038697ca4224bd4c",
+      "url": "https://github.com/jenkinsci/jenkins"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 11,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "description": "",
+      "full_name": "vudovn/ag-kit",
+      "project_file": "projects/vudovn__ag-kit.md",
+      "rank": 12,
+      "readme_sha256": "74cb630d649aecd64a3d9463776479cb7b9d74c84a8d32fb1d791500dcdb8347",
+      "url": "https://github.com/vudovn/ag-kit"
+    },
+    {
+      "description": "Open source transactional distributed database. Linear scalability and proven fault-tolerance on commodity hardware or cloud infrastructure without compromising performance.",
+      "full_name": "apache/cassandra",
+      "project_file": "projects/apache__cassandra.md",
+      "rank": 13,
+      "readme_sha256": "043bd795ff5c3f31e1481c72f6ea8085417d97e19f812a7405cc2d05bd17000d",
+      "url": "https://github.com/apache/cassandra"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 14,
+      "readme_sha256": "05a8611515e8c40d97f593437d3f4a011fa937925ad8fde6f390b023fb4b4296",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies",
+      "full_name": "ocornut/imgui",
+      "project_file": "projects/ocornut__imgui.md",
+      "rank": 15,
+      "readme_sha256": "1abb04cbd7419abf31de079a619a9c1e50442d39abc5747b41beee8575da93ff",
+      "url": "https://github.com/ocornut/imgui"
+    }
+  ],
+  "snapshot_date": "2026-07-28",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
