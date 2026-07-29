@@ -5,7 +5,7 @@
   "full_name": "huggingface/speech-to-speech",
   "url": "https://github.com/huggingface/speech-to-speech",
   "description": "Build local voice agents with open-source models",
-  "readme_sha256": "1de8ac1f09a1718a904b7be04c5ea9f3b2a5e25099502121a8ada6f1b2b8d014"
+  "readme_sha256": "cce8e2d523aaa1a80448379f38028745d758e4156ef9b25c01396d650c44a313"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/speech-to-speech
 - Description: Build local voice agents with open-source models
-- README SHA256: `1de8ac1f09a1718a904b7be04c5ea9f3b2a5e25099502121a8ada6f1b2b8d014`
+- README SHA256: `cce8e2d523aaa1a80448379f38028745d758e4156ef9b25c01396d650c44a313`
 
 ## README
 
@@ -86,6 +86,7 @@ Any OpenAI Realtime-compatible client can connect. See [Realtime API](#realtime-
 * [Pocket TTS](#pocket-tts)
 * [CLI reference](#cli-reference)
 * [Contributing](#contributing)
+* [Star history](#star-history)
 * [Citations](#citations)
 
 ## How it works
@@ -122,15 +123,15 @@ On Linux, the Qwen3-TTS GGML backend comes from `faster-qwen3-tts[ggml]`. Its de
 
 ```bash
 # CUDA 13.x
-pip install "qwentts-cpp-python==0.3.0+cu130" \
+pip install "qwentts-cpp-python==0.3.1+cu130" \
   -f https://huggingface.co/datasets/andito/qwentts-cpp-python-wheels/tree/main/whl/cu130
 
 # CUDA 12.4
-pip install "qwentts-cpp-python==0.3.0+cu124" \
+pip install "qwentts-cpp-python==0.3.1+cu124" \
   -f https://huggingface.co/datasets/andito/qwentts-cpp-python-wheels/tree/main/whl/cu124
 
 # CPU-only fallback
-pip install "qwentts-cpp-python==0.3.0+cpu" \
+pip install "qwentts-cpp-python==0.3.1+cpu" \
   -f https://huggingface.co/datasets/andito/qwentts-cpp-python-wheels/tree/main/whl/cpu
 
 pip install speech-to-speech
@@ -576,6 +577,10 @@ uv sync
 pytest
 ruff check
 ```
+
+## Star History
+
+[![Star History Chart](assets/star-history.svg)](https://github.com/huggingface/speech-to-speech/stargazers)
 
 ## Citations
 

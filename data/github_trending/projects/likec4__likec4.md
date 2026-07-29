@@ -5,7 +5,7 @@
   "full_name": "likec4/likec4",
   "url": "https://github.com/likec4/likec4",
   "description": "Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code",
-  "readme_sha256": "f05b510af7ddc8285eac0812a358feb97f8f04cf4b3e7a1645109b8853380f54"
+  "readme_sha256": "0f21bc5ed163d8806211f51aa0e2abb9c9aed8504a7d93c07e85f5bea7a32a3d"
 }
 ```
 
@@ -13,11 +13,13 @@
 
 - URL: https://github.com/likec4/likec4
 - Description: Visualize, collaborate, and evolve the software architecture with always actual and live diagrams from your code
-- README SHA256: `f05b510af7ddc8285eac0812a358feb97f8f04cf4b3e7a1645109b8853380f54`
+- README SHA256: `0f21bc5ed163d8806211f51aa0e2abb9c9aed8504a7d93c07e85f5bea7a32a3d`
 
 ## README
 
 # Architecture as a code
+
+[简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
 
 Visualize, collaborate on, and evolve your software architecture with always up-to-date, live diagrams generated from your code.
 
@@ -27,6 +29,7 @@ Visualize, collaborate on, and evolve your software architecture with always up-
 <a href="https://www.npmjs.com/package/likec4" target="_blank">![NPM Downloads](https://img.shields.io/npm/dm/likec4)</a>
 <a href="https://marketplace.visualstudio.com/items?itemName=likec4.likec4-vscode" target="_blank">![VSCode Installs](https://img.shields.io/visual-studio-marketplace/azure-devops/installs/total/likec4.likec4-vscode?label=vscode%20installs)</a>
 <a href="https://open-vsx.org/extension/likec4/likec4-vscode" target="_blank">![Open VSX Installs](https://img.shields.io/open-vsx/dt/likec4/likec4-vscode?label=open-vsx&color=%23A60EE5)</a>
+<a href="https://mcptoplist.com/server/mcp.so%2FLikeC4%2FLikeC4" target="_blank">![MCP Toplist](https://mcptoplist.com/badge/mcp.so%2FLikeC4%2FLikeC4.svg)</a>
 
 ![vscode extension](https://github.com/likec4/likec4/assets/824903/d6994540-55d1-4167-b66b-45056754cc29)
 

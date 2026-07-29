@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "aa923438dff1bdd931510c68514db5cd1e9b354fc282c7a45ce492fabd4944f4"
+  "readme_sha256": "1f9b8ccc3095a4f29c87444aef8d144b85d96e040610e4b48568ee1411f8445a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `aa923438dff1bdd931510c68514db5cd1e9b354fc282c7a45ce492fabd4944f4`
+- README SHA256: `1f9b8ccc3095a4f29c87444aef8d144b85d96e040610e4b48568ee1411f8445a`
 
 ## README
 
@@ -130,7 +130,7 @@ See the **[self-hosting guide](https://www.worldmonitor.app/docs/getting-started
 | **Frontend** | Vanilla TypeScript, Vite, globe.gl + Three.js, deck.gl + MapLibre GL |
 | **Desktop** | Tauri 2 (Rust) with Node.js sidecar |
 | **AI/ML** | Ollama / Groq / OpenRouter, Transformers.js (browser-side) |
-| **API Contracts** | Protocol Buffers (284 protos, 35 services), sebuf HTTP annotations |
+| **API Contracts** | Protocol Buffers (290 protos, 35 services), sebuf HTTP annotations |
 | **Deployment** | Vercel Edge Functions (60+), Railway relay, Tauri, PWA |
 | **Caching** | Redis (Upstash), 3-tier cache, CDN, service worker |
 

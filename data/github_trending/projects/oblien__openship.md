@@ -5,7 +5,7 @@
   "full_name": "oblien/openship",
   "url": "https://github.com/oblien/openship",
   "description": "Self-hosted deployment platform",
-  "readme_sha256": "1cbcbb2db01e8d38de9a46a9a9095cf3fb0b3f0cd35d3d1f45bd123f961cc141"
+  "readme_sha256": "50ce61f08c1388123e12870713f206bc477123cb5969eee2cd49f972d8ed2de2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/oblien/openship
 - Description: Self-hosted deployment platform
-- README SHA256: `1cbcbb2db01e8d38de9a46a9a9095cf3fb0b3f0cd35d3d1f45bd123f961cc141`
+- README SHA256: `50ce61f08c1388123e12870713f206bc477123cb5969eee2cd49f972d8ed2de2`
 
 ## README
 
@@ -116,7 +116,8 @@ A self-hosted instance **always requires login** (the admin you create in setup)
 > **Preview an unreleased build (dev).** To run the CLI built straight from source — a branch, tag, or `main` ahead of the next release — install the from-source build:
 >
 > ```bash
-> curl -fsSL https://get.openship.io/dev | sh     # or: OPENSHIP_REF=my-branch curl ... | sh
+> curl -fsSL https://get.openship.io/dev | sh                  # main (default)
+> curl -fsSL https://get.openship.io/dev | OPENSHIP_REF=dev sh  # a branch/tag (var goes on sh, not curl)
 > openship-dev                                     # same CLI, built from source
 > openship-dev update                              # pull latest source + rebuild (no release needed)
 > ```
@@ -238,29 +239,6 @@ Good-faith security research is **authorized** under our
 [safe-harbor policy](SECURITY.md#safe-harbor), and we're happy to credit valid
 first reports.
 
----
-## ⭐ Star History
-
-<p align="center">
-  <a href="https://star-history.com/#oblien/openship&Date">
-    <picture>
-      <source
-        media="(prefers-color-scheme: dark)"
-        srcset="https://api.star-history.com/svg?repos=oblien/openship&type=Date&theme=dark"
-      />
-      <source
-        media="(prefers-color-scheme: light)"
-        srcset="https://api.star-history.com/svg?repos=oblien/openship&type=Date"
-      />
-      <img
-        alt="Star History Chart"
-        src="https://api.star-history.com/svg?repos=oblien/openship&type=Date"
-      />
-    </picture>
-  </a>
-</p>
-
----
 ## License
 
 Openship is **open-source** software, licensed under the [Apache License 2.0](LICENSE).

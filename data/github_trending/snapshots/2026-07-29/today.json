@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Create and share 3D architectural projects.",
+      "full_name": "pascalorg/editor",
+      "project_file": "projects/pascalorg__editor.md",
+      "rank": 1,
+      "readme_sha256": "66d46f464758de102d9498fb4ef18528520e0a3b086331399e7588556fde4280",
+      "url": "https://github.com/pascalorg/editor"
+    },
+    {
+      "description": "Jenkins automation server",
+      "full_name": "jenkinsci/jenkins",
+      "project_file": "projects/jenkinsci__jenkins.md",
+      "rank": 2,
+      "readme_sha256": "99fd91d9f185bf2989ac2cabdddbb14047321d3ded5d5fb9038697ca4224bd4c",
+      "url": "https://github.com/jenkinsci/jenkins"
+    },
+    {
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "full_name": "moeru-ai/airi",
+      "project_file": "projects/moeru-ai__airi.md",
+      "rank": 3,
+      "readme_sha256": "b8c7656e522ee618db718696a9f2da7d9094e5d243f15f02f12c16f1156a948b",
+      "url": "https://github.com/moeru-ai/airi"
+    },
+    {
+      "description": "Simple, unified interface to multiple Generative AI providers",
+      "full_name": "andrewyng/aisuite",
+      "project_file": "projects/andrewyng__aisuite.md",
+      "rank": 4,
+      "readme_sha256": "37679f72b13ce850144ff13e9b9a82eeb65f77aeabb64b9d5a938faa0f9cde4a",
+      "url": "https://github.com/andrewyng/aisuite"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 5,
+      "readme_sha256": "4eb09ac2118275ee3839dca414076cb09efc3d293032985f8bec83abbc59bc8f",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "面向 A 股日K、分钟K与ETF分钟数据的本地量化引擎，集成增量同步、本地缓存、复权、批量查询、回测与指标计算。",
+      "full_name": "hello245m/free-stockdb",
+      "project_file": "projects/hello245m__free-stockdb.md",
+      "rank": 6,
+      "readme_sha256": "678435c17b9c0aba918a7802148510fa9d736f8fdbe2567d7a6bbc58996570ff",
+      "url": "https://github.com/hello245m/free-stockdb"
+    },
+    {
+      "description": "Build local voice agents with open-source models",
+      "full_name": "huggingface/speech-to-speech",
+      "project_file": "projects/huggingface__speech-to-speech.md",
+      "rank": 7,
+      "readme_sha256": "cce8e2d523aaa1a80448379f38028745d758e4156ef9b25c01396d650c44a313",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 8,
+      "readme_sha256": "b09967bc045006e9eaeeac53127ae48278e4ec08f6d7e2eda98c495799251f11",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    {
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "full_name": "opengeos/GeoLibre",
+      "project_file": "projects/opengeos__GeoLibre.md",
+      "rank": 9,
+      "readme_sha256": "de3c739d8c9aebf4b41d661cee5f9f9e9e038fcc8a012d22c529a2ed12d5bc37",
+      "url": "https://github.com/opengeos/GeoLibre"
+    },
+    {
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "project_file": "projects/paperswithbacktest__awesome-systematic-trading.md",
+      "rank": 10,
+      "readme_sha256": "adf161bb197d1bf9a105d3e4c39e162555f4425e7ad2a513ca9920b3ff30d7a7",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading"
+    },
+    {
+      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
+      "full_name": "microsoft/agent-governance-toolkit",
+      "project_file": "projects/microsoft__agent-governance-toolkit.md",
+      "rank": 11,
+      "readme_sha256": "41665cf8a2eb6eacdda5c5612f9910d0b00cb246fba9974efe471a52c086c285",
+      "url": "https://github.com/microsoft/agent-governance-toolkit"
+    },
+    {
+      "description": "Pretty fancy and modern terminal file manager",
+      "full_name": "yorukot/superfile",
+      "project_file": "projects/yorukot__superfile.md",
+      "rank": 12,
+      "readme_sha256": "985acdd4b539d229b5e10b777a8e01a22d57a27349f7e688e76d28af8ac8c48d",
+      "url": "https://github.com/yorukot/superfile"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 13,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    }
+  ],
+  "snapshot_date": "2026-07-29",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "ogulcancelik/herdr",
   "url": "https://github.com/ogulcancelik/herdr",
   "description": "agent multiplexer that lives in your terminal.",
-  "readme_sha256": "21c4a47a8d756e492dd8add4915bb01d18984fda49074ed8def82e848d05cc41"
+  "readme_sha256": "24bb46b0e00b11f2c6c07f54f908fd15537fd38c54d5cc1248c0d01230d2a0bc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ogulcancelik/herdr
 - Description: agent multiplexer that lives in your terminal.
-- README SHA256: `21c4a47a8d756e492dd8add4915bb01d18984fda49074ed8def82e848d05cc41`
+- README SHA256: `24bb46b0e00b11f2c6c07f54f908fd15537fd38c54d5cc1248c0d01230d2a0bc`
 
 ## README
 
@@ -26,6 +26,10 @@
 
 <p align="center">
   <a href="https://herdr.dev">herdr.dev</a> · <a href="#install">install</a> · <a href="https://herdr.dev/docs/quick-start/">quick start</a> · <a href="https://herdr.dev/docs/">docs</a> · <a href="#sponsors">sponsors</a>
+</p>
+
+<p align="center">
+  English · <a href="README.zh-CN.md">简体中文</a>
 </p>
 
 <p align="center">

@@ -5,7 +5,7 @@
   "full_name": "permissionlesstech/bitchat",
   "url": "https://github.com/permissionlesstech/bitchat",
   "description": "bluetooth mesh chat, IRC vibes",
-  "readme_sha256": "dee519c440dbb04d91c3074eb09c2b85acb75e59816e062e6f26bc3a35fe8dc0"
+  "readme_sha256": "8c556d8462e9f53c57fa9a50eae0e366bb3a13e02bea3f18fb02702470f52823"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/permissionlesstech/bitchat
 - Description: bluetooth mesh chat, IRC vibes
-- README SHA256: `dee519c440dbb04d91c3074eb09c2b85acb75e59816e062e6f26bc3a35fe8dc0`
+- README SHA256: `8c556d8462e9f53c57fa9a50eae0e366bb3a13e02bea3f18fb02702470f52823`
 
 ## README
 
@@ -26,6 +26,8 @@ A decentralized peer-to-peer messaging app with dual transport architecture: loc
 [bitchat.free](http://bitchat.free)
 
 📲 [App Store](https://apps.apple.com/us/app/bitchat-mesh/id6748219622)
+
+📲 [Play Store](https://play.google.com/store/apps/details?id=com.bitchat.droid)
 
 ### Getting a copy you can trust
 
