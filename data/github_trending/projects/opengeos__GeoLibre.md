@@ -5,7 +5,7 @@
   "full_name": "opengeos/GeoLibre",
   "url": "https://github.com/opengeos/GeoLibre",
   "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-  "readme_sha256": "de3c739d8c9aebf4b41d661cee5f9f9e9e038fcc8a012d22c529a2ed12d5bc37"
+  "readme_sha256": "4fdbfaec2665f428132b376ec86bb823db5b7cfe582a9bf38a0479e1d758b4b8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/opengeos/GeoLibre
 - Description: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
-- README SHA256: `de3c739d8c9aebf4b41d661cee5f9f9e9e038fcc8a012d22c529a2ed12d5bc37`
+- README SHA256: `4fdbfaec2665f428132b376ec86bb823db5b7cfe582a9bf38a0479e1d758b4b8`
 
 ## README
 
@@ -28,6 +28,7 @@
 [![Conda Recipe](https://img.shields.io/badge/recipe-geolibre-green.svg)](https://github.com/conda-forge/geolibre-feedstock)
 [![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/p/github/opengeos/geolibre)
 [![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-GeoLibre-0078D4?logo=windows)](https://apps.microsoft.com/detail/9nwt67rv531x)
+[![Google Play](https://img.shields.io/badge/Google%20Play-GeoLibre-01875F?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=org.geolibre.app)
 [![AUR version](https://img.shields.io/aur/version/geolibre-bin?logo=archlinux&label=AUR)](https://aur.archlinux.org/packages/geolibre-bin)
 [![FlatPark](https://img.shields.io/badge/FlatPark-GeoLibre-4A90D9?logo=flatpak)](https://flatpark.org/apps/app.geolibre.GeoLibre/)
 [![image](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -39,6 +40,7 @@ GeoLibre is built with **Tauri v2**, **React**, **TypeScript**, **MapLibre GL JS
 
 - **[Launch GeoLibre Web](https://web.geolibre.app/)** — the full app in your browser, nothing to install
 - **[Download the desktop app](https://geolibre.app/downloads/)** — Windows, macOS, and Linux installers
+- **[Get it on Google Play](https://play.google.com/store/apps/details?id=org.geolibre.app)** — the native Android app
 - **[Get started](https://geolibre.app/getting-started/)** — install, run from source, and configure
 - **[Features](https://geolibre.app/features/)** — the complete feature list
 

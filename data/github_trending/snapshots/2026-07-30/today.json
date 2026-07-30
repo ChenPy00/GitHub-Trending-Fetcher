@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "full_name": "opengeos/GeoLibre",
+      "project_file": "projects/opengeos__GeoLibre.md",
+      "rank": 1,
+      "readme_sha256": "4fdbfaec2665f428132b376ec86bb823db5b7cfe582a9bf38a0479e1d758b4b8",
+      "url": "https://github.com/opengeos/GeoLibre"
+    },
+    {
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "full_name": "moeru-ai/airi",
+      "project_file": "projects/moeru-ai__airi.md",
+      "rank": 2,
+      "readme_sha256": "b8c7656e522ee618db718696a9f2da7d9094e5d243f15f02f12c16f1156a948b",
+      "url": "https://github.com/moeru-ai/airi"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 3,
+      "readme_sha256": "1e0f857852e1a367c4bb28ba047c9f2dd9a4652de1b9d59f5d03288d10648f6e",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Build local voice agents with open-source models",
+      "full_name": "huggingface/speech-to-speech",
+      "project_file": "projects/huggingface__speech-to-speech.md",
+      "rank": 4,
+      "readme_sha256": "cce8e2d523aaa1a80448379f38028745d758e4156ef9b25c01396d650c44a313",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    },
+    {
+      "description": "The most RAM efficient harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 5,
+      "readme_sha256": "0d4d5295d0a9e95d12f5e096b534640ebcd97fd497d42b110e6e2cfe2b45aca4",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "A free open source IT asset/license management system",
+      "full_name": "grokability/snipe-it",
+      "project_file": "projects/grokability__snipe-it.md",
+      "rank": 6,
+      "readme_sha256": "9cf1537867d5edb6a793378b4eb62522edf0228cedc7d22f2b08e6d809f0bde9",
+      "url": "https://github.com/grokability/snipe-it"
+    },
+    {
+      "description": "Deepfakes Software For All",
+      "full_name": "deepfakes/faceswap",
+      "project_file": "projects/deepfakes__faceswap.md",
+      "rank": 7,
+      "readme_sha256": "9fcd6634565437698e21bdde359244a2c892872685c1b573ea2feee4f4508f51",
+      "url": "https://github.com/deepfakes/faceswap"
+    },
+    {
+      "description": "Open-Source Frontier Voice AI",
+      "full_name": "microsoft/VibeVoice",
+      "project_file": "projects/microsoft__VibeVoice.md",
+      "rank": 8,
+      "readme_sha256": "e1e00c913e2fcf9e40f5c235f619b411eb6e5e3179d39c88cdf99af5c9328ef8",
+      "url": "https://github.com/microsoft/VibeVoice"
+    },
+    {
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "full_name": "different-ai/openwork",
+      "project_file": "projects/different-ai__openwork.md",
+      "rank": 9,
+      "readme_sha256": "a91651d0ba02cef54f56dc602a86640819616d6253c16f78e539e11db03e7853",
+      "url": "https://github.com/different-ai/openwork"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 10,
+      "readme_sha256": "1e9e870bf68c526d7e06326da7763440486313594eba6204dcdf96bcd6d2891f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "FlashKDA: high-performance Kimi Delta Attention kernels",
+      "full_name": "MoonshotAI/FlashKDA",
+      "project_file": "projects/MoonshotAI__FlashKDA.md",
+      "rank": 11,
+      "readme_sha256": "fc56ca9a3cd1786d0ff526a12be21500d79ee671e5f0eeb8352fad23d3ba8fb2",
+      "url": "https://github.com/MoonshotAI/FlashKDA"
+    },
+    {
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "project_file": "projects/NanmiCoder__MediaCrawler.md",
+      "rank": 12,
+      "readme_sha256": "5d85ff2e3d4d30d1c383e5724357434444833c3aa54b91a1abb98969c9299ffd",
+      "url": "https://github.com/NanmiCoder/MediaCrawler"
+    },
+    {
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 13,
+      "readme_sha256": "53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "A curated list of awesome libraries, packages, strategies, books, blogs, tutorials for systematic trading.",
+      "full_name": "paperswithbacktest/awesome-systematic-trading",
+      "project_file": "projects/paperswithbacktest__awesome-systematic-trading.md",
+      "rank": 14,
+      "readme_sha256": "adf161bb197d1bf9a105d3e4c39e162555f4425e7ad2a513ca9920b3ff30d7a7",
+      "url": "https://github.com/paperswithbacktest/awesome-systematic-trading"
+    },
+    {
+      "description": "Training neural networks on Apple Neural Engine via reverse-engineered private APIs",
+      "full_name": "maderix/ANE",
+      "project_file": "projects/maderix__ANE.md",
+      "rank": 15,
+      "readme_sha256": "c43358ad78af2375301d98cbaea8f682269a4b32ce35fd2176077ba84e01c62f",
+      "url": "https://github.com/maderix/ANE"
+    },
+    {
+      "description": "Create and share 3D architectural projects.",
+      "full_name": "pascalorg/editor",
+      "project_file": "projects/pascalorg__editor.md",
+      "rank": 16,
+      "readme_sha256": "66d46f464758de102d9498fb4ef18528520e0a3b086331399e7588556fde4280",
+      "url": "https://github.com/pascalorg/editor"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 17,
+      "readme_sha256": "b09967bc045006e9eaeeac53127ae48278e4ec08f6d7e2eda98c495799251f11",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    }
+  ],
+  "snapshot_date": "2026-07-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

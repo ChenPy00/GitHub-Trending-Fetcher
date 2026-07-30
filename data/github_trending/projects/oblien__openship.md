@@ -5,7 +5,7 @@
   "full_name": "oblien/openship",
   "url": "https://github.com/oblien/openship",
   "description": "Self-hosted deployment platform",
-  "readme_sha256": "50ce61f08c1388123e12870713f206bc477123cb5969eee2cd49f972d8ed2de2"
+  "readme_sha256": "e29761ffbe2b5bc25a870e8a5ba09dd74a9e48f902e179bc6d1ebe8ee072453c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/oblien/openship
 - Description: Self-hosted deployment platform
-- README SHA256: `50ce61f08c1388123e12870713f206bc477123cb5969eee2cd49f972d8ed2de2`
+- README SHA256: `e29761ffbe2b5bc25a870e8a5ba09dd74a9e48f902e179bc6d1ebe8ee072453c`
 
 ## README
 
@@ -54,6 +54,7 @@
   <a href="docs/i18n/README.pt.md"><img src="https://img.shields.io/badge/lang-Português-555" alt="Português" /></a>
   <a href="docs/i18n/README.de.md"><img src="https://img.shields.io/badge/lang-Deutsch-555" alt="Deutsch" /></a>
   <a href="docs/i18n/README.tr.md"><img src="https://img.shields.io/badge/lang-Türkçe-555" alt="Türkçe" /></a>
+  <a href="docs/i18n/README.ko.md"><img src="https://img.shields.io/badge/lang-한국어-555" alt="한국어" /></a>
 </p>
 
 <p align="center">

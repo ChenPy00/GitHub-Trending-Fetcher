@@ -4,7 +4,7 @@
   "name": "jcode",
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
-  "description": "The most RAM effiecent harness",
+  "description": "The most RAM efficient harness",
   "readme_sha256": "0d4d5295d0a9e95d12f5e096b534640ebcd97fd497d42b110e6e2cfe2b45aca4"
 }
 ```
@@ -12,7 +12,7 @@
 # 1jehuang/jcode
 
 - URL: https://github.com/1jehuang/jcode
-- Description: The most RAM effiecent harness
+- Description: The most RAM efficient harness
 - README SHA256: `0d4d5295d0a9e95d12f5e096b534640ebcd97fd497d42b110e6e2cfe2b45aca4`
 
 ## README

@@ -5,7 +5,7 @@
   "full_name": "microsoft/VibeVoice",
   "url": "https://github.com/microsoft/VibeVoice",
   "description": "Open-Source Frontier Voice AI",
-  "readme_sha256": "44d8870d2d1de1f23832776477afc559d9d01b8e4aff74f2558eea205f96f24b"
+  "readme_sha256": "e1e00c913e2fcf9e40f5c235f619b411eb6e5e3179d39c88cdf99af5c9328ef8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/microsoft/VibeVoice
 - Description: Open-Source Frontier Voice AI
-- README SHA256: `44d8870d2d1de1f23832776477afc559d9d01b8e4aff74f2558eea205f96f24b`
+- README SHA256: `e1e00c913e2fcf9e40f5c235f619b411eb6e5e3179d39c88cdf99af5c9328ef8`
 
 ## README
 
@@ -43,8 +43,9 @@
 
 <h3>📰 News</h3>
 
+<strong>2026-07-23: ⚡ We released <a href="https://github.com/microsoft/VibeASR.cpp">VibeVoice-ASR-BitNet</a>, an edge CPU inference engine for VibeVoice-ASR. Through heterogeneous quantization (I8_S + I2_S), the model is compressed from 4.62 GB to 1.58 GB with real-time inference (RTF < 1) on 3+ CPU threads — no GPU required. [<a href="https://github.com/microsoft/VibeASR.cpp">Code</a>] [<a href="https://huggingface.co/microsoft/VibeVoice-ASR-BitNet">Models</a>] [<a href="https://arxiv.org/abs/2607.21075">Report</a>]</strong>
 
-
+<strong>2026-03-12: 🚀 VibeVoice-ASR is now integrated into <a href="https://labs.ai.azure.com/innovations/vibevoice-asr/">Azure AI Foundry Labs</a>! You can now explore and test our unified speech-to-text capabilities directly through Microsoft Foundry.</strong>
 
 <strong>2026-03-06: 🚀 VibeVoice ASR is now part of a <a href="https://huggingface.co/microsoft/VibeVoice-ASR-HF">Transformers release</a>! You can now use our speech recognition model directly through the Hugging Face Transformers library for seamless integration into your projects.</strong>
 
@@ -80,6 +81,7 @@ For more information, demos, and examples, please visit our [Project Page](https
 | Model |   Weight | Quick Try |
 |-------|--------------|---------|
 | VibeVoice-ASR-7B | [HF Link](https://huggingface.co/microsoft/VibeVoice-ASR) |  [Playground](https://aka.ms/vibevoice-asr) |
+| VibeVoice-ASR-BitNet (CPU) | [HF Link](https://huggingface.co/microsoft/VibeVoice-ASR-BitNet) | [VibeASR.cpp](https://github.com/microsoft/VibeASR.cpp) |
 | VibeVoice-TTS-1.5B | [HF Link](https://huggingface.co/microsoft/VibeVoice-1.5B) | Disabled |
 | VibeVoice-Realtime-0.5B | [HF Link](https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B) | [Colab](https://colab.research.google.com/github/microsoft/VibeVoice/blob/main/demo/vibevoice_realtime_colab.ipynb) |
 

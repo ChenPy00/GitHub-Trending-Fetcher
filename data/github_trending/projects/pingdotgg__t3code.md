@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "8450b5a4173ac9cfc6c9bb0392c0d7fac8706680417482ed0fb5e541d3ac180b"
+  "readme_sha256": "93e3f0b5a22f67f6bed42b18562ccddf99655b0c1625612d3e935b10a5e4babe"
 }
 ```
 
@@ -13,13 +13,13 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `8450b5a4173ac9cfc6c9bb0392c0d7fac8706680417482ed0fb5e541d3ac180b`
+- README SHA256: `93e3f0b5a22f67f6bed42b18562ccddf99655b0c1625612d3e935b10a5e4babe`
 
 ## README
 
 # T3 Code
 
-T3 Code is an "agent harness control surface". It enables control of the agents on your machine with a best-in-class mobile app, [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).
+T3 Code is an "agent harness control surface". It enables control of the agents on your machine with a best-in-class mobile app ([iOS](https://apps.apple.com/us/app/t3-code-remote-claude-more/id6787819824), [Android](https://play.google.com/store/apps/details?id=com.t3tools.t3code)), [web app](https://app.t3.codes) and [Electron-based desktop app](https://t3.codes).
 
 Works with your subscriptions on Claude Code, Codex, Cursor, Grok Build, and OpenCode. If they're set up on your computer, T3 Code can control them.
 

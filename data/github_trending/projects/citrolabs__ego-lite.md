@@ -4,16 +4,16 @@
   "name": "ego-lite",
   "full_name": "citrolabs/ego-lite",
   "url": "https://github.com/citrolabs/ego-lite",
-  "description": "The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-  "readme_sha256": "1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8"
+  "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+  "readme_sha256": "fc577e4e3b364ff494f0c63ca753fa154500084398ef0d2cc6ebc57f71ba8198"
 }
 ```
 
 # citrolabs/ego-lite
 
 - URL: https://github.com/citrolabs/ego-lite
-- Description: The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
-- README SHA256: `1922f23bcbfe3b47db76aef077b162133cbb33e603a23491fa68aea35a5cdeb8`
+- Description: The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
+- README SHA256: `fc577e4e3b364ff494f0c63ca753fa154500084398ef0d2cc6ebc57f71ba8198`
 
 ## README
 
@@ -21,7 +21,7 @@
 
 <img src="docs/assets/banner.png" alt="ego lite" width="100%" />
 
-**The fastest browser for AI agents to run web automation**
+**The fastest browser for AI agents to run browser automation**
 
 <a href="https://trendshift.io/repositories/42334?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-42334" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/42334" alt="citrolabs%2Fego-lite | Trendshift" width="250" height="55"/></a>
 

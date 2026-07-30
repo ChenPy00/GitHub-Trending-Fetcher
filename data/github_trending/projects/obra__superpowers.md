@@ -5,7 +5,7 @@
   "full_name": "obra/superpowers",
   "url": "https://github.com/obra/superpowers",
   "description": "An agentic skills framework & software development methodology that works.",
-  "readme_sha256": "05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50"
+  "readme_sha256": "1e9e870bf68c526d7e06326da7763440486313594eba6204dcdf96bcd6d2891f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/obra/superpowers
 - Description: An agentic skills framework & software development methodology that works.
-- README SHA256: `05d4a7eefce719731dc4f92f4c43d24486112a701d05b484a89f1a5e63ed6b50`
+- README SHA256: `1e9e870bf68c526d7e06326da7763440486313594eba6204dcdf96bcd6d2891f`
 
 ## README
 
@@ -21,12 +21,6 @@
 
 Superpowers is a complete software development methodology for your coding agents, built on top of a set of composable skills and some initial instructions that make sure your agent uses them.
 
-
-## We're Hiring!
-
-We're hiring someone to help out full time with Superpowers community and code work. 
-You can read about the job at https://primeradiant.com/jobs/superpowers-community-engineer/
-If this sounds like someone you know, definitely send them our way.
 
 ## Quickstart
 
