@@ -5,7 +5,7 @@
   "full_name": "permissionlesstech/bitchat",
   "url": "https://github.com/permissionlesstech/bitchat",
   "description": "bluetooth mesh chat, IRC vibes",
-  "readme_sha256": "8c556d8462e9f53c57fa9a50eae0e366bb3a13e02bea3f18fb02702470f52823"
+  "readme_sha256": "83699fa255b69d5d02be7a5bd3b1efd6aa2e6261a28a725d73f15f28a13f3fd6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/permissionlesstech/bitchat
 - Description: bluetooth mesh chat, IRC vibes
-- README SHA256: `8c556d8462e9f53c57fa9a50eae0e366bb3a13e02bea3f18fb02702470f52823`
+- README SHA256: `83699fa255b69d5d02be7a5bd3b1efd6aa2e6261a28a725d73f15f28a13f3fd6`
 
 ## README
 
@@ -70,7 +70,7 @@ BitChat uses a **hybrid messaging architecture** with two complementary transpor
 
 - **Global Reach**: Connect with users worldwide via internet relays
 - **Location Channels**: Geographic chat rooms using geohash coordinates
-- **290+ Relay Network**: Distributed across the globe for reliability
+- **440+ Relay Network**: Distributed across the globe for reliability
 - **BitChat Private Envelopes**: App-specific encrypted private messages over Nostr relays
 - **Ephemeral Keys**: Fresh cryptographic identity per geohash area
 

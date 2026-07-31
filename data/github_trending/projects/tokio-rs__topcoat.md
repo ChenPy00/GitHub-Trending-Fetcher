@@ -5,7 +5,7 @@
   "full_name": "tokio-rs/topcoat",
   "url": "https://github.com/tokio-rs/topcoat",
   "description": "A batteries-included framework for building web apps",
-  "readme_sha256": "9c3ccb624dce90760a10f0fa7b3ad7c266b2150835be196003483fcc9a4a70f8"
+  "readme_sha256": "dc7b429f0ea5a4c182a3fad72969012377df959f8447788c3d119be3015b85b9"
 }
 ```
 
@@ -13,12 +13,15 @@
 
 - URL: https://github.com/tokio-rs/topcoat
 - Description: A batteries-included framework for building web apps
-- README SHA256: `9c3ccb624dce90760a10f0fa7b3ad7c266b2150835be196003483fcc9a4a70f8`
+- README SHA256: `dc7b429f0ea5a4c182a3fad72969012377df959f8447788c3d119be3015b85b9`
 
 ## README
 
 <div align="center">
-  <h1>Topcoat</h1>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tokio-rs/topcoat/main/media/logo-dark.svg">
+    <img src="https://raw.githubusercontent.com/tokio-rs/topcoat/main/media/logo-light.svg" alt="Topcoat" width="220">
+  </picture>
 </div>
 
 <div align="center">
@@ -46,7 +49,7 @@
 [discord-badge]: https://img.shields.io/discord/500028886025895936.svg?logo=discord&style=flat-square
 [discord-url]: https://discord.gg/tokio
 
-Topcoat is a modular, batteries-included Rust framework for building fullstack apps. It prioritizes simplicity and productivity. See [Learn Topcoat](#learn-topcoat) to get started, or the [Roadmap](#roadmap) for what's coming next.
+Topcoat is a modular, batteries-included Rust framework for building full-stack apps. It prioritizes simplicity and productivity. See [Learn Topcoat](#learn-topcoat) to get started, or the [Roadmap](#roadmap) for what's coming next.
 
 **Early-stage and experimental. Expect breaking changes.**
 
@@ -92,7 +95,7 @@ view! {
 
     // Runs entirely in the browser; no server round-trip.
     <button @click=$(|_e| open.set(!open.get()))>"What is Topcoat?"</button>
-    <p :hidden=$(!open.get())>"A fullstack Rust framework."</p>
+    <p :hidden=$(!open.get())>"A full-stack Rust framework."</p>
 }
 ```
 
@@ -207,7 +210,7 @@ Topcoat also ships with utilities for web fonts and icons, as well as easy integ
 
 ### Built-in Tailwind support
 
-Enabled the `tailwind` feature to integrate [Tailwind](https://tailwindcss.com/) into your project effortlessly:
+Enable the `tailwind` feature to integrate [Tailwind](https://tailwindcss.com/) into your project:
 
 ```rust,ignore
 view! { <link rel="stylesheet" href=(topcoat::tailwind::stylesheet!())> }
@@ -248,12 +251,15 @@ view! { <link rel="stylesheet" href=(topcoat::tailwind::stylesheet!())> }
 - [Procedures](https://docs.rs/topcoat/latest/topcoat/runtime/attr.procedure.html): async server functions callable from the browser.
 - [Shards](https://docs.rs/topcoat/latest/topcoat/runtime/attr.shard.html): components that re-render on the server when their arguments change.
 
-**UI components**
+**Miscellaneous**
 - [Topcoat UI](https://github.com/tokio-rs/topcoat/blob/main/crates/topcoat/docs/ui.md): premade components vendored into your project for you to edit.
+- [Mail](https://docs.rs/topcoat/latest/topcoat/mail/index.html): declare mail with the `mail!` macro, deliver through SMTP, file, or in-memory transports.
 
 **Third-party integrations**
 - [Tailwind](https://docs.rs/topcoat/latest/topcoat/tailwind/index.html): Tailwind CSS without Node, wired into the asset pipeline.
 - [htmx](https://docs.rs/topcoat/latest/topcoat/htmx/index.html): drive partial HTML swaps from the server with request/response header helpers.
+- [Alpine AJAX](https://docs.rs/topcoat/latest/topcoat/alpine_ajax/index.html): drive partial HTML swaps from the server with Alpine AJAX's request-header conventions.
+- [Datastar](https://docs.rs/topcoat/latest/topcoat/datastar/index.html): patch elements and signals into the page over server-sent events.
 
 ## Roadmap
 
@@ -263,17 +269,18 @@ Planned features we'd like to bring to Topcoat. Have an idea? [Open an issue](ht
 - [ ] Static export
 - [ ] (More) reactivity (`topcoat-runtime`)
 - [ ] More Topcoat UI components, full "blocks" e.g. sign-in form
-- [ ] Emailing
 - [ ] Better [Toasty](https://github.com/tokio-rs/toasty) integration (safely create/update records from forms without listing out all the fields)
 - [ ] Validations
+- [ ] Localization support
 - [ ] `OpenAPI` endpoints
+- [ ] Sitemaps
 - [ ] Docs for how to deploy Topcoat
 - [ ] Pre-rendering for static pages
 - [ ] Streaming SSR / Suspense
 - [ ] Client-side navigation + prefetching
-- [ ] `WebSockets`
-- [ ] Server-sent events
+- [ ] `WebTransport`
 - [ ] Image optimization / resizing
+- [ ] Markdown support
 - [ ] Easier-to-use middlewares like rate-limiting, compression, etc.
 - [ ] Authentication
 - [ ] Background jobs

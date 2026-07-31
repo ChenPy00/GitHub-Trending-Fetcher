@@ -5,7 +5,7 @@
   "full_name": "mvanhorn/last30days-skill",
   "url": "https://github.com/mvanhorn/last30days-skill",
   "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
-  "readme_sha256": "05a8611515e8c40d97f593437d3f4a011fa937925ad8fde6f390b023fb4b4296"
+  "readme_sha256": "db7a13301d3138917864b6ad4f22d28b7a2dcaaba7dbd272c4761e9a6c04fe61"
 }
 ```
 
@@ -13,11 +13,13 @@
 
 - URL: https://github.com/mvanhorn/last30days-skill
 - Description: AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary
-- README SHA256: `05a8611515e8c40d97f593437d3f4a011fa937925ad8fde6f390b023fb4b4296`
+- README SHA256: `db7a13301d3138917864b6ad4f22d28b7a2dcaaba7dbd272c4761e9a6c04fe61`
 
 ## README
 
 # /last30days
+
+English | [Français](README.fr.md) | [Deutsch](README.de.md) | [Español](README.es.md) | [Português (Brasil)](README.pt-BR.md) | [日本語](README.ja.md) | [简体中文](README.zh-CN.md)
 
 <p align="center">
   <img src="media/pr-assets/last30days-ad.gif" width="720" alt="last30days - an AI agent-led search engine that searches people, not editors" />

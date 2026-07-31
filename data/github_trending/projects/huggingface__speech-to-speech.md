@@ -5,7 +5,7 @@
   "full_name": "huggingface/speech-to-speech",
   "url": "https://github.com/huggingface/speech-to-speech",
   "description": "Build local voice agents with open-source models",
-  "readme_sha256": "cce8e2d523aaa1a80448379f38028745d758e4156ef9b25c01396d650c44a313"
+  "readme_sha256": "571aa0afb75b0e5061d8df8d2c949e021a7ebf0129056fb786d954792b63fa6c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/speech-to-speech
 - Description: Build local voice agents with open-source models
-- README SHA256: `cce8e2d523aaa1a80448379f38028745d758e4156ef9b25c01396d650c44a313`
+- README SHA256: `571aa0afb75b0e5061d8df8d2c949e021a7ebf0129056fb786d954792b63fa6c`
 
 ## README
 
@@ -335,6 +335,27 @@ with client.realtime.connect(model="local") as conn:
 ```
 
 The server implements the core Realtime event set: `input_audio_buffer.append`, `session.update`, `conversation.item.create`, `response.create`, and `response.cancel` inbound; speech start/stop, streaming transcription, audio deltas, tool calls, and `response.done` outbound. The full event reference, architecture, and design details live in the [Realtime Engine README](./src/speech_to_speech/api/openai_realtime/README.md).
+
+### LLM Proxy
+
+With `--enable_llm_proxy`, the realtime server also exposes the remote LLM it is configured with as a plain OpenAI compatible endpoint, so a client can run side tasks (summaries, titles, background agents) with tools and streaming, fully concurrent with the voice conversation and never interrupted by new speech:
+
+* `POST /v1/chat/completions` when running `--llm_backend chat-completions`
+* `POST /v1/responses` when running `--llm_backend responses-api`
+
+The server performs no authentication and no throttling of its own. Enable the proxy only on a trusted network, or deploy the server behind a gateway that owns access control. The s2s-endpoint compute replica is such a gateway: it opens these paths only to clients that created their session with an HF token, checks the API key against that token, and applies a rate limit per user. Point the stock OpenAI SDK at whichever host you talk to; this server ignores the API key (a gateway in front decides what it must be):
+
+```python
+from openai import OpenAI
+
+llm = OpenAI(base_url="http://localhost:8765/v1", api_key="unused")
+completion = llm.chat.completions.create(
+    model="anything",  # ignored: the server forces its configured --model_name
+    messages=[{"role": "user", "content": "Summarize the conversation so far: ..."}],
+)
+```
+
+Requests are stateless (send the full message list each time) and are proxied to the configured upstream with the key held by the server, which never reaches clients. The `model` field is always overwritten with the server configured `--model_name`. The proxy is off by default, requires a remote backend (`chat-completions` or `responses-api`), and answers 501 with the reason otherwise.
 
 ## LLM Backends
 
