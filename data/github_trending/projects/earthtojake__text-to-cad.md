@@ -4,16 +4,16 @@
   "name": "text-to-cad",
   "full_name": "earthtojake/text-to-cad",
   "url": "https://github.com/earthtojake/text-to-cad",
-  "description": "A collection of agent skills for CAD, robotics and hardware design",
-  "readme_sha256": "85ca192f17facf0802a4ae4bd3e1b651bc99c4eb53b4839f937297534913dbf6"
+  "description": "A library of agent skills for CAD, CAE and CAM",
+  "readme_sha256": "d52b29b3e47039081829415cb4e428d56888b30869cdcf1276e46f682f4a5945"
 }
 ```
 
 # earthtojake/text-to-cad
 
 - URL: https://github.com/earthtojake/text-to-cad
-- Description: A collection of agent skills for CAD, robotics and hardware design
-- README SHA256: `85ca192f17facf0802a4ae4bd3e1b651bc99c4eb53b4839f937297534913dbf6`
+- Description: A library of agent skills for CAD, CAE and CAM
+- README SHA256: `d52b29b3e47039081829415cb4e428d56888b30869cdcf1276e46f682f4a5945`
 
 ## README
 
@@ -79,7 +79,7 @@ robot description files, simulation, and local review.
 ## 💻 Installation
 
 For production use, install or clone from `main`; that branch contains the
-generated skill/plugin outputs needed by provider installers.
+generated skill outputs needed by provider installers.
 
 ### Skills
 
@@ -97,10 +97,14 @@ directly for supported agents.
 Provider-native plugin installs are also available for Codex and Claude Code:
 
 ```bash
-# Codex
+# Codex (requires Codex 0.142.0 or newer)
 codex plugin marketplace add earthtojake/text-to-cad
 codex plugin add cad@text-to-cad
 ```
+
+Codex resolves this repository-root plugin only from 0.142.0 onward. On older
+versions the plugin is skipped silently and never appears in `codex plugin list`;
+upgrade with `npm install -g @openai/codex@latest`.
 
 ```bash
 # Claude Code

@@ -5,7 +5,7 @@
   "full_name": "pbakaus/impeccable",
   "url": "https://github.com/pbakaus/impeccable",
   "description": "The design language that makes your AI harness better at design.",
-  "readme_sha256": "76d90e385e888f57813c90739f555da3a925908398e1c4a5a0de8f540da23841"
+  "readme_sha256": "5674900f65a3113c311753e9411ce707d0091a78de15da75f03cfebff7afc7cc"
 }
 ```
 
@@ -13,13 +13,13 @@
 
 - URL: https://github.com/pbakaus/impeccable
 - Description: The design language that makes your AI harness better at design.
-- README SHA256: `76d90e385e888f57813c90739f555da3a925908398e1c4a5a0de8f540da23841`
+- README SHA256: `5674900f65a3113c311753e9411ce707d0091a78de15da75f03cfebff7afc7cc`
 
 ## README
 
 # Impeccable
 
-Design guidance for AI coding agents. 1 skill, 23 commands, live browser iteration, and 60 deterministic detector rules for AI-generated frontend design.
+Design guidance for AI coding agents. 1 skill, 23 commands, live browser iteration, and 59 deterministic detector rules for AI-generated frontend design.
 
 > **Quick start:** From your project root, run `npx impeccable install`, then run `/impeccable init` inside your AI coding tool. Full docs: [impeccable.style](https://impeccable.style).
 
@@ -32,7 +32,7 @@ Every model trained on the same SaaS templates. Skip the guidance and you get th
 Impeccable adds:
 - **One setup flow.** `/impeccable init` writes `PRODUCT.md` and offers `DESIGN.md`, so later commands know the audience, brand/product lane, voice, anti-references, colors, type, and components.
 - **23 commands.** A shared design vocabulary with your AI: `polish`, `audit`, `critique`, `distill`, `animate`, `bolder`, `quieter`, and more.
-- **60 deterministic detector rules** plus LLM-only critique checks. The CLI and browser extension run the deterministic rules with no LLM and no API key.
+- **59 deterministic detector rules** plus LLM-only critique checks. The CLI and browser extension run the deterministic rules with no LLM and no API key.
 
 ## What's Included
 
@@ -289,6 +289,16 @@ cp -r dist/grok/.grok/skills/* ~/.grok/skills/
 
 > Prefer `npx impeccable install --providers=grok` or `grok plugin install pbakaus/impeccable#plugin --trust` so the design hook installs too. Project hooks need `/hooks-trust` (or `--trust`) once per folder.
 
+**Google Antigravity:**
+```bash
+# Project-specific
+cp -r dist/antigravity/.agent your-project/
+
+# Or global (applies to all projects)
+mkdir -p ~/.gemini/config/skills
+cp -r dist/antigravity/.agent/skills/* ~/.gemini/config/skills/
+```
+
 ## Usage
 
 Once installed, every command runs through the single `/impeccable` skill:
@@ -396,7 +406,7 @@ npx impeccable ignores add-file "src/legacy/**"
 npx impeccable ignores add-value overused-font Inter --reason "Brand font"
 ```
 
-The detector catches 60 deterministic issues across AI slop (side-tab borders, purple gradients, bounce easing, dark glows) and general design quality (line length, cramped padding, small touch targets, skipped headings, and more).
+The detector catches 59 deterministic issues across AI slop (side-tab borders, purple gradients, bounce easing, dark glows) and general design quality (line length, cramped padding, small touch targets, skipped headings, and more).
 
 By default, `detect` respects the same `.impeccable/config.json` and `.impeccable/config.local.json` detector config as the design hook: `detector.ignoreRules`, `detector.ignoreFiles`, `detector.ignoreValues`, and `detector.designSystem.enabled`. Hook lifecycle settings such as `hook.enabled` only affect automatic hook execution.
 
@@ -419,6 +429,7 @@ Full detector docs: [impeccable.style/docs/detector](https://impeccable.style/do
 - [Rovo Dev](https://www.atlassian.com/software/rovo)
 - [Qoder](https://qoder.com)
 - [Mistral Vibe](https://docs.mistral.ai/vibe/code/overview)
+- [Google Antigravity](https://antigravity.google)
 
 ## Community & Ecosystem
 

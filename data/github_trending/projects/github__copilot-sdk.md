@@ -5,7 +5,7 @@
   "full_name": "github/copilot-sdk",
   "url": "https://github.com/github/copilot-sdk",
   "description": "Multi-platform SDK for integrating GitHub Copilot Agent into apps and services",
-  "readme_sha256": "942bafb90b9df89070a165f88f8a39eebb6ac300f7386cb1157d06dec4ae2d96"
+  "readme_sha256": "f89c54eff67a815e59469ac4ac1e6903d3b1c633a8b61eee6f81109c8512e85f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/github/copilot-sdk
 - Description: Multi-platform SDK for integrating GitHub Copilot Agent into apps and services
-- README SHA256: `942bafb90b9df89070a165f88f8a39eebb6ac300f7386cb1157d06dec4ae2d96`
+- README SHA256: `f89c54eff67a815e59469ac4ac1e6903d3b1c633a8b61eee6f81109c8512e85f`
 
 ## README
 
@@ -88,7 +88,7 @@ Billing for the GitHub Copilot SDK is based on the same model as the Copilot CLI
 
 ### Does it support BYOK (Bring Your Own Key)?
 
-Yes, the GitHub Copilot SDK supports BYOK (Bring Your Own Key). You can configure the SDK to use your own API keys from supported LLM providers (e.g. OpenAI, Azure AI Foundry, Anthropic) to access models through those providers. See the **[BYOK documentation](./docs/auth/byok.md)** for setup instructions and examples.
+Yes, the GitHub Copilot SDK supports BYOK (Bring Your Own Key). You can configure the SDK to use your own API keys from supported LLM providers (e.g. OpenAI, Microsoft Foundry, Anthropic) to access models through those providers. See the **[BYOK documentation](./docs/auth/byok.md)** for setup instructions and examples.
 
 **Note:** BYOK uses key-based authentication only. Microsoft Entra ID (Azure AD), managed identities, and third-party identity providers are not supported.
 

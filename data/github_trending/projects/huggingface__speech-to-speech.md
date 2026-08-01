@@ -5,7 +5,7 @@
   "full_name": "huggingface/speech-to-speech",
   "url": "https://github.com/huggingface/speech-to-speech",
   "description": "Build local voice agents with open-source models",
-  "readme_sha256": "571aa0afb75b0e5061d8df8d2c949e021a7ebf0129056fb786d954792b63fa6c"
+  "readme_sha256": "59ccb85e6e0c6f860de8b6392b8dc5e3bbc59566776f7f03bf0556dedefb3803"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/speech-to-speech
 - Description: Build local voice agents with open-source models
-- README SHA256: `571aa0afb75b0e5061d8df8d2c949e021a7ebf0129056fb786d954792b63fa6c`
+- README SHA256: `59ccb85e6e0c6f860de8b6392b8dc5e3bbc59566776f7f03bf0556dedefb3803`
 
 ## README
 
@@ -26,6 +26,7 @@
 [![PyPI](https://img.shields.io/pypi/v/speech-to-speech)](https://pypi.org/project/speech-to-speech/)
 [![Python](https://img.shields.io/pypi/pyversions/speech-to-speech)](https://pypi.org/project/speech-to-speech/)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue)](./LICENSE)
+[![GitHub Trending: #1 Repository of the Day](https://img.shields.io/badge/GitHub%20Trending-%231%20Repository%20of%20the%20Day-7B2CBF?logo=github&logoColor=white)](https://trendshift.io/repositories/20645)
 
 </div>
 
@@ -194,9 +195,9 @@ Select implementations with `--stt`, `--llm_backend`, and `--tts`. Run `speech-t
 
 | Mode | Transport | Use it when |
 |---|---|---|
-| `realtime` (default) | WebSocket, OpenAI Realtime protocol at `/v1/realtime` | You are building an app or device against a standard voice API. |
+| `realtime` (default) | OpenAI Realtime protocol over WebSocket or WebRTC | You are building an app or device against a standard voice API. |
 | `local` | Your machine's microphone and speakers | You want to talk to the pipeline directly, no client needed. |
-| `websocket` | Raw PCM over WebSocket | You want a minimal custom client without the Realtime protocol. |
+| `raw-websocket` | Raw PCM over WebSocket | You want a minimal custom client without the Realtime protocol. |
 | `socket` | Raw PCM over TCP | Models run on a remote server, with a simple microphone/playback client. |
 
 ### Realtime Server
@@ -262,12 +263,12 @@ python scripts/benchmark_tts.py \
     --qwen3_mlx_quantizations bf16 4bit 6bit 8bit
 ```
 
-### WebSocket
+### Raw WebSocket
 
-1. Run the pipeline in WebSocket mode:
+1. Run the pipeline in raw WebSocket mode:
 
    ```bash
-   speech-to-speech --mode websocket --ws_host 0.0.0.0 --ws_port 8765
+   speech-to-speech --mode raw-websocket --ws_host 0.0.0.0 --ws_port 8765
    ```
 
 2. Connect from your client at `ws://<server-ip>:8765`. Send raw audio bytes as 16 kHz, int16, mono PCM and receive generated audio bytes back.
@@ -300,7 +301,7 @@ The compose file starts a llama.cpp server with Gemma 4, starts the TCP socket s
 
 ## Realtime API
 
-Realtime mode streams audio over a WebSocket using the OpenAI Realtime protocol, with live transcription and low-latency turn-taking. The server exposes `/v1/realtime`, and any OpenAI Realtime-compatible client can connect:
+Realtime mode supports the OpenAI Realtime protocol over WebSocket and WebRTC, with live transcription and low-latency turn-taking. WebSocket clients connect at `/v1/realtime`:
 
 ```python
 from openai import OpenAI
@@ -551,7 +552,7 @@ References for all CLI arguments live in the [arguments classes](./src/speech_to
 See [ModuleArguments](./src/speech_to_speech/arguments_classes/module_arguments.py). It allows setting:
 
 - a common `--device`, if every part should run on the same device
-- `--mode`: `realtime` (default), `local`, `socket`, or `websocket`
+- `--mode`: `realtime` (default), `local`, `socket`, or `raw-websocket`
 - STT implementation (`--stt`)
 - LLM backend (`--llm_backend`: `transformers`, `mlx-lm`, `responses-api`, or `chat-completions`)
 - TTS implementation (`--tts`)

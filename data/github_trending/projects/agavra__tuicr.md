@@ -5,7 +5,7 @@
   "full_name": "agavra/tuicr",
   "url": "https://github.com/agavra/tuicr",
   "description": "a code review TUI with vim keybindings",
-  "readme_sha256": "48f4dc7b4c444035ccf40ab2cd5e8d8feba2a14ac2037d30c2181fc40c1af07f"
+  "readme_sha256": "22268d6bd10a4bb0da8cfc17c847bd01cb39e16a18ec16e22c8d87dc78d667e5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agavra/tuicr
 - Description: a code review TUI with vim keybindings
-- README SHA256: `48f4dc7b4c444035ccf40ab2cd5e8d8feba2a14ac2037d30c2181fc40c1af07f`
+- README SHA256: `22268d6bd10a4bb0da8cfc17c847bd01cb39e16a18ec16e22c8d87dc78d667e5`
 
 ## README
 
@@ -227,6 +227,7 @@ appearance = "system"        # or "dark" / "light"
 mouse = true
 leader = ";"                  # configurable prefix for leader shortcuts
 comment_vim = false           # vim modal editing in the review comment box
+relative_line_numbers = false # show rendered-row distances in the diff gutter
 review_watch_interval_ms = 1000 # set to 0 to disable persisted-review polling
 
 [[comment_types]]
