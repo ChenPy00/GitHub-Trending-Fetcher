@@ -5,7 +5,7 @@
   "full_name": "block/buzz",
   "url": "https://github.com/block/buzz",
   "description": "A hive mind communication platform",
-  "readme_sha256": "1288aa56494978b53322e324ace0801ee54d01b77adfbb915a32f118fce94d8c"
+  "readme_sha256": "84ba68fdb2a6afab1fa2b163ce4013d47fd45e498a057441f6a74c0bfda509a7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/block/buzz
 - Description: A hive mind communication platform
-- README SHA256: `1288aa56494978b53322e324ace0801ee54d01b77adfbb915a32f118fce94d8c`
+- README SHA256: `84ba68fdb2a6afab1fa2b163ce4013d47fd45e498a057441f6a74c0bfda509a7`
 
 ## README
 
@@ -135,7 +135,19 @@ New to Buzz? Pick the path that matches you.
 
 ### I just want to try the app
 
-Grab a packaged build from the [latest release](https://github.com/block/buzz/releases/latest) — macOS (`.dmg`), Linux (`.AppImage` / `.deb`), or Windows (`.exe`). Install it like any other app.
+Grab a packaged build from the [latest release](https://github.com/block/buzz/releases/latest):
+
+| Platform | File |
+|---|---|
+| macOS (Apple Silicon) | `Buzz_<version>_aarch64.dmg` |
+| macOS (Intel) | `Buzz_<version>_x64.dmg` |
+| Linux (x86_64) | `Buzz_<version>_amd64.AppImage` or `Buzz_<version>_amd64.deb` |
+| Windows (x64) | `Buzz_<version>_x64-setup_alpha-unsigned.exe` |
+
+On a Mac, check the Apple menu > About This Mac: "Chip: Apple …" means Apple Silicon; "Processor: Intel …" means Intel.
+
+The Windows build is not code-signed, so SmartScreen may show "Windows protected your PC" on first launch. If available, click **More info**, then **Run anyway**.
+
 
 By default the app connects to `ws://localhost:3000`. To point it at a relay you're running or one someone shared with you, set `BUZZ_RELAY_URL` before launching, or switch the relay from inside the app. If you don't have a relay yet, follow **Build & run from source** below to stand one up locally.
 

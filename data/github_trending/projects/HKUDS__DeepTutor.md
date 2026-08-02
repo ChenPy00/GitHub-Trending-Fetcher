@@ -5,7 +5,7 @@
   "full_name": "HKUDS/DeepTutor",
   "url": "https://github.com/HKUDS/DeepTutor",
   "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-  "readme_sha256": "6ec381eb65254c0fe92b1bdc2c6ba7f37efb384925133cf741be91ede1d95377"
+  "readme_sha256": "1fb86a26b07d53e151ffa829ff782469c912a2ef67994a67c918e1b411058a46"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/DeepTutor
 - Description: DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .
-- README SHA256: `6ec381eb65254c0fe92b1bdc2c6ba7f37efb384925133cf741be91ede1d95377`
+- README SHA256: `1fb86a26b07d53e151ffa829ff782469c912a2ef67994a67c918e1b411058a46`
 
 ## README
 
@@ -67,14 +67,16 @@
 
 ### 📦 Releases
 
+> **[2026.8.2]** [v1.5.8](https://github.com/HKUDS/DeepTutor/releases/tag/v1.5.8) — Memory: a real heap ceiling for the dev server, source installs serve a production build, bounded LLM client and index caches, and a keep-alive fix for stray 500s.
+
 > **[2026.7.31]** [v1.5.7](https://github.com/HKUDS/DeepTutor/releases/tag/v1.5.7) — A per-account **MCP Services** store, 101 **CLI Apps** the tutor can run, credentials moved out of the sandbox's reach, and a mobile layout.
 
 > **[2026.7.29]** [v1.5.6](https://github.com/HKUDS/DeepTutor/releases/tag/v1.5.6) — Remote **Codex** sign-in completes behind an SSH tunnel, generated files get their own card in Activity, non-English languages stop collapsing to Chinese, and book creation no longer times out.
 
-> **[2026.7.26]** [v1.5.5](https://github.com/HKUDS/DeepTutor/releases/tag/v1.5.5) — Sign in with your ChatGPT plan via **OpenAI Codex** OAuth, an **Eden AI** provider, knowledge bases that report what they hold, traceable `rag` citations, and GraphRAG indexing without a workaround.
-
 <details>
 <summary><b>Past releases (more than 1 week ago)</b></summary>
+
+> **[2026.7.26]** [v1.5.5](https://github.com/HKUDS/DeepTutor/releases/tag/v1.5.5) — Sign in with your ChatGPT plan via **OpenAI Codex** OAuth, an **Eden AI** provider, knowledge bases that report what they hold, traceable `rag` citations, and GraphRAG indexing without a workaround.
 
 > **[2026.7.24]** [v1.5.4](https://github.com/HKUDS/DeepTutor/releases/tag/v1.5.4) — Maintenance sweep: the post-answer "generating" stall is gone, IM partners render Markdown tables faithfully, LLM JSON parsing is sturdier, plus quiz, create-KB form, and Math Animator fixes.
 
@@ -253,10 +255,10 @@ python -m pip install -e .
 ( cd web && npm ci --legacy-peer-deps )
 
 deeptutor init
-deeptutor start
+deeptutor start --dev
 ```
 
-Source installs run Next.js in dev mode against the local `web/` directory; everything else (config layout, ports, stop with `Ctrl+C`) matches Option 1.
+`deeptutor start` builds the local `web/` frontend for production once and reuses it; `--dev` runs Next.js with HMR. Config layout, ports, and `Ctrl+C` match Option 1.
 
 <details>
 <summary><b>Conda environment</b> (instead of <code>venv</code>)</summary>
@@ -287,11 +289,11 @@ pip install -e ".[math-animator]"   # Manim addon; requires LaTeX/ffmpeg/system 
 
 **Changing frontend dependencies:** run `npm install --legacy-peer-deps` to refresh `web/package-lock.json`, then commit both `web/package.json` and `web/package-lock.json`.
 
-**Stuck dev server:** if `deeptutor start` reports an existing frontend that isn't responding, stop the PID it prints. If no Next.js process is actually running, the lock files are stale — remove them and retry:
+**Stuck dev server:** if `deeptutor start --dev` reports an existing frontend that isn't responding, stop the PID it prints. If no Next.js process is actually running, the lock files are stale — remove them and retry:
 
 ```bash
 rm -f web/.next/dev/lock web/.next/lock
-deeptutor start
+deeptutor start --dev
 ```
 
 </details>
@@ -735,7 +737,7 @@ The repo ships a root [`SKILL.md`](SKILL.md) — a ~150-line handover doc that t
 | Command | Description |
 |:---|:---|
 | `deeptutor init` | Create or update `data/user/settings` for the current workspace |
-| `deeptutor start [--home PATH]` | Launch backend + frontend together |
+| `deeptutor start [--home PATH] [--dev]` | Launch backend + frontend together; `--dev` enables frontend HMR |
 | `deeptutor serve [--port PORT]` | Start only the FastAPI backend |
 | `deeptutor run <capability> <message>` | Run a single capability turn (`chat`, `deep_solve`, `deep_question`, `deep_research`, `visualize`, `math_animator`, `mastery_path`); add `--format json` for NDJSON output |
 | `deeptutor chat` | Interactive REPL with capability, tool, KB, notebook, and history controls |

@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat",
+      "project_file": "projects/permissionlesstech__bitchat.md",
+      "rank": 1,
+      "readme_sha256": "83699fa255b69d5d02be7a5bd3b1efd6aa2e6261a28a725d73f15f28a13f3fd6",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 2,
+      "readme_sha256": "84ba68fdb2a6afab1fa2b163ce4013d47fd45e498a057441f6a74c0bfda509a7",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 3,
+      "readme_sha256": "fc577e4e3b364ff494f0c63ca753fa154500084398ef0d2cc6ebc57f71ba8198",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 4,
+      "readme_sha256": "d1aee809e698998f72768eea10ea5ac46ce53683f0262d2d0cd21cc109edb04e",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 5,
+      "readme_sha256": "53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 6,
+      "readme_sha256": "dbdf090a5a4feb23163b79ac6ded5e36d98e7e0bc7c34896dddf1a6b3a9e11d5",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    {
+      "description": "Create and share 3D architectural projects.",
+      "full_name": "pascalorg/editor",
+      "project_file": "projects/pascalorg__editor.md",
+      "rank": 7,
+      "readme_sha256": "66d46f464758de102d9498fb4ef18528520e0a3b086331399e7588556fde4280",
+      "url": "https://github.com/pascalorg/editor"
+    },
+    {
+      "description": "The most RAM efficient harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 8,
+      "readme_sha256": "901e7c65df488359f49547ece8586bfef8d47b1ee686cb30e0545f6517ee23ca",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
+      "full_name": "opengeos/GeoLibre",
+      "project_file": "projects/opengeos__GeoLibre.md",
+      "rank": 9,
+      "readme_sha256": "0233b89b3042be5b78805617ccbd8fc1e354c3682f28e71cc0f752631f965649",
+      "url": "https://github.com/opengeos/GeoLibre"
+    },
+    {
+      "description": "💖🧸 Self hosted, you-owned Grok Companion, a container of souls of waifu, cyber livings to bring them into our worlds, wishing to achieve Neuro-sama's altitude. Capable of realtime voice chat, Minecraft, Factorio playing. Web / macOS / Windows supported.",
+      "full_name": "moeru-ai/airi",
+      "project_file": "projects/moeru-ai__airi.md",
+      "rank": 10,
+      "readme_sha256": "b8c7656e522ee618db718696a9f2da7d9094e5d243f15f02f12c16f1156a948b",
+      "url": "https://github.com/moeru-ai/airi"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 11,
+      "readme_sha256": "522e1a83c066c674dc12a8842ddb83298ce4f6bccfb61641ff6904c60c0e8970",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "full_name": "microsoft/AI-For-Beginners",
+      "project_file": "projects/microsoft__AI-For-Beginners.md",
+      "rank": 12,
+      "readme_sha256": "6f1ed5dcfc02f203bdfc55d33af1fa0d2f287feb427f32b3f684074de9fd0ac8",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 13,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 14,
+      "readme_sha256": "366afd47bf4da84c918d7c2a3df76b6d5235dcba909f2cac3bf64c2ad940b8a3",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "The open-source alternative to Webflow, Framer and WordPress. Agentic self-hosted visual CMS outputting clean static pages. Users, roles, plugins, content, database, it's all there.",
+      "full_name": "CoreBunch/Instatic",
+      "project_file": "projects/CoreBunch__Instatic.md",
+      "rank": 15,
+      "readme_sha256": "f081473687ff59e5102c2376fca1c058400aa34b0b83b9c49b30468d9392cccf",
+      "url": "https://github.com/CoreBunch/Instatic"
+    },
+    {
+      "description": "Open-Source Frontier Voice AI",
+      "full_name": "microsoft/VibeVoice",
+      "project_file": "projects/microsoft__VibeVoice.md",
+      "rank": 16,
+      "readme_sha256": "e1e00c913e2fcf9e40f5c235f619b411eb6e5e3179d39c88cdf99af5c9328ef8",
+      "url": "https://github.com/microsoft/VibeVoice"
+    },
+    {
+      "description": "A library of agent skills for CAD, CAE and CAM",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 17,
+      "readme_sha256": "d52b29b3e47039081829415cb4e428d56888b30869cdcf1276e46f682f4a5945",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "full_name": "different-ai/openwork",
+      "project_file": "projects/different-ai__openwork.md",
+      "rank": 18,
+      "readme_sha256": "a91651d0ba02cef54f56dc602a86640819616d6253c16f78e539e11db03e7853",
+      "url": "https://github.com/different-ai/openwork"
+    }
+  ],
+  "snapshot_date": "2026-08-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

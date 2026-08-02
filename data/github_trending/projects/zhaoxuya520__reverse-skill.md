@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "944708ca7ef876531c1b67e1f2c89fff1684008b2364f8b9d7dc17b3ca5cd4f3"
+  "readme_sha256": "42a4520ea203f62c1d53ce019e45acb133a0faf9ac22e15fb992381727cd1c7b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `944708ca7ef876531c1b67e1f2c89fff1684008b2364f8b9d7dc17b3ca5cd4f3`
+- README SHA256: `42a4520ea203f62c1d53ce019e45acb133a0faf9ac22e15fb992381727cd1c7b`
 
 ## README
 
@@ -36,11 +36,11 @@
 </p>
 
 <p align="center">
+<a href="https://trendshift.io/repositories/43969?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-43969" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/43969" alt="zhaoxuya520%2Freverse-skill | Trendshift" width="250" height="55"/></a>
   <a href="https://trendshift.io/repositories/43969?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-43969" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/43969/daily" alt="zhaoxuya520%2Freverse-skill | Trendshift" width="250" height="55"/></a>
 </p>
 
 <br/>
-
 <p align="center">
   <a href="#about">About</a> ·
   <a href="#getting-started">Getting Started</a> ·

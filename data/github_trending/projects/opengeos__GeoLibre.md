@@ -5,7 +5,7 @@
   "full_name": "opengeos/GeoLibre",
   "url": "https://github.com/opengeos/GeoLibre",
   "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-  "readme_sha256": "4fdbfaec2665f428132b376ec86bb823db5b7cfe582a9bf38a0479e1d758b4b8"
+  "readme_sha256": "0233b89b3042be5b78805617ccbd8fc1e354c3682f28e71cc0f752631f965649"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/opengeos/GeoLibre
 - Description: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
-- README SHA256: `4fdbfaec2665f428132b376ec86bb823db5b7cfe582a9bf38a0479e1d758b4b8`
+- README SHA256: `0233b89b3042be5b78805617ccbd8fc1e354c3682f28e71cc0f752631f965649`
 
 ## README
 
@@ -26,7 +26,6 @@
 [![image](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/opengeos/GeoLibre/blob/main/python/examples/getting-started.ipynb)
 [![image](https://img.shields.io/conda/vn/conda-forge/geolibre.svg)](https://anaconda.org/conda-forge/geolibre)
 [![Conda Recipe](https://img.shields.io/badge/recipe-geolibre-green.svg)](https://github.com/conda-forge/geolibre-feedstock)
-[![Open in CodeSandbox](https://img.shields.io/badge/Open%20in-CodeSandbox-blue?logo=codesandbox)](https://codesandbox.io/p/github/opengeos/geolibre)
 [![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-GeoLibre-0078D4?logo=windows)](https://apps.microsoft.com/detail/9nwt67rv531x)
 [![Google Play](https://img.shields.io/badge/Google%20Play-GeoLibre-01875F?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=org.geolibre.app)
 [![AUR version](https://img.shields.io/aur/version/geolibre-bin?logo=archlinux&label=AUR)](https://aur.archlinux.org/packages/geolibre-bin)

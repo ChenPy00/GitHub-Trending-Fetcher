@@ -5,7 +5,7 @@
   "full_name": "diegosouzapw/OmniRoute",
   "url": "https://github.com/diegosouzapw/OmniRoute",
   "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-  "readme_sha256": "a5f17b5733815f66e020c340c635d267892532cb1c5ac3bc86956bb3fdb736cc"
+  "readme_sha256": "366afd47bf4da84c918d7c2a3df76b6d5235dcba909f2cac3bf64c2ad940b8a3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/diegosouzapw/OmniRoute
 - Description: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors
-- README SHA256: `a5f17b5733815f66e020c340c635d267892532cb1c5ac3bc86956bb3fdb736cc`
+- README SHA256: `366afd47bf4da84c918d7c2a3df76b6d5235dcba909f2cac3bf64c2ad940b8a3`
 
 ## README
 
@@ -277,6 +277,33 @@ curl http://localhost:20128/v1/chat/completions \
 </table>
 
 <sub>Links tagged <code>aff=omniroute</code> are partner links. They fund the project at no extra cost to you.</sub>
+
+<br/>
+
+<details open>
+<summary><sub><b>🎟️ Affiliates Promo</b> — free signup coupons from providers we don't sponsor (click to expand)</sub></summary>
+
+<sub><i>This section is for referral/coupon codes only. Sponsored partnerships live in <b>🤝 Supported by our Open Source Friends</b> above. OmniRoute has no sponsorship or partnership with the providers listed here — these are public coupons anyone can use.</i></sub>
+
+<table>
+  <tr>
+    <td align="center" width="120">
+      <a href="https://agentrouter.org/register?aff=70LM">
+        <img src="public/providers/agentrouter.png" width="32" alt="AgentRouter"/>
+      </a>
+      <br/><sub><b>AgentRouter</b></sub><br/><sub>agentrouter.org</sub>
+    </td>
+    <td>
+      <sub><b><a href="https://agentrouter.org/register?aff=70LM">AgentRouter</a></b> — affiliate signup · <b>$100 free credits</b> on signup (free server, expect higher latency — best for testing, not production). First-class support in OmniRoute since <b>v3.8.50</b>: Chat Completions, the Anthropic-compatible wire format and the OpenAI-compatible path. Available models include <code>claude-opus-4-8</code>, <code>claude-opus-5</code>, <code>gpt-5.6-sol</code> and more. <b><a href="https://agentrouter.org/register?aff=70LM">Grab your $100 →</a></b></sub>
+      <br/><br/>
+      <sub>⚠️ <i>Affiliate link — OmniRoute has no sponsorship or partnership with this provider.</i></sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Know another provider with a generous free signup coupon that benefits OmniRoute users? Open an issue and we'll add it here.</sub>
+
+</details>
 
 <br/>
 
