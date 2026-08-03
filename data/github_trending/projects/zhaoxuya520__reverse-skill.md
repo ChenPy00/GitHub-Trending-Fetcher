@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "42a4520ea203f62c1d53ce019e45acb133a0faf9ac22e15fb992381727cd1c7b"
+  "readme_sha256": "95b2bf9b1231647bbc2051317ea0a43a081daf792c6ff81039d8196f9f661efc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `42a4520ea203f62c1d53ce019e45acb133a0faf9ac22e15fb992381727cd1c7b`
+- README SHA256: `95b2bf9b1231647bbc2051317ea0a43a081daf792c6ff81039d8196f9f661efc`
 
 ## README
 
@@ -153,7 +153,7 @@ Platform-specific docs:
 | .NET / C# | `skills/dotnet-reverse/` |
 | Frontend JS / encrypted params | `skills/js-reverse/` |
 | DSL VM / custom JS opcode VM | `skills/reverse-engineering/dsl-vm-reverse/` |
-| HTTP capture / request replay | anything-analyzer + `js-reverse/` |
+| HTTP capture / request replay | anything-analyzer, Reqable MCP + `js-reverse/` |
 | Malware / YARA | `skills/malware-analysis/` |
 | Penetration testing / scanning | `skills/pentest-tools/` |
 | Attack chain / red-team orchestration | `skills/attack-chain/` |
@@ -266,5 +266,6 @@ Special thanks to the OLLVM deobfuscation ecosystem contributors and everyone wh
 ## Contact
 
 - **Email:** [24781737@qq.com](mailto:24781737@qq.com)
+- **QQ Group:** 942400892
 - **Discord:**
 [reverse-skill](https://discord.gg/TECd3bMRR)

@@ -5,7 +5,7 @@
   "full_name": "lyogavin/airllm",
   "url": "https://github.com/lyogavin/airllm",
   "description": "AirLLM 70B inference with single 4GB GPU",
-  "readme_sha256": "53520c45075936ffb2ec07ccb741cfa08c31e00ead68c5344b8a09a510eab2ac"
+  "readme_sha256": "66eece49d558c5ecb3b2b5b5866d99e7a9e5412979a884fc2c554fd0d3c80ffc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/lyogavin/airllm
 - Description: AirLLM 70B inference with single 4GB GPU
-- README SHA256: `53520c45075936ffb2ec07ccb741cfa08c31e00ead68c5344b8a09a510eab2ac`
+- README SHA256: `66eece49d558c5ecb3b2b5b5866d99e7a9e5412979a884fc2c554fd0d3c80ffc`
 
 ## README
 
@@ -25,7 +25,7 @@
 [**Example notebooks**](#example-python-notebook) | 
 [**FAQ**](#faq)
 
-**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **405B Llama 3.1** on **8GB**, and **DeepSeek-V3 (671B)** on **~12GB**.
+**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **405B Llama 3.1** on **8GB**, **DeepSeek-V3 (671B)** on **~12GB**, and **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, because sparse MoE models stream one expert at a time rather than a whole layer.
 
 <a href="https://github.com/lyogavin/airllm/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a>
 [![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm)
@@ -50,6 +50,8 @@
 * [Bloome — build & run AI agent teams in the cloud, zero setup](https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606)
 
 ## Updates
+[2026/07] **Kimi K3 (2.8T)** support: the largest open-source model runs on a single card in **3.72GB** of VRAM, measured end to end on one RTX 6000 Ada. Per-expert streaming loads only the experts a token actually routes to. K3 brings three requirements of its own: `pip install compressed-tensors flash-attn` (its model code mandates flash attention regardless of what you request), a CUDA 12 build of torch, since no prebuilt flash-attn wheel exists for CUDA 13 yet, and `transformers` 4.56.x, as its remote code does not load on 5.x.
+
 [2026/06] **v3.0**: FP8 model support + the latest models. Run **DeepSeek-V3 (671B) on ~12GB** and **Qwen3-235B on ~3GB**, plus Qwen3, Llama 3.x/4, DeepSeek V2/V3, Phi-4, Gemma and more — all through a single `AutoModel`.
 
 [2024/08/20] v2.11.0: Support Qwen2.5

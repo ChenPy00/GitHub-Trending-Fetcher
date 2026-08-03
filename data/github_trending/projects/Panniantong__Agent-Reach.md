@@ -5,7 +5,7 @@
   "full_name": "Panniantong/Agent-Reach",
   "url": "https://github.com/Panniantong/Agent-Reach",
   "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
-  "readme_sha256": "5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978"
+  "readme_sha256": "73c8b0a81463ce7a190039f5cd28b0dd203be8c590b34bfaef2c7f8904527464"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Panniantong/Agent-Reach
 - Description: Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.
-- README SHA256: `5dbcce4e49c5feeab4696b1dfb00abebb4f07d81814b232979357fec3b60e978`
+- README SHA256: `73c8b0a81463ce7a190039f5cd28b0dd203be8c590b34bfaef2c7f8904527464`
 
 ## README
 
@@ -103,7 +103,7 @@ AI Agent 已经能帮你写代码、改文档、管项目——但你让它去�
 | 📖 **Reddit** | —（没有零配置路径：匿名接口已被封） | 搜索 + 读帖子和评论 | 桌面装 OpenCLI 用浏览器登录态；或 rdt-cli + Cookie |
 | 📘 **Facebook** | — | 搜索、主页、Feed、群组列表 | 桌面装 OpenCLI（复用 Chrome 登录态） |
 | 📷 **Instagram** | — | 用户搜索、Profile、用户最近帖子、Explore | 桌面装 OpenCLI（复用 Chrome 登录态） |
-| 📕 **小红书** | — | 搜索、阅读、评论 | 桌面装 OpenCLI（刷过小红书即可用）；服务器用 xiaohongshu-mcp 扫码 |
+| 📕 **小红书** | — | 搜索、阅读、评论 | OpenCLI 只用用户已有 Chrome 会话；MCP/存量工具用 Cookie-Editor |
 | 💼 **LinkedIn** | Jina Reader 读公开页面 | Profile 详情、公司页面、职位搜索 | 告诉 Agent「帮我配 LinkedIn」 |
 | 💻 **V2EX** | 热门帖子、节点帖子、帖子详情+回复、用户信息 | — | 无需配置 |
 | 📈 **雪球** | 股票行情、搜索股票、热门帖子、热门股票排行 | — | 告诉 Agent「帮我配雪球」 |
@@ -111,7 +111,9 @@ AI Agent 已经能帮你写代码、改文档、管项目——但你让它去�
 
 > **不知道怎么配？不用查文档。** 直接告诉 Agent「帮我配 XXX」，它知道需要什么、会一步一步引导你。
 >
-> 🍪 需要 Cookie/登录态的平台（Twitter、小红书、Reddit、Facebook、Instagram 等），优先让用户在自己的浏览器里登录。OpenCLI 复用 Chrome 登录态；传统 CLI 才需要 Cookie-Editor 导出 Cookie。
+> 🍪 Twitter 只接受用户通过 Cookie-Editor 手工导出的内容。Agent Reach 不替用户执行小红书登录，也不读取小红书浏览器 Cookie；OpenCLI 只使用用户已经存在且明确控制的 Chrome 会话。`agent-reach configure xhs-cookies` 不会把 Cookie 注入 OpenCLI / Chrome；没有现成会话时，改用 Cookie-Editor 导出后配置 xiaohongshu-mcp / 存量工具。
+>
+> Twitter Cookie 保存后仅供 `agent-reach doctor` 检查配置是否齐全；直接运行上游 `twitter` 命令前，仍需在当前进程环境中显式设置 `TWITTER_AUTH_TOKEN` 和 `TWITTER_CT0`。
 >
 > 🔒 Cookie 只存在你本地，不上传不外传。代码完全开源，随时可审查。
 > 💻 本地电脑不需要代理。代理只有部署在服务器上才需要（~$1/月）。
@@ -179,9 +181,9 @@ AI Agent 已经能帮你写代码、改文档、管项目——但你让它去�
 
 ---
 
-## 能力边界：读内容 vs 操作网页
+## 能力边界：读取页面 vs 提取复杂网页数据
 
-有些任务超出"读"的范围：登录后的网页操作、表单提交、多账号隔离、并行浏览器会话、自动化流程中的登录、验证、风控提示等高摩擦环节的人工接手。这类"动手"场景，可以配合 [BrowserAct](https://www.browseract.com/?co-from=Agent&redirect=https://github.com/browser-act/skills/tree/main) 这类浏览器自动化工具——30+ 预制平台技能，支持 Claude Code / OpenClaw / Cursor 等主流 Agent。
+当任务涉及动态页面、筛选、分页、详情页或多步导航时，可以使用 [BrowserAct](https://www.browseract.ai/Agent)。BrowserAct 支持从任意网站提取数据。只需描述所需数据，BrowserAct 就会在真实浏览器中探索并测试网页，生成可靠、可复用的数据采集 Bot，并返回结构化结果。内置隐身浏览和验证码处理，并提供高质量住宅代理。无需代码
 
 ---
 
@@ -230,7 +232,7 @@ channels/
 | 搜全网 | [Exa](https://exa.ai) via [mcporter](https://github.com/nicobailon/mcporter) | — | AI 语义搜索，MCP 接入免 Key |
 | GitHub | [gh CLI](https://cli.github.com) | — | 官方工具，认证后完整 API 能力 |
 | 读 RSS | [feedparser](https://github.com/kurtmckee/feedparser) | — | Python 生态标准选择 |
-| 小红书 | [OpenCLI](https://github.com/jackwener/opencli)（桌面） | [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)（服务器）▸ xhs-cli | xhs-cli 作者已转投 OpenCLI（24K Star）；浏览器登录态零摩擦 |
+| 小红书 | [OpenCLI](https://github.com/jackwener/opencli)（桌面） | [xiaohongshu-mcp](https://github.com/xpzouying/xiaohongshu-mcp)（服务器）▸ xhs-cli | OpenCLI 只用用户已有会话；其余后端用 Cookie-Editor 手工导出 |
 | LinkedIn | [linkedin-scraper-mcp](https://github.com/stickerdaniel/linkedin-mcp-server) | Jina Reader | MCP 服务，浏览器自动化 |
 
 > 📌 这些都是「当前选型」，基于真机实测定期复核。某条路失效了我们换下一条——`agent-reach doctor` 永远告诉你现在走的是哪条。

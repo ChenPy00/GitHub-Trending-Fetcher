@@ -5,7 +5,7 @@
   "full_name": "opengeos/GeoLibre",
   "url": "https://github.com/opengeos/GeoLibre",
   "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-  "readme_sha256": "0233b89b3042be5b78805617ccbd8fc1e354c3682f28e71cc0f752631f965649"
+  "readme_sha256": "c31618a3a00e2f12415b39f8a73f9c46a300eca4f9497e46b48c6f910082a748"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/opengeos/GeoLibre
 - Description: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
-- README SHA256: `0233b89b3042be5b78805617ccbd8fc1e354c3682f28e71cc0f752631f965649`
+- README SHA256: `c31618a3a00e2f12415b39f8a73f9c46a300eca4f9497e46b48c6f910082a748`
 
 ## README
 
@@ -35,11 +35,14 @@
 
 A free and open-source, lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs everywhere you do, in the web browser, on the desktop, on mobile, and inside Jupyter notebooks, all while keeping your data local and private.
 
+It also ships **1,000+ geoprocessing tools** that run *entirely in your browser* on WebAssembly — terrain, hydrology, LiDAR, remote sensing, and vector analysis with no server, no install, and no data ever leaving your machine.
+
 GeoLibre is built with **Tauri v2**, **React**, **TypeScript**, **MapLibre GL JS**, **DuckDB-WASM Spatial**, and **deck.gl**. The same workspace runs as a native desktop app, a native Android app, in any modern web browser, and adapts responsively to mobile and small screens.
 
 - **[Launch GeoLibre Web](https://web.geolibre.app/)** — the full app in your browser, nothing to install
 - **[Download the desktop app](https://geolibre.app/downloads/)** — Windows, macOS, and Linux installers
 - **[Get it on Google Play](https://play.google.com/store/apps/details?id=org.geolibre.app)** — the native Android app
+- **[1,000+ geoprocessing tools](https://geolibre.app/user-guide/processing/#geoprocessing-toolbox)** — the full toolbox, in the browser
 - **[Get started](https://geolibre.app/getting-started/)** — install, run from source, and configure
 - **[Features](https://geolibre.app/features/)** — the complete feature list
 
@@ -98,6 +101,38 @@ Switch bodies from the planet switcher in the Layers panel. See [Demos](https://
 
 - [GeoLibre 1.0: A Free, Open-Source Cloud-Native GIS That Runs Anywhere (Browser, Desktop & Jupyter)](https://youtu.be/87Cm0QagtxI)
 - [Geoprocessing in the Browser: 700+ Free GIS Tools in GeoLibre, Zero Install](https://youtu.be/W32bIQO_nG8)
+
+## Geoprocessing: 1,000+ tools, zero install
+
+[![The GeoLibre Whitebox toolbox running locally with WebAssembly, listing the full catalog of 1,000+ tools with the Regularize Building Footprints tool selected](https://files.opengeos.org/whitebox.webp)](https://files.opengeos.org/whitebox.webp)
+
+**Processing → Whitebox** opens a toolbox of **1,000+ geoprocessing tools** that
+execute in the browser through a WebAssembly runtime with native raster and
+vector I/O. There is no Python sidecar to install and no server to call — the
+tools, your data, and the results all stay on your machine, so the full toolbox
+is available on [GeoLibre Web](https://web.geolibre.app/), on the desktop app,
+and on Android alike.
+
+The tools come from the [Whitebox Next Gen](https://github.com/opengeos/Whitebox-Next-Gen-ArcGIS)
+suite plus GeoLibre's own WASM tools, and are browsable by category straight from
+the Processing menu:
+
+| Category | Tools | Examples |
+| --- | --- | --- |
+| **Vector** | 280 | overlays, buffers, joins, cleaning, topology, generalization |
+| **Raster** | 232 | algebra, filters, reclassification, zonal and focal statistics |
+| **Remote sensing** | 154 | spectral indices, band math, classification, change detection |
+| **Hydrology** | 100 | flow accumulation, watersheds, stream networks, depression filling |
+| **Terrain** | 99 | slope, aspect, hillshade, curvature, ruggedness, viewsheds |
+| **LiDAR** | 65 | point-cloud filtering, ground classification, DEM/DSM generation |
+| **Conversion** | 49 | format translation to cloud-native GeoParquet, PMTiles, and COG |
+| **Network** | 26 | connectivity, cost distance, and routing analysis |
+| **Projection** | 4 | reprojection for raster and vector data |
+
+Any tool is deep-linkable with a `?tool=` URL parameter that preselects it and
+pre-fills its form. See the [Processing Tools guide](https://geolibre.app/user-guide/processing/#geoprocessing-toolbox)
+for details, and [Geoprocessing in the Browser](https://youtu.be/W32bIQO_nG8) for
+a video walkthrough.
 
 ## Documentation
 

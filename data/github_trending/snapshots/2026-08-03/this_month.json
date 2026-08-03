@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat",
+      "project_file": "projects/permissionlesstech__bitchat.md",
+      "rank": 1,
+      "readme_sha256": "83699fa255b69d5d02be7a5bd3b1efd6aa2e6261a28a725d73f15f28a13f3fd6",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 2,
+      "readme_sha256": "1c6ccd764471619735b370c6c4926befe0ac7b150d778f78b120eda64acc7a8f",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 3,
+      "readme_sha256": "411d999c2db457aaba5fe871df42adacde8735113bd9012a9159002e06a2e39f",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Skills for Designers and Engineers.",
+      "full_name": "emilkowalski/skills",
+      "project_file": "projects/emilkowalski__skills.md",
+      "rank": 4,
+      "readme_sha256": "ec4eb6b49f1e186c0cd1ce64e9894ebc3362da6d7667071659c052628b09859f",
+      "url": "https://github.com/emilkowalski/skills"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 5,
+      "readme_sha256": "5288f18036d296c31824e4da49cbe3679a12d32bf8b4ab727f3e4a57353d3185",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 6,
+      "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 7,
+      "readme_sha256": "7eb62864e79448b2c9a5c1c7d8eebf71d935b3e12769326925d0383f470dd546",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 8,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    },
+    {
+      "description": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust. 100% local processing. no cloud required. Meetily (Meetly Ai - https://meetily.ai ) is the #1 Self-hosted, Open-source Ai meeting note taker for macOS & Windows. Understand How to write meeting minutes",
+      "full_name": "Zackriya-Solutions/meetily",
+      "project_file": "projects/Zackriya-Solutions__meetily.md",
+      "rank": 9,
+      "readme_sha256": "86affbc284cc609ba65a4e33b4dd569a2b6519b58e7dcc1824bedbc57c8f8fc6",
+      "url": "https://github.com/Zackriya-Solutions/meetily"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 10,
+      "readme_sha256": "6e72c62629241886f40f400534542335ca6fcd9ad69ff9912e0613e45b73bc59",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-5.6-Sol, Codex. Google - Gemini 3.5 Flash, 3.1 Pro, Antigravity. xAI - Grok, Cursor, Copilot, VS Code, Perplexity, and more. Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 11,
+      "readme_sha256": "169b5e561fa69ec810127e40e5bed0714793b9cac15266ced6d47c97354d8ed4",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Use Codex from Claude Code to review code or delegate tasks.",
+      "full_name": "openai/codex-plugin-cc",
+      "project_file": "projects/openai__codex-plugin-cc.md",
+      "rank": 12,
+      "readme_sha256": "ce66c099deaf61ee3c83b2fdbf51a8d470c90508b2a02855c02898b45016cf16",
+      "url": "https://github.com/openai/codex-plugin-cc"
+    },
+    {
+      "description": "An open source design system that's fully customizable and agent ready",
+      "full_name": "facebook/astryx",
+      "project_file": "projects/facebook__astryx.md",
+      "rank": 13,
+      "readme_sha256": "af36b6c7c68df0ded4a498119ddb248c9da246eefe970eb3116c9f54f5abd156",
+      "url": "https://github.com/facebook/astryx"
+    },
+    {
+      "description": "Build local voice agents with open-source models",
+      "full_name": "huggingface/speech-to-speech",
+      "project_file": "projects/huggingface__speech-to-speech.md",
+      "rank": 14,
+      "readme_sha256": "59ccb85e6e0c6f860de8b6392b8dc5e3bbc59566776f7f03bf0556dedefb3803",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    },
+    {
+      "description": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities",
+      "full_name": "wonderwhy-er/DesktopCommanderMCP",
+      "project_file": "projects/wonderwhy-er__DesktopCommanderMCP.md",
+      "rank": 15,
+      "readme_sha256": "3424949a492431350350e6d072aa9a7c2a6ef387e75541b43fb572aaf0f0ea60",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 16,
+      "readme_sha256": "ccde1b08eeebc82c847aaba44497797929bf44e9302b3dcad5fcc2856a458014",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "The most RAM efficient harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 17,
+      "readme_sha256": "901e7c65df488359f49547ece8586bfef8d47b1ee686cb30e0545f6517ee23ca",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 18,
+      "readme_sha256": "622f309d78f7cd2e348d4bcba53a43a53c6a7ed984b598d1d3c6efc14de14349",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 19,
+      "readme_sha256": "5674900f65a3113c311753e9411ce707d0091a78de15da75f03cfebff7afc7cc",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 20,
+      "readme_sha256": "95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 21,
+      "readme_sha256": "1fb86a26b07d53e151ffa829ff782469c912a2ef67994a67c918e1b411058a46",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Comprehensive production pipeline for quad-modal AI filmmaking with Seedance 2.0",
+      "full_name": "Emily2040/seedance-2.0",
+      "project_file": "projects/Emily2040__seedance-2.0.md",
+      "rank": 22,
+      "readme_sha256": "1ff02e48c2642bbe69a6803e0beaaea57ddfc3a181ae57a73a5c9eeaabb04c26",
+      "url": "https://github.com/Emily2040/seedance-2.0"
+    }
+  ],
+  "snapshot_date": "2026-08-03",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

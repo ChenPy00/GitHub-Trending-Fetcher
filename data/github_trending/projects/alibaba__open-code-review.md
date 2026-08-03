@@ -4,16 +4,16 @@
   "name": "open-code-review",
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
-  "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed"
+  "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+  "readme_sha256": "82300d53d2041dea852507ce4e5a74227eb2093dceec8839cb8aaf25bc957a21"
 }
 ```
 
 # alibaba/open-code-review
 
 - URL: https://github.com/alibaba/open-code-review
-- Description: Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `53feac6ce738122eb893102ea330047a359bbd774a9e70a2a7fbc60460c500ed`
+- Description: Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
+- README SHA256: `82300d53d2041dea852507ce4e5a74227eb2093dceec8839cb8aaf25bc957a21`
 
 ## README
 
@@ -163,6 +163,10 @@ ocr review --commit abc123
 # Resume an interrupted range or commit review
 ocr session list
 ocr review --from main --to feature-branch --resume <session-id>
+
+# Print the review comments recorded in a saved session
+ocr session comments <session-id>
+ocr session comments --severity critical,high --json <session-id>
 
 # Full-file scan — review whole files instead of a diff (no git history needed)
 ocr scan                          # scan the entire repository

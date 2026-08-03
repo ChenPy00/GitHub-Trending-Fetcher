@@ -4,16 +4,16 @@
   "name": "skills",
   "full_name": "emilkowalski/skills",
   "url": "https://github.com/emilkowalski/skills",
-  "description": "Skills for Design Engineers.",
-  "readme_sha256": "1ccd969c02ff7c34065401bdf550e67057f8b790d3cc1aeedf09cd08abfa844f"
+  "description": "Skills for Designers and Engineers.",
+  "readme_sha256": "ec4eb6b49f1e186c0cd1ce64e9894ebc3362da6d7667071659c052628b09859f"
 }
 ```
 
 # emilkowalski/skills
 
 - URL: https://github.com/emilkowalski/skills
-- Description: Skills for Design Engineers.
-- README SHA256: `1ccd969c02ff7c34065401bdf550e67057f8b790d3cc1aeedf09cd08abfa844f`
+- Description: Skills for Designers and Engineers.
+- README SHA256: `ec4eb6b49f1e186c0cd1ce64e9894ebc3362da6d7667071659c052628b09859f`
 
 ## README
 
@@ -21,7 +21,7 @@
 <img width="320" height="168" alt="opengraph-image-pwu6ef" src="https://github.com/user-attachments/assets/a405a37f-1a1a-4e8d-8fd6-269ee6d4fba6" />
 </a>
 
-# Skills For Design Engineers
+# Skills For Designers and Engineers
 
 [![skills.sh](https://skills.sh/b/emilkowalski/skills)](https://skills.sh/emilkowalski/skills)
 

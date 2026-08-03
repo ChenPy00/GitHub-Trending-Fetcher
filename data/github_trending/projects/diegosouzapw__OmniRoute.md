@@ -5,7 +5,7 @@
   "full_name": "diegosouzapw/OmniRoute",
   "url": "https://github.com/diegosouzapw/OmniRoute",
   "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-  "readme_sha256": "366afd47bf4da84c918d7c2a3df76b6d5235dcba909f2cac3bf64c2ad940b8a3"
+  "readme_sha256": "1c6ccd764471619735b370c6c4926befe0ac7b150d778f78b120eda64acc7a8f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/diegosouzapw/OmniRoute
 - Description: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors
-- README SHA256: `366afd47bf4da84c918d7c2a3df76b6d5235dcba909f2cac3bf64c2ad940b8a3`
+- README SHA256: `1c6ccd764471619735b370c6c4926befe0ac7b150d778f78b120eda64acc7a8f`
 
 ## README
 
@@ -262,7 +262,7 @@ curl http://localhost:20128/v1/chat/completions \
   </tr>
   <tr>
     <td align="center" width="150">
-      <a href="https://cheaperinference.com">
+      <a href="https://cheaperinference.com/?utm_source=omniroute">
         <img src="public/providers/cheaperinference.svg" width="64" alt="Cheaper Inference"/>
       </a>
       <br/><b>Cheaper Inference</b><br/><sub>cheaperinference.com</sub><br/><br/>
@@ -271,7 +271,7 @@ curl http://localhost:20128/v1/chat/completions \
     <td>
       Thanks to <b>Cheaper Inference</b>, an OmniRoute Open Source Friend, for backing this project! Cheaper Inference is a cost-ranked gateway that resells 42 frontier models — Claude, GPT-5.x, Gemini, Kimi K3, GLM, DeepSeek, Grok and MiniMax — behind one OpenAI-compatible endpoint, routing each request to the cheapest eligible provider without ever charging above the model maker's list price.
       <br/><br/>
-      <b>First-class support in OmniRoute:</b> Chat Completions, the native <code>/v1/responses</code> endpoint, vision, tool calling and 3 image models (<code>grok-imagine</code>, <code>nano-banana-pro</code>, <code>nano-banana-2</code>, reachable as <code>cheaperinference/&lt;model&gt;</code>). <a href="https://cheaperinference.com"><b>Get an API key →</b></a>
+      <b>First-class support in OmniRoute:</b> Chat Completions, the native <code>/v1/responses</code> endpoint, vision, tool calling and 3 image models (<code>grok-imagine</code>, <code>nano-banana-pro</code>, <code>nano-banana-2</code>, reachable as <code>cheaperinference/&lt;model&gt;</code>). <a href="https://cheaperinference.com/?utm_source=omniroute"><b>Get an API key →</b></a>
     </td>
   </tr>
 </table>

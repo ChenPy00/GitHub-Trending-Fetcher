@@ -5,7 +5,7 @@
   "full_name": "facebook/astryx",
   "url": "https://github.com/facebook/astryx",
   "description": "An open source design system that's fully customizable and agent ready",
-  "readme_sha256": "68c31232869bf6674bc128e800fccaca42881d8424c17ab87e9a6012cf0ecb58"
+  "readme_sha256": "af36b6c7c68df0ded4a498119ddb248c9da246eefe970eb3116c9f54f5abd156"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/facebook/astryx
 - Description: An open source design system that's fully customizable and agent ready
-- README SHA256: `68c31232869bf6674bc128e800fccaca42881d8424c17ab87e9a6012cf0ecb58`
+- README SHA256: `af36b6c7c68df0ded4a498119ddb248c9da246eefe970eb3116c9f54f5abd156`
 
 ## README
 
@@ -78,7 +78,7 @@ For reliable CLI access, add a script to your `package.json`:
 
 ```json
 "scripts": {
-  "astryx": "node node_modules/@astryxdesign/cli/bin/astryx.mjs"
+  "astryx": "node node_modules/@astryxdesign/cli/clients/cli/bin/astryx.mjs"
 }
 ```
 

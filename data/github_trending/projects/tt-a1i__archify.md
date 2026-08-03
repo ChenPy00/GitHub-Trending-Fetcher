@@ -4,16 +4,16 @@
   "name": "archify",
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
-  "description": "Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export",
-  "readme_sha256": "ea58b449c349967035bd454410dd0eff8afb1efa6976a96c470b3c85272c386d"
+  "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+  "readme_sha256": "5288f18036d296c31824e4da49cbe3679a12d32bf8b4ab727f3e4a57353d3185"
 }
 ```
 
 # tt-a1i/archify
 
 - URL: https://github.com/tt-a1i/archify
-- Description: Any agent Skill: generate beautiful architecture diagrams with dark/light theme toggle and PNG/JPEG/WebP/SVG export
-- README SHA256: `ea58b449c349967035bd454410dd0eff8afb1efa6976a96c470b3c85272c386d`
+- Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
+- README SHA256: `5288f18036d296c31824e4da49cbe3679a12d32bf8b4ab727f3e4a57353d3185`
 
 ## README
 
@@ -25,66 +25,63 @@
   <a href="https://trendshift.io/repositories/31352?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-31352" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/31352" alt="Archify on Trendshift" width="250" height="55"/></a>
 </p>
 
+![Archify product preview](docs/assets/archify-readme-hero.png)
+
+# Archify
+
+**Turn a codebase or system description into a polished, interactive system map — directly in chat.**
+
+Archify is an agent skill for Raven, Cursor, Claude Code, Codex CLI, and OpenCode. Give it a system description or repository; get an interactive, shareable technical map.
+
+- **Open it and present** — five technical diagram types, four visual presets, dark/light themes, and optional finite motion
+- **Review architecture changes before merge** — compare two validated snapshots as Before / Delta / After, with exact added, removed, changed, moved, and rerouted facts
+- **Every interaction stays grounded** — search nodes, optionally open revision-verified source, trace upstream/downstream authored reach and exact routes, compare roles, and play guided stories without inventing topology
+- **One file, ready to trust and share** — typed JSON IR and deterministic checks produce self-contained HTML plus PNG, SVG, WebM, and 1200×630 share cards
+
+![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
+![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C3AED?style=flat-square)
+![Stable Version](https://img.shields.io/badge/version-2.13.0-0891b2?style=flat-square)
+
+**Current stable version:** `v2.13.0`. See [Changelog](CHANGELOG.md#2130--2026-08-03).
+
+**[Project page](https://tt-a1i.github.io/archify/)** · **[Scenario guide](https://tt-a1i.github.io/archify/guide.html)** · **[Proof Lab](https://tt-a1i.github.io/archify/gallery.html)**
+
+```bash
+npx skills add tt-a1i/archify -g
+```
+
+Using Cursor? Open the [agent-aware quick start](https://tt-a1i.github.io/archify/start.html?agent=cursor&type=architecture) for exact global and project commands.
+
+Then ask your agent: `Use archify to map this repository's runtime architecture.`
+
+## ❤️ Sponsor
+
+<a href="https://github.com/EverMind-AI/Raven"><img src="docs/assets/sponsors/evermind-archify-raven.png" alt="Archify × Raven — Map the system. Keep the context." width="100%"></a>
+
+Sponsored by [**EverMind**](https://github.com/EverMind-AI), building memory infrastructure for agents. Its memory-first, self-evolving agent harness [**Raven**](https://github.com/EverMind-AI/Raven) supports Archify as a Skill, bringing verified, interactive system maps into Raven workflows.
+
+## See Archify in action
+
+These are generated Archify artifacts, not product mockups. Click a frame to open its live, shareable state.
+
 <p align="center">
   <a href="https://tt-a1i.github.io/archify/gallery.html"><img src="docs/assets/archify-live-proof.gif" alt="Three verified Archify artifacts moving through Signal Flow, Blueprint, and Classic presets" width="960"/></a>
   <br/>
   <sub><strong>Three real generated artifacts.</strong> Signal Flow · Blueprint · Classic · <a href="https://tt-a1i.github.io/archify/gallery.html">open the interactive Proof Lab ↗</a></sub>
 </p>
 
-# Archify
+| Guided story | Route probe | Semantic lens |
+|---|---|---|
+| [![Agent workflow playing one authored chapter](docs/assets/archify-demo-story.png)](https://tt-a1i.github.io/archify/gallery/artifacts/agent-tool-call.workflow.html?theme=dark&present=1&play=1#view=happy-path) | [![Cache-miss sequence showing the Web App to Postgres route](docs/assets/archify-demo-route.png)](https://tt-a1i.github.io/archify/gallery/artifacts/cache-miss.sequence.html?theme=dark&present=1#route=web~db) | [![Production architecture comparing backend and database roles](docs/assets/archify-demo-lens.png)](https://tt-a1i.github.io/archify/gallery/artifacts/production-deployment.architecture.html?theme=dark&present=1#lens=backend~database) |
+| Play one finite named chapter. | Inspect the shortest authored directed path. | Compare real traffic between semantic roles. |
 
-**Generate beautiful architecture, technical workflow, sequence, data-flow, and lifecycle diagrams in chat. Switch dark / light. Add motion. Export crisp PNG / JPEG / WebP / SVG / WebM.**
+The [Proof Lab](https://tt-a1i.github.io/archify/gallery.html) contains all 11 checked-in scenarios, their JSON sources, named views, and validation receipts.
 
-Archify is an agent skill for Claude, Codex CLI, and opencode. It turns a plain-English description of your system or process into a polished, self-contained technical diagram — a single HTML file you can open, toggle themes on, copy to the clipboard, and export at maximum resolution.
+### A real repository, mapped from source
 
-- **No design skills needed** — describe your architecture in English, get a diagram
-- **Workflow, sequence, data-flow, and lifecycle diagrams too** — technical flows, approvals, tool calls, CI/CD, runbooks, request call chains, data pipelines, PII boundaries, and state machines can be drawn
-- **Built-in theme toggle** — one click between dark and light, persists across sessions
-- **Three contract-backed visual presets** — keep the stable `classic` default, choose luminous `signal-flow` for demos, or use precise `blueprint` for deployment and design reviews
-- **Semantic Sigils at a glance** — every renderer gives each frontend, backend, database, cloud, security, stream, external, and lifecycle node a small theme-aware inline SVG role stamp; no vendor logo pack, network request, or new schema field is required
-- **Semantic Flow Tokens on real paths** — exact-edge previews carry a compact call, data, event, security, or lifecycle-state cue along the authored source-to-target geometry; the finite desktop reading aid respects Still/reduced motion and stays out of canonical exports
-- **Semantic Story Carrier** — guided Story Beats reuse those same cues on the one exact authored relationship, so the camera move also communicates what is moving; labeled edges are deduplicated by stable identity, and passive embeds/Still/exports stay static
-- **Control motion without losing meaning** — trace-enabled artifacts spend one finite ambient pass, settle back to their authored solid/security/async line styles, and expose one 44px `Live` / `Still` switch; Story, Route, Lens, and previews retain deliberate one-shot motion while `Still` pauses playback at a complete static reading
-- **Read the right amount at every zoom** — `MAP` keeps the whole system quiet, `READ` reveals responsibilities and relationship labels, and `FULL` adds tags, notes, steps, and classifications; semantic focus reveals the exact detail it needs automatically
-- **Discover the artifact without reading docs first** — press <kbd>?</kbd> for Diagram Guide: exact node, relationship, and story counts plus working actions for Find, Route, Radar, Lens, Story, and Presentation
-- **Preview intent before committing** — hover or keyboard-focus any node to animate only its direct incoming and outgoing paths; click or press Enter to lock the same one-hop context into Semantic Passport
-- **Inspect and play any real route** — press <kbd>R</kbd> or use `PATH`, search valid starts and reachable destinations, then inspect any stop or play one finite Route Journey over the exact shortest authored directed path before copying its endpoint-only `#route=` link
-- **Trace and share named relationships directly** — hover or keyboard-focus any authored line to preview its real source, path, and target; click, tap, Enter, or Space pins that exact Lens row, and an optional authored relationship `id` makes it a durable `#relation=` link
-- **Understand and share the focused node** — Semantic Passport shows its renderer-owned kind, responsibility, structural scope, authored tag, and stable ID; copy the existing `#focus=<id>` link in one click
-- **Find any node fast** — press <kbd>/</kbd> to search labels, responsibilities, scopes, tags, kinds, or stable IDs; selecting a result resets the viewport, reveals it in a contained wide canvas, and opens the same shareable semantic focus
-- **Choose, inspect, anticipate, play, and share a path-aware guided story** — a compact Story Shelf keeps Play and every named chapter visible while giving the cold overview back to the diagram, then expands the complete Director after deliberate entry; every Story Trail stop is a native beat control, and Story Horizon distinguishes the one exact next stop from farther future state
-- **Follow the story without losing local context** — reader-started playback frames the previous, current, and next authored stops, settles before advancing, and yields immediately to pause, manual navigation, `Still`, or reduced motion
-- **Let meaning drive the camera** — node neighborhoods, relationship jumps, Finder results, and guided-story steps smoothly frame themselves with safe padding; manual zoom or pan instantly takes control and pauses playback
-- **Keep your bearings on large diagrams** — press <kbd>M</kbd> for Semantic Radar: a live, type-colored overview that shows the current viewport, focuses nodes by stable ID, and supports click, drag, and arrow-key desktop navigation
-- **Compare system roles without losing the map** — press <kbd>L</kbd> for a counted Semantic Lens: select one kind to reveal its real traffic or two kinds to count only their direct authored relationships; a restrained direction signal travels only on those exact matched edges, and the stable `#lens=` view is ready to copy
-- **Read exact legends as live maps** — architecture, workflow, and lifecycle type rows show compiled node counts; hover or keyboard-focus for a quiet topology preview, then click, tap, Enter, or Space to pin that kind in Semantic Lens; ambiguous edge and mixed-semantics legends stay honestly static
-- **Share a chapter that explains itself once** — add `?play=1#view=...` to show its title, exact Story Trail route, live state, and progress on a readable per-beat cadence, then leave it still and readable; reduced-motion readers get the same chapter labeled `Still`
-- **Enter Presentation Stage** — press <kbd>F</kbd> to give the live diagram the viewport, keep the story controls, and share the exact stage with `?present=1&play=1#view=...`; Escape unwinds the current view/focus before leaving the stage
-- **Dependency-free pan and zoom** — inspect dense diagrams with the built-in view controls while exports remain clean, canonical full-diagram artifacts
-- **Copy PNG to clipboard** — one click, paste straight into Slack / Notion / GitHub
-- **Ultra-crisp image export** — PNG / JPEG / WebP rendered natively at up to 4× source resolution (no upsampling blur), or SVG for true vector
-- **Shareable motion export** — trace-enabled diagrams record a six-second WebM directly in the browser, with no Puppeteer or ffmpeg dependency
-- **SVG follows system dark/light** — exported SVGs ship with both variable sets + `@media (prefers-color-scheme)`, so dropping one into a GitHub README makes it follow the reader's color preference (no more two PNGs wrapped in `<picture>`)
-- **Validation loop built in** — renderer-backed diagrams go through JSON schema validation and established layout checks; explicitly selecting `standard` or `showcase` also enables Clean Flow and structural border-run gates, while profile-less v1 files remain backward-compatible. `showcase` additionally rejects sub-8px route hooks, sub-16px interior turns, and unrelated X crossings without misclassifying ordinary endpoint stubs
-- **Semantic tech labels** — describe components as `aws.lambda`, `postgres`, `redis`, `github-actions`, `openai`, etc.; Archify maps them to the right visual category without needing a full icon library
-- **Self-contained HTML** — the generated file has zero dependencies, share by sending it
-- **Iterate by chat** — "add Redis", "move auth to the left", "use emerald for the API"
+[![MCO runtime architecture generated from the public mco-org/mco repository](docs/assets/mco-runtime-share-card.png)](https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark&present=1#view=dispatch-path)
 
-![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
-![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C3AED?style=flat-square)
-![Version](https://img.shields.io/badge/version-2.11.0-0891b2?style=flat-square)
-
-**Project page:** [tt-a1i.github.io/archify](https://tt-a1i.github.io/archify/) · **Scenario guide:** [tt-a1i.github.io/archify/guide.html](https://tt-a1i.github.io/archify/guide.html) · **Generated proof gallery:** [gallery.html](https://tt-a1i.github.io/archify/gallery.html)
-
-The project page puts real generated diagram canvas in the first viewport: one bounded, interactive proof rather than a mockup or rotating carousel.
-
-**Start in 60 seconds:**
-
-```bash
-npx skills add tt-a1i/archify -g
-```
-
-Then ask your agent: `Use archify to map this repository's runtime architecture.`
+Archify traced [`mco-org/mco`](https://github.com/mco-org/mco) at `9f1a1cf` and produced this checked map. **[Open it ↗](https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark&present=1#view=dispatch-path)** · [trace reach ↗](https://tt-a1i.github.io/archify/cases/mco-runtime.architecture.html?theme=dark#focus=router&reach=downstream) · [typed source](docs/cases/mco-runtime.architecture.json)
 
 ## Preview
 
@@ -94,11 +91,21 @@ Same diagram, two themes, one click to switch:
 |---|---|
 | ![Dark theme](docs/assets/archify-dark.png) | ![Light theme](docs/assets/archify-light.png) |
 
-The Export menu — Copy PNG to clipboard plus static and motion downloads (all raster exports at up to 4× source resolution):
+The Export menu copies PNG to the clipboard and downloads static or motion formats:
 
 ![Export menu](docs/assets/archify-menu.png)
 
-Example file: [`examples/web-app.html`](examples/web-app.html). Download or clone the repository, open the file locally, then press <kbd>?</kbd> for Diagram Guide, <kbd>R</kbd> to probe a route, <kbd>/</kbd> to find a node, <kbd>M</kbd> for Semantic Radar, <kbd>L</kbd> for Semantic Lens, <kbd>F</kbd> for Presentation Stage, <kbd>T</kbd> to toggle themes, or <kbd>E</kbd> to open Export.
+Use **Copy Share Card** when you want a canonical 1200×630 image for a README, release, or social post.
+
+After tracing a route, **Export → Route Share Card** downloads that authored path as a 1200×630 PNG with the full diagram retained for context.
+
+![Route Share Card showing the exact Users to API Server path with the full architecture retained as context](docs/assets/archify-route-share-card.png)
+
+After tracing authored `Upstream` or `Downstream` reach, **Export → Reach Share Card** captures that exact reading without claiming runtime impact.
+
+![MCO downstream Reach Share Card showing authored relationships from Command Router](docs/assets/mco-runtime-reach-share-card.png)
+
+Open [`examples/web-app.html`](examples/web-app.html) locally to try the complete viewer.
 
 ## Quick start
 
@@ -108,7 +115,11 @@ Example file: [`examples/web-app.html`](examples/web-app.html). Download or clon
 npx skills add tt-a1i/archify -g
 ```
 
-This installs Archify for supported agents through the open-source [`skills` CLI](https://github.com/vercel-labs/skills).
+For an explicit, non-interactive Cursor install:
+
+```bash
+npx -y skills add tt-a1i/archify --skill archify --agent cursor --global --copy --yes
+```
 
 To try it without a permanent install:
 
@@ -116,15 +127,13 @@ To try it without a permanent install:
 npx skills use tt-a1i/archify@archify --agent codex
 ```
 
-Replace `codex` with `claude-code` or `opencode` when needed.
+The [agent switcher](https://tt-a1i.github.io/archify/start.html?agent=cursor&type=architecture) covers `cursor`, `codex`, `claude-code`, and `opencode`. For Raven's manual ZIP install, extract [`archify.zip`](archify.zip) into `~/.raven/workspace/skills`; it yields `~/.raven/workspace/skills/archify`. Raven is not a switcher target.
 
-### 2. Ask for one clear view
-
-Start with an overview instead of asking one diagram to explain the entire repository:
+### 2. Ask for one bounded view
 
 ```text
 Analyze this repository, then use archify to create a high-level runtime architecture diagram.
-Show 8–12 core components, one primary request or data path, external dependencies, and trust boundaries.
+Show 8–12 core components, one primary path, external dependencies, and trust boundaries.
 Put supporting detail in cards instead of adding more edges.
 ```
 
@@ -132,230 +141,160 @@ For a focused flow:
 
 ```text
 Use archify to draw this login flow: Browser -> Web App -> API -> JWT validation ->
-Redis session lookup -> PostgreSQL fallback. Make the cache-miss path secondary.
+Redis session lookup -> PostgreSQL fallback. Keep the cache-miss path secondary.
 ```
 
 ### 3. Refine in chat
 
-Ask for focused changes such as `add Redis`, `move auth to the left`, or `highlight the rollback path` while the source JSON remains available in the session.
+Continue with focused requests such as `add Redis`, `move auth to the left`, or `highlight the rollback path`. Archify keeps the typed source available for targeted iteration.
 
-Archify returns a self-contained HTML file that opens in any modern browser and exports to PNG, JPEG, WebP, SVG, or WebM when trace motion is enabled.
-
-## Diagram types
-
-Choose the view that matches the question you need to answer:
-
-Not sure which view fits? Use the [interactive scenario guide](https://tt-a1i.github.io/archify/guide.html), or ask the zero-dependency CLI. It recommends one of 11 bounded recipes and returns the required evidence, usage boundary, presentation settings, and a copy-ready prompt:
-
-```bash
-node archify/bin/archify.mjs guide "Show an API request with Redis cache miss"
-node archify/bin/archify.mjs guide "Map Kafka topics, consumer groups, replay, and DLQ" --json
-```
+## Choose the right diagram
 
 | Type | Best for | Include in your prompt |
 |---|---|---|
 | **Architecture** | Components, services, storage, boundaries | Scope, core components, primary path |
 | **Workflow** | CI/CD, approvals, tool calls, runbooks | Participants, order, branches, exceptions |
 | **Sequence** | API calls, cache fallback, auth, async traces | Callers, callees, returns, timing |
-| **Data Flow** | Pipelines, lineage, PII, downstream consumers | Sources, transforms, stores, boundaries |
-| **Lifecycle** | State machines, retries, waits, terminal states | States, events, retry and cancellation paths |
+| **Data Flow** | Pipelines, lineage, PII, consumers | Sources, transforms, stores, boundaries |
+| **Lifecycle** | States, retries, waits, terminal outcomes | States, events, retry and cancellation paths |
 
-Architecture examples:
+For a production deployment review, Architecture can optionally enable the
+`deployment-ownership` engineering profile. It fails closed when owners,
+single-region placement, private database scope, or named boundary crossings
+are missing. It is never enabled silently and validates authored facts—not live
+infrastructure. See the [checked deployment proof](https://tt-a1i.github.io/archify/gallery.html#proof-deployment-ownership).
 
-- [`examples/web-app.html`](examples/web-app.html) — compact SaaS architecture
-- [`examples/archify-repo.html`](examples/archify-repo.html) — Archify's skill → JSON IR → renderer pipeline
-- [`examples/archify-repo-grid.html`](examples/archify-repo-grid.html) — explicit `row` / `col` grid placement
-- [`examples/maka-architecture.html`](examples/maka-architecture.html) — a third-party desktop agent workbench
+For design or PR review, Architecture Delta compares validated Before / Delta / After snapshots with a machine receipt. Select an exact authored change or play one finite Review—viewer-only, with no impact, risk, or merge-safety inference.
 
-Workflow uses swimlanes, a clear happy path, and restrained secondary branches.
+`node archify/bin/archify.mjs compare architecture base.json head.json architecture-delta.html --json`
+
+[![Architecture Delta showing added, removed, changed, and moved authored facts](docs/assets/architecture-delta-proof.jpg)](examples/checkout-platform-delta.html)
+
+Not sure which one fits? Use the [interactive scenario guide](https://tt-a1i.github.io/archify/guide.html), or ask the zero-dependency CLI:
+
+```bash
+node archify/bin/archify.mjs guide "Show an API request with Redis cache miss"
+node archify/bin/archify.mjs guide "Map Kafka topics, consumer groups, replay, and DLQ" --json
+```
+
+Workflow keeps the happy path clear across lanes:
 
 ![Workflow example](docs/assets/archify-workflow.png)
 
-Sequence focuses on one interaction over time.
+Sequence explains one interaction over time:
 
 ![Sequence example](docs/assets/archify-sequence.png)
 
-Data Flow makes movement, transformation, and sensitivity boundaries explicit.
+Data Flow makes movement and sensitivity boundaries explicit:
 
 ![Data Flow example](docs/assets/archify-dataflow.png)
 
-Lifecycle separates normal progress, wait states, retries, and terminal outcomes.
+Lifecycle separates progress, waits, retries, and terminal outcomes:
 
 ![Lifecycle example](docs/assets/archify-lifecycle.png)
 
+Architecture examples: [`web-app`](examples/web-app.html) · [`Archify pipeline`](examples/archify-repo.html) · [`grid placement`](examples/archify-repo-grid.html) · [`desktop agent`](examples/maka-architecture.html)
+
 ## Why Archify
 
-- **Layout judgment over generic auto-layout** — the agent chooses hierarchy, spacing, routes, and emphasis for the story being told.
-- **Typed JSON IR** — architecture, workflow, sequence, data-flow, and lifecycle diagrams use renderer-backed schemas.
-- **Validation before delivery** — schema, layout, HTML, and SVG checks catch malformed or unreadable output early; after an explicit quality profile is selected, Clean Flow names exact node pass-through geometry and the composition receipt rejects structural border-riding, classifies final visible relationship crossings, separates endpoint stubs from cramped turns, and keeps bend/stretch evidence neutral until it is role-aware.
-- **Portable output** — one HTML file, no server or framework required, with local font fallbacks when external fonts are unavailable.
-- **Semantic technology labels** — names such as `postgres`, `redis`, `aws.lambda`, and `github-actions` guide visual categorization without a heavyweight icon runtime.
+- **Layout judgment over generic auto-layout** — the agent chooses hierarchy, spacing, routes, and emphasis; shared automatic endpoints spread deterministically instead of piling arrows on one midpoint.
+- **Typed JSON IR** — every renderer-backed mode has a schema and reproducible source.
+- **Atomic validation before delivery** — schema, layout, HTML/SVG, route, and label-to-route clearance checks must all pass before a showcase artifact replaces the last known good output.
+- **Failures come with a repair receipt** — `validate --json` and `deliver --json` return stable rule codes, the exact subject, measured evidence, and only supported repair controls instead of a Node stack or an unstructured retry guess.
+- **Last-good live preview** — an optional desktop loop watches one JSON file, refreshes only after the latest candidate passes every gate, and keeps the previous verified diagram visible when a save is incomplete or invalid.
+- **Truthful interaction** — focus, upstream/downstream reach, exact routes, role comparison, and stories reuse authored nodes and relationships instead of inventing topology or claiming runtime impact.
+- **Source evidence, only when requested** — Evidence-backed Architecture nodes mark themselves `SRC n` and open Git-verified files and line ranges pinned to one public commit; ordinary artifacts stay source-free.
+- **Portable by default** — the result is one HTML file; exports remain full-diagram and free of temporary viewer state.
 
-Archify is not a general-purpose drawing editor or a Mermaid theme. Its job is to turn technical intent into a polished communication artifact.
-
-## Installation options
-
-The primary installation command is:
-
-```bash
-npx skills add tt-a1i/archify -g
-```
-
-The same [`archify.zip`](archify.zip) can also be installed manually:
-
-| Surface | Install location or method | Capability |
-|---|---|---|
-| **Claude Code** | `~/.claude/skills/` or `.claude/skills/` | Full renderer + validation workflow |
-| **Codex CLI** | `~/.agents/skills/` or `.agents/skills/` | Full renderer + validation workflow |
-| **opencode** | `~/.config/opencode/skills/`, `.opencode/skills/`, or `.agents/skills/` | Full renderer + validation workflow |
-| **Claude.ai** | Upload `archify.zip` under Settings → Capabilities → Skills | Depends on Node.js access in the sandbox |
-| **Project Knowledge** | Upload `archify.zip` to the project | Prompt-driven architecture mode only |
-
-Manual installation means unzipping the archive into the matching directory. No `npm install` is required for the packaged skill.
+Archify is not a general-purpose drawing editor or a Mermaid theme. It turns technical intent into a communication artifact.
 
 ## How it works
 
-Renderer-backed diagrams follow a small, inspectable loop:
-
 | Step | What happens |
 |---|---|
-| **Generate JSON IR** | The agent creates a typed description instead of hand-editing final SVG markup. |
-| **Validate** | Bundled standalone validators check the schema without installing runtime dependencies. |
-| **Render** | The selected renderer produces the HTML/SVG artifact. |
-| **Check** | Layout and artifact checks catch invalid coordinates, malformed SVG, and unsafe routes. |
-| **Iterate** | Targeted changes are applied to the JSON IR while unrelated structure stays stable. |
+| **Generate** | The agent creates typed JSON IR from your description. |
+| **Validate** | Bundled validators and layout rules check the source; failures identify the exact local repair in machine-readable JSON. |
+| **Preview (optional)** | A loopback-only desktop session watches one source and reloads only verified revisions; failures keep the last-good artifact. |
+| **Deliver** | A same-directory candidate is rendered and checked; only a passing artifact atomically replaces the target, then optional `--open` launches that exact file. |
+| **Iterate** | The agent updates the source while unrelated structure stays stable. |
 
-The packaged CLI exposes the same workflow. From a repository checkout:
+Useful repository commands:
 
 ```bash
 cd archify
 node bin/archify.mjs doctor
 node bin/archify.mjs demo /tmp/archify-demo
 node bin/archify.mjs guide "Show CI/CD checks, approval, deploy, and rollback"
-node bin/archify.mjs render workflow examples/agent-tool-call.workflow.json /tmp/workflow.html
-node bin/archify.mjs validate workflow examples/agent-tool-call.workflow.json --json
 node bin/archify.mjs validate workflow examples/agent-tool-call.workflow.json --quality showcase --json
-node bin/archify.mjs check /tmp/workflow.html
-node bin/archify.mjs examples
+node bin/archify.mjs preview workflow examples/agent-tool-call.workflow.json /tmp/workflow.html --quality showcase
+node bin/archify.mjs deliver workflow examples/agent-tool-call.workflow.json /tmp/workflow.html --quality showcase --open --json
 ```
 
-Optional trace animation can be enabled for demos:
+`preview` is an explicit desktop authoring mode, not a default background service: it binds only to `127.0.0.1` on a random port, watches the one named JSON file, preserves the last verified output through failures, and stops with Ctrl-C. Add `--no-open` for tests or when you will open the printed local URL yourself. It adds no runtime to the generated HTML.
+
+Use `deliver --open` for a one-shot interactive local handoff. It is off by default, runs only after the verified artifact is committed, and never turns a successful delivery into a failure when the OS opener is unavailable; JSON stays on stdout and the absolute manual-open path goes to stderr.
+
+On failure, `validate --json` and `deliver --json` still emit exactly one JSON object. Read `diagnostics[]` and change only the named subject using its `supportedFixes`; do not rewrite the whole diagram or exceed the Skill's two focused correction rounds. Deterministic diagnostics remain separate from visual review.
+
+Optional motion and presentation styling are explicit:
 
 ```json
 {
   "meta": {
-    "title": "Release Flow",
     "animation": "trace",
     "visual_preset": "signal-flow"
   }
 }
 ```
 
-`visual_preset` is optional: `classic` remains the stable default, `signal-flow` adds a luminous layered canvas and tighter motion styling, and `blueprint` adds a high-contrast drafting grid, squared review materials, and precise boundary treatment without changing geometry. Trace-enabled artifacts expose one `Live` / `Still` Motion Governor: ambient motion runs once, settles back to authored relationship styles, and yields to stronger semantic actions; `Still` pauses active Story playback without auto-restarting it, and the reader choice is remembered when browser storage is available. Dynamic `prefers-reduced-motion` and hidden-page changes use the same safe stop path; omit `animation` for a truly static diagram with no motion control.
+Omit `animation` for a truly static diagram. `classic` remains default; `editorial` adds a warm publication look.
 
-Optional `meta.views` turns one stable overview into a short guided reading sequence. Each view contains a unique ID, label, an ordered list of existing semantic node IDs, and an optional note; it cannot move or restyle the underlying diagram. On the untouched overview, Story Shelf keeps the compact guided-view identity, Play, and every authored chapter visible while hiding director-only controls that cannot yet act; selecting a chapter, starting playback, or restoring a valid deep link expands the complete Director, while Show all or Escape returns to the shelf. A Named Chapter Rail exposes every authored label and two-digit position. Before selection, candidates truthfully read `=0 +N −0` from the overview; once a chapter is current, it keeps its stop count while every other candidate shows the exact `=stay +enter −leave` focus delta. Fine-pointer hover or keyboard focus applies that same static Chapter Delta Preview without changing the current chapter, camera, Story Trail, or URL; Escape dismisses it in place, while touch still activates on the first tap. Selecting a chapter delegates to the same guided-view state as previous/next and `#view=` links. When two chapters share a real stable-ID node, Shared Anchor Handoff holds that node in place, names the continuity, then settles one interruptible camera move; when none exists, Archify uses an explicit `no-anchor` retarget instead of inventing continuity. Story Beat Navigator renders every resolved ordered stop as a native control and classifies only the exact authored edge(s) between consecutive stops as forward, reverse, grouped, or multiple. Story Follow Camera frames the current authored window, while Story Director Strip names its exact route, edge label, responsibility, and context without inventing a relationship. Desktop Presentation playback keeps Previous, Next, and Pause but temporarily removes secondary story chrome, then restores it on pause. Direct activation pins that beat without changing the chapter, focus set, camera, scroll, or URL; one unambiguous edge may run one finite signal, and Play resumes the same beat's remaining dwell. **Copy moment** freezes playback if necessary and creates a stable `#view=<view-id>&beat=<node-id>` link; opening it restores that exact authored node without motion, while invalid beat IDs fail closed to the chapter. JSON, authored edge styling, SVG geometry, and canonical exports stay unchanged.
+## Explore and share the output
 
-Story Horizon completes that reader-controlled sequence with a static `past → active → next → pending` hierarchy. It previews exactly one immediate next node and only the authored connector set already resolved for that step: grouped transitions add no edge, multiple transitions keep every real edge, and the final beat has no horizon. It does not pre-move the camera, add autoplay, or enter canonical export.
-
-## Using the output
-
-Open the generated HTML in a modern browser. The controls in the top-right provide:
-
-- **Theme** — switch between dark and light. Shortcut: <kbd>T</kbd>.
-- **Present** — enter a viewport-filling live stage without changing the diagram or export. Shortcut: <kbd>F</kbd>.
-- **Export** — copy PNG or download PNG, JPEG, WebP, SVG, or a six-second WebM for trace-enabled diagrams. Shortcut: <kbd>E</kbd>.
-
-Reading Depth starts at `MAP 100%` with primary labels and topology, moves to `READ 125%` for responsibilities and relationship labels, and reaches `FULL 175%` for tags, notes, steps, and classifications. Focus, Semantic Lens, Intent Trace, Route Probe, Story Trail, Direct Relationship Pin, and Relationship Preview reveal the exact local detail they need at any scale; print and export always retain the complete diagram.
-
-Every authored relationship is also a direct entrance. Its invisible 24px non-scaling rail follows the exact visible geometry without widening the artwork. Fine-pointer hover or roving keyboard focus previews the real source, path, and target; click, tap, Enter, or Space opens the source Passport and pins the exact existing Relationship Lens row. Give important `connections`, `edges`, `messages`, `flows`, or `transitions` an optional author-controlled `id`: the pin then writes and copies `#relation=<id>`, restores the same authored relationship after array reordering, and keeps that identity in canonical SVG. Legacy ID-less relationships still pin locally and fall back to copying the source node—numeric runtime keys never enter a public URL. Duplicate authored relationship IDs fail validation. Stronger Focus, Story, Route, Lens, and Chapter states take priority, and runtime-only rails never enter embed, print, or canonical export.
-
-The diagram itself is explorable. Before committing, hover a node—or reach it with keyboard focus—to start Intent Trace: unrelated elements recede while a short direction-aware signal previews only that node's incoming, outgoing, and self-loop paths. Touch readers skip hover and go straight to focus; reduced-motion readers receive the same static one-hop contrast. Press <kbd>R</kbd> or use `PATH` to start Route Probe: choose a source, then one of the highlighted reachable destinations, and Archify traces the deterministic fewest-hop directed route, frames it, names every stop in a compact receipt, and offers a copyable `#route=<source>~<target>` link. It never invents an undirected fallback, and reduced-motion readers receive the same static result. Click a node, or press <kbd>Enter</kbd> / <kbd>Space</kbd>, to lock its immediate neighbors and relationships in place. Semantic Camera frames that one-hop neighborhood without covering Relationship Lens. Semantic Passport immediately names the node's renderer-owned kind, responsibility, structural scope, authored tag, and stable ID; its Copy link action writes the current `#focus=<id>` deep link. The Lens names every incoming, outgoing, and self-loop relationship. On phones, its list stays behind an explicit relationship count so the compact Passport does not cover the selected node. Enter a row with a fine pointer—or reach it with Arrow keys, Home, and End—to dim the other connections and send one short source-to-target pulse over that exact authored path; incoming rows retain their real authored direction, the static edge and endpoints remain emphasized after the pulse ends, and reduced-motion readers receive that same static meaning immediately. Touch stays direct: one tap follows the relationship without a fake hover step. Activate the row to move the camera to the neighboring node. Press <kbd>M</kbd> to open Semantic Radar, a simplified type-colored overview with a live viewport rectangle; click a radar node to focus it, drag the surface or use Arrow keys to recenter, and press Escape to close it. The radar docks only while the diagram is visible, avoids the focused node and Passport when space allows, reports visible width on contained mobile diagrams, and remains outside embed, print, and canonical SVG output. Press <kbd>/</kbd> to open Node Finder and search the same labels, responsibilities, scopes, tags, kinds, or stable IDs; each result reports its context and relationship count, then resets and frames the selected node. Diagrams with guided views also expose Play/Pause, previous, next, and Show all controls. Their Named Chapter Rail reveals every authored label and exact chapter-focus delta up front; Left/Right/Home/End move focus and statically preview `stay / enter / leave` membership without changing the current diagram, activation delegates to the same `activeIndex` and `#view=` contract, and entering the rail pauses playback so the reader owns the next move. Escape removes only that preview and keeps focus in place. Story Beat Navigator turns every resolved Story Trail stop into a native control: click, tap, Enter, or Space pauses and pins the exact beat while the chapter, selected focus, camera, contained scroll, and `#view=` URL stay fixed. The receipt distinguishes a real forward edge, a reverse-authored edge, a grouped transition with no direct relationship, and multiple authored edges; only one unambiguous exact edge may run one finite signal. Keyboard focus alone pauses at the current playhead, and Play continues the remaining dwell from that beat instead of restarting the chapter. During playback, earlier beats settle, the current node and exact adjacent relationship stay strongest, future beats remain visible, and the next chapter waits for Shared Anchor Handoff to finish. Press <kbd>P</kbd> to play the full story or <kbd>[</kbd> / <kbd>]</kbd> to change chapters manually. A share link with `?play=1#view=<view-id>` instead plays only that named chapter once for 3.2 seconds, never auto-advances, and remains static for `prefers-reduced-motion`. In embed mode, a Share Chapter Cue names the view, prints its exact authored route, reports the current `Step NN / NN` plus Playing/Settled/Paused/Still state, and follows the same one-shot progress without entering the SVG or exports. Each chapter fits its authored nodes with bounded zoom and padding; manual zoom, pan, or mobile swiping pauses playback and takes control. Presentation Stage hides supporting cards and fills the viewport while preserving those live controls. Playback also pauses when the page is hidden or the reader starts exploring. <kbd>Escape</kbd> closes the radar or Route Probe first, then removes Chapter Delta Preview, unwinds the active guided view/focus, and finally exits the stage. Use <kbd>+</kbd>, <kbd>-</kbd>, and <kbd>0</kbd> to zoom or reset; drag the canvas while zoomed. Node focus is stored in `#focus=<node-id>`, authored relationship pins in `#relation=<relationship-id>`, probed routes in `#route=<source>~<target>`, and guided stories in `#view=<view-id>`. Export always uses the complete untransformed diagram.
-
-A completed Route Probe also exposes Route Journey. Its native path chips, Previous, Next, Journey/Pause/Replay, and Overview controls preserve the whole shortest route while strengthening one ordered position and its exact incoming relationship. Playback starts only after deliberate activation, runs once, resumes the remaining dwell after pause, and yields to path focus, manual pan/zoom, Guide, page hiding, Motion Still, and reduced motion. Manual position inspection remains available without animation. Escape pauses first, returns to Overview next, and clears the route last. The shared `#route=<source>~<target>` remains endpoint-only and always restores to a still Overview rather than autoplaying.
-
-While Route Probe is choosing an endpoint, <kbd>/</kbd>, the normal Finder control, or `Find start` / `Find target` turns Node Finder into a contextual endpoint picker. Source search omits dead ends; destination search contains only nodes reachable in authored direction and previews the shortest hop count. Escape closes Finder without discarding the in-progress route. Outside Route Probe, Finder keeps its normal semantic-focus behavior.
-
-Press <kbd>?</kbd> or use the question-mark control to open Diagram Guide. It reads the compiled artifact and reports exact semantic node, relationship, and guided-view counts, then runs the existing Finder, Route Probe, Semantic Radar, Semantic Lens, Story Trail, and Presentation interactions from outcome-oriented task rows. Arrow keys, Home, End, direct shortcuts, and Escape all work inside the guide; opening it pauses playback and closes overlapping panels without clearing focus or an in-progress route.
-
-Press <kbd>L</kbd> or use `LENS` to compare compiled semantic kinds without losing the map. Exact node-kind rows in architecture, workflow, and lifecycle legends also show their compiled counts inline: fine-pointer hover or keyboard focus gives a quiet preview of matching nodes, touching authored relationships, and connected peers; click, tap, Enter, or Space pins the kind and opens the same Lens. Sequence and data-flow legends remain static because their rows describe edge variants or mixed node/edge meaning rather than one exact kind. Every Lens kind shows its exact node count. One selection keeps its nodes, touching relationships, and connected peers readable; a second isolates and counts only direct authored relationships between the two roles. Only those exact authored paths receive a short, selection-triggered direction pulse: outgoing/forward, incoming/reverse, and within-kind traffic stay visually distinct without moving nodes or rerouting edges. The one-shot signal inherits the active visual preset, becomes static for reduced-motion readers, stays quiet above 24 matched edges, and is omitted in embed, print, and canonical export. Unrelated topology remains softly visible, closing the panel preserves the selection, and `#lens=<kind>~<kind>` restores it. Escape closes the panel before clearing its active selection.
-
-| Format | Use it for |
+| Action | Control |
 |---|---|
-| **Copy PNG** | Slack, Notion, GitHub comments, and quick reviews |
-| **PNG / JPEG / WebP** | Slides, documents, websites, and print |
-| **SVG** | READMEs, blogs, Figma, Illustrator, and lossless scaling |
-| **WebM** | Product demos, release notes, social posts, and animated documentation |
+| Open the factual Diagram Guide | <kbd>?</kbd> |
+| Find and focus a semantic node | <kbd>/</kbd> |
+| Trace upstream/downstream authored reach | Focus a node → `Upstream` / `Downstream` |
+| Probe a directed route and inspect its journey | <kbd>R</kbd> or `PATH` |
+| Compare one or two semantic roles | <kbd>L</kbd> or `LENS` |
+| Open the live overview radar | <kbd>M</kbd> or `MAP` |
+| Play a guided story / change chapter | <kbd>P</kbd> / <kbd>[</kbd> <kbd>]</kbd> |
+| Enter Presentation Stage | <kbd>F</kbd> |
+| Choose visual style (`S` cycles) / toggle theme / open Export | <kbd>S</kbd> / <kbd>T</kbd> / <kbd>E</kbd> |
+| Zoom or reset | <kbd>+</kbd> / <kbd>-</kbd> / <kbd>0</kbd> |
 
-Raster exports are rendered natively at the highest safe resolution, up to 4×. Oversized diagrams step down automatically to stay within browser canvas limits.
+Stable links can restore `#focus=<id>`, `#focus=<id>&reach=upstream|downstream`, `#relation=<id>`, `#route=<source>~<target>`, `#lens=<kind>~<kind>`, and `#view=<view-id>`. Reader-driven motion is finite, respects `prefers-reduced-motion`, and never enters canonical exports.
 
-Exported SVGs include dark and light variables plus `prefers-color-scheme`, so one SVG can follow the reader's system theme.
+The complete generation and viewer contract lives in [`archify/SKILL.md`](archify/SKILL.md).
 
-Useful URL parameters:
+## Installation options
 
-- `?theme=light` or `?theme=dark` — force the starting theme.
-- `?present=1` — open directly in Presentation Stage; combine with `?play=1#view=<view-id>` for a shareable live slide.
-- `?play=1` — play the current named view once for 3.2 seconds, with a title/route/state/progress cue in embed mode, then stop; with no `#view`, play the first authored view. Never advances to another view and respects reduced motion.
-- `?openExport=1` — open the Export menu on load.
-- `#focus=<node-id>` — open with a semantic node and its one-hop neighborhood focused.
-- `#relation=<relationship-id>` — reopen one exact authored relationship with a stable ID.
-- `#route=<source-id>~<target-id>` — restore the shortest authored directed route between two semantic nodes.
-- `#view=<view-id>` — open a named guided reading path defined by `meta.views`.
-- `#view=<view-id>&beat=<node-id>` — open one exact, static Story Moment; add `?play=1` only when the remaining chapter should play once.
+| Surface | Install location or method | Capability |
+|---|---|---|
+| **Raven** | Manual ZIP into `~/.raven/workspace/skills` → `~/.raven/workspace/skills/archify` | Full renderer + validation workflow |
+| **Claude Code** | `~/.claude/skills/` or `.claude/skills/` | Full renderer + validation workflow |
+| **Codex CLI** | `~/.agents/skills/` or `.agents/skills/` | Full renderer + validation workflow |
+| **opencode** | `~/.config/opencode/skills/`, `.opencode/skills/`, or `.agents/skills/` | Full renderer + validation workflow |
+| **Claude.ai** | Upload `archify.zip` under Settings → Capabilities → Skills | Depends on Node.js access in the sandbox |
+| **Project Knowledge** | Upload `archify.zip` to the project | Prompt-driven architecture fallback |
 
-WebP, WebM, and clipboard support depend on browser capabilities. WebM is available only when the diagram uses `animation: "trace"`. The HTML uses local font fallbacks when an external font cannot be loaded.
+## Reference and scope
 
-## Prompt patterns
+- [Schema reference](archify/schemas/README.md)
+- [Skill and renderer contract](archify/SKILL.md)
+- [Examples](archify/examples/)
+- [Changelog](CHANGELOG.md)
+- [Roadmap](ROADMAP.md)
+- [Generated Proof Lab](https://tt-a1i.github.io/archify/gallery.html)
 
-**Repository overview**
+Archify 2.13 includes typed IR across all five modes, real-repository proof, deterministic exact-ID Architecture Delta review, verified live preview, authored reachability, truthful configurable legends, optional finite motion, guided views, semantic search and relationship exploration, shareable deep links, 1200×630 diagram and route cards, browser-native WebM recording, explicit `standard` / `showcase` quality profiles, and an opt-in deployment ownership contract.
 
-```text
-Map this repository's runtime architecture with no more than 12 core components.
-Show the main request path, external systems, and trust boundaries. Move implementation detail into cards.
-```
-
-**CI/CD workflow**
-
-```text
-Draw a CI/CD workflow: pull request -> tests -> approval -> build image -> staging ->
-smoke test -> production. Show rollback as a secondary failure path.
-```
-
-**Data lineage**
-
-```text
-Draw a data-flow diagram from Web and Mobile events through Consent Gate, Kafka,
-Warehouse, and Feature Store to Dashboards and ML consumers. Mark the PII boundary.
-```
-
-## Reference
-
-Semantic labels guide color and grouping:
-
-| Examples | Category |
-|---|---|
-| `react`, `nextjs`, `ios`, `browser` | Frontend |
-| `node`, `go-service`, `python-worker`, `api-gateway` | Backend |
-| `postgres`, `redis`, `s3`, `bigquery`, `snowflake` | Data and storage |
-| `aws.lambda`, `gcp.pubsub`, `azure.functions`, `kubernetes` | Cloud and infrastructure |
-| `auth0`, `oauth`, `vault`, `security-group` | Security |
-| `kafka`, `rabbitmq`, `sqs`, `nats` | Messaging |
-| `stripe`, `github-actions`, `openai`, `slack` | External systems |
-
-See the [schema reference](archify/schemas/README.md) for renderer inputs and [CHANGELOG.md](CHANGELOG.md) for release history.
-
-## Current status and roadmap
-
-The current viewer includes progressive `MAP` / `READ` / `FULL` Reading Depth across all five renderer-backed modes.
-
-Archify 2.11 uses typed JSON IR across all five renderer-backed modes and adds stable semantic hooks, shareable authored relationship IDs, pre-click Intent Trace previews, two-endpoint Route Probe analysis with a finite inspectable Route Journey, Semantic Camera framing, a live Semantic Radar overview, a Named Chapter Rail with Chapter Delta Preview, Shared Anchor Handoff, directly inspectable Story Beat Navigator controls, and Shareable Story Moment links, plus a reader-controlled Live/Still Motion Governor, Semantic Passport context with copyable focus links, a named incoming/outgoing Relationship Lens with exact path preview, searchable Node Finder navigation, one-hop focus, a shareable Presentation Stage, pan/zoom, Signal Flow motion, and browser-native WebM export. The project page now leads with three real, moving, clickable proof artifacts across Signal Flow, Blueprint, and Classic rather than a static product mockup. The [proof gallery](https://tt-a1i.github.io/archify/gallery.html) is regenerated from 11 checked-in scenario examples. Every recipe publishes a matching interactive artifact with three named reader views, its exact JSON source, seven validation checks, and a source digest instead of relying on hand-authored capability claims.
-
-See [ROADMAP.md](ROADMAP.md) for planned work and design boundaries. Automatic Mermaid parsing, generic auto-layout, a hosted sharing service, and a WYSIWYG editor are not current goals.
+Automatic Mermaid parsing, general-purpose auto-layout, hosted sharing, and WYSIWYG editing are intentionally outside the current scope.
 
 ## Attribution
 
-Archify is a fork and rewrite of [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) v1.0 by Cocoon AI.
-
-The original visual language remains credited to that project. Archify 2.x adds themes, export tooling, typed renderers, validation, accessibility, and the unified CLI. Both projects use the MIT license.
+Archify is a fork and rewrite of [Cocoon-AI/architecture-diagram-generator](https://github.com/Cocoon-AI/architecture-diagram-generator) v1.0. The original visual language remains credited to Cocoon AI; Archify 2.x adds themes, exports, typed renderers, validation, accessibility, interaction, and a unified CLI. Both projects use the MIT License.
 
 ## License
 
@@ -363,4 +302,4 @@ The original visual language remains credited to that project. Archify 2.x adds 
 
 ## Contributing
 
-Issues, pull requests, and shared diagrams are welcome. When reporting generated-output problems, include the prompt, diagram type, and Archify version when possible. Run `node scripts/build-gallery.mjs` after changing bundled examples or the standalone viewer so the generated showcase stays current.
+Issues, pull requests, and real-world diagrams are welcome. Start with the [contribution guide](CONTRIBUTING.md), use the reproducible bug form for failures, or submit a validated diagram through the [community showcase form](https://github.com/tt-a1i/archify/issues/new?template=showcase.yml).

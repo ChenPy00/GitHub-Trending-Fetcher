@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "1f9b8ccc3095a4f29c87444aef8d144b85d96e040610e4b48568ee1411f8445a"
+  "readme_sha256": "7eb62864e79448b2c9a5c1c7d8eebf71d935b3e12769326925d0383f470dd546"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `1f9b8ccc3095a4f29c87444aef8d144b85d96e040610e4b48568ee1411f8445a`
+- README SHA256: `7eb62864e79448b2c9a5c1c7d8eebf71d935b3e12769326925d0383f470dd546`
 
 ## README
 
@@ -77,7 +77,7 @@
 - **Local AI** — run everything with Ollama, no API keys required
 - **6 site variants** from a single codebase (world, tech, finance, commodity, happy, energy)
 - **Native desktop app** (Tauri 2) for macOS, Windows, and Linux
-- **25 languages** with native-language feeds and RTL support
+- **26 languages** with native-language feeds and RTL support
 
 For the full feature list, architecture, data sources, and algorithms, see the **[documentation](https://www.worldmonitor.app/docs/documentation)**.
 
