@@ -4,16 +4,16 @@
   "name": "open-code-review",
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
-  "description": "Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "82300d53d2041dea852507ce4e5a74227eb2093dceec8839cb8aaf25bc957a21"
+  "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+  "readme_sha256": "4110601dc55a1bd85dc0605ac15fb030bf3050d6d01befec17010d4c8fb8dba8"
 }
 ```
 
 # alibaba/open-code-review
 
 - URL: https://github.com/alibaba/open-code-review
-- Description: Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `82300d53d2041dea852507ce4e5a74227eb2093dceec8839cb8aaf25bc957a21`
+- Description: Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
+- README SHA256: `4110601dc55a1bd85dc0605ac15fb030bf3050d6d01befec17010d4c8fb8dba8`
 
 ## README
 
@@ -171,6 +171,7 @@ ocr session comments --severity critical,high --json <session-id>
 # Full-file scan — review whole files instead of a diff (no git history needed)
 ocr scan                          # scan the entire repository
 ocr scan --path internal/agent    # scan a directory or specific files
+ocr scan --resume <session-id>   # resume an interrupted full-file scan
 
 # Delegation mode — let your AI coding agent perform the review itself
 # OCR handles file selection and rule resolution; no LLM configuration needed

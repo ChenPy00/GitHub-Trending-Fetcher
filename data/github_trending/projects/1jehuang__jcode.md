@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "The most RAM efficient harness",
-  "readme_sha256": "901e7c65df488359f49547ece8586bfef8d47b1ee686cb30e0545f6517ee23ca"
+  "readme_sha256": "86add39566955ee1112f229ea9029945657109707ef605c57fe1f62ae1ae292d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: The most RAM efficient harness
-- README SHA256: `901e7c65df488359f49547ece8586bfef8d47b1ee686cb30e0545f6517ee23ca`
+- README SHA256: `86add39566955ee1112f229ea9029945657109707ef605c57fe1f62ae1ae292d`
 
 ## README
 
@@ -37,7 +37,7 @@ The most most intelligent harness
 
 <br>
 
-[Website](https://jcode.sh) · [Docs](https://jcode.sh/docs) · [Benchmarks](https://jcode.sh/bench) · [Features](#features) · [Install](#installation) · [Quick Start](#quick-start) · [Further Reading](#further-reading) · [Contributing](CONTRIBUTING.md)
+[Website](https://jcode.sh) · [Docs](https://jcode.sh/docs) · [SDK](https://jcode.sh/sdk) · [Benchmarks](https://jcode.sh/bench) · [Features](#features) · [Install](#installation) · [Quick Start](#quick-start) · [Further Reading](#further-reading) · [Contributing](CONTRIBUTING.md)
 
 </div>
 
@@ -725,6 +725,7 @@ Notes:
 
 - [jcode.sh/docs](https://jcode.sh/docs) — install, providers, configuration, keybindings
 - [jcode.sh/swarm](https://jcode.sh/swarm) — many coding agents in one repository
+- [jcode.sh/sdk](https://jcode.sh/sdk) — TypeScript SDK: drive jcode sessions from your own program
 - [jcode.sh/bench](https://jcode.sh/bench) — benchmark methodology and results
 - [Ambient Mode / OpenClaw](docs/AMBIENT_MODE.md)
 - [Browser Provider Protocol](docs/BROWSER_PROVIDER_PROTOCOL.md)

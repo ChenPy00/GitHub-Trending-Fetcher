@@ -5,7 +5,7 @@
   "full_name": "huggingface/speech-to-speech",
   "url": "https://github.com/huggingface/speech-to-speech",
   "description": "Build local voice agents with open-source models",
-  "readme_sha256": "59ccb85e6e0c6f860de8b6392b8dc5e3bbc59566776f7f03bf0556dedefb3803"
+  "readme_sha256": "ebde6068923a03484bc8e773010026fd1e7a2b261603f94601536470145a2d90"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/speech-to-speech
 - Description: Build local voice agents with open-source models
-- README SHA256: `59ccb85e6e0c6f860de8b6392b8dc5e3bbc59566776f7f03bf0556dedefb3803`
+- README SHA256: `ebde6068923a03484bc8e773010026fd1e7a2b261603f94601536470145a2d90`
 
 ## README
 
@@ -371,6 +371,36 @@ Two API backends are available, sharing the same `--responses_api_*` connection 
 - `--llm_backend responses-api` (default) targets `/v1/responses`.
 - `--llm_backend chat-completions` targets `/v1/chat/completions`.
 
+### Direct Audio Input (No STT)
+
+Use `--stt none --llm_backend chat-completions` to send each completed VAD
+audio segment directly to an audio-input model. Direct audio mode is not
+supported with `--llm_backend responses-api`: a model may accept audio through
+`/v1/chat/completions` without supporting `/v1/responses`, including OpenAI's
+[`gpt-audio-1.5`](https://developers.openai.com/api/docs/models/gpt-audio-1.5).
+
+You must explicitly set `--model_name` to a model that accepts audio: the
+default `gpt-5.4-mini` accepts text and image input, but not audio. Check the
+provider's model documentation and endpoint support before enabling this mode.
+For OpenAI, see the
+[GPT-5.4 mini model card](https://developers.openai.com/api/docs/models/gpt-5.4-mini)
+and [audio-input guide](https://developers.openai.com/api/docs/guides/audio#add-audio-to-your-existing-application).
+
+```bash
+speech-to-speech \
+    --mode realtime \
+    --stt none \
+    --llm_backend chat-completions \
+    --model_name "YOUR_AUDIO_CAPABLE_MODEL" \
+    --responses_api_base_url "https://provider.example/v1" \
+    --responses_api_api_key "$PROVIDER_API_KEY"
+```
+
+OpenAI-compatible servers represent input audio differently. Use
+`--responses_api_audio_content_type input_audio` (the default) for embedded
+WAV base64, or `--responses_api_audio_content_type audio_url` for a base64
+data URL.
+
 The examples below pair Parakeet TDT for local STT and Qwen3-TTS for local TTS with different LLM backends.
 
 ### Responses API Backend
@@ -466,6 +496,8 @@ speech-to-speech \
 ### Fully Local
 
 Run the LLM in a separate llama.cpp process for the lowest-friction fully local setup, as shown in the [Reachy Mini local conversation guide](https://huggingface.co/blog/local-reachy-mini-conversation):
+
+For a fully local native-audio setup with the browser demo, Realtime turn revisions, and barge-in, see the tested [Gemma 4 12B speech-to-speech example for Apple Silicon](./examples/gemma4-12b-macos/README.md).
 
 ```bash
 # Terminal 1: llama.cpp serving Gemma 4

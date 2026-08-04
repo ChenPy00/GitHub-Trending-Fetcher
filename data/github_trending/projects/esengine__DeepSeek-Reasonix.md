@@ -5,7 +5,7 @@
   "full_name": "esengine/DeepSeek-Reasonix",
   "url": "https://github.com/esengine/DeepSeek-Reasonix",
   "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-  "readme_sha256": "70685af9cd3de6db933c88413d3939c26b459c0239c458160989df6b981ccc67"
+  "readme_sha256": "5b6beccdd1fcb561503e8986f59cc66e8ac12fdfb9cf31b2a1f92dd308bfe02b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/esengine/DeepSeek-Reasonix
 - Description: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
-- README SHA256: `70685af9cd3de6db933c88413d3939c26b459c0239c458160989df6b981ccc67`
+- README SHA256: `5b6beccdd1fcb561503e8986f59cc66e8ac12fdfb9cf31b2a1f92dd308bfe02b`
 
 ## README
 
@@ -47,6 +47,11 @@
   <a href="https://github.com/esengine/DeepSeek-Reasonix/graphs/contributors"><img src="https://img.shields.io/github/contributors/esengine/DeepSeek-Reasonix.svg?style=flat-square&color=bc8cff&labelColor=161b22&logo=github&logoColor=white" alt="contributors"/></a>
   <a href="https://github.com/esengine/DeepSeek-Reasonix/discussions"><img src="https://img.shields.io/github/discussions/esengine/DeepSeek-Reasonix.svg?style=flat-square&color=58a6ff&labelColor=161b22&logo=github&logoColor=white" alt="Discussions"/></a>
   <a href="https://discord.gg/XF78rEME2D"><img src="https://img.shields.io/badge/discord-join-5865F2.svg?style=flat-square&labelColor=161b22&logo=discord&logoColor=white" alt="Discord"/></a>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/27020?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-27020" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/27020/monthly?language=Go" alt="esengine/DeepSeek-Reasonix | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/27020?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-27020" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/27020" alt="esengine/DeepSeek-Reasonix | Trendshift" width="250" height="55"/></a>
 </p>
 
 <br/>

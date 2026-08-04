@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/TencentDB-Agent-Memory",
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-  "readme_sha256": "4f015a4ec2c09619b10bf544fba2e68f7a7c4b3bdf08a89e400bbd06091319c8"
+  "readme_sha256": "4367f8bc41689c9c97cb05ba28a4959d3e86cc4dd479330febf10c32e502ac94"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/TencentDB-Agent-Memory
 - Description: TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
-- README SHA256: `4f015a4ec2c09619b10bf544fba2e68f7a7c4b3bdf08a89e400bbd06091319c8`
+- README SHA256: `4367f8bc41689c9c97cb05ba28a4959d3e86cc4dd479330febf10c32e502ac94`
 
 ## README
 
@@ -61,7 +61,7 @@ $EDITOR .env       # Fill in two sets of LLM parameters (memory group + proxy gr
 
 Open the panel: [http://localhost:8125](http://localhost:8125).
 
-Complete installation documentation (standalone Memory Hub deployment, Proxy + Claude Code usage, stop and cleanup, port reference, etc.) is available in [**INSTALL.md**](./INSTALL.md) (中文: [INSTALL_CN.md](./INSTALL_CN.md)).
+Complete installation documentation (standalone Memory Hub deployment, Proxy + Claude Code / CodeBuddy usage, stop and cleanup, port reference, etc.) is available in [**INSTALL.md**](./INSTALL.md) (中文: [INSTALL_CN.md](./INSTALL_CN.md)).
 
 ### Migrating data from an older version
 
@@ -127,6 +127,7 @@ Existing information → Reusable memory assets → Fewer turns → Less rework 
 - Create teams and Agents in Memory Hub; review, share, and equip memory assets.
 - Manage ownership, versions, status, visibility, usage counts, and Agent bindings in one place.
 - `private` belongs strictly to the Owner; `team` is visible to all team members; `restricted` grants precise access via User / Role / Agent ACLs.
+- Two role layers: **global System Admin** manages users and teams (creating teams, adding members) and can also use Wiki, CodeGraph, Skill, and other asset management features; **Team-level roles** include Admin (team manager) and Member (regular member), responsible for asset collaboration and access control within a team. Asset ownership is tracked via Owner — the Owner automatically has management permissions for their assets.
 
 <img width="" src="assets/images/asset.cn.png" alt="image.png" />
 
@@ -274,13 +275,13 @@ PersonaMem tests whether an Agent can correctly understand and apply user inform
 - Wiki and CodeGraph are built asynchronously; allow some processing time before they reach `ready` status.
 - CodeGraph currently prioritizes public HTTPS repositories; support for private repositories and SSH credentials is still being refined.
 - The Hub supports manual asset binding; fully automated memory routing is still under iteration.
-- TencentDB Agent Memory currently supports OpenClaw, Hermes, and SDK integration; broader cross-framework migration is on the roadmap.
+- TencentDB Agent Memory currently supports OpenClaw, Hermes, Claude Code, CodeBuddy, and SDK integration; broader cross-framework migration is on the roadmap.
 
 ## Related Documentation
 
 - [Full Installation Guide](./INSTALL.md) (Memory Core + Hub + Proxy one-click deployment)
 - [Data Migration Tool (v2 → v3)](./MemoryCore/scripts/migrate-v2-to-v3/README.md) (if you're on an older release and want to migrate existing data)
-- [Knowledge OpenAPI](./MemoryKnowledge/docs/api/openapi.yaml)
+- [Knowledge OpenAPI](./MemoryKnowledge/openapi.yaml)
 - [Contributing Guide](./CONTRIBUTING.md)
 
 Agent Memory doesn't have a settled standard yet. Bug reports, documentation, benchmarks, new framework adapters, and more creative Memory Hub use cases are all welcome.

@@ -5,7 +5,7 @@
   "full_name": "opengeos/GeoLibre",
   "url": "https://github.com/opengeos/GeoLibre",
   "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.",
-  "readme_sha256": "c31618a3a00e2f12415b39f8a73f9c46a300eca4f9497e46b48c6f910082a748"
+  "readme_sha256": "3de0d8c9d8b263d952c1a6149ec60eb38a421a99034390957ba4b4d59c14aa5d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/opengeos/GeoLibre
 - Description: A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data. It runs in the web browser, on the desktop, on mobile, and inside Jupyter notebooks.
-- README SHA256: `c31618a3a00e2f12415b39f8a73f9c46a300eca4f9497e46b48c6f910082a748`
+- README SHA256: `3de0d8c9d8b263d952c1a6149ec60eb38a421a99034390957ba4b4d59c14aa5d`
 
 ## README
 
@@ -27,6 +27,7 @@
 [![image](https://img.shields.io/conda/vn/conda-forge/geolibre.svg)](https://anaconda.org/conda-forge/geolibre)
 [![Conda Recipe](https://img.shields.io/badge/recipe-geolibre-green.svg)](https://github.com/conda-forge/geolibre-feedstock)
 [![Microsoft Store](https://img.shields.io/badge/Microsoft%20Store-GeoLibre-0078D4?logo=windows)](https://apps.microsoft.com/detail/9nwt67rv531x)
+[![Mac App Store](https://img.shields.io/badge/Mac%20App%20Store-GeoLibre-000000?logo=apple&logoColor=white)](https://apps.apple.com/app/geolibre-desktop/id6796848769)
 [![Google Play](https://img.shields.io/badge/Google%20Play-GeoLibre-01875F?logo=googleplay&logoColor=white)](https://play.google.com/store/apps/details?id=org.geolibre.app)
 [![AUR version](https://img.shields.io/aur/version/geolibre-bin?logo=archlinux&label=AUR)](https://aur.archlinux.org/packages/geolibre-bin)
 [![FlatPark](https://img.shields.io/badge/FlatPark-GeoLibre-4A90D9?logo=flatpak)](https://flatpark.org/apps/app.geolibre.GeoLibre/)
@@ -41,6 +42,7 @@ GeoLibre is built with **Tauri v2**, **React**, **TypeScript**, **MapLibre GL JS
 
 - **[Launch GeoLibre Web](https://web.geolibre.app/)** — the full app in your browser, nothing to install
 - **[Download the desktop app](https://geolibre.app/downloads/)** — Windows, macOS, and Linux installers
+- **[Get it on the Mac App Store](https://apps.apple.com/app/geolibre-desktop/id6796848769)** — the sandboxed macOS build
 - **[Get it on Google Play](https://play.google.com/store/apps/details?id=org.geolibre.app)** — the native Android app
 - **[1,000+ geoprocessing tools](https://geolibre.app/user-guide/processing/#geoprocessing-toolbox)** — the full toolbox, in the browser
 - **[Get started](https://geolibre.app/getting-started/)** — install, run from source, and configure
@@ -92,6 +94,16 @@ GeoLibre is not limited to Earth. Planetary basemaps from OpenPlanetaryMap and U
     <td align="center"><b>Mercury</b></td>
     <td align="center"><b>Pluto</b></td>
     <td align="center"><b>Venus</b></td>
+  </tr>
+  <tr>
+    <td width="33%"><a href="https://files.opengeos.org/europa.webp"><img src="https://files.opengeos.org/europa.webp" alt="GeoLibre globe view of Europa over a starfield backdrop"></a></td>
+    <td width="33%"><a href="https://files.opengeos.org/callisto.webp"><img src="https://files.opengeos.org/callisto.webp" alt="GeoLibre globe view of Callisto over a starfield backdrop"></a></td>
+    <td width="33%"><a href="https://files.opengeos.org/charon.webp"><img src="https://files.opengeos.org/charon.webp" alt="GeoLibre globe view of Charon over a starfield backdrop"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Europa</b></td>
+    <td align="center"><b>Callisto</b></td>
+    <td align="center"><b>Charon</b></td>
   </tr>
 </table>
 

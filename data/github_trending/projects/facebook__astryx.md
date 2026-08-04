@@ -5,7 +5,7 @@
   "full_name": "facebook/astryx",
   "url": "https://github.com/facebook/astryx",
   "description": "An open source design system that's fully customizable and agent ready",
-  "readme_sha256": "af36b6c7c68df0ded4a498119ddb248c9da246eefe970eb3116c9f54f5abd156"
+  "readme_sha256": "c816164b74f369fffdc4cd9381a10c62d1daecc338af1759a6e55b12f93c7a61"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/facebook/astryx
 - Description: An open source design system that's fully customizable and agent ready
-- README SHA256: `af36b6c7c68df0ded4a498119ddb248c9da246eefe970eb3116c9f54f5abd156`
+- README SHA256: `c816164b74f369fffdc4cd9381a10c62d1daecc338af1759a6e55b12f93c7a61`
 
 ## README
 
@@ -27,7 +27,7 @@
 
 An open source design system that's fully customizable and built for how we build now: <br/> by people and the agents working alongside them.
 
-**Currently in Beta** · Built on [React](https://react.dev) and [StyleX](https://stylexjs.com)
+**Currently in Beta** · Built on [React 19+](https://react.dev) and [StyleX](https://stylexjs.com)
 
 [![npm version](https://img.shields.io/npm/v/@astryxdesign/core?label=npm&color=cb3837&logo=npm)](https://www.npmjs.com/package/@astryxdesign/core)
 [![license MIT](https://img.shields.io/npm/l/@astryxdesign/core?color=blue)](LICENSE)
@@ -56,19 +56,21 @@ It ships 150+ accessible components, brand-level theming, dark mode, ready-to-sh
 
 ## Getting Started
 
-Install Astryx and a theme:
+Astryx requires **React 19** or later (`react` and `react-dom` are peer dependencies of `@astryxdesign/core`).
+
+Install Astryx, a theme, and its peer dependencies:
 
 ```bash
 # npm
-npm install @astryxdesign/core @astryxdesign/theme-neutral
+npm install @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex
 npm install -D @astryxdesign/cli
 
 # pnpm
-pnpm add @astryxdesign/core @astryxdesign/theme-neutral
+pnpm add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex
 pnpm add -D @astryxdesign/cli
 
 # yarn
-yarn add @astryxdesign/core @astryxdesign/theme-neutral
+yarn add @astryxdesign/core @astryxdesign/theme-neutral @stylexjs/stylex
 yarn add -D @astryxdesign/cli
 ```
 

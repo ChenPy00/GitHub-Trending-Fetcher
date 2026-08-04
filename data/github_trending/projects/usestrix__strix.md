@@ -5,7 +5,7 @@
   "full_name": "usestrix/strix",
   "url": "https://github.com/usestrix/strix",
   "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-  "readme_sha256": "ccde1b08eeebc82c847aaba44497797929bf44e9302b3dcad5fcc2856a458014"
+  "readme_sha256": "52a49465dcdfd3531a87b3bfb76461754e275be8a63e02a04563e1f6ecdc00e1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usestrix/strix
 - Description: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
-- README SHA256: `ccde1b08eeebc82c847aaba44497797929bf44e9302b3dcad5fcc2856a458014`
+- README SHA256: `52a49465dcdfd3531a87b3bfb76461754e275be8a63e02a04563e1f6ecdc00e1`
 
 ## README
 
@@ -204,6 +204,28 @@ strix --target https://github.com/org/repo
 strix --target https://your-app.com
 ```
 
+### API Testing (OpenAPI / Swagger / Postman)
+
+Point Strix at an API contract and it tests every declared endpoint instead of
+having to discover them by crawling. Pair the spec with the live base URL so the
+agent knows where to send traffic:
+
+```bash
+# OpenAPI / Swagger file (.json / .yaml)
+strix --target ./openapi.yaml --target https://api.your-app.com
+
+# Postman collection export
+strix --target ./collection.postman_collection.json --target https://api.your-app.com
+
+# Postman collection pulled live by id (no manual export)
+export POSTMAN_API_KEY="PMAK-..."
+strix --target postman://<collection-uuid>
+
+# ...with a Postman environment to resolve {{baseUrl}} / token variables
+strix --target "postman://<collection-uuid>?env=<environment-uuid>"
+```
+
+
 ### Advanced Testing Scenarios
 
 ```bash
@@ -330,7 +352,7 @@ Have questions? Found a bug? Want to contribute? **[Join our Discord!](https://d
 
 ## Acknowledgements
 
-Strix builds on the incredible work of open-source projects like [LiteLLM](https://github.com/BerriAI/litellm), [Caido](https://github.com/caido/caido), [Nuclei](https://github.com/projectdiscovery/nuclei), [Playwright](https://github.com/microsoft/playwright), and [Textual](https://github.com/Textualize/textual). Huge thanks to their maintainers!
+Strix builds on the incredible work of open-source projects like [LiteLLM](https://github.com/BerriAI/litellm), [Caido](https://github.com/caido/caido), [Nuclei](https://github.com/projectdiscovery/nuclei), [Playwright](https://github.com/microsoft/playwright), and [Bubble Tea](https://github.com/charmbracelet/bubbletea). Huge thanks to their maintainers!
 
 
 > [!WARNING]
