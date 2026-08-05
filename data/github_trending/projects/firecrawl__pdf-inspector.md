@@ -5,7 +5,7 @@
   "full_name": "firecrawl/pdf-inspector",
   "url": "https://github.com/firecrawl/pdf-inspector",
   "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-  "readme_sha256": "b59bbc09d2b5c3a805eacaa8a4e9b4e6024950852e28509c603e4c2256aa14a4"
+  "readme_sha256": "617a402b89298c1035557630d04c7f4a8a68a16a9e1bb33737c1539cec88c247"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/firecrawl/pdf-inspector
 - Description: Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
-- README SHA256: `b59bbc09d2b5c3a805eacaa8a4e9b4e6024950852e28509c603e4c2256aa14a4`
+- README SHA256: `617a402b89298c1035557630d04c7f4a8a68a16a9e1bb33737c1539cec88c247`
 
 ## README
 
@@ -257,7 +257,7 @@ The converter handles:
 |---|---|
 | Headings (H1-H4) | Font size tiers relative to body text, with 0.5pt clustering |
 | Bold/italic | Font name patterns (Bold, Italic, Oblique) |
-| Bullet lists | `*`, `-`, `*`, `○`, `●`, `◦` prefixes |
+| Bullet lists | `•`, `-`, `*`, `○`, `●`, `◦` prefixes |
 | Numbered lists | `1.`, `1)`, `(1)` patterns |
 | Letter lists | `a.`, `a)`, `(a)` patterns |
 | Code blocks | Monospace fonts (Courier, Consolas, Monaco, Menlo, Fira Code, JetBrains Mono) and keyword detection |

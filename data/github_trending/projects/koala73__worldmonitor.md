@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "7eb62864e79448b2c9a5c1c7d8eebf71d935b3e12769326925d0383f470dd546"
+  "readme_sha256": "ab91d3825e81dafc6bbb2a7cb62a23ed9c5a7b2595d83657649a05c34b3a51ab"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `7eb62864e79448b2c9a5c1c7d8eebf71d935b3e12769326925d0383f470dd546`
+- README SHA256: `ab91d3825e81dafc6bbb2a7cb62a23ed9c5a7b2595d83657649a05c34b3a51ab`
 
 ## README
 
@@ -90,7 +90,7 @@ All site variants and desktop binaries are built from a single codebase and ship
 | Surface | Status | Notes |
 |---------|--------|-------|
 | `worldmonitor.app`, `tech.`, `finance.`, `commodity.`, `happy.`, `energy.` | Stable | Public deployments built from this repo, actively maintained |
-| Desktop binaries (Windows / macOS Apple Silicon / macOS Intel / Linux AppImage) | Stable | One Tauri binary that switches variants in-app; current CI release targets are `full` and `tech` |
+| Desktop binaries (Windows / macOS Apple Silicon / macOS Intel / Linux AppImage) | Stable | One Tauri binary for every variant — install World Monitor and switch to tech, finance, commodity, energy, or happy in-app. There is deliberately no per-variant download |
 
 Issues filed against any of the above are triaged from the same backlog — see the [issues board](https://github.com/koala73/worldmonitor/issues) for currently-open work.
 
@@ -130,7 +130,7 @@ See the **[self-hosting guide](https://www.worldmonitor.app/docs/getting-started
 | **Frontend** | Vanilla TypeScript, Vite, globe.gl + Three.js, deck.gl + MapLibre GL |
 | **Desktop** | Tauri 2 (Rust) with Node.js sidecar |
 | **AI/ML** | Ollama / Groq / OpenRouter, Transformers.js (browser-side) |
-| **API Contracts** | Protocol Buffers (290 protos, 35 services), sebuf HTTP annotations |
+| **API Contracts** | Protocol Buffers (295 protos, 36 services), sebuf HTTP annotations |
 | **Deployment** | Vercel Edge Functions (60+), Railway relay, Tauri, PWA |
 | **Caching** | Redis (Upstash), 3-tier cache, CDN, service worker |
 
