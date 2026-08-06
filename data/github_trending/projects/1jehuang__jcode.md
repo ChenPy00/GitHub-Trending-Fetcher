@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "The most RAM efficient harness",
-  "readme_sha256": "86add39566955ee1112f229ea9029945657109707ef605c57fe1f62ae1ae292d"
+  "readme_sha256": "358622dbfb71d09d1259497db5c20d1cf63b7a2d716497d7b121af97bfe7c318"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: The most RAM efficient harness
-- README SHA256: `86add39566955ee1112f229ea9029945657109707ef605c57fe1f62ae1ae292d`
+- README SHA256: `358622dbfb71d09d1259497db5c20d1cf63b7a2d716497d7b121af97bfe7c318`
 
 ## README
 
@@ -531,6 +531,15 @@ Claude Code compatibility:
 - `.mcp.json` at the repo root (Claude Code's project config)
 - `.claude/mcp.json` (legacy fallback)
 
+Claude Code config is read live on every load rather than copied into jcode's
+global config. Additions, edits, and deletions therefore take effect without
+leaving a stale snapshot (and inline environment values are not duplicated).
+For migration from Codex CLI, jcode still performs a one-time import from
+`~/.codex/config.toml` into `~/.jcode/mcp.json` when the latter does not exist.
+That imported file is then jcode-owned; later Codex changes are not synced
+automatically. Imported environment values are copied too and may contain
+secrets.
+
 Both the canonical `mcpServers` key and jcode's historical `servers` key are accepted. jcode currently supports stdio (command-based) servers only; HTTP/SSE entries (`"type": "http"`/`"sse"`) are recognized and skipped with a log line.
 
 Example MCP config:
@@ -547,8 +556,6 @@ Example MCP config:
   }
 }
 ```
-
-On first run, jcode also tries to import MCP servers from `~/.claude.json` (falling back to the legacy `~/.claude/mcp.json`) and `~/.codex/config.toml` if `~/.jcode/mcp.json` does not exist yet.
 
 For headless or SSH sessions, OAuth-style providers support `jcode login --provider <provider> --no-browser` (alias: `--headless`) so jcode prints the auth URL/QR and falls back to manual code or callback paste instead of trying to launch a local browser.
 

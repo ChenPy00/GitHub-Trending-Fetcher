@@ -5,7 +5,7 @@
   "full_name": "emilkowalski/skills",
   "url": "https://github.com/emilkowalski/skills",
   "description": "Skills for Designers and Engineers.",
-  "readme_sha256": "ec4eb6b49f1e186c0cd1ce64e9894ebc3362da6d7667071659c052628b09859f"
+  "readme_sha256": "52d1948fc15ca5e499cf7d5c4c10fbb93e09fdfcd473b5ef7e186e7c456de7e6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/emilkowalski/skills
 - Description: Skills for Designers and Engineers.
-- README SHA256: `ec4eb6b49f1e186c0cd1ce64e9894ebc3362da6d7667071659c052628b09859f`
+- README SHA256: `52d1948fc15ca5e499cf7d5c4c10fbb93e09fdfcd473b5ef7e186e7c456de7e6`
 
 ## README
 
@@ -60,6 +60,7 @@ This is your shortcut to great interfaces. A shortcut to stand out in a sea of s
 ## Reference
 
 - **[emil-design-eng](./skills/emil-design-eng/SKILL.md)** — The main skill that consists of mostly animation, but also some design advice.
+- **[animate](./skills/animate/SKILL.md)** — Builds an animation from scratch while choosing the correct curve, duration, properties, and so on.
 - **[review-animations](./skills/review-animations/SKILL.md)** — Review your animations in a strict way, based on my rules.
 - **[improve-animations](./skills/improve-animations/SKILL.md)** — Audit all the animations in your codebase and get prioritized, self-contained plans that any agent can execute.
 - **[find-animation-opportunities](./skills/find-animation-opportunities/SKILL.md)** — Search your UI for places that would genuinely benefit from motion, while also telling you what not to animate.

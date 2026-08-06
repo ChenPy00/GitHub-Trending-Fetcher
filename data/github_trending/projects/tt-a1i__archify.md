@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "6990b09923828a6fbb7ab26aee9ac6e30c7efaeb03533dbb293bdfb80a575d5b"
+  "readme_sha256": "b032d6faf21b2e100c891d54a5d5c52723d145c88e84be33a562a51f7dad0c29"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `6990b09923828a6fbb7ab26aee9ac6e30c7efaeb03533dbb293bdfb80a575d5b`
+- README SHA256: `b032d6faf21b2e100c891d54a5d5c52723d145c88e84be33a562a51f7dad0c29`
 
 ## README
 
@@ -54,7 +54,11 @@ Using Cursor? Open the [agent-aware quick start](https://tt-a1i.github.io/archif
 
 Then ask your agent: `Use archify to map this repository's runtime architecture.`
 
-## ❤️ Sponsor
+## ❤️ Sponsors
+
+<a href="https://apinebula.ai/ref/wywnaATT"><img src="docs/assets/sponsors/apinebula-archify.jpg" alt="APINEBULA — One API for leading AI models" width="100%"></a>
+
+Thanks to [**APINEBULA**](https://apinebula.ai/ref/wywnaATT) for sponsoring Archify. APINEBULA offers unified access to Claude, GPT, Gemini, and more. Register through [the Archify link](https://apinebula.ai/ref/wywnaATT) and use **`Archify`** for a **10% discount**.
 
 <a href="https://github.com/EverMind-AI/Raven"><img src="docs/assets/sponsors/evermind-archify-raven.png" alt="Archify × Raven — Map the system. Keep the context." width="100%"></a>
 

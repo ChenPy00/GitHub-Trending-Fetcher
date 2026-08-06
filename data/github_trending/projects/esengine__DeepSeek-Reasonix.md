@@ -5,7 +5,7 @@
   "full_name": "esengine/DeepSeek-Reasonix",
   "url": "https://github.com/esengine/DeepSeek-Reasonix",
   "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-  "readme_sha256": "5b6beccdd1fcb561503e8986f59cc66e8ac12fdfb9cf31b2a1f92dd308bfe02b"
+  "readme_sha256": "52236f401b4a5908715a68888caa90e6f843c4378179da22f4ffd105780d5366"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/esengine/DeepSeek-Reasonix
 - Description: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
-- README SHA256: `5b6beccdd1fcb561503e8986f59cc66e8ac12fdfb9cf31b2a1f92dd308bfe02b`
+- README SHA256: `52236f401b4a5908715a68888caa90e6f843c4378179da22f4ffd105780d5366`
 
 ## README
 
@@ -29,6 +29,8 @@
   <a href="./docs/GUIDE.md">Guide</a>
   &nbsp;·&nbsp;
   <a href="./docs/ACP.md">ACP</a>
+  &nbsp;·&nbsp;
+  <a href="./docs/EXTENSIONS.md">Extensions</a>
   &nbsp;·&nbsp;
   <a href="./docs/SPEC.md">Spec</a>
   &nbsp;·&nbsp;
@@ -73,8 +75,9 @@
 - **Multi-model & composable.** DeepSeek ships as a preset; any
   OpenAI-compatible endpoint is a config entry, not new code. Optionally run
   two models together (executor + planner) in separate, cache-stable sessions.
-- **Plugin-driven.** External tools run as subprocesses over stdio JSON-RPC
-  (MCP-compatible). Built-in tools self-register at compile time.
+- **Plugin-driven.** MCP servers contribute tools, prompts, and resources;
+  Extension Protocol v1 sidecars can also intercept runtime events, contribute
+  Providers and structured UI, and ship versioned plugin packages.
 - **Cache-aware context maintenance.** Startup injects a small stable environment
   summary, stale tool output is snipped/pruned before summary compaction, and the
   built-in tool schema contract is documented for regression review.
@@ -170,6 +173,10 @@ For advanced CLI usage and configuration, see the **[CLI reference](./docs/CLI.m
 - **Engineering & migration:** [Spec](./docs/SPEC.md) ·
   [Task contracts & pause policy](./docs/TASK_CONTRACT.md) ·
   [Tool contract](./docs/TOOL_CONTRACT.md) · [Migrating from 0.x](./docs/MIGRATING.md)
+- **Extension development:** [Extensions](./docs/EXTENSIONS.md) ·
+  [Plugin packages and Manifest v1](./docs/PLUGIN_PACKAGES.md) ·
+  [Extension Protocol](./docs/EXTENSION_PROTOCOL.md) ·
+  [Go SDK and starter](./sdk/go/README.md)
 
 ## Star History
 

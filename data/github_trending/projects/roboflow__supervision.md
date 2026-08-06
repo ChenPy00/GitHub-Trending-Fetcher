@@ -5,7 +5,7 @@
   "full_name": "roboflow/supervision",
   "url": "https://github.com/roboflow/supervision",
   "description": "We write your reusable computer vision tools. 💜",
-  "readme_sha256": "afbc85415bf37668757fe3c67064370ef0fc8b7172cced454b6da117812a4bfd"
+  "readme_sha256": "44e628d6ce0f0baa6912db0e765124fb64655220e7c1f818fdd773f2fc23d0f6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/roboflow/supervision
 - Description: We write your reusable computer vision tools. 💜
-- README SHA256: `afbc85415bf37668757fe3c67064370ef0fc8b7172cced454b6da117812a4bfd`
+- README SHA256: `44e628d6ce0f0baa6912db0e765124fb64655220e7c1f818fdd773f2fc23d0f6`
 
 ## README
 
@@ -49,9 +49,9 @@
 - [👋 Hello](#-hello)
 - [💻 Install](#-install)
 - [🔥 Quickstart](#-quickstart)
-    - [Models](#models)
-    - [Annotators](#annotators)
-    - [Datasets](#datasets)
+  - [Models](#models)
+  - [Annotators](#annotators)
+  - [Datasets](#datasets)
 - [🎬 Tutorials](#-tutorials)
 - [💜 Built with Supervision](#-built-with-supervision)
 - [📚 Documentation](#-documentation)
@@ -99,21 +99,21 @@ len(detections)
 
 - inference
 
-    Running with [Inference](https://github.com/roboflow/inference) requires a [Roboflow API KEY](https://docs.roboflow.com/api-reference/authentication#retrieve-an-api-key).
+  Running with [Inference](https://github.com/roboflow/inference) requires a [Roboflow API KEY](https://docs.roboflow.com/api-reference/authentication#retrieve-an-api-key).
 
-    ```python
-    import supervision as sv
-    from PIL import Image
-    from inference import get_model
+  ```python
+  import supervision as sv
+  from PIL import Image
+  from inference import get_model
 
-    image = Image.open("path/to/image.jpg")
-    model = get_model(model_id="rfdetr-small", api_key="ROBOFLOW_API_KEY")
-    result = model.infer(image)[0]
-    detections = sv.Detections.from_inference(result)
+  image = Image.open("path/to/image.jpg")
+  model = get_model(model_id="rfdetr-small", api_key="ROBOFLOW_API_KEY")
+  result = model.infer(image)[0]
+  detections = sv.Detections.from_inference(result)
 
-    len(detections)
-    # 5
-    ```
+  len(detections)
+  # 5
+  ```
 
 </details>
 
@@ -164,88 +164,88 @@ for path, image, annotation in ds:
 
 - load
 
-    ```python
-    dataset = sv.DetectionDataset.from_yolo(
-        images_directory_path=...,
-        annotations_directory_path=...,
-        data_yaml_path=...,
-    )
+  ```python
+  dataset = sv.DetectionDataset.from_yolo(
+      images_directory_path=...,
+      annotations_directory_path=...,
+      data_yaml_path=...,
+  )
 
-    dataset = sv.DetectionDataset.from_pascal_voc(
-        images_directory_path=...,
-        annotations_directory_path=...,
-    )
+  dataset = sv.DetectionDataset.from_pascal_voc(
+      images_directory_path=...,
+      annotations_directory_path=...,
+  )
 
-    dataset = sv.DetectionDataset.from_coco(
-        images_directory_path=...,
-        annotations_path=...,
-    )
-    ```
+  dataset = sv.DetectionDataset.from_coco(
+      images_directory_path=...,
+      annotations_path=...,
+  )
+  ```
 
 - split
 
-    ```python
-    train_dataset, test_dataset = dataset.split(split_ratio=0.7)
-    test_dataset, valid_dataset = test_dataset.split(split_ratio=0.5)
+  ```python
+  train_dataset, test_dataset = dataset.split(split_ratio=0.7)
+  test_dataset, valid_dataset = test_dataset.split(split_ratio=0.5)
 
-    len(train_dataset), len(test_dataset), len(valid_dataset)
-    # (700, 150, 150)
-    ```
+  len(train_dataset), len(test_dataset), len(valid_dataset)
+  # (700, 150, 150)
+  ```
 
 - merge
 
-    ```python
-    ds_1 = sv.DetectionDataset(...)
-    len(ds_1)
-    # 100
-    ds_1.classes
-    # ['dog', 'person']
+  ```python
+  ds_1 = sv.DetectionDataset(...)
+  len(ds_1)
+  # 100
+  ds_1.classes
+  # ['dog', 'person']
 
-    ds_2 = sv.DetectionDataset(...)
-    len(ds_2)
-    # 200
-    ds_2.classes
-    # ['cat']
+  ds_2 = sv.DetectionDataset(...)
+  len(ds_2)
+  # 200
+  ds_2.classes
+  # ['cat']
 
-    ds_merged = sv.DetectionDataset.merge([ds_1, ds_2])
-    len(ds_merged)
-    # 300
-    ds_merged.classes
-    # ['cat', 'dog', 'person']
-    ```
+  ds_merged = sv.DetectionDataset.merge([ds_1, ds_2])
+  len(ds_merged)
+  # 300
+  ds_merged.classes
+  # ['cat', 'dog', 'person']
+  ```
 
 - save
 
-    ```python
-    dataset.as_yolo(
-        images_directory_path=...,
-        annotations_directory_path=...,
-        data_yaml_path=...,
-    )
+  ```python
+  dataset.as_yolo(
+      images_directory_path=...,
+      annotations_directory_path=...,
+      data_yaml_path=...,
+  )
 
-    dataset.as_pascal_voc(
-        images_directory_path=...,
-        annotations_directory_path=...,
-    )
+  dataset.as_pascal_voc(
+      images_directory_path=...,
+      annotations_directory_path=...,
+  )
 
-    dataset.as_coco(
-        images_directory_path=...,
-        annotations_path=...,
-    )
-    ```
+  dataset.as_coco(
+      images_directory_path=...,
+      annotations_path=...,
+  )
+  ```
 
 - convert
 
-    ```python
-    sv.DetectionDataset.from_yolo(
-        images_directory_path=...,
-        annotations_directory_path=...,
-        data_yaml_path=...,
-    ).as_pascal_voc(
-        images_directory_path=...,
-        annotations_directory_path=...,
-    )
-    ```
+  ```python
+  sv.DetectionDataset.from_yolo(
+      images_directory_path=...,
+      annotations_directory_path=...,
+      data_yaml_path=...,
+  ).as_pascal_voc(
+      images_directory_path=...,
+      annotations_directory_path=...,
+  )
+  ```
 
 </details>
 

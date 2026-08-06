@@ -5,7 +5,7 @@
   "full_name": "huggingface/speech-to-speech",
   "url": "https://github.com/huggingface/speech-to-speech",
   "description": "Build local voice agents with open-source models",
-  "readme_sha256": "ebde6068923a03484bc8e773010026fd1e7a2b261603f94601536470145a2d90"
+  "readme_sha256": "ec3fee378f210b943dce3d0ba2d91c06e3b3915f2cf25c801110b8f6d5f3f946"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/speech-to-speech
 - Description: Build local voice agents with open-source models
-- README SHA256: `ebde6068923a03484bc8e773010026fd1e7a2b261603f94601536470145a2d90`
+- README SHA256: `ec3fee378f210b943dce3d0ba2d91c06e3b3915f2cf25c801110b8f6d5f3f946`
 
 ## README
 
@@ -140,15 +140,14 @@ pip install speech-to-speech
 
 To use the previous CUDA-graphs implementation instead of GGML, pass `--qwen3_tts_backend torch`.
 
-### Optional Backends
+### Optional Components
 
-Extra backends are installed with pip extras:
+Optional components are installed with pip extras:
 
 ```bash
 pip install "speech-to-speech[kokoro]"          # Kokoro-82M TTS on non-macOS
 pip install "speech-to-speech[pocket]"          # Pocket TTS
 pip install "speech-to-speech[chattts]"         # ChatTTS
-pip install "speech-to-speech[facebook-mms]"    # MMS TTS
 pip install "speech-to-speech[faster-whisper]"  # Faster Whisper STT
 pip install "speech-to-speech[whisper-mlx]"     # Lightning Whisper MLX STT on macOS
 pip install "speech-to-speech[paraformer]"      # Paraformer STT through FunASR
@@ -187,7 +186,7 @@ This installs the package in editable mode and makes the `speech-to-speech` CLI 
 | TTS | [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) | CUDA / CPU, Apple Silicon | `kokoro` on non-macOS; built-in on macOS |
 | TTS | [Pocket TTS](https://github.com/kyutai-labs/pocket-tts) | CPU / CUDA | `pocket` |
 | TTS | [ChatTTS](https://github.com/2noise/ChatTTS) | CUDA / CPU | `chattts` |
-| TTS | [MMS TTS](https://huggingface.co/docs/transformers/model_doc/mms) | CUDA / CPU | `facebook-mms` |
+| TTS | [MMS TTS](https://huggingface.co/docs/transformers/model_doc/mms) | CUDA / CPU | built-in |
 
 Select implementations with `--stt`, `--llm_backend`, and `--tts`. Run `speech-to-speech -h` for exact values and backend-specific flags.
 
@@ -600,7 +599,33 @@ See [VADHandlerArguments](./src/speech_to_speech/arguments_classes/vad_arguments
 - `--min_speech_continuation_ms`: sustain-bar hysteresis threshold for speech that continues a reopenable soft-ended, uncommitted turn within the reopen window. The default and recommended pairing is `--min_speech_ms 384 --min_speech_continuation_ms 192`.
 - `--min_silence_ms`: minimum length of silence intervals for segmenting speech. Default is 64 ms.
 - `--short_segment_merge_ms`: optional merge window for stitching adjacent VAD segments that are each shorter than `--min_speech_ms`.
-- `--unanswered_reopen_ms`: sanity cap on how long a soft-ended speculative turn that has not yet received any assistant output stays reopenable.
+- `--speculative_reopen_ms`: delay response commitment for 800 ms after a soft-ended turn so immediately resumed speech can reopen it.
+- `--unanswered_reopen_ms`: sanity cap on how long a soft-ended speculative turn that has not yet received any assistant output stays reopenable. With Smart Turn enabled, this is clamped to at least `--smart_turn_max_wait_ms` so a turn remains reopenable for its full grace.
+
+### Smart Turn endpointing
+
+[Smart Turn v3.2](https://huggingface.co/pipecat-ai/smart-turn-v3) can validate Silero's end-of-speech
+decisions using the content and prosody of the current turn. In realtime mode, Silero still finalizes the segment
+and STT/LLM work may begin speculatively. Complete turns start processing immediately and use
+`--speculative_reopen_ms` (800 ms by default) before committing output. Incomplete turns wait
+`--smart_turn_incomplete_delay_ms` (600 ms by default) before starting STT/LLM work, while their output remains
+gated by `--smart_turn_max_wait_ms` (2 seconds by default). If speech resumes during either delay, the existing turn is
+reopened as a newer revision, the accumulated audio is re-emitted, and work from the previous revision is
+discarded before it reaches the user.
+
+The base package includes the quantized CPU runtime and enables Smart Turn by default:
+
+```bash
+pip install speech-to-speech
+speech-to-speech
+```
+
+The latest supported v3.2 CPU checkpoint downloads from the Hugging Face Hub on first use. Pass
+`--smart_turn_model_path /path/to/model.onnx` to use a local model, or `--no_smart_turn` to disable Smart Turn.
+Smart Turn is supported only with `--mode realtime`; pass `--no_smart_turn` when selecting another mode.
+
+Tune the completion cutoff with `--smart_turn_threshold` (default `0.5`). A higher threshold makes ambiguous
+pauses more likely to use the longer speculative response grace.
 
 ### STT, LLM, and TTS Parameters
 

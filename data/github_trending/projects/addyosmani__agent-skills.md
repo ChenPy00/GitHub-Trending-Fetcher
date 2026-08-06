@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "1b715bdf78046bb5bebd0150b64eb7a093b41029fc91a033e9a424685c32507a"
+  "readme_sha256": "da4a8060cd2ceaba57b31d2ed184db00a1338775ccb73b743facf06c91e5aada"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `1b715bdf78046bb5bebd0150b64eb7a093b41029fc91a033e9a424685c32507a`
+- README SHA256: `da4a8060cd2ceaba57b31d2ed184db00a1338775ccb73b743facf06c91e5aada`
 
 ## README
 
@@ -75,6 +75,13 @@ npx skills add addyosmani/agent-skills --skill code-review-and-quality   # five-
 npx skills add addyosmani/agent-skills --skill interview-me              # requirements interrogation, one question at a time
 npx skills add addyosmani/agent-skills --skill test-driven-development   # red-green-refactor, enforced
 ```
+
+> **Installing one skill?** A per-skill `npx` install copies only
+> `skills/<name>/`, not the repo-level `references/` directory. The skill still
+> works, but paths to supplementary shared checklists are unavailable. Use a
+> whole-repo integration, clone the repository, or copy the needed checklist into
+> a `references/` directory inside the installed skill. This portability gap is
+> tracked in [#361](https://github.com/addyosmani/agent-skills/issues/361).
 
 Prefer a native integration? Pick your tool below.
 
@@ -206,6 +213,12 @@ Skills are plain Markdown - they work with any agent that accepts system prompts
 
 ---
 
+## Adoption
+
+Already installed? How you roll the pack out depends on your codebase. The **[Adoption Guide](docs/adoption-guide.md)** covers two paths: the full lifecycle from day one for a greenfield project, or an incremental, verification-first rollout for an established codebase.
+
+---
+
 ## All 24 Skills
 
 The commands above are entry points. The pack includes 24 skills total — 23 lifecycle skills plus the `using-agent-skills` meta-skill. Each skill is a structured workflow with steps, verification gates, and anti-rationalization tables. You can also reference any skill directly.
@@ -293,7 +306,7 @@ Quick-reference material that skills pull in when needed:
 | Reference | Covers |
 |-----------|--------|
 | [definition-of-done.md](references/definition-of-done.md) | Project-wide standing bar every change clears, contrasted with per-task acceptance criteria |
-| [testing-patterns.md](references/testing-patterns.md) | Test structure, naming, mocking, React/API/E2E examples, anti-patterns |
+| [testing-patterns.md](references/testing-patterns.md) | Test structure, naming, mocking, React/API/E2E examples, anti-patterns (JavaScript/TypeScript) |
 | [security-checklist.md](references/security-checklist.md) | Pre-commit checks, auth, input validation, headers, CORS, OWASP Top 10 |
 | [performance-checklist.md](references/performance-checklist.md) | Core Web Vitals targets, frontend/backend checklists, measurement commands |
 | [accessibility-checklist.md](references/accessibility-checklist.md) | Keyboard nav, screen readers, visual design, ARIA, testing tools |
@@ -352,7 +365,7 @@ agent-skills/
 │   ├── browser-testing-with-devtools/ #   Verify
 │   ├── debugging-and-error-recovery/  #   Verify
 │   ├── code-review-and-quality/       #   Review
-│   ├── code-simplification/          #   Review
+│   ├── code-simplification/           #   Review
 │   ├── security-and-hardening/        #   Review
 │   ├── performance-optimization/      #   Review
 │   ├── git-workflow-and-versioning/   #   Ship
