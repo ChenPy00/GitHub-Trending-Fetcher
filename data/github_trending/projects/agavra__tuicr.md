@@ -5,7 +5,7 @@
   "full_name": "agavra/tuicr",
   "url": "https://github.com/agavra/tuicr",
   "description": "a code review TUI with vim keybindings",
-  "readme_sha256": "22268d6bd10a4bb0da8cfc17c847bd01cb39e16a18ec16e22c8d87dc78d667e5"
+  "readme_sha256": "b7b98889be2ef65178485b41b688b29b0d6da66d66c194e941cc3161e2d63ecd"
 }
 ```
 
@@ -13,13 +13,13 @@
 
 - URL: https://github.com/agavra/tuicr
 - Description: a code review TUI with vim keybindings
-- README SHA256: `22268d6bd10a4bb0da8cfc17c847bd01cb39e16a18ec16e22c8d87dc78d667e5`
+- README SHA256: `b7b98889be2ef65178485b41b688b29b0d6da66d66c194e941cc3161e2d63ecd`
 
 ## README
 
 # tuicr
 
-**A code review TUI with vim keybindings. Export to GitHub, GitLab, or clipboard.**
+**A code review TUI with vim keybindings. Export to GitHub, GitLab, Bitbucket, or clipboard.**
 
 [![Crates.io](https://img.shields.io/crates/v/tuicr)](https://crates.io/crates/tuicr)
 [![License](https://img.shields.io/crates/l/tuicr)](./LICENSE)
@@ -35,17 +35,17 @@
 - GitHub-style continuous diff in the terminal. Scroll through every changed file in one stream.
 - PR-style comments at the line, range, file, and review level. 
 - Review tracking at file or hunk granularity, persisted across sessions.
-- Three export targets: push a real review to GitHub or GitLab, copy structured markdown to your
-  clipboard, or pipe to stdout.
-- Works with git, jj, and mercurial. Reviews uncommitted changes, commit ranges, or any GitHub PR
-  or GitLab MR.
+- Three export targets: push a real review to GitHub, GitLab, or Bitbucket, copy structured
+  markdown to your clipboard, or pipe to stdout.
+- Works with git, jj, and mercurial. Reviews uncommitted changes, commit ranges, or any GitHub PR,
+  GitLab MR, or Bitbucket PR.
 
 ## Install
 
 ```bash
 curl -fsSL tuicr.dev/install.sh | sh
 # or
-brew install agavra/tap/tuicr
+brew install tuicr
 ```
 
 <details>
@@ -95,7 +95,7 @@ tuicr                       # Pick from a commit selector
 tuicr tui                   # Same TUI, explicit subcommand
 tuicr -w                    # Uncommitted changes (skip selector)
 tuicr -r main..HEAD         # Commit range
-tuicr pr 125                # GitHub PR
+tuicr pr 125                # GitHub PR, or Bitbucket PR
 tuicr mr 125                # GitLab MR
 tuicr tui pr 125            # GitHub PR via explicit TUI subcommand
 tuicr tui mr 125            # GitLab MR via explicit TUI subcommand
@@ -106,9 +106,11 @@ tuicr update 0.18.0         # Install a known-good version
 ```
 
 Inside tuicr, navigate with `j`/`k`, press `c` to comment, then `y` to copy the review or
-`:submit` to push it to GitHub or GitLab. When opening a GitHub PR or GitLab MR you've reviewed
+`:submit` to push it to GitHub, GitLab, or Bitbucket. When reopening a pull request you've reviewed
 before, tuicr preselects commits newer than your latest submitted review when that metadata is
 available; commits already covered by that review are marked with `✓` in the inline selector.
+(Bitbucket does not record which commit an approval covered, so that preselection does not apply
+there.)
 Auto-detects git, jj, or mercurial.
 
 ## How it compares
@@ -120,6 +122,7 @@ Auto-detects git, jj, or mercurial.
 | Vim keybindings | ✅ | ❌ | partial¹ | ❌ | ❌ |
 | Push inline review to GitHub | ✅ | ❌ | ❌ | partial² | ❌ |
 | Push inline review to GitLab | ✅ | ❌ | ❌ | ❌ | ❌ |
+| Push inline review to Bitbucket | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Agent-ready markdown export | ✅ | via CLI skill | ❌ | ❌ | ❌ |
 | git | ✅ | ✅ | ✅ | ❌ | ✅ |
 | jj | ✅ | ✅ | ✅ | ❌ | ❌ |
@@ -148,6 +151,14 @@ Requires `gh` authenticated to the repo.
 discussion notes. Review-level comments become the summary. Requires `glab` authenticated to the
 host. Request changes needs your account to be an assigned reviewer. Only Draft is GitHub-only
 here. See [docs/GITLAB.md](docs/GITLAB.md) for setup, self-hosted instances, and troubleshooting.
+
+### To Bitbucket
+
+`:submit` offers Comment or Approve on a Bitbucket Cloud PR. Inline comments post as inline PR
+comments, multi-line ranges included; review-level comments become general PR comments. Requires
+`bkt` authenticated to `bitbucket.org`. Request changes and Draft are not supported yet, and
+Bitbucket Data Center is out of scope. See [docs/BITBUCKET.md](docs/BITBUCKET.md) for setup,
+required token scopes, and troubleshooting.
 
 ### To your coding agent
 
@@ -264,7 +275,9 @@ A first-session cheatsheet. Press `?` inside tuicr for the full reference.
 | `{` / `}` | Previous / next file |
 | `[` / `]` | Previous / next hunk |
 | `m` / `M` | Next / previous comment |
-| `/` | Search the diff, or search help while help is open (case-insensitive) |
+| `/` | Search the diff, the file tree, or help — whichever is focused/open (case-insensitive) |
+| `i` / `e` (file tree) | Filter files in / out by regex; narrows the tree **and** the diff |
+| `I` / `E` (file tree) | Clear the include / exclude filter |
 | `c` / `C` | Add line / file comment |
 | `v` / `V` | Visual mode (range comment) |
 | `r` | Toggle file reviewed |
@@ -272,7 +285,7 @@ A first-session cheatsheet. Press `?` inside tuicr for the full reference.
 | `e` | Open focused file in `$EDITOR` |
 | `y` | Copy review to clipboard |
 | `:edit` | Open focused file in `$EDITOR` |
-| `:submit` | Push review to GitHub or GitLab |
+| `:submit` | Push review to GitHub, GitLab, or Bitbucket |
 | `Tab` in `:` prompt | Complete or cycle commands |
 | `?` | Toggle full help |
 

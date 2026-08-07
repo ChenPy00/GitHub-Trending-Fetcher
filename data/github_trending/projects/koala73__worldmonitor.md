@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "2dd8b215eca78c77371fb285ed7de94ea2c1173d198a57766b582fa86568bab2"
+  "readme_sha256": "73b20ef5956431bbacbc491a04fc06692a2675fd40df37e55243ae9e8ffcbff1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `2dd8b215eca78c77371fb285ed7de94ea2c1173d198a57766b582fa86568bab2`
+- README SHA256: `73b20ef5956431bbacbc491a04fc06692a2675fd40df37e55243ae9e8ffcbff1`
 
 ## README
 
@@ -166,7 +166,7 @@ Flight data provided graciously by [Wingbits](https://wingbits.com?utm_source=wo
 
 ## Data Sources
 
-WorldMonitor aggregates 528+ observed upstream hosts across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence — surfaced through 500+ curated feeds and tracked by a freshness monitor covering 35 source groups. See the full [data sources catalog](https://www.worldmonitor.app/docs/data-sources) for providers, feed tiers, license posture, and collection methods.
+WorldMonitor aggregates 530+ observed upstream hosts across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence — surfaced through 500+ curated feeds and tracked by a freshness monitor covering 35 source groups. See the full [data sources catalog](https://www.worldmonitor.app/docs/data-sources) for providers, feed tiers, license posture, and collection methods.
 
 ---
 

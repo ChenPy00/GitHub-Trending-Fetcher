@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "e610f03837c1435323afbf4900d3b79a4fd8238e6a880ac8319dbbc19cfbd7d8"
+  "readme_sha256": "3eeff55a494f1a366d69cb9d0c39f6304e8c84e6a9f5b1a1ebe4ffc951bb4103"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `e610f03837c1435323afbf4900d3b79a4fd8238e6a880ac8319dbbc19cfbd7d8`
+- README SHA256: `3eeff55a494f1a366d69cb9d0c39f6304e8c84e6a9f5b1a1ebe4ffc951bb4103`
 
 ## README
 
@@ -87,9 +87,7 @@ PRIMARY ladder: [skills/MASTER-ROUTING.md](skills/MASTER-ROUTING.md) · Full mat
 <br/>
 
 <div align="center">
-  <a href="https://star-history.com/#zhaoxuya520/reverse-skill&Date">
-    <img src="docs/assets/star-history.svg" alt="Star History" width="650" />
-  </a>
+  <a href="https://afterglow.watch"><img src="https://afterglow.watch/badge/zhaoxuya520/reverse-skill" alt="star velocity"></a>
 </div>
 
 <br/>
@@ -266,7 +264,7 @@ Special thanks to the OLLVM deobfuscation ecosystem contributors and everyone wh
 
 ## Contact
 
-- **Email:** [24781737@qq.com](mailto:24781737@qq.com)
+- **Email:** [ww7517437@gmail.com](mailto:ww7517437@gmail.com)
 - **QQ Group:** 942400892
 - **Discord:**
 [reverse-skill](https://discord.gg/TECd3bMRR)

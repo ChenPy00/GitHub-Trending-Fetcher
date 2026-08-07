@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 1,
+      "readme_sha256": "4367f8bc41689c9c97cb05ba28a4959d3e86cc4dd479330febf10c32e502ac94",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "1682af55c525303bdd09b2a3a005e81f7ba09de435a641818baa77cda8b0b2a9",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Give your agent a computer 👾",
+      "full_name": "cloudflare/computer",
+      "project_file": "projects/cloudflare__computer.md",
+      "rank": 3,
+      "readme_sha256": "6583c8aaccc3492b516678759235f41e843e6a15f45ed1b0b3fcccaefd8e6270",
+      "url": "https://github.com/cloudflare/computer"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 4,
+      "readme_sha256": "c94a6c8fadd16bf69ad02d1fa2e26693ca81393f06e3774a51e909ee5c2ea6a8",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The authentication glue you need.",
+      "full_name": "goauthentik/authentik",
+      "project_file": "projects/goauthentik__authentik.md",
+      "rank": 5,
+      "readme_sha256": "59eee8719a079898e0b9b2f0cfe5c77a9078e6f774bcc14656dde4a91030cd98",
+      "url": "https://github.com/goauthentik/authentik"
+    },
+    {
+      "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "full_name": "huangruiteng/loopx",
+      "project_file": "projects/huangruiteng__loopx.md",
+      "rank": 6,
+      "readme_sha256": "31c0308ef68516713ff1232b3c4a02ff8871e81330b79e5bf94d8bbccfa9087a",
+      "url": "https://github.com/huangruiteng/loopx"
+    },
+    {
+      "description": "Google core libraries for Java",
+      "full_name": "google/guava",
+      "project_file": "projects/google__guava.md",
+      "rank": 7,
+      "readme_sha256": "baab8b71afc324ddf2bb329b9c781e482998478f7efa594f7a331ed8222d4007",
+      "url": "https://github.com/google/guava"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 8,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "full_name": "Significant-Gravitas/AutoGPT",
+      "project_file": "projects/Significant-Gravitas__AutoGPT.md",
+      "rank": 9,
+      "readme_sha256": "91ce59b396eaaeb3e4f0d1441f6665198814ac4b170b33aa75f309bef3de41a5",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 10,
+      "readme_sha256": "e26192e0a17b9fa510fdc9828d953f6218e1cf51cf478dadf0059c099b2d6925",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "project_file": "projects/esengine__DeepSeek-Reasonix.md",
+      "rank": 11,
+      "readme_sha256": "f2b1ab933cac4e595688a539c7c00f43ed10823c0632fb4a836096c41424ae82",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 12,
+      "readme_sha256": "1e9e870bf68c526d7e06326da7763440486313594eba6204dcdf96bcd6d2891f",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "full_name": "firecrawl/pdf-inspector",
+      "project_file": "projects/firecrawl__pdf-inspector.md",
+      "rank": 13,
+      "readme_sha256": "617a402b89298c1035557630d04c7f4a8a68a16a9e1bb33737c1539cec88c247",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    }
+  ],
+  "snapshot_date": "2026-08-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

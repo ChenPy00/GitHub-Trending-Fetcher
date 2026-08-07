@@ -5,7 +5,7 @@
   "full_name": "esengine/DeepSeek-Reasonix",
   "url": "https://github.com/esengine/DeepSeek-Reasonix",
   "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-  "readme_sha256": "52236f401b4a5908715a68888caa90e6f843c4378179da22f4ffd105780d5366"
+  "readme_sha256": "f2b1ab933cac4e595688a539c7c00f43ed10823c0632fb4a836096c41424ae82"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/esengine/DeepSeek-Reasonix
 - Description: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
-- README SHA256: `52236f401b4a5908715a68888caa90e6f843c4378179da22f4ffd105780d5366`
+- README SHA256: `f2b1ab933cac4e595688a539c7c00f43ed10823c0632fb4a836096c41424ae82`
 
 ## README
 
@@ -82,7 +82,8 @@
   summary, stale tool output is snipped/pruned before summary compaction, and the
   built-in tool schema contract is documented for regression review.
 - **Zero-friction distribution.** `CGO_ENABLED=0` single binary; cross-compile
-  to six targets with one command. The only dependency is a TOML parser.
+  to six targets with one command. The result is a fully self-contained static
+  binary — nothing to install on the target machine beyond the binary itself.
 
 ## Install
 

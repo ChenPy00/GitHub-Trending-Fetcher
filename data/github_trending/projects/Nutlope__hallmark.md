@@ -5,7 +5,7 @@
   "full_name": "Nutlope/hallmark",
   "url": "https://github.com/Nutlope/hallmark",
   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-  "readme_sha256": "2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8"
+  "readme_sha256": "878aa11aab1785f7a9d6c2eec889220b53cda4ddc22bf38cf575af98f99bfe72"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Nutlope/hallmark
 - Description: Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
-- README SHA256: `2e0c3ce2f27441c445da2e9e198ebcb555ef85d04fee2c96bbe58188980954e8`
+- README SHA256: `878aa11aab1785f7a9d6c2eec889220b53cda4ddc22bf38cf575af98f99bfe72`
 
 ## README
 
@@ -21,7 +21,7 @@
 
 **A design skill for Claude Code, Cursor, and Codex that refuses to look AI-generated.**
 
-[Live demo →](https://www.usehallmark.com) &nbsp;·&nbsp; twenty themes &nbsp;·&nbsp; four verbs &nbsp;·&nbsp; press `T` to cycle.
+[Live demo →](https://www.usehallmark.com) &nbsp;·&nbsp; twenty-one themes &nbsp;·&nbsp; four verbs &nbsp;·&nbsp; press `T` to cycle.
 
 Made by Together AI.
 
@@ -29,7 +29,7 @@ Made by Together AI.
   <img src="site/OG-hallmark.png" alt="Hallmark, a design skill that refuses to look AI-generated" />
 </p>
 
-Hallmark picks a macrostructure for the brief, dresses it in one of twenty themes, runs fifty-seven slop-test gates plus a pre-emit self-critique, and refuses the on-distribution defaults every LLM was trained into. Two pages by Hallmark for two different briefs feel like different sites, not colour-swaps of the same template.
+Hallmark picks a macrostructure for the brief, dresses it in one of twenty-one themes, runs fifty-seven slop-test gates plus a pre-emit self-critique, and refuses the on-distribution defaults every LLM was trained into. Two pages by Hallmark for two different briefs feel like different sites, not colour-swaps of the same template.
 
 ---
 
