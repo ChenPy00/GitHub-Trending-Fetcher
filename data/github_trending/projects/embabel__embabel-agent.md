@@ -5,7 +5,7 @@
   "full_name": "embabel/embabel-agent",
   "url": "https://github.com/embabel/embabel-agent",
   "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
-  "readme_sha256": "083c0ba75003928da33131135389ba945b6b8e8aa646be05a78565722a99a475"
+  "readme_sha256": "3637346628deb63cc612b75847d00afa089831cac52e1404b425ebd1167f1e61"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/embabel/embabel-agent
 - Description: Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/
-- README SHA256: `083c0ba75003928da33131135389ba945b6b8e8aa646be05a78565722a99a475`
+- README SHA256: `3637346628deb63cc612b75847d00afa089831cac52e1404b425ebd1167f1e61`
 
 ## README
 
@@ -1325,7 +1325,8 @@ embabel:
 # Enable Spring Boot tracing
 management:
   tracing:
-    enabled: true
+    export:
+      enabled: true
     sampling:
       probability: 1.0
 

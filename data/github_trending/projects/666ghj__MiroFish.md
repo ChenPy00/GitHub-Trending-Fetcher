@@ -5,7 +5,7 @@
   "full_name": "666ghj/MiroFish",
   "url": "https://github.com/666ghj/MiroFish",
   "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
-  "readme_sha256": "92f8093faa20833b75ea238710e88c7f6b05a6c58d2fc62f36d9de5ca00a48b7"
+  "readme_sha256": "5109feef87d494dd77c0eb225486d4278fe3eb61b303574600bcf8c3c339d034"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/666ghj/MiroFish
 - Description: A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物
-- README SHA256: `92f8093faa20833b75ea238710e88c7f6b05a6c58d2fc62f36d9de5ca00a48b7`
+- README SHA256: `5109feef87d494dd77c0eb225486d4278fe3eb61b303574600bcf8c3c339d034`
 
 ## README
 
@@ -213,10 +213,10 @@ MiroFish's simulation engine is powered by **[OASIS (Open Agent Social Interacti
 
 ## 📈 Project Statistics
 
-<a href="https://www.star-history.com/#666ghj/MiroFish&type=date&legend=top-left">
+<a href="https://github.com/666ghj/MiroFish">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&theme=dark&legend=top-left" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&legend=top-left" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=666ghj/MiroFish&type=date&legend=top-left" />
+   <source media="(prefers-color-scheme: dark)" srcset="static/image/star-history-dark.svg" />
+   <source media="(prefers-color-scheme: light)" srcset="static/image/star-history-light.svg" />
+   <img alt="666ghj/MiroFish Star History Chart" src="static/image/star-history-light.svg" />
  </picture>
 </a>

@@ -5,7 +5,7 @@
   "full_name": "usekaneo/kaneo",
   "url": "https://github.com/usekaneo/kaneo",
   "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-  "readme_sha256": "4310eed3f351b28eb78c93ddd5a094f57942dc612efca7cc663eb4b341a37851"
+  "readme_sha256": "7d349b2351b4b15acf9db2da5d2e11dfc97337d2f5d4494d40a6ca2630460c64"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usekaneo/kaneo
 - Description: 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
-- README SHA256: `4310eed3f351b28eb78c93ddd5a094f57942dc612efca7cc663eb4b341a37851`
+- README SHA256: `7d349b2351b4b15acf9db2da5d2e11dfc97337d2f5d4494d40a6ca2630460c64`
 
 ## README
 
@@ -165,7 +165,7 @@ For contributing guidelines, code structure, and development best practices, che
 
 ## MCP Server
 
-Kaneo has an official [MCP (Model Context Protocol) server](https://docs.kaneo.app/core/integrations/mcp), so AI tools like Claude, Cursor, and other MCP clients can manage your tasks, projects, and labels. Every instance ships a built-in HTTP MCP endpoint at `/api/mcp`, and for stdio clients there is the official [@kaneo/mcp](https://www.npmjs.com/package/@kaneo/mcp) package on npm (`npx -y @kaneo/mcp`).
+Kaneo has an official [MCP (Model Context Protocol) server](https://kaneo.app/docs/core/integrations/mcp), so AI tools like Claude, Cursor, and other MCP clients can manage your tasks, projects, and labels. Every instance ships a built-in HTTP MCP endpoint at `/api/mcp`, and for stdio clients there is the official [@kaneo/mcp](https://www.npmjs.com/package/@kaneo/mcp) package on npm (`npx -y @kaneo/mcp`).
 
 ## Community
 

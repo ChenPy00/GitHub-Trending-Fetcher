@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "038b349adeb1dcc2ffd171fc6eeb50b6fcf3d8e61e8a096d0c4ab6875a699ab2"
+  "readme_sha256": "f98326579705ed492ddb6d7ba0f7129e9aaa755d173db8e31683a5134ebeb86a"
 }
 ```
 
@@ -13,12 +13,12 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `038b349adeb1dcc2ffd171fc6eeb50b6fcf3d8e61e8a096d0c4ab6875a699ab2`
+- README SHA256: `f98326579705ed492ddb6d7ba0f7129e9aaa755d173db8e31683a5134ebeb86a`
 
 ## README
 
 <p align="center">
-  <img src="docs/assets/logo.png" alt="book-to-skill logo" width="120">
+  <img src="docs/assets/banner.webp" alt="Booklin, the book-to-skill wizard, holding an open book whose pages scatter into sparkles that settle into an ordered grid" width="100%">
 </p>
 
 <h1 align="center">book-to-skill</h1>
@@ -44,17 +44,17 @@
   <a href="#-why">Why</a> ·
   <a href="#-what-it-generates">What it generates</a> ·
   <a href="#-beyond-books">Beyond books</a> ·
-  <a href="docs/HOW_IT_WORKS.md">How it works</a> ·
-  <a href="docs/USAGE.md">Usage</a> ·
-  <a href="docs/INSTALL.md">Install</a> ·
-  <a href="docs/FAQ.md">FAQ</a> ·
-  <a href="docs/PERFORMANCE.md">Performance</a> ·
-  <a href="docs/ARCHITECTURE.md">Architecture</a> ·
+  <a href="docs/how-it-works.md">How it works</a> ·
+  <a href="docs/usage.md">Usage</a> ·
+  <a href="docs/install.md">Install</a> ·
+  <a href="docs/faq.md">FAQ</a> ·
+  <a href="docs/performance.md">Performance</a> ·
+  <a href="docs/architecture.md">Architecture</a> ·
   <a href="CHANGELOG.md">Changelog</a>
 </p>
 
 <p align="center">
-  <strong>24×–51× fewer tokens than dumping the book into context</strong> to answer one question, measured on real books (<a href="docs/PERFORMANCE.md#the-discovery-loop-tax">how it's measured</a>).
+  <strong>24×–51× fewer tokens than dumping the book into context</strong> to answer one question, measured on real books (<a href="docs/performance.md#the-discovery-loop-tax">how it's measured</a>).
 </p>
 
 **How it works, in 3 steps:**
@@ -118,7 +118,7 @@ If you re-open a document often enough to wish you'd memorized it, it's a candid
 
 A PDF-reading agent doesn't just read — it *navigates*: it re-fetches the ToC, backtracks, and re-processes all of it on every turn. book-to-skill pays that structuring cost **once**, at conversion, so queries stay proportional to the answer — **24×–51× fewer tokens** than dumping the book into context, measured on real books.
 
-📊 **Full methodology, numbers, and per-book tables → [docs/PERFORMANCE.md](docs/PERFORMANCE.md#the-discovery-loop-tax)**
+📊 **Full methodology, numbers, and per-book tables → [docs/performance.md](docs/performance.md#the-discovery-loop-tax)**
 
 ---
 
@@ -126,7 +126,7 @@ A PDF-reading agent doesn't just read — it *navigates*: it re-fetches the ToC,
 
 Two halves: a deterministic Python **extractor** (document → clean text + metadata) and a spec-driven **generator** (your agent follows `SKILL.md` to turn that into a structured skill). On-demand chapter files keep the loaded skill small.
 
-🔧 **Full walkthrough (Steps 0–10, extraction modes, token budgets) → [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md)**
+🔧 **Full walkthrough (Steps 0–10, extraction modes, token budgets) → [docs/how-it-works.md](docs/how-it-works.md)**
 
 ---
 
@@ -134,7 +134,7 @@ Two halves: a deterministic Python **extractor** (document → clean text + meta
 
 `/book-to-skill <path|folder|glob> [skill-name]` — plus analyze-only, generate-from-analysis, and update/fold-in modes.
 
-▶️ **All modes and examples → [docs/USAGE.md](docs/USAGE.md)**
+▶️ **All modes and examples → [docs/usage.md](docs/usage.md)**
 
 ---
 
@@ -146,7 +146,7 @@ git clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/boo
 # (Copilot CLI: ~/.copilot/skills/ · Amp/cross-agent: ~/.agents/skills/)
 ```
 
-📥 **All hosts, optional extractors, and the standalone CLI → [docs/INSTALL.md](docs/INSTALL.md)**
+📥 **All hosts, optional extractors, and the standalone CLI → [docs/install.md](docs/install.md)**
 
 ---
 
@@ -154,7 +154,7 @@ git clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/boo
 
 Common questions — "why not just dump the PDF?", cost, privacy, non-book inputs, multi-file books.
 
-❓ **Answers → [docs/FAQ.md](docs/FAQ.md)**
+❓ **Answers → [docs/faq.md](docs/faq.md)**
 
 ---
 
@@ -219,8 +219,8 @@ book-to-skill/
 │   └── validate_skill.py # checks a generated SKILL.md against host rules (--lens claude|copilot|amp)
 ├── tests/                # pytest suite (extraction, detection, discovery tax)
 ├── docs/
-│   ├── PERFORMANCE.md    # measured benchmarks, discovery tax, cost
-│   └── ARCHITECTURE.md   # pipeline + component map
+│   ├── performance.md    # measured benchmarks, discovery tax, cost
+│   └── architecture.md   # pipeline + component map
 ├── CHANGELOG.md          # release history (semver)
 ├── CONTRIBUTING.md       # dev setup, PR conventions, release process
 ├── SECURITY.md           # vulnerability reporting
