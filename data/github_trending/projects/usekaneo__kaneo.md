@@ -5,7 +5,7 @@
   "full_name": "usekaneo/kaneo",
   "url": "https://github.com/usekaneo/kaneo",
   "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
-  "readme_sha256": "7d349b2351b4b15acf9db2da5d2e11dfc97337d2f5d4494d40a6ca2630460c64"
+  "readme_sha256": "ad9aea515d2b4c011d721033873015514e52d9d2926a3db2098fcc8b15e89b87"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usekaneo/kaneo
 - Description: 🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.
-- README SHA256: `7d349b2351b4b15acf9db2da5d2e11dfc97337d2f5d4494d40a6ca2630460c64`
+- README SHA256: `ad9aea515d2b4c011d721033873015514e52d9d2926a3db2098fcc8b15e89b87`
 
 ## README
 
@@ -69,7 +69,7 @@ Learn more about Kaneo's features and capabilities in our [documentation](https:
 
 Kaneo is open source. If you find it useful, consider [sponsoring the project](https://github.com/sponsors/andrejsshell) to help support ongoing development.
 
-<!-- sponsors --><a href="https://github.com/danielsada"><img src="https:&#x2F;&#x2F;github.com&#x2F;danielsada.png" width="60px" alt="User avatar: Daniel Sada" /></a><a href="https://github.com/randoneering"><img src="https:&#x2F;&#x2F;github.com&#x2F;randoneering.png" width="60px" alt="User avatar: (justin)randoneering" /></a><a href="https://github.com/floreabogdan"><img src="https:&#x2F;&#x2F;github.com&#x2F;floreabogdan.png" width="60px" alt="User avatar: Bogdan FLOREA" /></a><a href="https://github.com/meruw"><img src="https:&#x2F;&#x2F;github.com&#x2F;meruw.png" width="60px" alt="User avatar: meri" /></a><!-- sponsors -->
+<!-- sponsors --><a href="https://github.com/danielsada"><img src="https:&#x2F;&#x2F;github.com&#x2F;danielsada.png" width="60px" alt="User avatar: Daniel Sada" /></a><a href="https://github.com/randoneering"><img src="https:&#x2F;&#x2F;github.com&#x2F;randoneering.png" width="60px" alt="User avatar: (justin)randoneering" /></a><a href="https://github.com/floreabogdan"><img src="https:&#x2F;&#x2F;github.com&#x2F;floreabogdan.png" width="60px" alt="User avatar: Bogdan FLOREA" /></a><a href="https://github.com/meruw"><img src="https:&#x2F;&#x2F;github.com&#x2F;meruw.png" width="60px" alt="User avatar: meri" /></a><a href="https://github.com/barbanet"><img src="https:&#x2F;&#x2F;github.com&#x2F;barbanet.png" width="60px" alt="User avatar: Damián Culotta" /></a><!-- sponsors -->
 
 ## Getting Started
 

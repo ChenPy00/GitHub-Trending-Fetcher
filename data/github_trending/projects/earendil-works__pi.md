@@ -5,7 +5,7 @@
   "full_name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-  "readme_sha256": "387661d39786cd81c412d5cea56779e72970aa039c657c7e92c293f24891fac6"
+  "readme_sha256": "0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earendil-works/pi
 - Description: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
-- README SHA256: `387661d39786cd81c412d5cea56779e72970aa039c657c7e92c293f24891fac6`
+- README SHA256: `0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad`
 
 ## README
 
@@ -46,6 +46,7 @@ To learn more about Pi:
 
 | Package | Description |
 |---------|-------------|
+| **[@earendil-works/pi-telemetry](packages/telemetry)** | Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas |
 | **[@earendil-works/pi-ai](packages/ai)** | Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) |
 | **[@earendil-works/pi-agent-core](packages/agent)** | Agent runtime with tool calling and state management |
 | **[@earendil-works/pi-coding-agent](packages/coding-agent)** | Interactive coding agent CLI |

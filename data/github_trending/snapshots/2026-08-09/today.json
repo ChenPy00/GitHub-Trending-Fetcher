@@ -1,0 +1,105 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "project_file": "projects/PrimeIntellect-ai__prime-agent.md",
+      "rank": 1,
+      "readme_sha256": "9bf528df315f8d8a5700c91ce2d4719b889154ebbbe4ddd82f3e381efeb51b4f",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "1682af55c525303bdd09b2a3a005e81f7ba09de435a641818baa77cda8b0b2a9",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 3,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 4,
+      "readme_sha256": "7777e978f0608d75791993a30ae02dd740dc7caffcad59e5d30713fb53925f71",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 5,
+      "readme_sha256": "c94a6c8fadd16bf69ad02d1fa2e26693ca81393f06e3774a51e909ee5c2ea6a8",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The authentication glue you need.",
+      "full_name": "goauthentik/authentik",
+      "project_file": "projects/goauthentik__authentik.md",
+      "rank": 6,
+      "readme_sha256": "59eee8719a079898e0b9b2f0cfe5c77a9078e6f774bcc14656dde4a91030cd98",
+      "url": "https://github.com/goauthentik/authentik"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 7,
+      "readme_sha256": "8f21a91603d23ed3a9ec7d7a8258135cf2c80880489adeec789b8666b43dc4e3",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "Google core libraries for Java",
+      "full_name": "google/guava",
+      "project_file": "projects/google__guava.md",
+      "rank": 8,
+      "readme_sha256": "baab8b71afc324ddf2bb329b9c781e482998478f7efa594f7a331ed8222d4007",
+      "url": "https://github.com/google/guava"
+    },
+    {
+      "description": "Truly independent web browser",
+      "full_name": "LadybirdBrowser/ladybird",
+      "project_file": "projects/LadybirdBrowser__ladybird.md",
+      "rank": 9,
+      "readme_sha256": "7c1ae5c05623170ef473101448c4c1afda06b34435be9481d9c3336edb75e145",
+      "url": "https://github.com/LadybirdBrowser/ladybird"
+    },
+    {
+      "description": "self-hosted, distributed Durable Objects",
+      "full_name": "denoland/celld",
+      "project_file": "projects/denoland__celld.md",
+      "rank": 10,
+      "readme_sha256": "acdcfaf14fa599cf097e5941f0c915ee7158208c1db326411a74eb15eb09a2ee",
+      "url": "https://github.com/denoland/celld"
+    },
+    {
+      "description": "DevOps Interview Guide",
+      "full_name": "litu54/DevOps-Interview-Guide",
+      "project_file": "projects/litu54__DevOps-Interview-Guide.md",
+      "rank": 11,
+      "readme_sha256": "25477a9a0ce5924cd9f99546559f5ec967c0f474d1f67c74ddb5a26de447ca8d",
+      "url": "https://github.com/litu54/DevOps-Interview-Guide"
+    },
+    {
+      "description": "翻墙-科学上网",
+      "full_name": "bannedbook/fanqiang",
+      "project_file": "projects/bannedbook__fanqiang.md",
+      "rank": 12,
+      "readme_sha256": "0ebca5114bbcf9252771729717dfa14816b33ca913613fccfbe47f9530e0a577",
+      "url": "https://github.com/bannedbook/fanqiang"
+    }
+  ],
+  "snapshot_date": "2026-08-09",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
