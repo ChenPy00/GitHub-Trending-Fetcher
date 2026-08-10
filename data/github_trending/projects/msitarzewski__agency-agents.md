@@ -5,7 +5,7 @@
   "full_name": "msitarzewski/agency-agents",
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-  "readme_sha256": "df60acbe486a9e2e4b12a9942051149cdb7cc5fdd4f089acf40ff0da40198c69"
+  "readme_sha256": "a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/msitarzewski/agency-agents
 - Description: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- README SHA256: `df60acbe486a9e2e4b12a9942051149cdb7cc5fdd4f089acf40ff0da40198c69`
+- README SHA256: `a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f`
 
 ## README
 
@@ -188,6 +188,10 @@ Building the future, one commit at a time.
 | 📡 [IoT Fleet Engineer](engineering/engineering-iot-fleet-engineer.md) | IoT & edge fleet | Device provisioning/identity, MQTT telemetry, OTA updates |
 | 🔍 [RAG Pipeline Engineer](engineering/engineering-rag-pipeline-engineer.md) | Production RAG pipelines | Chunking, retrieval quality, hybrid search, re-ranking, eval-driven iteration |
 | 🗄️ [GaussDB Expert Engineer](engineering/engineering-gaussdb-expert.md) | Huawei GaussDB OLTP | Enterprise OLTP performance, HA, and migration on Huawei's GaussDB |
+| 🕵️ [Privacy Engineer](engineering/engineering-privacy-engineer.md) | PII discovery, data minimization, consent enforcement, DSAR/deletion pipelines | Implementing privacy in code, right-to-be-forgotten across services, retention automation |
+| 🦀 [Rust Refactoring Specialist](engineering/engineering-rust-refactoring-specialist.md) | Behavior-aware Rust refactoring | Reforming crates/traits/modules with evidence-based, behavior-preserving changes |
+| 🧪 [LLM Post-Training Engineer](engineering/engineering-llm-post-training-engineer.md) | Post-training stack (SFT/DPO/GRPO/RLVR) | Evidence-based experiment gating, checkpoint integrity, failure classification |
+| 📈 [Data Visualization Engineer](engineering/engineering-data-visualization-engineer.md) | Perceptually honest data viz | Chart-type selection, colorblind-safe palettes, performant D3/Vega rendering |
 
 ### 🎨 Design Division
 
@@ -204,6 +208,7 @@ Making it beautiful, usable, and delightful.
 | 📷 [Image Prompt Engineer](design/design-image-prompt-engineer.md) | AI image generation prompts, photography | Photography prompts for Midjourney, DALL-E, Stable Diffusion |
 | 🌈 [Inclusive Visuals Specialist](design/design-inclusive-visuals-specialist.md) | Representation, bias mitigation, authentic imagery | Generating culturally accurate AI images and video |
 | 🎭 [Persona Walkthrough Specialist](design/design-persona-walkthrough.md) | Persona-driven cognitive walkthroughs | Simulating user reactions and friction at each scroll position |
+| 🧱 [UI Finish-Gate Reviewer](design/design-ui-finish-gate-reviewer.md) | Anti-generic UI finish gate | Catching interchangeable UI before ship via evidence + a written design contract |
 
 ### 💰 Paid Media Division
 
@@ -427,6 +432,7 @@ The unique specialists who don't fit in a box.
 | 🛡️ [FedRAMP & RMF Compliance Engineer](specialized/specialized-fedramp-rmf-compliance.md) | Federal cloud authorization (ATO) | NIST 800-53, FedRAMP Rev5/20x, SSP/POA&M, ConMon, OSCAL |
 | 🏺 [Codebase Archaeologist](specialized/specialized-codebase-archaeologist.md) | Multi-tool codebase drift audits | Detecting silent drift across Claude/Cursor/Copilot/Windsurf edits |
 | 🧾 [Resume Tailor](specialized/resume-tailor.md) | Candidate-side resume optimization | JD mapping, ATS keyword alignment, experience-to-requirement matching |
+| 🧡 [Aging Parent Care Companion](specialized/healthcare-aging-parent-care-companion.md) | Family caregiver decision-support | Appointment/medication coordination, care-team comms, caregiver wellbeing (HIPAA-aligned) |
 
 ### 💵 Finance Division
 
@@ -453,6 +459,7 @@ Building worlds, systems, and experiences across every major engine.
 | 🎨 [Technical Artist](game-development/technical-artist.md) | Shaders, VFX, LOD pipeline, art-to-engine optimization | Bridging art and engineering, shader authoring, performance-safe asset pipelines |
 | 🔊 [Game Audio Engineer](game-development/game-audio-engineer.md) | FMOD/Wwise, adaptive music, spatial audio, audio budgets | Interactive audio systems, dynamic music, audio performance |
 | 📖 [Narrative Designer](game-development/narrative-designer.md) | Story systems, branching dialogue, lore architecture | Writing branching narratives, implementing dialogue systems, world lore |
+| 💰 [Economy Designer](game-development/economy-designer.md) | Virtual currencies, sources/sinks, monetization modeling, inflation control | Designing in-game economies, balancing F2P monetization, live economy tuning |
 
 #### Unity
 

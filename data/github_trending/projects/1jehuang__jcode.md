@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "The most RAM efficient harness",
-  "readme_sha256": "bcc02f1750b27472d1badff84e4a586a7b64a947ec36dac009bda43f3d9efbc8"
+  "readme_sha256": "12449b82dc2a70b6ba64b9c52036f35b2128d7bed647b9406a82b4157682e979"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: The most RAM efficient harness
-- README SHA256: `bcc02f1750b27472d1badff84e4a586a7b64a947ec36dac009bda43f3d9efbc8`
+- README SHA256: `12449b82dc2a70b6ba64b9c52036f35b2128d7bed647b9406a82b4157682e979`
 
 ## README
 
@@ -29,7 +29,9 @@
 [![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.gg/nBe9vGyK9a)
 
 The most RAM efficient harness <br>
-The most most intelligent harness
+The most intelligent harness
+
+<a href="https://trendshift.io/repositories/25042?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25042" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/25042" alt="1jehuang/jcode | Trendshift" width="250" height="55"></a>
 
 <a href="https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.mp4">
   <img src="https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-memory-demo.webp" alt="jcode memory demonstration" width="800">

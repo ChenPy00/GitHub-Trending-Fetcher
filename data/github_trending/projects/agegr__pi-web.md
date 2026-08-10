@@ -5,7 +5,7 @@
   "full_name": "agegr/pi-web",
   "url": "https://github.com/agegr/pi-web",
   "description": "Web UI for the pi coding agent",
-  "readme_sha256": "ed05438d293da2602991c419464658cec4cbc203a0a39f89cc88cb285bcdf174"
+  "readme_sha256": "34a17861cbd2bb09fcec77e059f3d1e19faa097fda785ce11653dd3d3e9fb3a5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agegr/pi-web
 - Description: Web UI for the pi coding agent
-- README SHA256: `ed05438d293da2602991c419464658cec4cbc203a0a39f89cc88cb285bcdf174`
+- README SHA256: `34a17861cbd2bb09fcec77e059f3d1e19faa097fda785ce11653dd3d3e9fb3a5`
 
 ## README
 
@@ -40,8 +40,15 @@ npx @agegr/pi-web@latest
 **Or install globally:**
 
 ```bash
-npm install -g @agegr/pi-web
+# Install or upgrade
+npm install -g @agegr/pi-web@latest
 pi-web
+```
+
+**Uninstall a global installation:**
+
+```bash
+npm uninstall -g @agegr/pi-web
 ```
 
 Then open [http://127.0.0.1:30141](http://127.0.0.1:30141). The CLI will try to open the browser automatically after the server is ready. Pi Web listens on `127.0.0.1` by default.
@@ -102,6 +109,7 @@ npx @agegr/pi-web@latest
 
 - **Data directory**: Pi Web reads `~/.pi/agent/sessions` by default. Set `PI_CODING_AGENT_DIR` to point at another pi agent directory.
 - **Session files**: files are stored as `~/.pi/agent/sessions/<encoded-cwd>/<timestamp>_<uuid>.jsonl`.
+- **Runtime environment**: run Pi Web in the same OS or container as pi so session working directories remain available.
 - **Model config**: the Models panel reads and writes `models.json` in the pi agent directory. Model lists and defaults come from pi's config.
 - **File access**: file browsing and preview are scoped to the selected project directory and working directories that appear in sessions.
 - **Git worktrees**: see [Worktrees in Pi Web](./docs/worktrees.md) for when the switcher appears, how new worktrees are created, and what removal does.

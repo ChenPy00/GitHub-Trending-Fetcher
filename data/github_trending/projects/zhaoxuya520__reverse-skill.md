@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "4d48feccc66fda44178f6d38522765811438783c5d601b2c780dd029e109ea0e"
+  "readme_sha256": "c04f1a41a896225b155465c826cd6081a88f1e07b8b0d44161f2e891a5edb6d0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `4d48feccc66fda44178f6d38522765811438783c5d601b2c780dd029e109ea0e`
+- README SHA256: `c04f1a41a896225b155465c826cd6081a88f1e07b8b0d44161f2e891a5edb6d0`
 
 ## README
 
@@ -246,33 +246,32 @@ The routing core, regression suite, manifests, and case workflow do not depend o
 
 ## Sponsors
 
-Sponsorship helps maintain routing benchmarks, cross-platform CI, documentation, and the public security workflow library.
-
-### Current sponsor
-
-<table align="center">
+<table>
   <tr>
-    <td align="center" width="440">
+    <td align="center" width="220">
       <a href="https://www.atlascloud.ai/?ref=W3Q77C">
-        <img src="https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg" alt="Powered by Atlas Cloud" height="44" />
+        <img src="docs/assets/sponsors/atlas-cloud.svg" alt="Atlas Cloud" width="190" />
       </a>
       <br />
-      <strong>Atlas Cloud</strong>
-      <br />
-      <sub>Large language model service provider</sub>
+      <a href="https://www.atlascloud.ai/oss-program">
+        <img src="https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg" alt="Powered by Atlas Cloud" height="24" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://www.atlascloud.ai/?ref=W3Q77C">Atlas Cloud</a></strong> is a full-modal AI inference platform that provides unified API access to 400+ curated image, video, audio, 3D, and language models. Atlas Cloud supports reverse-skill with model services for cross-platform routing verification, documentation, and open security workflows.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://gokite.ai/">
+        <img src="https://gokite.ai/images/Kite_Logo.svg" alt="Kite AI" width="150" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://gokite.ai/">Kite AI</a></strong> builds identity and payment infrastructure for the agent economy. Its support helps sustain reverse-skill's open-source maintenance, routing benchmarks, and platform-neutral security workflows.
     </td>
   </tr>
 </table>
-
-### Sponsor this project
-
-<p align="center">
-  <a href="mailto:ww7517437@gmail.com?subject=%5BSponsorship%5D%20reverse-skill">
-    <img src="https://img.shields.io/badge/Email%20us-ww7517437%40gmail.com-0A66C2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email us — ww7517437@gmail.com" />
-  </a>
-</p>
-
-<p align="center"><sub>Confirmed sponsors can be acknowledged here with a name, logo, and project link.</sub></p>
 
 <p align="right">(<a href="#sponsors">back to top</a>)</p>
 

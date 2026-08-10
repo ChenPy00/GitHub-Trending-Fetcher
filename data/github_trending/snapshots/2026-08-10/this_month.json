@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 1,
+      "readme_sha256": "fd9762d4f6a92f93687335b78ac13a26668b6c540bc5fbf09bbb10d7f1882b02",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 2,
+      "readme_sha256": "878aa11aab1785f7a9d6c2eec889220b53cda4ddc22bf38cf575af98f99bfe72",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 3,
+      "readme_sha256": "73b20ef5956431bbacbc491a04fc06692a2675fd40df37e55243ae9e8ffcbff1",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "The most RAM efficient harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 4,
+      "readme_sha256": "12449b82dc2a70b6ba64b9c52036f35b2128d7bed647b9406a82b4157682e979",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 5,
+      "readme_sha256": "53e648aed3006fb2c2d422badf5e7b3b1e982dcd679b0efcf1f79bdda965d19e",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 6,
+      "readme_sha256": "51d88b0e2ec1a614e434be6ed39ca2c2f4e8e04185498742499a3e19eee6e9ab",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 7,
+      "readme_sha256": "667b40c5c9b65622b4e5854eede38671af9ef5414772ee5b286917bf909c5888",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "full_name": "zhaoxuya520/reverse-skill",
+      "project_file": "projects/zhaoxuya520__reverse-skill.md",
+      "rank": 8,
+      "readme_sha256": "c04f1a41a896225b155465c826cd6081a88f1e07b8b0d44161f2e891a5edb6d0",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "full_name": "microsoft/AI-For-Beginners",
+      "project_file": "projects/microsoft__AI-For-Beginners.md",
+      "rank": 9,
+      "readme_sha256": "6f1ed5dcfc02f203bdfc55d33af1fa0d2f287feb427f32b3f684074de9fd0ac8",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 10,
+      "readme_sha256": "95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 11,
+      "readme_sha256": "3b72818bd3796a9035b66135b5eac73b20de116685b17027ef3f18b549d1c50c",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 12,
+      "readme_sha256": "c94a6c8fadd16bf69ad02d1fa2e26693ca81393f06e3774a51e909ee5c2ea6a8",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 13,
+      "readme_sha256": "b032d6faf21b2e100c891d54a5d5c52723d145c88e84be33a562a51f7dad0c29",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 14,
+      "readme_sha256": "4367f8bc41689c9c97cb05ba28a4959d3e86cc4dd479330febf10c32e502ac94",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 15,
+      "readme_sha256": "622f309d78f7cd2e348d4bcba53a43a53c6a7ed984b598d1d3c6efc14de14349",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 16,
+      "readme_sha256": "0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.",
+      "full_name": "tirth8205/code-review-graph",
+      "project_file": "projects/tirth8205__code-review-graph.md",
+      "rank": 17,
+      "readme_sha256": "e26192e0a17b9fa510fdc9828d953f6218e1cf51cf478dadf0059c099b2d6925",
+      "url": "https://github.com/tirth8205/code-review-graph"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 18,
+      "readme_sha256": "f98326579705ed492ddb6d7ba0f7129e9aaa755d173db8e31683a5134ebeb86a",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    {
+      "description": "Build local voice agents with open-source models",
+      "full_name": "huggingface/speech-to-speech",
+      "project_file": "projects/huggingface__speech-to-speech.md",
+      "rank": 19,
+      "readme_sha256": "f9245d71ab13a5dd5672d54983effc087c08b4d322d0e423acdd09ba4e56f5ea",
+      "url": "https://github.com/huggingface/speech-to-speech"
+    },
+    {
+      "description": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files. Free, open-source, single binary, no Office installation required.",
+      "full_name": "iOfficeAI/OfficeCLI",
+      "project_file": "projects/iOfficeAI__OfficeCLI.md",
+      "rank": 20,
+      "readme_sha256": "6e72c62629241886f40f400534542335ca6fcd9ad69ff9912e0613e45b73bc59",
+      "url": "https://github.com/iOfficeAI/OfficeCLI"
+    },
+    {
+      "description": "Web UI for the pi coding agent",
+      "full_name": "agegr/pi-web",
+      "project_file": "projects/agegr__pi-web.md",
+      "rank": 21,
+      "readme_sha256": "34a17861cbd2bb09fcec77e059f3d1e19faa097fda785ce11653dd3d3e9fb3a5",
+      "url": "https://github.com/agegr/pi-web"
+    },
+    {
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "full_name": "bradautomates/claude-video",
+      "project_file": "projects/bradautomates__claude-video.md",
+      "rank": 22,
+      "readme_sha256": "ebea63b6bebde45e717177e19a09c9570d64fcd00b203b0cbb026f63fc01c089",
+      "url": "https://github.com/bradautomates/claude-video"
+    }
+  ],
+  "snapshot_date": "2026-08-10",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

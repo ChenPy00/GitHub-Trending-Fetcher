@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "522e1a83c066c674dc12a8842ddb83298ce4f6bccfb61641ff6904c60c0e8970"
+  "readme_sha256": "51d88b0e2ec1a614e434be6ed39ca2c2f4e8e04185498742499a3e19eee6e9ab"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `522e1a83c066c674dc12a8842ddb83298ce4f6bccfb61641ff6904c60c0e8970`
+- README SHA256: `51d88b0e2ec1a614e434be6ed39ca2c2f4e8e04185498742499a3e19eee6e9ab`
 
 ## README
 
@@ -87,6 +87,7 @@ Full docs live in [docs/](./docs). There's no docs site yet.
 - [Install and first run](./docs/user/install.md)
 - [Permission modes](./docs/user/permission-modes.md)
 - [Keyboard shortcuts](./docs/user/keybindings.md)
+- [Customize a project icon](./docs/user/project-settings.md)
 - [Remote access from a phone or another machine](./docs/user/remote-access.md)
 - [Keeping app and server in sync](./docs/user/updating.md)
 - [Source control integrations](./docs/user/source-control.md)

@@ -5,7 +5,7 @@
   "full_name": "esengine/DeepSeek-Reasonix",
   "url": "https://github.com/esengine/DeepSeek-Reasonix",
   "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-  "readme_sha256": "e40263931564a2e4fddd63ccf600dfef45f74ddf7a1d3f0edb1e2b86f6e776bf"
+  "readme_sha256": "d6b4a1d5d56cea0c4a58ecbda2ffe4c3e45361edd9d3f6f4e7a6c1ae54a451d5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/esengine/DeepSeek-Reasonix
 - Description: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
-- README SHA256: `e40263931564a2e4fddd63ccf600dfef45f74ddf7a1d3f0edb1e2b86f6e776bf`
+- README SHA256: `d6b4a1d5d56cea0c4a58ecbda2ffe4c3e45361edd9d3f6f4e7a6c1ae54a451d5`
 
 ## README
 
@@ -134,12 +134,38 @@ approvals, model selection, and workspace sessions.
 
 ### Path D: Build from source
 
+Clone the repository first:
+
 ```sh
 git clone https://github.com/esengine/DeepSeek-Reasonix.git
 cd DeepSeek-Reasonix
+```
+
+#### CLI
+
+The CLI build requires **Go 1.25+**. The module pins a `toolchain` directive;
+keep `GOTOOLCHAIN=auto` so Go downloads the pinned toolchain, or install it.
+
+```sh
 make build      # -> bin/reasonix(.exe)
 make cross      # -> dist/ (darwin|linux|windows × amd64|arm64)
 ```
+
+#### Desktop
+
+The desktop build additionally requires:
+
+- **Node 24+ and pnpm 10** (`npm install -g pnpm@10`) for the frontend
+- **Wails CLI** matching the shared `.wails-version` pin
+
+```sh
+make wails-install
+cd desktop
+wails build
+```
+
+See the [desktop build guide](desktop/README.md#prerequisites) for platform
+webview dependencies and Linux build tags.
 
 ## Quick start
 

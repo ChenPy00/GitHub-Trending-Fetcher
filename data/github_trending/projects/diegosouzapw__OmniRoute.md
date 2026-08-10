@@ -5,7 +5,7 @@
   "full_name": "diegosouzapw/OmniRoute",
   "url": "https://github.com/diegosouzapw/OmniRoute",
   "description": "Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors",
-  "readme_sha256": "beb521b46d612f4bbb872580bd0eecc6269d0586898f5e5fbe50c8e2de2800c3"
+  "readme_sha256": "fd9762d4f6a92f93687335b78ac13a26668b6c540bc5fbf09bbb10d7f1882b02"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/diegosouzapw/OmniRoute
 - Description: Never stop coding. Free MIT AI gateway: one endpoint, 290+ providers (90+ free), 500+ models — Kimi, Claude, GPT, OpenAI, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 500+ contributors
-- README SHA256: `beb521b46d612f4bbb872580bd0eecc6269d0586898f5e5fbe50c8e2de2800c3`
+- README SHA256: `fd9762d4f6a92f93687335b78ac13a26668b6c540bc5fbf09bbb10d7f1882b02`
 
 ## README
 
@@ -198,6 +198,8 @@ curl http://localhost:20128/v1/chat/completions \
 ```
 
 <sub>Prefer a specific free backend? Call it directly, e.g. `oc/…` (OpenCode Free) or `felo/…` (Felo). Then graduate to `auto` and let OmniRoute pick.</sub>
+
+<sub>📦 Copy-paste quickstart scripts for **Python, Node.js, PHP, and cURL** → [`examples/quickstart/`](examples/quickstart/)</sub>
 
 <br/>
 
