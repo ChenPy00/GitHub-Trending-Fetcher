@@ -5,7 +5,7 @@
   "full_name": "kangarooking/cangjie-skill",
   "url": "https://github.com/kangarooking/cangjie-skill",
   "description": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills",
-  "readme_sha256": "7902513c9df3db19415a5beb788bf466895272bcc1987bba34e72134de2a7263"
+  "readme_sha256": "f15d5da9acdad6e2f9dff822254c5145eb72253663694522f336b83894dabb27"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kangarooking/cangjie-skill
 - Description: 把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills
-- README SHA256: `7902513c9df3db19415a5beb788bf466895272bcc1987bba34e72134de2a7263`
+- README SHA256: `f15d5da9acdad6e2f9dff822254c5145eb72253663694522f336b83894dabb27`
 
 ## README
 
@@ -23,7 +23,7 @@
 
 ### 把书、长视频、播客里的方法论，蒸馏成可调用的 AI Skills
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-f5c542.svg)](./LICENSE)
+[![License: GNU AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](./LICENSE)
 [![Method: RIA--TV++](https://img.shields.io/badge/Method-RIA--TV++-2ea44f.svg)](./SKILL.md)
 [![Platform: OpenClaw](https://img.shields.io/badge/Platform-OpenClaw-1677ff.svg)](https://github.com/openclaw/openclaw)
 [![Platform: Claude Code](https://img.shields.io/badge/Platform-Claude%20Code-f97316.svg)](https://code.claude.com/)
@@ -31,6 +31,12 @@
 **读完、看完、听完之后，带走一套能调用的方法论。**
 
 </div>
+
+## 官方网站
+
+🌐 [访问 Cangjie Skill 官方网站](https://cangjie-skill.com/)
+
+官网提供 Skill Packs 可视化浏览、从零开始的使用教程、Skill 详情与生态共建提交入口。GitHub 仓库仍是 cangjie-skill 代码、方法论和模板的唯一来源，官网负责展示、导航与使用指引。
 
 ## 为什么做这件事
 
@@ -153,7 +159,7 @@ cangjie-skill/
 ├── README.md              ← 你正在看的
 ├── README.en.md           ← English version
 ├── README.ja.md           ← 日本語版
-├── LICENSE                ← MIT
+├── LICENSE                ← GNU AGPL v3.0
 ├── SKILL.md               ← 元 skill 定义（cangjie-skill 的完整执行规范）
 ├── methodology/           ← RIA-TV++ 各阶段的方法论文档
 ├── extractors/            ← 5 个并行提取器的 prompt 定义
@@ -237,4 +243,4 @@ cangjie-skill 是一个更大的 skill 生态的一部分：
 
 ## License
 
-MIT. See [LICENSE](./LICENSE).
+GNU Affero General Public License v3.0. See [LICENSE](./LICENSE).

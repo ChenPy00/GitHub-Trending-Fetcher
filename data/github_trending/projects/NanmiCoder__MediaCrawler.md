@@ -5,7 +5,7 @@
   "full_name": "NanmiCoder/MediaCrawler",
   "url": "https://github.com/NanmiCoder/MediaCrawler",
   "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-  "readme_sha256": "5d85ff2e3d4d30d1c383e5724357434444833c3aa54b91a1abb98969c9299ffd"
+  "readme_sha256": "18ac63ee6c1eb4a361f2928c5be9d9fc2864f0911b2fe1d9fa2697dd76f42b23"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NanmiCoder/MediaCrawler
 - Description: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
-- README SHA256: `5d85ff2e3d4d30d1c383e5724357434444833c3aa54b91a1abb98969c9299ffd`
+- README SHA256: `18ac63ee6c1eb4a361f2928c5be9d9fc2864f0911b2fe1d9fa2697dd76f42b23`
 
 ## README
 
@@ -404,7 +404,7 @@ MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel�
 
 如果这个项目对您有帮助，请给个 ⭐ Star 支持一下，让更多的人看到 MediaCrawler！
 
-[![Star History Chart](https://api.star-history.com/svg?repos=NanmiCoder/MediaCrawler&type=Date)](https://star-history.com/#NanmiCoder/MediaCrawler&Date)
+[![Star History Chart](https://www.repostars.dev/api/embed?repo=NanmiCoder%2FMediaCrawler&theme=ocean)](https://www.repostars.dev/?repos=NanmiCoder%2FMediaCrawler&theme=ocean)
 
 
 ## 📚 参考

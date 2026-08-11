@@ -5,7 +5,7 @@
   "full_name": "vitali87/code-graph-rag",
   "url": "https://github.com/vitali87/code-graph-rag",
   "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-  "readme_sha256": "b4ee6f78f8b5be8b9cc15f87a5cb5130531bc426fdc2c422944eefe3161413b0"
+  "readme_sha256": "aba51910123bfea54fbe0c22946ef397a3383e1db9cbd26deac493e4e8241349"
 }
 ```
 
@@ -13,19 +13,20 @@
 
 - URL: https://github.com/vitali87/code-graph-rag
 - Description: The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
-- README SHA256: `b4ee6f78f8b5be8b9cc15f87a5cb5130531bc426fdc2c422944eefe3161413b0`
+- README SHA256: `aba51910123bfea54fbe0c22946ef397a3383e1db9cbd26deac493e4e8241349`
 
 ## README
 
 <div align="center">
-  <!-- Bitbucket strips <picture>/<source> tags, so we use a single light-mode <img>. Restore the theme-aware <picture> block below when the GitHub account is reinstated:
   <picture>
-    <source srcset="assets/logo-dark-any.png" media="(prefers-color-scheme: dark)">
-    <source srcset="assets/logo-light-any.png" media="(prefers-color-scheme: light)">
-    <img src="assets/logo-dark-any.png" alt="Code-Graph-RAG Logo" width="480">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark-any.png">
+    <source media="(prefers-color-scheme: light)" srcset="assets/logo-light-any.png">
+    <img src="assets/logo-light-any.png" alt="Code-Graph-RAG Logo" width="480">
   </picture>
-  -->
-  <img src="assets/logo-light-any.png" alt="Code-Graph-RAG Logo" width="480">
+
+  <p>
+    <a href="https://trendshift.io/repositories/99619" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/99619" alt="vitali87/code-graph-rag | Trendshift" width="250" height="55"/></a>
+  </p>
 
   <p>
   <!-- Badges below are commented out while the GitHub account is suspended. Restore them when the account is reinstated.
@@ -90,9 +91,9 @@ Code-Graph-RAG parses a multi-language codebase with Tree-sitter, builds a knowl
 ## Latest News 🔥
 
 <!-- SECTION:latest_news -->
-- **Release Automation**: `NEWS.md` and the README's "Latest News" section now refresh automatically on every release, keeping the changelog current without hand edits.
 - **Ruby Support**: Ruby joins the graph through a new pluggable ast-grep tier that adds a language from a single YAML pattern file, emitting `Module`, `Function`, and `Class` nodes plus import edges without a hand-written parser.
 - **Structural Search & Replace**: Find and rewrite code by AST pattern with ast-grep, exposed as agent tools so you can match and transform structure across the whole codebase instead of relying on text or regex.
+- **Data-Flow Tracing**: New `FLOWS_TO` taint edges follow values through assignments, function calls, and I/O sinks. This release adds C#, Java, C, and Go, bringing tracing to 10 languages (Python, JavaScript, TypeScript/TSX, Go, Java, Rust, C++, C, and C#).
 <!-- /SECTION:latest_news -->
 
 See [NEWS.md](NEWS.md) for the full history.

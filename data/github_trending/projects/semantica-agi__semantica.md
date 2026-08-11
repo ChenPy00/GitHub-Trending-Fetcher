@@ -5,7 +5,7 @@
   "full_name": "semantica-agi/semantica",
   "url": "https://github.com/semantica-agi/semantica",
   "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-  "readme_sha256": "fe41f2b33b06258a9c054ff628c928d93ed0b24341eebe69bc82a5d356163200"
+  "readme_sha256": "133bc911cca710e90880e7f1db2c4424aaee43d4edeac4ab35213f05a81d2f6d"
 }
 ```
 
@@ -13,13 +13,15 @@
 
 - URL: https://github.com/semantica-agi/semantica
 - Description: Graph-Native Infrastructure for Context and Accountable AI Systems
-- README SHA256: `fe41f2b33b06258a9c054ff628c928d93ed0b24341eebe69bc82a5d356163200`
+- README SHA256: `133bc911cca710e90880e7f1db2c4424aaee43d4edeac4ab35213f05a81d2f6d`
 
 ## README
 
 <div align="center">
 
 <img src="Semantica Logo.png" alt="Semantica" width="420"/>
+
+<a href="https://trendshift.io/repositories/18986?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-18986" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/18986" alt="semantica-agi%2Fsemantica | Trendshift" width="250" height="55"/></a>
 
 ### Graph-Native Infrastructure for Context and Accountable AI Systems
 

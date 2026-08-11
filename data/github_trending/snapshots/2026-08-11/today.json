@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 1,
+      "readme_sha256": "133bc911cca710e90880e7f1db2c4424aaee43d4edeac4ab35213f05a81d2f6d",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 2,
+      "readme_sha256": "a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "project_file": "projects/NanmiCoder__MediaCrawler.md",
+      "rank": 3,
+      "readme_sha256": "18ac63ee6c1eb4a361f2928c5be9d9fc2864f0911b2fe1d9fa2697dd76f42b23",
+      "url": "https://github.com/NanmiCoder/MediaCrawler"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 4,
+      "readme_sha256": "1682af55c525303bdd09b2a3a005e81f7ba09de435a641818baa77cda8b0b2a9",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 5,
+      "readme_sha256": "cb75a0cc9e7bdf189e11e248b498713eb148f7c98622e9cf188dd23e2002f8d9",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "project_file": "projects/PrimeIntellect-ai__prime-agent.md",
+      "rank": 6,
+      "readme_sha256": "afee90993afdd471eab3c0feda639acdf8653159b5ad1cd41efea9f32986180c",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "description": "Truly independent web browser",
+      "full_name": "LadybirdBrowser/ladybird",
+      "project_file": "projects/LadybirdBrowser__ladybird.md",
+      "rank": 7,
+      "readme_sha256": "7c1ae5c05623170ef473101448c4c1afda06b34435be9481d9c3336edb75e145",
+      "url": "https://github.com/LadybirdBrowser/ladybird"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 8,
+      "readme_sha256": "59ebcd1a7a41c15263881adf033fd17446722feff8e060c95f20d516871af0cd",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "⛰️A General Hill-climbing AI harness that helps you move from Current State to Ideal State in both Life and Work.",
+      "full_name": "danielmiessler/LifeOS",
+      "project_file": "projects/danielmiessler__LifeOS.md",
+      "rank": 9,
+      "readme_sha256": "8640c1b3f04320c985a4a95905f6b7e4a23978ae930312dae3505ee96a6170b2",
+      "url": "https://github.com/danielmiessler/LifeOS"
+    },
+    {
+      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "full_name": "firecrawl/firecrawl",
+      "project_file": "projects/firecrawl__firecrawl.md",
+      "rank": 10,
+      "readme_sha256": "c51691bb6980be93f17cf1cb81912e7807f2a4972bbd38b3abbecfa5e69dc1af",
+      "url": "https://github.com/firecrawl/firecrawl"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 11,
+      "readme_sha256": "8f21a91603d23ed3a9ec7d7a8258135cf2c80880489adeec789b8666b43dc4e3",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "",
+      "full_name": "google-deepmind/weathernext",
+      "project_file": "projects/google-deepmind__weathernext.md",
+      "rank": 12,
+      "readme_sha256": "1fbcad9e460cb8758b4b308c438af923df7616639dd5b10dabc438014e95ef0a",
+      "url": "https://github.com/google-deepmind/weathernext"
+    },
+    {
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "full_name": "vitali87/code-graph-rag",
+      "project_file": "projects/vitali87__code-graph-rag.md",
+      "rank": 13,
+      "readme_sha256": "aba51910123bfea54fbe0c22946ef397a3383e1db9cbd26deac493e4e8241349",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 14,
+      "readme_sha256": "51d88b0e2ec1a614e434be6ed39ca2c2f4e8e04185498742499a3e19eee6e9ab",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "full_name": "Comfy-Org/ComfyUI",
+      "project_file": "projects/Comfy-Org__ComfyUI.md",
+      "rank": 15,
+      "readme_sha256": "70dd71e1bf74abc8e00165acd9d80fc3e4ad1de0f62e4356367b205421070517",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "description": "Dopamine is a semi-untethered jailbreak for iOS 15 to 26(.0.1)",
+      "full_name": "opa334/Dopamine",
+      "project_file": "projects/opa334__Dopamine.md",
+      "rank": 16,
+      "readme_sha256": "1d2615cd0629fff8ad728240da86a852e301cbf3f491bf546813a551ff0730c5",
+      "url": "https://github.com/opa334/Dopamine"
+    }
+  ],
+  "snapshot_date": "2026-08-11",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

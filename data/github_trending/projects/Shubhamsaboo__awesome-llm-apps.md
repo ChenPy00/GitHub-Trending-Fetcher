@@ -5,7 +5,7 @@
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-  "readme_sha256": "622f309d78f7cd2e348d4bcba53a43a53c6a7ed984b598d1d3c6efc14de14349"
+  "readme_sha256": "66b071631927009359b7d8418dd4b2ca3fe01cdcb100a84f9c30875d0a134537"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Shubhamsaboo/awesome-llm-apps
 - Description: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-- README SHA256: `622f309d78f7cd2e348d4bcba53a43a53c6a7ed984b598d1d3c6efc14de14349`
+- README SHA256: `66b071631927009359b7d8418dd4b2ca3fe01cdcb100a84f9c30875d0a134537`
 
 ## README
 
@@ -217,6 +217,7 @@ streamlit run travel_agent.py
 *   [📑 Notion MCP Agent](mcp_ai_agents/notion_mcp_agent) - Talk to your Notion pages from the terminal
 *   [🌍 AI Travel Planner MCP Agent](mcp_ai_agents/ai_travel_planner_mcp_agent_team) - Itineraries built on live Airbnb and Google Maps data
 *   [🔀 Multi-MCP Agent Router](mcp_ai_agents/multi_mcp_agent_router/) - Specialist agents, each wired to its own MCP server
+*   [🔌 OpenAI Remote MCP Tool Bridge](mcp_ai_agents/openai_remote_mcp_bridge/) - Connect OpenAI function calling directly to a remote MCP server
 
 ### 📀 RAG (Retrieval Augmented Generation)
 

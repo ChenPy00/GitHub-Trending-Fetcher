@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "f98326579705ed492ddb6d7ba0f7129e9aaa755d173db8e31683a5134ebeb86a"
+  "readme_sha256": "e79c508dbbe44f1dbc67b9073eb0b69f4e1fd50d8b99924f6c9d3dc1a6185549"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `f98326579705ed492ddb6d7ba0f7129e9aaa755d173db8e31683a5134ebeb86a`
+- README SHA256: `e79c508dbbe44f1dbc67b9073eb0b69f4e1fd50d8b99924f6c9d3dc1a6185549`
 
 ## README
 
@@ -176,6 +176,12 @@ The extractor tries tools in order per format and uses the first available. If n
 | **Technical (code, tables, formulas)** | **`docling`** | `pip3 install docling` | ~1.5s/page |
 
 > Before extraction begins, the skill asks you whether the book is **technical** or **text-heavy** and picks the right tool automatically. Docling preserves markdown tables and code blocks; pdftotext is faster for prose-only books.
+
+> **Scanned PDFs need OCR first.** A PDF that is page images with no text layer — a photographed or scanned book — has nothing for these tools to extract. The extractor checks the first pages and stops immediately with an explanation, rather than working through the whole book to produce an empty skill. Run OCR yourself, then convert the result:
+>
+> ```bash
+> ocrmypdf input.pdf output.pdf
+> ```
 
 **EPUB:**
 

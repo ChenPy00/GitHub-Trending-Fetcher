@@ -5,7 +5,7 @@
   "full_name": "PrimeIntellect-ai/prime-agent",
   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
   "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-  "readme_sha256": "9bf528df315f8d8a5700c91ce2d4719b889154ebbbe4ddd82f3e381efeb51b4f"
+  "readme_sha256": "afee90993afdd471eab3c0feda639acdf8653159b5ad1cd41efea9f32986180c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/PrimeIntellect-ai/prime-agent
 - Description: A self-improving RLM agent for coding workflows and long-running autonomous tasks.
-- README SHA256: `9bf528df315f8d8a5700c91ce2d4719b889154ebbbe4ddd82f3e381efeb51b4f`
+- README SHA256: `afee90993afdd471eab3c0feda639acdf8653159b5ad1cd41efea9f32986180c`
 
 ## README
 
@@ -97,7 +97,7 @@ prime-agent shutdown [--force]       # Stop every agent, worker, and background 
 ```
 
 ## Built for Long-Running Work
-Prime Agent is built for long-running work, especially for evaluations in research. These features are available in the TUI, and when run autonomously. 
+Prime Agent is built for long-running work, especially for evaluations in research. These features are available in the TUI, and when run autonomously.
 
 - **Continual Harness:** `/refine` can persist focused, reviewable lessons as supplemental prompts, memories, reusable skill descriptions, or subagent specifications, with recorded refinement history. It does not replace packaging and reviewing new executable skills.
 - **Direct agent-to-agent communication:** running agents and retained subagents can discover one another, exchange messages, and steer active work.
