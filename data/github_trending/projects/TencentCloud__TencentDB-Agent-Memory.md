@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/TencentDB-Agent-Memory",
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-  "readme_sha256": "fa7beb6959473f4f8585678f25226e38e71d83243f80b56c55597c818e2b5ff8"
+  "readme_sha256": "f07680ac88677d4c39d3ff4011c40a86c5ff18c5154864af27edbf952ddf530d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/TencentDB-Agent-Memory
 - Description: TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
-- README SHA256: `fa7beb6959473f4f8585678f25226e38e71d83243f80b56c55597c818e2b5ff8`
+- README SHA256: `f07680ac88677d4c39d3ff4011c40a86c5ff18c5154864af27edbf952ddf530d`
 
 ## README
 
@@ -352,5 +352,16 @@ We welcome contributions of all kinds — bug reports, feature suggestions, docu
   </tr>
 </table>
 
+---
+
+## Star History
+
+<p align="center">
+  <a href="https://www.star-history.com/#Tencent/TencentDB-Agent-Memory&Date">
+    <img src="https://github.com/user-attachments/assets/16753a90-8bc9-471b-819e-311947ed94f7" alt="Star History Chart" width="600" />
+  </a>
+</p>
+
+---
 
 [MIT](./LICENSE) © TencentDB Agent Memory Team

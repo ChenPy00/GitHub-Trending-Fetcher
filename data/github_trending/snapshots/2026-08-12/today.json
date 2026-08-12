@@ -1,0 +1,153 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "e993e2148ed2f99135abac59cb83ceb2a008d0964cd20563701651b66de4da80",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 2,
+      "readme_sha256": "a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 3,
+      "readme_sha256": "0b32f0018f7fa8c3bb12c77488c7032c070975fe2a029b0011d46dfff3e2c347",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions",
+      "full_name": "nvm-sh/nvm",
+      "project_file": "projects/nvm-sh__nvm.md",
+      "rank": 4,
+      "readme_sha256": "023313bbca16e8fd9a93e581ef11ad007630884fc9c959a7475d2b25879cbc4b",
+      "url": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 5,
+      "readme_sha256": "1682af55c525303bdd09b2a3a005e81f7ba09de435a641818baa77cda8b0b2a9",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "full_name": "ZhuLinsen/daily_stock_analysis",
+      "project_file": "projects/ZhuLinsen__daily_stock_analysis.md",
+      "rank": 6,
+      "readme_sha256": "567169e6c0e2446836b9e197628442243a545e12e05ab8301d71ac8e31eb4b2a",
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
+    },
+    {
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "full_name": "vitali87/code-graph-rag",
+      "project_file": "projects/vitali87__code-graph-rag.md",
+      "rank": 7,
+      "readme_sha256": "aba51910123bfea54fbe0c22946ef397a3383e1db9cbd26deac493e4e8241349",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 8,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 9,
+      "readme_sha256": "4f98dbfb30a5b60c6af04911b3996f7bfad36d93b2002a8b5e9dade4fa3a190e",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 10,
+      "readme_sha256": "667b40c5c9b65622b4e5854eede38671af9ef5414772ee5b286917bf909c5888",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 11,
+      "readme_sha256": "60295dd568a6557030fca451ae950725c0b2edd95d096899c353a74533af3aaa",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 12,
+      "readme_sha256": "cb75a0cc9e7bdf189e11e248b498713eb148f7c98622e9cf188dd23e2002f8d9",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "full_name": "huggingface/transformers",
+      "project_file": "projects/huggingface__transformers.md",
+      "rank": 13,
+      "readme_sha256": "4882b6ecd6e7c866ca7a7d2c3517eca22d6ef8fce18601958e19092cb63afd51",
+      "url": "https://github.com/huggingface/transformers"
+    },
+    {
+      "description": "A benchmark built to evaluate and improve agent capabilities for supporting legal work.",
+      "full_name": "harveyai/harvey-labs",
+      "project_file": "projects/harveyai__harvey-labs.md",
+      "rank": 14,
+      "readme_sha256": "b24296a886383c4a53b7f6f2aed298dc65e1368d1b5829c88213238beac0b0fe",
+      "url": "https://github.com/harveyai/harvey-labs"
+    },
+    {
+      "description": " This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "full_name": "jaywcjlove/awesome-mac",
+      "project_file": "projects/jaywcjlove__awesome-mac.md",
+      "rank": 15,
+      "readme_sha256": "f80d7fddcaa1f161ca1e50a3c9f61b1391b477ea768daefbf475302c4029b8de",
+      "url": "https://github.com/jaywcjlove/awesome-mac"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 16,
+      "readme_sha256": "84628d4cb4db1bd4dd5c4097774ba509c4330cb8a7a72e76dd7040e2df6d5a0a",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Curated list of project-based tutorials",
+      "full_name": "practical-tutorials/project-based-learning",
+      "project_file": "projects/practical-tutorials__project-based-learning.md",
+      "rank": 17,
+      "readme_sha256": "540e81c1f5062f0ed2b5b318593a6de7bc8cff6d240b825ce045c68183da1512",
+      "url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    {
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "project_file": "projects/PrimeIntellect-ai__prime-agent.md",
+      "rank": 18,
+      "readme_sha256": "afee90993afdd471eab3c0feda639acdf8653159b5ad1cd41efea9f32986180c",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    }
+  ],
+  "snapshot_date": "2026-08-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

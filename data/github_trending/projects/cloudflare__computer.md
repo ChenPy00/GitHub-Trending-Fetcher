@@ -5,7 +5,7 @@
   "full_name": "cloudflare/computer",
   "url": "https://github.com/cloudflare/computer",
   "description": "Give your agent a computer 👾",
-  "readme_sha256": "6583c8aaccc3492b516678759235f41e843e6a15f45ed1b0b3fcccaefd8e6270"
+  "readme_sha256": "05e6aee10d28ce0cf672e9e4a1defabb0f371b307e4ebb2267d9f63bccc2a218"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cloudflare/computer
 - Description: Give your agent a computer 👾
-- README SHA256: `6583c8aaccc3492b516678759235f41e843e6a15f45ed1b0b3fcccaefd8e6270`
+- README SHA256: `05e6aee10d28ce0cf672e9e4a1defabb0f371b307e4ebb2267d9f63bccc2a218`
 
 ## README
 
@@ -79,6 +79,9 @@ public surface. Each is a Worker workspace with its own README.
 - [`examples/worker-javascript`](examples/worker-javascript) — mirrors
   `worker-shell`, but `exec` evaluates an ECMAScript module in a Dynamic
   Worker instead of running a shell command.
+- [`examples/egress`](examples/egress) — sends one URL through the container,
+  Worker shell, and Worker JavaScript backends with matching `none`, `all`, or
+  custom egress policies.
 - [`examples/think`](examples/think) — a [`@cloudflare/think`](https://www.npmjs.com/package/@cloudflare/think)
   chat agent that uses the workspace as its working directory, reachable
   from a terminal.

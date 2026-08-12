@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "c9ce6b76e1ab77dfcdc5a3c1dcad81cc61d5b17cb2cf227959939798ea3acf1d"
+  "readme_sha256": "b590a450db81de77897d219e7a29fda180c9fb8344b5eb7b13834fc8c28e7b1b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `c9ce6b76e1ab77dfcdc5a3c1dcad81cc61d5b17cb2cf227959939798ea3acf1d`
+- README SHA256: `b590a450db81de77897d219e7a29fda180c9fb8344b5eb7b13834fc8c28e7b1b`
 
 ## README
 
@@ -155,7 +155,7 @@ repo to install.
   - [**Google Mobile Ads SDK - Install**](./skills/ads/google-mobile-ads-get-started)
   - [**Google Mobile Ads SDK - Interstitial Ads**](./skills/ads/google-mobile-ads-interstitial)
   - [**Google Mobile Ads SDK - Rewarded Ads**](./skills/ads/google-mobile-ads-rewarded)
-  - [**IMA SDK basics**](./skills/ads/ima-sdk-basics)
+  - [**IMA SDK client-side**](./skills/ads/ima-sdk-client-side)
 - **Others**
   - [**Getting Started with Google Analytics Admin API**](./skills/analytics/google-analytics-admin-api-basics)
   - [**Getting Started with Google Analytics Data API**](./skills/analytics/google-analytics-data-api-basics)

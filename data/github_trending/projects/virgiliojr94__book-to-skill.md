@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "e79c508dbbe44f1dbc67b9073eb0b69f4e1fd50d8b99924f6c9d3dc1a6185549"
+  "readme_sha256": "2a88d08b07d007d60238068a53f85628c7c7f87a212f47027af24c7e6981aa38"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `e79c508dbbe44f1dbc67b9073eb0b69f4e1fd50d8b99924f6c9d3dc1a6185549`
+- README SHA256: `2a88d08b07d007d60238068a53f85628c7c7f87a212f47027af24c7e6981aa38`
 
 ## README
 
@@ -136,12 +136,17 @@ Two halves: a deterministic Python **extractor** (document → clean text + meta
 
 ▶️ **All modes and examples → [docs/usage.md](docs/usage.md)**
 
+💬 **Using it for something? → [use cases](https://github.com/virgiliojr94/book-to-skill-use-cases)** — what people converted, the numbers they measured, and where it fell short. Your account lives in your own Gist; the index takes a one-line PR.
+
 ---
 
 ## 📥 Install
 
 ```bash
-# Agent skill (registers /book-to-skill) — clone into your skills folder:
+# One command, any host — via the cross-agent skills CLI:
+npx skills add virgiliojr94/book-to-skill
+
+# Or manually — clone into your skills folder (registers /book-to-skill):
 git clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/book-to-skill
 # (Copilot CLI: ~/.copilot/skills/ · Amp/cross-agent: ~/.agents/skills/)
 ```

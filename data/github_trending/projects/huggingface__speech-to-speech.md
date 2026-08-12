@@ -5,7 +5,7 @@
   "full_name": "huggingface/speech-to-speech",
   "url": "https://github.com/huggingface/speech-to-speech",
   "description": "Build local voice agents with open-source models",
-  "readme_sha256": "f9245d71ab13a5dd5672d54983effc087c08b4d322d0e423acdd09ba4e56f5ea"
+  "readme_sha256": "30c695be3d7dad940184136f23587c194e15c493fc0680546061f695b2771bd0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/speech-to-speech
 - Description: Build local voice agents with open-source models
-- README SHA256: `f9245d71ab13a5dd5672d54983effc087c08b4d322d0e423acdd09ba4e56f5ea`
+- README SHA256: `30c695be3d7dad940184136f23587c194e15c493fc0680546061f695b2771bd0`
 
 ## README
 
@@ -206,6 +206,8 @@ Select implementations with `--stt`, `--llm_backend`, and `--tts`. The CLI const
 | `local` | Composes `serve` and `talk` in-process over loopback. | You want to run the server and talk to it from one command. |
 
 `serve` binds to `127.0.0.1` by default; pass `--host 0.0.0.0` explicitly for network exposure. `local` always binds to loopback and connects the same packaged client at `ws://127.0.0.1:<port>/v1/realtime`.
+
+The packaged client can opt in to local Python tools with `talk --tool-module <module>` or `local --tool-module <module>`. The module contract, programmatic API, and a Serper web-search example are documented in [Tool calling design](./src/speech_to_speech/api/openai_realtime/README.md#packaged-python-client-tools).
 
 ### Migrating from `--mode`
 

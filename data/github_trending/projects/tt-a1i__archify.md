@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "b032d6faf21b2e100c891d54a5d5c52723d145c88e84be33a562a51f7dad0c29"
+  "readme_sha256": "b58034117720d3bd25d7faf1bd651394cf687afcf0a2bb1f6bd4e01683bc5b38"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `b032d6faf21b2e100c891d54a5d5c52723d145c88e84be33a562a51f7dad0c29`
+- README SHA256: `b58034117720d3bd25d7faf1bd651394cf687afcf0a2bb1f6bd4e01683bc5b38`
 
 ## README
 
@@ -40,9 +40,9 @@ Archify is an agent skill for Raven, Cursor, Claude Code, Codex CLI, and OpenCod
 
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C3AED?style=flat-square)
-![Stable Version](https://img.shields.io/badge/version-2.13.0-0891b2?style=flat-square)
+![Stable Version](https://img.shields.io/badge/version-2.14.0-0891b2?style=flat-square)
 
-**Current stable version:** `v2.13.0`. See [Changelog](CHANGELOG.md#2130--2026-08-03).
+**Current stable version:** `v2.14.0`. See [Changelog](CHANGELOG.md#2140--2026-08-11).
 
 **[Project page](https://tt-a1i.github.io/archify/)** · **[Scenario guide](https://tt-a1i.github.io/archify/guide.html)** · **[Proof Lab](https://tt-a1i.github.io/archify/gallery.html)**
 

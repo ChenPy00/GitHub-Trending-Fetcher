@@ -5,7 +5,7 @@
   "full_name": "every-app/open-seo",
   "url": "https://github.com/every-app/open-seo",
   "description": "Open source alternative to Semrush and Ahrefs",
-  "readme_sha256": "3b72818bd3796a9035b66135b5eac73b20de116685b17027ef3f18b549d1c50c"
+  "readme_sha256": "ea8e384e968b12d64da43069fccc3cd01960a7bb95d34c156861165a33d6d2c3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/every-app/open-seo
 - Description: Open source alternative to Semrush and Ahrefs
-- README SHA256: `3b72818bd3796a9035b66135b5eac73b20de116685b17027ef3f18b549d1c50c`
+- README SHA256: `ea8e384e968b12d64da43069fccc3cd01960a7bb95d34c156861165a33d6d2c3`
 
 ## README
 
@@ -83,7 +83,15 @@ See [`docs/LOCAL_DEVELOPMENT.md`](./docs/LOCAL_DEVELOPMENT.md).
 
 ## Contributing
 
-Contributions are very welcome. See [`docs/CONTRIBUTING.md`](./docs/CONTRIBUTING.md).
+Creating clear issues is the best way to contribute.
+
+Read more here: [`docs/CONTRIBUTING.md`](./docs/CONTRIBUTING.md)
+
+We have this skill: `/simple-issue-description` which helps.
+
+```sh
+npx skills add every-app/open-seo --skill simple-issue-description
+```
 
 ## Community
 

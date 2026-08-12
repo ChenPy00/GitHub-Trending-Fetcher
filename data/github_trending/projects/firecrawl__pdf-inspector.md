@@ -5,7 +5,7 @@
   "full_name": "firecrawl/pdf-inspector",
   "url": "https://github.com/firecrawl/pdf-inspector",
   "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-  "readme_sha256": "617a402b89298c1035557630d04c7f4a8a68a16a9e1bb33737c1539cec88c247"
+  "readme_sha256": "af65fcc2c40ba41a0d1a7a2a03582100337bc832044a3dd3a11da5af99aa0ada"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/firecrawl/pdf-inspector
 - Description: Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
-- README SHA256: `617a402b89298c1035557630d04c7f4a8a68a16a9e1bb33737c1539cec88c247`
+- README SHA256: `af65fcc2c40ba41a0d1a7a2a03582100337bc832044a3dd3a11da5af99aa0ada`
 
 ## README
 
@@ -129,7 +129,7 @@ Or add it manually:
 
 ```toml
 [dependencies]
-pdf-inspector = "0.1"
+pdf-inspector = "1"
 ```
 
 ```rust
