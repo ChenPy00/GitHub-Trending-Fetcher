@@ -5,7 +5,7 @@
   "full_name": "HKUDS/DeepTutor",
   "url": "https://github.com/HKUDS/DeepTutor",
   "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
-  "readme_sha256": "667b40c5c9b65622b4e5854eede38671af9ef5414772ee5b286917bf909c5888"
+  "readme_sha256": "53a91940e0410ad5f7830787674c81b45730d8ca0f15b7df4202b395588ab89a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/HKUDS/DeepTutor
 - Description: DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .
-- README SHA256: `667b40c5c9b65622b4e5854eede38671af9ef5414772ee5b286917bf909c5888`
+- README SHA256: `53a91940e0410ad5f7830787674c81b45730d8ca0f15b7df4202b395588ab89a`
 
 ## README
 
@@ -832,6 +832,22 @@ deeptutor skill install clawhub:git-release-notes@1.0.1
 Add more registries in `settings/skill_hubs.json`: a `type: "clawhub"` entry points at any compatible HTTP API (EduHub and ClawHub both speak it), `type: "command"` wraps whatever fetch CLI a registry ships, and `"default"` chooses the hub used for bare slugs. All of them feed the same import gate.
 
 </details>
+
+## 🤝 Open Source Partners
+
+<p align="center">
+  <a href="https://github.com/VectifyAI/PageIndex" target="_blank">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/figs/partners/pageindex-mark-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="assets/figs/partners/pageindex-mark.svg">
+      <img src="assets/figs/partners/pageindex-mark.svg" alt="PageIndex" height="38">
+    </picture>
+  </a>
+</p>
+
+<p align="center">
+  Code <b><code>DEEPTUTOR20</code></b> — <b>$20 off</b> your first <a href="https://developer.pageindex.ai/">PageIndex subscription</a> (new customers · Standard / Pro / Max)
+</p>
 
 ## 🌐 Community
 

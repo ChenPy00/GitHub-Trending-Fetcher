@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "b590a450db81de77897d219e7a29fda180c9fb8344b5eb7b13834fc8c28e7b1b"
+  "readme_sha256": "c6a1b3f8924f69cfbf31c0dc3a2048f0e732f62f89857842b04c327c0f8f4061"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `b590a450db81de77897d219e7a29fda180c9fb8344b5eb7b13834fc8c28e7b1b`
+- README SHA256: `c6a1b3f8924f69cfbf31c0dc3a2048f0e732f62f89857842b04c327c0f8f4061`
 
 ## README
 
@@ -109,6 +109,7 @@ repo to install.
   - [**Bigtable Basics**](./skills/cloud/bigtable-basics)
   - [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
   - [**Data Lineage Summary**](./skills/cloud/datalineage-summary)
+  - [**GCP Managed Airflow DAG Authoring Guide**](./skills/cloud/managed-airflow-dag-authoring)
   - [**Managed Service for Apache Airflow (formerly Cloud Composer) Migration Guide**](./skills/cloud/managed-airflow-migrations)
   - [**Spanner Basics**](./skills/cloud/spanner-basics)
 - **Developer tools**

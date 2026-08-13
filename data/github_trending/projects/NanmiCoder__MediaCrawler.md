@@ -5,7 +5,7 @@
   "full_name": "NanmiCoder/MediaCrawler",
   "url": "https://github.com/NanmiCoder/MediaCrawler",
   "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
-  "readme_sha256": "18ac63ee6c1eb4a361f2928c5be9d9fc2864f0911b2fe1d9fa2697dd76f42b23"
+  "readme_sha256": "f705a5d634fbe493c4b86e2c87b71951f0ab7c2ee87578754a1b0552658f19cc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NanmiCoder/MediaCrawler
 - Description: 小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫
-- README SHA256: `18ac63ee6c1eb4a361f2928c5be9d9fc2864f0911b2fe1d9fa2697dd76f42b23`
+- README SHA256: `f705a5d634fbe493c4b86e2c87b71951f0ab7c2ee87578754a1b0552658f19cc`
 
 ## README
 
@@ -341,18 +341,10 @@ MediaCrawler 支持多种数据存储方式，包括 CSV、JSON、JSONL、Excel�
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://bloome.im/app?ref=NanmiCoder&utm_medium=github&utm_source=NanmiCoder-MediaCrawler-ivor-202607"><img src="docs/static/images/bloome_logo.png" width="180" alt="Bloome"></a>
+        <a href="https://go.nodemaven.com/MediaCrawlergh"><img src="docs/static/images/nodemaven_banner.png" width="180" alt="NodeMaven"></a>
       </td>
       <td valign="middle">
-        <a href="https://bloome.im/app?ref=NanmiCoder&utm_medium=github&utm_source=NanmiCoder-MediaCrawler-ivor-202607">Bloome</a> 是一个 AI Agent IM 平台——让多个 AI agent（Claude、ChatGPT、DeepSeek 等）和你在同一个对话里像团队成员一样协作，自动分工、互相校对，直接生成表格、文档与可视化看板。零配置、云端运行，网页和手机都能用，还能把配好的 agent 一键分享给团队。👉 <a href="https://bloome.im/app?ref=NanmiCoder&utm_medium=github&utm_source=NanmiCoder-MediaCrawler-ivor-202607">试试 Bloome</a>
-      </td>
-    </tr>
-    <tr>
-      <td align="center" valign="middle">
-        <a href="https://go.nodemaven.com/MediaCrawler"><img src="docs/static/images/nodemaven_logo.svg" width="180" alt="NodeMaven"></a>
-      </td>
-      <td valign="middle">
-        <a href="https://go.nodemaven.com/MediaCrawler">NodeMaven</a> 提供稳定可靠的高质量代理服务，适用于自动化、网页抓取、SEO 研究和社交媒体管理。服务支持 99.9% 可用性、最长 7 天的粘性会话、IP 质量筛选（所有代理的欺诈评分均低于 97%）、无需 KYC，以及最高 10% 的流量返现。MediaCrawler 用户使用优惠码 <code>CRAWLER35</code> 可享移动和住宅代理 35% 折扣，使用 <code>CRAWLER40</code> 可享 ISP（静态）代理 40% 折扣。👉 <a href="https://go.nodemaven.com/MediaCrawler">访问 NodeMaven</a>
+        <a href="https://go.nodemaven.com/MediaCrawlergh">NodeMaven</a> 是面向网页抓取和自动化场景的高效代理服务商，提供市面上最高质量的 IP。主要优势包括 99.9% 可用性、ZIP 邮编定位、IP 过滤（所有代理的欺诈评分均低于 97%）、无需 KYC，以及代理带宽检测器、Meta 标签检测器、IP 查询等独家免费工具。MediaCrawler 用户使用优惠码 <code>CRAWLER35</code> 可享移动和住宅代理 35% 折扣，使用 <code>CRAWLER40</code> 可享 ISP（静态）代理 40% 折扣。👉 <a href="https://go.nodemaven.com/MediaCrawlergh">访问 NodeMaven</a>
       </td>
     </tr>
   </tbody>

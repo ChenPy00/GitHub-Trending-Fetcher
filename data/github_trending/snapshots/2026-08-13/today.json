@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "206e151e2e1be07df9647e567e42e705cce32b5b2bffc2381c9d31f26ddb99cf",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 2,
+      "readme_sha256": "da828e8e5a4e79f71bb371df71bba5d71a6a548a03b5b1f12800d28eda46a60f",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 3,
+      "readme_sha256": "0b32f0018f7fa8c3bb12c77488c7032c070975fe2a029b0011d46dfff3e2c347",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 4,
+      "readme_sha256": "60295dd568a6557030fca451ae950725c0b2edd95d096899c353a74533af3aaa",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 5,
+      "readme_sha256": "a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 6,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "小红书笔记 | 评论爬虫、抖音视频 | 评论爬虫、快手视频 | 评论爬虫、B 站视频 ｜ 评论爬虫、微博帖子 ｜ 评论爬虫、百度贴吧帖子 ｜ 百度贴吧评论回复爬虫 | 知乎问答文章｜评论爬虫",
+      "full_name": "NanmiCoder/MediaCrawler",
+      "project_file": "projects/NanmiCoder__MediaCrawler.md",
+      "rank": 7,
+      "readme_sha256": "f705a5d634fbe493c4b86e2c87b71951f0ab7c2ee87578754a1b0552658f19cc",
+      "url": "https://github.com/NanmiCoder/MediaCrawler"
+    },
+    {
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "full_name": "hugohe3/ppt-master",
+      "project_file": "projects/hugohe3__ppt-master.md",
+      "rank": 8,
+      "readme_sha256": "eac2e18ae26c6956a20b63b21ef1535a82938f4e02893b73338e883649fdf633",
+      "url": "https://github.com/hugohe3/ppt-master"
+    },
+    {
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "full_name": "infiniflow/ragflow",
+      "project_file": "projects/infiniflow__ragflow.md",
+      "rank": 9,
+      "readme_sha256": "75e0e77c1d0fdc0d707439acf5580c4fdfd347b5849e9310aa2acf208718da37",
+      "url": "https://github.com/infiniflow/ragflow"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 10,
+      "readme_sha256": "cb75a0cc9e7bdf189e11e248b498713eb148f7c98622e9cf188dd23e2002f8d9",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "",
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "project_file": "projects/NVIDIA-NeMo__Switchyard.md",
+      "rank": 11,
+      "readme_sha256": "8a44f98a4e73c78917cd2209ac932259564c76d952335a5739d7dd76ced234ce",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    {
+      "description": "人人都能用英语",
+      "full_name": "ZuodaoTech/everyone-can-use-english",
+      "project_file": "projects/ZuodaoTech__everyone-can-use-english.md",
+      "rank": 12,
+      "readme_sha256": "b18cecd0bd19b883a6b8288fb12b3fec832ab4e6fb0892825d71dd7cbe9f3541",
+      "url": "https://github.com/ZuodaoTech/everyone-can-use-english"
+    },
+    {
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "full_name": "smicallef/spiderfoot",
+      "project_file": "projects/smicallef__spiderfoot.md",
+      "rank": 13,
+      "readme_sha256": "7894cddcd501f65106ffd21fca97e09f01b59fa0e92b1a434e425ef77135089e",
+      "url": "https://github.com/smicallef/spiderfoot"
+    },
+    {
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "full_name": "localsend/localsend",
+      "project_file": "projects/localsend__localsend.md",
+      "rank": 14,
+      "readme_sha256": "d93cba094aae37a5149c4e601f8aa6dea22e4628bd907228665fdd1621f38737",
+      "url": "https://github.com/localsend/localsend"
+    },
+    {
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "full_name": "Lightricks/LTX-2",
+      "project_file": "projects/Lightricks__LTX-2.md",
+      "rank": 15,
+      "readme_sha256": "d0e0dd886fd0c6fcfa5772fe43d3ebdccbc430acce14a32e5251c4e1a4e53c4e",
+      "url": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "description": "Agent framework for the JVM. Pronounced Em-BAY-bel /ɛmˈbeɪbəl/",
+      "full_name": "embabel/embabel-agent",
+      "project_file": "projects/embabel__embabel-agent.md",
+      "rank": 16,
+      "readme_sha256": "5f2cd4533450bdd544f8662b51b35daeca3e20382c811d0643e4f5f7b8b60979",
+      "url": "https://github.com/embabel/embabel-agent"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 17,
+      "readme_sha256": "23e6a5f80f311fd448df75a740e310ab0fc4743479663201d4a5666bf72c2102",
+      "url": "https://github.com/cactus-compute/needle"
+    }
+  ],
+  "snapshot_date": "2026-08-13",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

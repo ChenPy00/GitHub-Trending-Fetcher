@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "2a88d08b07d007d60238068a53f85628c7c7f87a212f47027af24c7e6981aa38"
+  "readme_sha256": "a17de0dbd46fb25f9597953a55bb9a869554df0da3c7a420a5c4c13f759a79ed"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `2a88d08b07d007d60238068a53f85628c7c7f87a212f47027af24c7e6981aa38`
+- README SHA256: `a17de0dbd46fb25f9597953a55bb9a869554df0da3c7a420a5c4c13f759a79ed`
 
 ## README
 
@@ -136,7 +136,7 @@ Two halves: a deterministic Python **extractor** (document → clean text + meta
 
 ▶️ **All modes and examples → [docs/usage.md](docs/usage.md)**
 
-💬 **Using it for something? → [use cases](https://github.com/virgiliojr94/book-to-skill-use-cases)** — what people converted, the numbers they measured, and where it fell short. Your account lives in your own Gist; the index takes a one-line PR.
+💬 **In practice → [use cases](https://github.com/virgiliojr94/book-to-skill-use-cases)** — a DevEx book became a survey of 300+ engineers; a scanned PDF that stalled became [#130](https://github.com/virgiliojr94/book-to-skill/pull/130). Add yours: the account lives in your own Gist, the index takes a one-line PR.
 
 ---
 

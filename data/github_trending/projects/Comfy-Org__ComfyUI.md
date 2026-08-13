@@ -5,7 +5,7 @@
   "full_name": "Comfy-Org/ComfyUI",
   "url": "https://github.com/Comfy-Org/ComfyUI",
   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
-  "readme_sha256": "70dd71e1bf74abc8e00165acd9d80fc3e4ad1de0f62e4356367b205421070517"
+  "readme_sha256": "d0168335c09d2283c5f7a6ba3db14e3996fb91b5967ce42551831f67943dc308"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Comfy-Org/ComfyUI
 - Description: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.
-- README SHA256: `70dd71e1bf74abc8e00165acd9d80fc3e4ad1de0f62e4356367b205421070517`
+- README SHA256: `d0168335c09d2283c5f7a6ba3db14e3996fb91b5967ce42551831f67943dc308`
 
 ## README
 
@@ -56,7 +56,7 @@
 
 ComfyUI is the AI creation engine for visual professionals who demand control over every model, every parameter, and every output. Its powerful and modular node graph interface empowers creatives to generate images, videos, 3D models, audio, and more...
 - ComfyUI natively supports the latest open-source state of the art models.
-- API nodes provide access to the best closed source models such as Nano Banana, Seedance, Hunyuan3D, etc.
+- [Partner nodes](https://docs.comfy.org/tutorials/partner-nodes/overview#partner-nodes) provide access to the best closed source models such as Nano Banana, Seedance, Hunyuan3D, etc.
 - It is available on Windows, Linux, and macOS, locally with our [desktop application](https://www.comfy.org/download), our [portable install](#installing) or on our [cloud](https://www.comfy.org/cloud).
 - The most sophisticated workflows can be exposed through a simple UI thanks to App Mode.
 - It integrates seamlessly into production pipelines with our API endpoints.
