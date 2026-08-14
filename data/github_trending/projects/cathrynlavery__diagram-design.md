@@ -5,7 +5,7 @@
   "full_name": "cathrynlavery/diagram-design",
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
-  "readme_sha256": "206e151e2e1be07df9647e567e42e705cce32b5b2bffc2381c9d31f26ddb99cf"
+  "readme_sha256": "60cbc97a49cfcaae69bb153367dd0799c4a731f4ccc4e69e0c222fccf4b8ca38"
 }
 ```
 
@@ -13,13 +13,15 @@
 
 - URL: https://github.com/cathrynlavery/diagram-design
 - Description: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.
-- README SHA256: `206e151e2e1be07df9647e567e42e705cce32b5b2bffc2381c9d31f26ddb99cf`
+- README SHA256: `60cbc97a49cfcaae69bb153367dd0799c4a731f4ccc4e69e0c222fccf4b8ca38`
 
 ## README
 
 # Diagram Design
 
 **Editorial diagrams your designer won't hate.**
+
+<a href="https://trendshift.io/repositories/26141?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-26141" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/26141" alt="cathrynlavery%2Fdiagram-design | Trendshift" width="250" height="55"/></a>
 
 ![Content site architecture](docs/screenshots/architecture.png)
 
@@ -413,7 +415,8 @@ If you touch the Mermaid import path, `python3 scripts/verify-mermaid-import.py`
 it covers all supported grammars, multi-block Markdown, adversarial labels, trust-boundary
 behavior, resource caps, named failures, and reference/command wiring.
 
-Docs and routing surfaces are themselves gated: `python3 scripts/verify-docs-sync.py` fails CI if the SKILL.md description loses a type's lexical hook, the gallery can't reach a shipped example, or the README tree names a file that doesn't exist. The skill also ships `skills/diagram-design/scripts/self_check.py` — a distilled output checker installed agents can run on their own generated diagrams; `python3 scripts/test-self-check.py` keeps it honest. Settled design decisions (why one pinned controller, why patterns never add types, the autoplay policy, the SKILL.md byte cap) live as short ADRs in `docs/adr/` — read them before relitigating one, add one when you settle a new policy.
+Label placement is gated geometrically: `python3 scripts/verify-geometry.py --all` fails CI when a label mask overlaps a node declared later in the document, because the node fill would clip the text at render time. `python3 scripts/test-verify-geometry.py` keeps that checker honest in both directions.
+Docs and routing surfaces are themselves gated: `python3 scripts/verify-docs-sync.py` fails CI if the SKILL.md description loses a type's lexical hook, the gallery can't reach a shipped example, or the README tree names a file that doesn't exist. The skill also ships `skills/diagram-design/scripts/self_check.py` — a distilled output checker installed agents can run on their own generated diagrams; `python3 scripts/test-self-check.py` keeps it honest. Settled design decisions (why one pinned controller, why patterns never add types, the autoplay policy, the SKILL.md byte cap, why label placement is verified geometrically) live as short ADRs in `docs/adr/` — read them before relitigating one, add one when you settle a new policy.
 
 All pull requests and pushes are automatically validated across Linux, Windows, and macOS runners via GitHub Actions CI (`.github/workflows/ci.yml`).
 

@@ -5,7 +5,7 @@
   "full_name": "PrismML-Eng/Bonsai-demo",
   "url": "https://github.com/PrismML-Eng/Bonsai-demo",
   "description": "Bonsai Demo",
-  "readme_sha256": "d3d2c86d52460356ec6f4e6ebb7a0684577abc4d26297f41e8cfc257df754e47"
+  "readme_sha256": "7b065a72723ab4cf56531d0d57e53907d6d326353886550a97a194b713d89bda"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/PrismML-Eng/Bonsai-demo
 - Description: Bonsai Demo
-- README SHA256: `d3d2c86d52460356ec6f4e6ebb7a0684577abc4d26297f41e8cfc257df754e47`
+- README SHA256: `7b065a72723ab4cf56531d0d57e53907d6d326353886550a97a194b713d89bda`
 
 ## README
 
@@ -124,7 +124,7 @@ See [community-benchmarks/](community-benchmarks/) for results on different hard
 
 Two model families are available, each in sizes **27B**, **8B**, **4B**, and **1.7B**. The 27B models are vision-language models: they accept images as well as text; all 27B repos are gathered in the [Bonsai 27B HF collection](https://huggingface.co/collections/prism-ml/bonsai-27b).
 
-Both formats are landing in mainline llama.cpp: **Q1_0 (1-bit) is fully merged upstream**, and **Q2_0 (ternary) now runs on mainline CPU, Metal, and Vulkan**, with CUDA in review. Details and mainline-compatible files: [binary status](#upstream-status-for-binary) and [ternary status](#upstream-status-for-ternary) below.
+Both formats are landing in mainline llama.cpp: **Q1_0 (1-bit) is fully merged upstream**, and **Q2_0 (ternary) now runs on mainline CPU, Metal, Vulkan, and CUDA**. Details and mainline-compatible files: [binary status](#upstream-status-for-binary) and [ternary status](#upstream-status-for-ternary) below.
 
 ### Bonsai (1-bit)
 
@@ -163,17 +163,21 @@ This is the default family. Set `BONSAI_FAMILY=bonsai` to use the 1-bit Bonsai f
 
 ### Environment variables
 
-Both variables are optional. **If you set neither, the default is `Ternary-Bonsai-27B`:** that's what plain `./setup.sh` downloads and runs. They're read by `setup.sh`, `setup.ps1`, `download_models.sh`, and every `run_*` / `start_*` script (Linux, macOS, and Windows).
+Both variables are optional. **If you set neither, the default is `Ternary-Bonsai-27B`:** that's what plain `./setup.sh` downloads and runs.
 
-| Variable        | Default   | Valid values                       | Purpose |
-|-----------------|-----------|------------------------------------|---------|
-| `BONSAI_FAMILY` | `ternary` | `ternary`, `bonsai`, `all`         | Model family. `ternary` = Ternary-Bonsai; `bonsai` = 1-bit Bonsai. `all` expands to both families (setup/download only). |
-| `BONSAI_MODEL`  | `27B`    | `27B`, `8B`, `4B`, `1.7B`, `all`   | Model size. `all` expands to all four sizes (setup/download only). |
-| `BONSAI_TOKEN`  | —        | HF read-only token                 | Only needed for the 27B models while their repos are private (removed at launch). |
-| `BONSAI_SKIP_GGUF` | unset  | `1`                                 | Skip the GGUF download entirely (macOS MLX-only setups, saves disk space). The llama.cpp scripts then point you at the MLX ones instead (see "Running the Model" below). |
-| `BONSAI_SKIP_MLX`  | unset  | `1`                                 | Skip the MLX download (macOS only; MLX is skipped automatically on Intel Macs and non-macOS). |
+Every launcher is configured through environment variables. The most common ones:
 
-`all` is only valid for `setup.sh` / `setup.ps1` / `download_models.sh` — the run/server scripts need a concrete family/size.
+| Variable | Default | Values | Purpose |
+|----------|---------|--------|---------|
+| `BONSAI_MODEL` | `27B` | `27B`, `8B`, `4B`, `1.7B` | Model size. |
+| `BONSAI_FAMILY` | `ternary` | `ternary`, `bonsai` | Model family (`ternary` = Ternary-Bonsai, `bonsai` = 1-bit Bonsai). |
+| `BONSAI_NGL` | auto-detect | int; `0` = CPU-only | GPU layer offload. |
+| `BONSAI_CTX` | auto (RAM-tiered) | `0`, or ≤ `262144` | Context length (`0`/unset = automatic safe size). |
+| `BONSAI_HOST` | `127.0.0.1` | any bind address | Server bind address. A non-loopback value exposes the server — see the security note in the full reference. |
+| `BONSAI_SPECULATIVE` | `0` | `1` | Speculative decoding with the dspark drafter ([SPECULATIVE.md](SPECULATIVE.md)). |
+| `BONSAI_KV4` | `0` | `1` | 4-bit KV cache for long contexts ([KV-CACHE.md](KV-CACHE.md)). |
+
+**Full reference** — all 24 variables (model/setup, server, MLX, Open WebUI, tools, and platform coverage): **[environment_variables.md](environment_variables.md)**.
 
 Combine them freely:
 
@@ -203,8 +207,8 @@ Ternary support is in the middle of migrating into mainline [llama.cpp](https://
 | File | Format | Runs on |
 |------|--------|---------|
 | `*-Q2_0.gguf` | Group size 128. **The format this demo uses**, compatible with our fork. Once the llama.cpp migration completes, these files will be deprecated and replaced by the `PQ2_0` ggufs | This demo / the fork binaries. Will not load on mainline (same type id, different block size) |
-| `*-Q2_0_g64.gguf` | Group size 64 (2.25 bpw). The official llama.cpp format; these will be renamed to plain `Q2_0`, replacing the current ones | Mainline llama.cpp (CPU and Metal so far) |
-| `*-PQ2_0.gguf` | Not supported yet. Planned as the fork format going forward: the same format as the current group-128 `Q2_0`, just under its own ggml type id so it can coexist with the upstream `Q2_0` | Nothing yet (fork support planned) |
+| `*-Q2_0_g64.gguf` | Group size 64 (2.25 bpw). The official llama.cpp format; these will be renamed to plain `Q2_0`, replacing the current ones | Mainline llama.cpp (CPU, Metal, Vulkan, and CUDA) |
+| `*-PQ2_0.gguf` | ⚠️ **Do not use yet.** Reserved name for a future migration format, so the fork's group-128 packing can coexist with upstream's group-64 `Q2_0` under its own ggml type id. Files are uploaded but experimental — **no guarantee they stay the same**; the format or name may still change, so don't depend on them. | Fork (experimental; subject to change) |
 
 Backend-by-backend migration status:
 
@@ -213,12 +217,14 @@ Backend-by-backend migration status:
 | CPU (ARM NEON + generic scalar) | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#24448](https://github.com/ggml-org/llama.cpp/pull/24448) |
 | Metal | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#25419](https://github.com/ggml-org/llama.cpp/pull/25419) |
 | Vulkan | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#25430](https://github.com/ggml-org/llama.cpp/pull/25430) |
-| CUDA | 🔄 In review upstream | [ggml-org/llama.cpp#25707](https://github.com/ggml-org/llama.cpp/pull/25707) |
+| CUDA | ✅ Merged in mainline llama.cpp | [ggml-org/llama.cpp#25707](https://github.com/ggml-org/llama.cpp/pull/25707) |
 | x86 (AVX-512-VNNI) | ⏳ Pending | TBD |
 
-**CPU, Metal, and Vulkan now run `Q2_0` on mainline llama.cpp, no fork needed** (use a recent `ggml-org/llama.cpp` build with the `*-Q2_0_g64.gguf` files). CUDA is the last one in review upstream ([#25707](https://github.com/ggml-org/llama.cpp/pull/25707)); until it merges, use this demo: it ships the fork [pre-built binaries](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9596-9fcaed7), so everything works out of the box with the group-128 `*-Q2_0.gguf` files it downloads. MLX 2-bit is supported in stock [MLX](https://github.com/ml-explore/mlx), no fork needed.
+**`Q2_0` now runs on mainline llama.cpp across CPU, Metal, Vulkan, and CUDA — no fork needed.** Use a recent [`ggml-org/llama.cpp`](https://github.com/ggml-org/llama.cpp) build with the `*-Q2_0_g64.gguf` files (the x86 AVX-512-VNNI *optimization* is still pending, but x86 already works via the generic CPU path). MLX 2-bit runs on stock [MLX](https://github.com/ml-explore/mlx). This demo still bundles the fork [pre-built binaries](https://github.com/PrismML-Eng/llama.cpp/releases/tag/prism-b9596-9fcaed7) and the group-128 `*-Q2_0.gguf` files for a one-command setup; those keep working until the migration renames the group-64 files to plain `Q2_0`.
 
-To run the smaller ternary models directly on stock `ggml-org/llama.cpp` (CPU or Metal), use the group-64 files:
+**Speculative decoding stays fork-only.** Mainline llama.cpp now has its own DSpark ([ggml-org/llama.cpp#25173](https://github.com/ggml-org/llama.cpp/pull/25173)), but our `*dspark-Q4_1*.gguf` drafter uses fork-specific GGUF packing that mainline can't load ([ggml-org/llama.cpp#26337](https://github.com/ggml-org/llama.cpp/issues/26337)). Use `BONSAI_SPECULATIVE=1` with this demo's binaries — see [SPECULATIVE.md](SPECULATIVE.md).
+
+To run the smaller ternary models directly on stock `ggml-org/llama.cpp`, use the group-64 files:
 
 | Model | Repo | File (mainline-compatible) |
 |-------|------|----------------------------|
@@ -339,7 +345,7 @@ Upload images in the chat UI (`+` in the message box) or send `image_url` parts 
 
 Two experimental, off-by-default features for the llama.cpp chat server:
 
-- **Speculative decoding**: `BONSAI_SPECULATIVE=1` pairs the 27B with its dspark drafter for roughly 1.8-2x faster decode on code and reasoning (CUDA; Apple Silicon support will be improved later). Trade-offs and verification: [SPECULATIVE.md](SPECULATIVE.md).
+- **Speculative decoding**: `BONSAI_SPECULATIVE=1` pairs the 27B with its dspark drafter for roughly 1.8-2x faster decode on code and reasoning (CUDA; Apple Silicon support will be improved later). Needs this demo's fork binaries — the drafter does not load on mainline llama.cpp. Trade-offs and verification: [SPECULATIVE.md](SPECULATIVE.md).
 - **4-bit KV cache**: `BONSAI_KV4=1` cuts KV-cache memory roughly 3.5x for very long contexts, with an optional calibration bias for better quality (`./scripts/make_kv_bias.sh`). Details: [KV-CACHE.md](KV-CACHE.md).
 - **Vision projector in RAM**: `BONSAI_MMPROJ_CPU=1` keeps the 27B's vision projector in system RAM instead of VRAM (`--no-mmproj-offload`), freeing ~0.9 GiB of VRAM for KV/context on tight cards. The cost is a slower image prompt (the projector runs on CPU); text-only chat is unaffected.
 

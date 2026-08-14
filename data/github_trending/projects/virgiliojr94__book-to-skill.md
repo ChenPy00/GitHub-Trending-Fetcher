@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "a17de0dbd46fb25f9597953a55bb9a869554df0da3c7a420a5c4c13f759a79ed"
+  "readme_sha256": "f1972f046ee17ec44995e2f4e2195f727269b438be63cc4467733ed0f52417eb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `a17de0dbd46fb25f9597953a55bb9a869554df0da3c7a420a5c4c13f759a79ed`
+- README SHA256: `f1972f046ee17ec44995e2f4e2195f727269b438be63cc4467733ed0f52417eb`
 
 ## README
 
@@ -132,7 +132,7 @@ Two halves: a deterministic Python **extractor** (document → clean text + meta
 
 ## 🚀 Usage
 
-`/book-to-skill <path|folder|glob> [skill-name]` — plus analyze-only, generate-from-analysis, and update/fold-in modes.
+`/book-to-skill <path|folder|glob> [skill-name]` — plus analyze-only, generate-from-analysis, and update/fold-in modes. After a conversion, the converter can publish the skill to GitHub (private by default) so any host installs it with `npx skills add`.
 
 ▶️ **All modes and examples → [docs/usage.md](docs/usage.md)**
 

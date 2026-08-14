@@ -5,7 +5,7 @@
   "full_name": "PrimeIntellect-ai/prime-agent",
   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
   "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-  "readme_sha256": "afee90993afdd471eab3c0feda639acdf8653159b5ad1cd41efea9f32986180c"
+  "readme_sha256": "a4ca688aafe4398caa6f9136b05bc7f1d6568f4f3262ecb33e4253d1bd909980"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/PrimeIntellect-ai/prime-agent
 - Description: A self-improving RLM agent for coding workflows and long-running autonomous tasks.
-- README SHA256: `afee90993afdd471eab3c0feda639acdf8653159b5ad1cd41efea9f32986180c`
+- README SHA256: `a4ca688aafe4398caa6f9136b05bc7f1d6568f4f3262ecb33e4253d1bd909980`
 
 ## README
 
@@ -89,7 +89,7 @@ Useful commands:
 ```bash
 prime-agent agents                   # Browse running, idle, and saved sessions
 prime-agent attach <agent>           # Reattach to a running session
-prime-agent --resume <path|id>       # Resume a saved session
+prime-agent --resume [path|id]       # Browse sessions or resume one directly
 prime-agent status                   # Inspect background service state
 prime-agent doctor [--fix]           # Inspect or repair background services
 prime-agent update [--force]         # Update Prime Agent

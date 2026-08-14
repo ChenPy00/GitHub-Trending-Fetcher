@@ -4,7 +4,7 @@
   "name": "Switchyard",
   "full_name": "NVIDIA-NeMo/Switchyard",
   "url": "https://github.com/NVIDIA-NeMo/Switchyard",
-  "description": "",
+  "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
   "readme_sha256": "8a44f98a4e73c78917cd2209ac932259564c76d952335a5739d7dd76ced234ce"
 }
 ```
@@ -12,7 +12,7 @@
 # NVIDIA-NeMo/Switchyard
 
 - URL: https://github.com/NVIDIA-NeMo/Switchyard
-- Description: No description
+- Description: Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
 - README SHA256: `8a44f98a4e73c78917cd2209ac932259564c76d952335a5739d7dd76ced234ce`
 
 ## README

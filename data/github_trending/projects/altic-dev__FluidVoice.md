@@ -5,7 +5,7 @@
   "full_name": "altic-dev/FluidVoice",
   "url": "https://github.com/altic-dev/FluidVoice",
   "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
-  "readme_sha256": "f6a40478896a674be5b5bfe4fe0cff425df5f05121eafeffa1c5bcc2490eea6d"
+  "readme_sha256": "f19950e69c73346f6e489c317d63c65268cff6f3c63d30b3cc21b4092d88d324"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/altic-dev/FluidVoice
 - Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.
-- README SHA256: `f6a40478896a674be5b5bfe4fe0cff425df5f05121eafeffa1c5bcc2490eea6d`
+- README SHA256: `f19950e69c73346f6e489c317d63c65268cff6f3c63d30b3cc21b4092d88d324`
 
 ## README
 
@@ -70,18 +70,6 @@ We're keeping Fluid Intelligence private for now so we can sustainably offer the
 
 ---
 
-## Star History
-
-<a href="https://star-history.com/#altic-dev/FluidVoice&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=altic-dev/FluidVoice&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=altic-dev/FluidVoice&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=altic-dev/FluidVoice&type=Date" />
-  </picture>
-</a>
-
----
-
 ## Fluid Intelligence Sneak Peek
 
 <table>
@@ -90,16 +78,16 @@ We're keeping Fluid Intelligence private for now so we can sustainably offer the
     <td width="50%" align="center"><b>Flowers</b></td>
   </tr>
   <tr>
-    <td width="50%"><video src="https://github.com/user-attachments/assets/6c7a7c4c-17a8-453d-8eff-1aa1fa9f6077" width="100%"></video></td>
     <td width="50%"><video src="https://github.com/user-attachments/assets/36747e9d-1ea3-4d27-8d38-eaacb6d57285" width="100%"></video></td>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/5f6063ab-0506-4687-b825-c7bf4ab66ed6" width="100%"></video></td>
   </tr>
   <tr>
     <td width="50%" align="center"><b>Change Time & Name</b></td>
     <td width="50%" align="center"><b>Emoji</b></td>
   </tr>
   <tr>
+    <td width="50%"><video src="https://github.com/user-attachments/assets/6c7a7c4c-17a8-453d-8eff-1aa1fa9f6077" width="100%"></video></td>
     <td width="50%"><video src="https://github.com/user-attachments/assets/04e00f3d-a602-448d-9bde-50b5e8f61ac6" width="100%"></video></td>
-    <td width="50%"><video src="https://github.com/user-attachments/assets/5f6063ab-0506-4687-b825-c7bf4ab66ed6" width="100%"></video></td>
   </tr>
   <tr>
     <td width="50%" align="center"><b>Hyphens & Numbers</b></td>
@@ -120,16 +108,6 @@ https://github.com/user-attachments/assets/ffb47afd-1621-432a-bdca-baa4b8526301
 ### Write Mode — Write or rewrite text in any text box in any app
 
 https://github.com/user-attachments/assets/c57ef6d5-f0a1-4a3f-a121-637533442c24
-
-## Screenshots
-
-### Command Mode
-
-![Command Mode](assets/cmd_mode_ss.png)
-
-### History & Stats
-
-![History & Stats](assets/history__ss.png)
 
 ---
 
@@ -236,11 +214,25 @@ open Fluid.xcodeproj
 
 Build and run in Xcode. All dependencies are managed via Swift Package Manager.
 
-Run the build using the script: `./build.sh`
+Run a signed Debug build using the script:
 
 ```bash
 ./build.sh
 ```
+
+The signed build is written to `DerivedData/Build/Products/Debug/FluidVoice Debug.app`.
+Keep launching that product after each rebuild so macOS can preserve its Accessibility
+authorization.
+
+For CI or contributors who do not have a signing identity, use the explicit unsigned
+fallback:
+
+```bash
+./build.sh unsigned
+```
+
+Unsigned builds are tied to a specific executable version and may require Accessibility
+permission to be removed and granted again after rebuilding.
 
 ---
 
@@ -251,7 +243,7 @@ Contributions are welcome! Please create an issue first to discuss major changes
 ### Development Setup
 
 1. Clone and open in Xcode as above.
-2. **Signing:** `FluidVoice → Signing & Capabilities → Automatically manage signing → pick your Team` (Personal Team is fine). Stored in `xcuserdata/` (gitignored).
+2. **Signing:** `FluidVoice → Signing & Capabilities → Automatically manage signing → pick your Team` (Personal Team is fine). If you have certificates for multiple teams, select one without changing the project by running `FLUIDVOICE_DEVELOPMENT_TEAM=YOUR_TEAM_ID ./build.sh`.
 3. Build and run — SPM handles dependencies.
 4. **(Optional) Pre-commit hook** to prevent accidental team ID commits:
    ```bash

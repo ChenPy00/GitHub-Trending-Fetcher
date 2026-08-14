@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "60cbc97a49cfcaae69bb153367dd0799c4a731f4ccc4e69e0c222fccf4b8ca38",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 2,
+      "readme_sha256": "0b32f0018f7fa8c3bb12c77488c7032c070975fe2a029b0011d46dfff3e2c347",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 3,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 4,
+      "readme_sha256": "7bc753c0dac358dc9c9757cc5d9c4cf8846d03246c891862383ccae30e94dabd",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 5,
+      "readme_sha256": "f19950e69c73346f6e489c317d63c65268cff6f3c63d30b3cc21b4092d88d324",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 6,
+      "readme_sha256": "1c27242dc96aba1edb7dddd2fbe6e460b07bdcb58478e7d26af8254187217cff",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 7,
+      "readme_sha256": "da828e8e5a4e79f71bb371df71bba5d71a6a548a03b5b1f12800d28eda46a60f",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 8,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "full_name": "smicallef/spiderfoot",
+      "project_file": "projects/smicallef__spiderfoot.md",
+      "rank": 9,
+      "readme_sha256": "7894cddcd501f65106ffd21fca97e09f01b59fa0e92b1a434e425ef77135089e",
+      "url": "https://github.com/smicallef/spiderfoot"
+    },
+    {
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "project_file": "projects/NVIDIA-NeMo__Switchyard.md",
+      "rank": 10,
+      "readme_sha256": "8a44f98a4e73c78917cd2209ac932259564c76d952335a5739d7dd76ced234ce",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    {
+      "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "full_name": "holaboss-ai/holaOS",
+      "project_file": "projects/holaboss-ai__holaOS.md",
+      "rank": 11,
+      "readme_sha256": "6ac310e7b26f04e131a7db43f057855db5aafb5c243673b909388379b3b09cef",
+      "url": "https://github.com/holaboss-ai/holaOS"
+    },
+    {
+      "description": "Agent skills for Obsidian. Teach your agent to use Obsidian CLI and open formats including Markdown, Bases, JSON Canvas.",
+      "full_name": "kepano/obsidian-skills",
+      "project_file": "projects/kepano__obsidian-skills.md",
+      "rank": 12,
+      "readme_sha256": "916f32671a4f0c8fdec84f8aa2ac1427d45aaa198edf41b7055e0da88ef251e1",
+      "url": "https://github.com/kepano/obsidian-skills"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 13,
+      "readme_sha256": "4f98dbfb30a5b60c6af04911b3996f7bfad36d93b2002a8b5e9dade4fa3a190e",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 14,
+      "readme_sha256": "a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "full_name": "Lightricks/LTX-2",
+      "project_file": "projects/Lightricks__LTX-2.md",
+      "rank": 15,
+      "readme_sha256": "d0e0dd886fd0c6fcfa5772fe43d3ebdccbc430acce14a32e5251c4e1a4e53c4e",
+      "url": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+      "full_name": "lightningpixel/modly",
+      "project_file": "projects/lightningpixel__modly.md",
+      "rank": 16,
+      "readme_sha256": "83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853",
+      "url": "https://github.com/lightningpixel/modly"
+    },
+    {
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "full_name": "infiniflow/ragflow",
+      "project_file": "projects/infiniflow__ragflow.md",
+      "rank": 17,
+      "readme_sha256": "75e0e77c1d0fdc0d707439acf5580c4fdfd347b5849e9310aa2acf208718da37",
+      "url": "https://github.com/infiniflow/ragflow"
+    }
+  ],
+  "snapshot_date": "2026-08-14",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

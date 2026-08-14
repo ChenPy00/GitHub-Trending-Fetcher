@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "The most RAM efficient harness",
-  "readme_sha256": "15dfcbff6e17c1caddbeba6f47a5fa35aff4c6369ec037cea42620f3072c510d"
+  "readme_sha256": "ff88a056ee6afef2bb9fd3e4968136456008cb52600b88f39cb0747429f87c6f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: The most RAM efficient harness
-- README SHA256: `15dfcbff6e17c1caddbeba6f47a5fa35aff4c6369ec037cea42620f3072c510d`
+- README SHA256: `ff88a056ee6afef2bb9fd3e4968136456008cb52600b88f39cb0747429f87c6f`
 
 ## README
 
@@ -474,6 +474,34 @@ default_model = "my-model-id"
 id = "my-model-id"
 context_window = 128000
 ```
+
+Anthropic Messages-compatible gateways use the same named-profile surface with
+`type = "anthropic-compatible"`. The profile can select bearer, custom-header,
+or no authentication and attach gateway-specific headers to every request:
+
+```toml
+[provider]
+default_provider = "corp-claude"
+default_model = "claude-sonnet-4-6"
+
+[providers.corp-claude]
+type = "anthropic-compatible"
+base_url = "https://gateway.example.com/anthropic/v1"
+auth = "bearer"
+api_key_env = "CORP_CLAUDE_TOKEN"
+default_model = "claude-sonnet-4-6"
+
+[providers.corp-claude.headers]
+x-tenant-id = "tenant-42"
+
+[[providers.corp-claude.models]]
+id = "claude-sonnet-4-6"
+context_window = 200000
+```
+
+For direct environment-based configuration, `ANTHROPIC_BASE_URL` overrides the
+non-OAuth Messages endpoint and `ANTHROPIC_AUTH_TOKEN` is sent as a bearer token.
+Claude OAuth traffic always continues to use Anthropic's official endpoints.
 
 ##### Extra request-body fields (`extra_body`)
 
