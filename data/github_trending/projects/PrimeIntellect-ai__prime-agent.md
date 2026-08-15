@@ -5,7 +5,7 @@
   "full_name": "PrimeIntellect-ai/prime-agent",
   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
   "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-  "readme_sha256": "a4ca688aafe4398caa6f9136b05bc7f1d6568f4f3262ecb33e4253d1bd909980"
+  "readme_sha256": "ee0851e3177545c6fb7498990815403ba94265a6e8314e6e53b1cba4e0244fbb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/PrimeIntellect-ai/prime-agent
 - Description: A self-improving RLM agent for coding workflows and long-running autonomous tasks.
-- README SHA256: `a4ca688aafe4398caa6f9136b05bc7f1d6568f4f3262ecb33e4253d1bd909980`
+- README SHA256: `ee0851e3177545c6fb7498990815403ba94265a6e8314e6e53b1cba4e0244fbb`
 
 ## README
 
@@ -117,6 +117,12 @@ Prime Agent is built for long-running work, especially for evaluations in resear
 - [Provider setup](packages/coding-agent/docs/providers.md) — subscription and API-key providers
 - [Architecture overview](packages/coding-agent/docs/architecture.md) — daemon, worker, kernel, and persistence boundaries
 - [Development](packages/coding-agent/docs/development.md) — build and run from source
+
+## Contributing
+
+Start with a GitHub Discussion for [general questions](https://github.com/PrimeIntellect-ai/prime-agent/discussions/categories/general), [bug reports](https://github.com/PrimeIntellect-ai/prime-agent/discussions/categories/bug-reports), and [feature requests](https://github.com/PrimeIntellect-ai/prime-agent/discussions/categories/feature-requests). Maintainers promote accepted work into Issues, and pull requests are reviewed from maintainers and vouched contributors.
+
+Read the [contribution guidelines](CONTRIBUTING.md) for the full process. Report security vulnerabilities privately by following the [security policy](SECURITY.md).
 
 ## Acknowledgements
 

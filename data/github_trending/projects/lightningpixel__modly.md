@@ -4,7 +4,7 @@
   "name": "modly",
   "full_name": "lightningpixel/modly",
   "url": "https://github.com/lightningpixel/modly",
-  "description": "Desktop app to generate 3D models from images using local AI — runs entirely on your GPU",
+  "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
   "readme_sha256": "83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853"
 }
 ```
@@ -12,7 +12,7 @@
 # lightningpixel/modly
 
 - URL: https://github.com/lightningpixel/modly
-- Description: Desktop app to generate 3D models from images using local AI — runs entirely on your GPU
+- Description: Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU
 - README SHA256: `83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853`
 
 ## README

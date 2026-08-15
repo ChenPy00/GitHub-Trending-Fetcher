@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/TencentDB-Agent-Memory",
   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
   "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
-  "readme_sha256": "f07680ac88677d4c39d3ff4011c40a86c5ff18c5154864af27edbf952ddf530d"
+  "readme_sha256": "f786b498a97a6059ea12e37e94638a074adc1e555f21878c04b7419cc9c1ad8e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/TencentDB-Agent-Memory
 - Description: TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.
-- README SHA256: `f07680ac88677d4c39d3ff4011c40a86c5ff18c5154864af27edbf952ddf530d`
+- README SHA256: `f786b498a97a6059ea12e37e94638a074adc1e555f21878c04b7419cc9c1ad8e`
 
 ## README
 
@@ -279,6 +279,7 @@ PersonaMem tests whether an Agent can correctly understand and apply user inform
 
 ## Related Documentation
 
+- [Roadmap](./ROADMAP.md) (what we're building next)
 - [Full Installation Guide](./INSTALL.md) (Memory Core + Hub + Proxy one-click deployment)
 - [Roadmap](./ROADMAP.md) (what we're building next; 中文: [ROADMAP_CN.md](./ROADMAP_CN.md))
 - [Data Migration Tool (v2 → v3)](./MemoryCore/scripts/migrate-v2-to-v3/README.md) (if you're on an older release and want to migrate existing data)

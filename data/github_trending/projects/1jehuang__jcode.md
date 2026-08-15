@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "The most RAM efficient harness",
-  "readme_sha256": "ff88a056ee6afef2bb9fd3e4968136456008cb52600b88f39cb0747429f87c6f"
+  "readme_sha256": "dd655d29e37bfb0d4e6b3933917db0a388da2710e352473df68768d423a196a7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: The most RAM efficient harness
-- README SHA256: `ff88a056ee6afef2bb9fd3e4968136456008cb52600b88f39cb0747429f87c6f`
+- README SHA256: `dd655d29e37bfb0d4e6b3933917db0a388da2710e352473df68768d423a196a7`
 
 ## README
 
@@ -33,7 +33,7 @@ The most intelligent harness
 
 <a href="https://trendshift.io/repositories/25042?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-25042" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/25042" alt="1jehuang/jcode | Trendshift" width="250" height="55"></a>
 
-<a href="https://star-history.com/#1jehuang/jcode&Date"><img src="https://api.star-history.com/svg?repos=1jehuang/jcode&type=Date" alt="Stargazers over time" width="600"></a>
+<a href="https://github.com/1jehuang/jcode/stargazers"><img src="docs/images/star-history.svg" alt="jcode GitHub stars over time" width="600"></a>
 
 <a href="https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-yc-launch.mp4">
   <img src="https://github.com/1jehuang/jcode/releases/download/readme-assets/jcode-yc-launch.webp" alt="jcode YC launch video" width="800">

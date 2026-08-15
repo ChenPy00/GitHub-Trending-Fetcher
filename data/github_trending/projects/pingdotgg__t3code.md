@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "51d88b0e2ec1a614e434be6ed39ca2c2f4e8e04185498742499a3e19eee6e9ab"
+  "readme_sha256": "a126500167715c69daf385fc21a36c2cf3211c7f9fceaec118543c284aadb64e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `51d88b0e2ec1a614e434be6ed39ca2c2f4e8e04185498742499a3e19eee6e9ab`
+- README SHA256: `a126500167715c69daf385fc21a36c2cf3211c7f9fceaec118543c284aadb64e`
 
 ## README
 
@@ -70,9 +70,19 @@ brew install --cask t3-code
 
 #### Arch Linux (AUR)
 
+Stable:
+
 ```bash
 yay -S t3code-bin
 ```
+
+Nightly:
+
+```bash
+yay -S t3code-nightly-bin
+```
+
+The AUR packaging is maintained in this repository under [`packaging/aur`](./packaging/aur).
 
 ## Some notes
 

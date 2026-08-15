@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "c6a1b3f8924f69cfbf31c0dc3a2048f0e732f62f89857842b04c327c0f8f4061"
+  "readme_sha256": "176fec5c387a5f1a6afbe9aa7bb32aa1a0912a3315498ff31266e43797645a48"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `c6a1b3f8924f69cfbf31c0dc3a2048f0e732f62f89857842b04c327c0f8f4061`
+- README SHA256: `176fec5c387a5f1a6afbe9aa7bb32aa1a0912a3315498ff31266e43797645a48`
 
 ## README
 
@@ -118,6 +118,7 @@ repo to install.
   - [**Google Agents CLI Onboarding**](./skills/cloud/google-agents-cli-onboarding)
 - **Management tools**
   - [**Cloud Monitoring Chart Generation Skill (`cloud-monitoring-chart-generation`)**](./skills/cloud/cloud-monitoring-chart-generation)
+  - [**Cloud Monitoring ListTimeSeries Request Generator**](./skills/cloud/cloud-monitoring-list-time-series-request)
   - [**Configuring Cloud Logging**](./skills/cloud/cloud-logging-configuration-basics)
   - [**Configuring Cross-Project Logging**](./skills/cloud/cloud-logging-cross-project-configuration)
   - [**Generate Logging Query Language queries**](./skills/cloud/cloud-logging-query-generation)
@@ -156,6 +157,7 @@ repo to install.
   - [**Google Mobile Ads SDK - Install**](./skills/ads/google-mobile-ads-get-started)
   - [**Google Mobile Ads SDK - Interstitial Ads**](./skills/ads/google-mobile-ads-interstitial)
   - [**Google Mobile Ads SDK - Rewarded Ads**](./skills/ads/google-mobile-ads-rewarded)
+  - [**IMA DAI SDK**](./skills/ads/ima-dai-sdk)
   - [**IMA SDK client-side**](./skills/ads/ima-sdk-client-side)
 - **Others**
   - [**Getting Started with Google Analytics Admin API**](./skills/analytics/google-analytics-admin-api-basics)

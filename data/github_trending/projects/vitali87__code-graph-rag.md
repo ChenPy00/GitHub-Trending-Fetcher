@@ -5,7 +5,7 @@
   "full_name": "vitali87/code-graph-rag",
   "url": "https://github.com/vitali87/code-graph-rag",
   "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-  "readme_sha256": "aba51910123bfea54fbe0c22946ef397a3383e1db9cbd26deac493e4e8241349"
+  "readme_sha256": "ed8a5fffe8dd12a66c4eda2299b96fc0973211e20c5e46ca00998dbe8ce83c8c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vitali87/code-graph-rag
 - Description: The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
-- README SHA256: `aba51910123bfea54fbe0c22946ef397a3383e1db9cbd26deac493e4e8241349`
+- README SHA256: `ed8a5fffe8dd12a66c4eda2299b96fc0973211e20c5e46ca00998dbe8ce83c8c`
 
 ## README
 
@@ -91,9 +91,9 @@ Code-Graph-RAG parses a multi-language codebase with Tree-sitter, builds a knowl
 ## Latest News 🔥
 
 <!-- SECTION:latest_news -->
+- **Runtime Call Tracing**: A dynamic tracer runs your code (typically the test suite) and merges the calls that actually happened into the graph as `CALLS` edges (flagged where static analysis missed them), so dispatch through interfaces, virtual methods, function pointers, reflection, and framework routing becomes visible. Convert a run from Python, the JVM, Node.js, .NET, PHP, Lua, Dart, or Go with `cgr trace`.
 - **Ruby Support**: Ruby joins the graph through a new pluggable ast-grep tier that adds a language from a single YAML pattern file, emitting `Module`, `Function`, and `Class` nodes plus import edges without a hand-written parser.
 - **Structural Search & Replace**: Find and rewrite code by AST pattern with ast-grep, exposed as agent tools so you can match and transform structure across the whole codebase instead of relying on text or regex.
-- **Data-Flow Tracing**: New `FLOWS_TO` taint edges follow values through assignments, function calls, and I/O sinks. This release adds C#, Java, C, and Go, bringing tracing to 10 languages (Python, JavaScript, TypeScript/TSX, Go, Java, Rust, C++, C, and C#).
 <!-- /SECTION:latest_news -->
 
 See [NEWS.md](NEWS.md) for the full history.

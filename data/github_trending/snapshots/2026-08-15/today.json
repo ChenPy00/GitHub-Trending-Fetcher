@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "12d51301d2204fac89375768b7ada26abc6282b324e36fb47543c1a7e802c88b",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 2,
+      "readme_sha256": "d73ddddd11fecb52222fd33c572fbb560bdce660ed8a913c37688f666c2c450d",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 3,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 4,
+      "readme_sha256": "da828e8e5a4e79f71bb371df71bba5d71a6a548a03b5b1f12800d28eda46a60f",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "SpiderFoot automates OSINT for threat intelligence and mapping your attack surface.",
+      "full_name": "smicallef/spiderfoot",
+      "project_file": "projects/smicallef__spiderfoot.md",
+      "rank": 5,
+      "readme_sha256": "7894cddcd501f65106ffd21fca97e09f01b59fa0e92b1a434e425ef77135089e",
+      "url": "https://github.com/smicallef/spiderfoot"
+    },
+    {
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 6,
+      "readme_sha256": "feb5ddfd74f5bcc30fd211f824775da0bad9ceb941d7bf582212114fe85f297b",
+      "url": "https://github.com/citrolabs/ego-lite"
+    },
+    {
+      "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
+      "full_name": "holaboss-ai/holaOS",
+      "project_file": "projects/holaboss-ai__holaOS.md",
+      "rank": 7,
+      "readme_sha256": "6ac310e7b26f04e131a7db43f057855db5aafb5c243673b909388379b3b09cef",
+      "url": "https://github.com/holaboss-ai/holaOS"
+    },
+    {
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "full_name": "github/spec-kit",
+      "project_file": "projects/github__spec-kit.md",
+      "rank": 8,
+      "readme_sha256": "6622f1413ad7344598f36f273299830affafad0d4f4b6b45749bb4a1d7089c54",
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "full_name": "lightningpixel/modly",
+      "project_file": "projects/lightningpixel__modly.md",
+      "rank": 9,
+      "readme_sha256": "83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853",
+      "url": "https://github.com/lightningpixel/modly"
+    },
+    {
+      "description": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs",
+      "full_name": "infiniflow/ragflow",
+      "project_file": "projects/infiniflow__ragflow.md",
+      "rank": 10,
+      "readme_sha256": "75e0e77c1d0fdc0d707439acf5580c4fdfd347b5849e9310aa2acf208718da37",
+      "url": "https://github.com/infiniflow/ragflow"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 11,
+      "readme_sha256": "55709729298c954f52476c13f8c1b673c533b16f7ee64140c5fa9a5671cd1470",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "",
+      "full_name": "deepseek-ai/awesome-deepseek-agent",
+      "project_file": "projects/deepseek-ai__awesome-deepseek-agent.md",
+      "rank": 12,
+      "readme_sha256": "27cb26866e9c9b646754bef2738e07b7b38accd09149d48bba3ff5af68dab7e3",
+      "url": "https://github.com/deepseek-ai/awesome-deepseek-agent"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 13,
+      "readme_sha256": "0b32f0018f7fa8c3bb12c77488c7032c070975fe2a029b0011d46dfff3e2c347",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "full_name": "rustdesk/rustdesk",
+      "project_file": "projects/rustdesk__rustdesk.md",
+      "rank": 14,
+      "readme_sha256": "14d9abee44aa7bde945bebce6dc3c96a8613d68d9382e8f49ac6d59d8ea8bb05",
+      "url": "https://github.com/rustdesk/rustdesk"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 15,
+      "readme_sha256": "95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 16,
+      "readme_sha256": "262df581d7c81b4db52cc838d87c9f569184fc70a705efc168134691141d784c",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "full_name": "ToolJet/ToolJet",
+      "project_file": "projects/ToolJet__ToolJet.md",
+      "rank": 17,
+      "readme_sha256": "077435e805ebefcad2aae589817c2a44ff4a8011ddb4346cde49e0b3dcd2bd7d",
+      "url": "https://github.com/ToolJet/ToolJet"
+    }
+  ],
+  "snapshot_date": "2026-08-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

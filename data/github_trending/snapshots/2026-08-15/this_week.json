@@ -1,0 +1,137 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "project_file": "projects/PrimeIntellect-ai__prime-agent.md",
+      "rank": 1,
+      "readme_sha256": "ee0851e3177545c6fb7498990815403ba94265a6e8314e6e53b1cba4e0244fbb",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 2,
+      "readme_sha256": "0b32f0018f7fa8c3bb12c77488c7032c070975fe2a029b0011d46dfff3e2c347",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 3,
+      "readme_sha256": "176fec5c387a5f1a6afbe9aa7bb32aa1a0912a3315498ff31266e43797645a48",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "self-hosted, distributed Durable Objects",
+      "full_name": "denoland/celld",
+      "project_file": "projects/denoland__celld.md",
+      "rank": 4,
+      "readme_sha256": "ac354ea15544873874f18e10d811eb0c8901b7ffb7e5f0d5a9d982edfbf5c65c",
+      "url": "https://github.com/denoland/celld"
+    },
+    {
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "full_name": "vitali87/code-graph-rag",
+      "project_file": "projects/vitali87__code-graph-rag.md",
+      "rank": 5,
+      "readme_sha256": "ed8a5fffe8dd12a66c4eda2299b96fc0973211e20c5e46ca00998dbe8ce83c8c",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 6,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "project_file": "projects/NVIDIA-NeMo__Switchyard.md",
+      "rank": 7,
+      "readme_sha256": "8a44f98a4e73c78917cd2209ac932259564c76d952335a5739d7dd76ced234ce",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    {
+      "description": "Give your agent a computer 👾",
+      "full_name": "cloudflare/computer",
+      "project_file": "projects/cloudflare__computer.md",
+      "rank": 8,
+      "readme_sha256": "5bb0ac5c1888fd21d43e2443d4819e685cd491fe26888fc4ebbe14791ee57f3f",
+      "url": "https://github.com/cloudflare/computer"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 9,
+      "readme_sha256": "1682af55c525303bdd09b2a3a005e81f7ba09de435a641818baa77cda8b0b2a9",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 10,
+      "readme_sha256": "f786b498a97a6059ea12e37e94638a074adc1e555f21878c04b7419cc9c1ad8e",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 11,
+      "readme_sha256": "d73ddddd11fecb52222fd33c572fbb560bdce660ed8a913c37688f666c2c450d",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Lightweight loop engineering state kernel for long-running AI agent teams. Agent-loop agnostic across Codex, Claude Code, and other coding agents, with durable goals, quota-aware auto-wake, executable todos, evidence logs, and verifiable handoffs.",
+      "full_name": "huangruiteng/loopx",
+      "project_file": "projects/huangruiteng__loopx.md",
+      "rank": 12,
+      "readme_sha256": "2b0c519ba7722615faf332ce1cc55682287e08dfb61d736ab0a07ce7801455f7",
+      "url": "https://github.com/huangruiteng/loopx"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 13,
+      "readme_sha256": "4f98dbfb30a5b60c6af04911b3996f7bfad36d93b2002a8b5e9dade4fa3a190e",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "Truly independent web browser",
+      "full_name": "LadybirdBrowser/ladybird",
+      "project_file": "projects/LadybirdBrowser__ladybird.md",
+      "rank": 14,
+      "readme_sha256": "7c1ae5c05623170ef473101448c4c1afda06b34435be9481d9c3336edb75e145",
+      "url": "https://github.com/LadybirdBrowser/ladybird"
+    },
+    {
+      "description": "所有小初高、大学PDF教材。",
+      "full_name": "TapXWorld/ChinaTextbook",
+      "project_file": "projects/TapXWorld__ChinaTextbook.md",
+      "rank": 15,
+      "readme_sha256": "9b914f2f486baa8215a55dfbebd9573d4d93d6c16b5b046abe69800e4ef326d0",
+      "url": "https://github.com/TapXWorld/ChinaTextbook"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 16,
+      "readme_sha256": "a126500167715c69daf385fc21a36c2cf3211c7f9fceaec118543c284aadb64e",
+      "url": "https://github.com/pingdotgg/t3code"
+    }
+  ],
+  "snapshot_date": "2026-08-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
