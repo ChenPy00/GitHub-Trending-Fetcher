@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "feab5b8ff8339d39f7f2ea7596fb6470b012a93019c61482d22e8fd398fe413d"
+  "readme_sha256": "cbebc7b943aa4921680e938d65af41c43d6babdb62d9cf9a907c4b9cee853eb7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `feab5b8ff8339d39f7f2ea7596fb6470b012a93019c61482d22e8fd398fe413d`
+- README SHA256: `cbebc7b943aa4921680e938d65af41c43d6babdb62d9cf9a907c4b9cee853eb7`
 
 ## README
 
@@ -70,7 +70,7 @@
 ## What It Does
 
 - **500+ curated news feeds** across 15 categories, AI-synthesized into briefs
-- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 57 map layer types
+- **Dual map engine** — 3D globe (globe.gl) and WebGL flat map (deck.gl) with 58 map layer types
 - **Panel inventory** — 109 concrete panel implementations across six specialized variants
 - **Cross-stream correlation** — military, economic, disaster, and escalation signal convergence
 - **Country Instability Index (CII)** — server-authoritative CII v8 stress scoring for 31 Tier-1 countries
@@ -167,7 +167,7 @@ Flight data provided graciously by [Wingbits](https://wingbits.com?utm_source=wo
 
 ## Data Sources
 
-WorldMonitor aggregates 548+ observed upstream hosts across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence — surfaced through 500+ curated feeds and tracked by a freshness monitor covering 35 source groups. See the full [data sources catalog](https://www.worldmonitor.app/docs/data-sources) for providers, feed tiers, license posture, and collection methods.
+WorldMonitor aggregates 558+ observed upstream hosts across geopolitics, finance, energy, climate, aviation, cyber, military, infrastructure, and news intelligence — surfaced through 500+ curated feeds and tracked by a freshness monitor covering 35 source groups. See the full [data sources catalog](https://www.worldmonitor.app/docs/data-sources) for providers, feed tiers, license posture, and collection methods.
 
 ---
 

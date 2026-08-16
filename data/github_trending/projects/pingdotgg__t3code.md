@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "a126500167715c69daf385fc21a36c2cf3211c7f9fceaec118543c284aadb64e"
+  "readme_sha256": "c1079a3a7c0e58a88f4342dacbee525e0e24cbed61f71f0199fef2ffe0bca482"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `a126500167715c69daf385fc21a36c2cf3211c7f9fceaec118543c284aadb64e`
+- README SHA256: `c1079a3a7c0e58a88f4342dacbee525e0e24cbed61f71f0199fef2ffe0bca482`
 
 ## README
 
@@ -132,6 +132,8 @@ Checkout their getting started guide for more information: https://viteplus.dev/
 vp i
 ```
 
-Read [CONTRIBUTING.md](./CONTRIBUTING.md) before opening an issue or PR.
+Read [CONTRIBUTING.md](./CONTRIBUTING.md) before reporting a bug or opening a PR.
+
+Have a feature request? Start an [Ideas discussion](https://github.com/pingdotgg/t3code/discussions/categories/ideas).
 
 Need support? Join the [Discord](https://discord.gg/jn4EGJjrvv).

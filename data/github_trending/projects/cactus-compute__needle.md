@@ -5,7 +5,7 @@
   "full_name": "cactus-compute/needle",
   "url": "https://github.com/cactus-compute/needle",
   "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-  "readme_sha256": "d73ddddd11fecb52222fd33c572fbb560bdce660ed8a913c37688f666c2c450d"
+  "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cactus-compute/needle
 - Description: 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
-- README SHA256: `d73ddddd11fecb52222fd33c572fbb560bdce660ed8a913c37688f666c2c450d`
+- README SHA256: `70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3`
 
 ## README
 
@@ -140,7 +140,7 @@ pip install "cactus-needle[metal]"
 needle build checkpoints/needle2.pkl --lora checkpoints/needle_lora.pkl --out my_needle.cact
 ```
 
-Add `--bits 2` (default 4) for a smaller model, or set `NEEDLE_HF_REPO=<you>/<model>` and pass `--upload` to publish the `.cact`. The counterpart `needle download <you>/<model>/my_needle.cact` pulls a published archive on any machine.
+Add `--bits 2` for a smaller model (by default the export follows the checkpoint's declared per-layer bit map, falling back to 4 when the checkpoint declares none), or set `NEEDLE_HF_REPO=<you>/<model>` and pass `--upload` to publish the `.cact`. The counterpart `needle download <you>/<model>/my_needle.cact` pulls a published archive on any machine.
 
 **4. Run it.** The engine is weights-agnostic, so a tuned `.cact` runs on it directly - no recompilation:
 

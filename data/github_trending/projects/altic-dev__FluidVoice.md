@@ -4,16 +4,16 @@
   "name": "FluidVoice",
   "full_name": "altic-dev/FluidVoice",
   "url": "https://github.com/altic-dev/FluidVoice",
-  "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.",
-  "readme_sha256": "f19950e69c73346f6e489c317d63c65268cff6f3c63d30b3cc21b4092d88d324"
+  "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
+  "readme_sha256": "547074c6cbeff1d4326a08d6920a8fc6bf77a548a0dc96010284b7ea2792e430"
 }
 ```
 
 # altic-dev/FluidVoice
 
 - URL: https://github.com/altic-dev/FluidVoice
-- Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. ⭐ helps a ton :) Windows & iOS waitlist open. Linux soon.
-- README SHA256: `f19950e69c73346f6e489c317d63c65268cff6f3c63d30b3cc21b4092d88d324`
+- Description: Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp
+- README SHA256: `547074c6cbeff1d4326a08d6920a8fc6bf77a548a0dc96010284b7ea2792e430`
 
 ## README
 
@@ -22,7 +22,7 @@
 <p align="center">
   <a href="https://github.com/altic-dev/FluidVoice/stargazers"><img src="https://img.shields.io/github/stars/altic-dev/FluidVoice?style=social" alt="GitHub stars"/></a>
   <a href="https://github.com/sponsors/altic-dev"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?logo=githubsponsors&logoColor=white" alt="Sponsor FluidVoice"/></a>
-  <a href="https://x.com/ALTIC_DEV"><img src="https://img.shields.io/badge/X-%40ALTIC__DEV-black?logo=x&logoColor=white" alt="X @ALTIC_DEV"/></a>
+  <a href="https://x.com/fluidvoiceapp"><img src="https://img.shields.io/badge/X-%40fluidvoiceapp-black?logo=x&logoColor=white" alt="X @fluidvoiceapp"/></a>
   <br />
   <a href="https://huggingface.co/nvidia/parakeet_realtime_eou_120m-v1"><img src="https://img.shields.io/badge/Models-Nemotron%20Speech%203.5%20%7C%20Parakeet%20Flash%20%7C%20Parakeet%20v3%20%26%20v2%20%7C%20Cohere%20%7C%20Apple%20Speech%20%7C%20Whisper-blue" alt="Supported Models"/></a>
   <br /><br />
@@ -305,7 +305,7 @@ Anonymous analytics are enabled by default to track app health and feature usage
 
 Join our Discord: https://discord.gg/VUPHaKSvYV
 
-Follow development on X: [@ALTIC_DEV](https://x.com/ALTIC_DEV)
+Follow development on X: [@fluidvoiceapp](https://x.com/fluidvoiceapp)
 
 ---
 

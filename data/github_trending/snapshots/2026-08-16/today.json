@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "full_name": "cordiverse/cordis",
+      "project_file": "projects/cordiverse__cordis.md",
+      "rank": 1,
+      "readme_sha256": "2ba51efea2eb84ab602e112c61c8ee8faf5a3e55ee104dc64c678f81668fbbad",
+      "url": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 2,
+      "readme_sha256": "12d51301d2204fac89375768b7ada26abc6282b324e36fb47543c1a7e802c88b",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 3,
+      "readme_sha256": "55709729298c954f52476c13f8c1b673c533b16f7ee64140c5fa9a5671cd1470",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 4,
+      "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 5,
+      "readme_sha256": "262df581d7c81b4db52cc838d87c9f569184fc70a705efc168134691141d784c",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 6,
+      "readme_sha256": "c37a8d04b4c8e0fe41a1ae71874b83653ec0d30fdd251eddfa7bedcae640da25",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "full_name": "MakazhanAlpamys/Soup",
+      "project_file": "projects/MakazhanAlpamys__Soup.md",
+      "rank": 7,
+      "readme_sha256": "513672ba2137b07b76cea5a8648edca1ff832183e6ac4e76ac8704b5f339dbe8",
+      "url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    {
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "full_name": "github/spec-kit",
+      "project_file": "projects/github__spec-kit.md",
+      "rank": 8,
+      "readme_sha256": "6622f1413ad7344598f36f273299830affafad0d4f4b6b45749bb4a1d7089c54",
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 9,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "Fastest and only macOS Dictation app with on-device STT and custom trained AI enhancement model. A local Wispr Flow alternative. DM us on X for an easter egg 😉 - https://x.com/fluidvoiceapp",
+      "full_name": "altic-dev/FluidVoice",
+      "project_file": "projects/altic-dev__FluidVoice.md",
+      "rank": 10,
+      "readme_sha256": "547074c6cbeff1d4326a08d6920a8fc6bf77a548a0dc96010284b7ea2792e430",
+      "url": "https://github.com/altic-dev/FluidVoice"
+    },
+    {
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "full_name": "ToolJet/ToolJet",
+      "project_file": "projects/ToolJet__ToolJet.md",
+      "rank": 11,
+      "readme_sha256": "077435e805ebefcad2aae589817c2a44ff4a8011ddb4346cde49e0b3dcd2bd7d",
+      "url": "https://github.com/ToolJet/ToolJet"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 12,
+      "readme_sha256": "02aa432938b60c2c26117a860f6c17cafc5d6bf264663133a9a625176d4a249a",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
+      "full_name": "citrolabs/ego-lite",
+      "project_file": "projects/citrolabs__ego-lite.md",
+      "rank": 13,
+      "readme_sha256": "feb5ddfd74f5bcc30fd211f824775da0bad9ceb941d7bf582212114fe85f297b",
+      "url": "https://github.com/citrolabs/ego-lite"
+    }
+  ],
+  "snapshot_date": "2026-08-16",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
