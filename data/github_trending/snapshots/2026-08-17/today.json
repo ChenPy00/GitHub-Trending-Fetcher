@@ -1,0 +1,65 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "full_name": "cordiverse/cordis",
+      "project_file": "projects/cordiverse__cordis.md",
+      "rank": 1,
+      "readme_sha256": "2ba51efea2eb84ab602e112c61c8ee8faf5a3e55ee104dc64c678f81668fbbad",
+      "url": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 2,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 3,
+      "readme_sha256": "262df581d7c81b4db52cc838d87c9f569184fc70a705efc168134691141d784c",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 4,
+      "readme_sha256": "95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 5,
+      "readme_sha256": "86d4fa3c6dc05164d0af6c4c8d6e36844cc2db58c5a04cff9280ae50607bc7b3",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "full_name": "ToolJet/ToolJet",
+      "project_file": "projects/ToolJet__ToolJet.md",
+      "rank": 6,
+      "readme_sha256": "077435e805ebefcad2aae589817c2a44ff4a8011ddb4346cde49e0b3dcd2bd7d",
+      "url": "https://github.com/ToolJet/ToolJet"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 7,
+      "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3",
+      "url": "https://github.com/cactus-compute/needle"
+    }
+  ],
+  "snapshot_date": "2026-08-17",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

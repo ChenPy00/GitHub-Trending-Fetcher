@@ -5,7 +5,7 @@
   "full_name": "vitali87/code-graph-rag",
   "url": "https://github.com/vitali87/code-graph-rag",
   "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-  "readme_sha256": "ed8a5fffe8dd12a66c4eda2299b96fc0973211e20c5e46ca00998dbe8ce83c8c"
+  "readme_sha256": "a6faea96ba8253f6b15f94dc6a1c6261904b2f88a95a0b74ef0af5d763e7cdd6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vitali87/code-graph-rag
 - Description: The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
-- README SHA256: `ed8a5fffe8dd12a66c4eda2299b96fc0973211e20c5e46ca00998dbe8ce83c8c`
+- README SHA256: `a6faea96ba8253f6b15f94dc6a1c6261904b2f88a95a0b74ef0af5d763e7cdd6`
 
 ## README
 
@@ -91,7 +91,7 @@ Code-Graph-RAG parses a multi-language codebase with Tree-sitter, builds a knowl
 ## Latest News 🔥
 
 <!-- SECTION:latest_news -->
-- **Runtime Call Tracing**: A dynamic tracer runs your code (typically the test suite) and merges the calls that actually happened into the graph as `CALLS` edges (flagged where static analysis missed them), so dispatch through interfaces, virtual methods, function pointers, reflection, and framework routing becomes visible. Convert a run from Python, the JVM, Node.js, .NET, PHP, Lua, Dart, or Go with `cgr trace`.
+- **Runtime Call Tracing**: A dynamic tracer runs your code (typically the test suite) and merges the calls that actually happened into the graph as `CALLS` edges (flagged where static analysis missed them), so dispatch through interfaces, virtual methods, function pointers, reflection, and framework routing becomes visible. Convert a run from Python, the JVM, Node.js, .NET, PHP, Lua, Dart, Go, Rust, or C/C++ with `cgr trace`, or ingest production pprof profiles from an eBPF continuous profiler (Parca, Pyroscope, OpenTelemetry) with `cgr trace convert --format ebpf`.
 - **Ruby Support**: Ruby joins the graph through a new pluggable ast-grep tier that adds a language from a single YAML pattern file, emitting `Module`, `Function`, and `Class` nodes plus import edges without a hand-written parser.
 - **Structural Search & Replace**: Find and rewrite code by AST pattern with ast-grep, exposed as agent tools so you can match and transform structure across the whole codebase instead of relying on text or regex.
 <!-- /SECTION:latest_news -->
@@ -108,6 +108,7 @@ Point Code-Graph-RAG at a repository and it reads every source file, extracts fu
 - Optimise code against language best practices or your own coding standards.
 - Find dead code by walking call and reference edges from entry points.
 - Search and rewrite structurally by AST pattern with ast-grep.
+- Overlay runtime behaviour: trace a test run (or pull production eBPF profiles) with `cgr trace` and merge the calls that actually happened into the graph, exposing dispatch that static analysis cannot see.
 
 ## How It Works
 
@@ -177,6 +178,7 @@ Code-Graph-RAG runs as an [MCP](https://modelcontextprotocol.io) server so Claud
 - [Interactive Querying](docs/guide/interactive-querying.md)
 - [Code Optimisation](docs/guide/code-optimization.md)
 - [Dead Code Detection](docs/guide/dead-code.md)
+- [Dynamic Call Tracing](docs/guide/dynamic-tracing.md)
 - [Graph Export](docs/guide/graph-export.md)
 - [Real-Time Updates](docs/guide/realtime-updates.md)
 - [MCP Server](docs/guide/mcp-server.md)

@@ -1,0 +1,137 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "12d51301d2204fac89375768b7ada26abc6282b324e36fb47543c1a7e802c88b",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 2,
+      "readme_sha256": "ac4ee35be8d140f1a4ba370c2f47c23e816c008b9e98541358c10adb2229fe7f",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "project_file": "projects/PrimeIntellect-ai__prime-agent.md",
+      "rank": 3,
+      "readme_sha256": "ee0851e3177545c6fb7498990815403ba94265a6e8314e6e53b1cba4e0244fbb",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "project_file": "projects/NVIDIA-NeMo__Switchyard.md",
+      "rank": 4,
+      "readme_sha256": "8a44f98a4e73c78917cd2209ac932259564c76d952335a5739d7dd76ced234ce",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 5,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 6,
+      "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 7,
+      "readme_sha256": "da828e8e5a4e79f71bb371df71bba5d71a6a548a03b5b1f12800d28eda46a60f",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "full_name": "vitali87/code-graph-rag",
+      "project_file": "projects/vitali87__code-graph-rag.md",
+      "rank": 8,
+      "readme_sha256": "a6faea96ba8253f6b15f94dc6a1c6261904b2f88a95a0b74ef0af5d763e7cdd6",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    {
+      "description": "ToolJet is the open-source foundation of ToolJet AI - the enterprise app generation platform for building internal tools, dashboard, business applications, workflows and AI agents 🚀",
+      "full_name": "ToolJet/ToolJet",
+      "project_file": "projects/ToolJet__ToolJet.md",
+      "rank": 9,
+      "readme_sha256": "077435e805ebefcad2aae589817c2a44ff4a8011ddb4346cde49e0b3dcd2bd7d",
+      "url": "https://github.com/ToolJet/ToolJet"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 10,
+      "readme_sha256": "1682af55c525303bdd09b2a3a005e81f7ba09de435a641818baa77cda8b0b2a9",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 11,
+      "readme_sha256": "4f98dbfb30a5b60c6af04911b3996f7bfad36d93b2002a8b5e9dade4fa3a190e",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 12,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 13,
+      "readme_sha256": "262df581d7c81b4db52cc838d87c9f569184fc70a705efc168134691141d784c",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 14,
+      "readme_sha256": "b8e22767f8a550ce6fd9b4b70485a1ea0a834fa6191161e94a6ce4f1cff49c87",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "full_name": "Lightricks/LTX-2",
+      "project_file": "projects/Lightricks__LTX-2.md",
+      "rank": 15,
+      "readme_sha256": "d0e0dd886fd0c6fcfa5772fe43d3ebdccbc430acce14a32e5251c4e1a4e53c4e",
+      "url": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 16,
+      "readme_sha256": "cb75a0cc9e7bdf189e11e248b498713eb148f7c98622e9cf188dd23e2002f8d9",
+      "url": "https://github.com/paperclipai/paperclip"
+    }
+  ],
+  "snapshot_date": "2026-08-17",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
