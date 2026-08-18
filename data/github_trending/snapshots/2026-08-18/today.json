@@ -1,0 +1,97 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 1,
+      "readme_sha256": "3e995efdcc1513da0a753a8f8e920b1d3adfdcfed52d43108412e79583392b66",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+      "full_name": "usestrix/strix",
+      "project_file": "projects/usestrix__strix.md",
+      "rank": 2,
+      "readme_sha256": "540e5795c73470fa24f42e1aa322d893827279ecd11ba3315166ec974f3ad0e5",
+      "url": "https://github.com/usestrix/strix"
+    },
+    {
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "full_name": "nautechsystems/nautilus_trader",
+      "project_file": "projects/nautechsystems__nautilus_trader.md",
+      "rank": 3,
+      "readme_sha256": "a48105bfe7f7245b9422d4767a21a37e42c56f680a3c49c9d10190da1bdcdf35",
+      "url": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 4,
+      "readme_sha256": "e993da82881d1d9522112a19c505c2766f70431767391c7fe26d828770ec84a4",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 5,
+      "readme_sha256": "92917380904ac1965a0aeebe93ad6d69d56a50fa2501bb9e8f15641d4e1975e7",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 6,
+      "readme_sha256": "4f669b12100f73590e539be9e6b109abe96488dca39b07778ec5c83c12f9351e",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 7,
+      "readme_sha256": "f613b232bc50136ddb6f35b6a34ff3a8eb714e3176425c4ce17b50b6d5e44067",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "full_name": "jundot/omlx",
+      "project_file": "projects/jundot__omlx.md",
+      "rank": 8,
+      "readme_sha256": "d57a8c294ce62812b7f7c6663b2e5b7b8fbb4b0a43f323fe8d19276a1d931cee",
+      "url": "https://github.com/jundot/omlx"
+    },
+    {
+      "description": "High performance self-hosted photo and video management solution.",
+      "full_name": "immich-app/immich",
+      "project_file": "projects/immich-app__immich.md",
+      "rank": 9,
+      "readme_sha256": "03a9c05673a43119eae0813eaac8bacc2167bb2ffd962fe6436648c506ea75ac",
+      "url": "https://github.com/immich-app/immich"
+    },
+    {
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "full_name": "cordiverse/cordis",
+      "project_file": "projects/cordiverse__cordis.md",
+      "rank": 10,
+      "readme_sha256": "2ba51efea2eb84ab602e112c61c8ee8faf5a3e55ee104dc64c678f81668fbbad",
+      "url": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "description": "A full-featured download manager.",
+      "full_name": "agalwood/Motrix",
+      "project_file": "projects/agalwood__Motrix.md",
+      "rank": 11,
+      "readme_sha256": "8474ad5883ac50a17627be6e1dfb796838add252d8d1da920144fb9a66403cc9",
+      "url": "https://github.com/agalwood/Motrix"
+    }
+  ],
+  "snapshot_date": "2026-08-18",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -5,7 +5,7 @@
   "full_name": "3b1b/manim",
   "url": "https://github.com/3b1b/manim",
   "description": "Animation engine for explanatory math videos",
-  "readme_sha256": "4f98dbfb30a5b60c6af04911b3996f7bfad36d93b2002a8b5e9dade4fa3a190e"
+  "readme_sha256": "c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/3b1b/manim
 - Description: Animation engine for explanatory math videos
-- README SHA256: `4f98dbfb30a5b60c6af04911b3996f7bfad36d93b2002a8b5e9dade4fa3a190e`
+- README SHA256: `c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00`
 
 ## README
 
@@ -162,8 +162,9 @@ sudo apt install python3.12-venv
     git clone https://github.com/3b1b/manim.git
     cd manim
     pip install -e .
-    manimgl example_scenes.py OpeningManimExample (make sure to add manimgl to path first.)
+    manimgl example_scenes.py OpeningManimExample
     ```
+    If the last command is not found, make sure the directory pip installed `manimgl` into is on your `PATH`.
 
 ## Anaconda Install
 

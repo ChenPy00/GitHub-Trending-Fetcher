@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "f1972f046ee17ec44995e2f4e2195f727269b438be63cc4467733ed0f52417eb"
+  "readme_sha256": "6fd07b54ebfb9c94cf123259f72d03dee5aac93acb0abd3b8643e7ffc0189578"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `f1972f046ee17ec44995e2f4e2195f727269b438be63cc4467733ed0f52417eb`
+- README SHA256: `6fd07b54ebfb9c94cf123259f72d03dee5aac93acb0abd3b8643e7ffc0189578`
 
 ## README
 
@@ -22,6 +22,11 @@
 </p>
 
 <h1 align="center">book-to-skill</h1>
+
+<p align="center">
+  <a href="README.md"><strong>English</strong></a> ·
+  <a href="README.ru.md">Русский</a>
+</p>
 
 <p align="center">
   <strong>Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work in GitHub Copilot CLI, Amp, or Claude Code.</strong>

@@ -4,7 +4,7 @@
   "name": "diagram-design",
   "full_name": "cathrynlavery/diagram-design",
   "url": "https://github.com/cathrynlavery/diagram-design",
-  "description": "29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+  "description": "27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
   "readme_sha256": "12d51301d2204fac89375768b7ada26abc6282b324e36fb47543c1a7e802c88b"
 }
 ```
@@ -12,7 +12,7 @@
 # cathrynlavery/diagram-design
 
 - URL: https://github.com/cathrynlavery/diagram-design
-- Description: 29 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.
+- Description: 27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.
 - README SHA256: `12d51301d2204fac89375768b7ada26abc6282b324e36fb47543c1a7e802c88b`
 
 ## README

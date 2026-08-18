@@ -5,7 +5,7 @@
   "full_name": "usestrix/strix",
   "url": "https://github.com/usestrix/strix",
   "description": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
-  "readme_sha256": "52a49465dcdfd3531a87b3bfb76461754e275be8a63e02a04563e1f6ecdc00e1"
+  "readme_sha256": "540e5795c73470fa24f42e1aa322d893827279ecd11ba3315166ec974f3ad0e5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/usestrix/strix
 - Description: Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
-- README SHA256: `52a49465dcdfd3531a87b3bfb76461754e275be8a63e02a04563e1f6ecdc00e1`
+- README SHA256: `540e5795c73470fa24f42e1aa322d893827279ecd11ba3315166ec974f3ad0e5`
 
 ## README
 
@@ -124,6 +124,18 @@ Try the Strix full-stack penetration testing platform at **[app.strix.ai](https:
 - **Continuous learning** - AI that builds on past findings, adapts to your codebase, and reduces false positives over time
 
 [**Start your first pentest →**](https://app.strix.ai)
+
+---
+
+## 🤖 Use Strix from Your Coding Agent
+
+Strix is agent-ready. Give Claude Code, Cursor, Codex, or any [SKILL.md-compatible](https://agentskills.io) agent the ability to run pentests, fix findings, and set up CI scanning:
+
+```bash
+npx skills add usestrix/strix
+```
+
+This installs four skills: **penetration-testing-with-strix** (run headless scans and read results), **managed-pentesting-with-strix** (drive the managed [app.strix.ai](https://app.strix.ai) platform via REST — no local Docker or LLM key), **fix-security-vulnerabilities-with-strix** (remediate + re-scan to verify), and **ci-security-scanning-with-strix** (PR scanning in CI). Agents can run Strix two ways with the same engine — the open-source CLI locally, or the managed cloud when there's no local infra — and read [`AGENTS.md`](AGENTS.md) for a quick reference, [docs.strix.ai/llms.txt](https://docs.strix.ai/llms.txt) for the CLI docs, and [docs.app.strix.ai](https://docs.app.strix.ai) for the API.
 
 ---
 
@@ -356,6 +368,7 @@ Strix builds on the incredible work of open-source projects like [LiteLLM](https
 
 
 > [!WARNING]
-> Only test apps you own or have permission to test. You are responsible for using Strix ethically and legally.
+> **Authorized use only.** Strix actively tests the targets you point it at, so only run it against systems you own or have **explicit, written permission** to test, and stay within the agreed scope. Unauthorized testing is illegal in most jurisdictions.
+> You alone are responsible for obtaining authorization and complying with the law. Strix is provided "as is" with no warranty or liability for misuse.
 
 </div>
