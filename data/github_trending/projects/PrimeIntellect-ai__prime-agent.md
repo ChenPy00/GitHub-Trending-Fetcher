@@ -5,7 +5,7 @@
   "full_name": "PrimeIntellect-ai/prime-agent",
   "url": "https://github.com/PrimeIntellect-ai/prime-agent",
   "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
-  "readme_sha256": "ee0851e3177545c6fb7498990815403ba94265a6e8314e6e53b1cba4e0244fbb"
+  "readme_sha256": "583030924ab0b9539eac297634f4e38f1f627f5802e252dffffd6d943a1fc516"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/PrimeIntellect-ai/prime-agent
 - Description: A self-improving RLM agent for coding workflows and long-running autonomous tasks.
-- README SHA256: `ee0851e3177545c6fb7498990815403ba94265a6e8314e6e53b1cba4e0244fbb`
+- README SHA256: `583030924ab0b9539eac297634f4e38f1f627f5802e252dffffd6d943a1fc516`
 
 ## README
 
@@ -34,8 +34,7 @@ Prime Agent: A Self-Improving RLM Agent
 <p align="center">
   <a href="packages/coding-agent/docs/index.md">Documentation</a> &bull;
   <a href="https://github.com/PrimeIntellect-ai/verifiers">Verifiers</a> &bull;
-  <a href="https://github.com/PrimeIntellect-ai/prime-rl">PRIME-RL</a> &bull;
-  <a href="https://github.com/badlogic/pi-mono">pi-mono</a>
+  <a href="https://github.com/PrimeIntellect-ai/prime-rl">PRIME-RL</a>
 </p>
 
 <p align="center">
@@ -44,6 +43,12 @@ Prime Agent: A Self-Improving RLM Agent
   </a>
   <a href="https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/build-binaries.yml">
     <img src="https://github.com/PrimeIntellect-ai/prime-agent/actions/workflows/build-binaries.yml/badge.svg" alt="Build Binaries" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/104249?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-104249" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/104249" alt="PrimeIntellect-ai%2Fprime-agent | Trendshift" width="250" height="55" />
   </a>
 </p>
 

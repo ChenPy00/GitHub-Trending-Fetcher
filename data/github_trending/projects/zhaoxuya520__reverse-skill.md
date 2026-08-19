@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "c04f1a41a896225b155465c826cd6081a88f1e07b8b0d44161f2e891a5edb6d0"
+  "readme_sha256": "bce378d19c3ae89f4523eec6c371dd948ef0b1b2444a6b51bcdd30cdfff09a7c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `c04f1a41a896225b155465c826cd6081a88f1e07b8b0d44161f2e891a5edb6d0`
+- README SHA256: `bce378d19c3ae89f4523eec6c371dd948ef0b1b2444a6b51bcdd30cdfff09a7c`
 
 ## README
 
@@ -321,6 +321,10 @@ Special thanks to the OLLVM deobfuscation ecosystem contributors and everyone wh
 ## Contact
 
 - **Email:** [ww7517437@gmail.com](mailto:ww7517437@gmail.com)
-- **QQ Group:** 942400892
-- **Discord:** [reverse-skill community](https://discord.gg/TECd3bMRR)
 - **Issues:** [GitHub Issues](https://github.com/zhaoxuya520/reverse-skill/issues)
+
+## Disclaimer
+
+This project is intended solely for lawful security research, education, CTF competitions, and testing of systems that you own or have explicit authorization to assess.
+
+**Unauthorized access, scanning, exploitation, disruption, data acquisition, or any other use against systems without prior permission is strictly prohibited.** Users are solely responsible for complying with applicable laws, regulations, and the authorized scope of testing. The maintainers accept no liability for misuse of this project or for any resulting damage or legal consequences.

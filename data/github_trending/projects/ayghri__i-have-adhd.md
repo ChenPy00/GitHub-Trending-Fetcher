@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "16a2319ff6ec9535643434b9e943ae0db69a301099632ebade42cacbfbffa493"
+  "readme_sha256": "44ff594717e8ae03d91732cfc012e1bf6e79eebedafc4651ff470a2bd00676bc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- README SHA256: `16a2319ff6ec9535643434b9e943ae0db69a301099632ebade42cacbfbffa493`
+- README SHA256: `44ff594717e8ae03d91732cfc012e1bf6e79eebedafc4651ff470a2bd00676bc`
 
 ## README
 
@@ -39,7 +39,13 @@
 
 ## Install
 
-🔗 [Installation Instructions](INSTALL.md)
+Copy/paste into your CLI prompt:
+
+```text
+Install the i-have-adhd skill/plugin from https://github.com/ayghri/i-have-adhd, refer to the repo's AGENTS.md for instructions.
+```
+
+Or 🔗 [check the installation instructions](INSTALL.md).
 
 ## What it does
 

@@ -5,7 +5,7 @@
   "full_name": "koala73/worldmonitor",
   "url": "https://github.com/koala73/worldmonitor",
   "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-  "readme_sha256": "bb82dc344eccc2975f0b9074e453bb2b19b7cef5a0d743b6650f5f0de059fcfe"
+  "readme_sha256": "d95e92c9b7088d5cb9bf2693c55761d9750524597e943babfbbe5bb1186752fc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/koala73/worldmonitor
 - Description: Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface
-- README SHA256: `bb82dc344eccc2975f0b9074e453bb2b19b7cef5a0d743b6650f5f0de059fcfe`
+- README SHA256: `d95e92c9b7088d5cb9bf2693c55761d9750524597e943babfbbe5bb1186752fc`
 
 ## README
 
@@ -229,9 +229,9 @@ See our [Security Policy](./SECURITY.md) for responsible disclosure guidelines.
 
 ## Star History
 
-<a href="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date">
+<a href="https://star-history.dera.page/#koala73/worldmonitor&type=Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date&theme=dark" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=koala73/worldmonitor&type=Date&theme=dark" />
+   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=koala73/worldmonitor&type=Date" />
  </picture>
 </a>

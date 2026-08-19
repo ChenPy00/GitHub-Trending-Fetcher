@@ -1,0 +1,129 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "27 editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "c230e36dda23c7ddb91bcbd2fad3135c780f5113c446d84203c1d4045cb22f2e",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 2,
+      "readme_sha256": "8c8d83084ca77b6413b27455f35095da78e82bd4f4b308f30e107f44a241d5bf",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 3,
+      "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 4,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 5,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 6,
+      "readme_sha256": "2fbd275d613c59932d80317f0ea2a24ab0ccf3ecb1aa185189ecea079a29e962",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 7,
+      "readme_sha256": "cf29607133d79babb3985247426becbf6209f544e44d93e58f1bdd0ef337d817",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "full_name": "lightningpixel/modly",
+      "project_file": "projects/lightningpixel__modly.md",
+      "rank": 8,
+      "readme_sha256": "83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853",
+      "url": "https://github.com/lightningpixel/modly"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 9,
+      "readme_sha256": "4f669b12100f73590e539be9e6b109abe96488dca39b07778ec5c83c12f9351e",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 10,
+      "readme_sha256": "8a7ea908ee1b0f7fc12e883715ba52713b11dc735006ee4fed2a6f13ff694619",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "full_name": "PrimeIntellect-ai/prime-agent",
+      "project_file": "projects/PrimeIntellect-ai__prime-agent.md",
+      "rank": 11,
+      "readme_sha256": "583030924ab0b9539eac297634f4e38f1f627f5802e252dffffd6d943a1fc516",
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 12,
+      "readme_sha256": "c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.",
+      "full_name": "Lightricks/LTX-2",
+      "project_file": "projects/Lightricks__LTX-2.md",
+      "rank": 13,
+      "readme_sha256": "d0e0dd886fd0c6fcfa5772fe43d3ebdccbc430acce14a32e5251c4e1a4e53c4e",
+      "url": "https://github.com/Lightricks/LTX-2"
+    },
+    {
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "full_name": "vitali87/code-graph-rag",
+      "project_file": "projects/vitali87__code-graph-rag.md",
+      "rank": 14,
+      "readme_sha256": "a6faea96ba8253f6b15f94dc6a1c6261904b2f88a95a0b74ef0af5d763e7cdd6",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    {
+      "description": "🧱 easy fast local-first microVM runtime and library",
+      "full_name": "superradcompany/microsandbox",
+      "project_file": "projects/superradcompany__microsandbox.md",
+      "rank": 15,
+      "readme_sha256": "874ba994774c7712d6a580c2c7185193702227e0b5f134ef1bd50b1da1fb9d49",
+      "url": "https://github.com/superradcompany/microsandbox"
+    }
+  ],
+  "snapshot_date": "2026-08-19",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

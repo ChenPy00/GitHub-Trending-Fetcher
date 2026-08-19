@@ -5,7 +5,7 @@
   "full_name": "semantica-agi/semantica",
   "url": "https://github.com/semantica-agi/semantica",
   "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-  "readme_sha256": "ac4ee35be8d140f1a4ba370c2f47c23e816c008b9e98541358c10adb2229fe7f"
+  "readme_sha256": "8c8d83084ca77b6413b27455f35095da78e82bd4f4b308f30e107f44a241d5bf"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/semantica-agi/semantica
 - Description: Graph-Native Infrastructure for Context and Accountable AI Systems
-- README SHA256: `ac4ee35be8d140f1a4ba370c2f47c23e816c008b9e98541358c10adb2229fe7f`
+- README SHA256: `8c8d83084ca77b6413b27455f35095da78e82bd4f4b308f30e107f44a241d5bf`
 
 ## README
 
@@ -21,7 +21,15 @@
 
 <img src="Semantica Logo.png" alt="Semantica" width="420"/>
 
-<a href="https://trendshift.io/repositories/18986?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-18986" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/18986" alt="semantica-agi%2Fsemantica | Trendshift" width="250" height="55"/></a>
+<div style="display:flex; gap:10px; align-items:center; flex-wrap:wrap;">
+  <a href="https://trendshift.io/repositories/18986?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-18986" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/18986" alt="semantica-agi/semantica | Trendshift" width="250" height="55"/>
+  </a>
+
+  <a href="https://trendshift.io/repositories/18986?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-18986" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/trendshift/repositories/18986/weekly?language=Python" alt="semantica-agi/semantica | Trendshift" width="250" height="55"/>
+  </a>
+</div>
 
 ### Graph-Native Infrastructure for Context and Accountable AI Systems
 
@@ -314,17 +322,10 @@ graph.add_causal_relationship(d1, d2, relationship_type="CAUSED")
 prov.track_entity("patient_P4821", source="ehr/medication_orders_2024.json",
                   metadata={"extractor": "NamedEntityRecognizer"})
 
-# Export W3C PROV-O for regulator submission - RDFExporter expects
-# {"entities": [...], "relationships": [...]}, so map ContextGraph.to_dict()'s
-# {"nodes": [...], "edges": [...]} shape onto it first
-graph_dict = graph.to_dict()
-kg = {
-    "entities": [{"id": n["id"], "type": n["type"], "text": n["content"]} for n in graph_dict["nodes"]],
-    "relationships": [
-        {"source_id": e["source"], "target_id": e["target"], "type": e["type"]}
-        for e in graph_dict["edges"]
-    ],
-}
+# Export W3C PROV-O for regulator submission - to_kg_dict() is the official
+# adapter that emits the {"entities": [...], "relationships": [...]} /
+# source_id shape RDFExporter expects, so no manual field mapping is needed
+kg = graph.to_kg_dict()
 RDFExporter().export(kg, "audit_trail.ttl", format="turtle")
 ```
 
@@ -898,20 +899,14 @@ fact = BiTemporalFact(
     recorded_at=datetime(2024, 3, 5),
 )
 
-# Query facts valid within a time window - query_time_range() expects
-# {"relationships": [...]} with source_id/target_id keys, which differs from
-# ContextGraph.to_dict()'s {"nodes", "edges"} shape, so map it first
-graph_dict = graph.to_dict()
-kg_relationships = {
-    "relationships": [
-        {**e, "source_id": e["source"], "target_id": e["target"]}
-        for e in graph_dict["edges"]
-    ]
-}
+# Query facts valid within a time window - to_kg_dict() is the official
+# adapter that emits {"entities", "relationships"} with source_id/target_id
+# keys, the shape query_time_range() expects (no manual mapping required)
+kg = graph.to_kg_dict()
 
 tq = TemporalGraphQuery()
 facts_in_window = tq.query_time_range(
-    kg_relationships, query="valid_facts", start_time="2024-01-01", end_time="2024-12-31"
+    kg, query="valid_facts", start_time="2024-01-01", end_time="2024-12-31"
 )
 
 # Normalize natural language temporal expressions - returns a (start, end) range

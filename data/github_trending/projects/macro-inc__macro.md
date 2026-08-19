@@ -5,7 +5,7 @@
   "full_name": "macro-inc/macro",
   "url": "https://github.com/macro-inc/macro",
   "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
-  "readme_sha256": "da828e8e5a4e79f71bb371df71bba5d71a6a548a03b5b1f12800d28eda46a60f"
+  "readme_sha256": "2fbd275d613c59932d80317f0ea2a24ab0ccf3ecb1aa185189ecea079a29e962"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/macro-inc/macro
 - Description: Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.
-- README SHA256: `da828e8e5a4e79f71bb371df71bba5d71a6a548a03b5b1f12800d28eda46a60f`
+- README SHA256: `2fbd275d613c59932d80317f0ea2a24ab0ccf3ecb1aa185189ecea079a29e962`
 
 ## README
 
@@ -279,6 +279,6 @@ If Macro is interesting/useful to you, please scroll up and give the repo a star
 <a href="https://github.com/macro-inc/macro">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset=".github/readme/star-history-dark.svg" />
-    <img alt="Star history for macro-inc/macro, from launch to 1698 stars" src=".github/readme/star-history-light.svg" width="100%" />
+    <img alt="Star history for macro-inc/macro, from launch to 3608 stars" src=".github/readme/star-history-light.svg" width="100%" />
   </picture>
 </a>
