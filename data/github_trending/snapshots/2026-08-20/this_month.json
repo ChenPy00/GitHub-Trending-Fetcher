@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 1,
+      "readme_sha256": "84ba68fdb2a6afab1fa2b163ce4013d47fd45e498a057441f6a74c0bfda509a7",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "bluetooth mesh chat, IRC vibes",
+      "full_name": "permissionlesstech/bitchat",
+      "project_file": "projects/permissionlesstech__bitchat.md",
+      "rank": 2,
+      "readme_sha256": "83699fa255b69d5d02be7a5bd3b1efd6aa2e6261a28a725d73f15f28a13f3fd6",
+      "url": "https://github.com/permissionlesstech/bitchat"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 3,
+      "readme_sha256": "44ff594717e8ae03d91732cfc012e1bf6e79eebedafc4651ff470a2bd00676bc",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 340 providers (90+ free), 1200+ models — Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 4,
+      "readme_sha256": "2bffde0a5aac2faee0564ae41f28171e3b5cf6e0eaf9a5d3d583de5774916ad8",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 5,
+      "readme_sha256": "b8e22767f8a550ce6fd9b4b70485a1ea0a834fa6191161e94a6ce4f1cff49c87",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "full_name": "zhaoxuya520/reverse-skill",
+      "project_file": "projects/zhaoxuya520__reverse-skill.md",
+      "rank": 6,
+      "readme_sha256": "d5fd95526290a03bb136d57a16cbd511b4519da5758c7afd231c46c52fe9c41d",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "full_name": "koala73/worldmonitor",
+      "project_file": "projects/koala73__worldmonitor.md",
+      "rank": 7,
+      "readme_sha256": "d95e92c9b7088d5cb9bf2693c55761d9750524597e943babfbbe5bb1186752fc",
+      "url": "https://github.com/koala73/worldmonitor"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 8,
+      "readme_sha256": "c1079a3a7c0e58a88f4342dacbee525e0e24cbed61f71f0199fef2ffe0bca482",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "12 Weeks, 24 Lessons, AI for All!",
+      "full_name": "microsoft/AI-For-Beginners",
+      "project_file": "projects/microsoft__AI-For-Beginners.md",
+      "rank": 9,
+      "readme_sha256": "6f1ed5dcfc02f203bdfc55d33af1fa0d2f287feb427f32b3f684074de9fd0ac8",
+      "url": "https://github.com/microsoft/AI-For-Beginners"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 10,
+      "readme_sha256": "ff38117f355e2bf889b1e7893d0939fad4ddcb795084109bca2baa48ca84ce73",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    {
+      "description": "The most RAM efficient harness",
+      "full_name": "1jehuang/jcode",
+      "project_file": "projects/1jehuang__jcode.md",
+      "rank": 11,
+      "readme_sha256": "f766c12f4a298199e7ec84d1933e9b6e9b02edc75d477a15f9eb2ad3c31f1a3e",
+      "url": "https://github.com/1jehuang/jcode"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 12,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 13,
+      "readme_sha256": "0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 14,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and VPS.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 15,
+      "readme_sha256": "0abe8c946cbcb6e5144ea52df75edbd638aafac3840299b0e0594a46c605f62f",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 16,
+      "readme_sha256": "caa2ad46e12f66bfd906bcff389b47fe68e407781dc70999c42b2e3a509b1d78",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 17,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 18,
+      "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 19,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 20,
+      "readme_sha256": "bd5d0645f83cb86833920b6c344dfb3d15f38716753818b0aacd551e5af13b72",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
+      "full_name": "UditAkhourii/adhd",
+      "project_file": "projects/UditAkhourii__adhd.md",
+      "rank": 21,
+      "readme_sha256": "8c16576bae9fec2dfc79191a0676b192e23294a963812377c7cd96a892496eb4",
+      "url": "https://github.com/UditAkhourii/adhd"
+    },
+    {
+      "description": "The open-source alternative to Claude Cowork (powered by opencode)",
+      "full_name": "different-ai/openwork",
+      "project_file": "projects/different-ai__openwork.md",
+      "rank": 22,
+      "readme_sha256": "f3549ee6e06c117e5b35301a4626339a3aa966bae7af215de97863de97d66ae7",
+      "url": "https://github.com/different-ai/openwork"
+    }
+  ],
+  "snapshot_date": "2026-08-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

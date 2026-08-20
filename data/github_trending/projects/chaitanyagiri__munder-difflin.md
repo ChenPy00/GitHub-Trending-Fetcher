@@ -5,7 +5,7 @@
   "full_name": "chaitanyagiri/munder-difflin",
   "url": "https://github.com/chaitanyagiri/munder-difflin",
   "description": "local multi-agent harness",
-  "readme_sha256": "fff624e5cc0b55c243f8f5d7ee2ff982298949dfc53604673774e565874acd32"
+  "readme_sha256": "43b3ec988d9df9122704fd498b085b6d6297f91da39395787f2cba5e48cc47b9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/chaitanyagiri/munder-difflin
 - Description: local multi-agent harness
-- README SHA256: `fff624e5cc0b55c243f8f5d7ee2ff982298949dfc53604673774e565874acd32`
+- README SHA256: `43b3ec988d9df9122704fd498b085b6d6297f91da39395787f2cba5e48cc47b9`
 
 ## README
 
@@ -46,6 +46,7 @@ visualized as avatars at work on a shared office floor.
   <img alt="Status: prototype" src="https://img.shields.io/badge/status-working%20prototype-F4F1EA.svg?style=flat-square&labelColor=6E1423">
   <img alt="Platform: macOS | Windows | Linux" src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-F4F1EA.svg?style=flat-square&labelColor=6E1423">
   <a href="./CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
+  <a href="https://discord.gg/SEDzP5ZPk5"><img alt="Discord" src="https://img.shields.io/badge/Discord-join%20the%20office-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
 </p>
 
 <br>
@@ -329,6 +330,8 @@ Contributions are welcome — this is an early prototype with a lot of surface a
 [`CONTRIBUTING.md`](./CONTRIBUTING.md). The short version: fork, `npm install && npm run dev`, keep
 `npm run typecheck` green, and **derive any new UI from [`DESIGN.md`](./DESIGN.md) tokens**. Good
 first areas: wiring real hook events, the add-agent flow, the config drawer, and cross-platform work.
+
+Questions, bugs, or want to show off your office? Join the Discord: **<https://discord.gg/SEDzP5ZPk5>**. Add your Discord handle to a PR and you'll get the `employee of the month` role when it merges.
 
 ## Telemetry
 

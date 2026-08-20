@@ -5,7 +5,7 @@
   "full_name": "every-app/open-seo",
   "url": "https://github.com/every-app/open-seo",
   "description": "Open source alternative to Semrush and Ahrefs",
-  "readme_sha256": "2880db83c7fa64c9947f939957e792249d3bb67656629ae1f7276b345aa5a8c7"
+  "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/every-app/open-seo
 - Description: Open source alternative to Semrush and Ahrefs
-- README SHA256: `2880db83c7fa64c9947f939957e792249d3bb67656629ae1f7276b345aa5a8c7`
+- README SHA256: `597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0`
 
 ## README
 
@@ -66,7 +66,7 @@ OpenSEO supports two self-hosting paths:
 
 - **Simple: Docker (Best for testing it out)** - For personal use on your own machine. See [`docs/SELF_HOSTING_DOCKER.md`](./docs/SELF_HOSTING_DOCKER.md).
   - Unless you already are self-hosting other apps and are confident doing so, we recommend self-hosting with Cloudflare as opposed to Railway, Coolify or Dokploy.
-  - We plan to make it simpler to host on those platforms in the next few months. 
+  - We plan to make it simpler to host on those platforms in the next few months.
 - **Recommended: Cloudflare** - For internet-facing self-hosting across multiple devices or with your team (works on the free plan). See [`docs/SELF_HOSTING_CLOUDFLARE.md`](./docs/SELF_HOSTING_CLOUDFLARE.md).
 
 Either way, you need a DataForSEO API key to get SEO data. See [`docs/DATAFORSEO_API_KEY.md`](./docs/DATAFORSEO_API_KEY.md).

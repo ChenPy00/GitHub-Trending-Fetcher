@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 1,
+      "readme_sha256": "85c3e74f9ea00cf6a258ed5b978191d816414a674b914e63e249349b4cd4c419",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 2,
+      "readme_sha256": "f7cb23b517aca8c829e931de2838d43e6c9741fef967fe75b0621137168ffdb3",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "local multi-agent harness",
+      "full_name": "chaitanyagiri/munder-difflin",
+      "project_file": "projects/chaitanyagiri__munder-difflin.md",
+      "rank": 3,
+      "readme_sha256": "43b3ec988d9df9122704fd498b085b6d6297f91da39395787f2cba5e48cc47b9",
+      "url": "https://github.com/chaitanyagiri/munder-difflin"
+    },
+    {
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "project_file": "projects/mukul975__Anthropic-Cybersecurity-Skills.md",
+      "rank": 4,
+      "readme_sha256": "92917380904ac1965a0aeebe93ad6d69d56a50fa2501bb9e8f15641d4e1975e7",
+      "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills"
+    },
+    {
+      "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
+      "full_name": "nautechsystems/nautilus_trader",
+      "project_file": "projects/nautechsystems__nautilus_trader.md",
+      "rank": 5,
+      "readme_sha256": "4243a5c7ff29f7b7ede80726ae8b53e8c61af553d033a60453cdad7868c1081e",
+      "url": "https://github.com/nautechsystems/nautilus_trader"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 6,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 7,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "full_name": "jundot/omlx",
+      "project_file": "projects/jundot__omlx.md",
+      "rank": 8,
+      "readme_sha256": "d57a8c294ce62812b7f7c6663b2e5b7b8fbb4b0a43f323fe8d19276a1d931cee",
+      "url": "https://github.com/jundot/omlx"
+    },
+    {
+      "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
+      "full_name": "santifer/career-ops",
+      "project_file": "projects/santifer__career-ops.md",
+      "rank": 9,
+      "readme_sha256": "f613b232bc50136ddb6f35b6a34ff3a8eb714e3176425c4ce17b50b6d5e44067",
+      "url": "https://github.com/santifer/career-ops"
+    },
+    {
+      "description": "High performance self-hosted photo and video management solution.",
+      "full_name": "immich-app/immich",
+      "project_file": "projects/immich-app__immich.md",
+      "rank": 10,
+      "readme_sha256": "03a9c05673a43119eae0813eaac8bacc2167bb2ffd962fe6436648c506ea75ac",
+      "url": "https://github.com/immich-app/immich"
+    },
+    {
+      "description": "",
+      "full_name": "amadeusprotocol/node",
+      "project_file": "projects/amadeusprotocol__node.md",
+      "rank": 11,
+      "readme_sha256": "cf356553e91f81d25aee6f208462732d6c7fffefab96406d2f116c90b66b2a4e",
+      "url": "https://github.com/amadeusprotocol/node"
+    },
+    {
+      "description": "Draw pretty maps from OpenStreetMap data! Built with osmnx +matplotlib + shapely",
+      "full_name": "marceloprates/prettymaps",
+      "project_file": "projects/marceloprates__prettymaps.md",
+      "rank": 12,
+      "readme_sha256": "fb968072d66806b4f90d1561f3d34eab0d3478f0efc5ab3e26fc95a0d0ff9765",
+      "url": "https://github.com/marceloprates/prettymaps"
+    },
+    {
+      "description": "",
+      "full_name": "genlayerlabs/genlayer-project-boilerplate",
+      "project_file": "projects/genlayerlabs__genlayer-project-boilerplate.md",
+      "rank": 13,
+      "readme_sha256": "5fe91125f339e1a8079955a1621cdf10879a9997f69d41d889d13fff94a18a92",
+      "url": "https://github.com/genlayerlabs/genlayer-project-boilerplate"
+    }
+  ],
+  "snapshot_date": "2026-08-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

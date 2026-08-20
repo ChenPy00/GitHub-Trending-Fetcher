@@ -5,7 +5,7 @@
   "full_name": "nautechsystems/nautilus_trader",
   "url": "https://github.com/nautechsystems/nautilus_trader",
   "description": "Production-grade Rust-native trading engine with deterministic event-driven architecture",
-  "readme_sha256": "a48105bfe7f7245b9422d4767a21a37e42c56f680a3c49c9d10190da1bdcdf35"
+  "readme_sha256": "4243a5c7ff29f7b7ede80726ae8b53e8c61af553d033a60453cdad7868c1081e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/nautechsystems/nautilus_trader
 - Description: Production-grade Rust-native trading engine with deterministic event-driven architecture
-- README SHA256: `a48105bfe7f7245b9422d4767a21a37e42c56f680a3c49c9d10190da1bdcdf35`
+- README SHA256: `4243a5c7ff29f7b7ede80726ae8b53e8c61af553d033a60453cdad7868c1081e`
 
 ## README
 
@@ -180,8 +180,9 @@ practices:
   and Rust dependencies are sourced only from crates.io.
 - **Dependency intake**: lock files pin every dependency with cryptographic checksums, third-party
   Python packages install from wheels only, new dependency and tooling versions observe a
-  publication cooldown before adoption, cargo-vet audits Rust provenance, and license checks enforce
-  LGPL-3.0-or-later compatibility.
+  publication cooldown before adoption, cargo-vet audits Rust provenance, and cargo-deny checks Rust
+  dependencies against an allow list of licenses compatible with NautilusTrader's `LGPL-3.0-only`
+  license.
 - **Scanning and fuzzing**: Gitleaks secret screening and Zizmor Actions auditing run pre-commit;
   CodeQL runs on PRs to `master` and pushes to `nightly`; cargo-audit, cargo-deny, cargo-vet,
   OSV Scanner, and pip-audit run on audit-relevant PRs and daily schedules; cargo-fuzz targets cover

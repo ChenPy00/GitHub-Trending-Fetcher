@@ -1,0 +1,129 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "f184eaac32ac55ccfe9062dcba7105ba3e42ea614c702a407411db4a634f90a7",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 2,
+      "readme_sha256": "70ba3149603a7a3c9d8afad113e9f8533113dfb82be78e72e7b1a1087e4792c3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 3,
+      "readme_sha256": "8c8d83084ca77b6413b27455f35095da78e82bd4f4b308f30e107f44a241d5bf",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 4,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 5,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 6,
+      "readme_sha256": "f7cb23b517aca8c829e931de2838d43e6c9741fef967fe75b0621137168ffdb3",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 7,
+      "readme_sha256": "2fbd275d613c59932d80317f0ea2a24ab0ccf3ecb1aa185189ecea079a29e962",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 8,
+      "readme_sha256": "a282710d15d89eabc75054db41814ff70a93c90359c70315e54642faf0bac911",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 9,
+      "readme_sha256": "85c3e74f9ea00cf6a258ed5b978191d816414a674b914e63e249349b4cd4c419",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "full_name": "lightningpixel/modly",
+      "project_file": "projects/lightningpixel__modly.md",
+      "rank": 10,
+      "readme_sha256": "83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853",
+      "url": "https://github.com/lightningpixel/modly"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 11,
+      "readme_sha256": "53fb65b2e33ed5f2bf6553c51342a7aeee86def6ef0b2b4962a5e175e6e25640",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 12,
+      "readme_sha256": "4f669b12100f73590e539be9e6b109abe96488dca39b07778ec5c83c12f9351e",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "🧱 easy fast local-first microVM runtime and library",
+      "full_name": "superradcompany/microsandbox",
+      "project_file": "projects/superradcompany__microsandbox.md",
+      "rank": 13,
+      "readme_sha256": "874ba994774c7712d6a580c2c7185193702227e0b5f134ef1bd50b1da1fb9d49",
+      "url": "https://github.com/superradcompany/microsandbox"
+    },
+    {
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "full_name": "jundot/omlx",
+      "project_file": "projects/jundot__omlx.md",
+      "rank": 14,
+      "readme_sha256": "d57a8c294ce62812b7f7c6663b2e5b7b8fbb4b0a43f323fe8d19276a1d931cee",
+      "url": "https://github.com/jundot/omlx"
+    },
+    {
+      "description": "The free coding agent",
+      "full_name": "CodebuffAI/freebuff",
+      "project_file": "projects/CodebuffAI__freebuff.md",
+      "rank": 15,
+      "readme_sha256": "596884cb0655ab8d9927c33872da81561b439d885f21f3d8fd3f4c99ad5632eb",
+      "url": "https://github.com/CodebuffAI/freebuff"
+    }
+  ],
+  "snapshot_date": "2026-08-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

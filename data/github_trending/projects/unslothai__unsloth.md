@@ -5,7 +5,7 @@
   "full_name": "unslothai/unsloth",
   "url": "https://github.com/unslothai/unsloth",
   "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
-  "readme_sha256": "cf29607133d79babb3985247426becbf6209f544e44d93e58f1bdd0ef337d817"
+  "readme_sha256": "a282710d15d89eabc75054db41814ff70a93c90359c70315e54642faf0bac911"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/unslothai/unsloth
 - Description: Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.
-- README SHA256: `cf29607133d79babb3985247426becbf6209f544e44d93e58f1bdd0ef337d817`
+- README SHA256: `a282710d15d89eabc75054db41814ff70a93c90359c70315e54642faf0bac911`
 
 ## README
 
@@ -176,6 +176,7 @@ Unsloth Studio (Beta) works on **Windows, Linux, WSL** and **macOS**.
 * **NVIDIA:** Training works on RTX 30/40/50, Blackwell, DGX Spark, Station and more
 * **macOS:** Training, MLX and GGUF inference are ALL supported.
 * **AMD:** Training, RL, chat and deployment work on Windows, WSL and Linux. [Read the AMD guide](https://unsloth.ai/docs/basics/amd).
+* **Intel:** Training and GGUF inference are supported on Intel GPUs (XPU).
 * **Vulkan:** GGUF inference is supported on [compatible GPUs, including Intel GPUs](https://github.com/unslothai/unsloth/pull/5819). Vulkan accelerates GGUF inference only; training still requires a supported PyTorch or MLX backend.
 * **Multi-GPU:** Available now, with a major upgrade on the way
 
