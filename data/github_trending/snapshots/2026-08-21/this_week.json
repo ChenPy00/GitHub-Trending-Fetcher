@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 1,
+      "readme_sha256": "7ecd8e28e94dfda598b75278df9bf12013a944718efb9f0d467c867f13a56113",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 2,
+      "readme_sha256": "f7cb23b517aca8c829e931de2838d43e6c9741fef967fe75b0621137168ffdb3",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 3,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 4,
+      "readme_sha256": "0f14aa94a50159aae38109f9c3cc2386a35f35e1f029ae16852f67681c2e7ba8",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 5,
+      "readme_sha256": "a5e67008dc97014f18090aa9f31765dd6d6605db9230dfee3670dc9d9bf8183c",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "project_file": "projects/NVIDIA-NeMo__Switchyard.md",
+      "rank": 6,
+      "readme_sha256": "a8e9c0c6ef7cf43c6c2fdf25adea830593ca087d2e3180ec50cc59313a8f130b",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 7,
+      "readme_sha256": "1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 8,
+      "readme_sha256": "85c3e74f9ea00cf6a258ed5b978191d816414a674b914e63e249349b4cd4c419",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 9,
+      "readme_sha256": "53fb65b2e33ed5f2bf6553c51342a7aeee86def6ef0b2b4962a5e175e6e25640",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 10,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 11,
+      "readme_sha256": "756247c626949cc76091197880e836aaf1c0c2ec7901d2f98ba2116508b91181",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Desktop app to generate 3D models from images or prompt using local AI — runs entirely on your GPU",
+      "full_name": "lightningpixel/modly",
+      "project_file": "projects/lightningpixel__modly.md",
+      "rank": 12,
+      "readme_sha256": "83e18fc0bc9776427a3b1dad9b0f2692ff4b433ac93bf5ade76598baa84ff853",
+      "url": "https://github.com/lightningpixel/modly"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 13,
+      "readme_sha256": "2fbd275d613c59932d80317f0ea2a24ab0ccf3ecb1aa185189ecea079a29e962",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "Local UI to run and train LLMs and diffusion models, including Qwen3.8, Kimi K3, MiniMax-H3, Gemma 4, DeepSeek-V4, FLUX and more.",
+      "full_name": "unslothai/unsloth",
+      "project_file": "projects/unslothai__unsloth.md",
+      "rank": 14,
+      "readme_sha256": "4fed32806a663ec2f0d5d1a6897704be006490222fc21f67d4a572e3e8d9b535",
+      "url": "https://github.com/unslothai/unsloth"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 15,
+      "readme_sha256": "9c2ddbf233b67f4f153332d836a152a9739a268f5cde37593aaf19c099e8055d",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "full_name": "jundot/omlx",
+      "project_file": "projects/jundot__omlx.md",
+      "rank": 16,
+      "readme_sha256": "a258e474951126016a6b74897bc8541ae9959aa27c6ef376f9bc06d9ec85e3fe",
+      "url": "https://github.com/jundot/omlx"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 17,
+      "readme_sha256": "4f669b12100f73590e539be9e6b109abe96488dca39b07778ec5c83c12f9351e",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "The free coding agent",
+      "full_name": "CodebuffAI/freebuff",
+      "project_file": "projects/CodebuffAI__freebuff.md",
+      "rank": 18,
+      "readme_sha256": "534c7379c6e53e5e4539f09dff5d16a0b1d2d574c9d68101be046d5656e912e8",
+      "url": "https://github.com/CodebuffAI/freebuff"
+    }
+  ],
+  "snapshot_date": "2026-08-21",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

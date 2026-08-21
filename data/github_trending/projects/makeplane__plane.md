@@ -5,7 +5,7 @@
   "full_name": "makeplane/plane",
   "url": "https://github.com/makeplane/plane",
   "description": "🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.",
-  "readme_sha256": "1527e5cd40ef95906faebb6f795e1260321e8296f97b9cc6365a77983197d677"
+  "readme_sha256": "5d283b9e137447b10f41bfd9e814e8c38973dab2d9271e0f0aef804e9e9c2fd7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/makeplane/plane
 - Description: 🔥🔥🔥 Open-source Jira, Linear, Monday, and ClickUp alternative. Plane is a modern project management platform to manage tasks, sprints, docs, and triage.
-- README SHA256: `1527e5cd40ef95906faebb6f795e1260321e8296f97b9cc6365a77983197d677`
+- README SHA256: `5d283b9e137447b10f41bfd9e814e8c38973dab2d9271e0f0aef804e9e9c2fd7`
 
 ## README
 
@@ -61,6 +61,7 @@ Getting started with Plane is simple. Choose the setup that works best for you:
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Docker               | [![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)](https://developers.plane.so/self-hosting/methods/docker-compose)         |
 | Kubernetes           | [![Kubernetes](https://img.shields.io/badge/kubernetes-%23326ce5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://developers.plane.so/self-hosting/methods/kubernetes) |
+| Managed hosting      | [<img alt="Deploy with Zenith" src="https://cdn.zenith.hosting/buttons/deploy-with-zenith.svg" height="40">](https://zenith.hosting/host/plane) |
 
 `Instance admins` can configure instance settings with [God mode](https://developers.plane.so/self-hosting/govern/instance-admin).
 

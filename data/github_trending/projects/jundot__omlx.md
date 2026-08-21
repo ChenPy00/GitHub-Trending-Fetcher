@@ -5,7 +5,7 @@
   "full_name": "jundot/omlx",
   "url": "https://github.com/jundot/omlx",
   "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
-  "readme_sha256": "d57a8c294ce62812b7f7c6663b2e5b7b8fbb4b0a43f323fe8d19276a1d931cee"
+  "readme_sha256": "a258e474951126016a6b74897bc8541ae9959aa27c6ef376f9bc06d9ec85e3fe"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/jundot/omlx
 - Description: LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar
-- README SHA256: `d57a8c294ce62812b7f7c6663b2e5b7b8fbb4b0a43f323fe8d19276a1d931cee`
+- README SHA256: `a258e474951126016a6b74897bc8541ae9959aa27c6ef376f9bc06d9ec85e3fe`
 
 ## README
 
@@ -110,7 +110,7 @@ pip install -e ".[mcp]"   # With MCP (Model Context Protocol) support
 OMLX_WITH_CUSTOM_KERNEL=1 pip install -e .
 ```
 
-Requires macOS 15.0+ (Sequoia), Python 3.11–3.13, and Apple Silicon (M1/M2/M3/M4).
+Requires macOS 15.0+ (Sequoia), Python 3.11–3.13, and Apple Silicon (M1/M2/M3/M4/M5).
 
 > **Note on native custom kernels:** a plain `pip install -e .` does NOT build
 > them, and the affected model families then silently fall back to much slower

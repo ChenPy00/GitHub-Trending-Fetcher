@@ -5,7 +5,7 @@
   "full_name": "CodebuffAI/freebuff",
   "url": "https://github.com/CodebuffAI/freebuff",
   "description": "The free coding agent",
-  "readme_sha256": "596884cb0655ab8d9927c33872da81561b439d885f21f3d8fd3f4c99ad5632eb"
+  "readme_sha256": "534c7379c6e53e5e4539f09dff5d16a0b1d2d574c9d68101be046d5656e912e8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/CodebuffAI/freebuff
 - Description: The free coding agent
-- README SHA256: `596884cb0655ab8d9927c33872da81561b439d885f21f3d8fd3f4c99ad5632eb`
+- README SHA256: `534c7379c6e53e5e4539f09dff5d16a0b1d2d574c9d68101be046d5656e912e8`
 
 ## README
 
@@ -51,15 +51,14 @@ Then describe what you want. Freebuff finds the relevant files, makes changes, a
 
 Freebuff includes a curated model catalog. The regular picker currently offers:
 
-| Model                       | Access                  | Best for                                                           |
-| --------------------------- | ----------------------- | ------------------------------------------------------------------ |
-| **GPT-5.6 Luna**            | Full access             | The default everywhere in full mode; deep reasoning, native images |
-| **DeepSeek V4 Flash 07/31** | Full access             | Fast coding and tool use; capped at one session a day              |
-| **MiniMax M3**              | Full access             | Fast responses with image support                                  |
-| **MiMo 2.5**                | Full and limited access | The limited-mode default; balanced performance with image support  |
-| **DeepSeek V4 Pro**         | Full access             | Deepest reasoning; shares DeepSeek's one session a day             |
+| Model                       | Access                  | Best for                                                          |
+| --------------------------- | ----------------------- | ----------------------------------------------------------------- |
+| **DeepSeek V4 Flash 07/31** | Full access             | The default everywhere in full mode; fast coding and tool use     |
+| **GPT-5.6 Luna**            | Full access             | Deep reasoning with native images; one session a day              |
+| **MiMo 2.5**                | Full and limited access | The limited-mode default; balanced performance with image support |
+| **DeepSeek V4 Pro**         | Full access             | Deepest reasoning; one session a day, closed during peak hours    |
 
-While upstream prices are high, two things are **temporary**: V4 Flash uses a premium session rather than being unlimited, and the DeepSeek models may serve from a quantized (Q8_0) build to keep costs down. MiMo 2.5 is unlimited in the meantime. Both are intended to be reverted.
+These limits are **temporary**, and they exist because the providers serving DeepSeek now charge more than free mode can carry. V4 Pro is one session a day and closed during peak hours; GPT-5.6 Luna is one a day; V4 Flash uses your remaining premium sessions; models may serve from a quantized (Q8_0) build. MiMo 2.5 stays unlimited. All of it is intended to be reverted.
 
 Beyond the regular picker:
 

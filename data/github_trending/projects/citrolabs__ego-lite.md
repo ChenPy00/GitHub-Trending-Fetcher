@@ -5,7 +5,7 @@
   "full_name": "citrolabs/ego-lite",
   "url": "https://github.com/citrolabs/ego-lite",
   "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-  "readme_sha256": "feb5ddfd74f5bcc30fd211f824775da0bad9ceb941d7bf582212114fe85f297b"
+  "readme_sha256": "4fabf2acad7c3ce0255f6c078c442bdc4603901c196a798bb04e880a56dbe93b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/citrolabs/ego-lite
 - Description: The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
-- README SHA256: `feb5ddfd74f5bcc30fd211f824775da0bad9ceb941d7bf582212114fe85f297b`
+- README SHA256: `4fabf2acad7c3ce0255f6c078c442bdc4603901c196a798bb04e880a56dbe93b`
 
 ## README
 
@@ -143,6 +143,17 @@ Tutorials, the full tool reference, and integration guides live at [lite.ego.app
 - [Discord](https://discord.gg/5eGZVvHbTq), questions, setup help, and skill sharing
 - [GitHub Discussions](https://github.com/citrolabs/ego-lite/discussions), ideas and longer threads
 - [X/Twitter](https://x.com/ego_agent), updates and releases
+
+## Star History
+
+<a href="https://github.com/citrolabs/ego-lite/stargazers">
+<!-- star-history:start -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/star-history/star-history-dark.svg">
+  <img alt="Star history" src="assets/star-history/star-history-light.svg">
+</picture>
+<!-- star-history:end -->
+</a>
 
 ## License
 
