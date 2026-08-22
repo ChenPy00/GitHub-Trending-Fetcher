@@ -5,7 +5,7 @@
   "full_name": "mahlernim/google-timeline-visualizer",
   "url": "https://github.com/mahlernim/google-timeline-visualizer",
   "description": "Visualize your year in travel using your Google Location History (Timeline) data",
-  "readme_sha256": "15c48df451f8503eb8d7a81bb188ff97595ac407d63cffd03ccd7f8a2692c256"
+  "readme_sha256": "b1708ead4ea5676d6158ca1bb590bcc84405df00592bbef5ca686f04986a4eb8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mahlernim/google-timeline-visualizer
 - Description: Visualize your year in travel using your Google Location History (Timeline) data
-- README SHA256: `15c48df451f8503eb8d7a81bb188ff97595ac407d63cffd03ccd7f8a2692c256`
+- README SHA256: `b1708ead4ea5676d6158ca1bb590bcc84405df00592bbef5ca686f04986a4eb8`
 
 ## README
 
@@ -54,7 +54,8 @@ use Safari's Share menu and choose **Add to Home Screen**.
 The app is not yet on Google Play. Install it from this repository's
 [latest release](https://github.com/mahlernim/google-timeline-visualizer/releases/latest):
 
-1. Under **Assets**, download `TimelineVisualizer-v2.2.4.apk` on your phone.
+1. Under **Assets**, download the latest `TimelineVisualizer-*.apk` file on your
+   phone. Do not download the `.sha256` checksum file.
 2. Open the downloaded file.
 3. If Android blocks the installation, select **Settings**, allow your browser or
    file manager to **Install unknown apps**, then return and try again.

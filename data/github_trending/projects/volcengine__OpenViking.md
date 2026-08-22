@@ -5,7 +5,7 @@
   "full_name": "volcengine/OpenViking",
   "url": "https://github.com/volcengine/OpenViking",
   "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-  "readme_sha256": "f7cb23b517aca8c829e931de2838d43e6c9741fef967fe75b0621137168ffdb3"
+  "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/volcengine/OpenViking
 - Description: Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
-- README SHA256: `f7cb23b517aca8c829e931de2838d43e6c9741fef967fe75b0621137168ffdb3`
+- README SHA256: `dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc`
 
 ## README
 
@@ -112,6 +112,8 @@ viking://resources/my_project/
 ## Proof it works
 
 OpenViking 0.3.22 has been evaluated on long-conversation user memory (LoCoMo) and multi-turn agent tasks (tau2-bench). Full results and setup details, including knowledge-base QA, are in the [benchmark report](https://blog.openviking.ai/post/openviking-benchmark-results/); reproduction scripts live in [./benchmark](./benchmark).
+
+The memory evaluation used [Doubao 2.0 Pro](https://console.volcengine.com/ark/region:cn-beijing/model/detail?Id=doubao-seed-2-0-pro) as the VLM and [Doubao-embedding-vision-251215](https://console.volcengine.com/ark/region:cn-beijing/model/detail?Id=doubao-embedding-vision) as the embedding model.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/images/benchmark-dark.svg">

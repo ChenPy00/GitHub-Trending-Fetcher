@@ -5,7 +5,7 @@
   "full_name": "santifer/career-ops",
   "url": "https://github.com/santifer/career-ops",
   "description": "Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)",
-  "readme_sha256": "e6f7a25afb16cf0076b8731fa9d02a40bd0bab0d8759a9194ddde70dec0e1e49"
+  "readme_sha256": "2c60903861ce6fe86141896d00a359751af57fd8c2d5d96ee9cbaf64264ff2af"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/santifer/career-ops
 - Description: Open-source AI job search: scan job portals, evaluate listings with a structured A-F rubric into a 1.0-5.0 score, tailor your CV, track applications — runs locally in your AI coding CLI (Claude Code, Codex, OpenCode, Antigravity…)
-- README SHA256: `e6f7a25afb16cf0076b8731fa9d02a40bd0bab0d8759a9194ddde70dec0e1e49`
+- README SHA256: `2c60903861ce6fe86141896d00a359751af57fd8c2d5d96ee9cbaf64264ff2af`
 
 ## README
 
@@ -103,7 +103,7 @@
 
 career-ops ([career-ops.org](https://career-ops.org), also known as **careerops**) turns any AI coding CLI into a full job search command center. Instead of manually tracking applications in a spreadsheet, you get an AI-powered pipeline that:
 
-- **Evaluates offers** with a structured evaluation -- blocks A-F scored across 5 weighted dimensions, plus block G, a separate posting-legitimacy assessment that never affects the 1-5 score
+- **Evaluates offers** into a structured report -- blocks A through H, with a global 1-5 score reached by holistic judgement across five dimensions rather than an arithmetic formula. Block G is a separate posting-legitimacy assessment that never affects the score; block H is drafted only at 4.5 and above
 - **Generates tailored PDFs** -- ATS-optimized CVs customized per job description
 - **Scans portals** automatically (Greenhouse, Ashby, Lever, company pages)
 - **Processes in batch** -- evaluate 10+ offers in parallel with sub-agents
