@@ -5,7 +5,7 @@
   "full_name": "openai/codex",
   "url": "https://github.com/openai/codex",
   "description": "Lightweight coding agent that runs in your terminal",
-  "readme_sha256": "8ef3dd9dd00c7dd39d1f0b77de69d25cff4dd3fe7768ec3a3cd1fc9c0aa5b76c"
+  "readme_sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/openai/codex
 - Description: Lightweight coding agent that runs in your terminal
-- README SHA256: `8ef3dd9dd00c7dd39d1f0b77de69d25cff4dd3fe7768ec3a3cd1fc9c0aa5b76c`
+- README SHA256: `ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7`
 
 ## README
 
@@ -42,6 +42,16 @@ Run the following on Windows to install Codex CLI:
 
 ```shell
 powershell -ExecutionPolicy ByPass -c "irm https://chatgpt.com/codex/install.ps1 | iex"
+```
+
+The standalone installers download from `https://releases.openai.com/codex` by default and fall back to GitHub Releases if a metadata or asset download is unavailable. To force GitHub Releases, set `CODEX_INSTALLER_USE_RELEASES_OPENAI_COM` to `false` (`0` and `no` are also accepted):
+
+```shell
+curl -fsSL https://chatgpt.com/codex/install.sh | CODEX_INSTALLER_USE_RELEASES_OPENAI_COM=false sh
+```
+
+```powershell
+$env:CODEX_INSTALLER_USE_RELEASES_OPENAI_COM='false'; irm https://chatgpt.com/codex/install.ps1 | iex
 ```
 
 Codex CLI can also be installed via the following package managers:

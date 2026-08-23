@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "d5fd95526290a03bb136d57a16cbd511b4519da5758c7afd231c46c52fe9c41d"
+  "readme_sha256": "3ef482e8754ce0579faf3c59b21e138d012c9d7b458f17a983d9a6a8d7f07e92"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `d5fd95526290a03bb136d57a16cbd511b4519da5758c7afd231c46c52fe9c41d`
+- README SHA256: `3ef482e8754ce0579faf3c59b21e138d012c9d7b458f17a983d9a6a8d7f07e92`
 
 ## README
 
@@ -89,7 +89,7 @@ User task
 
 | Routing rules | Regression benchmark | Core skill modules | CI platforms | Client model |
 |---:|---:|---:|---|---|
-| 41 (R0–R40) | 163 cases | 42 tracked modules | Windows + Ubuntu | Client-neutral |
+| 43 (R0–R44) | 173 cases | 44 tracked modules | Windows + Ubuntu | Client-neutral |
 
 The routing core is driven by one structured configuration, validated by cross-platform CI, and kept separate from optional client adapters.
 
@@ -188,12 +188,12 @@ Platform-specific docs:
 | [skills/routing.md](skills/routing.md) | Task → skill routing matrix |
 | [skills/SKILL.md](skills/SKILL.md) | Master entry point |
 | [skills/INDEX.md](skills/INDEX.md) | Auto-generated, client-neutral skill navigation index |
-| [skills/config/routing.json](skills/config/routing.json) | **Routing single source of truth** (41 rules, R0–R40) |
+| [skills/config/routing.json](skills/config/routing.json) | **Routing single source of truth** (43 rules, R0–R44) |
 | [skills/tool-index.md](skills/tool-index.md) | Local tool status (auto-generated) |
 | [skills/scripts/master-route.ps1](skills/scripts/master-route.ps1) | One-shot PRIMARY triage (reads routing.json) |
 | [skills/scripts/case-init.ps1](skills/scripts/case-init.ps1) | Case dir: scope / timeline / workitems |
 | [skills/case-review/](skills/case-review/) | Read-only Evidence graph review and artifact fixity checks |
-| [skills/scripts/test-routing.ps1](skills/scripts/test-routing.ps1) | Routing regression runner (163 benchmark cases) |
+| [skills/scripts/test-routing.ps1](skills/scripts/test-routing.ps1) | Routing regression runner (173 benchmark cases) |
 | [skills/scripts/verify-routing-coherence.ps1](skills/scripts/verify-routing-coherence.ps1) | Structure + supply-chain pin gate checks |
 | [skills/scripts/extract-summaries.ps1](skills/scripts/extract-summaries.ps1) | Regenerates INDEX.md from skill frontmatter |
 | [AGENTS.md](AGENTS.md) | Platform-neutral repository instructions |
@@ -202,7 +202,7 @@ Platform-specific docs:
 ### Testing (run after any routing/config change)
 
 ```powershell
-# 1. Routing regression — 163 (hint → expected PRIMARY) cases, fails CI on any mismatch
+# 1. Routing regression — 173 (hint → expected PRIMARY) cases, fails CI on any mismatch
 powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/test-routing.ps1
 # 2. Structure coherence + supply-chain pin gate (unpinned auto-install fails)
 powershell -NoProfile -ExecutionPolicy Bypass -File skills/scripts/verify-routing-coherence.ps1
@@ -328,3 +328,11 @@ Special thanks to the OLLVM deobfuscation ecosystem contributors and everyone wh
 This project is intended solely for lawful security research, education, CTF competitions, and testing of systems that you own or have explicit authorization to assess.
 
 **Unauthorized access, scanning, exploitation, disruption, data acquisition, or any other use against systems without prior permission is strictly prohibited.** Users are solely responsible for complying with applicable laws, regulations, and the authorized scope of testing. The maintainers accept no liability for misuse of this project or for any resulting damage or legal consequences
+
+## Installation and download security
+
+See [Installation and Download Security Guidance](docs/UV-AND-DOWNLOAD-SECURITY.md).
+
+## Community quick start and issue triage
+
+See [Quick Start](docs/QUICKSTART_zh.md) and [Community Issue Triage](docs/COMMUNITY-ISSUE-TRIAGE.md) for installation, client integration, and how community issues are classified. Installation/archive security details remain in [Installation and Download Security Guidance](docs/UV-AND-DOWNLOAD-SECURITY.md).

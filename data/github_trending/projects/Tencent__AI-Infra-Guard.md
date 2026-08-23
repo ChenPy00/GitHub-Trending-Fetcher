@@ -5,7 +5,7 @@
   "full_name": "Tencent/AI-Infra-Guard",
   "url": "https://github.com/Tencent/AI-Infra-Guard",
   "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
-  "readme_sha256": "a2317baa13cb314f0d34c6ee616dc72988cc609e037779164d3c2f9e4b2d0ea3"
+  "readme_sha256": "46f76ead019eae80789f58a5d455bbe9cab4c2ddd0a3135b4d9e8debd7536d50"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Tencent/AI-Infra-Guard
 - Description: A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.
-- README SHA256: `a2317baa13cb314f0d34c6ee616dc72988cc609e037779164d3c2f9e4b2d0ea3`
+- README SHA256: `46f76ead019eae80789f58a5d455bbe9cab4c2ddd0a3135b4d9e8debd7536d50`
 
 ## README
 
@@ -50,6 +50,11 @@
     </a>
     <a href="https://clawhub.ai/aigsec/aig-scanner" target="_blank">
        <img src="https://img.shields.io/badge/ClawHub-AIG%20Scanner-e6a817" alt="AIG Scanner">
+    </a>
+</p>
+<p align="center">
+    <a href="https://github.com/openclaw/clawscan" target="_blank">
+       <img src="https://img.shields.io/badge/OpenClaw-Recommended-ff6b6b" alt="OpenClaw Recommended">
     </a>
 </p>
 <p align="center">
@@ -106,7 +111,7 @@ Help us improve A.I.G! Please take 3-5 minutes to fill out our [User Feedback Su
 - [🙏 Acknowledgements](#-acknowledgements)
 - [💬 Join the Community](#-join-the-community)
 - [📖 Citation](#-citation)
-- [📚 Papers](#-papers)
+- [📚 Research & Papers](#-research--papers)
 - [⚖️ License & Attribution](#️-license--attribution)
 <br><br>
 ## 🚀 Quick Start
@@ -593,9 +598,15 @@ If you use A.I.G in your research, please cite:
 ```
 <br>
 
-## 📚 Papers
+## 📚 Research & Papers
 
-> 📂 **[Research Projects](https://github.com/Tencent/AI-Infra-Guard/tree/main/Research)** — Open-source code, datasets, and artifacts from our research work.
+**Research:**
+
+1. **"DeepSeek Harness Indirect Prompt-Injection Assessment"** — Authorized security assessment of DeepSeek Harness against indirect prompt-injection across 14,560 agent runs. [[code]](./Research/deepseek-harness-security-assessment)
+
+2. **"SkillJack: Persistent Skill Backdoors in Self-Evolving Agents"** — Demonstrates how poisoned trajectories can inject persistent backdoors into self-evolving agent skill systems. [[code]](./Research/SkillJack)
+
+**Papers:**
 
 1. **"Securing the AI Agent: A Unified Framework for Multi-Layer Agent Red Teaming"** — A comprehensive framework for securing AI agent systems through multi-layer red teaming across infrastructure, supply chain, runtime interaction, and deployment surfaces. [[arXiv]](https://arxiv.org/pdf/2606.31227) [[pdf]](./Securing_the_AI_Agent.pdf)
 
