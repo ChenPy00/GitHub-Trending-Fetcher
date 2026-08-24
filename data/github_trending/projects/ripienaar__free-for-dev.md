@@ -5,7 +5,7 @@
   "full_name": "ripienaar/free-for-dev",
   "url": "https://github.com/ripienaar/free-for-dev",
   "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
-  "readme_sha256": "d79c3f997cda218210736631796b64067453a86465ee989bc2bbc0bbdd9b581c"
+  "readme_sha256": "c3319e86d33eccd337706bb07142e07430588cfb6c8d84bed97e291c13938fe3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ripienaar/free-for-dev
 - Description: A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
-- README SHA256: `d79c3f997cda218210736631796b64067453a86465ee989bc2bbc0bbdd9b581c`
+- README SHA256: `c3319e86d33eccd337706bb07142e07430588cfb6c8d84bed97e291c13938fe3`
 
 ## README
 
@@ -342,7 +342,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo
   * [Parseur](https://parseur.com) - 20 free pages/month: Extract data from PDFs, emails. AI powered. Full API access.
   * [PDF-API.io](https://pdf-api.io) - PDF Automation API, visual template editor or HTML to PDF, dynamic data integration, and PDF rendering with an API. The free plan comes with one template, 100 PDFs/month.
   * [PDFBolt](https://pdfbolt.com) - Developer-focused PDF generation API designed with privacy in mind. It offers Stripe-inspired documentation and includes 500 free PDF conversions per month.
-  * [Pexafy](https://pexafy.com) - Semantic image search API across 9 free photo sources (Unsplash, Pexels, Pixabay, Kaboompics & more), 9M+ photos under one JSON schema instead of one integration per source. Plain-language queries, reverse image search, filters on color, orientation and license. CORS is open on read endpoints, so it runs from the browser. The free plan includes 5,000 API requests/month and 1 key, no app review.
+  * [Pexafy](https://docs.pexafy.com) - Semantic image search API across 9 free photo sources (Unsplash, Pexels, Pixabay, Kaboompics & more), 9M+ photos under one JSON schema instead of one integration per source. Plain-language queries, reverse image search, filters on color, orientation and license. CORS is open on read endpoints, so it runs from the browser. The free plan includes 5,000 API requests/month and 1 key, no app review.
   * [Pixela](https://pixe.la/) - Free daystream database service. All operations are performed by API. Visualization with heat maps and line graphs is also possible.
   * [Posthook](https://posthook.io) - Schedule webhooks to fire at a future time with automatic retries, delivery tracking, and failure alerting. Free plan includes 1,000 webhooks per month.
   * [Postman](https://postman.com) - Simplify workflows and create better APIs - faster - with Postman, a collaboration platform for API development. Use the Postman App for free forever. Postman cloud features are also free forever with certain limits.
@@ -1474,7 +1474,6 @@ Update Time, five active automations, webhooks.
 
 
   * [Android Studio](https://developer.android.com/studio) - Android Studio provides the fastest tools for building apps on every type of Android device. Open Source IDE is free for everyone and the best Android app development. Available for Windows, Mac, Linux, and even ChromeOS!
-  * [AndroidIDE](https://m.androidide.com/) - An Open Source IDE to develop real, Gradle-based Android applications on Android devices.
   * [Apache Netbeans](https://netbeans.apache.org/) - Development Environment, Tooling Platform and Application Framework.
   * [apiary.io](https://apiary.io/) - Collaborative design API with instant API mock and generated documentation (Free for unlimited API blueprints and unlimited users with one admin account and hosted documentation).
   * [BBEdit](https://www.barebones.com/) - BBEdit is a popular and extensible editor for macOS. Free Mode provides a [powerful core feature set](https://www.barebones.com/products/bbedit/comparison.html) and an upgrade path to advanced features.

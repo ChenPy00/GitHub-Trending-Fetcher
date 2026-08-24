@@ -1,0 +1,153 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 1,
+      "readme_sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，470+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 2,
+      "readme_sha256": "cad8c7043d0a3b40dfe4216b0642a9db5178d0d999f9f7670a17d2d1e8514c8c",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 3,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 4,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 5,
+      "readme_sha256": "71dbd986a72de9eb24a535607bd171877b2cb4b268b74172ef61d65e9a46c933",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "A hive mind communication platform",
+      "full_name": "block/buzz",
+      "project_file": "projects/block__buzz.md",
+      "rank": 6,
+      "readme_sha256": "84ba68fdb2a6afab1fa2b163ce4013d47fd45e498a057441f6a74c0bfda509a7",
+      "url": "https://github.com/block/buzz"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 7,
+      "readme_sha256": "39b15aa8d47b27fc309353c42a32dda4ee44457b7c97f648cc6a40db039a678d",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "Use Claude Code, Codex, Pi, and OpenCode for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "full_name": "Alishahryar1/free-claude-code",
+      "project_file": "projects/Alishahryar1__free-claude-code.md",
+      "rank": 8,
+      "readme_sha256": "fe5abcaa5d523837b4fa71a0aa7708a1a95106f46bb1aa98d2b7cebafe81c04d",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 9,
+      "readme_sha256": "f220e2a132508ebb5c290cbdce703421d8445ac3b0c2a3118fa4290ce9cb2fa1",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 10,
+      "readme_sha256": "505c4a5f3f6785adb7728dca2c41ee62c0d9e1ba66ed9c33c9b603639d2af353",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 11,
+      "readme_sha256": "c7fd1828983ea5a378460432d40a7bb7317e87ae8481ef6f05cc8c90e0baa702",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "full_name": "VoltAgent/awesome-agent-skills",
+      "project_file": "projects/VoltAgent__awesome-agent-skills.md",
+      "rank": 12,
+      "readme_sha256": "39b0db3b7b4d87546cdf9ee9538440a3bb60650ee417e235d680cd249a8a57b1",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 13,
+      "readme_sha256": "ff38117f355e2bf889b1e7893d0939fad4ddcb795084109bca2baa48ca84ce73",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    {
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "full_name": "dani-garcia/vaultwarden",
+      "project_file": "projects/dani-garcia__vaultwarden.md",
+      "rank": 14,
+      "readme_sha256": "5c7e29e287f600fe1979d196d53f94cd8f87f9c0de1acf6481fde510fbfdd4fc",
+      "url": "https://github.com/dani-garcia/vaultwarden"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 15,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "full_name": "ripienaar/free-for-dev",
+      "project_file": "projects/ripienaar__free-for-dev.md",
+      "rank": 16,
+      "readme_sha256": "c3319e86d33eccd337706bb07142e07430588cfb6c8d84bed97e291c13938fe3",
+      "url": "https://github.com/ripienaar/free-for-dev"
+    },
+    {
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "full_name": "Comfy-Org/ComfyUI",
+      "project_file": "projects/Comfy-Org__ComfyUI.md",
+      "rank": 17,
+      "readme_sha256": "d792c3aa57675e2677bb9fb149e651fef460a4ba4fa8f8ea1063538b951efa09",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 18,
+      "readme_sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    }
+  ],
+  "snapshot_date": "2026-08-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

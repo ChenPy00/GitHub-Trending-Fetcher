@@ -1,0 +1,97 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 1,
+      "readme_sha256": "1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 2,
+      "readme_sha256": "bbddbf92f4c6adc3fab79caa1cb1b7e12fea727e928f2e619a1e17993f1d18ad",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 3,
+      "readme_sha256": "7bec28ab1962a0fa899d7e3d89692ac93109fce6421f61f0f292125f8ccd97cc",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 4,
+      "readme_sha256": "71dbd986a72de9eb24a535607bd171877b2cb4b268b74172ef61d65e9a46c933",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "full_name": "cordiverse/cordis",
+      "project_file": "projects/cordiverse__cordis.md",
+      "rank": 5,
+      "readme_sha256": "2ba51efea2eb84ab602e112c61c8ee8faf5a3e55ee104dc64c678f81668fbbad",
+      "url": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 6,
+      "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 7,
+      "readme_sha256": "53fb65b2e33ed5f2bf6553c51342a7aeee86def6ef0b2b4962a5e175e6e25640",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "full_name": "jundot/omlx",
+      "project_file": "projects/jundot__omlx.md",
+      "rank": 8,
+      "readme_sha256": "a258e474951126016a6b74897bc8541ae9959aa27c6ef376f9bc06d9ec85e3fe",
+      "url": "https://github.com/jundot/omlx"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 9,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 10,
+      "readme_sha256": "f3d91c236c6de48c257b1147464f97327fc0e991be2f42531cf539da7c2a0c77",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 11,
+      "readme_sha256": "39b15aa8d47b27fc309353c42a32dda4ee44457b7c97f648cc6a40db039a678d",
+      "url": "https://github.com/apache/maka"
+    }
+  ],
+  "snapshot_date": "2026-08-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
