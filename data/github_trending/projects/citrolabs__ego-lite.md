@@ -5,7 +5,7 @@
   "full_name": "citrolabs/ego-lite",
   "url": "https://github.com/citrolabs/ego-lite",
   "description": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.",
-  "readme_sha256": "4fabf2acad7c3ce0255f6c078c442bdc4603901c196a798bb04e880a56dbe93b"
+  "readme_sha256": "af867490c9a3048a6ae097b4f65058b2f053d98cdb0b30b703e452d58365a92e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/citrolabs/ego-lite
 - Description: The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.
-- README SHA256: `4fabf2acad7c3ce0255f6c078c442bdc4603901c196a798bb04e880a56dbe93b`
+- README SHA256: `af867490c9a3048a6ae097b4f65058b2f053d98cdb0b30b703e452d58365a92e`
 
 ## README
 
@@ -148,9 +148,11 @@ Tutorials, the full tool reference, and integration guides live at [lite.ego.app
 
 <a href="https://github.com/citrolabs/ego-lite/stargazers">
 <!-- star-history:start -->
+<!-- Generated daily by .github/workflows/star-history.yml and published to the
+     'star-history' branch, because main's ruleset will not take a bot commit. -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/star-history/star-history-dark.svg">
-  <img alt="Star history" src="assets/star-history/star-history-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/citrolabs/ego-lite/star-history/star-history-dark.svg">
+  <img alt="Star history" src="https://raw.githubusercontent.com/citrolabs/ego-lite/star-history/star-history-light.svg">
 </picture>
 <!-- star-history:end -->
 </a>

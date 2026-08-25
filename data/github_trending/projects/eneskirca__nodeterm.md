@@ -5,7 +5,7 @@
   "full_name": "eneskirca/nodeterm",
   "url": "https://github.com/eneskirca/nodeterm",
   "description": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.",
-  "readme_sha256": "7a40bff54b7e6e0b9f61f0ba097e361ed39d8c2c57de557c346b0ba3f8fee2cb"
+  "readme_sha256": "f8de006e7857876ee15ee9247ee8b5485c23caa06736c936e8cb740afc759b06"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/eneskirca/nodeterm
 - Description: Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.
-- README SHA256: `7a40bff54b7e6e0b9f61f0ba097e361ed39d8c2c57de557c346b0ba3f8fee2cb`
+- README SHA256: `f8de006e7857876ee15ee9247ee8b5485c23caa06736c936e8cb740afc759b06`
 
 ## README
 
@@ -260,6 +260,7 @@ These are the defaults — every one of them is remappable in **Settings → Key
 | `⌘T` / `⌘⇧C` | New terminal / New Claude Code |
 | `⌘⇧B` | Toggle the kanban board |
 | `⌘W` | Close the selected node |
+| `⌘←` `⌘→` `⌘↑` `⌘↓` | Focus the node left / right / above / below (`Ctrl+Shift+arrow` off macOS) |
 | `⌘Z` / `⌘⇧Z` | Undo / Redo |
 | `⌘M` | Toggle markdown view (terminal / editor) |
 | Hold `⌘⌥` (`Ctrl+Alt`) | Dictate into the focused terminal |

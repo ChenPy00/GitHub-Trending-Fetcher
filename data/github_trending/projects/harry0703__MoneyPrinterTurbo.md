@@ -5,7 +5,7 @@
   "full_name": "harry0703/MoneyPrinterTurbo",
   "url": "https://github.com/harry0703/MoneyPrinterTurbo",
   "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
-  "readme_sha256": "bbddbf92f4c6adc3fab79caa1cb1b7e12fea727e928f2e619a1e17993f1d18ad"
+  "readme_sha256": "da573bbb2e31d093fbffb6b4fec3269b244fb0e500fe4e9757b91fe2fc35204d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/harry0703/MoneyPrinterTurbo
 - Description: 利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.
-- README SHA256: `bbddbf92f4c6adc3fab79caa1cb1b7e12fea727e928f2e619a1e17993f1d18ad`
+- README SHA256: `da573bbb2e31d093fbffb6b4fec3269b244fb0e500fe4e9757b91fe2fc35204d`
 
 ## README
 
@@ -376,6 +376,11 @@ python main.py
 ```shell
 uv run python cli.py --video-subject "人工智能如何改变日常生活"
 ```
+
+字幕样式和配音参数按以下优先级取值：**命令行显式参数 > `config.toml` 中
+`[ui]` 保存的 WebUI 设置 > 内置默认值**。其余生成设置（如背景音乐、视频数量、
+段落数量等）不会自动沿用 WebUI 的保存值。若 WebUI 中选择了上传自备音频，
+命令行需要显式传入 `--custom-audio-file`，因为音频路径不会被保存。
 
 如需查看完整命令、参数说明和使用方法，可以执行：
 

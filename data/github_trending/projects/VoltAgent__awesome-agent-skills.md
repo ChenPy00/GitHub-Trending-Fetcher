@@ -5,7 +5,7 @@
   "full_name": "VoltAgent/awesome-agent-skills",
   "url": "https://github.com/VoltAgent/awesome-agent-skills",
   "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
-  "readme_sha256": "39b0db3b7b4d87546cdf9ee9538440a3bb60650ee417e235d680cd249a8a57b1"
+  "readme_sha256": "caeb57a3326f7aea92d7f06a23b2cfc4f60a411475e73b7edf30b503edb7dcd5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/VoltAgent/awesome-agent-skills
 - Description: A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.
-- README SHA256: `39b0db3b7b4d87546cdf9ee9538440a3bb60650ee417e235d680cd249a8a57b1`
+- README SHA256: `caeb57a3326f7aea92d7f06a23b2cfc4f60a411475e73b7edf30b503edb7dcd5`
 
 ## README
 
@@ -1848,6 +1848,7 @@ Official skills published by Cypress to help create, maintain, understand, and f
 - **[Ryan-yang125/motion-lexicon](https://github.com/Ryan-yang125/motion-lexicon/tree/main/skills/motion-lexicon)** - Build and review product motion with installable React components
 - **[Maksim-Burtsev/simple-man](https://github.com/Maksim-Burtsev/simple-man)** - Strips praise, recaps and filler from agent answers while keeping every fact you act on: findings carry location and fix, refusals carry the safe procedure, tutorials stay long-form. Benchmarked on 1,793 preregistered live calls with raw records committed. Works with Claude Code, Codex, Gemini CLI, Cursor
 - **[aeonfun/aeon](https://github.com/aeonfun/aeon)** - 70+ Claude Code skills + autonomous GitHub Actions agent framework
+- **[KhazP/vibe-coding-prompt-template](https://github.com/KhazP/vibe-coding-prompt-template)** - Plan MVPs into PRD, tech design, and AGENTS.md
 - **[lindblomstefan/skills-library](https://github.com/lindblomstefan/skills-library)** - Guided discovery skill for Claude Code: runs an interview to recommend from a catalog of 100+ AI skills; records session feedback that validates candidates over time
 
 </details>
