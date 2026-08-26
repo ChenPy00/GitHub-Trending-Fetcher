@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 1,
+      "readme_sha256": "a1c096123ecb8a112380d7ec342739d8b98c9524f90534b7e078574c225985f6",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 2,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 3,
+      "readme_sha256": "64d3d09000b1d460e638a93083ffe0b2cffa3444caf9fc7cdf2cb4b791beea58",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 4,
+      "readme_sha256": "39b15aa8d47b27fc309353c42a32dda4ee44457b7c97f648cc6a40db039a678d",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 5,
+      "readme_sha256": "8f21a91603d23ed3a9ec7d7a8258135cf2c80880489adeec789b8666b43dc4e3",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "full_name": "AgriciDaniel/claude-obsidian",
+      "project_file": "projects/AgriciDaniel__claude-obsidian.md",
+      "rank": 6,
+      "readme_sha256": "b384f942c9c728340f1f9880bf96a43ab18802751c4614e72afbd7d46f747985",
+      "url": "https://github.com/AgriciDaniel/claude-obsidian"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 7,
+      "readme_sha256": "72f04462c37631b4155b2f54b445c827b97dd9be730062063e30039e6f9a8458",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 8,
+      "readme_sha256": "f220e2a132508ebb5c290cbdce703421d8445ac3b0c2a3118fa4290ce9cb2fa1",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 9,
+      "readme_sha256": "b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 10,
+      "readme_sha256": "05653bf7f79142b23872e4310416c7b0c11fd5abe637d969a22e7d597f9b3ef9",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 11,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 12,
+      "readme_sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "Open-source framework for the research and development of foundation models.",
+      "full_name": "marin-community/marin",
+      "project_file": "projects/marin-community__marin.md",
+      "rank": 13,
+      "readme_sha256": "b70e415b672f9995436c6d77981e11081bbc6cebda8d8ac1885bb6b6545924fb",
+      "url": "https://github.com/marin-community/marin"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 14,
+      "readme_sha256": "03432a62c4f08b4312f7f85fd7349d6510c765e3bc94608df0b28e9f752e9a15",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 15,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Your own search engine",
+      "full_name": "asciimoo/hister",
+      "project_file": "projects/asciimoo__hister.md",
+      "rank": 16,
+      "readme_sha256": "61cb77515204e7e6b9368dbcc6e0c1c63b5cd19b89fe7917598004f2b5823a83",
+      "url": "https://github.com/asciimoo/hister"
+    }
+  ],
+  "snapshot_date": "2026-08-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

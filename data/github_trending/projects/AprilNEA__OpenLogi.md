@@ -5,7 +5,7 @@
   "full_name": "AprilNEA/OpenLogi",
   "url": "https://github.com/AprilNEA/OpenLogi",
   "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-  "readme_sha256": "cb11af6a73d40b2d28af8cadb11ea9bb3e986af49ad7fc650a788a114e09cee6"
+  "readme_sha256": "2dced353389439bcfb44f6495f7e6f6a722eb0443946e90414c16774013937e1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/AprilNEA/OpenLogi
 - Description: ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.
-- README SHA256: `cb11af6a73d40b2d28af8cadb11ea9bb3e986af49ad7fc650a788a114e09cee6`
+- README SHA256: `2dced353389439bcfb44f6495f7e6f6a722eb0443946e90414c16774013937e1`
 
 ## README
 
@@ -71,7 +71,7 @@ Things OpenLogi does that Options+ won't:
 ## Features
 
 - Devices connected over Logi Bolt receivers, Unifying receivers, Bluetooth, or a wired connection, with battery percentage and charge state
-- Button remapping via the OS input hook: a built-in action catalog plus custom keyboard shortcuts authored in the TOML config¹
+- Button remapping via the OS input hook: a built-in action catalog plus custom keyboard shortcuts authored in the TOML config, including independent short/long-press actions and hold-until-release chords for push-to-talk¹
 - Per-application profile overlays that auto-switch on app focus (macOS + Windows; Linux on X11 / XWayland only)
 - Litra lights: power, brightness, and color temperature, with optional auto power that follows camera activity
 

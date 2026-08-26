@@ -5,7 +5,7 @@
   "full_name": "1jehuang/jcode",
   "url": "https://github.com/1jehuang/jcode",
   "description": "The most RAM efficient harness",
-  "readme_sha256": "2129adaa07cfad5ae7b3b28078ea02bf8e78985d3eb112bc0bf5bdecedc9e8c0"
+  "readme_sha256": "d43ba84ac092f9f93fc975842d25053e67aec2a75ad9e9d89376bb7714dbff02"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/1jehuang/jcode
 - Description: The most RAM efficient harness
-- README SHA256: `2129adaa07cfad5ae7b3b28078ea02bf8e78985d3eb112bc0bf5bdecedc9e8c0`
+- README SHA256: `d43ba84ac092f9f93fc975842d25053e67aec2a75ad9e9d89376bb7714dbff02`
 
 ## README
 
@@ -470,10 +470,17 @@ base_url = "https://llm.example.com/v1"
 api_key_env = "JCODE_PROVIDER_MY_API_API_KEY"
 env_file = "provider-my-api.env"
 default_model = "my-model-id"
+# Optional: prevent model names such as `gpt-5-*` from automatically enabling
+# `reasoning_effort` on gateways that reject it.
+disable_reasoning_heuristics = true
 
 [[providers.my-api.models]]
 id = "my-model-id"
 context_window = 128000
+# Explicitly enable `/effort` and select this model's initial effort. Set
+# `reasoning = false` on an individual model to disable it instead.
+reasoning = true
+reasoning_effort = "high"
 ```
 
 Anthropic Messages-compatible gateways use the same named-profile surface with

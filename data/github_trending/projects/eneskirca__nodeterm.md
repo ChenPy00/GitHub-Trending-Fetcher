@@ -5,7 +5,7 @@
   "full_name": "eneskirca/nodeterm",
   "url": "https://github.com/eneskirca/nodeterm",
   "description": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.",
-  "readme_sha256": "f8de006e7857876ee15ee9247ee8b5485c23caa06736c936e8cb740afc759b06"
+  "readme_sha256": "63e4d05d7a9f0a6894f65cfae97ec7c0d9631db4b155e729da6cefd4b92fd587"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/eneskirca/nodeterm
 - Description: Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.
-- README SHA256: `f8de006e7857876ee15ee9247ee8b5485c23caa06736c936e8cb740afc759b06`
+- README SHA256: `63e4d05d7a9f0a6894f65cfae97ec7c0d9631db4b155e729da6cefd4b92fd587`
 
 ## README
 
@@ -230,6 +230,20 @@ detects your platform. Everything is also listed at
   (`sudo apt install ./nodeterm-*.deb`; updates are manual for `.deb`).
 - **iOS** — **nodeterm mobile** on the
   [App Store](https://apps.apple.com/app/nodeterm/id6790581233).
+
+**Trying it out?** Removal is one script — it stops every process nodeterm started, reverts
+the status-hook/skill entries it merged into your agent CLIs' config (your own hooks and
+credentials are never touched), and deletes all of nodeterm's own state. Run it with
+`--dry-run` first to see the full list of what it found:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/eneskirca/nodeterm/main/scripts/uninstall.sh | bash -s -- --dry-run
+curl -fsSL https://raw.githubusercontent.com/eneskirca/nodeterm/main/scripts/uninstall.sh | bash -s -- --yes
+```
+
+The full inventory of what nodeterm writes where (and what the script keeps, like the
+`.nodeterm/` canvas folders inside your own repos) is documented in
+[docs/uninstall.md](docs/uninstall.md).
 
 ## 🛠 Build from source
 

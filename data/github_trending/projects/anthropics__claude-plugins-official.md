@@ -5,7 +5,7 @@
   "full_name": "anthropics/claude-plugins-official",
   "url": "https://github.com/anthropics/claude-plugins-official",
   "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
-  "readme_sha256": "78528694854c256a60cd8721279a33afbaa6cf86d51a89e989c2038a3070eb3e"
+  "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/anthropics/claude-plugins-official
 - Description: Official, Anthropic-managed directory of high quality Claude Code Plugins.
-- README SHA256: `78528694854c256a60cd8721279a33afbaa6cf86d51a89e989c2038a3070eb3e`
+- README SHA256: `f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2`
 
 ## README
 
@@ -60,6 +60,21 @@ plugin-name/
 ├── skills/              # Skill definitions (optional)
 └── README.md            # Documentation
 ```
+
+## Plugin names are immutable
+
+The `name` field in a marketplace entry is an **immutable slug**. Once a plugin has been published, its `name` must not change — users have it installed under that slug, and renaming it breaks their install with a `plugin-not-found` error.
+
+- To change how a plugin is labeled in the UI, set or update `displayName` instead.
+- If a rename is genuinely unavoidable, add an entry to the top-level `renames` map in `.claude-plugin/marketplace.json` so existing installs auto-migrate:
+
+```json
+"renames": {
+  "old-name": "new-name"
+}
+```
+
+The Claude Code plugin loader reads this map and transparently rewrites the old slug to the new one on the user's next sync.
 
 ## Skill-bundle plugins
 

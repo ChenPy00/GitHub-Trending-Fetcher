@@ -5,7 +5,7 @@
   "full_name": "freestylefly/awesome-gpt-image-2",
   "url": "https://github.com/freestylefly/awesome-gpt-image-2",
   "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
-  "readme_sha256": "24b36e6a9455063eb4fb27b306c09390ea7bb44edba7b7355d324bcb708012db"
+  "readme_sha256": "a1c096123ecb8a112380d7ec342739d8b98c9524f90534b7e078574c225985f6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/freestylefly/awesome-gpt-image-2
 - Description: Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中
-- README SHA256: `24b36e6a9455063eb4fb27b306c09390ea7bb44edba7b7355d324bcb708012db`
+- README SHA256: `a1c096123ecb8a112380d7ec342739d8b98c9524f90534b7e078574c225985f6`
 
 ## README
 
@@ -49,11 +49,11 @@ Use the live site at [gpt-image2.canghe.ai](https://gpt-image2.canghe.ai/) to br
   </a>
 </p>
 
-## Paid Community
+## Community 交流群
 
-The GPT-Image2 discussion group is now a paid community. Sign in on the [community page](https://gpt-image2.canghe.ai/community), make a one-time **¥9.90** Alipay payment, and the protected group QR will appear only after the server confirms payment.
+Join the GPT-Image2 discussion group to exchange prompts, workflows, and creative ideas with other users. Visit the [community page](https://gpt-image2.canghe.ai/community) to join.
 
-For payment, access, refund, or product questions, follow the WeChat official account **苍何** or scan the card below and send a message.
+Follow the WeChat official account **苍何** or scan the QR code below to receive project updates, new cases, and practical tutorials.
 
 <p align="center">
   <img src="src/assets/canghe-official-account.png" alt="苍何 WeChat official account QR code and search card" width="760">

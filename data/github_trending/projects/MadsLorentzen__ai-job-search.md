@@ -5,7 +5,7 @@
   "full_name": "MadsLorentzen/ai-job-search",
   "url": "https://github.com/MadsLorentzen/ai-job-search",
   "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-  "readme_sha256": "0f5796cd2c9634490459c4076d85a5a4a4a5f87a8bdc37680411811aa9b2a48c"
+  "readme_sha256": "64d3d09000b1d460e638a93083ffe0b2cffa3444caf9fc7cdf2cb4b791beea58"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/MadsLorentzen/ai-job-search
 - Description: The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-- README SHA256: `0f5796cd2c9634490459c4076d85a5a4a4a5f87a8bdc37680411811aa9b2a48c`
+- README SHA256: `64d3d09000b1d460e638a93083ffe0b2cffa3444caf9fc7cdf2cb4b791beea58`
 
 ## README
 
@@ -237,9 +237,14 @@ ai-job-search/
 ├── .github/workflows/ci.yml           # CI: LaTeX smoke compiles, skill lint, CLI typechecks
 ├── salary_lookup.py                   # Salary benchmarking tool (BYO data)
 ├── tools/
+│   ├── check_framework_version.py     # CI check: framework_version bumped when skill files change
+│   ├── check_upstream_updates.py      # Preview which personalized files an upstream update touches
 │   ├── convert_salary_excel.py        # Convert salary Excel to JSON
 │   ├── lint_skills.py                 # CI lint for skills, commands, settings.json
+│   ├── robots_check.py                # Gate the browser-header retry against robots.txt
 │   ├── security_guards.py             # CI guards: permission allowlist, gitignore rules, manifests
+│   ├── upstream_triage.py             # Sort upstream commits into worth-reviewing vs probably-skip
+│   ├── verify_pdf.py                  # Verify a compiled PDF's page count and extractable text
 │   └── README_SALARY_TOOL.md          # Salary tool setup instructions
 ├── job_scraper/                       # Scraper state (seen jobs, results)
 ├── gmail_sync/                        # /gmail-sync state (processed message IDs, last sync date)

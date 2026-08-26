@@ -1,0 +1,129 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 1,
+      "readme_sha256": "1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 2,
+      "readme_sha256": "2dced353389439bcfb44f6495f7e6f6a722eb0443946e90414c16774013937e1",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 3,
+      "readme_sha256": "71d875898c30cc5fe1f5a20d9d37715aa9be42d35ef40fc4876f13be1a987861",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 4,
+      "readme_sha256": "b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 5,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 6,
+      "readme_sha256": "39b15aa8d47b27fc309353c42a32dda4ee44457b7c97f648cc6a40db039a678d",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 7,
+      "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 8,
+      "readme_sha256": "a1c096123ecb8a112380d7ec342739d8b98c9524f90534b7e078574c225985f6",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 9,
+      "readme_sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 10,
+      "readme_sha256": "4d76576ac95db6bcc2cf3131939de59800a233364bc58900b091e655d70aa259",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "LLM inference server with continuous batching & SSD caching for Apple Silicon — managed from the macOS menu bar",
+      "full_name": "jundot/omlx",
+      "project_file": "projects/jundot__omlx.md",
+      "rank": 11,
+      "readme_sha256": "a258e474951126016a6b74897bc8541ae9959aa27c6ef376f9bc06d9ec85e3fe",
+      "url": "https://github.com/jundot/omlx"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 12,
+      "readme_sha256": "53fb65b2e33ed5f2bf6553c51342a7aeee86def6ef0b2b4962a5e175e6e25640",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "A full-stack AI Red Teaming platform securing AI ecosystems via Agent Scan, Skills Scan, MCP scan, AI Infra scan and LLM jailbreak evaluation.",
+      "full_name": "Tencent/AI-Infra-Guard",
+      "project_file": "projects/Tencent__AI-Infra-Guard.md",
+      "rank": 13,
+      "readme_sha256": "46f76ead019eae80789f58a5d455bbe9cab4c2ddd0a3135b4d9e8debd7536d50",
+      "url": "https://github.com/Tencent/AI-Infra-Guard"
+    },
+    {
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "full_name": "PostHog/posthog",
+      "project_file": "projects/PostHog__posthog.md",
+      "rank": 14,
+      "readme_sha256": "f98e9a0227a8e7fb88fd0507ea0f125d4de71c46795ca1662bfccc2e5ba82da8",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "description": "Node-based terminal manager for AI coding agents — tmux-backed terminals and parallel agent sessions as draggable nodes on an infinite pan/zoom canvas. macOS, Linux, and a browser Server Edition.",
+      "full_name": "eneskirca/nodeterm",
+      "project_file": "projects/eneskirca__nodeterm.md",
+      "rank": 15,
+      "readme_sha256": "63e4d05d7a9f0a6894f65cfae97ec7c0d9631db4b155e729da6cefd4b92fd587",
+      "url": "https://github.com/eneskirca/nodeterm"
+    }
+  ],
+  "snapshot_date": "2026-08-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

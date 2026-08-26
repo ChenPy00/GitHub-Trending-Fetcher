@@ -5,7 +5,7 @@
   "full_name": "AgriciDaniel/claude-obsidian",
   "url": "https://github.com/AgriciDaniel/claude-obsidian",
   "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
-  "readme_sha256": "434419b1a342431e1893b6fd81739b34db2c02727c52799f7fb05d578b48de70"
+  "readme_sha256": "b384f942c9c728340f1f9880bf96a43ab18802751c4614e72afbd7d46f747985"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/AgriciDaniel/claude-obsidian
 - Description: Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.
-- README SHA256: `434419b1a342431e1893b6fd81739b34db2c02727c52799f7fb05d578b48de70`
+- README SHA256: `b384f942c9c728340f1f9880bf96a43ab18802751c4614e72afbd7d46f747985`
 
 ## README
 
@@ -32,7 +32,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-2563eb.svg" alt="MIT license"></a>
   <a href="https://agentskills.io"><img src="https://img.shields.io/badge/Agent%20Skills-compatible-2563eb" alt="Agent Skills compatible"></a>
   <a href="https://code.claude.com/docs/en/plugins"><img src="https://img.shields.io/badge/Claude%20Code-plugin-7c3aed" alt="Claude Code plugin"></a>
-  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/release-v2.1.0-d97745" alt="Release v2.1.0"></a>
+  <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/release-v2.1.1-d97745" alt="Release v2.1.1"></a>
 </p>
 
 <p align="center">
@@ -370,8 +370,8 @@ surface. On native Windows (including Git Bash), read-only inspection and
 dry-run commands work; vault writes require WSL and fail closed with an
 `UNSUPPORTED_PLATFORM` error otherwise. Approval hashes bind to the reviewing
 environment, so review inside WSL when the apply will happen there. Platform
-details, the support matrix, and WSL troubleshooting (including hangs from
-virtualization conflicts) live in the
+details, the support matrix, and evidence-bounded WSL hang troubleshooting
+live in the
 [Windows and WSL guide](docs/windows-wsl.md). The bash setup scripts and shell
 test suites remain POSIX-only. Optional tools such as Obsidian CLI, Ollama,
 and defuddle are capability-detected and affect only their dependent workflow.
