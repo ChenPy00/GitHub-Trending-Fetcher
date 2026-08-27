@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "afa7b1c29455996b137c84d36e3fe3dff397eb70177b55aa32593c1aedd03259"
+  "readme_sha256": "47bc1c4615db73a53ca195f76f701aed017e952a3d96bd4507ad348e72a297c7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `afa7b1c29455996b137c84d36e3fe3dff397eb70177b55aa32593c1aedd03259`
+- README SHA256: `47bc1c4615db73a53ca195f76f701aed017e952a3d96bd4507ad348e72a297c7`
 
 ## README
 
@@ -31,18 +31,18 @@
 
 **Turn a codebase or system description into a polished, interactive system map — directly in chat.**
 
-Archify is an agent skill for Raven, Cursor, Claude Code, Codex CLI, and OpenCode. Give it a system description or repository; get an interactive, shareable technical map.
+Archify is a Node.js rendering and validation system for Cursor, Claude Code, Codex CLI, and OpenCode. Agents produce typed JSON IR; Archify deterministically compiles it into HTML/SVG.
 
-- **Open it and present** — five technical diagram types, four visual presets, dark/light themes, and optional finite motion
+- **Open it and present** — five diagram types, four presets, dark/light themes, built-in brand marks, and finite motion
 - **Review architecture changes before merge** — compare two validated snapshots as Before / Delta / After, with exact added, removed, changed, moved, and rerouted facts
 - **Every interaction stays grounded** — search nodes, optionally open revision-verified source, trace upstream/downstream authored reach and exact routes, compare roles, and play guided stories without inventing topology
 - **One file, ready to trust and share** — typed JSON IR and deterministic checks produce self-contained HTML plus PNG, SVG, WebM, and 1200×630 share cards
 
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C3AED?style=flat-square)
-![Stable Version](https://img.shields.io/badge/version-2.14.0-0891b2?style=flat-square)
+![Development Version](https://img.shields.io/badge/version-2.16.0--dev.0-0891b2?style=flat-square)
 
-**Current stable version:** `v2.14.0`. See [Changelog](CHANGELOG.md#2140--2026-08-11).
+**Current development version:** `v2.16.0-dev.0`. See [Changelog](CHANGELOG.md#unreleased).
 
 **[Project page](https://tt-a1i.github.io/archify/)** · **[Scenario guide](https://tt-a1i.github.io/archify/guide.html)** · **[Proof Lab](https://tt-a1i.github.io/archify/gallery.html)**
 
@@ -56,13 +56,12 @@ Then ask your agent: `Use archify to map this repository's runtime architecture.
 
 ## ❤️ Sponsors
 
-<a href="https://apinebula.ai/ref/wywnaATT"><img src="docs/assets/sponsors/apinebula-archify.jpg" alt="APINEBULA — One API for leading AI models" width="100%"></a>
+<table>
+  <tr><td align="center" width="240"><a href="https://apinebula.ai/ref/wywnaATT"><img src="docs/assets/sponsors/apinebula-archify.jpg" alt="APINEBULA" width="200" /></a><br/><strong><a href="https://apinebula.ai/ref/wywnaATT">APINEBULA</a></strong></td><td>APINEBULA sponsors Archify with one API for Claude, GPT, Gemini, and more. <a href="https://apinebula.ai/ref/wywnaATT">Register through Archify</a> and use <strong><code>Archify</code></strong> for <strong>10% off</strong>.</td></tr>
+  <tr><td align="center" width="240"><a href="https://github.com/EverMind-AI/Raven"><img src="docs/assets/sponsors/evermind-archify-raven.png" alt="Archify × Raven" width="200" /></a><br/><strong><a href="https://github.com/EverMind-AI">EverMind</a> · <a href="https://github.com/EverMind-AI/Raven">Raven</a></strong></td><td>EverMind sponsors Archify and builds memory infrastructure for agents. Its <a href="https://github.com/EverMind-AI/Raven"><strong>Raven</strong></a> harness supports Archify as a Skill for verified, interactive system maps.</td></tr>
+</table>
 
-Thanks to [**APINEBULA**](https://apinebula.ai/ref/wywnaATT) for sponsoring Archify. APINEBULA offers unified access to Claude, GPT, Gemini, and more. Register through [the Archify link](https://apinebula.ai/ref/wywnaATT) and use **`Archify`** for a **10% discount**.
-
-<a href="https://github.com/EverMind-AI/Raven"><img src="docs/assets/sponsors/evermind-archify-raven.png" alt="Archify × Raven — Map the system. Keep the context." width="100%"></a>
-
-Sponsored by [**EverMind**](https://github.com/EverMind-AI), building memory infrastructure for agents. Its memory-first, self-evolving agent harness [**Raven**](https://github.com/EverMind-AI/Raven) supports Archify as a Skill, bringing verified, interactive system maps into Raven workflows.
+> Want to sponsor Archify? [Contact us by email.](mailto:2801884530@qq.com)
 
 ## See Archify in action
 
@@ -242,18 +241,19 @@ Use `deliver --open` for a one-shot interactive local handoff. It is off by defa
 
 On failure, `validate --json` and `deliver --json` still emit exactly one JSON object. Read `diagnostics[]` and change only the named subject using its `supportedFixes`; do not rewrite the whole diagram or exceed the Skill's two focused correction rounds. Deterministic diagnostics remain separate from visual review.
 
-Optional motion and presentation styling are explicit:
+Settings:
 
 ```json
 {
   "meta": {
+    "locale": "en",
     "animation": "trace",
     "visual_preset": "signal-flow"
   }
 }
 ```
 
-Omit `animation` for a truly static diagram. `classic` remains default; `editorial` adds a warm publication look.
+`meta.locale=en|zh-CN` localizes page title, Legend, states/errors, a11y, HTML/SVG `lang`—never authored content. Otherwise omit; preserve requested-language copy; disclose English fallback. Static omits `animation`; `classic` defaults.
 
 ## Explore and share the output
 
@@ -288,9 +288,7 @@ The complete generation and viewer contract lives in [`archify/SKILL.md`](archif
 
 ## Reference and scope
 
-- [Schema reference](archify/schemas/README.md)
-- [Skill and renderer contract](archify/SKILL.md)
-- [Examples](archify/examples/)
+- [Schema reference](archify/schemas/README.md) · [Skill](archify/SKILL.md) · [Examples](archify/examples/) · [Agent cookbook](docs/authoring-cookbook.md)
 - [Changelog](CHANGELOG.md)
 - [Roadmap](ROADMAP.md)
 - [Generated Proof Lab](https://tt-a1i.github.io/archify/gallery.html)
@@ -303,4 +301,4 @@ Automatic Mermaid parsing, general-purpose auto-layout, hosted sharing, and WYSI
 
 ## Contributing
 
-Issues, pull requests, and real-world diagrams are welcome. Start with the [contribution guide](CONTRIBUTING.md), use the reproducible bug form for failures, or submit a validated diagram through the [community showcase form](https://github.com/tt-a1i/archify/issues/new?template=showcase.yml).
+Issues, pull requests, and real-world diagrams are welcome. Start with the [contribution guide](CONTRIBUTING.md), use the reproducible bug form for failures, or submit a validated diagram through the [community showcase form](https://github.com/tt-a1i/archify/issues/new?template=showcase.yml).&nbsp;·&nbsp;[LINUX&nbsp;DO](https://linux.do)

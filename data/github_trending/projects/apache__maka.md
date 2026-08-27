@@ -5,7 +5,7 @@
   "full_name": "apache/maka",
   "url": "https://github.com/apache/maka",
   "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-  "readme_sha256": "39b15aa8d47b27fc309353c42a32dda4ee44457b7c97f648cc6a40db039a678d"
+  "readme_sha256": "26b8b0364570460f08289526bf4a93ec4b5879773afec683372e9ac24c64b0ef"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/apache/maka
 - Description: Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.
-- README SHA256: `39b15aa8d47b27fc309353c42a32dda4ee44457b7c97f648cc6a40db039a678d`
+- README SHA256: `26b8b0364570460f08289526bf4a93ec4b5879773afec683372e9ac24c64b0ef`
 
 ## README
 
@@ -209,17 +209,20 @@ Start with [ARCHITECTURE.md](./ARCHITECTURE.md). It provides the system map, cod
 ## Repository layout
 
 ```text
-apps/desktop/       Electron main / preload / React renderer
+apps/desktop/          Electron main / preload / React renderer
 
-packages/core/      Pure contracts for Sessions, Events, Permissions, and Connections
-packages/storage/   SQLite operational state, configuration, and payload stores
-packages/runtime/   AgentRun, model adapters, tools, context, and recovery
-packages/eval/      Experiment cells, attempts, results, and executor/subject adapters
-packages/cli/       TUI and non-interactive CLI
-packages/ui/        Shared conversation, Markdown, Artifact, and UI primitives
+packages/core/         Pure contracts for Sessions, Events, Permissions, and Connections
+packages/storage/      SQLite operational state, configuration, and payload stores
+packages/mcp/          Provider-neutral Model Context Protocol client integration
+packages/runtime/      AgentRun, model adapters, tools, context, and recovery
+packages/runtime-host/ Single-owner Runtime Host lifecycle, protocol, and client bootstrap
+packages/eval/         Experiment cells, attempts, results, and executor/subject adapters
+packages/computer-use/ Computer-use backend selection, host lifecycle, and protocol adapters
+packages/cli/          TUI and non-interactive CLI
+packages/ui/           Shared conversation, Markdown, Artifact, and UI primitives
 
-docs/               Architecture, product, security, privacy, and test contracts
-scripts/            Build hygiene, visual checks, smoke tests, and release helpers
+docs/                  Architecture, product, security, privacy, and test contracts
+scripts/               Build hygiene, visual checks, smoke tests, and release helpers
 ```
 
 ## Local data and recovery
