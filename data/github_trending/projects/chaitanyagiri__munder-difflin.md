@@ -5,7 +5,7 @@
   "full_name": "chaitanyagiri/munder-difflin",
   "url": "https://github.com/chaitanyagiri/munder-difflin",
   "description": "local multi-agent harness",
-  "readme_sha256": "dbe8211bfd8f80b5a22f9e1211c5ac0ab9a78cbab59418ae4618205e299d986e"
+  "readme_sha256": "4a0df10795c2245d47fb84b6c6bbf05c1836fe0da5db6a9accef9789f65c5893"
 }
 ```
 
@@ -13,17 +13,24 @@
 
 - URL: https://github.com/chaitanyagiri/munder-difflin
 - Description: local multi-agent harness
-- README SHA256: `dbe8211bfd8f80b5a22f9e1211c5ac0ab9a78cbab59418ae4618205e299d986e`
+- README SHA256: `4a0df10795c2245d47fb84b6c6bbf05c1836fe0da5db6a9accef9789f65c5893`
 
 ## README
 
 <div align="center">
 
-<img src="./docs/logo.png" alt="Munder Difflin — agent harness to run an office of your clones" width="340">
+<img src="./docs/logo.png" alt="Munder Difflin — agent harness to run an office of your clones" width="180">
 
 # Munder Difflin
 
 ### Agent harness to run an office of your clones
+
+<p>
+  <a href="https://trendshift.io/repositories/46562" target="_blank" rel="noopener noreferrer"><img alt="GitHub Trending — #1 Repository of the Day" src="./docs/badge-github-trending.png" width="250" height="54"></a>
+  <a href="https://www.producthunt.com/products/munder-difflin?embed=true&utm_source=badge-top-post-badge&utm_medium=badge&utm_campaign=badge-munder-difflin" target="_blank" rel="noopener noreferrer"><img alt="Munder Difflin — #5 Product of the Day on Product Hunt" src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=1221363&theme=light&period=daily" width="250" height="54"></a>
+</p>
+
+<img src="./docs/media/floor.png" alt="The Munder Difflin office floor: agents at desks working in parallel, with the Command Center and a live agent terminal on the right" width="1240">
 
 **Free, open source and performant** — a multi-agent harness that works with the
 subscriptions you already pay for, on their hourly limits. It turns the terminal coding CLI
@@ -43,20 +50,17 @@ visualized as avatars at work on a shared office floor.
 <p>
   <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
   <a href="./CHANGELOG.md"><img alt="Version: 0.4.6" src="https://img.shields.io/badge/version-0.4.6-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
-  <img alt="Status: prototype" src="https://img.shields.io/badge/status-working%20prototype-F4F1EA.svg?style=flat-square&labelColor=6E1423">
+  <img alt="Status: pre-release" src="https://img.shields.io/badge/status-pre--release-F4F1EA.svg?style=flat-square&labelColor=6E1423">
   <img alt="Platform: macOS | Windows | Linux" src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-F4F1EA.svg?style=flat-square&labelColor=6E1423">
   <a href="./CONTRIBUTING.md"><img alt="PRs welcome" src="https://img.shields.io/badge/PRs-welcome-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
+  <a href="https://munderdiffl.in/blog/"><img alt="Blog" src="https://img.shields.io/badge/blog-guides%20%26%20postmortems-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
   <a href="https://discord.gg/SEDzP5ZPk5"><img alt="Discord" src="https://img.shields.io/badge/Discord-join%20the%20office-F4D35E.svg?style=flat-square&labelColor=6E1423"></a>
 </p>
 
 <br>
 
-<img src="./docs/media/og.png" alt="Munder Difflin — A hive of agents that message, route, and remember" width="1240">
-
-<br>
-
 <!-- Inline player renders on github.com (raw URL required; relative paths only link). -->
-<video src="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/hero.mp4" poster="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/og.png" controls muted loop playsinline width="820">
+<video src="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/hero.mp4" controls muted loop playsinline width="820">
   <a href="https://github.com/chaitanyagiri/munder-difflin/raw/main/docs/media/hero.mp4">▶ Watch the floor — Munder Difflin running a hive of Claude Code agents</a>
 </video>
 
@@ -343,7 +347,7 @@ Next up:
 
 ## Contributing
 
-Contributions are welcome — this is an early prototype with a lot of surface area. Start with
+Contributions are welcome — this is pre-release software with a lot of surface area. Start with
 [`CONTRIBUTING.md`](./CONTRIBUTING.md). The short version: fork, `npm install && npm run dev`, keep
 `npm run typecheck` green, and **derive any new UI from [`DESIGN.md`](./DESIGN.md) tokens**. Good
 first areas: wiring real hook events, the add-agent flow, the config drawer, and cross-platform work.

@@ -1,0 +1,161 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 1,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 2,
+      "readme_sha256": "aff506f59a95cea5831113e2a85cddb28558cdb7a60f2644e1d3f7a2c2816aad",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "basecamp/omarchy",
+      "project_file": "projects/basecamp__omarchy.md",
+      "rank": 3,
+      "readme_sha256": "b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63",
+      "url": "https://github.com/basecamp/omarchy"
+    },
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 4,
+      "readme_sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 5,
+      "readme_sha256": "64c61e16b9e027f76f8a75be0b57e8ae21d62bb016da46727b883baacc73dbe1",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 6,
+      "readme_sha256": "2dced353389439bcfb44f6495f7e6f6a722eb0443946e90414c16774013937e1",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 7,
+      "readme_sha256": "f98b008d27275623829490fbc5252a5eb027842f337ad332b35e9dc1389c4e30",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 8,
+      "readme_sha256": "77365eabb4242ed7f859c8abd628128faafbd19bcb743a9210c165aa3a4466ae",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 9,
+      "readme_sha256": "1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 10,
+      "readme_sha256": "14fc7486ebc4d7fa6bc715874cf925478a677372e923e28ff9a42e2813e56870",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 11,
+      "readme_sha256": "f67100ae41b733586f8b36c1eb8a693a7f3d8f6216382f1d0a342a7cba0734ad",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 12,
+      "readme_sha256": "f220e2a132508ebb5c290cbdce703421d8445ac3b0c2a3118fa4290ce9cb2fa1",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 13,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "A curated collection of 1000+ agent skills from official dev teams and the community, compatible with Claude Code, Codex, Gemini CLI, Cursor, and more.",
+      "full_name": "VoltAgent/awesome-agent-skills",
+      "project_file": "projects/VoltAgent__awesome-agent-skills.md",
+      "rank": 14,
+      "readme_sha256": "08fb7949953660441105a5ec89d50586b092ce01c9cdef1486d492852067ebb2",
+      "url": "https://github.com/VoltAgent/awesome-agent-skills"
+    },
+    {
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "full_name": "PostHog/posthog",
+      "project_file": "projects/PostHog__posthog.md",
+      "rank": 15,
+      "readme_sha256": "f98e9a0227a8e7fb88fd0507ea0f125d4de71c46795ca1662bfccc2e5ba82da8",
+      "url": "https://github.com/PostHog/posthog"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 16,
+      "readme_sha256": "72f04462c37631b4155b2f54b445c827b97dd9be730062063e30039e6f9a8458",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "full_name": "Alishahryar1/free-claude-code",
+      "project_file": "projects/Alishahryar1__free-claude-code.md",
+      "rank": 17,
+      "readme_sha256": "bb3d911e8d0ddcd2d9afd54860e19740161a11d06b1a2bea3040d4adace93809",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "description": "local multi-agent harness",
+      "full_name": "chaitanyagiri/munder-difflin",
+      "project_file": "projects/chaitanyagiri__munder-difflin.md",
+      "rank": 18,
+      "readme_sha256": "4a0df10795c2245d47fb84b6c6bbf05c1836fe0da5db6a9accef9789f65c5893",
+      "url": "https://github.com/chaitanyagiri/munder-difflin"
+    },
+    {
+      "description": "BookOrbit: Your Reading Space",
+      "full_name": "bookorbit/bookorbit",
+      "project_file": "projects/bookorbit__bookorbit.md",
+      "rank": 19,
+      "readme_sha256": "513e119249cf52916d5a4689f492bb897b3599c315886580be45541665d61b17",
+      "url": "https://github.com/bookorbit/bookorbit"
+    }
+  ],
+  "snapshot_date": "2026-08-28",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

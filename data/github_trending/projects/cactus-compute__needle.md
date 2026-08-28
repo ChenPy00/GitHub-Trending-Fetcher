@@ -5,7 +5,7 @@
   "full_name": "cactus-compute/needle",
   "url": "https://github.com/cactus-compute/needle",
   "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
-  "readme_sha256": "0f14aa94a50159aae38109f9c3cc2386a35f35e1f029ae16852f67681c2e7ba8"
+  "readme_sha256": "9719db4e38f758256e70b584ca02ccdc2c08f98919382e14429246007d3135d3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cactus-compute/needle
 - Description: 14MB foundation model for tiny devices; phones, wearables, smart home, and robots.
-- README SHA256: `0f14aa94a50159aae38109f9c3cc2386a35f35e1f029ae16852f67681c2e7ba8`
+- README SHA256: `9719db4e38f758256e70b584ca02ccdc2c08f98919382e14429246007d3135d3`
 
 ## README
 
@@ -47,6 +47,13 @@ Each block carries its update rule. Here x̂ is the RMS-normalised flattening of
 
 ```sh
 pip install cactus-needle
+```
+
+The runtime package does not install the training stack. Add the `train` extra
+when using fine-tuning or checkpoint export:
+
+```sh
+pip install "cactus-needle[train]"
 ```
 
 Needle reads your tool descriptions to decide what to call and how to fill arguments, so describing them well is the whole game.
@@ -93,6 +100,19 @@ needle playground --weights my.cact    # a tuned model
 
 The server downloads and initializes the model before serving, so the first query is instant. The **Finetune on these tools** button runs the fine-tuning pipeline below from the UI and hands back a downloadable `.cact`.
 
+## Environments
+
+Ready-made tool surfaces in `needle.environments`: `smart_home`, `media_player`, `productivity`, `wearable`, `kitchen_appliance`, and `data_capture`. Each is a hand-curated set of tools whose enums, bounds, and descriptions map cleanly onto Needle's constrained decoding, with a ready agent and a frozen acceptance suite.
+
+```python
+from needle.environments import smart_home
+
+smart_home.agent.complete("dim the study lights to 30 percent")
+smart_home.run_tests()
+```
+
+`python -m needle.environments.smart_home` runs a suite from the shell. To adapt an environment to your product, swap the `Literal` values (rooms, contacts, categories) for your own and keep the shapes: closed sets as enums, bounded numbers, verbatim copy for free text, five tools or fewer. The full tool surfaces and the suite contract are in [doc/environments.md](doc/environments.md).
+
 ## Fine-tuning
 
 Needle fine-tunes with LoRA on the frozen base and merges the adapter at export, so a run is cheap and the tuned model is still a single `.cact` that runs on the same engine. The workflow is: (optionally) synthesize data, LoRA fine-tune, then build a tuned `.cact`. See [doc/finetuning.md](doc/finetuning.md) for dataset sizing, reading the loss curve, and troubleshooting.
@@ -120,18 +140,18 @@ needle finetune data.jsonl --epochs 10
 needle finetune data.jsonl --epochs 10 --generate 300 --lora-rank 16 --lora-alpha 32
 ```
 
-Key options: `--epochs` (default 3), `--lora-rank` (16), `--lora-alpha` (32), `--lr` (1e-4), `--batch-size` (16), `--max-len` (1024), `--val-split` (0.1), `--checkpoint <base.pkl>`, `--out <adapter.pkl>`. The adapter is written to `checkpoints/needle_lora.pkl`. A validation loss prints each epoch from the held out split.
+Key options: `--epochs` (default 3), `--lora-rank` (16), `--lora-alpha` (32), `--lr` (1e-4), `--batch-size` (16), `--max-len` (1024), `--val-split` (0.1), `--checkpoint <base.pkl>`, `--checkpoint-dir <dir>` (default `checkpoints`), `--out <adapter.pkl>`, `--generate <n>`, `--model <id>` (default `deepseek/deepseek-v4-flash`), and `--workers <n>` (default 8). `--generate` uses the configured OpenRouter endpoint to synthesize extra examples before training. The adapter is written to `checkpoints/needle_lora.pkl` by default. A validation loss prints each epoch from the held out split.
 
 Training is plain JAX and runs on any accelerator jax supports. On an NVIDIA machine install the CUDA build and the same command trains on the GPU:
 
 ```sh
-pip install "cactus-needle[gpu]"
+pip install "cactus-needle[train,gpu]"
 ```
 
 On Apple Silicon the `metal` extra trains on the GPU:
 
 ```sh
-pip install "cactus-needle[metal]"
+pip install "cactus-needle[train,metal]"
 ```
 
 **3. Build a tuned `.cact`.** Merge the adapter into the base and quantize. The base auto-downloads if absent.
@@ -149,6 +169,10 @@ import needle
 agent = needle.Needle(weights="my_needle.cact", tools=[...])
 agent.run("...")
 ```
+
+## Telemetry
+
+Cactus Compute collects strictly anonymous usage telemetry (function name, package version, OS — never your prompts, outputs, or data); opt out with `NEEDLE_TELEMETRY=0` or `DO_NOT_TRACK=1`.
 
 ## Citation
 

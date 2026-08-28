@@ -5,7 +5,7 @@
   "full_name": "Alishahryar1/free-claude-code",
   "url": "https://github.com/Alishahryar1/free-claude-code",
   "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-  "readme_sha256": "35deb709a29890ba5fc3ed546f024e3a446c6ce528ead74cf82c6ed04f727e31"
+  "readme_sha256": "bb3d911e8d0ddcd2d9afd54860e19740161a11d06b1a2bea3040d4adace93809"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Alishahryar1/free-claude-code
 - Description: Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)
-- README SHA256: `35deb709a29890ba5fc3ed546f024e3a446c6ce528ead74cf82c6ed04f727e31`
+- README SHA256: `bb3d911e8d0ddcd2d9afd54860e19740161a11d06b1a2bea3040d4adace93809`
 
 ## README
 
@@ -109,7 +109,7 @@ terminal open.
 2. Open the Admin UI URL from the server log.
 3. Paste the key into `NVIDIA_NIM_API_KEY`.
 4. Leave `MODEL` on the default `nvidia_nim/nvidia/nemotron-3-super-120b-a12b`, or search the model dropdown and select another model.
-5. Click **Validate**, then **Apply**.
+5. Click **Apply**.
 
 To protect the local proxy with a bearer token, enable **Proxy Authentication**
 in Admin.
@@ -197,7 +197,7 @@ fcc-aider
    **Providers → Connected accounts** instead.
 3. Search the `MODEL` dropdown and select a model. If the provider cannot list
    models, enter `<provider-id>/<exact-provider-model-id>` manually.
-4. Click **Validate**, then **Apply**.
+4. Click **Apply**.
 
 Optional: add an ordered **Fallback Models** list under **Model Config**. It
 applies to every connected client. A failed request may reach and consume usage
@@ -498,7 +498,7 @@ Restart Claude Code or the IDE after saving the file.
 
 ## Optional Integrations
 
-Configure integrations from **Admin UI → Messaging**, then click **Validate** and **Apply**.
+Configure integrations from **Admin UI → Messaging**, then click **Apply**.
 
 <details>
 <summary><strong>Discord bot</strong></summary>
@@ -603,6 +603,22 @@ Run `fcc-server --version` to check the installed version without starting FCC.
 ### Update
 
 Re-run the matching command from [Install Or Update](#install).
+
+### Muse Code on native Windows
+
+Rerunning FCC's Windows installer with Muse Code selected installs or updates FCC's managed Muse executable. To install or update only Muse Code:
+
+```powershell
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/install-muse.ps1")))
+```
+
+To remove only that managed Muse executable while preserving Muse data and other installations:
+
+```powershell
+& ([scriptblock]::Create((irm "https://raw.githubusercontent.com/Alishahryar1/free-claude-code/main/scripts/uninstall-muse.ps1")))
+```
+
+FCC's ordinary uninstaller below continues to leave Muse Code installed.
 
 ### Uninstall
 

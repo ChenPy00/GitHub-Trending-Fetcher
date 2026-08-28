@@ -5,7 +5,7 @@
   "full_name": "MadsLorentzen/ai-job-search",
   "url": "https://github.com/MadsLorentzen/ai-job-search",
   "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-  "readme_sha256": "64d3d09000b1d460e638a93083ffe0b2cffa3444caf9fc7cdf2cb4b791beea58"
+  "readme_sha256": "f67100ae41b733586f8b36c1eb8a693a7f3d8f6216382f1d0a342a7cba0734ad"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/MadsLorentzen/ai-job-search
 - Description: The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-- README SHA256: `64d3d09000b1d460e638a93083ffe0b2cffa3444caf9fc7cdf2cb4b791beea58`
+- README SHA256: `f67100ae41b733586f8b36c1eb8a693a7f3d8f6216382f1d0a342a7cba0734ad`
 
 ## README
 
@@ -84,7 +84,7 @@ The framework encodes career guidance best practices, including structured evalu
 - Python 3.10+
 - [Bun](https://bun.sh) (for job search CLI tools)
 - LaTeX distribution with `lualatex` and `xelatex`: [TeX Live](https://tug.org/texlive/), [MacTeX](https://tug.org/mactex/), [TinyTeX](https://yihui.org/tinytex/), or [MiKTeX](https://miktex.org/). The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`. If using a minimal TeX install such as TinyTeX or BasicTeX, install the extra packages listed in [SETUP.md](SETUP.md#minimal-tex-install-tinytexbasictex).
-- Optional: `pdftotext` from [poppler](https://poppler.freedesktop.org/) (macOS: `brew install poppler`, Debian/Ubuntu: `apt install poppler-utils`, Windows: `choco install poppler`) — used by `/apply`'s ATS parseability check on the compiled CV. If missing, the check degrades gracefully to a visual keyword review.
+- Optional: `pip install pypdf` for `/apply`'s ATS parseability check (BSD; no Poppler required). Poppler `pdftotext` remains a fallback (macOS: `brew install poppler`, Debian/Ubuntu: `apt install poppler-utils`, Windows: `choco install poppler`). If both are missing, the check degrades to a visual keyword review.
 
 ## Quick start
 

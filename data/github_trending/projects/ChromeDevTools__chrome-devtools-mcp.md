@@ -5,7 +5,7 @@
   "full_name": "ChromeDevTools/chrome-devtools-mcp",
   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
   "description": "Chrome DevTools for coding agents",
-  "readme_sha256": "e10f0ebd1ad068fe50a5827c4df6828d27498db13342aece947e0295415c204b"
+  "readme_sha256": "6014d9ef71b552654b58b74cfc74544b4d4664ecd4e4b2b12813b7ab7ddf8994"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ChromeDevTools/chrome-devtools-mcp
 - Description: Chrome DevTools for coding agents
-- README SHA256: `e10f0ebd1ad068fe50a5827c4df6828d27498db13342aece947e0295415c204b`
+- README SHA256: `6014d9ef71b552654b58b74cfc74544b4d4664ecd4e4b2b12813b7ab7ddf8994`
 
 ## README
 
@@ -152,6 +152,26 @@ To use the Chrome DevTools MCP server follow the instructions from <a href="http
 This will make the Chrome DevTools MCP server automatically connect to the browser that Antigravity is using. If you are not using port 9222, make sure to adjust accordingly.
 
 Chrome DevTools MCP will not start the browser instance automatically using this approach because the Chrome DevTools MCP server connects to Antigravity's built-in browser. If the browser is not already running, you have to start it first by clicking the Chrome icon at the top right corner.
+
+</details>
+
+<details>
+  <summary>Bob</summary>
+
+Follow the <a href="https://bob.ibm.com/docs/ide/configuration/mcp/mcp-in-bob">IBM Bob MCP guide</a> and add the Chrome DevTools MCP server to your Bob MCP configuration. Use the global config (`~/.bob/mcp.json`) to apply it across all workspaces, or a project config (`.bob/mcp.json`) to scope it to one project:
+
+```json
+{
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
+    }
+  }
+}
+```
+
+You can edit these files from **Bob panel → Settings → MCP → Edit Global MCP** (or **Edit Project MCP**). Bob hot-reloads on save. Once the server appears in the MCP tab, switch to the **🌎 Browser Dev** mode to get guided browser debugging directly in Bob.
 
 </details>
 
@@ -556,7 +576,7 @@ If you run into any issues, checkout our [troubleshooting guide](./docs/troubles
   - [`take_snapshot`](docs/tool-reference.md#take_snapshot)
   - [`screencast_start`](docs/tool-reference.md#screencast_start)
   - [`screencast_stop`](docs/tool-reference.md#screencast_stop)
-- **Memory** (12 tools)
+- **Memory** (13 tools)
   - [`take_heapsnapshot`](docs/tool-reference.md#take_heapsnapshot)
   - [`close_heapsnapshot`](docs/tool-reference.md#close_heapsnapshot)
   - [`compare_heapsnapshots`](docs/tool-reference.md#compare_heapsnapshots)
@@ -569,6 +589,7 @@ If you run into any issues, checkout our [troubleshooting guide](./docs/troubles
   - [`get_heapsnapshot_retainers`](docs/tool-reference.md#get_heapsnapshot_retainers)
   - [`get_heapsnapshot_retaining_paths`](docs/tool-reference.md#get_heapsnapshot_retaining_paths)
   - [`get_heapsnapshot_summary`](docs/tool-reference.md#get_heapsnapshot_summary)
+  - [`query_heapsnapshot_objects`](docs/tool-reference.md#query_heapsnapshot_objects)
 - **Extensions** (5 tools)
   - [`install_extension`](docs/tool-reference.md#install_extension)
   - [`list_extensions`](docs/tool-reference.md#list_extensions)
@@ -581,6 +602,11 @@ If you run into any issues, checkout our [troubleshooting guide](./docs/troubles
 - **WebMCP** (2 tools)
   - [`execute_webmcp_tool`](docs/tool-reference.md#execute_webmcp_tool)
   - [`list_webmcp_tools`](docs/tool-reference.md#list_webmcp_tools)
+- **Progressive Web Apps** (4 tools)
+  - [`get_os_app_state`](docs/tool-reference.md#get_os_app_state)
+  - [`install_pwa`](docs/tool-reference.md#install_pwa)
+  - [`launch_pwa`](docs/tool-reference.md#launch_pwa)
+  - [`uninstall_pwa`](docs/tool-reference.md#uninstall_pwa)
 
 <!-- END AUTO GENERATED TOOLS -->
 
@@ -656,10 +682,10 @@ The Chrome DevTools MCP server supports the following configuration option:
   - **Type:** boolean
   - **Default:** `false`
 
-- **`--experimentalPageIdRouting`/ `--experimental-page-id-routing`**
-  Whether to expose pageId on page-scoped tools and route requests by page ID (useful for concurrent agent sessions).
+- **`--pageIdRouting`/ `--page-id-routing`**
+  Require pageId on page-scoped tools and route requests by page ID (useful for concurrent agent sessions). Use --no-page-id-routing to disable.
   - **Type:** boolean
-  - **Default:** `false`
+  - **Default:** `true`
 
 - **`--experimentalDevtools`/ `--experimental-devtools`**
   Whether to enable automation over DevTools targets
@@ -743,6 +769,11 @@ The Chrome DevTools MCP server supports the following configuration option:
 
 - **`--categoryExperimentalThirdParty`/ `--category-experimental-third-party`**
   Set to true to enable third-party developer tools exposed by the inspected page itself
+  - **Type:** boolean
+  - **Default:** `false`
+
+- **`--categoryPwa`/ `--category-pwa`**
+  Set to true to include tools for automating Progressive Web Apps (install, launch, uninstall, and OS state). This feature is only supported with a pipe connection; autoConnect, browserUrl, and wsEndpoint are not supported.
   - **Type:** boolean
   - **Default:** `false`
 
@@ -839,22 +870,25 @@ You can also run `npx chrome-devtools-mcp@latest --help` to see all available co
 
 ### Concurrent sessions
 
-Most MCP clients start one Chrome DevTools MCP server per conversation. If your
-client shares a single server instance across concurrent agents or subagents,
-start the server with `--experimentalPageIdRouting`. This exposes `pageId` on
-page-scoped tools so each agent can route tool calls to the tab it is working
-with.
+Most MCP clients start one Chrome DevTools MCP server per conversation.
+By default, the server runs with `--pageIdRouting` enabled, making `pageId` a
+required parameter on page-scoped tools (such as `click`, `fill`, `navigate_page`,
+`take_snapshot`, etc.) so multiple agents or subagents sharing a server instance can
+route tool calls directly to the specific tab they are working with.
+
+For `evaluate_script`, `pageId` is required by default for targeting pages, but
+becomes optional when `--categoryExtensions` is enabled so that `serviceWorkerId`
+can be specified instead to evaluate inside an extension background service worker.
+
+To disable this behavior and default to the currently selected page, pass
+`--no-page-id-routing`.
 
 ```json
 {
   "mcpServers": {
     "chrome-devtools": {
       "command": "npx",
-      "args": [
-        "-y",
-        "chrome-devtools-mcp@latest",
-        "--experimentalPageIdRouting"
-      ]
+      "args": ["-y", "chrome-devtools-mcp@latest"]
     }
   }
 }
@@ -867,16 +901,19 @@ server instances.
 
 ### User data directory
 
-`chrome-devtools-mcp` starts a Chrome's stable channel instance using the following user
+By default, `chrome-devtools-mcp` starts a Chrome's stable channel instance using the following user
 data directory:
 
-- Linux / macOS: `$HOME/.cache/chrome-devtools-mcp/chrome-profile-$CHANNEL`
-- Windows: `%HOMEPATH%/.cache/chrome-devtools-mcp/chrome-profile-$CHANNEL`
+- Linux / macOS: `$HOME/.cache/chrome-devtools-mcp/chrome-profile`
+- Windows: `%USERPROFILE%\.cache\chrome-devtools-mcp\chrome-profile`
 
-The user data directory is not cleared between runs and shared across
-all instances of `chrome-devtools-mcp`. Set the `isolated` option to `true`
-to use a temporary user data dir instead which will be cleared automatically after
-the browser is closed.
+For non-stable channels, the channel name is appended to the directory name, for example
+`chrome-profile-canary`.
+
+The user data directory is not cleared between runs and is reused for subsequent
+runs with the same channel. Only one browser can use it at a time. Set the `isolated`
+option to `true` to use a temporary user data directory instead which will be cleared
+automatically after the browser is closed.
 
 ### Connecting to a running Chrome instance
 

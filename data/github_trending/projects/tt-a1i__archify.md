@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "47bc1c4615db73a53ca195f76f701aed017e952a3d96bd4507ad348e72a297c7"
+  "readme_sha256": "64c61e16b9e027f76f8a75be0b57e8ae21d62bb016da46727b883baacc73dbe1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `47bc1c4615db73a53ca195f76f701aed017e952a3d96bd4507ad348e72a297c7`
+- README SHA256: `64c61e16b9e027f76f8a75be0b57e8ae21d62bb016da46727b883baacc73dbe1`
 
 ## README
 
@@ -302,3 +302,7 @@ Automatic Mermaid parsing, general-purpose auto-layout, hosted sharing, and WYSI
 ## Contributing
 
 Issues, pull requests, and real-world diagrams are welcome. Start with the [contribution guide](CONTRIBUTING.md), use the reproducible bug form for failures, or submit a validated diagram through the [community showcase form](https://github.com/tt-a1i/archify/issues/new?template=showcase.yml).&nbsp;·&nbsp;[LINUX&nbsp;DO](https://linux.do)
+
+## Star History
+
+<p align="center"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tt-a1i/archify/star-history/assets/star-history-dark.svg" /><img alt="Star History" src="https://raw.githubusercontent.com/tt-a1i/archify/star-history/assets/star-history-light.svg" /></picture></p>

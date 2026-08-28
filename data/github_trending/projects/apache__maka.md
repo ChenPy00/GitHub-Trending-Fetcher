@@ -5,7 +5,7 @@
   "full_name": "apache/maka",
   "url": "https://github.com/apache/maka",
   "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-  "readme_sha256": "26b8b0364570460f08289526bf4a93ec4b5879773afec683372e9ac24c64b0ef"
+  "readme_sha256": "f98b008d27275623829490fbc5252a5eb027842f337ad332b35e9dc1389c4e30"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/apache/maka
 - Description: Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.
-- README SHA256: `26b8b0364570460f08289526bf4a93ec4b5879773afec683372e9ac24c64b0ef`
+- README SHA256: `f98b008d27275623829490fbc5252a5eb027842f337ad332b35e9dc1389c4e30`
 
 ## README
 
@@ -49,6 +49,7 @@
   <img src="https://img.shields.io/badge/macOS-arm64-4C8DFF?style=flat&logo=apple&logoColor=white" alt="macOS Apple Silicon" />
   <img src="https://img.shields.io/badge/Windows-preview-9BB8F0?style=flat&logo=windows&logoColor=white" alt="Windows unsigned preview" />
   <img src="https://img.shields.io/badge/Linux-soon-D0D4DA?style=flat&logo=linux&logoColor=6B7280" alt="Linux not yet supported" />
+  <a href="https://deepwiki.com/apache/maka"><img src="https://img.shields.io/badge/DeepWiki-third--party%20AI%20docs-9BB8F0?style=flat" alt="DeepWiki: third-party AI-generated docs" /></a>
 </p>
 
 <p align="center">
