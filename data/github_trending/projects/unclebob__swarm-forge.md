@@ -5,7 +5,7 @@
   "full_name": "unclebob/swarm-forge",
   "url": "https://github.com/unclebob/swarm-forge",
   "description": "A simple tool for coordinating several AI agents.",
-  "readme_sha256": "bd23e5c0fb69e48357e41601d3bc037756c03b159ab2b363b5a75de55e5a8ecb"
+  "readme_sha256": "f81601165c531432c0b59b65f77f172ca105d88c7c31a04aa619839c4d49906b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/unclebob/swarm-forge
 - Description: A simple tool for coordinating several AI agents.
-- README SHA256: `bd23e5c0fb69e48357e41601d3bc037756c03b159ab2b363b5a75de55e5a8ecb`
+- README SHA256: `f81601165c531432c0b59b65f77f172ca105d88c7c31a04aa619839c4d49906b`
 
 ## README
 
@@ -27,7 +27,7 @@ Do not spend any money on a bankrbot SWARM token.
 
 ## Intent
 
-This `main` branch is documentary: it explains the system and carries the shared operational scripts and default constitution articles. The runnable workflow branches carry the project-facing configurations, role prompts, and local constitution articles that define specific workflows.
+This `main` branch is documentary: it explains the system and carries the shared operational scripts and default constitution articles. Pack branches (`two-pack`, `four-pack`, `six-pack`) are templates. `get-swarm-forge` installs all of them into a forge `packs/` directory; **New Project** instantiates one pack into `projects/<name>/`.
 
 SwarmForge is an agent coordination system that facilitates communication between agents working in different git worktrees.
 
@@ -35,7 +35,7 @@ It provides a shared structure for role-specific prompts, worktree assignment, t
 
 ## Branches
 
-The runnable SwarmForge configurations live on dedicated branches. Each branch contains the `swarmforge/swarmforge.conf`, local constitution articles, and role prompts for one workflow. Use the `get-swarm-forge` helper to compose a runnable branch with the shared operational scripts and shared constitution articles from `main`.
+Pack templates live on dedicated branches. Each branch contains the `swarmforge/swarmforge.conf`, local constitution articles, and role prompts for one workflow. `get-swarm-forge` copies all of them into `packs/` along with host scripts from `main`.
 
 ### `two-pack`
 
@@ -44,7 +44,7 @@ The runnable SwarmForge configurations live on dedicated branches. Each branch c
 - `coder` implements requested behavior with TDD and unit tests.
 - `cleaner` batches coder handoffs and performs cleanup, CRAP and DRY review, architectural review, encapsulation and separation-of-concerns fixes, and language mutation hardening.
 
-The normal flow is `coder` -> `cleaner`, then a completion broadcast to every other role (card to Done). Use this branch when you want a tight implementation/refinement loop without specification, QA, property-test, or acceptance-test roles.
+The card moves `coder` -> `cleaner`, then to Done. Cleaner also sends a merge-only copy back to coder. Use this branch when you want a tight implementation/refinement loop without specification, QA, property-test, or acceptance-test roles.
 
 ### `four-pack`
 
@@ -55,7 +55,7 @@ The normal flow is `coder` -> `cleaner`, then a completion broadcast to every ot
 - `refactorer` performs behavior-preserving cleanup, coverage improvement, CRAP and DRY review, mutation-site scans, and property-test support.
 - `architect` owns high-level structure, dependency direction, mutation hardening, DRY review, soft Gherkin mutation, and final completion notification.
 
-The normal flow is `specifier` -> `coder` -> `refactorer` -> `architect`, then a completion broadcast to every other role (card to Done). Use this branch when you want disciplined development without splitting cleanup, architecture, hardening, and QA into separate agents.
+The card moves `specifier` -> `coder` -> `refactorer` -> `architect`, then to Done. Refactorer also sends a merge-only copy back to coder. Architect also sends merge-only copies to every earlier role. Use this branch when you want disciplined development without splitting cleanup, architecture, hardening, and QA into separate agents.
 
 ### `six-pack`
 
@@ -68,7 +68,7 @@ The normal flow is `specifier` -> `coder` -> `refactorer` -> `architect`, then a
 - `hardender` performs mutation hardening, language mutation, CRAP and DRY verification, and soft Gherkin mutation.
 - `QA` converts the specifier's QA procedures into executable scripts, runs final user-interface verification, checks handoff consistency, and sends completion notifications.
 
-The normal flow is `specifier` -> `coder` -> `cleaner` -> `architect` -> `hardender` -> `QA`, then a completion broadcast to every other role (card to Done). Use this branch when you want each review and verification concern owned by a separate agent.
+The card moves `specifier` -> `coder` -> `cleaner` -> `architect` -> `hardender` -> `QA`, then to Done. Cleaner also sends a merge-only copy back to coder. Architect and QA also send merge-only copies to every earlier role. Use this branch when you want each review and verification concern owned by a separate agent.
 
 ### `simple-windows`
 
@@ -108,55 +108,81 @@ chmod +x ~/cmds/get-swarm-forge
 ```
 
 Make sure that utility directory is on your shell `PATH`, then run the helper in
-the project directory where you want to use SwarmForge:
+the directory that will be the **forge** (not a single project):
 
 ```sh
-get-swarm-forge four-pack codex --yolo
+get-swarm-forge
 ```
 
-Use `two-pack` for the quick two-agent workflow, `four-pack` for the compact specification workflow, or `six-pack` for the full six-agent workflow. Do not use `main` here; `main` stores the shared operational scripts and core constitution articles, while the runnable branches provide the configurations and prompts intended for projects.
+`get-swarm-forge` downloads `main` and every pack branch (`two-pack`,
+`four-pack`, `six-pack`). It installs host scripts under `swarmforge/`, pack
+templates under `packs/`, and an empty `projects/` directory. It does not
+turn the current directory into one pack.
 
-`get-swarm-forge` downloads `main` first, copies only the shared `swarmforge/scripts/` and core constitution articles, then overlays the requested runnable branch. It fails fast if required scripts, role prompts, or core constitution articles are missing.
-
-After copying a runnable branch, start the swarm from the target project:
+Start the host dashboard:
 
 ```sh
 ./swarm
 ```
 
-The `./swarm` wrapper launches `swarmforge/scripts/swarmforge.sh` from the composed project-local copy. Rerun `get-swarm-forge <branch>` to refresh shared scripts or switch pack branches.
+`./swarm` starts the dashboard and the **lieutenant** only. It does not start
+project agents. Startup prints a **Dashboard:** URL (also written to
+`.swarmforge/dashboard-url`) and opens it in the browser when `open` is
+available.
 
-Startup prints a **Dashboard:** URL (also written to `.swarmforge/dashboard-url`) and opens it in the browser when `open` is available. Pack roles default to `window-invisible`: agents run in tmux, but no Terminal window opens per role. The dashboard is the operator surface.
+Create a project from the dashboard with **New Project** (name, mission,
+pack, optional GitHub `owner/repo`, editable conf). That writes
+`projects/<name>/` including `mission.md` and starts that pack. **Open
+Project** starts an existing directory under `projects/`. **Close** on a
+project header stops that pack and leaves the directory.
 
 Set `SWARMFORGE_OPEN_BROWSER=0` before `./swarm` to skip the browser open. The dashboard still starts; visit the printed URL.
 
-To stop the swarm, click **Teardown** in the dashboard header and confirm. That terminates agent sessions, tmux, `handoffd`, and the dashboard. Project files stay on disk.
+To stop everything, click **Teardown** in the dashboard header and confirm.
+That closes every open project, then kills the lieutenant, tmux, and the
+dashboard. Directories under `projects/` stay on disk. After a later
+`./swarm`, nothing is running until you Open Project.
 
 While a swarm is active, SwarmForge tries to prevent the host from sleeping. On macOS it uses `caffeinate`; on Linux it uses `systemd-inhibit` when available. Display lock or manual sleep can still interrupt agents depending on the OS. Set `SWARMFORGE_PREVENT_SLEEP=0` before `./swarm` to disable this behavior.
 
 ## Pack Cockpit
 
-The pack cockpit is a local web dashboard served from `main`'s scripts (`pack_web`). Pack branches do not fork it. At startup it reads `swarmforge/swarmforge.conf` and draws swimlanes from that file. The role whose worktree is `master` is the **master agent** (specifier on four-pack and six-pack, coder on two-pack): New Task and the chat rail talk to that agent.
+The pack cockpit is a local web dashboard served from `main`'s scripts
+(`pack_web`). It is the forge operator surface: several projects can run at
+once. Chat talks to the **lieutenant**, who oversees the whole swarm, not to
+a project agent.
 
 Layout, top to bottom then left to right:
 
-- **Header** — pack title, live marker, **New Task**, **Open** (master pane), **Teardown**.
-- **Attention** — human gates: spec approvals and agent clarification requests.
-- **Board** — one swimlane per conf role, left to right, plus a **Done** well. Cards are tasks, not stories. A card sits in the agent who currently holds it.
-- **Work Queue** — one row per role: task name, role (click to open that agent's pane), live/idle, and a six-bar activity thermometer.
-- **Chat** — follow-ups to the master agent.
+- **Header** — SwarmForge, live marker, **New Project**, **Open Project**, **Teardown**.
+- **Attention** — human gates from every open project. Each row names the **project** and the task.
+- **Board** — one band per open project, split by a horizontal bar. Each band has a header (**New Task**, **Close**) and that pack's swimlanes plus **Done**.
+- **Work Queue** — the same project stack on the right; the two sides scroll independently.
+- **Chat** — follow-ups to the lieutenant.
 
 ### Operating the dashboard
 
-**Start a task.** Click **New Task**, give a short stable **name** and the **task** text, then **OK**. That creates a card in the master lane and queues a `(New Task)` note to that agent (`task:` is the card name, payload is the text). The agent takes it with `ready_for_next.sh`. Downstream roles keep that name as `task:` on every `git_handoff`. Do not invent a second name in chat.
+**New Project.** Name, mission (`mission.md` at the project top), pack radios,
+editable conf. Check **github repo** and type `owner/repo` to clone first.
+The directory is the last path segment. Existing names get an alert.
 
-**Talk to the master agent.** Type in the chat composer (Enter sends, Shift+Enter newline). The dashboard stores a durable request, injects `[id] text` into the master pane, and shows the reply when the agent answers.
+**Open Project.** Menu of directories under `projects/`. Opening refreshes
+scripts from `packs/` (keeps `mission.md` and the project's conf) and starts
+that pack. Already-open names get an alert.
+
+**Start a task.** Click **New Task** on that project's header bar, give a
+short stable **name** and the **task** text, then **OK**. That creates a card
+in the project's master lane and queues a `(New Task)` note to that agent.
+
+**Talk to the lieutenant.** Type in the chat composer (Enter sends,
+Shift+Enter newline). The dashboard stores a durable request and injects
+`[id] text` into the lieutenant pane.
 
 **Approve a specifier handoff.** When the specifier queues work for the next role, Attention shows **Approval** with the task, a **Documents** menu for artifacts, **Approve**, and **Reject**. Approve delivers the handoff and moves the card. Reject leaves the card with the specifier and notifies that agent. Two-pack has no specifier gate; those handoffs deliver immediately.
 
 **Answer a clarification.** If an agent needs a human answer, Attention shows **Request clarification**, the question, and a text box. Submit injects the answer into that agent's pane. Do not use Approve/Reject for this.
 
-**Watch the board.** Cards move when `handoffd` delivers a `git_handoff`. Click a card to open its task body in a resizable window. The card can show the agent's latest status sentence (the last pane line that contains `I'm`). The last role in every pack sends the **terminal** handoff: `to:` every other role. That, not merely several names, moves the card to **Done**. The Done well is always on the board; it fills when that handoff is delivered.
+**Watch the board.** Cards move when `handoffd` delivers a forward `git_handoff`. Click a card to open its task body in a resizable window. The card can show the agent's latest status sentence (the last pane line that contains `I'm`). Merge-only copies from `back-one` or `back-all` do not move the card. The last role in every pack sends the **terminal** handoff: `to:` every other role. That, not merely several names, moves the card to **Done**. The Done well is always on the board; it fills when that handoff is delivered.
 
 **Inspect an agent.** Click a Work Queue role name, or **Open** in the header / chat rail, to pop a live pane capture. Those windows are growable. Agents themselves stay in tmux; these views do not replace the dashboard.
 
@@ -277,7 +303,7 @@ priority: NN
 message: <one line, max 80 chars>
 ```
 
-The helper generates the delivered payload. Agents do not write long handoff bodies, branch names, queue filenames, or tmux commands.
+The helper generates the delivered payload. Agents do not write long handoff bodies, branch names, queue filenames, or tmux commands. If the sender's conf has `back-one` or `back-all`, the helper also writes the merge-only copies; agents do not list those earlier roles on `to:`.
 
 Recipient agents run `ready_for_next.sh` when notified or after restart. It dispatches to the task or batch helper configured for that role. If it prints `NO_TASK`, they stop waiting for work. If it prints `TASK: <path>`, they treat the printed `TASK_NAME` and `PAYLOAD` as the task. If it prints `BATCH: <path>`, they process the printed `BATCH_ITEM` entries in helper-delivered order. If a wake-up arrives while an agent is already working, it can ignore the wake-up. `done_with_current.sh` completes the current item only: it prints `MAIL_WAITING` when more mail is queued, or `NO_TASK`. The agent then runs `ready_for_next.sh` if mail is waiting.
 
@@ -296,7 +322,19 @@ window <role> <agent> <worktree> [task|batch] [forward-only|back-one|back-all] [
 
 The optional receive mode defaults to `task`. Use `batch` for roles that should consume all currently queued equal-priority handoffs as one batch.
 
-The optional propagation token defaults to `forward-only`. `back-one` queues a merge-only copy to the previous window; `back-all` queues merge-only copies to every earlier window. Those copies do not move the card. The card goes Done only when the last window queues a `git_handoff`.
+The optional propagation token defaults to `forward-only`. The card still follows the forward send to the next window.
+
+- `forward-only` — no extra copies.
+- `back-one` — also queue a merge-only copy to the previous window.
+- `back-all` — also queue merge-only copies to every earlier window.
+
+Those extra copies do not move the card. The recipient merges the copy and keeps working; it does not hand that copy onward. The card goes Done only when the last window sends a `git_handoff`.
+
+Pack defaults (roles not listed here are `forward-only`):
+
+- `two-pack`: cleaner `batch back-one`
+- `four-pack`: refactorer `back-one`, architect `batch back-all`
+- `six-pack`: cleaner `batch back-one`, architect `batch back-all`, QA `batch back-all`
 
 Any fields after receive-mode and the propagation token are passed directly to the agent CLI as additional arguments. If you omit those tokens, extra arguments may start at the fifth field:
 
@@ -315,20 +353,20 @@ You can define as many windows as your project needs. Each `role` maps to a corr
 
 This lets each project choose its own swarm shape instead of being locked to a fixed set of roles.
 
-Example config (pack default is invisible):
+Example config (four-pack shape, pack default is invisible):
 
 ```conf
 window-invisible specifier grok master
 window-invisible coder codex coder --yolo
-window-invisible cleaner codex cleaner batch --yolo
-window-invisible architect grok architect batch
+window-invisible refactorer codex refactorer back-one --yolo
+window-invisible architect grok architect batch back-all
 ```
 
 In the example above, the agents run in these worktrees:
 
 - `specifier` -> main working directory on `master` (master agent: New Task and chat)
 - `coder` -> `.worktrees/coder`
-- `cleaner` -> `.worktrees/cleaner`
+- `refactorer` -> `.worktrees/refactorer`
 - `architect` -> `.worktrees/architect`
 
 If a window uses `master` as its worktree name, SwarmForge does not create `.worktrees/master`; that role runs in the main working directory on the `master` branch.

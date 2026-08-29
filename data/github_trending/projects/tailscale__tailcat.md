@@ -5,7 +5,7 @@
   "full_name": "tailscale/tailcat",
   "url": "https://github.com/tailscale/tailcat",
   "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-  "readme_sha256": "f8652fddc1788de3abf07605e7a9276d699a7477db401e5f5b1a964564e10bf2"
+  "readme_sha256": "5bbe6931347fef7362b0d46f887cd8e23f5f10507f789197bfc614be9d521143"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tailscale/tailcat
 - Description: like netcat, but over Tailscale's data plane, without Tailscale's control plane
-- README SHA256: `f8652fddc1788de3abf07605e7a9276d699a7477db401e5f5b1a964564e10bf2`
+- README SHA256: `5bbe6931347fef7362b0d46f887cd8e23f5f10507f789197bfc614be9d521143`
 
 ## README
 
@@ -440,7 +440,7 @@ followed by base64-encoded [CBOR](https://cbor.io/) containing:
 
 - The server's WireGuard public key (Curve25519, 32 bytes)
 - DERP info. Either:
-  1. a small integer referencing one of the default [Tailscale-run tailcat servers](https://tailcat.dev/derpmap.json)), or
+  1. a small integer referencing one of the default [Tailscale-run tailcat servers](https://tailcat.dev/derpmap.json), or
   2. full DERP server metadata, to either use a custom DERP server, or to avoid the client needing a potential round-trip to fetch the latest DERP map (the server's `--full-address` flag and the `tailcat resolve` subcommand produce this form)
 
 A typical token with just an integer region ID is around 50 bytes. With embedded

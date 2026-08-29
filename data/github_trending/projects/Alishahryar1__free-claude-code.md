@@ -5,7 +5,7 @@
   "full_name": "Alishahryar1/free-claude-code",
   "url": "https://github.com/Alishahryar1/free-claude-code",
   "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-  "readme_sha256": "bb3d911e8d0ddcd2d9afd54860e19740161a11d06b1a2bea3040d4adace93809"
+  "readme_sha256": "080b89cb2bfe8876e4f8bd8140b42eb65db5aff6e771094a66bfb8a590a32e42"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Alishahryar1/free-claude-code
 - Description: Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)
-- README SHA256: `bb3d911e8d0ddcd2d9afd54860e19740161a11d06b1a2bea3040d4adace93809`
+- README SHA256: `080b89cb2bfe8876e4f8bd8140b42eb65db5aff6e771094a66bfb8a590a32e42`
 
 ## README
 
@@ -179,9 +179,6 @@ Aider:
 ```bash
 fcc-aider
 ```
-
-`fcc-aider` exposes FCC models as `anthropic/<provider>/<model>`. Use ordinary
-`aider` when you want Aider's native providers instead.
 
 <a id="model-picker"></a>
 

@@ -5,7 +5,7 @@
   "full_name": "apache/maka",
   "url": "https://github.com/apache/maka",
   "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-  "readme_sha256": "f98b008d27275623829490fbc5252a5eb027842f337ad332b35e9dc1389c4e30"
+  "readme_sha256": "574a2855c7474d69a4b82a45a76164fa69e4d3f3b1f5143a93990b3194277b4f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/apache/maka
 - Description: Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.
-- README SHA256: `f98b008d27275623829490fbc5252a5eb027842f337ad332b35e9dc1389c4e30`
+- README SHA256: `574a2855c7474d69a4b82a45a76164fa69e4d3f3b1f5143a93990b3194277b4f`
 
 ## README
 
@@ -141,6 +141,15 @@ npm run dev
 
 ```sh
 npm run dev:full
+```
+
+Direct Peer and Peer Mesh development additionally requires Rust stable 1.98 or newer and the
+platform linker (Xcode Command Line Tools on macOS, MSVC Build Tools on Windows). Use the
+peer-enabled entry point so the native addon is built before Desktop starts:
+
+```sh
+npm run dev:peer       # HMR
+npm run dev:full:peer  # full build
 ```
 
 If dependencies were installed with `ELECTRON_SKIP_BINARY_DOWNLOAD=1`, install the Electron platform binary before starting:

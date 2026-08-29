@@ -5,7 +5,7 @@
   "full_name": "abhigyanpatwari/GitNexus",
   "url": "https://github.com/abhigyanpatwari/GitNexus",
   "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
-  "readme_sha256": "9eaf6a59b28b71a041cd944925687a236cba1c4083d53eeb98a8e5cf441a9a56"
+  "readme_sha256": "e4141d5a29639d655780ceea9701477f793db4af5da780792e634914d6a9418d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/abhigyanpatwari/GitNexus
 - Description: GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration
-- README SHA256: `9eaf6a59b28b71a041cd944925687a236cba1c4083d53eeb98a8e5cf441a9a56`
+- README SHA256: `e4141d5a29639d655780ceea9701477f793db4af5da780792e634914d6a9418d`
 
 ## README
 
@@ -786,6 +786,7 @@ gitnexus wiki
 # Use a custom model or provider (default model: minimax/minimax-m2.5)
 gitnexus wiki --model gpt-4o
 gitnexus wiki --base-url https://api.anthropic.com/v1
+gitnexus wiki --provider grok   # local Grok Build CLI (uses `grok login`, no API key)
 
 # Force full regeneration
 gitnexus wiki --force

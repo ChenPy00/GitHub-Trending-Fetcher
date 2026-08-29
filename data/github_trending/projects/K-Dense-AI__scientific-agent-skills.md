@@ -5,7 +5,7 @@
   "full_name": "K-Dense-AI/scientific-agent-skills",
   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-  "readme_sha256": "1d091361a2840f7daa88eff0b7ce0be6c013693604c476e66ee528b22ea1e934"
+  "readme_sha256": "ef756035d4611dc8acc712af2481994f433d70e96bc91f5f05e8fb588678d3d9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/K-Dense-AI/scientific-agent-skills
 - Description: Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
-- README SHA256: `1d091361a2840f7daa88eff0b7ce0be6c013693604c476e66ee528b22ea1e934`
+- README SHA256: `ef756035d4611dc8acc712af2481994f433d70e96bc91f5f05e8fb588678d3d9`
 
 ## README
 
@@ -37,8 +37,8 @@
 
 > **New: [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok)** — A free, open-source AI co-scientist that runs on your desktop, powered by Scientific Agent Skills. Bring your own API keys, pick from 40+ models, and get a full research workspace with web search, file handling, 100+ scientific databases, and access to all 161 skills in this repo. Your data stays on your computer, and you can optionally scale to cloud compute via [Modal](https://modal.com/) for heavy workloads. [Get started here.](https://github.com/K-Dense-AI/k-dense-byok)
 
-> **🎥 Live webinar — [Getting Started with K-Dense BYOK](https://luma.com/nucztxt5)** · Tuesday, August 25, 2026 · 2:00 PM PT / 5:00 PM ET · Online, free
-> Join us for a hands-on walkthrough of [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok), our free, open-source AI co-scientist that runs locally on your own machine and is powered by Scientific Agent Skills. We'll show you how to set it up, bring your own API keys, and run real research workflows with these skills. No prior technical experience needed, and questions are welcome throughout. **[Save your spot →](https://luma.com/nucztxt5)**
+> **🎥 Webinar recording — [Getting Started with K-Dense BYOK](https://youtu.be/Du3BIE48DKc?si=9dPpETKSc2PeQbvU)**
+> A hands-on walkthrough of [K-Dense BYOK](https://github.com/K-Dense-AI/k-dense-byok), our free, open-source AI co-scientist that runs locally on your own machine and is powered by Scientific Agent Skills. We cover how to set it up, bring your own API keys, and run real research workflows with these skills. No prior technical experience needed. **[Watch the recording →](https://youtu.be/Du3BIE48DKc?si=9dPpETKSc2PeQbvU)**
 
 > **Stay up to date:** Follow K-Dense on [X](https://x.com/k_dense_ai), [LinkedIn](https://www.linkedin.com/company/k-dense-inc), [YouTube](https://www.youtube.com/@K-Dense-Inc), and [Reddit](https://www.reddit.com/user/-k-dense-/) for new skills, release announcements, walkthroughs, research workflow demos, and examples you can use with your own AI agent.
 

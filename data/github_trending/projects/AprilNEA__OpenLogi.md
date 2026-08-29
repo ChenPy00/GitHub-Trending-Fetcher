@@ -5,7 +5,7 @@
   "full_name": "AprilNEA/OpenLogi",
   "url": "https://github.com/AprilNEA/OpenLogi",
   "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-  "readme_sha256": "2dced353389439bcfb44f6495f7e6f6a722eb0443946e90414c16774013937e1"
+  "readme_sha256": "bca840b7ab7b293e87917b53fd4f4b0ca552d04130feb4d37932dae0d4301b0a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/AprilNEA/OpenLogi
 - Description: ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.
-- README SHA256: `2dced353389439bcfb44f6495f7e6f6a722eb0443946e90414c16774013937e1`
+- README SHA256: `bca840b7ab7b293e87917b53fd4f4b0ca552d04130feb4d37932dae0d4301b0a`
 
 ## README
 
@@ -250,4 +250,4 @@ your own projects, forks, or distributions without prior written permission.
 
 ## Repo activity
 
-![Repobeats analytics image](https://repobeats.axiom.co/api/embed/4a0b576a03e9d528ad31ccf4797a1286c045d021.svg "Repobeats analytics image")
+![Repobeats analytics image](https://repobeats.com/AprilNEA/OpenLogi "Repobeats analytics image")
