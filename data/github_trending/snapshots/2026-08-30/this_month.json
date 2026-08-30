@@ -1,0 +1,193 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 1,
+      "readme_sha256": "b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 2,
+      "readme_sha256": "14fc7486ebc4d7fa6bc715874cf925478a677372e923e28ff9a42e2813e56870",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 3,
+      "readme_sha256": "fd7b48020a0b8d76d79e81c3907c42703bcf74f7aa122ace5050c8f9b590acf4",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 4,
+      "readme_sha256": "aff506f59a95cea5831113e2a85cddb28558cdb7a60f2644e1d3f7a2c2816aad",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 5,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "full_name": "zhaoxuya520/reverse-skill",
+      "project_file": "projects/zhaoxuya520__reverse-skill.md",
+      "rank": 6,
+      "readme_sha256": "3ef482e8754ce0579faf3c59b21e138d012c9d7b458f17a983d9a6a8d7f07e92",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 7,
+      "readme_sha256": "9719db4e38f758256e70b584ca02ccdc2c08f98919382e14429246007d3135d3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 8,
+      "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 9,
+      "readme_sha256": "bca840b7ab7b293e87917b53fd4f4b0ca552d04130feb4d37932dae0d4301b0a",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 10,
+      "readme_sha256": "574a2855c7474d69a4b82a45a76164fa69e4d3f3b1f5143a93990b3194277b4f",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 11,
+      "readme_sha256": "1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 12,
+      "readme_sha256": "e7388dc16972c7661040c7c8327e4fd2768391530f181c761e30b542d215aef1",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "🎯 All you need. Nothing you don't. Open source project management that works for you, not against you.",
+      "full_name": "usekaneo/kaneo",
+      "project_file": "projects/usekaneo__kaneo.md",
+      "rank": 13,
+      "readme_sha256": "c223ab6d335bb8b445fa8cc6c367d47e07aedfbec6f0f69f7946edfa3fdf874a",
+      "url": "https://github.com/usekaneo/kaneo"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 14,
+      "readme_sha256": "c1079a3a7c0e58a88f4342dacbee525e0e24cbed61f71f0199fef2ffe0bca482",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 15,
+      "readme_sha256": "44ff594717e8ae03d91732cfc012e1bf6e79eebedafc4651ff470a2bd00676bc",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "full_name": "virgiliojr94/book-to-skill",
+      "project_file": "projects/virgiliojr94__book-to-skill.md",
+      "rank": 16,
+      "readme_sha256": "ff38117f355e2bf889b1e7893d0939fad4ddcb795084109bca2baa48ca84ce73",
+      "url": "https://github.com/virgiliojr94/book-to-skill"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 350 providers (90+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 450+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 17,
+      "readme_sha256": "79088233b2151f4e9185520a270f22a2778b0bdbbd477cd3cb8d238647af7452",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 18,
+      "readme_sha256": "3b75364fd412e2a2b0e365c3e603bdb2bc70afcc254319738e58ad7bc305747a",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 19,
+      "readme_sha256": "7f9bde23dc9d0a7a7ac347ee5d0e5fc5cfbbef4df0a8af5c3fbd3b2e402dec37",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+      "full_name": "megadose/holehe",
+      "project_file": "projects/megadose__holehe.md",
+      "rank": 20,
+      "readme_sha256": "c799e657237efa91226a8500c0643238f7d35da1c4348ba0a2070c3bc05c3e93",
+      "url": "https://github.com/megadose/holehe"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 21,
+      "readme_sha256": "b4ffe1b808e4eb4752135a77713d930a2a4cc1225164eec9bf40d17a734e425d",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 22,
+      "readme_sha256": "0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "A simple tool for coordinating several AI agents.",
+      "full_name": "unclebob/swarm-forge",
+      "project_file": "projects/unclebob__swarm-forge.md",
+      "rank": 23,
+      "readme_sha256": "319f202a363b1cb7e8d1546305120e69d2c6089d9eb91fd866655134042cd5bd",
+      "url": "https://github.com/unclebob/swarm-forge"
+    }
+  ],
+  "snapshot_date": "2026-08-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

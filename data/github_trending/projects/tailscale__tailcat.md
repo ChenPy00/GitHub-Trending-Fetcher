@@ -5,7 +5,7 @@
   "full_name": "tailscale/tailcat",
   "url": "https://github.com/tailscale/tailcat",
   "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
-  "readme_sha256": "5bbe6931347fef7362b0d46f887cd8e23f5f10507f789197bfc614be9d521143"
+  "readme_sha256": "925f1ea0e1a8a40b4f162b33264471a3c279ec8b284fe58eff8e8669278793a7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tailscale/tailcat
 - Description: like netcat, but over Tailscale's data plane, without Tailscale's control plane
-- README SHA256: `5bbe6931347fef7362b0d46f887cd8e23f5f10507f789197bfc614be9d521143`
+- README SHA256: `925f1ea0e1a8a40b4f162b33264471a3c279ec8b284fe58eff8e8669278793a7`
 
 ## README
 
@@ -60,6 +60,24 @@ relayed over DERP only, with no direct connections until WebRTC
 support ([#4](https://github.com/tailscale/tailcat/issues/4)).
 
 ## Install
+
+Prebuilt binaries are on the
+[Releases page](https://github.com/tailscale/tailcat/releases): static
+Linux binaries (tar.gz) plus Debian (.deb) and RPM (.rpm) packages for
+amd64, arm64, and armv7, and Windows binaries (zip) for amd64 and
+arm64.
+
+There's also a
+[container image](https://github.com/tailscale/tailcat/pkgs/container/tailcat):
+
+```sh
+$ docker pull ghcr.io/tailscale/tailcat:v0.1.0  # or :latest
+$ docker run --rm -it ghcr.io/tailscale/tailcat:latest
+```
+
+For macOS, we hope to be in Homebrew soon
+([#28](https://github.com/tailscale/tailcat/issues/28)); until then,
+build from source with a Go toolchain:
 
 ```sh
 $ go install github.com/tailscale/tailcat/cmd/tailcat@latest
