@@ -1,0 +1,161 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 1,
+      "readme_sha256": "aff506f59a95cea5831113e2a85cddb28558cdb7a60f2644e1d3f7a2c2816aad",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 2,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 3,
+      "readme_sha256": "0e0c937ef9291adebbaea1522023aebabb8675ea8405304e38d211c6da7ad006",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 4,
+      "readme_sha256": "b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 5,
+      "readme_sha256": "809a703c119ddab9c9352f28ab82f86c8e65775c5cab12e86a70c79562f7381c",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 6,
+      "readme_sha256": "77365eabb4242ed7f859c8abd628128faafbd19bcb743a9210c165aa3a4466ae",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 7,
+      "readme_sha256": "f67100ae41b733586f8b36c1eb8a693a7f3d8f6216382f1d0a342a7cba0734ad",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 8,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 9,
+      "readme_sha256": "bca840b7ab7b293e87917b53fd4f4b0ca552d04130feb4d37932dae0d4301b0a",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 10,
+      "readme_sha256": "6da368b6acad476e8351d6023ec9ace3a81cdf767de3a8d151b72281052de8be",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 11,
+      "readme_sha256": "14fc7486ebc4d7fa6bc715874cf925478a677372e923e28ff9a42e2813e56870",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 12,
+      "readme_sha256": "d8b4d2e0aa33f8c08c0b1fe82d2a1a780dc608fe5d9f1ec8baff5fb33fc04166",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "full_name": "ConardLi/garden-skills",
+      "project_file": "projects/ConardLi__garden-skills.md",
+      "rank": 13,
+      "readme_sha256": "874317a6d0f192bf487e4beac78477cb5a7b7a9439c661c1ceb8497169a69a31",
+      "url": "https://github.com/ConardLi/garden-skills"
+    },
+    {
+      "description": "GoogleTest - Google Testing and Mocking Framework",
+      "full_name": "google/googletest",
+      "project_file": "projects/google__googletest.md",
+      "rank": 14,
+      "readme_sha256": "22794795ee6fcaf99c49a3a05a4fbeb8937cb31b6e300b919139a5970646857e",
+      "url": "https://github.com/google/googletest"
+    },
+    {
+      "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
+      "full_name": "Alishahryar1/free-claude-code",
+      "project_file": "projects/Alishahryar1__free-claude-code.md",
+      "rank": 15,
+      "readme_sha256": "9fe70c27bb7ecd443baefc4612722452565fdec229b824ee68038d6a3b2e35e3",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 16,
+      "readme_sha256": "008d7856ff16e94a1fc2283c1c82386daf66a26b8e6483a803362b3664e8df30",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "full_name": "abi/screenshot-to-code",
+      "project_file": "projects/abi__screenshot-to-code.md",
+      "rank": 17,
+      "readme_sha256": "a728506f78f76cbe602ae83805be2516b4c0b03763de09a64184fc96bb619c06",
+      "url": "https://github.com/abi/screenshot-to-code"
+    },
+    {
+      "description": "Lightweight coding agent that runs in your terminal",
+      "full_name": "openai/codex",
+      "project_file": "projects/openai__codex.md",
+      "rank": 18,
+      "readme_sha256": "ba4e1f69ff48386e72a9c5e1edaf76aad64a475c2d51af79ccba6d1128261ba7",
+      "url": "https://github.com/openai/codex"
+    },
+    {
+      "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
+      "full_name": "tinyhumansai/openhuman",
+      "project_file": "projects/tinyhumansai__openhuman.md",
+      "rank": 19,
+      "readme_sha256": "50a2d4e27145e25b19c0078beb294fc284d799a042eb40c1073668399f515f62",
+      "url": "https://github.com/tinyhumansai/openhuman"
+    }
+  ],
+  "snapshot_date": "2026-08-31",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

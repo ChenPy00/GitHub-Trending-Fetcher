@@ -5,7 +5,7 @@
   "full_name": "unclecode/crawl4ai",
   "url": "https://github.com/unclecode/crawl4ai",
   "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
-  "readme_sha256": "afb3f46001b9db7ee42952ced3d766939fe01dcfb190db65f86354f34d9bea19"
+  "readme_sha256": "157214ef86639f896087ca220056ec190f36692a8e17affec9417f638d57e718"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/unclecode/crawl4ai
 - Description: 🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN
-- README SHA256: `afb3f46001b9db7ee42952ced3d766939fe01dcfb190db65f86354f34d9bea19`
+- README SHA256: `157214ef86639f896087ca220056ec190f36692a8e17affec9417f638d57e718`
 
 ## README
 
@@ -56,9 +56,9 @@ Limited slots._
 
 Crawl4AI turns the web into clean, LLM ready Markdown for RAG, agents, and data pipelines. Fast, controllable, battle tested by a 50k+ star community.
 
-[✨ Check out latest update v0.9.1](#-recent-updates)
+[✨ Check out latest update v0.9.2](#-recent-updates)
 
-✨ **New in v0.9.1**: Patch release with 12 bug fixes across Docker, browser, and core. Adds `preserve_classes`/`preserve_tags` whitelist for PruningContentFilter, fixes Windows browser crash, Docker auth gate UI, HTTP timeout unit mismatch, and more. [Release notes →](https://github.com/unclecode/crawl4ai/blob/main/docs/blog/release-v0.9.1.md)
+✨ **New in v0.9.2**: Maintenance patch release. Fixes a `MemoryAdaptiveDispatcher` task/page leak when a streaming crawl is closed, Docker Playground "Advanced Config" and Monitor WebSocket auth, Playwright headless-shell packaging, and GPU (`ENABLE_GPU=true`) Docker builds. [Release notes →](https://github.com/unclecode/crawl4ai/blob/main/docs/blog/release-v0.9.2.md)
 
 ✨ Recent v0.9.0: Major secure-by-default release of the Docker API server. Auth is on by default, the server binds loopback unless given a token, and the request body is now an untrusted trust boundary. [Release notes →](https://github.com/unclecode/crawl4ai/blob/main/docs/blog/release-v0.9.0.md)
 
@@ -584,6 +584,21 @@ async def test_news_crawl():
 ## ✨ Recent Updates
 
 <details open>
+<summary><strong>Version 0.9.2 Release Highlights - Maintenance Bug Fixes</strong></summary>
+
+A maintenance patch release with bug fixes across the dispatcher, Docker, and GPU builds. `MemoryAdaptiveDispatcher` no longer leaks crawl tasks and browser pages when a streaming crawl is closed. Docker fixes cover the Playground "Advanced Config" 400, the Monitor WebSocket 500 under JWT auth, and Playwright headless-shell packaging. `ENABLE_GPU=true` Docker builds no longer fail on the CUDA toolkit.
+
+No new features, no breaking changes.
+
+```bash
+pip install -U crawl4ai
+```
+
+[Full v0.9.2 Release Notes →](https://github.com/unclecode/crawl4ai/blob/main/docs/blog/release-v0.9.2.md)
+
+</details>
+
+<details>
 <summary><strong>Version 0.9.1 Release Highlights - Bug Fixes & PruningContentFilter Whitelist</strong></summary>
 
 A patch release with 12 bug fixes and one new feature. The new `preserve_classes` / `preserve_tags` parameters for `PruningContentFilter` let you whitelist CSS classes or HTML tags that should never be pruned — useful for protecting short metadata elements like author names and timestamps.
@@ -1290,4 +1305,10 @@ A heartfelt thanks to our individual supporters! Every contribution helps us kee
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=unclecode/crawl4ai&type=Date)](https://star-history.com/#unclecode/crawl4ai&Date)
+<a href="https://www.star-history.com/?type=date&repos=unclecode%2Fcrawl4ai">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=unclecode/crawl4ai&type=date&theme=dark&legend=top-left&sealed_token=KuajrA7ScH8VT4KagC7nm1xbazTVaNs6rdok4At2dV6tDl91YR_dxmHhmsffjhFiWdLYlzdACxZ-cWLwp8tZHCYxSDMjITf3Vnu4mPns7YdLetyQBPHMQ2f_KakXdbvbVP6PofI82GNqGCVEXtPnZWHC8WM6CzZe6s6cJb6_ga_kn-jh-BeHdyuRRdVR" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=unclecode/crawl4ai&type=date&legend=top-left&sealed_token=KuajrA7ScH8VT4KagC7nm1xbazTVaNs6rdok4At2dV6tDl91YR_dxmHhmsffjhFiWdLYlzdACxZ-cWLwp8tZHCYxSDMjITf3Vnu4mPns7YdLetyQBPHMQ2f_KakXdbvbVP6PofI82GNqGCVEXtPnZWHC8WM6CzZe6s6cJb6_ga_kn-jh-BeHdyuRRdVR" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=unclecode/crawl4ai&type=date&legend=top-left&sealed_token=KuajrA7ScH8VT4KagC7nm1xbazTVaNs6rdok4At2dV6tDl91YR_dxmHhmsffjhFiWdLYlzdACxZ-cWLwp8tZHCYxSDMjITf3Vnu4mPns7YdLetyQBPHMQ2f_KakXdbvbVP6PofI82GNqGCVEXtPnZWHC8WM6CzZe6s6cJb6_ga_kn-jh-BeHdyuRRdVR" />
+ </picture>
+</a>

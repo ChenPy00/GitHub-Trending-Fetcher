@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "e7388dc16972c7661040c7c8327e4fd2768391530f181c761e30b542d215aef1"
+  "readme_sha256": "0e0c937ef9291adebbaea1522023aebabb8675ea8405304e38d211c6da7ad006"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `e7388dc16972c7661040c7c8327e4fd2768391530f181c761e30b542d215aef1`
+- README SHA256: `0e0c937ef9291adebbaea1522023aebabb8675ea8405304e38d211c6da7ad006`
 
 ## README
 
@@ -40,9 +40,9 @@ Archify is a Node.js rendering and validation system for Cursor, Claude Code, Co
 
 ![License](https://img.shields.io/badge/license-MIT-22c55e?style=flat-square)
 ![Agent Skill](https://img.shields.io/badge/Agent-Skill-7C3AED?style=flat-square)
-![Development Version](https://img.shields.io/badge/version-2.16.0--dev.0-0891b2?style=flat-square)
+![Stable Version](https://img.shields.io/badge/version-2.16.0-0891b2?style=flat-square)
 
-**Current development version:** `v2.16.0-dev.0`. See [Changelog](CHANGELOG.md#unreleased).
+**Current stable version:** `v2.16.0`. See [Changelog](CHANGELOG.md#2160--2026-08-30).
 
 **[Project page](https://tt-a1i.github.io/archify/)** · **[Scenario guide](https://tt-a1i.github.io/archify/guide.html)** · **[Proof Lab](https://tt-a1i.github.io/archify/gallery.html)**
 

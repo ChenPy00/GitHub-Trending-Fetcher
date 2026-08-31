@@ -5,7 +5,7 @@
   "full_name": "tinyhumansai/openhuman",
   "url": "https://github.com/tinyhumansai/openhuman",
   "description": "Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.",
-  "readme_sha256": "f220e2a132508ebb5c290cbdce703421d8445ac3b0c2a3118fa4290ce9cb2fa1"
+  "readme_sha256": "50a2d4e27145e25b19c0078beb294fc284d799a042eb40c1073668399f515f62"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tinyhumansai/openhuman
 - Description: Your Personal AI super intelligence. A brain that builds a local-first memory of your life, a fantastic orchestrator of agent fleets and workflows, and a deep researcher.
-- README SHA256: `f220e2a132508ebb5c290cbdce703421d8445ac3b0c2a3118fa4290ce9cb2fa1`
+- README SHA256: `50a2d4e27145e25b19c0078beb294fc284d799a042eb40c1073668399f515f62`
 
 ## README
 
@@ -95,7 +95,6 @@ OpenHuman is three things most assistants aren't: **a brain** that builds a pers
 - **[Workflows](https://tinyhumans.gitbook.io/openhuman/features/workflows)**: the agent proposes the automation; you review it on a canvas and save. Durable, trigger-driven, approval-gated runs on open-source [tinyflows](https://github.com/tinyhumansai/tinyflows).
 - **[A harness that finishes the job](https://tinyhumans.gitbook.io/openhuman/developing/architecture/agent-harness)**: checkpointed graph runs on open-source [tinyagents](https://github.com/tinyhumansai/tinyagents). Stuck agents get steered, halted ones return a root cause, and every run replays with real per-call costs.
 - **[A split brain, always on](https://tinyhumans.gitbook.io/openhuman/features/orchestration)**: a fast reflex agent triages inbound traffic while a deep reasoning core delegates to worker fleets, steered by the subconscious.
-- **[An agent economy](https://tinyhumans.gitbook.io/openhuman/features/tinyplace)**: a `@handle` on [tiny.place](https://tiny.place), Signal-encrypted agent-to-agent orchestration, x402 USDC bounties and trading. Keys never touch disk.
 
 ### 🔬 The deep researcher & doer
 

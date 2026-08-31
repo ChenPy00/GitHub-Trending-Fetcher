@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 1,
+      "readme_sha256": "008d7856ff16e94a1fc2283c1c82386daf66a26b8e6483a803362b3664e8df30",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "d8b4d2e0aa33f8c08c0b1fe82d2a1a780dc608fe5d9f1ec8baff5fb33fc04166",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 3,
+      "readme_sha256": "c152fe19894e8885991c689fc0c5298c8806412d8acb79d0ca69063b0e618b54",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 4,
+      "readme_sha256": "0e0c937ef9291adebbaea1522023aebabb8675ea8405304e38d211c6da7ad006",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Fully automatic censorship removal for language models",
+      "full_name": "p-e-w/heretic",
+      "project_file": "projects/p-e-w__heretic.md",
+      "rank": 5,
+      "readme_sha256": "adef9399887cdab52faa68560eae24af7ae9e71f2fdcc8f68e285641f9788a48",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "full_name": "unclecode/crawl4ai",
+      "project_file": "projects/unclecode__crawl4ai.md",
+      "rank": 6,
+      "readme_sha256": "157214ef86639f896087ca220056ec190f36692a8e17affec9417f638d57e718",
+      "url": "https://github.com/unclecode/crawl4ai"
+    },
+    {
+      "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "full_name": "mvanhorn/last30days-skill",
+      "project_file": "projects/mvanhorn__last30days-skill.md",
+      "rank": 7,
+      "readme_sha256": "5939fa6217e68b311253dac1c2ac41edfedd8117c7e43f44f0ad42a123dccd48",
+      "url": "https://github.com/mvanhorn/last30days-skill"
+    },
+    {
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "full_name": "majd/ipatool",
+      "project_file": "projects/majd__ipatool.md",
+      "rank": 8,
+      "readme_sha256": "fb068d4618d6f94525f95630c95c18500e084a7f37f35695df04353d08eca900",
+      "url": "https://github.com/majd/ipatool"
+    },
+    {
+      "description": "A collection of MCP servers.",
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "project_file": "projects/punkpeye__awesome-mcp-servers.md",
+      "rank": 9,
+      "readme_sha256": "ce6710e4dfb41d89b8918d40b6b7c315ce48e0ad0b0c3c5227efd6b716944fbd",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    {
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "full_name": "checkstyle/checkstyle",
+      "project_file": "projects/checkstyle__checkstyle.md",
+      "rank": 10,
+      "readme_sha256": "8a31fca0bd8f7278391e65b37cf4ded8c9166ef31d3992194448b027ac2f3961",
+      "url": "https://github.com/checkstyle/checkstyle"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 11,
+      "readme_sha256": "2faa6dccc53717b9542825babbf086ecaad8bbdc3c524d15d1c1e4accf865ac6",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "description": "RL training environments for Microduck (mjlab)",
+      "full_name": "pollen-robotics/microduck_rl",
+      "project_file": "projects/pollen-robotics__microduck_rl.md",
+      "rank": 12,
+      "readme_sha256": "f68f1a7ac93950bf20d6489a740d410d14ab73e285d775d388d820eea0421b48",
+      "url": "https://github.com/pollen-robotics/microduck_rl"
+    },
+    {
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "project_file": "projects/handsomestWei__patent-disclosure-skill.md",
+      "rank": 13,
+      "readme_sha256": "709795ac5a81426633a335a274c636bea4c439bb096d1ee8402a6c3c5ac6547d",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    {
+      "description": "Connect your users to their apps",
+      "full_name": "corsairdev/corsair",
+      "project_file": "projects/corsairdev__corsair.md",
+      "rank": 14,
+      "readme_sha256": "dc5db09405f1fcfd608a9db0428d6009fc5915f4b77fc1dc88cf2f6463310446",
+      "url": "https://github.com/corsairdev/corsair"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 15,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "TypeScript-first schema validation with static type inference",
+      "full_name": "colinhacks/zod",
+      "project_file": "projects/colinhacks__zod.md",
+      "rank": 16,
+      "readme_sha256": "b4bf9d5c867bd860d58c63b2979f655049e7872c41d15dea572da529c32a7dc9",
+      "url": "https://github.com/colinhacks/zod"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 17,
+      "readme_sha256": "77365eabb4242ed7f859c8abd628128faafbd19bcb743a9210c165aa3a4466ae",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "A framework for building realtime voice AI agents 🤖🎙️📹",
+      "full_name": "livekit/agents",
+      "project_file": "projects/livekit__agents.md",
+      "rank": 18,
+      "readme_sha256": "4492ffbdf1fbe23ac30a7d8d8e72b452c8c2889d7a06034d4be852d7fc2bf281",
+      "url": "https://github.com/livekit/agents"
+    },
+    {
+      "description": "GitNexus: The Zero-Server Code Intelligence Engine - GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration",
+      "full_name": "abhigyanpatwari/GitNexus",
+      "project_file": "projects/abhigyanpatwari__GitNexus.md",
+      "rank": 19,
+      "readme_sha256": "dca7c8226d28d1422112c9f81d23fc345b95eccfb5f3c56ac86993fef0cdd54a",
+      "url": "https://github.com/abhigyanpatwari/GitNexus"
+    }
+  ],
+  "snapshot_date": "2026-08-31",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

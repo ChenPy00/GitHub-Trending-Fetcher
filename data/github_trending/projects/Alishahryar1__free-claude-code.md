@@ -5,7 +5,7 @@
   "full_name": "Alishahryar1/free-claude-code",
   "url": "https://github.com/Alishahryar1/free-claude-code",
   "description": "Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)",
-  "readme_sha256": "080b89cb2bfe8876e4f8bd8140b42eb65db5aff6e771094a66bfb8a590a32e42"
+  "readme_sha256": "9fe70c27bb7ecd443baefc4612722452565fdec229b824ee68038d6a3b2e35e3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Alishahryar1/free-claude-code
 - Description: Use Claude Code, Codex, Pi, and OpenCode and more for free (1.3B+ free tokens) from your terminal, app, IDE, or phone like OpenClaw (voice supported + ToS friendly)
-- README SHA256: `080b89cb2bfe8876e4f8bd8140b42eb65db5aff6e771094a66bfb8a590a32e42`
+- README SHA256: `9fe70c27bb7ecd443baefc4612722452565fdec229b824ee68038d6a3b2e35e3`
 
 ## README
 
@@ -49,6 +49,7 @@
 - **Keep coding through provider outages.** After retries are exhausted, FCC automatically tries your next configured model without making you restart the turn—across every client.
 - **Up to 90% fewer terminal-output tokens.** Optional [RTK](https://github.com/rtk-ai/rtk) filters common command output, while five FCC optimizations handle quota probes, command-prefix detection, titles, suggestions, and filepaths without calling a provider.
 - **Terminal, desktop, IDE, or phone.** Work through native launchers, [VS Code](https://code.visualstudio.com/), [Codex App](https://learn.chatgpt.com/docs/app), [JetBrains](https://www.jetbrains.com/), [Discord](https://discord.com/), or [Telegram](https://telegram.org/).
+- **Private local chat.** Use Chat Sessions in Admin to talk with any configured FCC model, with persisted history, thinking controls, streaming, fallback, and compaction.
 - **Voice notes in. Code out.** Talk to your agent using local [Whisper](https://github.com/openai/whisper) or [NVIDIA NIM](https://docs.nvidia.com/nim/speech/latest/asr/deploy-asr-models/whisper.html) transcription.
 - **Agent capabilities stay intact.** Stream responses, use tools, preserve native interleaved thinking for maximum performance, send images, and route [Fable](https://www.anthropic.com/claude/fable), [Opus](https://www.anthropic.com/claude/opus), [Sonnet](https://www.anthropic.com/claude/sonnet), and [Haiku](https://www.anthropic.com/claude/haiku) independently with compatible models.
 

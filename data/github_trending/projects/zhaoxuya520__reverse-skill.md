@@ -5,7 +5,7 @@
   "full_name": "zhaoxuya520/reverse-skill",
   "url": "https://github.com/zhaoxuya520/reverse-skill",
   "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
-  "readme_sha256": "3ef482e8754ce0579faf3c59b21e138d012c9d7b458f17a983d9a6a8d7f07e92"
+  "readme_sha256": "47f840e0e65b83dfdd1741ed3568367b50ee9b1d60d516282d72bfd76ef49281"
 }
 ```
 
@@ -13,14 +13,13 @@
 
 - URL: https://github.com/zhaoxuya520/reverse-skill
 - Description: Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端
-- README SHA256: `3ef482e8754ce0579faf3c59b21e138d012c9d7b458f17a983d9a6a8d7f07e92`
+- README SHA256: `47f840e0e65b83dfdd1741ed3568367b50ee9b1d60d516282d72bfd76ef49281`
 
 ## README
 
 <p align="center">
   <img src="reverse-skill.png" alt="reverse-skill" width="140" />
 </p>
-
 <h1 align="center">reverse-skill</h1>
 <h3 align="center">Cybersecurity Skills Router · 逆向技能路由包</h3>
 
@@ -62,6 +61,7 @@
 
 <br/>
 
+
 <a id="about"></a>
 
 ## About
@@ -98,12 +98,57 @@ PRIMARY ladder: [skills/MASTER-ROUTING.md](skills/MASTER-ROUTING.md) · Full mat
 <br/>
 
 <div align="center">
-  <a href="https://afterglow.watch"><img src="https://afterglow.watch/badge/zhaoxuya520/reverse-skill" alt="star velocity"></a>
+  <a href="https://www.star-history.com/?repos=zhaoxuya520%2Freverse-skill&amp;type=date&amp;legend=top-left">
+    <img src="https://history.apivix.com/star-history.svg?v=hourly-v1" alt="Star History chart for zhaoxuya520/reverse-skill" width="650" />
+  </a>
 </div>
 
 <br/>
 
 <p align="right">(<a href="#about">back to top</a>)</p>
+
+<a id="sponsors"></a>
+
+## Sponsors
+
+<table>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://www.ucloud.cn/site/active/astraflow?ytag=geo_waituo_reverse">
+        <img src="docs/assets/sponsors/ucloud-astraflow.png" alt="UCloud AstraFlow" width="110" />
+      </a>
+      <br />
+      <strong>AstraFlow</strong>
+    </td>
+    <td>
+      <strong><a href="https://www.ucloud.cn/site/active/astraflow?ytag=geo_waituo_reverse">UCloud AstraFlow</a></strong> provides one-click access to 200+ leading open-source models, including Kimi K3, DeepSeek V4/V3, Qwen 3, GLM 5.2, and HappyHorse—no model training required, ready to use out of the box.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://www.atlascloud.ai/?ref=W3Q77C">
+        <img src="docs/assets/sponsors/atlas-cloud.svg" alt="Atlas Cloud" width="190" />
+      </a>
+      <br />
+      <a href="https://www.atlascloud.ai/oss-program">
+        <img src="https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg" alt="Powered by Atlas Cloud" height="24" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://www.atlascloud.ai/?ref=W3Q77C">Atlas Cloud</a></strong> is a full-modal AI inference platform that provides unified API access to 400+ curated image, video, audio, 3D, and language models. Atlas Cloud supports reverse-skill with model services for cross-platform routing verification, documentation, and open security workflows.
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="220">
+      <a href="https://gokite.ai/">
+        <img src="https://gokite.ai/images/Kite_Logo.svg" alt="Kite AI" width="150" />
+      </a>
+    </td>
+    <td>
+      <strong><a href="https://gokite.ai/">Kite AI</a></strong> builds identity and payment infrastructure for the agent economy. Its support helps sustain reverse-skill's open-source maintenance, routing benchmarks, and platform-neutral security workflows.
+    </td>
+  </tr>
+</table>
 
 ### Built With
 
@@ -241,39 +286,6 @@ The routing core, regression suite, manifests, and case workflow do not depend o
 ```
 
 <p align="right">(<a href="#usage">back to top</a>)</p>
-
-<a id="sponsors"></a>
-
-## Sponsors
-
-<table>
-  <tr>
-    <td align="center" width="220">
-      <a href="https://www.atlascloud.ai/?ref=W3Q77C">
-        <img src="docs/assets/sponsors/atlas-cloud.svg" alt="Atlas Cloud" width="190" />
-      </a>
-      <br />
-      <a href="https://www.atlascloud.ai/oss-program">
-        <img src="https://www.atlascloud.ai/oss-program/powered-by-atlas-cloud.svg" alt="Powered by Atlas Cloud" height="24" />
-      </a>
-    </td>
-    <td>
-      <strong><a href="https://www.atlascloud.ai/?ref=W3Q77C">Atlas Cloud</a></strong> is a full-modal AI inference platform that provides unified API access to 400+ curated image, video, audio, 3D, and language models. Atlas Cloud supports reverse-skill with model services for cross-platform routing verification, documentation, and open security workflows.
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="220">
-      <a href="https://gokite.ai/">
-        <img src="https://gokite.ai/images/Kite_Logo.svg" alt="Kite AI" width="150" />
-      </a>
-    </td>
-    <td>
-      <strong><a href="https://gokite.ai/">Kite AI</a></strong> builds identity and payment infrastructure for the agent economy. Its support helps sustain reverse-skill's open-source maintenance, routing benchmarks, and platform-neutral security workflows.
-    </td>
-  </tr>
-</table>
-
-<p align="right">(<a href="#sponsors">back to top</a>)</p>
 
 <a id="contributing"></a>
 
