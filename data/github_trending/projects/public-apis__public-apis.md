@@ -5,7 +5,7 @@
   "full_name": "public-apis/public-apis",
   "url": "https://github.com/public-apis/public-apis",
   "description": "A collective list of free APIs",
-  "readme_sha256": "7a2183467fc79378ff3c34c882cb964e73e35f9c9e002c828d43277cb689c4a3"
+  "readme_sha256": "c88dfb16f612fec50610dfbe20bd8d244f550788a565b88be8aeb9d03733c01e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/public-apis/public-apis
 - Description: A collective list of free APIs
-- README SHA256: `7a2183467fc79378ff3c34c882cb964e73e35f9c9e002c828d43277cb689c4a3`
+- README SHA256: `c88dfb16f612fec50610dfbe20bd8d244f550788a565b88be8aeb9d03733c01e`
 
 ## README
 
@@ -601,6 +601,7 @@ API | Description | Auth | HTTPS | CORS |
 | [DownStatus](https://isitdownstatus.com) | Real-time status for GitHub, AWS, Discord and 90+ services | No | Yes | Yes |
 | [ExtendsClass JSON Storage](https://extendsclass.com/json-storage.html) | A simple JSON store API | No | Yes | Yes |
 | [GeekFlare](https://apidocs.geekflare.com/docs/geekflare-api) | Provide numerous capabilities for important testing and monitoring methods for websites | `apiKey` | Yes | Unknown |
+| [GcrawlAI](https://gcrawlai.com) | Web scraping, SERP API, screenshots, URL to Markdown and prebuilt extractors | `apiKey` | Yes | Yes |
 | [Genderize.io](https://genderize.io) | Estimates a gender from a first name | No | Yes | Yes |
 | [GETPing](https://www.getping.info) | Trigger an email notification with a simple GET request | `apiKey` | Yes | Unknown |
 | [Ghost](https://ghost.org/) | Get Published content into your Website, App or other embedded media | `apiKey` | Yes | Yes |
@@ -1084,6 +1085,7 @@ API | Description | Auth | HTTPS | CORS |
 | [Warface (non-official)](https://api.wfstats.cf) | Official API proxy with better data structure and more features | No | Yes | No |
 | [Wargaming.net](https://developers.wargaming.net/) | Wargaming.net info and stats | `apiKey` | Yes | No |
 | [When is next MCU film](https://github.com/DiljotSG/MCU-Countdown/blob/develop/docs/API.md) | Upcoming MCU film information | No | Yes | Unknown |
+| [Worth the Rip](https://worththerip.com/api/) | Sealed trading-card product prices and expected value across 10 TCGs, refreshed every 2 hours | No | Yes | Yes |
 | [xkcd](https://xkcd.com/json.html) | Retrieve xkcd comics as JSON | No | Yes | No |
 | [Yu-Gi-Oh!](https://db.ygoprodeck.com/api-guide/) | Yu-Gi-Oh! TCG Information | No | Yes | Unknown |
 
@@ -1527,6 +1529,7 @@ API | Description | Auth | HTTPS | CORS |
 | [OpenCorporates](http://api.opencorporates.com/documentation/API-Reference) | Data on corporate entities and directors in many countries | `apiKey` | Yes | Unknown |
 | [OpenSanctions](https://www.opensanctions.org/docs/api/) | Data on international sanctions, crime and politically exposed persons | No | Yes | Yes |
 | [Pan Africa Data](https://panafricadata.com) | Macroeconomic and subnational income distribution data for all 54 African countries | `apiKey` | Yes | Unknown |
+| [PayCrunch](https://paycrunch.co/api.html) | US wages for 1,008 occupations and by state, from BLS OEWS May 2025, static JSON, CC BY 4.0 | No | Yes | Yes |
 | [PeakMetrics](https://rapidapi.com/peakmetrics-peakmetrics-default/api/peakmetrics-news) | News articles and public datasets | `apiKey` | Yes | Unknown |
 | [PublicDataHub](https://publicdatahub.org/api) | US public schools, hospitals and federal agency budgets as JSON/CSV, with provenance | No | Yes | Yes |
 | [Recreation Information Database](https://ridb.recreation.gov/) | Recreational areas, federal lands, historic sites, museums, and other attractions/resources(US) | `apiKey` | Yes | Unknown |

@@ -5,7 +5,7 @@
   "full_name": "apache/maka",
   "url": "https://github.com/apache/maka",
   "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-  "readme_sha256": "809a703c119ddab9c9352f28ab82f86c8e65775c5cab12e86a70c79562f7381c"
+  "readme_sha256": "b4aae633b7d049333e2c0e7e10ef889c06b189e65206c0748b73ee60aa9547cd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/apache/maka
 - Description: Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.
-- README SHA256: `809a703c119ddab9c9352f28ab82f86c8e65775c5cab12e86a70c79562f7381c`
+- README SHA256: `b4aae633b7d049333e2c0e7e10ef889c06b189e65206c0748b73ee60aa9547cd`
 
 ## README
 
@@ -60,7 +60,7 @@
 </p>
 
 <p align="center">
-  <a href="https://nightlies.apache.org/maka/desktop/"><img src="https://img.shields.io/badge/Download%20Desktop%20Nightly-1F6FEB?style=for-the-badge" alt="Download Desktop Nightly" /></a><br/>
+  <a href="https://github.com/apache/maka/releases"><img src="https://img.shields.io/badge/Download%20Desktop%20Nightly-1F6FEB?style=for-the-badge" alt="Download Desktop Nightly" /></a><br/>
   Daily builds from <code>main</code> for developers and testers. Not an ASF release, not intended for production use.
 </p>
 
@@ -120,7 +120,7 @@ Apache Maka has not made an Apache release yet. Everything currently published f
 
 Once Apache releases exist, the official release is the source release published by the ASF and approved by the podling PPMC and the Incubator PMC. A package built from that source and distributed elsewhere, for example through a package registry or as a Desktop installer, is a convenience artifact rather than the release itself, and it is valid only when it is built from an approved source release. [`.github/ASF_SOURCE_RELEASE.md`](./.github/ASF_SOURCE_RELEASE.md) holds the candidate contract, signing path, and verification steps.
 
-[Desktop Nightly](https://nightlies.apache.org/maka/desktop/) is built daily from `main` for developers and testers. It is not an ASF release and is not intended for production use. Desktop currently targets Apple Silicon Macs (`arm64`). Intel Macs and Linux are not supported yet. [Windows](docs/windows-support.md) is an unsigned preview, not a supported release tier.
+[Desktop Nightly](https://github.com/apache/maka/releases) is built daily from `main` for developers and testers. Choose the newest **Maka Desktop Nightly** prerelease; after installation, the app updates automatically on the Nightly channel. It is not an ASF release and is not intended for production use. Desktop currently targets Apple Silicon Macs (`arm64`). Intel Macs and Linux are not supported yet. [Windows](docs/windows-support.md) is an unsigned preview, not a supported release tier.
 
 ### Requirements
 
@@ -272,16 +272,16 @@ npm run check:release
 Run one workspace in isolation:
 
 ```sh
-npm --workspace @maka/runtime test
-npm --workspace @maka/eval test
-npm --workspace @maka/desktop test
+npm --workspace @maka/runtime run test:dist
+npm --workspace @maka/eval run test:dist
+npm --workspace @maka/desktop run test:dist
 ```
 
 Use `refresh:model-metadata` to fetch the current catalog from models.dev, update the committed snapshot, and regenerate the derived TypeScript files. A refresh fails closed when any committed model, capability, provider override, or pricing field disappears; after reviewing an intentional upstream removal, acknowledge it with `npm run refresh:model-metadata -- --accept-upstream-removals`. `sync:model-metadata` is intentionally offline: it only regenerates those files from the committed snapshot. Keep access-path-specific overrides in `model-metadata.ts`; do not edit the generated files by hand.
 
 ```sh
 npm run refresh:model-metadata
-npm --workspace @maka/core test
+npm --workspace @maka/core run test:dist
 ```
 
 Desktop real-window and visual verification:

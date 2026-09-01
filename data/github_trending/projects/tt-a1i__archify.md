@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "0e0c937ef9291adebbaea1522023aebabb8675ea8405304e38d211c6da7ad006"
+  "readme_sha256": "64e7f80d64e88536c6f5cb56b736b9eb4d2e57bbd341139af220cf4542d5dbfe"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `0e0c937ef9291adebbaea1522023aebabb8675ea8405304e38d211c6da7ad006`
+- README SHA256: `64e7f80d64e88536c6f5cb56b736b9eb4d2e57bbd341139af220cf4542d5dbfe`
 
 ## README
 
@@ -281,7 +281,7 @@ The complete generation and viewer contract lives in [`archify/SKILL.md`](archif
 | **opencode** | `~/.config/opencode/skills/`, `.opencode/skills/`, or `.agents/skills/` | Full renderer + validation workflow |
 | **Claude.ai** | Upload `archify.zip` under Settings → Capabilities → Skills | Depends on Node.js access in the sandbox |
 | **Project Knowledge** | Upload `archify.zip` to the project | Prompt-driven architecture fallback |
-**DeepSeek Harness:** Community integration, not an official DeepSeek product; developer-preview `@deepseek-ai/dsh@0.1.0-rc.6`, Node `^22.19.0 || >=24.0.0`. Install: `dsh plugin --profile web add @tt-a1i/archify-dsh@0.1.0`; invoke: `Use the archify skill to map this repository's runtime architecture.`; remove: `dsh plugin --profile web remove @tt-a1i/archify-dsh`. No telemetry. Shell files need exact workspace paths, not Web Produced Files. [Details](integrations/deepseek-harness/README.md).
+| **DeepSeek Harness** | Opt-in: `dsh plugin --profile web add @tt-a1i/archify-dsh@0.1.0`. Invoke: `Use the archify skill to map this repository's runtime architecture.` Remove: `dsh plugin --profile web remove @tt-a1i/archify-dsh`. | Community integration for developer-preview `@deepseek-ai/dsh@0.1.0-rc.6`; Node `^22.19.0 \|\| >=24.0.0`; not an official DeepSeek product. No telemetry. Shell files need exact workspace paths, not Web Produced Files. [Details](integrations/deepseek-harness/README.md). |
 
 ## Reference and scope
 

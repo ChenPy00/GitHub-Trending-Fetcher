@@ -5,7 +5,7 @@
   "full_name": "kaifcodec/user-scanner",
   "url": "https://github.com/kaifcodec/user-scanner",
   "description": "🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.",
-  "readme_sha256": "957df9cd3cb1ddc851858e496c1f24d4be6d5c7ec1b45e3df949ce510120a11e"
+  "readme_sha256": "a02266d3bd4ab7f1ebbf6fb2eeb8883ca0e93daf5d0b06856d17318c40a06234"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kaifcodec/user-scanner
 - Description: 🕵️‍♂️ (2-in-1) Email & Username OSINT suite for deep data extraction just from a single Email/Username. Analyzes 465+ actively maintained scan vectors (175+ email / 290+ username) for security research, investigations, and digital footprinting.
-- README SHA256: `957df9cd3cb1ddc851858e496c1f24d4be6d5c7ec1b45e3df949ce510120a11e`
+- README SHA256: `a02266d3bd4ab7f1ebbf6fb2eeb8883ca0e93daf5d0b06856d17318c40a06234`
 
 ## README
 
@@ -71,6 +71,18 @@ With **465+ total scan vectors**—including **175+ email-integrated sites** and
   <em><strong>Comprehensive OSINT platform for professional investigators and analysts.</strong> Reverse email, phone number, and username search across 250+ modules. Automate your intelligence gathering with our powerful tools.</em>
   <br>
   <a href="https://noimosiny.com/" target="_blank"><strong>Get Started →</strong></a>
+</p>
+
+---
+
+<p align="center">
+  <a href="https://goodfirstissues.org/?ref=user-scanner&utm_source=github&utm_medium=banner&utm_campaign=user-scanner" target="_blank">
+    <img width="750" style="max-width: 100%; height: auto;" alt="banner-github" src="https://github.com/user-attachments/assets/dafc6cbd-22e9-4294-a2c2-473f59f389bc" />
+  </a>
+  <br>
+  <em><strong>Find beginner-friendly open-source issues and make your first pull request today.</strong></em>
+  <br>
+  <a href="https://goodfirstissues.org/?ref=user-scanner&utm_source=github&utm_medium=banner&utm_campaign=user-scanner" target="_blank"><strong>Get Started →</strong></a>
 </p>
 
 ---

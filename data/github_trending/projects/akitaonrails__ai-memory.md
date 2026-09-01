@@ -5,7 +5,7 @@
   "full_name": "akitaonrails/ai-memory",
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-  "readme_sha256": "3020cb0c21362f13a5894a963ce07f2a811f2503d122fa873c6c8d7606aef106"
+  "readme_sha256": "a0c12fc71bbbbb913a0719e535afd2e4caa332736a039dcae7f86067cefe3238"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/akitaonrails/ai-memory
 - Description: Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-- README SHA256: `3020cb0c21362f13a5894a963ce07f2a811f2503d122fa873c6c8d7606aef106`
+- README SHA256: `a0c12fc71bbbbb913a0719e535afd2e4caa332736a039dcae7f86067cefe3238`
 
 ## README
 
@@ -200,7 +200,7 @@ priors are at the [bottom](#influences-and-prior-art).
   session-aware current-project routing; Claude Code has a built-in opt-in
   bridge via `install-mcp --session-aware`.
 - **Thin-client CLI.** `ai-memory status`, `bootstrap`, `checkpoints`,
-  `restore-page`, `purge-project`, `rename-project`, `move-project`,
+  `restore-page`, `purge-project`, `purge-session`, `rename-project`, `move-project`,
   `move-session`,
   `audit-contamination`, `lint`, `curator`, `auto-improve`,
   `auto-improve-report`, `pending-writes`, `embed`, `forget-sweep`, `backup`,
@@ -247,6 +247,12 @@ priors are at the [bottom](#influences-and-prior-art).
 
   # List the workstreams that can be selected from this checkout.
   ai-memory workstreams
+
+  # Fix a name you regret; the ledger and the current selection stay put.
+  ai-memory rename-workstream --from typo-nmae --to refactor-db
+
+  # Pick a managed workstream from any linked local checkout, then resume it.
+  ai-memory resume
 
   # List open cross-agent handoffs, oldest first, with the id
   # `memory_handoff_cancel` needs to clear a stale one.
@@ -312,6 +318,22 @@ priors are at the [bottom](#influences-and-prior-art).
   reported on stderr and skipped, so a resume never quietly lands in the wrong
   project. `--workspace` narrows the search; `--yolo` and `--fresh` are
   forwarded.
+- **"Let me choose which workstream to resume."** From any directory, select
+  one of the recent workstreams from your valid client-local managed checkouts:
+
+  ```bash
+  ai-memory resume
+  ai-memory resume --workspace work
+  ```
+
+  The picker shows the workstream name, project scope, activity, and linked
+  harnesses. Use Up/Down (or `j`/`k`) to choose a workstream and Left/Right to
+  cycle its launch harness. Every row starts at `auto`, preserving normal
+  session discovery; the other choices are supported harnesses currently found
+  in `PATH`. Enter launches the displayed combination. The checkout is
+  revalidated first, while the server continues to receive fingerprints rather
+  than a local path. Use `ai-memory workstreams` when you are already in a
+  checkout and only want the read-only list.
 - **"Quit at 4 PM, pick up at 9 AM in a different agent."** The
   classic. SessionStart hook in the next supported hook client prepends a
   typed handoff with open questions, next steps, and a session summary. Grok
@@ -410,8 +432,8 @@ priors are at the [bottom](#influences-and-prior-art).
   pages cleanly separated; the `/web` UI is reachable from a
   browser anywhere on the LAN.
 - **"Audit what landed before sharing with a teammate."** Browse
-  the wiki at `http://<server>:49374/web` - HTTP Basic dialog if
-  auth is on, paste the token as password. Per-project tree view,
+  the wiki at `http://<server>:49374/web` - sign in with username and
+  password when human auth is on. Per-project tree view,
   rendered markdown, supersession chain visible per page.
 - **"Undo one bad page edit without rolling back the whole server."**
   `ai-memory checkpoints` shows recent wiki commits, then
@@ -645,10 +667,10 @@ one matching entry.
   required when the env vars are set. Any non-loopback server should use
   bearer auth.
 - **Managed-launch wrapper:** `ai-memory run`, `ai-memory show`,
-  `ai-memory continue`, and `ai-memory workstreams` must be intercepted by the
-  current host wrapper so local checkouts, native harnesses, and session stores
-  remain accessible. An old wrapper may pass these commands into Docker and
-  fail to find a checkout or host executable. Run
+  `ai-memory continue`, `ai-memory resume`, and `ai-memory workstreams` must be
+  intercepted by the current host wrapper so local checkouts, native harnesses,
+  and session stores remain accessible. An old wrapper may pass these commands
+  into Docker and fail to find a checkout or host executable. Run
   `ai-memory upgrade` on the agent machine to refresh it. The host-native runner
   inherits `AI_MEMORY_SERVER_URL`, `AI_MEMORY_AUTH_TOKEN`, and the host `PATH`.
 - **Upgrades:** for Docker-wrapper installs, run `ai-memory upgrade` on each
@@ -714,12 +736,16 @@ ai-memory install-hooks --agent  claude-code --apply \
     --server-url "http://<server-ip>:49374" --auth-token "$TOKEN"
 ```
 
-Bearer auth protects `/mcp`, `/hook`, `/handoff`, `/admin/*`, and
-`/web/*`. Browser access to `/web` uses HTTP Basic auth with the token
-as the password. When `/web` is exposed through an HTTPS reverse proxy, set
-`AI_MEMORY_AUTH__SECURE_COOKIE=true`; it makes the browser cookie HTTPS-only.
-Close or redirect direct HTTP access to that hostname. Non-loopback binds should also set
-`AI_MEMORY_ALLOWED_HOSTS` to guard against DNS rebinding.
+Bearer auth protects `/mcp`, `/hook`, `/handoff`, `/workstream/*`, and
+machine calls to `/admin/*` and `/api/v1/*`. Humans sign in at
+`POST /auth/login`; the console uses an `HttpOnly` session cookie plus CSRF,
+not a Bearer in `localStorage`. Custom SPA HTML at `/web` is public static.
+When human auth listens beyond loopback,
+`AI_MEMORY_AUTH__SECURE_COOKIE=true` is required and signals that a trusted
+HTTPS reverse proxy owns the browser-facing edge. It makes the session cookie
+HTTPS-only. Close or redirect direct HTTP access to that hostname.
+Non-loopback binds should also set `AI_MEMORY_ALLOWED_HOSTS` to guard against
+DNS rebinding.
 
 Busy shared hook servers can also set `AI_MEMORY_HOOK_RATE_PER_SEC` (tokens per
 second per actor/session source) and optionally `AI_MEMORY_HOOK_RATE_BURST` to
@@ -767,12 +793,12 @@ path of single-user on loopback doesn't need TLS — that case is
 called out explicitly in the guide so you don't add ceremony where
 it doesn't earn its keep.
 
-**Multi-user attribution (v0.8, optional).** When more than one human
-shares a server, ai-memory can attribute each write to a named user.
-The bearer token continues to authenticate at the wire level; users
-created via `ai-memory user add` get their own tokens that resolve to
-their identity in audit logs, page frontmatter, `/api/v1` responses, and the
-page view UI. Data stays single-tenant — there is no per-page RBAC. A
+**Multi-user attribution (v0.8, optional) plus human login.** When more
+than one human shares a server, ai-memory attributes each write to a
+named user. Humans sign in with username/password; agents and CLIs use
+`Authorization: Bearer` (`AI_MEMORY_AUTH_TOKEN` for root automation, or
+an `aim_` key from `ai-memory api-key add`). Data stays single-tenant —
+there is no per-page RBAC. A
 `[auth].token_pepper` is required for DB-user authentication, but creating the
 first user row is what immediately switches every `/admin/*` endpoint to
 root-only, including status/search/read-page and user-management routes.
@@ -1088,7 +1114,7 @@ diagram, crate breakdown, schema notes, and invariants.
 | [`docs/windows.md`](docs/windows.md) | Windows install modes: full WSL2, native Windows with Docker Desktop, prebuilt native release zip, native source builds, and current hook/MCP harness caveats. |
 | [`docs/mcp-install.md`](docs/mcp-install.md) | Per-client MCP and lifecycle notes, handoff-injection limits, and community bridge guidance. |
 | [`docs/deploy.md`](docs/deploy.md) | Homelab deploy: bin/deploy, bearer-token auth, pointers to the TLS guide. |
-| [`docs/users.md`](docs/users.md) | **Multi-user attribution (v0.8).** Four-rung auth ladder, `ai-memory user add/list/expire/revive/rotate-token` walkthrough, backward-compat migration for pre-v0.8 installs, token storage rationale. |
+| [`docs/users.md`](docs/users.md) | **Multi-user attribution and human login.** Four-rung bearer ladder, password sessions, `ai-memory user` / `api-key` walkthrough, brownfield `aim_` migration. |
 | [`docs/https-via-proxy.md`](docs/https-via-proxy.md) | **HTTPS via a reverse proxy.** When you need TLS (multi-user, non-loopback) and when you don't (loopback / stdio). Copy-paste docker compose templates for Caddy + Let's Encrypt, Caddy + internal CA (LAN-only), Cloudflare Tunnel (no open ports), and external cert files; plus native-Caddy + nginx recipes. The "thinking you're secure when you're not" failure modes explicitly called out. |
 | [`docs/lifecycle-ops.md`](docs/lifecycle-ops.md) | **Read before running purge / rename / backup / restore / reset / reindex / restore-page.** Safety matrix for state-touching commands, per-project disk layout (how isolation actually works), checkpoint-based page recovery, and operator workflows for "fresh start", "snapshot before risky op", "drop one project", and rebuilding SQLite from wiki files. |
 | [`docs/auto-improvement-loop.md`](docs/auto-improvement-loop.md) | Auto-improvement design notes: Hermes-inspired scheduled review, auto-approval default, manual review opt-in, pending proposal storage, and curator work. |

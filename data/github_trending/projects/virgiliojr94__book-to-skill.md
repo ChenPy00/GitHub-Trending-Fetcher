@@ -5,7 +5,7 @@
   "full_name": "virgiliojr94/book-to-skill",
   "url": "https://github.com/virgiliojr94/book-to-skill",
   "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-  "readme_sha256": "ff38117f355e2bf889b1e7893d0939fad4ddcb795084109bca2baa48ca84ce73"
+  "readme_sha256": "c687ab362f38b9ea4829749c692c4d68ec6a0b35c59a2733dfe1e429c1bee202"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/virgiliojr94/book-to-skill
 - Description: Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.
-- README SHA256: `ff38117f355e2bf889b1e7893d0939fad4ddcb795084109bca2baa48ca84ce73`
+- README SHA256: `c687ab362f38b9ea4829749c692c4d68ec6a0b35c59a2733dfe1e429c1bee202`
 
 ## README
 
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <strong>Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work in GitHub Copilot CLI, Amp, or Claude Code.</strong>
+  <strong>Turn any technical book, document folder, or collection of sources into a unified agent skill — ready to study, reference, and use while you work in GitHub Copilot CLI, Amp, Claude Code, or Hermes Agent.</strong>
 </p>
 
 <p align="center">
@@ -85,13 +85,13 @@ The usual workarounds don't help:
 
 Once installed, you just type `/your-book-slug replication` and the agent reads the right chapter and answers from the actual content. No hallucination. No digging through PDFs. The book becomes part of your workflow.
 
-Works with any host that supports the open [Agent Skills](https://github.com/agentskills/agentskills) standard — GitHub Copilot CLI, Amp, and Claude Code all read the same `SKILL.md` format.
+Works with any host that supports the open [Agent Skills](https://github.com/agentskills/agentskills) standard — GitHub Copilot CLI, Amp, Claude Code, and Hermes Agent all read the same `SKILL.md` format.
 
 ---
 
 ## 📦 What it generates
 
-Running `/book-to-skill your-book.pdf` (or a folder, glob, or list of files) creates a full skill in your agent's skills directory (`~/.copilot/skills/<slug>/` for Copilot CLI, `~/.agents/skills/<slug>/` for Amp or cross-agent, `~/.claude/skills/<slug>/` for Claude Code):
+Running `/book-to-skill your-book.pdf` (or a folder, glob, or list of files) creates a full skill in your agent's skills directory (`~/.copilot/skills/<slug>/` for Copilot CLI, `~/.agents/skills/<slug>/` for Amp or cross-agent, `~/.claude/skills/<slug>/` for Claude Code, or `$HERMES_HOME/skills/<category>/<slug>/` for Hermes Agent):
 
 | File | Purpose | Size |
 |------|---------|------|
@@ -154,6 +154,7 @@ npx skills add virgiliojr94/book-to-skill
 # Or manually — clone into your skills folder (registers /book-to-skill):
 git clone https://github.com/virgiliojr94/book-to-skill.git ~/.claude/skills/book-to-skill
 # (Copilot CLI: ~/.copilot/skills/ · Amp/cross-agent: ~/.agents/skills/)
+# (Hermes Agent: ${HERMES_HOME:-$HOME/.hermes}/skills/<category>/)
 ```
 
 📥 **All hosts, optional extractors, and the standalone CLI → [docs/install.md](docs/install.md)**

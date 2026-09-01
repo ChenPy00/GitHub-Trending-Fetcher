@@ -5,7 +5,7 @@
   "full_name": "K-Dense-AI/scientific-agent-skills",
   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
   "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
-  "readme_sha256": "d8b4d2e0aa33f8c08c0b1fe82d2a1a780dc608fe5d9f1ec8baff5fb33fc04166"
+  "readme_sha256": "742fbdfafacf37a8ae68b5a0f2a01b62457dea3477ac2203aad50b801fbbc5c0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/K-Dense-AI/scientific-agent-skills
 - Description: Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.
-- README SHA256: `d8b4d2e0aa33f8c08c0b1fe82d2a1a780dc608fe5d9f1ec8baff5fb33fc04166`
+- README SHA256: `742fbdfafacf37a8ae68b5a0f2a01b62457dea3477ac2203aad50b801fbbc5c0`
 
 ## README
 
@@ -959,13 +959,3 @@ See [LICENSE.md](LICENSE.md) for full terms.
 ### Individual Skill Licenses
 
 > ⚠️ **Important**: Each skill has its own license specified in the `license` metadata field within its `SKILL.md` file. These licenses may differ from the repository's MIT License and may include additional terms or restrictions. **Users are responsible for reviewing and adhering to the license terms of each individual skill they use.**
-
-## Star History
-
-<a href="https://star-history.dera.page/#K-Dense-AI/scientific-agent-skills">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://star-history.dera.page/svg?repos=K-Dense-AI/scientific-agent-skills&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://star-history.dera.page/svg?repos=K-Dense-AI/scientific-agent-skills" />
-   <img alt="Star History Chart" src="https://star-history.dera.page/svg?repos=K-Dense-AI/scientific-agent-skills" />
- </picture>
-</a>
