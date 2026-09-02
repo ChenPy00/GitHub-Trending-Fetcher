@@ -5,7 +5,7 @@
   "full_name": "thedotmack/claude-mem",
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "readme_sha256": "a81d17483dab4063cb672277449276fd761634307f1a91f3df48cb6e1aa56b16"
+  "readme_sha256": "9644c30a8cf8c0de47d103bd21d77fd88ed6edb1482cafb97cc3e3b7cc177cdf"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/thedotmack/claude-mem
 - Description: Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
-- README SHA256: `a81d17483dab4063cb672277449276fd761634307f1a91f3df48cb6e1aa56b16`
+- README SHA256: `9644c30a8cf8c0de47d103bd21d77fd88ed6edb1482cafb97cc3e3b7cc177cdf`
 
 ## README
 
@@ -154,6 +154,10 @@ Install with a single command:
 ```bash
 npx claude-mem install
 ```
+
+The installer sets everything up first, then asks you to sign in to claude-mem in your browser (email magic link — no card required). Signing in provisions a memory key for your account and unlocks the **claude-mem observer**: memory that runs off-plan, free for your first 30 days, so you get up to 100% more usage from your plan. When the free trial ends, memory automatically falls back to your Anthropic plan unless you subscribe. After sign-in you pick your memory provider — the claude-mem observer, your own OpenRouter or Gemini key, or your Anthropic plan.
+
+Prefer to skip the sign-in? Pass an explicit `--provider` flag, set `CLAUDE_MEM_ONLINE_OPTIN=false`, or run in CI/non-interactive shells — the installer completes without any account interaction.
 
 Or install for OpenCode:
 

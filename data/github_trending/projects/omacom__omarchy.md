@@ -5,7 +5,7 @@
   "full_name": "omacom/omarchy",
   "url": "https://github.com/omacom/omarchy",
   "description": "Beautiful, Modern & Opinionated Linux",
-  "readme_sha256": "b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63"
+  "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b"
 }
 ```
 
@@ -13,13 +13,13 @@
 
 - URL: https://github.com/omacom/omarchy
 - Description: Beautiful, Modern & Opinionated Linux
-- README SHA256: `b79a649d941a80fa81f92e341cd5710fd5633ea5e911cc0c26679001a3b08d63`
+- README SHA256: `661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b`
 
 ## README
 
 # Omarchy
 
-Omarchy is a beautiful, modern & opinionated Linux distribution by DHH.
+Omarchy is a beautiful, fun & agentic Linux distribution by DHH.
 
 Read more at [omarchy.org](https://omarchy.org).
 

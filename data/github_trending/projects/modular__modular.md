@@ -5,7 +5,7 @@
   "full_name": "modular/modular",
   "url": "https://github.com/modular/modular",
   "description": "The Modular Platform (includes MAX & Mojo)",
-  "readme_sha256": "1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0"
+  "readme_sha256": "aa416a10cbdc02677922a878be06851c535794dafd74b9fc004a3753fe7bd9e1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/modular/modular
 - Description: The Modular Platform (includes MAX & Mojo)
-- README SHA256: `1096a18b91fbfe7dd69360db365f84a2f96148ac78dafa8abb7066bfaca956c0`
+- README SHA256: `aa416a10cbdc02677922a878be06851c535794dafd74b9fc004a3753fe7bd9e1`
 
 ## README
 
@@ -50,15 +50,15 @@ all of it in here.
 
 The main components include:
 
-- Mojo compiler: [/KGEN](KGEN)
-- Mojo standard library: [/mojo/stdlib](mojo/stdlib)
+- Mojo compiler: [/Mojo](/Mojo)
+- Mojo standard library: [/Mojo/stdlib](/Mojo/stdlib)
 - MAX accelerator library: [/max/kernels](/max/kernels)
 - MAX inference server: [/max/python/max/serve](/max/python/max/serve)
   (OpenAI-compatible endpoint)
 - MAX model pipelines: [/max/python/max/pipelines](/max/python/max/pipelines)
   (Python-based graphs)
 - Code examples: [/max/examples](/max/examples) +
-  [/mojo/examples](mojo/examples)
+  [/Mojo/examples](/Mojo/examples)
 
 ## Contribute
 
@@ -72,7 +72,7 @@ to the following documentation about how to develop in the repo:
 
 - [`/max/docs`](/max/docs): Docs for developers working in the MAX framework
   codebase.
-- [`/mojo/stdlib/docs`](/mojo/stdlib/docs): Docs for developers working in the
+- [`/Mojo/docs/stdlib`](/Mojo/docs/stdlib): Docs for developers working in the
   Mojo standard library.
 
 We also welcome your bug reports. If you have a bug, please [file an issue

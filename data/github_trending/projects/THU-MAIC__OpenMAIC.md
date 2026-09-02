@@ -5,7 +5,7 @@
   "full_name": "THU-MAIC/OpenMAIC",
   "url": "https://github.com/THU-MAIC/OpenMAIC",
   "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
-  "readme_sha256": "008d7856ff16e94a1fc2283c1c82386daf66a26b8e6483a803362b3664e8df30"
+  "readme_sha256": "8162f915ffc52bb647ab688e03873b5babc30b2e75e1dd308cf231f289b08c63"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/THU-MAIC/OpenMAIC
 - Description: Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
-- README SHA256: `008d7856ff16e94a1fc2283c1c82386daf66a26b8e6483a803362b3664e8df30`
+- README SHA256: `8162f915ffc52bb647ab688e03873b5babc30b2e75e1dd308cf231f289b08c63`
 
 ## README
 
@@ -30,9 +30,9 @@
 </p>
 
 <p align="center">
-  <a href="https://my.feishu.cn/wiki/UIfKw9Knti0LcKkTxDNcqlUrnzh"><img src="https://img.shields.io/badge/%F0%9F%93%98%20User%20Guide-v1.0.0%20%C2%B7%20English-4F8EF7?style=for-the-badge" alt="v1.0.0 User Guide (English)"/></a>
+  <a href="https://lcn6dqn3m0yr.feishu.cn/wiki/CkQSwHFdzibQFvkGzwPcmUOfnXg"><img src="https://img.shields.io/badge/%F0%9F%93%98%20User%20Guide-v1.0.0%20%C2%B7%20English-4F8EF7?style=for-the-badge" alt="v1.0.0 User Guide (English)"/></a>
   &nbsp;&nbsp;
-  <a href="https://lcn6dqn3m0yr.feishu.cn/wiki/CkQSwHFdzibQFvkGzwPcmUOfnXg"><img src="https://img.shields.io/badge/%F0%9F%93%99%20%E4%BD%93%E9%AA%8C%E6%8C%87%E5%8D%97-v1.0.0%20%C2%B7%20%E4%B8%AD%E6%96%87-FF6B35?style=for-the-badge" alt="v1.0.0 体验指南（中文）"/></a>
+  <a href="https://my.feishu.cn/wiki/UIfKw9Knti0LcKkTxDNcqlUrnzh"><img src="https://img.shields.io/badge/%F0%9F%93%99%20%E4%BD%93%E9%AA%8C%E6%8C%87%E5%8D%97-v1.0.0%20%C2%B7%20%E4%B8%AD%E6%96%87-FF6B35?style=for-the-badge" alt="v1.0.0 体验指南（中文）"/></a>
 </p>
 
 <p align="center">

@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 1,
+      "readme_sha256": "20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 2,
+      "readme_sha256": "f010c343ca74f6066df230c884156fcbb6af8fa6b216841fc5706645e3f8616c",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 3,
+      "readme_sha256": "8162f915ffc52bb647ab688e03873b5babc30b2e75e1dd308cf231f289b08c63",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Invidious is an alternative front-end to YouTube",
+      "full_name": "iv-org/invidious",
+      "project_file": "projects/iv-org__invidious.md",
+      "rank": 4,
+      "readme_sha256": "df31edca3eb76a5790cbb84bc29f747c20b81e552965366acff9feeeab278506",
+      "url": "https://github.com/iv-org/invidious"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 5,
+      "readme_sha256": "ff72848143ea0c9d7c47d058c5760d53ae78d16de6f4166b9751f869b0edfd2c",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 6,
+      "readme_sha256": "c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "full_name": "firecrawl/pdf-inspector",
+      "project_file": "projects/firecrawl__pdf-inspector.md",
+      "rank": 7,
+      "readme_sha256": "193f15fc57408de171e38d1ad7cd0df109e116ad31371049c47ee7aab55a4e11",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 8,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 9,
+      "readme_sha256": "742fbdfafacf37a8ae68b5a0f2a01b62457dea3477ac2203aad50b801fbbc5c0",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "project_file": "projects/handsomestWei__patent-disclosure-skill.md",
+      "rank": 10,
+      "readme_sha256": "02e438bc6b86d680034db56bbf4f4ce08ebbc7ea757526b616a04e6858edc538",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    {
+      "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
+      "full_name": "VoltAgent/awesome-design-md",
+      "project_file": "projects/VoltAgent__awesome-design-md.md",
+      "rank": 11,
+      "readme_sha256": "3f60b909bf66f844a0d122b45c3e39eaaffc43bfcf3c8717e9bc6b47c781457b",
+      "url": "https://github.com/VoltAgent/awesome-design-md"
+    },
+    {
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "full_name": "averygan/reclip",
+      "project_file": "projects/averygan__reclip.md",
+      "rank": 12,
+      "readme_sha256": "9d6fbe406f7bdb470b8071d9b9f93b21319ab2b35106ea437adc446541fff43d",
+      "url": "https://github.com/averygan/reclip"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 13,
+      "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "🚀🤖 Crawl4AI: Open-source LLM Friendly Web Crawler & Scraper. Don't be shy, join here: https://discord.gg/jP8KfhDhyN",
+      "full_name": "unclecode/crawl4ai",
+      "project_file": "projects/unclecode__crawl4ai.md",
+      "rank": 14,
+      "readme_sha256": "3de808095d5cb8101f2467b9646a795a76e1d81d8cf7d953c171c66d7ae0d3dd",
+      "url": "https://github.com/unclecode/crawl4ai"
+    }
+  ],
+  "snapshot_date": "2026-09-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

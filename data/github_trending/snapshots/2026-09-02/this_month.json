@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 1,
+      "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 2,
+      "readme_sha256": "a948284dd60bc67f1ed58d0b91716a579d54d768a1d4bee7d1210b859a67df29",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 3,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 4,
+      "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 5,
+      "readme_sha256": "bca840b7ab7b293e87917b53fd4f4b0ca552d04130feb4d37932dae0d4301b0a",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 6,
+      "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 7,
+      "readme_sha256": "fd7b48020a0b8d76d79e81c3907c42703bcf74f7aa122ace5050c8f9b590acf4",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.",
+      "full_name": "huangruiteng/loopx",
+      "project_file": "projects/huangruiteng__loopx.md",
+      "rank": 8,
+      "readme_sha256": "3386bb3e6df6344179280dca5fd1ba0cb3bd682d707c471048a3c1cf134cbb70",
+      "url": "https://github.com/huangruiteng/loopx"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 9,
+      "readme_sha256": "aff506f59a95cea5831113e2a85cddb28558cdb7a60f2644e1d3f7a2c2816aad",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 10,
+      "readme_sha256": "b80b3b05257a4ed6a1b3d77f89cdbeb54917c24d212d9742b25c1425b94260cc",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "full_name": "firecrawl/pdf-inspector",
+      "project_file": "projects/firecrawl__pdf-inspector.md",
+      "rank": 11,
+      "readme_sha256": "193f15fc57408de171e38d1ad7cd0df109e116ad31371049c47ee7aab55a4e11",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 12,
+      "readme_sha256": "b4aae633b7d049333e2c0e7e10ef889c06b189e65206c0748b73ee60aa9547cd",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 13,
+      "readme_sha256": "9719db4e38f758256e70b584ca02ccdc2c08f98919382e14429246007d3135d3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技能路由包 - AI 自动路由 + 按需自举工具链 + 自动进化经验库 | 支持 Claude Code / Kiro / Cursor / Cline 等代码 AI 客户端",
+      "full_name": "zhaoxuya520/reverse-skill",
+      "project_file": "projects/zhaoxuya520__reverse-skill.md",
+      "rank": 14,
+      "readme_sha256": "47f840e0e65b83dfdd1741ed3568367b50ee9b1d60d516282d72bfd76ef49281",
+      "url": "https://github.com/zhaoxuya520/reverse-skill"
+    },
+    {
+      "description": "Learn how to design large-scale systems. Prep for the system design interview. Includes Anki flashcards.",
+      "full_name": "donnemartin/system-design-primer",
+      "project_file": "projects/donnemartin__system-design-primer.md",
+      "rank": 15,
+      "readme_sha256": "390a8cad315d703c10cfbdf6832c2f320882bd4c3feaf2cea78c820995903cf1",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    {
+      "description": "A simple tool for coordinating several AI agents.",
+      "full_name": "unclebob/swarm-forge",
+      "project_file": "projects/unclebob__swarm-forge.md",
+      "rank": 16,
+      "readme_sha256": "99aef41642aba8b273f3ca71abdfc4dae944a6286dd6bb2a22b45ec018ce37f6",
+      "url": "https://github.com/unclebob/swarm-forge"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 17,
+      "readme_sha256": "aa416a10cbdc02677922a878be06851c535794dafd74b9fc004a3753fe7bd9e1",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 18,
+      "readme_sha256": "c1079a3a7c0e58a88f4342dacbee525e0e24cbed61f71f0199fef2ffe0bca482",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 19,
+      "readme_sha256": "0926b7a3f44632821d9caf54e2c567a2080d731f9f33fbb0e88cb86e1860b819",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.",
+      "full_name": "youssofal/MTPLX",
+      "project_file": "projects/youssofal__MTPLX.md",
+      "rank": 20,
+      "readme_sha256": "7f530497bc1cb678b500a419182f3ada176d57eaa9bd40a003f8472b32520e29",
+      "url": "https://github.com/youssofal/MTPLX"
+    },
+    {
+      "description": "Animation engine for explanatory math videos",
+      "full_name": "3b1b/manim",
+      "project_file": "projects/3b1b__manim.md",
+      "rank": 21,
+      "readme_sha256": "c691ca2c4eea1303d9a56dbf970840ed9a424fdae222ce2e244937969c267b00",
+      "url": "https://github.com/3b1b/manim"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 22,
+      "readme_sha256": "8162f915ffc52bb647ab688e03873b5babc30b2e75e1dd308cf231f289b08c63",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    }
+  ],
+  "snapshot_date": "2026-09-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

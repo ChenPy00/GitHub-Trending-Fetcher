@@ -5,7 +5,7 @@
   "full_name": "VoltAgent/awesome-design-md",
   "url": "https://github.com/VoltAgent/awesome-design-md",
   "description": "A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
-  "readme_sha256": "c9f1a23ded2e3fbda15aa722a989ecf5e4e800edd5d56abe52685573359cc568"
+  "readme_sha256": "3f60b909bf66f844a0d122b45c3e39eaaffc43bfcf3c8717e9bc6b47c781457b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/VoltAgent/awesome-design-md
 - Description: A collection of DESIGN.md files analysis by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.
-- README SHA256: `c9f1a23ded2e3fbda15aa722a989ecf5e4e800edd5d56abe52685573359cc568`
+- README SHA256: `3f60b909bf66f844a0d122b45c3e39eaaffc43bfcf3c8717e9bc6b47c781457b`
 
 ## README
 
@@ -72,8 +72,19 @@ You can [request a DESIGN.md](https://getdesign.md/request) for specific website
 
 <br/>
 
+You ship products with AI, but every launch still dies quietly because nobody posts about it. [EveryFeed](https://everyfeed.ai/) plugs your AI assistant into a social workspace that drafts, schedules, and publishes across 35+ channels — no agency, no marketing hire.
+
+<a href="https://everyfeed.ai/">
+<img src="https://cdn.voltagent.dev/awesome-repo/everyfeed-social.png" alt="everyfeed"  /><br/>
+</a>
+
+<br/>
+<br/>
+
+Stop building from a blank page. [LaunchKit](https://launchkit.getdesign.md/) gives your AI coding assistant a complete, working product to start from — websites, startups, and web apps that are clickable on day one.
+
 <a href="https://launchkit.getdesign.md/">
-<img src="https://cdn.voltagent.dev/awesome-repo/launchkit-banner-3.png" alt="launchkit"  /><br/>
+<img src="https://cdn.voltagent.dev/awesome-repo/new-launchkit.png" alt="launchkit"  /><br/>
 </a>
 
 <br/>

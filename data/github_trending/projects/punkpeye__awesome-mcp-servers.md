@@ -5,7 +5,7 @@
   "full_name": "punkpeye/awesome-mcp-servers",
   "url": "https://github.com/punkpeye/awesome-mcp-servers",
   "description": "A collection of MCP servers.",
-  "readme_sha256": "ce6710e4dfb41d89b8918d40b6b7c315ce48e0ad0b0c3c5227efd6b716944fbd"
+  "readme_sha256": "da23ffe6bc53eb237793a349ab644631faaa93b09524a0943759f61f96aeee63"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/punkpeye/awesome-mcp-servers
 - Description: A collection of MCP servers.
-- README SHA256: `ce6710e4dfb41d89b8918d40b6b7c315ce48e0ad0b0c3c5227efd6b716944fbd`
+- README SHA256: `da23ffe6bc53eb237793a349ab644631faaa93b09524a0943759f61f96aeee63`
 
 ## README
 
@@ -28,7 +28,9 @@
 [![Subreddit subscribers](https://img.shields.io/reddit/subreddit-subscribers/mcp?style=flat&logo=reddit&label=subreddit)](https://www.reddit.com/r/mcp/)
 
 > [!IMPORTANT]
-> [Awesome MCP Servers](https://glama.ai/mcp/servers) web directory.
+> [ray.run](https://ray.run/) – from idea to a production-grade MCP server in under a minute! 🦜
+
+<sup><a href="https://glama.ai/advertise">Ad</a></sup>
 
 A curated list of awesome Model Context Protocol (MCP) servers.
 
