@@ -5,7 +5,7 @@
   "full_name": "firecrawl/pdf-inspector",
   "url": "https://github.com/firecrawl/pdf-inspector",
   "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
-  "readme_sha256": "193f15fc57408de171e38d1ad7cd0df109e116ad31371049c47ee7aab55a4e11"
+  "readme_sha256": "931b9c3beaf88a5dd946b855d064b43f27bd4c430ca09c6e709d988b07b7c758"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/firecrawl/pdf-inspector
 - Description: Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.
-- README SHA256: `193f15fc57408de171e38d1ad7cd0df109e116ad31371049c47ee7aab55a4e11`
+- README SHA256: `931b9c3beaf88a5dd946b855d064b43f27bd4c430ca09c6e709d988b07b7c758`
 
 ## README
 
@@ -164,7 +164,7 @@ pdf2md document.pdf
 # JSON output (for piping)
 pdf2md document.pdf --json
 
-# Positioned TextItem JSON, including is_underline metadata
+# Positioned TextItem JSON (coordinates relative to the visible page box), including is_underline metadata
 pdf2md document.pdf --items-json
 
 # Raw markdown only (no headers)

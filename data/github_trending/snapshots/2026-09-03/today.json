@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 1,
+      "readme_sha256": "409c4c11448a4b131a10000d8d9a3493570a85fa85d800e51ee77f52b65dbaa4",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 2,
+      "readme_sha256": "f8aa6b728d8648e137983b32b3c78d1fbb806b49b94a43cd805d3b50118fd135",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 3,
+      "readme_sha256": "03432a62c4f08b4312f7f85fd7349d6510c765e3bc94608df0b28e9f752e9a15",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 4,
+      "readme_sha256": "c9d201593b8b2276fa3bb3570e2cc8cdde7d779bdd7e15da875cd02836608be7",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A股自动选股系统 — 多种技术形态自动扫描，收盘后自动运行并推送飞书",
+      "full_name": "sngyai/Sequoia-X",
+      "project_file": "projects/sngyai__Sequoia-X.md",
+      "rank": 5,
+      "readme_sha256": "4fbcb717a9db26ac21dd7ae1be442f163e145aab25b02be62b9147bfecab0177",
+      "url": "https://github.com/sngyai/Sequoia-X"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 6,
+      "readme_sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 7,
+      "readme_sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "Open-source inference server and production cluster for all the models your agent needs.",
+      "full_name": "superlinked/sie",
+      "project_file": "projects/superlinked__sie.md",
+      "rank": 8,
+      "readme_sha256": "416a4449fb263148bf20289d9f936891c48af6baa4aab88c770b68a0ba76e157",
+      "url": "https://github.com/superlinked/sie"
+    },
+    {
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "full_name": "pacifio/atlas",
+      "project_file": "projects/pacifio__atlas.md",
+      "rank": 9,
+      "readme_sha256": "7bcca87472592ae62b06c3ccbb09b5ad62922ab0a46989013e6d502ef4ccd252",
+      "url": "https://github.com/pacifio/atlas"
+    },
+    {
+      "description": "Practice English, one strike, one step forward; 练习英语，一次敲击，一点进步；",
+      "full_name": "zyronon/TypeWords",
+      "project_file": "projects/zyronon__TypeWords.md",
+      "rank": 10,
+      "readme_sha256": "503fcfd8cbab95f3465e85578045123883369c6f510f260e8738b28e880c8d47",
+      "url": "https://github.com/zyronon/TypeWords"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 11,
+      "readme_sha256": "f010c343ca74f6066df230c884156fcbb6af8fa6b216841fc5706645e3f8616c",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 12,
+      "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Protocol Buffers - Google's data interchange format",
+      "full_name": "protocolbuffers/protobuf",
+      "project_file": "projects/protocolbuffers__protobuf.md",
+      "rank": 13,
+      "readme_sha256": "766a75d175e1005821ed5996724eb4c051ea6e735fc95c135271fa4068a70a98",
+      "url": "https://github.com/protocolbuffers/protobuf"
+    },
+    {
+      "description": "Replace port numbers with stable, named local URLs. For humans and agents.",
+      "full_name": "vercel-labs/portless",
+      "project_file": "projects/vercel-labs__portless.md",
+      "rank": 14,
+      "readme_sha256": "c80e5f208b9109fad0656a6b2a9966968a20554e8f29c971ca3266410dbfa854",
+      "url": "https://github.com/vercel-labs/portless"
+    },
+    {
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "full_name": "blader/humanizer",
+      "project_file": "projects/blader__humanizer.md",
+      "rank": 15,
+      "readme_sha256": "d45a4faae168c33c3bce155e9bda14eaafc86a2342d4a9ffac47d35dd7a8a8f0",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 16,
+      "readme_sha256": "d7ce5e316f3974789ec4337078e5b0fbd92d36dccfe5735c7da346df18eee092",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 17,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 18,
+      "readme_sha256": "20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "Fast Rust library for PDF inspection, classification, and text extraction. Intelligently detects scanned vs text-based PDFs to enable smart routing decisions.",
+      "full_name": "firecrawl/pdf-inspector",
+      "project_file": "projects/firecrawl__pdf-inspector.md",
+      "rank": 19,
+      "readme_sha256": "931b9c3beaf88a5dd946b855d064b43f27bd4c430ca09c6e709d988b07b7c758",
+      "url": "https://github.com/firecrawl/pdf-inspector"
+    }
+  ],
+  "snapshot_date": "2026-09-03",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
