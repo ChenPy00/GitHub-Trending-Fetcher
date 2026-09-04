@@ -5,7 +5,7 @@
   "full_name": "vitali87/code-graph-rag",
   "url": "https://github.com/vitali87/code-graph-rag",
   "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
-  "readme_sha256": "a6faea96ba8253f6b15f94dc6a1c6261904b2f88a95a0b74ef0af5d763e7cdd6"
+  "readme_sha256": "cdc2f2ca7f95bff15b5645355dfc78f01ac9e44b32915a2982bde2f7302e3760"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vitali87/code-graph-rag
 - Description: The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs
-- README SHA256: `a6faea96ba8253f6b15f94dc6a1c6261904b2f88a95a0b74ef0af5d763e7cdd6`
+- README SHA256: `cdc2f2ca7f95bff15b5645355dfc78f01ac9e44b32915a2982bde2f7302e3760`
 
 ## README
 
@@ -29,17 +29,6 @@
   </p>
 
   <p>
-  <!-- Badges below are commented out while the GitHub account is suspended. Restore them when the account is reinstated.
-       Stars/Forks: shields.io hits GitHub's API (returns "repo not found" for suspended accounts).
-       gitcgr: indexes from GitHub (shows "not indexed" while unavailable).
-       MseeP.ai: badge PNG ignores inline height on Bitbucket and renders as a full-size tile.
-  <a href="https://github.com/vitali87/code-graph-rag/stargazers">
-    <img src="https://img.shields.io/github/stars/vitali87/code-graph-rag?style=social" alt="GitHub stars" />
-  </a>
-  <a href="https://github.com/vitali87/code-graph-rag/network/members">
-    <img src="https://img.shields.io/github/forks/vitali87/code-graph-rag?style=social" alt="GitHub forks" />
-  </a>
-  -->
   <a href="https://github.com/vitali87/code-graph-rag/actions/workflows/ci.yml">
     <img src="https://img.shields.io/github/actions/workflow/status/vitali87/code-graph-rag/ci.yml?branch=main" alt="CI" />
   </a>
@@ -49,11 +38,6 @@
   <a href="https://sonarcloud.io/summary/overall?id=vitali87_code-graph-rag">
     <img src="https://sonarcloud.io/api/project_badges/measure?project=vitali87_code-graph-rag&metric=alert_status" alt="Quality Gate Status" />
   </a>
-  <!--
-  <a href="https://mseep.ai/app/vitali87-code-graph-rag">
-    <img src="https://mseep.net/pr/vitali87-code-graph-rag-badge.png" alt="MseeP.ai Security Assessment" height="20" />
-  </a>
-  -->
   <a href="https://code-graph-rag.com">
     <img src="https://img.shields.io/badge/Enterprise-Support%20%26%20Services-6366f1" alt="Enterprise Support" />
   </a>
@@ -72,11 +56,6 @@
   <a href="https://www.bestpractices.dev/projects/13757">
     <img src="https://www.bestpractices.dev/projects/13757/badge" alt="OpenSSF Best Practices" />
   </a>
-  <!--
-  <a href="https://gitcgr.com/vitali87/code-graph-rag">
-    <img src="https://gitcgr.com/badge/vitali87/code-graph-rag.svg" alt="gitcgr" />
-  </a>
-  -->
 </p>
 </div>
 
@@ -91,9 +70,12 @@ Code-Graph-RAG parses a multi-language codebase with Tree-sitter, builds a knowl
 ## Latest News 🔥
 
 <!-- SECTION:latest_news -->
-- **Runtime Call Tracing**: A dynamic tracer runs your code (typically the test suite) and merges the calls that actually happened into the graph as `CALLS` edges (flagged where static analysis missed them), so dispatch through interfaces, virtual methods, function pointers, reflection, and framework routing becomes visible. Convert a run from Python, the JVM, Node.js, .NET, PHP, Lua, Dart, Go, Rust, or C/C++ with `cgr trace`, or ingest production pprof profiles from an eBPF continuous profiler (Parca, Pyroscope, OpenTelemetry) with `cgr trace convert --format ebpf`.
-- **Ruby Support**: Ruby joins the graph through a new pluggable ast-grep tier that adds a language from a single YAML pattern file, emitting `Module`, `Function`, and `Class` nodes plus import edges without a hand-written parser.
-- **Structural Search & Replace**: Find and rewrite code by AST pattern with ast-grep, exposed as agent tools so you can match and transform structure across the whole codebase instead of relying on text or regex.
+- **Index Consistency**: Ensure incremental deletes match clean index states.
+- **Patch Reporting**: Distinguish between unverifiable and verified patches in reports.
+- **Windows Teardown**: Clear the read-only bit when removing a temp repo for successful Windows teardown.
+- **TypeScript Grading**: Grade TypeScript inheritance against the tsc oracle for improved accuracy.
+- **Exclude Set Handling**: Record the exclusion set to ensure `--exclude` flags are correctly applied across runs.
+- **MCP Indexing**: Honour `.cgrignore` and `.gitignore` in MCP index and update processes, matching the CLI.
 <!-- /SECTION:latest_news -->
 
 See [NEWS.md](NEWS.md) for the full history.
@@ -127,7 +109,7 @@ See the [Architecture Overview](docs/architecture/overview.md) and [Graph Schema
 
 ## Supported Languages
 
-Python, TypeScript, TSX, JavaScript, Rust, Go, Java, C, C++, C#, PHP, Lua, and Dart are fully supported. Scala is in development, and Ruby has structural support (modules, functions, classes, and imports) through the pluggable ast-grep tier. See the [Language Support](docs/architecture/language-support.md) matrix for per-language capabilities.
+Python, TypeScript, TSX, JavaScript, Rust, Go, Java, C, C++, C#, PHP, Lua, and Dart are fully supported. Scala is in development, and Ruby, Kotlin, Swift, Elixir, Haskell, Solidity, Bash, and Nix have structural support (modules, functions, classes where the language has them, and imports) through the pluggable ast-grep tier. See the [Language Support](docs/architecture/language-support.md) matrix for per-language capabilities.
 
 ## Installation
 
@@ -141,7 +123,35 @@ uv tool install "code-graph-rag[treesitter-full,semantic]"
 pipx install "code-graph-rag[treesitter-full,semantic]"
 ```
 
-You also need Docker (for Memgraph), `cmake`, and `ripgrep`. Full prerequisites, source installs, and environment setup are in the [Installation](docs/getting-started/installation.md) guide.
+### Which version am I getting?
+
+Three version lines exist and they intentionally differ:
+
+| where | what it tracks |
+|---|---|
+| git tags | every version, one per merge |
+| GitHub Releases (binaries, signatures) | every 50th version, plus any security fix |
+| PyPI | every 50th version, plus any security fix |
+
+So the newest tag on `main` usually runs ahead of the newest release, often by
+tens of patch versions; they coincide only just after a release. Nothing is
+stuck, the cadences differ by design. A security fix does NOT wait for the
+cadence: it ships a release and a PyPI upload immediately.
+
+`uv tool install` and `pipx install` give you the newest PyPI version, which is the
+newest RELEASE, not the newest tag. Interim tags exist so every merge is
+addressable; binaries and PyPI uploads follow the cadence above.
+
+To run code newer than the latest release, install from git:
+
+```bash
+uv tool install "code-graph-rag[treesitter-full,semantic] @ git+https://github.com/vitali87/code-graph-rag@main"
+```
+
+You also need Python 3.12+, Docker (for Memgraph), `cmake`, and `ripgrep`. Full prerequisites, source installs, and environment setup are in the [Installation](docs/getting-started/installation.md) guide.
+
+> [!NOTE]
+> The wheel is pure Python (`py3-none-any`), so the package itself installs on any platform with Python 3.12 or newer (dependencies may still need platform wheels or build tools, such as `cmake` for `pymgclient`). The [piwheels](https://www.piwheels.org/project/code-graph-rag/) build for Debian Bookworm shows as failed because Bookworm's system Python is 3.11, which is below our floor. On Raspberry Pi OS Bookworm, pin the interpreter explicitly, for example `uv tool install --python 3.12 "code-graph-rag[treesitter-full,semantic]"`; uv downloads Python 3.12 automatically and the PyPI wheel installs normally.
 
 ## Quick Start
 
@@ -181,6 +191,7 @@ Code-Graph-RAG runs as an [MCP](https://modelcontextprotocol.io) server so Claud
 - [Dynamic Call Tracing](docs/guide/dynamic-tracing.md)
 - [Graph Export](docs/guide/graph-export.md)
 - [Real-Time Updates](docs/guide/realtime-updates.md)
+- [C/C++ Semantic Mode](docs/guide/cpp-semantic-mode.md)
 - [MCP Server](docs/guide/mcp-server.md)
 
 **Architecture**

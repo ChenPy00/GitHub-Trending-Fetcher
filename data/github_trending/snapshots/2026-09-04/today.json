@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 1,
+      "readme_sha256": "409c4c11448a4b131a10000d8d9a3493570a85fa85d800e51ee77f52b65dbaa4",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 2,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 3,
+      "readme_sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 4,
+      "readme_sha256": "03432a62c4f08b4312f7f85fd7349d6510c765e3bc94608df0b28e9f752e9a15",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 5,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 6,
+      "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 7,
+      "readme_sha256": "c209e98184df3e78fbd6466305198cdf46b4dededbe0f8ca83cf3ef68149dad6",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "full_name": "blader/humanizer",
+      "project_file": "projects/blader__humanizer.md",
+      "rank": 8,
+      "readme_sha256": "d45a4faae168c33c3bce155e9bda14eaafc86a2342d4a9ffac47d35dd7a8a8f0",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 9,
+      "readme_sha256": "f8aa6b728d8648e137983b32b3c78d1fbb806b49b94a43cd805d3b50118fd135",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "full_name": "averygan/reclip",
+      "project_file": "projects/averygan__reclip.md",
+      "rank": 10,
+      "readme_sha256": "9d6fbe406f7bdb470b8071d9b9f93b21319ab2b35106ea437adc446541fff43d",
+      "url": "https://github.com/averygan/reclip"
+    },
+    {
+      "description": "翻墙-科学上网",
+      "full_name": "bannedbook/fanqiang",
+      "project_file": "projects/bannedbook__fanqiang.md",
+      "rank": 11,
+      "readme_sha256": "619a8f75deb7513b14f001303ae83281b1db005376cf946f8e0f87f523b3d803",
+      "url": "https://github.com/bannedbook/fanqiang"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 12,
+      "readme_sha256": "cfcbadefb2418898b19849a62036876c675e30620a810ecca6e7adc6f1022ec2",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.",
+      "full_name": "ByteByteGoHq/system-design-101",
+      "project_file": "projects/ByteByteGoHq__system-design-101.md",
+      "rank": 13,
+      "readme_sha256": "23b7cf98fbe6b465293555c22d527b74926f165be9a7fc5468e43d66922942e7",
+      "url": "https://github.com/ByteByteGoHq/system-design-101"
+    },
+    {
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "full_name": "magnitudedev/magnitude",
+      "project_file": "projects/magnitudedev__magnitude.md",
+      "rank": 14,
+      "readme_sha256": "0536aaa7d7884e8c141c19256d3341e721e1b3e445a7b5f31d6db8742e460705",
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 15,
+      "readme_sha256": "f010c343ca74f6066df230c884156fcbb6af8fa6b216841fc5706645e3f8616c",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 16,
+      "readme_sha256": "20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 17,
+      "readme_sha256": "4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "full_name": "f/prompts.chat",
+      "project_file": "projects/f__prompts.chat.md",
+      "rank": 18,
+      "readme_sha256": "580241073020148096fb32d9731c9068ec5110b06d92c6e7f32816d2076d94d2",
+      "url": "https://github.com/f/prompts.chat"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 19,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    }
+  ],
+  "snapshot_date": "2026-09-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

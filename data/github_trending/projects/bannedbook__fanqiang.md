@@ -5,7 +5,7 @@
   "full_name": "bannedbook/fanqiang",
   "url": "https://github.com/bannedbook/fanqiang",
   "description": "翻墙-科学上网",
-  "readme_sha256": "0ebca5114bbcf9252771729717dfa14816b33ca913613fccfbe47f9530e0a577"
+  "readme_sha256": "619a8f75deb7513b14f001303ae83281b1db005376cf946f8e0f87f523b3d803"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/bannedbook/fanqiang
 - Description: 翻墙-科学上网
-- README SHA256: `0ebca5114bbcf9252771729717dfa14816b33ca913613fccfbe47f9530e0a577`
+- README SHA256: `619a8f75deb7513b14f001303ae83281b1db005376cf946f8e0f87f523b3d803`
 
 ## README
 
@@ -35,11 +35,13 @@
 *   [iphone翻墙](https://github.com/bannedbook/fanqiang/wiki/iphone%E7%BF%BB%E5%A2%99)
 *   [TorBrowser一键翻墙包](https://github.com/bannedbook/fanqiang/wiki/TorBrowser%E4%B8%80%E9%94%AE%E7%BF%BB%E5%A2%99%E5%8C%85)
 *   [中国大陆注册ChatGPT教程](https://github.com/bannedbook/fanqiang/blob/master/signup-chatgpt.md#%E4%B8%AD%E5%9B%BD%E5%A4%A7%E9%99%86%E6%B3%A8%E5%86%8Cchatgpt%E6%95%99%E7%A8%8B)
+*   [如何使用v2rayN配置链式代理](https://github.com/bannedbook/fanqiang/blob/master/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8v2rayN%E9%85%8D%E7%BD%AE%E9%93%BE%E5%BC%8F%E4%BB%A3%E7%90%86.md)
 
 ## [Windows V2ray/SS/SSR 翻墙教程](https://github.com/bannedbook/fanqiang/tree/master/windows)
 
   * [Clash for Windows 翻墙教程](https://github.com/bannedbook/fanqiang/tree/master/windows/ClashDotNetFramework.md)
   * [V2rayN 教程](https://github.com/bannedbook/fanqiang/tree/master/windows/V2RayN.md)
+  * [如何使用v2rayN配置链式代理](https://github.com/bannedbook/fanqiang/blob/master/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8v2rayN%E9%85%8D%E7%BD%AE%E9%93%BE%E5%BC%8F%E4%BB%A3%E7%90%86.md)
   * [SSTap教程](https://github.com/bannedbook/fanqiang/tree/master/windows/SSTap.md)
   * [Windows翻墙之SSR教程](https://github.com/bannedbook/fanqiang/tree/master/windows/ShadowsocksR.md)
   * [TorBrowser+V2rayN配置使用教程](https://github.com/bannedbook/fanqiang/tree/master/windows/tor-v2ray.md)

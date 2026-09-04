@@ -5,7 +5,7 @@
   "full_name": "JetBrains/go-modern-guidelines",
   "url": "https://github.com/JetBrains/go-modern-guidelines",
   "description": "Help AI coding agents write modern Go",
-  "readme_sha256": "2bc41152d06de88b123421e99368326bbe56bc47b79020da5f5a6d3f0b53164e"
+  "readme_sha256": "20eacd817e9e34f858451219d17d09e17e75866097c83e83f3604a1e5c3a504e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/JetBrains/go-modern-guidelines
 - Description: Help AI coding agents write modern Go
-- README SHA256: `2bc41152d06de88b123421e99368326bbe56bc47b79020da5f5a6d3f0b53164e`
+- README SHA256: `20eacd817e9e34f858451219d17d09e17e75866097c83e83f3604a1e5c3a504e`
 
 ## README
 
@@ -192,6 +192,10 @@ npx skills update use-modern-go -p -y
 ```
 
 For a globally installed skill, replace `-p` with `-g`.
+
+## Contributing
+
+Contributions are very welcome. Please read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing a change.
 
 ## Local development
 

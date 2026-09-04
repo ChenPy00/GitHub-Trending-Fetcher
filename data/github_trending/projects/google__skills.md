@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "cad9d19796fc2becf60deb3a4f6d08cf99c905785f7e5cd5235cce0eb18cb956"
+  "readme_sha256": "812fbed488d7f3c0e9adf775a82a0cee77c913e130a506e292ba3930f8a79041"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `cad9d19796fc2becf60deb3a4f6d08cf99c905785f7e5cd5235cce0eb18cb956`
+- README SHA256: `812fbed488d7f3c0e9adf775a82a0cee77c913e130a506e292ba3930f8a79041`
 
 ## README
 
@@ -96,6 +96,7 @@ repo to install.
   - [**GKE Manifest Generation Skill**](./skills/cloud/gke-manifest-generation)
   - [**GKE Multi-Tenancy**](./skills/cloud/gke-multitenancy)
   - [**GKE Networking**](./skills/cloud/gke-networking)
+  - [**GKE Node NotReady Troubleshooting Skill**](./skills/cloud/gke-node-notready)
   - [**GKE Productionize Skill**](./skills/cloud/gke-productionize)
   - [**GKE Reliability**](./skills/cloud/gke-reliability)
   - [**GKE Service Networking Skill**](./skills/cloud/gke-service-networking)
@@ -108,6 +109,7 @@ repo to install.
   - [**Google Cloud global external Application Load Balancer Configuration Skill**](./skills/cloud/google-cloud-global-frontend-configuration)
   - [**Google Cloud Networking Observability Expert**](./skills/cloud/google-cloud-networking-observability)
   - [**Google Cloud Storage Basics**](./skills/cloud/google-cloud-storage-basics)
+  - [**Google Cloud Storage Bucket Architect**](./skills/cloud/google-cloud-storage-bucket-architect)
   - [**Google Cloud Storage FUSE**](./skills/cloud/google-cloud-storage-fuse)
 - **Databases and analytics**
   - [**AlloyDB Basics**](./skills/cloud/alloydb-basics)

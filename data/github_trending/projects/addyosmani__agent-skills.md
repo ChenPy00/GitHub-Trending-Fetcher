@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "70d0e32bfa384c6093229bab18802d475112168033e182caeb0328330a492bbc"
+  "readme_sha256": "cfcbadefb2418898b19849a62036876c675e30620a810ecca6e7adc6f1022ec2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `70d0e32bfa384c6093229bab18802d475112168033e182caeb0328330a492bbc`
+- README SHA256: `cfcbadefb2418898b19849a62036876c675e30620a810ecca6e7adc6f1022ec2`
 
 ## README
 
@@ -126,7 +126,7 @@ Put workflow skills under `.cursor/skills/` (sync from `agent-skills/skills/`) a
 <details>
 <summary><b>Antigravity CLI</b></summary>
 
-Install as a native plugin for skills, subagents, and slash commands. See [docs/antigravity-setup.md](docs/antigravity-setup.md).
+Install as a native plugin for skills and subagents. In affected Antigravity CLI releases, legacy command TOMLs are reported as converted but their wrapper commands are not discoverable; invoke the underlying namespaced skills directly. See [docs/antigravity-setup.md](docs/antigravity-setup.md#lifecycle-workflows-and-command-compatibility).
 
 **Install from the repo:**
 

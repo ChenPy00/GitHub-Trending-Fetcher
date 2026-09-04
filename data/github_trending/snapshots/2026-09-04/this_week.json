@@ -1,0 +1,193 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 1,
+      "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 2,
+      "readme_sha256": "49b1ac0026f66c25e0a4fe7712438ee662c892ce94c6595331bebc3f5e224d44",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 3,
+      "readme_sha256": "5c281dc872e6b834f6501abc2b507af377faa643d92cda7f2f4072ace629e17f",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Help AI coding agents write modern Go",
+      "full_name": "JetBrains/go-modern-guidelines",
+      "project_file": "projects/JetBrains__go-modern-guidelines.md",
+      "rank": 4,
+      "readme_sha256": "20eacd817e9e34f858451219d17d09e17e75866097c83e83f3604a1e5c3a504e",
+      "url": "https://github.com/JetBrains/go-modern-guidelines"
+    },
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 5,
+      "readme_sha256": "20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 6,
+      "readme_sha256": "02baf226ca9caba3c93ac13fc8c91a26a86c0ed1720d4e8ca52ee5e7e950e3a1",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 7,
+      "readme_sha256": "ff72848143ea0c9d7c47d058c5760d53ae78d16de6f4166b9751f869b0edfd2c",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 8,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 9,
+      "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 10,
+      "readme_sha256": "f8aa6b728d8648e137983b32b3c78d1fbb806b49b94a43cd805d3b50118fd135",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Fully automatic censorship removal for language models",
+      "full_name": "p-e-w/heretic",
+      "project_file": "projects/p-e-w__heretic.md",
+      "rank": 11,
+      "readme_sha256": "adef9399887cdab52faa68560eae24af7ae9e71f2fdcc8f68e285641f9788a48",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 12,
+      "readme_sha256": "0c9fb4cb01cbf3ff76215cfbe22b32128a7b6c28ec2c5aa936becb633c679800",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 13,
+      "readme_sha256": "a948284dd60bc67f1ed58d0b91716a579d54d768a1d4bee7d1210b859a67df29",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "full_name": "abi/screenshot-to-code",
+      "project_file": "projects/abi__screenshot-to-code.md",
+      "rank": 14,
+      "readme_sha256": "a728506f78f76cbe602ae83805be2516b4c0b03763de09a64184fc96bb619c06",
+      "url": "https://github.com/abi/screenshot-to-code"
+    },
+    {
+      "description": "TypeScript-first schema validation with static type inference",
+      "full_name": "colinhacks/zod",
+      "project_file": "projects/colinhacks__zod.md",
+      "rank": 15,
+      "readme_sha256": "b4bf9d5c867bd860d58c63b2979f655049e7872c41d15dea572da529c32a7dc9",
+      "url": "https://github.com/colinhacks/zod"
+    },
+    {
+      "description": "Alternative Twitter front-end",
+      "full_name": "zedeus/nitter",
+      "project_file": "projects/zedeus__nitter.md",
+      "rank": 16,
+      "readme_sha256": "4d947eca46b243c0fa971f4e9bbe708b4f3306fb8cdfcd502dddf9ed07c0ac70",
+      "url": "https://github.com/zedeus/nitter"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 17,
+      "readme_sha256": "b6ca5ce628cab18476a681e9d4166b3c9d469cd27b6e53b7ed06bfb4f7f15d9e",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 18,
+      "readme_sha256": "4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A collection of MCP servers.",
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "project_file": "projects/punkpeye__awesome-mcp-servers.md",
+      "rank": 19,
+      "readme_sha256": "da23ffe6bc53eb237793a349ab644631faaa93b09524a0943759f61f96aeee63",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    {
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "project_file": "projects/handsomestWei__patent-disclosure-skill.md",
+      "rank": 20,
+      "readme_sha256": "323a4f6234de99d8cf48291b413d78d06e2c287f378e68730c23ecc0022fee7e",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 21,
+      "readme_sha256": "6da368b6acad476e8351d6023ec9ace3a81cdf767de3a8d151b72281052de8be",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "full_name": "majd/ipatool",
+      "project_file": "projects/majd__ipatool.md",
+      "rank": 22,
+      "readme_sha256": "6df7f8322a0b77e05a33e8ca5557cdc24c3b8684a342f51d8a1034bf8cfc2df8",
+      "url": "https://github.com/majd/ipatool"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 23,
+      "readme_sha256": "409c4c11448a4b131a10000d8d9a3493570a85fa85d800e51ee77f52b65dbaa4",
+      "url": "https://github.com/fmtlib/fmt"
+    }
+  ],
+  "snapshot_date": "2026-09-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

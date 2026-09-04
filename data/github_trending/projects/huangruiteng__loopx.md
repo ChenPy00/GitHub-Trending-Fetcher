@@ -5,7 +5,7 @@
   "full_name": "huangruiteng/loopx",
   "url": "https://github.com/huangruiteng/loopx",
   "description": "Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.",
-  "readme_sha256": "3386bb3e6df6344179280dca5fd1ba0cb3bd682d707c471048a3c1cf134cbb70"
+  "readme_sha256": "6a0c636fadf705644ced6db16b3e06259321c64b736bce053f368d75e017d64a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huangruiteng/loopx
 - Description: Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.
-- README SHA256: `3386bb3e6df6344179280dca5fd1ba0cb3bd682d707c471048a3c1cf134cbb70`
+- README SHA256: `6a0c636fadf705644ced6db16b3e06259321c64b736bce053f368d75e017d64a`
 
 ## README
 
@@ -314,7 +314,7 @@ LoopX should reuse existing state rather than overwrite it. Keep `.loopx/`,
 | Pi | Install the opt-in goal extension with `loopx slash-commands --install --surface pi`, then use `/loopx <task>` from a trusted Pi session. | Visible Pi goal extension gated by LoopX quota (`loopx_goal_activate` + `agent_settled` continuation) |
 | ZCode | Install the skill facade with `loopx slash-commands --install --surface zcode`, then invoke the `$loopx` skill (or `/loopx <complex task>`) from a ZCode session in the project. | The ZCode session's own turn loop; every continuation enters through `quota should-run` |
 | Antigravity CLI (agy) | Install the skill facade with `loopx slash-commands --install --surface agy`, then invoke the `loopx` skill (or `/loopx <complex task>`) from an `agy` session in the project. | The session's native `/goal` loop (audited until `<!-- GOAL_COMPLETE -->`) with `schedule` self-wakes while the session lives; the facade instructs every turn/wake to re-enter through `quota should-run` — advisory pacing, not a host-enforced gate |
-| DeepSeek Harness (dsh) | Install `loopx[deepseek-harness]`, prepare a dsh `cordis.yml`, then use the [dsh goal-mode adapter](loopx/dsh_goal_mode/README.md) with `loopx turn run-once`. | Headless dsh segments through LoopX Turn, each tick gated by `quota should-run` |
+| DeepSeek Harness (dsh) | Install the [native DSH plugin](packages/dsh-loopx-plugin/README.md), select the `loopx` skill, and describe the task. The [dsh goal-mode adapter](loopx/dsh_goal_mode/README.md) remains available for headless turns. | Native same-session continuation and GoalBar, or headless dsh segments; both remain gated by LoopX authority |
 | Cursor, shell, or custom runner | Use the installer and `loopx doctor`; connect manually or call LoopX from your runner. | Your shell, scheduler, or runner |
 
 The exact, copy-ready setup messages and host recovery paths live in
@@ -324,6 +324,11 @@ the [Codex CLI packaged install path](docs/product/runtimes/codex-cli/codex-cli-
 the [Claude Code adapter](loopx/claude_goal_mode/README.md), the
 [KunlunCode native Goal adapter](loopx/kunluncode_goal_mode/README.md), or the
 [DeepSeek Harness turn adapter](loopx/dsh_goal_mode/README.md).
+
+See the [60-second DSH × LoopX Replan recording and reproducible
+fixture](docs/showcases/cases/dsh-loopx-replan-demo.md) for the native path:
+install the plugin, select one skill, change a material constraint, and inspect
+the preserved decision trail.
 
 For custom runners, start with the
 [minimal custom runtime example](docs/guides/minimal-custom-runtime-example.md)

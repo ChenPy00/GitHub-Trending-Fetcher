@@ -1,0 +1,169 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 1,
+      "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 2,
+      "readme_sha256": "c6c234d5bea3a321162f3949339ca649a817947e87a846ab7633d8779136e4cc",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 3,
+      "readme_sha256": "a948284dd60bc67f1ed58d0b91716a579d54d768a1d4bee7d1210b859a67df29",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "full_name": "cloudflare/cloudflare-os",
+      "project_file": "projects/cloudflare__cloudflare-os.md",
+      "rank": 4,
+      "readme_sha256": "24363f6af9eb1cd04fb432f38301d853e895edbe8d13de36a21ce9ad685f8de8",
+      "url": "https://github.com/cloudflare/cloudflare-os"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 5,
+      "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 6,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 7,
+      "readme_sha256": "bca840b7ab7b293e87917b53fd4f4b0ca552d04130feb4d37932dae0d4301b0a",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 8,
+      "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 9,
+      "readme_sha256": "0c9fb4cb01cbf3ff76215cfbe22b32128a7b6c28ec2c5aa936becb633c679800",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "The ultimate RAG for your monorepo. Query, understand, and edit multi-language codebases with the power of AI and knowledge graphs",
+      "full_name": "vitali87/code-graph-rag",
+      "project_file": "projects/vitali87__code-graph-rag.md",
+      "rank": 10,
+      "readme_sha256": "cdc2f2ca7f95bff15b5645355dfc78f01ac9e44b32915a2982bde2f7302e3760",
+      "url": "https://github.com/vitali87/code-graph-rag"
+    },
+    {
+      "description": "Algorithm powering the For You feed on X",
+      "full_name": "xai-org/x-algorithm",
+      "project_file": "projects/xai-org__x-algorithm.md",
+      "rank": 11,
+      "readme_sha256": "203d9b6ee7495c7160cb59185125d3aaaa6b3bd75ecb4e48b3af6a5c4c8938e5",
+      "url": "https://github.com/xai-org/x-algorithm"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 12,
+      "readme_sha256": "5c281dc872e6b834f6501abc2b507af377faa643d92cda7f2f4072ace629e17f",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 13,
+      "readme_sha256": "9719db4e38f758256e70b584ca02ccdc2c08f98919382e14429246007d3135d3",
+      "url": "https://github.com/cactus-compute/needle"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 14,
+      "readme_sha256": "5be2430fcc867469b6abc7e00c6813a9d97c3546880ca72a7eba1b75aa559f28",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+      "full_name": "TencentCloud/TencentDB-Agent-Memory",
+      "project_file": "projects/TencentCloud__TencentDB-Agent-Memory.md",
+      "rank": 15,
+      "readme_sha256": "fd7b48020a0b8d76d79e81c3907c42703bcf74f7aa122ace5050c8f9b590acf4",
+      "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory"
+    },
+    {
+      "description": "3x faster speeds on MLX | Qwen 3.8 27B | Native MTP Speculative Decoding On Apple Silicon With No External Drafter.",
+      "full_name": "youssofal/MTPLX",
+      "project_file": "projects/youssofal__MTPLX.md",
+      "rank": 16,
+      "readme_sha256": "7f530497bc1cb678b500a419182f3ada176d57eaa9bd40a003f8472b32520e29",
+      "url": "https://github.com/youssofal/MTPLX"
+    },
+    {
+      "description": "Give your agent a computer 👾",
+      "full_name": "cloudflare/computer",
+      "project_file": "projects/cloudflare__computer.md",
+      "rank": 17,
+      "readme_sha256": "5bb0ac5c1888fd21d43e2443d4819e685cd491fe26888fc4ebbe14791ee57f3f",
+      "url": "https://github.com/cloudflare/computer"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 18,
+      "readme_sha256": "812fbed488d7f3c0e9adf775a82a0cee77c913e130a506e292ba3930f8a79041",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 19,
+      "readme_sha256": "aa416a10cbdc02677922a878be06851c535794dafd74b9fc004a3753fe7bd9e1",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.",
+      "full_name": "huangruiteng/loopx",
+      "project_file": "projects/huangruiteng__loopx.md",
+      "rank": 20,
+      "readme_sha256": "6a0c636fadf705644ced6db16b3e06259321c64b736bce053f368d75e017d64a",
+      "url": "https://github.com/huangruiteng/loopx"
+    }
+  ],
+  "snapshot_date": "2026-09-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
