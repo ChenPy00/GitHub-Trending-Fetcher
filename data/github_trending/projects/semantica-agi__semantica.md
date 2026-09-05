@@ -5,7 +5,7 @@
   "full_name": "semantica-agi/semantica",
   "url": "https://github.com/semantica-agi/semantica",
   "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-  "readme_sha256": "c6c234d5bea3a321162f3949339ca649a817947e87a846ab7633d8779136e4cc"
+  "readme_sha256": "af405c1f0cab5fd5fd9d08a2f85028e0d884ba6953a1ff17e087b8681f243f6d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/semantica-agi/semantica
 - Description: Graph-Native Infrastructure for Context and Accountable AI Systems
-- README SHA256: `c6c234d5bea3a321162f3949339ca649a817947e87a846ab7633d8779136e4cc`
+- README SHA256: `af405c1f0cab5fd5fd9d08a2f85028e0d884ba6953a1ff17e087b8681f243f6d`
 
 ## README
 
@@ -33,7 +33,7 @@
 
 ### Graph-Native Infrastructure for Context and Accountable AI Systems
 
-#### *The Open Source Palantir for AI Agents*
+#### *Developer-first, knowledge infrastructure for AI, alternative to expensive enterprise platforms.*
 
 > Ingest your enterprise data, extract what matters, build a Context Graph and knowledge graph (KG), and run graph analytics and causal reasoning over all of it, with full decision provenance baked in. Explainable, traceable, and trustworthy by design.
 

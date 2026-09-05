@@ -5,7 +5,7 @@
   "full_name": "google-research/timesfm",
   "url": "https://github.com/google-research/timesfm",
   "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-  "readme_sha256": "f8aa6b728d8648e137983b32b3c78d1fbb806b49b94a43cd805d3b50118fd135"
+  "readme_sha256": "b59a9795a70b636a3e1fb405fc4edede9810d2376878d9e2b09c2c60b11c7b00"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google-research/timesfm
 - Description: TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.
-- README SHA256: `f8aa6b728d8648e137983b32b3c78d1fbb806b49b94a43cd805d3b50118fd135`
+- README SHA256: `b59a9795a70b636a3e1fb405fc4edede9810d2376878d9e2b09c2c60b11c7b00`
 
 ## README
 
@@ -36,7 +36,7 @@ model developed by Google Research for time-series forecasting.
         Enterprise level SQL queries for scalability and reliability.
     *   [Google Sheets](https://workspaceupdates.googleblog.com/2026/02/forecast-data-in-connected-sheets-BigQueryML-TimesFM.html):
         For your daily spreadsheet.
-    *   [Vertex Model Garden](https://pantheon.corp.google.com/vertex-ai/publishers/google/model-garden/timesfm):
+    *   [Vertex Model Garden](https://console.cloud.google.com/vertex-ai/publishers/google/model-garden/timesfm):
         Dockerized endpoint for agentic calling.
 
 This open version is not an officially supported Google product.

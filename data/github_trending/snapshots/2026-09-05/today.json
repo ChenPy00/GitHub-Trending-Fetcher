@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 1,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 2,
+      "readme_sha256": "52b5a75d5f5ba323b3aed53f06edeef31f7b05a5937c8d633ca7899dc4a9ee5c",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 3,
+      "readme_sha256": "4d6e7c19e753211dc20c81b5c596fd6b738c5c307a091c43fd37aeadc4e7c807",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 4,
+      "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 5,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "full_name": "blader/humanizer",
+      "project_file": "projects/blader__humanizer.md",
+      "rank": 6,
+      "readme_sha256": "d45a4faae168c33c3bce155e9bda14eaafc86a2342d4a9ffac47d35dd7a8a8f0",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 7,
+      "readme_sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 8,
+      "readme_sha256": "c209e98184df3e78fbd6466305198cdf46b4dededbe0f8ca83cf3ef68149dad6",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "full_name": "magnitudedev/magnitude",
+      "project_file": "projects/magnitudedev__magnitude.md",
+      "rank": 9,
+      "readme_sha256": "0536aaa7d7884e8c141c19256d3341e721e1b3e445a7b5f31d6db8742e460705",
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "full_name": "bikini/exploitarium",
+      "project_file": "projects/bikini__exploitarium.md",
+      "rank": 10,
+      "readme_sha256": "fbdc864695a4164dc16ddf19372364f8064112db1886196858afba40cd00d57e",
+      "url": "https://github.com/bikini/exploitarium"
+    },
+    {
+      "description": "翻墙-科学上网",
+      "full_name": "bannedbook/fanqiang",
+      "project_file": "projects/bannedbook__fanqiang.md",
+      "rank": 11,
+      "readme_sha256": "619a8f75deb7513b14f001303ae83281b1db005376cf946f8e0f87f523b3d803",
+      "url": "https://github.com/bannedbook/fanqiang"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 12,
+      "readme_sha256": "4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 13,
+      "readme_sha256": "b59a9795a70b636a3e1fb405fc4edede9810d2376878d9e2b09c2c60b11c7b00",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.",
+      "full_name": "radixark/miles",
+      "project_file": "projects/radixark__miles.md",
+      "rank": 14,
+      "readme_sha256": "374fb26c8d3466bafcb5b502542603c395ce880ccbe3958d6601c34af19b8466",
+      "url": "https://github.com/radixark/miles"
+    },
+    {
+      "description": "The open source coding agent.",
+      "full_name": "anomalyco/opencode",
+      "project_file": "projects/anomalyco__opencode.md",
+      "rank": 15,
+      "readme_sha256": "400890a3082e225c440561825270a911cd7df90a9f64f85166aed330201e50ba",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "description": "Renovation Engine for DirectX Games",
+      "full_name": "clshortfuse/renodx",
+      "project_file": "projects/clshortfuse__renodx.md",
+      "rank": 16,
+      "readme_sha256": "a4497fc204ddc628a89bb275abc1879dfec4695998ce3de8149b4e24e64ec309",
+      "url": "https://github.com/clshortfuse/renodx"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 17,
+      "readme_sha256": "fb87bab7b6682b50dc9d366ca03fd6709acfb2657d1343abc39408d47c39e37f",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "snapshot_date": "2026-09-05",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

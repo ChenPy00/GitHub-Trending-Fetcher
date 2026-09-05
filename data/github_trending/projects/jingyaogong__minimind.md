@@ -5,7 +5,7 @@
   "full_name": "jingyaogong/minimind",
   "url": "https://github.com/jingyaogong/minimind",
   "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
-  "readme_sha256": "ff72848143ea0c9d7c47d058c5760d53ae78d16de6f4166b9751f869b0edfd2c"
+  "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/jingyaogong/minimind
 - Description: 🧠 Train a 64M-parameter LLM from scratch in just 2h!
-- README SHA256: `ff72848143ea0c9d7c47d058c5760d53ae78d16de6f4166b9751f869b0edfd2c`
+- README SHA256: `1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58`
 
 ## README
 
@@ -1617,6 +1617,15 @@ MiniMind 的数据规模远小于表中其他模型，且训练比例偏向中�
 | [TinyLlama-1.1B](https://huggingface.co/TinyLlama/TinyLlama-1.1B-Chat-v1.0) | TinyLlama | 1100M | 25.71 / 25.03 | 54.80 / 74.43 / 35.60 / 60.38 / 43.09 |
 | [SmolLM2-135M](https://huggingface.co/HuggingFaceTB/SmolLM2-135M-Instruct) | HuggingFace | 135M | 24.44 / 24.71 | 58.50 / 68.17 / 32.80 / 43.15 / 39.46 |
 | [Aquila-135M](https://huggingface.co/BAAI/Aquila-135M-Instruct) | BAAI | 135M | 25.19 / 25.10 | 54.59 / 67.52 / 34.40 / 41.67 / 39.66 |
+
+> **这张表的分辨率**：`lm_eval` 对每个指标都会同时输出一个 `stderr`，它主要由测试集大小决定，因此下面的数值对表中所有模型都近似适用（随准确率略有浮动）：
+>
+> | 数据集 | obqa | ceval | piqa | siqa | arc | hellaswag | cmmlu |
+> |---|---|---|---|---|---|---|---|
+> | 样本量 | 500 | ~1.3k | 1838 | 1954 | 2376 | 10042 | 11582 |
+> | ± 标准误 | **1.9** | 1.2 | 1.2 | 1.1 | 0.9 | 0.5 | **0.4** |
+>
+> 比较两个模型时，差值的标准误约为单项的 `√2` 倍。因此 obqa 上小于约 5 个百分点、ceval / piqa / siqa 上小于约 3 个百分点的差异，都不足以区分两个模型——这也解释了为什么本表中同一量级的模型排序不宜过度解读。
 
 <details>
 <summary><strong>补充说明（来源/无污染/复现）</strong></summary>

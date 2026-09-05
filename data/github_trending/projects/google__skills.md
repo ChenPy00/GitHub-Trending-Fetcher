@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "812fbed488d7f3c0e9adf775a82a0cee77c913e130a506e292ba3930f8a79041"
+  "readme_sha256": "6957415a120f4424070b31004a020512f049e945c9337af9de340d20a4241fff"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `812fbed488d7f3c0e9adf775a82a0cee77c913e130a506e292ba3930f8a79041`
+- README SHA256: `6957415a120f4424070b31004a020512f049e945c9337af9de340d20a4241fff`
 
 ## README
 
@@ -154,6 +154,7 @@ repo to install.
   - [**Google Cloud Well-Architected Framework skill for the Security pillar**](./skills/cloud/google-cloud-waf-security)
   - [**Google Cloud Well-Architected Framework skill for the Sustainability pillar**](./skills/cloud/google-cloud-waf-sustainability)
 - **Security and identity**
+  - [**DPoP Adoption & Identity Security Architecture**](./skills/identity/dpop-adoption)
   - [**GKE Platform Security**](./skills/cloud/gke-platform-security)
   - [**GKE Workload Security**](./skills/cloud/gke-workload-security)
   - [**Google Cloud Security Command Center Query Skill**](./skills/cloud/google-cloud-scc-query)

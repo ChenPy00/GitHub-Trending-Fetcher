@@ -5,7 +5,7 @@
   "full_name": "Lakr233/vphone-cli",
   "url": "https://github.com/Lakr233/vphone-cli",
   "description": "",
-  "readme_sha256": "c152fe19894e8885991c689fc0c5298c8806412d8acb79d0ca69063b0e618b54"
+  "readme_sha256": "bf06f68073edea91ddaa1d6f2d3ff634f1eee9eb7eb93c5525281645790b7f80"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Lakr233/vphone-cli
 - Description: No description
-- README SHA256: `c152fe19894e8885991c689fc0c5298c8806412d8acb79d0ca69063b0e618b54`
+- README SHA256: `bf06f68073edea91ddaa1d6f2d3ff634f1eee9eb7eb93c5525281645790b7f80`
 
 ## README
 
@@ -192,6 +192,7 @@ vphone-amfidont         # .build/vphone-cli.app/Contents/Resources/vphone-amfido
 | Mac16,6 26.6.1  | `17,3_27.0_24A5408d`  | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_27.0_24A5418b`  | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_27.0_24A5424a`  | `26.4-23E5207q` |
+| Mac16,11 27.0b2 | `17,3_27.0_24A5430a`  | `26.4-23E5207q` |
 
 ## FAQ
 

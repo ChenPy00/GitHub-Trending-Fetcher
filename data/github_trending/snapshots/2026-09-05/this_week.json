@@ -1,0 +1,169 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 1,
+      "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 2,
+      "readme_sha256": "5c281dc872e6b834f6501abc2b507af377faa643d92cda7f2f4072ace629e17f",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 3,
+      "readme_sha256": "b2fb6ecebd03ad377b9e3e6c21e2f85c3fa7af41bc48d96aa26300e96b64a678",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 4,
+      "readme_sha256": "20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 5,
+      "readme_sha256": "b59a9795a70b636a3e1fb405fc4edede9810d2376878d9e2b09c2c60b11c7b00",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 6,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 7,
+      "readme_sha256": "02baf226ca9caba3c93ac13fc8c91a26a86c0ed1720d4e8ca52ee5e7e950e3a1",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 8,
+      "readme_sha256": "bf06f68073edea91ddaa1d6f2d3ff634f1eee9eb7eb93c5525281645790b7f80",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 9,
+      "readme_sha256": "4d6e7c19e753211dc20c81b5c596fd6b738c5c307a091c43fd37aeadc4e7c807",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 10,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "Fully automatic censorship removal for language models",
+      "full_name": "p-e-w/heretic",
+      "project_file": "projects/p-e-w__heretic.md",
+      "rank": 11,
+      "readme_sha256": "adef9399887cdab52faa68560eae24af7ae9e71f2fdcc8f68e285641f9788a48",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "description": "TypeScript-first schema validation with static type inference",
+      "full_name": "colinhacks/zod",
+      "project_file": "projects/colinhacks__zod.md",
+      "rank": 12,
+      "readme_sha256": "b4bf9d5c867bd860d58c63b2979f655049e7872c41d15dea572da529c32a7dc9",
+      "url": "https://github.com/colinhacks/zod"
+    },
+    {
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "project_file": "projects/handsomestWei__patent-disclosure-skill.md",
+      "rank": 13,
+      "readme_sha256": "323a4f6234de99d8cf48291b413d78d06e2c287f378e68730c23ecc0022fee7e",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 14,
+      "readme_sha256": "4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A collection of MCP servers.",
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "project_file": "projects/punkpeye__awesome-mcp-servers.md",
+      "rank": 15,
+      "readme_sha256": "da23ffe6bc53eb237793a349ab644631faaa93b09524a0943759f61f96aeee63",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    {
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "full_name": "abi/screenshot-to-code",
+      "project_file": "projects/abi__screenshot-to-code.md",
+      "rank": 16,
+      "readme_sha256": "a728506f78f76cbe602ae83805be2516b4c0b03763de09a64184fc96bb619c06",
+      "url": "https://github.com/abi/screenshot-to-code"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 17,
+      "readme_sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "full_name": "majd/ipatool",
+      "project_file": "projects/majd__ipatool.md",
+      "rank": 18,
+      "readme_sha256": "6df7f8322a0b77e05a33e8ca5557cdc24c3b8684a342f51d8a1034bf8cfc2df8",
+      "url": "https://github.com/majd/ipatool"
+    },
+    {
+      "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
+      "full_name": "MakazhanAlpamys/Soup",
+      "project_file": "projects/MakazhanAlpamys__Soup.md",
+      "rank": 19,
+      "readme_sha256": "7290aaff80de33e3f75a8f21ce238552f764097f51f5549139ace559feef45be",
+      "url": "https://github.com/MakazhanAlpamys/Soup"
+    },
+    {
+      "description": "Voice-to-text dictation app with local (Nvidia Parakeet/Whisper) and cloud models (BYOK). Privacy-first and available cross-platform.",
+      "full_name": "OpenWhispr/openwhispr",
+      "project_file": "projects/OpenWhispr__openwhispr.md",
+      "rank": 20,
+      "readme_sha256": "f8e12704834cded422affdf9dcef71fe9e930470310838a33325da9334665dec",
+      "url": "https://github.com/OpenWhispr/openwhispr"
+    }
+  ],
+  "snapshot_date": "2026-09-05",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

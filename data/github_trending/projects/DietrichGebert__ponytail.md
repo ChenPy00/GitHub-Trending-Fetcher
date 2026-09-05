@@ -5,7 +5,7 @@
   "full_name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "readme_sha256": "03432a62c4f08b4312f7f85fd7349d6510c765e3bc94608df0b28e9f752e9a15"
+  "readme_sha256": "52b5a75d5f5ba323b3aed53f06edeef31f7b05a5937c8d633ca7899dc4a9ee5c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DietrichGebert/ponytail
 - Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- README SHA256: `03432a62c4f08b4312f7f85fd7349d6510c765e3bc94608df0b28e9f752e9a15`
+- README SHA256: `52b5a75d5f5ba323b3aed53f06edeef31f7b05a5937c8d633ca7899dc4a9ee5c`
 
 ## README
 
@@ -31,6 +31,10 @@
 </p>
 
 <p align="center">
+  <a href="https://trendshift.io/repositories/50668?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/50668" alt="DietrichGebert%2Fponytail | Trendshift" width="250" height="55"/></a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/github/stars/DietrichGebert/ponytail?style=flat-square&color=111111&label=stars" alt="Stars">
   <img src="https://img.shields.io/github/v/release/DietrichGebert/ponytail?style=flat-square&color=111111&label=release" alt="Release">
   <img src="https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm" alt="npm">
@@ -41,6 +45,7 @@
 <p align="center">
   <a href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/daily" alt="DietrichGebert/ponytail | Trendshift" width="250" height="55"/></a>
   <a href="https://trendshift.io/repositories/50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/weekly" alt="DietrichGebert/ponytail | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/50668?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-50668" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/50668/monthly?language=JavaScript" alt="DietrichGebert%2Fponytail | Trendshift monthly ranking" width="250" height="55"/></a>
 </p>
 
 <p align="center">

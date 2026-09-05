@@ -5,7 +5,7 @@
   "full_name": "MakazhanAlpamys/Soup",
   "url": "https://github.com/MakazhanAlpamys/Soup",
   "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-  "readme_sha256": "513672ba2137b07b76cea5a8648edca1ff832183e6ac4e76ac8704b5f339dbe8"
+  "readme_sha256": "7290aaff80de33e3f75a8f21ce238552f764097f51f5549139ace559feef45be"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/MakazhanAlpamys/Soup
 - Description: Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
-- README SHA256: `513672ba2137b07b76cea5a8648edca1ff832183e6ac4e76ac8704b5f339dbe8`
+- README SHA256: `7290aaff80de33e3f75a8f21ce238552f764097f51f5549139ace559feef45be`
 
 ## README
 
@@ -57,6 +57,9 @@
       <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1217869&amp;theme=light" alt="Soup CLI - Fine-tune an 8B LLM on a 4 GB laptop GPU | Product Hunt" width="250" height="54">
     </picture>
   </a>
+  <a href="https://trendshift.io/repositories/98395?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-98395" target="_blank" rel="noopener noreferrer">
+    <img src="https://trendshift.io/api/badge/repositories/98395" alt="MakazhanAlpamys/Soup | Trendshift" width="250" height="55">
+  </a>
 </p>
 
 ---
@@ -98,48 +101,54 @@ infrastructure instead of improving models. Soup fixes that.
 
 ## What's New
 
-**v0.73.2 — the release gate stops lying in both directions.** `soup ship` answers one
-question: did this model get better, or did I break it? Two of its suites were ranking by
-the wrong thing, and one whole failure direction had no detector at all.
+**v0.74.0 — the frozen base was being loaded in fp32 the whole time.** Fixing that
+alone cuts peak VRAM 2.59x on an unchanged config. **116 of the 120 merged pull
+requests in this release came from outside the maintainer**, by 25 people.
 
-- **A suite scored 0.225 for a model that got it right 40/40.** `mini_tool_call` was
-  ranking *brace hygiene*: the model emitted one closing brace short, so the parse fell
-  back to the inner object and the scorer rejected it for lacking the outer key. And
-  `mini_mmlu` scored Llama-3.1-8B at **0.423 — below a 0.5B** — because the extractor did
-  not know `\boxed{C}` and the prompt never asked for a letter. Both fixed; 0.423 → 0.731.
-- **New: a benign-prompt axis.** Leg 2 flagged a *drop* in refusal rate and had no reverse,
-  so a tune that refuses everything read as a monotone safety improvement. Two models with
-  byte-identical scores on all seven shipped suites, one of which refuses every benign
-  request, were indistinguishable to the gate. `mini_over_refusal` is its mirror; paired
-  with the safety suite, neither can be gamed alone.
-- **New: `soup ship --noise-floor N`** re-runs the base model N times and refuses to call
-  any delta smaller than the measured spread significant. Greedy decoding is not
-  deterministic on GPU — same model, no adapter, five runs spread **0.015–0.020** against a
-  0.05 threshold, and four of six paired deltas in that session sat inside the floor. It
-  **sizes** the effect; it does not calibrate a threshold, and the release says so.
-- **A caller error was indistinguishable from a regression.** A non-callable generator
-  scored `0.0` on three suites and raised on the others — and in leg 2 a 0.0 reads as
-  "failed every item", i.e. it failed in the direction that looks like a finding.
-- Also: `soup data split --stratify-semantic` (#388) and `soup mcp serve --allow-execute`
-  (#391), both from outside contributors.
+- **Every SFT load silently upcast the frozen base to fp32.** A base that never
+  receives an optimizer step was materialised at twice its checkpoint precision, on
+  all three load paths. Measured on an H100 with Llama-3.1-8B + LoRA: **48,241 MiB →
+  18,658 MiB peak — 2.59x, 28.9 GB**, byte-identical across three repeats. A trainable
+  base still loads fp32, deliberately.
+- **Transformers 5.x, TRL 0.29, PEFT 0.20.** Qwen3.5-family text decoders train on the
+  Transformers path, and `pip install "soup-cli[train,mlx]"` resolves again — the two
+  extras previously declared ranges that could not be satisfied together.
+- **The free Colab/Kaggle tier could not stream at all.** T4 / P100 / V100 / GTX 16xx
+  crashed layer streaming, because peft creates LoRA adapters in the checkpoint's dtype
+  while the fp16 GradScaler needs fp32 gradients.
+- **Four SSRF bypasses of the same shape.** Abbreviated, decimal, hex and octal IPv4
+  spellings (`127.1`, `2130706433`, `0x7f000001`, `0177.0.0.1`) reached the telemetry
+  and webhook guard — and, through a path the first fix never touched, the OTLP
+  tracing validator.
+- **Breaking: `soup serve` now exits 2** when bound to a non-loopback host without
+  `--tool-auth-token`, instead of printing a warning. `/v1/tools/bash` is re-enabled
+  behind real OS-level isolation, so the endpoint it protects now actually executes.
+- **`soup train --cloud lambda`**, plan-only by default, with termination in a
+  `finally` that also polls to confirm it happened.
 
-The measurement record for the previous release's VRAM work, published as written —
-including the **three readings withdrawn during it** — is
-[`benchmarks/gate-v0.73.1-measured-vram-fit.md`](benchmarks/gate-v0.73.1-measured-vram-fit.md).
+> Known limitation: the declared `torch>=2.5.0` floor does not work with `trl>=0.29` —
+> at torch 2.5.1 trl cannot import. A fresh install resolves a newer torch and is
+> unaffected; a pinned 2.5.x environment is not. See
+> [#651](https://github.com/MakazhanAlpamys/Soup/issues/651).
 
-```yaml
-# soup.yaml — then just `soup train --config soup.yaml`
-training:
-  stream_layers: true      # base streams out of VRAM; only the adapter trains
-  quantization: 4bit       # NF4 — ~4x smaller store, so 8B fits a 4 GB card
-  batch_size: 4            # bigger batches amortise the weight read
-  stream_source: auto      # RAM when it fits, NVMe disk when it does not
-  seed: 1234               # new in v0.73.0
-```
+> Python **3.10–3.12** only. On 3.13+, pip used to resolve untested PyTorch wheels that
+> crash in the native extension before Soup runs at all.
 
-> Python **3.10–3.12** only. v0.73.0 adds the upper bound that was missing: on 3.13+, pip
-> used to resolve untested PyTorch wheels that crash in the native extension before Soup
-> runs at all.
+<details>
+<summary>Previous release — v0.73.3, every pull request came from outside the maintainer</summary>
+
+**v0.73.3 — every pull request in this release came from someone other than the
+maintainer.** All 24 of them, from eight people, five of whom appear here for the first
+time. What they found is the interesting part: four separate flags that were validated,
+documented, and then read by nothing.
+- **Assistant-only masking trained on zero tokens, with a normal loss curve.** A
+  tokenizer returning `BatchEncoding` — which is not a `dict` — slipped past the guard,
+  so the label mask was built from the mapping's **key strings**. No exception, no
+  warning, a loss curve that looks like training. Found by reading the type, not by
+  hitting the bug.
+- **On Apple Silicon, `quantization: 4bit` was silently rewritten to `none`.**
+
+</details>
 
 <details>
 <summary>Previous release — v0.72.4, align on a laptop (DPO / ORPO / SimPO / KTO over layer streaming)</summary>
@@ -174,29 +183,6 @@ soup reward synth references.jsonl -o reward.py --output-report calib.json
 
 </details>
 
-<details>
-<summary>Previous release — v0.71.39, CI for weights not prompts (emit + provenance-bind the ship verdict)</summary>
-
-`soup ship`'s verdict became emittable, committable, and provenance-bound: `--emit-evidence` makes a
-run replay into an identical verdict, `eval.ship` in `soup.yaml` + `--config` makes the gate policy
-reviewable, and `--config` binds evidence to the exact recipe that produced it (stale evidence → exit 3).
-`soup ship --push owner/repo#N` posts the SHIP / DON'T-SHIP card on the PR.
-
-</details>
-
-<details>
-<summary>Previous release — v0.71.38, The gate grows teeth (real leg-2 regression gate)</summary>
-
-`soup ship`'s regression leg became real: a fixed, extraction-based scorer over seven bundled,
-offline suites (MCQ · arithmetic · tool-calling · JSON validity · safety/refusal). A tune that
-wins your task but quietly breaks tool-calling now gets a **DON'T SHIP**. Zero new deps.
-
-```bash
-soup ship --base ./base --adapter ./my-lora --task-eval my_task.jsonl
-#   exit 0 = SHIP · 2 = DON'T SHIP · 3 = bad flags · 1 = runtime error
-```
-
-</details>
 
 Full history: [CHANGELOG.md](CHANGELOG.md) &middot; [GitHub Releases](https://github.com/MakazhanAlpamys/Soup/releases).
 
@@ -281,6 +267,14 @@ output: ./output
 
 `config/schema.py` is the single source of truth for every field. Advanced data, training,
 and PEFT options are documented under [Documentation](#documentation).
+
+> **Unknown config keys warn today and will be rejected in v0.75.** A key no model
+> declares — a typo like `quantizaton`, or a field that only exists on a newer Soup —
+> used to validate clean and be discarded, so the run proceeded with the setting simply
+> not applied. It is now reported at load with the field you probably meant. From
+> **v0.75** the same config will fail to load instead of warning, so fix or remove the
+> key rather than relying on it being ignored. See
+> [Unknown config keys](docs/backends-and-ops.md#unknown-config-keys).
 
 ## Documentation
 
@@ -372,8 +366,9 @@ All training tasks run on CPU for testing (quantization auto-disabled). Optional
 soup doctor    # GPU, system resources, dependencies, and version in one place
 ```
 
-- **`ImportError: DLL load failed while importing _C` (Windows)** — reinstall PyTorch for your
-  CUDA version: `pip install torch --index-url https://download.pytorch.org/whl/cu121`.
+- **`ImportError: DLL load failed while importing _C` (Windows).** PyPI's torch
+  wheel is CPU-only. Reinstall a CUDA build; `soup doctor` prints the
+  `pip install` command for the wheel your driver can run.
 - **`soup version` ≠ `pip show soup-cli`** — multiple Python installs; use a virtualenv.
 
 ## Development
