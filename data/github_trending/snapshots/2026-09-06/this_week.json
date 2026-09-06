@@ -1,0 +1,177 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 1,
+      "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 2,
+      "readme_sha256": "5c281dc872e6b834f6501abc2b507af377faa643d92cda7f2f4072ace629e17f",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 3,
+      "readme_sha256": "b5ba1973682378aae2eb99e855b3c9a9c6472230e84a98b15d649274d1fc549e",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 4,
+      "readme_sha256": "b59a9795a70b636a3e1fb405fc4edede9810d2376878d9e2b09c2c60b11c7b00",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 5,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "full_name": "tailscale/tailcat",
+      "project_file": "projects/tailscale__tailcat.md",
+      "rank": 6,
+      "readme_sha256": "0c1f91b53a0b6e662f5278c1b66ea4942eb757cb319a37f7b7fc1d11c4f3e1b4",
+      "url": "https://github.com/tailscale/tailcat"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 7,
+      "readme_sha256": "02baf226ca9caba3c93ac13fc8c91a26a86c0ed1720d4e8ca52ee5e7e950e3a1",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 8,
+      "readme_sha256": "bf06f68073edea91ddaa1d6f2d3ff634f1eee9eb7eb93c5525281645790b7f80",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 9,
+      "readme_sha256": "18afe48d75ab550dfc71e88d3b066f1c4f9e0b6282e0ed1d9775db6e6b8e8dc5",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "project_file": "projects/handsomestWei__patent-disclosure-skill.md",
+      "rank": 10,
+      "readme_sha256": "3d6ea1abe77628fd8272b56c80b21d755900104d4af6dea72cce7e89615f4333",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 11,
+      "readme_sha256": "4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "full_name": "magnitudedev/magnitude",
+      "project_file": "projects/magnitudedev__magnitude.md",
+      "rank": 12,
+      "readme_sha256": "028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3",
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 13,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 14,
+      "readme_sha256": "36cd9279418420b2821344909dd487a343b84400ba1b70ef43e03b1569d2b563",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "A collection of MCP servers.",
+      "full_name": "punkpeye/awesome-mcp-servers",
+      "project_file": "projects/punkpeye__awesome-mcp-servers.md",
+      "rank": 15,
+      "readme_sha256": "da23ffe6bc53eb237793a349ab644631faaa93b09524a0943759f61f96aeee63",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    {
+      "description": "Fully automatic censorship removal for language models",
+      "full_name": "p-e-w/heretic",
+      "project_file": "projects/p-e-w__heretic.md",
+      "rank": 16,
+      "readme_sha256": "adef9399887cdab52faa68560eae24af7ae9e71f2fdcc8f68e285641f9788a48",
+      "url": "https://github.com/p-e-w/heretic"
+    },
+    {
+      "description": "Command-line tool that allows searching and downloading app packages (known as ipa files) for iOS, iPadOS, tvOS, and visionOS from the App Store.",
+      "full_name": "majd/ipatool",
+      "project_file": "projects/majd__ipatool.md",
+      "rank": 17,
+      "readme_sha256": "6df7f8322a0b77e05a33e8ca5557cdc24c3b8684a342f51d8a1034bf8cfc2df8",
+      "url": "https://github.com/majd/ipatool"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 18,
+      "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 19,
+      "readme_sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Checkstyle is a development tool to help programmers write Java code that adheres to a coding standard. By default it supports the Google Java Style Guide and Sun Code Conventions, but is highly configurable. It can be invoked with an ANT task and a command line program.",
+      "full_name": "checkstyle/checkstyle",
+      "project_file": "projects/checkstyle__checkstyle.md",
+      "rank": 20,
+      "readme_sha256": "8a31fca0bd8f7278391e65b37cf4ded8c9166ef31d3992194448b027ac2f3961",
+      "url": "https://github.com/checkstyle/checkstyle"
+    },
+    {
+      "description": "Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)",
+      "full_name": "abi/screenshot-to-code",
+      "project_file": "projects/abi__screenshot-to-code.md",
+      "rank": 21,
+      "readme_sha256": "a728506f78f76cbe602ae83805be2516b4c0b03763de09a64184fc96bb619c06",
+      "url": "https://github.com/abi/screenshot-to-code"
+    }
+  ],
+  "snapshot_date": "2026-09-06",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

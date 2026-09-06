@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 1,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 2,
+      "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 3,
+      "readme_sha256": "52b5a75d5f5ba323b3aed53f06edeef31f7b05a5937c8d633ca7899dc4a9ee5c",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 4,
+      "readme_sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 5,
+      "readme_sha256": "18afe48d75ab550dfc71e88d3b066f1c4f9e0b6282e0ed1d9775db6e6b8e8dc5",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 6,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 7,
+      "readme_sha256": "fb87bab7b6682b50dc9d366ca03fd6709acfb2657d1343abc39408d47c39e37f",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "The open source coding agent.",
+      "full_name": "anomalyco/opencode",
+      "project_file": "projects/anomalyco__opencode.md",
+      "rank": 8,
+      "readme_sha256": "400890a3082e225c440561825270a911cd7df90a9f64f85166aed330201e50ba",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 9,
+      "readme_sha256": "c7fd1828983ea5a378460432d40a7bb7317e87ae8481ef6f05cc8c90e0baa702",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "",
+      "full_name": "humanlayer/skills",
+      "project_file": "projects/humanlayer__skills.md",
+      "rank": 10,
+      "readme_sha256": "8123e666e2c8a5cb27f7211557f65544383178c7d1ad816b350d08bede2e323e",
+      "url": "https://github.com/humanlayer/skills"
+    },
+    {
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "full_name": "blader/humanizer",
+      "project_file": "projects/blader__humanizer.md",
+      "rank": 11,
+      "readme_sha256": "d45a4faae168c33c3bce155e9bda14eaafc86a2342d4a9ffac47d35dd7a8a8f0",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "description": "A list of tools that are open-source, in-browser, and require no-signups!",
+      "full_name": "BraveOPotato/FckSignups",
+      "project_file": "projects/BraveOPotato__FckSignups.md",
+      "rank": 12,
+      "readme_sha256": "dccc10159792b2911f31c69799b0c2bce1f57ac8b3dbdddf2971d773ab34ce15",
+      "url": "https://github.com/BraveOPotato/FckSignups"
+    },
+    {
+      "description": "Claude Code toolkit - agents, commands, skills, rules, and hooks for productive AI-assisted development",
+      "full_name": "WorldFlowAI/everything-claude-code",
+      "project_file": "projects/WorldFlowAI__everything-claude-code.md",
+      "rank": 13,
+      "readme_sha256": "5efe944f7718da3c18585bd34273d51019aa05f408fcc41226767991aac49ddc",
+      "url": "https://github.com/WorldFlowAI/everything-claude-code"
+    },
+    {
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "full_name": "magnitudedev/magnitude",
+      "project_file": "projects/magnitudedev__magnitude.md",
+      "rank": 14,
+      "readme_sha256": "028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3",
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz. Please do not abuse these. I do this so to allure people into the field, and I've always found this is the most efficient way.",
+      "full_name": "bikini/exploitarium",
+      "project_file": "projects/bikini__exploitarium.md",
+      "rank": 15,
+      "readme_sha256": "fbdc864695a4164dc16ddf19372364f8064112db1886196858afba40cd00d57e",
+      "url": "https://github.com/bikini/exploitarium"
+    },
+    {
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. $nvm: 3ArcxqLtXMmBnWbbtfwQgVL3MNnDsggzgGDtXMnjpump",
+      "full_name": "nvm-sh/nvm",
+      "project_file": "projects/nvm-sh__nvm.md",
+      "rank": 16,
+      "readme_sha256": "a59f39b6aaa314c6d9953130d600ee0f749cdf68f291c868e334add2da8a0576",
+      "url": "https://github.com/nvm-sh/nvm"
+    }
+  ],
+  "snapshot_date": "2026-09-06",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

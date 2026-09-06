@@ -5,7 +5,7 @@
   "full_name": "Gitlawb/openclaude",
   "url": "https://github.com/Gitlawb/openclaude",
   "description": "runs anywhere. uses anything",
-  "readme_sha256": "20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c"
+  "readme_sha256": "b5ba1973682378aae2eb99e855b3c9a9c6472230e84a98b15d649274d1fc549e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Gitlawb/openclaude
 - Description: runs anywhere. uses anything
-- README SHA256: `20692fefd7437b3b153ee6dd55383936799f6a71f38456d22e19e2512f44182c`
+- README SHA256: `b5ba1973682378aae2eb99e855b3c9a9c6472230e84a98b15d649274d1fc549e`
 
 ## README
 
@@ -329,6 +329,7 @@ Advanced and source-build guides:
 | AI/ML API | `/provider` or `AIMLAPI_API_KEY` ([setup guide](docs/aimlapi-setup.md)) | Uses `https://api.aimlapi.com/v1`, auto-detects the OpenAI-compatible route from `AIMLAPI_API_KEY`, sends OpenClaude attribution headers, and discovers chat-capable models from the public `/models` catalog |
 | Concentrate | `/provider` or `CONCENTRATE_API_KEY` | Unified OpenAI-compatible gateway at `https://api.concentrate.ai/v1`; defaults to `deepseek-v4-flash` and auto-discovers the chat model catalog |
 | LLMTR | `/provider` or OpenAI-compatible env vars | Multi-model gateway at `https://llmtr.com/v1`; `/provider` and `--provider llmtr` default to `deepseek/deepseek-v4-flash`, while raw env setup must set `OPENAI_BASE_URL=https://llmtr.com/v1` and `OPENAI_MODEL`; accepts `LLMTR_API_KEY` or `OPENAI_API_KEY` after the route is selected and discovers tool-capable Chat Completions models from the public catalog |
+| Command Code | `/provider` or OpenAI-compatible env vars | Hybrid OpenAI-compatible gateway at `https://api.commandcode.ai/provider/v1`; `/provider` and `--provider commandcode` default to `deepseek/deepseek-v4-flash`, while raw env setup must set `OPENAI_BASE_URL=https://api.commandcode.ai/provider/v1` and `OPENAI_MODEL`; requires `CMD_API_KEY`, `COMMANDCODE_API_KEY`, or the official `COMMAND_CODE_API_KEY` after the route is selected and discovers Chat Completions models from the public catalog. Claude models are unsupported by this Chat Completions integration |
 | ApiSmart | `/provider` or `APISMART_API_KEY` | Uses `https://gw.apismart.ai/v1`, defaults to `DEEPSEEK_V4_FLASH`, and supports optional `APISMART_MODEL` plus authenticated model discovery |
 | Hicap | `/provider` or OpenAI-compatible env vars | Uses `api-key` auth, discovers models from unauthenticated `/models`, and supports Responses mode for `gpt-` models |
 | Fireworks AI | `/provider` or env vars | First-class provider with 276 curated models (DeepSeek, Qwen, Llama, Gemma, and more); uses `FIREWORKS_API_KEY` |

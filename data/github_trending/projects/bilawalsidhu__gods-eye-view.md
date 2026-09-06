@@ -5,7 +5,7 @@
   "full_name": "bilawalsidhu/gods-eye-view",
   "url": "https://github.com/bilawalsidhu/gods-eye-view",
   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-  "readme_sha256": "b2fb6ecebd03ad377b9e3e6c21e2f85c3fa7af41bc48d96aa26300e96b64a678"
+  "readme_sha256": "36cd9279418420b2821344909dd487a343b84400ba1b70ef43e03b1569d2b563"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/bilawalsidhu/gods-eye-view
 - Description: A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-- README SHA256: `b2fb6ecebd03ad377b9e3e6c21e2f85c3fa7af41bc48d96aa26300e96b64a678`
+- README SHA256: `36cd9279418420b2821344909dd487a343b84400ba1b70ef43e03b1569d2b563`
 
 ## README
 
@@ -41,7 +41,7 @@ Photorealistic 3D globe. Live aircraft, ships, satellites, earthquakes, traffic,
 
 **[#8 Product of the Day](https://www.producthunt.com/products/god-s-eye-view?launch=god-s-eye-view)** · Hunted by Chris Messina, creator of the hashtag
 
-*“pretty cool”* — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266) · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)**
+*“pretty cool”* — [Brendan Eich](https://x.com/BrendanEich/status/2094592096401490266), creator of JavaScript and co-founder of Mozilla and Brave · Featured on **[Pinokio](https://pinokio.co/posts/01m1m4p9xxm3qw7dnnpj2wr93g)**
 
 ⚡ **Start without API keys.** Install with [Pinokio](https://pinokio.co/apps/github-com-bilawalsidhu-gods-eye-view) or run locally from the terminal. Add optional keys inside the app. **[→ Quick Start](#-quick-start)**
 

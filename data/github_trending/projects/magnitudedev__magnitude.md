@@ -5,7 +5,7 @@
   "full_name": "magnitudedev/magnitude",
   "url": "https://github.com/magnitudedev/magnitude",
   "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-  "readme_sha256": "0536aaa7d7884e8c141c19256d3341e721e1b3e445a7b5f31d6db8742e460705"
+  "readme_sha256": "028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/magnitudedev/magnitude
 - Description: Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
-- README SHA256: `0536aaa7d7884e8c141c19256d3341e721e1b3e445a7b5f31d6db8742e460705`
+- README SHA256: `028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3`
 
 ## README
 
@@ -49,7 +49,9 @@ Magnitude is an open source inference server that runs the best local models for
 
 ## Get started
 
-**Send this to your agent to walk through models and setup:**
+### Set up with your agent
+
+Send this prompt to your agent:
 
 ```text
 Set up local models for me with the Magnitude CLI. Install it with `npm i -g @magnitudedev/cli` (or my package manager), then run `magnitude docs onboarding` and follow the instructions.
@@ -57,19 +59,18 @@ Set up local models for me with the Magnitude CLI. Install it with `npm i -g @ma
 
 Your agent will profile your hardware, walk you through the best local models for it, download the ones you pick, and switch itself over to them.
 
-Magnitude supports macOS and Linux. Windows is supported through WSL.
+### Install manually
 
-<details>
-<summary>Want to browse the models directly?</summary>
+Run these commands in your terminal:
 
 ```sh
 npm i -g @magnitudedev/cli
 magnitude setup
 ```
 
-The interactive setup lets you browse the recommended models and choose one yourself.
+The interactive setup profiles your hardware, lets you choose from the recommended models, downloads your selection, and connects it to your harness.
 
-</details>
+Magnitude supports macOS and Linux. Windows is supported through WSL.
 
 ## Why Magnitude?
 
