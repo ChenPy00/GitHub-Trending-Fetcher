@@ -5,7 +5,7 @@
   "full_name": "Gitlawb/openclaude",
   "url": "https://github.com/Gitlawb/openclaude",
   "description": "runs anywhere. uses anything",
-  "readme_sha256": "b5ba1973682378aae2eb99e855b3c9a9c6472230e84a98b15d649274d1fc549e"
+  "readme_sha256": "807b9880c5e8b1a5fad0d74866bd6ef8c21a992105ca7e561b97709a4111f4e7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Gitlawb/openclaude
 - Description: runs anywhere. uses anything
-- README SHA256: `b5ba1973682378aae2eb99e855b3c9a9c6472230e84a98b15d649274d1fc549e`
+- README SHA256: `807b9880c5e8b1a5fad0d74866bd6ef8c21a992105ca7e561b97709a4111f4e7`
 
 ## README
 
@@ -318,6 +318,7 @@ Advanced and source-build guides:
 - [Agent Routing and Step Limits](docs/agent-routing.md)
 - [Headless gRPC Server](docs/grpc-server.md)
 - [Repo Map (codebase intelligence)](docs/repo-map.md)
+- [Skills](docs/skills.md)
 - [Android Install](ANDROID_INSTALL.md)
 
 ## Supported Providers

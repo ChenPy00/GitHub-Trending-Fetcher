@@ -5,7 +5,7 @@
   "full_name": "vorssaint/vorssaint-utils",
   "url": "https://github.com/vorssaint/vorssaint-utils",
   "description": "Free and open-source macOS menu bar toolkit.",
-  "readme_sha256": "b03baf7f645bd96985b2d2a3666060253a4a00444fb1dcada0a9d71389a48017"
+  "readme_sha256": "52f3e51f15239d5734d0ed7b05bc5570d28514d9b07383ea0563f38878b68f8e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vorssaint/vorssaint-utils
 - Description: Free and open-source macOS menu bar toolkit.
-- README SHA256: `b03baf7f645bd96985b2d2a3666060253a4a00444fb1dcada0a9d71389a48017`
+- README SHA256: `52f3e51f15239d5734d0ed7b05bc5570d28514d9b07383ea0563f38878b68f8e`
 
 ## README
 
@@ -171,7 +171,7 @@ The rest bends the same way: panel sections reorder and hide, the compact layout
 
 - **Keep awake.** Keep the Mac up for a timer, until you say stop or automatically with an external display, a power connection or selected apps running in the background, pause the session while the Mac is locked, keep going with the lid closed, let displays sleep without stopping local work, choose the active menu bar icon and color, see the remaining time beside it, and optionally toggle it with a right click.
 - **Displays.** Adjust brightness or turn individual displays on and off. External screens use their own control channel when available and fall back to dimming the picture, while the keyboard brightness keys can follow the pointer and show the brightness percentage.
-- **Extra brightness.** Pushes the XDR panel of a MacBook Pro past its regular maximum using the display's HDR headroom.
+- **Extra brightness.** Pushes the XDR panel of a MacBook Pro past its regular maximum using the display's HDR headroom. Toggle it from the Displays panel or Settings.
 - **Bluetooth on sleep.** Switches Bluetooth off while the Mac sleeps, so a laptop in a bag stops stealing the headphones you are listening to elsewhere. Bluetooth you had already turned off stays off, and only what Vorssaint switched off comes back on wake.
 
 ## Install
