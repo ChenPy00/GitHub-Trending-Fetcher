@@ -1,0 +1,161 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
+      "full_name": "magnitudedev/magnitude",
+      "project_file": "projects/magnitudedev__magnitude.md",
+      "rank": 1,
+      "readme_sha256": "028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3",
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 2,
+      "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "runs anywhere. uses anything",
+      "full_name": "Gitlawb/openclaude",
+      "project_file": "projects/Gitlawb__openclaude.md",
+      "rank": 3,
+      "readme_sha256": "807b9880c5e8b1a5fad0d74866bd6ef8c21a992105ca7e561b97709a4111f4e7",
+      "url": "https://github.com/Gitlawb/openclaude"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 4,
+      "readme_sha256": "5c281dc872e6b834f6501abc2b507af377faa643d92cda7f2f4072ace629e17f",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 5,
+      "readme_sha256": "cd387ead54358c4034e051c4b1a2c9c82b7db700c49b17b2dae929fd835b343a",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 6,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "RL training environments for Microduck (mjlab)",
+      "full_name": "pollen-robotics/microduck_rl",
+      "project_file": "projects/pollen-robotics__microduck_rl.md",
+      "rank": 7,
+      "readme_sha256": "b5e606efe7ff71f4f6324820b36152d401a0b1be6e2f908bbaca01ffee81638d",
+      "url": "https://github.com/pollen-robotics/microduck_rl"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 8,
+      "readme_sha256": "0694f08ab392f3e56ed7c345002df1660b866f0f8d257d72b140e7bc87f23978",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 9,
+      "readme_sha256": "d560c28c4649a888af9b725231f828f9475978c146efcc2b0aa1049bc4cf12a8",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 10,
+      "readme_sha256": "56a45e47eef049918382751151d00ca27012b48398ffe137e705e14a28bf29a1",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 11,
+      "readme_sha256": "a226c5747abb3e738cacc27d68b1dcf121f1ef2e687f901d9163d7abe3220bf8",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "中国专利.skill：专利点挖掘与交底书（发明/实用/外观）编写，通俗解读专利，嗅探政策动向，辅助审查答复。",
+      "full_name": "handsomestWei/patent-disclosure-skill",
+      "project_file": "projects/handsomestWei__patent-disclosure-skill.md",
+      "rank": 12,
+      "readme_sha256": "e0f4c80bf01618dcb082d7b96ebdbdc68bacd9993c92187559aec3428534dafa",
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+    },
+    {
+      "description": "GEO-first SEO skill for Claude Code. Comprehensive AI search optimization for any website — citability scoring, AI crawler analysis, brand authority, schema markup, platform-specific optimization, and PDF reports. If you want learn how to sell this to real businesses, check out the skool community",
+      "full_name": "zubair-trabzada/geo-seo-claude",
+      "project_file": "projects/zubair-trabzada__geo-seo-claude.md",
+      "rank": 13,
+      "readme_sha256": "ef8c04de85ace24f3891c53a89fc1da54864bfd14737f31b9818d90a10327767",
+      "url": "https://github.com/zubair-trabzada/geo-seo-claude"
+    },
+    {
+      "description": "The open source AI research agent.",
+      "full_name": "advaitpaliwal/feynman",
+      "project_file": "projects/advaitpaliwal__feynman.md",
+      "rank": 14,
+      "readme_sha256": "6e2635f258c015af9baab89ce8ef8d202fef20c96865109b17157cd226821025",
+      "url": "https://github.com/advaitpaliwal/feynman"
+    },
+    {
+      "description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
+      "full_name": "Imbad0202/academic-research-skills",
+      "project_file": "projects/Imbad0202__academic-research-skills.md",
+      "rank": 15,
+      "readme_sha256": "7beab3c05d56f85a85f01003dee6f13e5a4d3ad06acbdc2b7dfef6106ce05cfc",
+      "url": "https://github.com/Imbad0202/academic-research-skills"
+    },
+    {
+      "description": "TypeScript-first schema validation with static type inference",
+      "full_name": "colinhacks/zod",
+      "project_file": "projects/colinhacks__zod.md",
+      "rank": 16,
+      "readme_sha256": "b4bf9d5c867bd860d58c63b2979f655049e7872c41d15dea572da529c32a7dc9",
+      "url": "https://github.com/colinhacks/zod"
+    },
+    {
+      "description": "RF-DETR is a real-time object detection and segmentation model architecture developed by Roboflow, SOTA on COCO, designed for fine-tuning. [ICLR 2026]",
+      "full_name": "roboflow/rf-detr",
+      "project_file": "projects/roboflow__rf-detr.md",
+      "rank": 17,
+      "readme_sha256": "497b555afad4c6b1c18d0d29b8220225034281975e71e80ae4666451a2747123",
+      "url": "https://github.com/roboflow/rf-detr"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 18,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+      "full_name": "tailscale/tailcat",
+      "project_file": "projects/tailscale__tailcat.md",
+      "rank": 19,
+      "readme_sha256": "0c1f91b53a0b6e662f5278c1b66ea4942eb757cb319a37f7b7fc1d11c4f3e1b4",
+      "url": "https://github.com/tailscale/tailcat"
+    }
+  ],
+  "snapshot_date": "2026-09-08",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

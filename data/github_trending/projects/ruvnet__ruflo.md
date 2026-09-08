@@ -5,7 +5,7 @@
   "full_name": "ruvnet/ruflo",
   "url": "https://github.com/ruvnet/ruflo",
   "description": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-  "readme_sha256": "c7fd1828983ea5a378460432d40a7bb7317e87ae8481ef6f05cc8c90e0baa702"
+  "readme_sha256": "4602f42d7e6a7625d4c08bfc81c1f2fdc0eb00a874b202600ca97c7da572d3de"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ruvnet/ruflo
 - Description: 🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
-- README SHA256: `c7fd1828983ea5a378460432d40a7bb7317e87ae8481ef6f05cc8c90e0baa702`
+- README SHA256: `4602f42d7e6a7625d4c08bfc81c1f2fdc0eb00a874b202600ca97c7da572d3de`
 
 ## README
 
@@ -39,6 +39,11 @@
 # Ruflo
 
 **An agent meta-harness for Claude Code and Codex.**
+
+[![RuFlo Explained — build an AI team that plans, remembers, tests, and improves](docs/assets/ruflo-explained/ch14.jpg)](docs/ruflo-explained.md)
+
+**[📖 RuFlo Explained — Build an AI Team That Plans, Remembers, Tests, and Improves](docs/ruflo-explained.md)**
+A 14-chapter guide: from the basic idea to a first useful task, then memory, agent teams, plugins, cost and verification.
 
 </div>
 

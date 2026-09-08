@@ -5,7 +5,7 @@
   "full_name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "readme_sha256": "9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543"
+  "readme_sha256": "56a45e47eef049918382751151d00ca27012b48398ffe137e705e14a28bf29a1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/affaan-m/ECC
 - Description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- README SHA256: `9eed47de173c23b85f04d82f2167991ba466b2cc5feb59a49557fbcc7b973543`
+- README SHA256: `56a45e47eef049918382751151d00ca27012b48398ffe137e705e14a28bf29a1`
 
 ## README
 
@@ -574,11 +574,14 @@ Do not copy the raw repo `hooks/hooks.json` into `~/.claude/settings.json` or `~
 bash ./install.sh --target claude --modules hooks-runtime --enable-hooks
 ```
 
-That writes resolved hooks to `~/.claude/hooks/hooks.json` and leaves any existing `~/.claude/settings.json` untouched.
+That installs the hook scripts under `~/.claude/` and registers the resolved
+hook entries in `~/.claude/settings.json`. Existing user settings and hooks are
+preserved; ECC-owned entries are tracked by stable ID for idempotent updates
+and safe uninstall.
 
 If you installed ECC via `/plugin install`, do not copy those hooks into `settings.json`. Claude Code v2.1+ already auto-loads plugin `hooks/hooks.json`, and duplicating them in `settings.json` causes duplicate execution and cross-platform hook conflicts.
 
-On Windows, Claude's config root is `%USERPROFILE%\\.claude`; install the hook runtime with:
+On Windows, Claude's config root is `%USERPROFILE%\.claude`; install the hook runtime with:
 
 ```powershell
 pwsh -File .\install.ps1 --target claude --modules hooks-runtime --enable-hooks

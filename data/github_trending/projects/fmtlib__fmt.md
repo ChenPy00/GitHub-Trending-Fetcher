@@ -5,7 +5,7 @@
   "full_name": "fmtlib/fmt",
   "url": "https://github.com/fmtlib/fmt",
   "description": "A modern formatting library",
-  "readme_sha256": "66428cffb0100ff8b324d578ed1291cc06ff3439d8ac40e83b2ccd24b285768a"
+  "readme_sha256": "d560c28c4649a888af9b725231f828f9475978c146efcc2b0aa1049bc4cf12a8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/fmtlib/fmt
 - Description: A modern formatting library
-- README SHA256: `66428cffb0100ff8b324d578ed1291cc06ff3439d8ac40e83b2ccd24b285768a`
+- README SHA256: `d560c28c4649a888af9b725231f828f9475978c146efcc2b0aa1049bc4cf12a8`
 
 ## README
 
@@ -75,7 +75,7 @@ Try {fmt} in [Compiler Explorer](https://godbolt.org/z/8Mx1EW73v).
   hundred million integers to strings per
   second](https://vitaut.net/posts/2020/fast-int-to-string-revisited/)
 - Small code size both in terms of source code with the minimum
-  configuration consisting of just three files, `base.h`, `format.h`
+  configuration consisting of just three files, `core.h`, `format.h`
   and `format-inl.h`, and compiled code; see [Compile time and code
   bloat](#compile-time-and-code-bloat)
 - Reliability: the library has an extensive set of
@@ -102,7 +102,7 @@ See the [documentation](https://fmt.dev) for more details.
 **Print to stdout** ([run](https://godbolt.org/z/Tevcjh))
 
 ``` c++
-#include <fmt/base.h>
+#include <fmt/core.h>
 
 int main() {
   fmt::print("Hello, world!\n");

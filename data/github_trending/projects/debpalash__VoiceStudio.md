@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c"
+  "readme_sha256": "0694f08ab392f3e56ed7c345002df1660b866f0f8d257d72b140e7bc87f23978"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `4ae173eb5a3f33dbc6b0e0e057a9ea1623d5304e68875f74c290bcfe6d673b7c`
+- README SHA256: `0694f08ab392f3e56ed7c345002df1660b866f0f8d257d72b140e7bc87f23978`
 
 ## README
 
@@ -75,6 +75,14 @@
 | **Interfaces** | Desktop app · local REST/SSE/WebSocket API · OpenAI-compatible audio API · MCP Server |
 | **Storage** | Voices, projects, settings, and outputs stay on the machine by default |
 | **License** | AGPL-3.0 application; downloaded models keep their upstream terms |
+
+The Voice workspace starts with three tabs: **From audio** for cloning, **By design** for creating a voice, and **Convert** for speech-to-speech conversion. Each tab displays its own workflow, with Synthesize Audio or Convert pinned below the scrolling form. The top-bar **Engines** panel combines engine selection, loaded models, and unload/flush controls; <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>E</kbd> opens it. The searchable language picker shares Dubbing’s flags and language list layout, selects one output language, and retains Auto and the full cloning catalogue. Language options flow into multiple columns when space allows. Expand **Workspaces** in the sidebar to reveal navigation labels; Escape collapses it.
+
+Dubbing places playback controls over the video with background blur and combines the waveform and timed transcript in one compact editing surface. Drag the zoomed waveform left or right to pan; click to seek. Translation language and ISO-code controls stay synchronized; Auto clears any previous language code and dialect. Transcript items group editable text, timing and status, and voice controls into three readable rows that wrap with the panel width. Output Options stays compact with the active settings shown in its summary; expand it to change output, timing, or voice matching. Transcript, glossary, and paste controls share a toolbar above the segment editor. Project details, workflow steps, and Generate/Verify/Export actions use an unfilled header.
+
+Output settings use aligned rows; review status appears before the collapsible transcript and glossary. Glossary terms have labelled entry fields and an explicit edit action. Launchpad arranges recent files and saved voices side by side when space allows, with responsive card grids and visible Open actions.
+
+The casting board shows icon-based voice cards and searchable selectors for each speaker. Drag a card onto a speaker or choose a voice from that speaker’s menu.
 
 <a id="install"></a>
 
@@ -148,7 +156,7 @@ The desktop launcher configures Python dependencies on first run via `uv` automa
 |---|---|
 | **Voice Cloning** | Zero-shot synthesis from a short reference clip ([guide](docs/engines/README.md)) |
 | **Voice Design** | Create a voice from age, accent, pitch, style, and delivery instructions ([expressive speech](docs/expressive-speech.md)) |
-| **Video Dubbing** | Transcribe, translate, preserve speakers, synthesize, and export video ([export guide](docs/dubbing/export.md)) |
+| **Video Dubbing** | Transcribe, translate, preserve speakers, synthesize, and export video; compact translation settings include track selection, and completed dubs flag timing issues for review ([export guide](docs/dubbing/export.md)) |
 | **Stories and audiobooks** | Multi-voice scripts · EPUB/PDF import · chapter rendering · `.m4b` export |
 | **[Dictation Widget](docs/features/dictation.md)** | System-wide shortcut, live transcription, optional local-LLM cleanup |
 | **Vocal Isolation** | Demucs speech/background separation |

@@ -5,7 +5,7 @@
   "full_name": "semantica-agi/semantica",
   "url": "https://github.com/semantica-agi/semantica",
   "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
-  "readme_sha256": "9beec52ef19dc75855502ce8636c6715e7e79b279ab27e01116ac8607230e789"
+  "readme_sha256": "4474db832d7508f91d0221f060316825ed5a52d8daa1b3dea7c292a0148811bb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/semantica-agi/semantica
 - Description: Graph-Native Infrastructure for Context and Accountable AI Systems
-- README SHA256: `9beec52ef19dc75855502ce8636c6715e7e79b279ab27e01116ac8607230e789`
+- README SHA256: `4474db832d7508f91d0221f060316825ed5a52d8daa1b3dea7c292a0148811bb`
 
 ## README
 
@@ -1425,6 +1425,9 @@ semantica-mcp
 | `get_graph_analytics` | Centrality, communities |
 | `export_graph` | Export to RDF/JSON/Parquet |
 | `get_graph_summary` | Graph statistics |
+| `query_graph` | Fetch a node, walk neighbours, keyword search |
+| `update_node` | Merge properties onto a node |
+| `delete_node` | Archive (soft-delete) a node |
 
 ### REST API
 

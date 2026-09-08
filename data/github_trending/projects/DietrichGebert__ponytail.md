@@ -5,7 +5,7 @@
   "full_name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "readme_sha256": "52b5a75d5f5ba323b3aed53f06edeef31f7b05a5937c8d633ca7899dc4a9ee5c"
+  "readme_sha256": "a226c5747abb3e738cacc27d68b1dcf121f1ef2e687f901d9163d7abe3220bf8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DietrichGebert/ponytail
 - Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- README SHA256: `52b5a75d5f5ba323b3aed53f06edeef31f7b05a5937c8d633ca7899dc4a9ee5c`
+- README SHA256: `a226c5747abb3e738cacc27d68b1dcf121f1ef2e687f901d9163d7abe3220bf8`
 
 ## README
 
@@ -62,6 +62,17 @@
 <p align="center">
   <a href="https://ponytail.dev/soon"><img src="assets/waitlist-banner.png" alt="Something's coming, join the waitlist" width="760"></a>
 </p>
+
+## Already built with Ponytail
+
+<a href="https://theretriever.app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/retriever-logo-dark.svg">
+    <img src="assets/retriever-logo-light.svg" height="128" alt="Retriever">
+  </picture>
+</a>
+
+---
 
 You know him. Long ponytail. Oval glasses. Has been at the company longer than the version control. You show him fifty lines; he looks at them, says nothing, and replaces them with one.
 
