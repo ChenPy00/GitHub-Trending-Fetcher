@@ -5,7 +5,7 @@
   "full_name": "nvm-sh/nvm",
   "url": "https://github.com/nvm-sh/nvm",
   "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. $nvm: 3ArcxqLtXMmBnWbbtfwQgVL3MNnDsggzgGDtXMnjpump",
-  "readme_sha256": "a59f39b6aaa314c6d9953130d600ee0f749cdf68f291c868e334add2da8a0576"
+  "readme_sha256": "5bc1077b35301ab7e02cd4910a4faff1e9d344b0bb6833cfaba8db8064bd02e5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/nvm-sh/nvm
 - Description: Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions. $nvm: 3ArcxqLtXMmBnWbbtfwQgVL3MNnDsggzgGDtXMnjpump
-- README SHA256: `a59f39b6aaa314c6d9953130d600ee0f749cdf68f291c868e334add2da8a0576`
+- README SHA256: `5bc1077b35301ab7e02cd4910a4faff1e9d344b0bb6833cfaba8db8064bd02e5`
 
 ## README
 
@@ -889,7 +889,7 @@ nvm exposes the following environment variables:
 - `NVM_CD_FLAGS` - used to maintain compatibility with zsh.
 - `NVM_RC_VERSION` - version from .nvmrc file if being used.
 
-Additionally, nvm modifies `PATH`, and, if present, `MANPATH` and `NODE_PATH` when changing versions.
+Additionally, nvm modifies `PATH` when changing versions, along with `MANPATH` wherever a `manpath` command exists, and `NODE_PATH`, if present.
 
 The following environment variables can be set to configure `nvm install`:
 

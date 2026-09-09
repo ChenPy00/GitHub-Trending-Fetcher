@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "b80b3b05257a4ed6a1b3d77f89cdbeb54917c24d212d9742b25c1425b94260cc",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 2,
+      "readme_sha256": "ce09652d021e7c8595bb57886498ae9d941075a3bd02673d3ad1032c2b555106",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Skills Catalog for Codex",
+      "full_name": "openai/skills",
+      "project_file": "projects/openai__skills.md",
+      "rank": 3,
+      "readme_sha256": "0f6a07580f3c627253e15a58dd0439e135049ec38eb16cf3587f7e50abc6f590",
+      "url": "https://github.com/openai/skills"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 4,
+      "readme_sha256": "56a45e47eef049918382751151d00ca27012b48398ffe137e705e14a28bf29a1",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 5,
+      "readme_sha256": "bd1750d18e6d0547d5eaa2ca65e9474d83eb7c14d165b95b015bb62d520b7dac",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "full_name": "coreyhaines31/marketingskills",
+      "project_file": "projects/coreyhaines31__marketingskills.md",
+      "rank": 6,
+      "readme_sha256": "6f370f8f639f0dd4c86e4057328b95ac3761b9d97cd9f02957fb70ac890349b2",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 7,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 8,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 9,
+      "readme_sha256": "86bd5a9a670f24c03ab000c4432271816aefe503e206c64e11f678c7793fb376",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "Stealth headless browser for AI agents — bypass Cloudflare, bot detection, and anti-scraping. Drop-in Puppeteer/Playwright replacement.",
+      "full_name": "jo-inc/camofox-browser",
+      "project_file": "projects/jo-inc__camofox-browser.md",
+      "rank": 10,
+      "readme_sha256": "636061779ff8a1781c0cc5b3f040f67fc4e4f3a690bc85df7392d32134b01eef",
+      "url": "https://github.com/jo-inc/camofox-browser"
+    },
+    {
+      "description": "本项目采用 CC BY-NC-SA 协议，禁止任何商业化行为，任何衍生项目必须保留本项目地址并以相同协议开源",
+      "full_name": "MoonTechLab/LunaTV",
+      "project_file": "projects/MoonTechLab__LunaTV.md",
+      "rank": 11,
+      "readme_sha256": "c1e2b9e8725a5b222df997175168622e9eaa4a9814174c85f7c9edd73d0bf5b2",
+      "url": "https://github.com/MoonTechLab/LunaTV"
+    },
+    {
+      "description": "Agents that use the browser.",
+      "full_name": "browser-use/browser-use",
+      "project_file": "projects/browser-use__browser-use.md",
+      "rank": 12,
+      "readme_sha256": "d5c8add03c5483b8136b1282187421f33a1b7d8eebad6937379a692e4d3fa254",
+      "url": "https://github.com/browser-use/browser-use"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 13,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Build your autonomous hedge fund in minutes. AutoHedge harnesses the power of swarm intelligence and AI agents to automate market analysis, risk management, and trade execution.",
+      "full_name": "The-Swarm-Corporation/AutoHedge",
+      "project_file": "projects/The-Swarm-Corporation__AutoHedge.md",
+      "rank": 14,
+      "readme_sha256": "e69b0ae7d073cf04ee48434c4274bb4ccbfdfca48dfa9718eefb80e43a8c2c86",
+      "url": "https://github.com/The-Swarm-Corporation/AutoHedge"
+    },
+    {
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "full_name": "liquidslr/system-design-notes",
+      "project_file": "projects/liquidslr__system-design-notes.md",
+      "rank": 15,
+      "readme_sha256": "955ff40f792461a14676676b478fd41f3a1d0e6780aa13e4dfa155402739f4eb",
+      "url": "https://github.com/liquidslr/system-design-notes"
+    },
+    {
+      "description": "📱 Display and control your Android device graphically with scrcpy.",
+      "full_name": "viarotel-org/escrcpy",
+      "project_file": "projects/viarotel-org__escrcpy.md",
+      "rank": 16,
+      "readme_sha256": "dae5cdb3f29d24eac0ac4defaaf56b053e8cd2031c3c006f671d2401e1982a8f",
+      "url": "https://github.com/viarotel-org/escrcpy"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 17,
+      "readme_sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852",
+      "url": "https://github.com/openai/plugins"
+    }
+  ],
+  "snapshot_date": "2026-09-09",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
