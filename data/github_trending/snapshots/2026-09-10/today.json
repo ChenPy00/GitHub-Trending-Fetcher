@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "eba9f8e130e7162417b5ae32ed1d51b0fb77e8e0b24072dc043044489ca05312",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Make Every Team AI Native",
+      "full_name": "Tencent/teamai-cli",
+      "project_file": "projects/Tencent__teamai-cli.md",
+      "rank": 2,
+      "readme_sha256": "5b23928867f6a4c9865c7aef7f596269b5eec7efd04b0e283d33945d20563e45",
+      "url": "https://github.com/Tencent/teamai-cli"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 3,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "full_name": "pascalorg/editor",
+      "project_file": "projects/pascalorg__editor.md",
+      "rank": 4,
+      "readme_sha256": "92daeab208df92c7e18777ae734ebeebcc1da94c62cd49b5f2834b41b3cd347f",
+      "url": "https://github.com/pascalorg/editor"
+    },
+    {
+      "description": "A library of agent skills for CAD, CAE and CAM",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 5,
+      "readme_sha256": "9870f21b7ade3f3a5c8f9b0bc39bfc288505ff5f6b4c93f08cbffa22c452f142",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 6,
+      "readme_sha256": "5ac37af3267c2d2529aecb7c5eb038a2f44a3229ba620c99d4cd6f662d5db2f2",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 7,
+      "readme_sha256": "f2c1d2f2a205f40d74775f97689c1f12f216187ae5c0d0d0deb390022b91b79d",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "full_name": "liquidslr/system-design-notes",
+      "project_file": "projects/liquidslr__system-design-notes.md",
+      "rank": 8,
+      "readme_sha256": "955ff40f792461a14676676b478fd41f3a1d0e6780aa13e4dfa155402739f4eb",
+      "url": "https://github.com/liquidslr/system-design-notes"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 9,
+      "readme_sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 10,
+      "readme_sha256": "5ce993a91445f34252dc66138f5d1bfaa065b5a52a4945a18b160be0a5ab4516",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 11,
+      "readme_sha256": "7080d3cb0c0be99748e466c71baa1c5b23a274105d2e35918edb2cc1c05b2557",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "full_name": "vastsa/PI-Desktop",
+      "project_file": "projects/vastsa__PI-Desktop.md",
+      "rank": 12,
+      "readme_sha256": "c2c6a0aaf7789273d2f7b205f4812e3c9b8d6171956d553a33730b5ec0f3af2c",
+      "url": "https://github.com/vastsa/PI-Desktop"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 13,
+      "readme_sha256": "7ff351d405e2fa340cb619398f6814a61bd900d03478b25bc69546e93a870435",
+      "url": "https://github.com/affaan-m/ECC"
+    }
+  ],
+  "snapshot_date": "2026-09-10",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

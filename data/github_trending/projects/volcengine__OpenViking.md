@@ -5,7 +5,7 @@
   "full_name": "volcengine/OpenViking",
   "url": "https://github.com/volcengine/OpenViking",
   "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
-  "readme_sha256": "dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc"
+  "readme_sha256": "a7ad47a8100edb9ed9ae062b2540a5d2fd31c255fd5d22463df08b3232d5fe05"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/volcengine/OpenViking
 - Description: Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.
-- README SHA256: `dedc9ea62ccfe04b916365322e8051f1bb6986c7e2e9cfe8308122c75ecaebcc`
+- README SHA256: `a7ad47a8100edb9ed9ae062b2540a5d2fd31c255fd5d22463df08b3232d5fe05`
 
 ## README
 
@@ -142,10 +142,11 @@ The install already includes the `ov` client CLI. With the server running:
 
 ```bash
 ov status
-ov add-resource https://github.com/volcengine/OpenViking # --wait
+ov add-resource https://github.com/volcengine/OpenViking
+# Replace TASK_ID with the returned task_id; continue after status is completed
+ov task status TASK_ID
 ov ls viking://resources/
 ov tree viking://resources/volcengine -L 2
-# wait some time for semantic processing if not --wait
 ov find "what is openviking"
 ov grep "openviking" --uri viking://resources/volcengine/OpenViking/docs/en
 ```

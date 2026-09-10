@@ -5,7 +5,7 @@
   "full_name": "heygen-com/hyperframes",
   "url": "https://github.com/heygen-com/hyperframes",
   "description": "Write HTML. Render video. Built for agents.",
-  "readme_sha256": "bd1750d18e6d0547d5eaa2ca65e9474d83eb7c14d165b95b015bb62d520b7dac"
+  "readme_sha256": "f040188b33cb623866b64ade4ce4038c4492157c439ef9ea39b553e1ae074ba1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/heygen-com/hyperframes
 - Description: Write HTML. Render video. Built for agents.
-- README SHA256: `bd1750d18e6d0547d5eaa2ca65e9474d83eb7c14d165b95b015bb62d520b7dac`
+- README SHA256: `f040188b33cb623866b64ade4ce4038c4492157c439ef9ea39b553e1ae074ba1`
 
 ## README
 
@@ -122,7 +122,7 @@ Atomic capabilities the creation workflows compose against — pull one when you
 | `/media-use`             | The media OS — resolve any media need (BGM, SFX, image, icon, logo, voice, color grade, LUT) into a frozen local file or paste-ready block + ledger record, generate via TTS/music/image models when the catalog misses, transcribe, caption, remove backgrounds, and reuse assets across projects. One shared audio engine + manifest tracking.                                                                                                                                     |
 | `/hyperframes-cli`       | CLI dev loop — `init`, `lint`, `check`, `snapshot`, `preview`, `render`, `publish`, `doctor`, plus HeyGen-hosted cloud rendering (`cloud render`) and AWS Lambda rendering (`lambda deploy / render / progress`).                                                                                                                                                                                                                                                                    |
 | `/hyperframes-audio`     | Mix the audio already placed in a composition — voiceover carve (dip a music bed only in the bands the voice occupies, static or dynamic, level match included), the effect chain (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes on volume or any effect parameter, and submix buses (`<hf-audio-group>`) carrying one chain, fader and automation clock for several tracks at once. Sourcing the audio is `/media-use`. |
-| `/hyperframes-registry`  | Install and wire registry blocks and components into compositions via `hyperframes add`. Authoring a new block or component to contribute upstream.                                                                                                                                                                                                                                                                                                                                  |
+| `/hyperframes-registry`  | Search, install and wire registry blocks and components into compositions via `hyperframes catalog` / `hyperframes add`. Load before hand-building any named look, effect, treatment or transition. Authoring a new block or component to contribute upstream.                                                                                                                                                                                                                       |
 | `/figma`                 | Import Figma assets, tokens, components, and storyboard sections → reconstructed motion (frames read as states, not slides) (REST/CLI) plus Motion animations (MCP) and shaders (MCP source / native export) into a composition.                                                                                                                                                                                                                                                     |
 
 For visual design handoff workflows, see the [Claude Design guide](https://hyperframes.heygen.com/guides/claude-design) and [Open Design guide](https://hyperframes.heygen.com/guides/open-design).

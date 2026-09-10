@@ -5,7 +5,7 @@
   "full_name": "marin-community/marin",
   "url": "https://github.com/marin-community/marin",
   "description": "Open-source framework for the research and development of foundation models.",
-  "readme_sha256": "b70e415b672f9995436c6d77981e11081bbc6cebda8d8ac1885bb6b6545924fb"
+  "readme_sha256": "bc69ea9a0e5f14e1927e24da0b9412b19048a277c3ab4fffd120d893b689089e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/marin-community/marin
 - Description: Open-source framework for the research and development of foundation models.
-- README SHA256: `b70e415b672f9995436c6d77981e11081bbc6cebda8d8ac1885bb6b6545924fb`
+- README SHA256: `bc69ea9a0e5f14e1927e24da0b9412b19048a277c3ab4fffd120d893b689089e`
 
 ## README
 
@@ -171,7 +171,7 @@ Marin's research is made possible by the generous support of our partners.
 <table>
   <tr>
     <td align="center" width="240"><a href="https://sites.research.google/trc/about/"><img alt="Google TPU Research Cloud" src="docs/design/google-trc.png" height="44"></a></td>
-    <td align="center" width="240"><img alt="TBA" src="docs/design/supporter-tba.svg" height="44"></td>
+    <td align="center" width="240">The Jen-Hsun and Lori Huang Foundation</td>
   </tr>
   <tr>
     <td align="center"><sub>for TRC accelerators</sub></td>

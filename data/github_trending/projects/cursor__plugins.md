@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "9b4b0dd0af187273c32c5bb125d3f837dc0fabcaf3e4b17871ca55e1a3f8e1ab"
+  "readme_sha256": "09868214c0d66d7758b8cb24f2745b3edf90ce6f736eb717d79b02e2f0cdf041"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `9b4b0dd0af187273c32c5bb125d3f837dc0fabcaf3e4b17871ca55e1a3f8e1ab`
+- README SHA256: `09868214c0d66d7758b8cb24f2745b3edf90ce6f736eb717d79b02e2f0cdf041`
 
 ## README
 
@@ -90,6 +90,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `x-ads` | [X Ads](third_party/x-ads/) | Cursor | Integrations | Manage ad campaigns, create ads, track conversions, and pull performance stats. |
 | `attio` | [Attio](third_party/attio/) | Cursor | Integrations | Search and update CRM records, lists, notes, and tasks. |
 | `hunter` | [Hunter](third_party/hunter/) | Cursor | Integrations | Find and verify emails, discover companies, and save leads. |
+| `gamma` | [Gamma](third_party/gamma/) | Cursor | Integrations | Generate presentations, documents, and webpages. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure

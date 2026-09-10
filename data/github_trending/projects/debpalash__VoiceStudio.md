@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "0694f08ab392f3e56ed7c345002df1660b866f0f8d257d72b140e7bc87f23978"
+  "readme_sha256": "cfb74e49685c37d3b63b776cc47066c329407f1b0a0b7f9bba9918ae4fe1bda9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `0694f08ab392f3e56ed7c345002df1660b866f0f8d257d72b140e7bc87f23978`
+- README SHA256: `cfb74e49685c37d3b63b776cc47066c329407f1b0a0b7f9bba9918ae4fe1bda9`
 
 ## README
 
@@ -78,7 +78,9 @@
 
 The Voice workspace starts with three tabs: **From audio** for cloning, **By design** for creating a voice, and **Convert** for speech-to-speech conversion. Each tab displays its own workflow, with Synthesize Audio or Convert pinned below the scrolling form. The top-bar **Engines** panel combines engine selection, loaded models, and unload/flush controls; <kbd>Ctrl</kbd>/<kbd>Cmd</kbd>+<kbd>E</kbd> opens it. The searchable language picker shares Dubbing’s flags and language list layout, selects one output language, and retains Auto and the full cloning catalogue. Language options flow into multiple columns when space allows. Expand **Workspaces** in the sidebar to reveal navigation labels; Escape collapses it.
 
-Dubbing places playback controls over the video with background blur and combines the waveform and timed transcript in one compact editing surface. Drag the zoomed waveform left or right to pan; click to seek. Translation language and ISO-code controls stay synchronized; Auto clears any previous language code and dialect. Transcript items group editable text, timing and status, and voice controls into three readable rows that wrap with the panel width. Output Options stays compact with the active settings shown in its summary; expand it to change output, timing, or voice matching. Transcript, glossary, and paste controls share a toolbar above the segment editor. Project details, workflow steps, and Generate/Verify/Export actions use an unfilled header.
+Dubbing starts with file upload or URL import and nearby language choices. Its **Projects** panel lists previous dubs so they can be reopened by clicking anywhere on a card; action buttons operate independently. Advanced import options include captions and optional YouTube sign-in. Dubbing places playback controls over the video with background blur and combines the waveform and timed transcript in one compact editing surface. Drag the zoomed waveform left or right to pan; click to seek. Translation language and ISO-code controls stay synchronized; Auto clears any previous language code and dialect. Transcript items group editable text, timing and status, and voice controls into three readable rows that wrap with the panel width. Output Options stays compact with the active settings shown in its summary; expand it to change output, timing, or voice matching. Transcript, glossary, and paste controls share a toolbar above the segment editor. Project details, workflow steps, and Generate/Verify/Export actions use an unfilled header.
+
+The Audiobook Script editor fills the available workspace beneath its markup toolbar; Voices and Book settings stay in their own tabs.
 
 Output settings use aligned rows; review status appears before the collapsible transcript and glossary. Glossary terms have labelled entry fields and an explicit edit action. Launchpad arranges recent files and saved voices side by side when space allows, with responsive card grids and visible Open actions.
 
@@ -95,7 +97,7 @@ Download a package from the [latest release](https://github.com/debpalash/VoiceS
 | macOS 13.3+ | Apple Silicon DMG | [Install on macOS](docs/install/macos.md) |
 | Windows 10/11 | x64 MSI; choose the current-user build when listed to install without admin access | [Install on Windows](docs/install/windows.md#install-pre-built-msi) |
 | Linux | AppImage, x86_64 with glibc 2.39+ | [Install on Linux](docs/install/linux.md) |
-| Docker | CUDA, ROCm, CPU, and worker-only GPU profiles | [Run with Docker](docs/install/docker.md) |
+| Docker | Linux/AMD64 images; CUDA, ROCm, CPU, and worker-only GPU profiles | [Run with Docker](docs/install/docker.md) |
 
 First launch creates a managed Python environment and downloads the default model. Later launches reuse both.
 
@@ -103,6 +105,11 @@ First launch creates a managed Python environment and downloads the default mode
 > On macOS, first launch needs a one-time right-click, then **Open** approval. Intel Macs cannot run the local Python backend; use a [remote backend](docs/install/macos.md) instead.
 
 ### Quick Docker run
+
+The published images are **`linux/amd64` only**. On Apple Silicon, use the
+[native macOS app](docs/install/macos.md) for GPU acceleration. ARM64 hosts
+should read the [architecture requirements](docs/install/docker.md#architecture)
+before pulling an image.
 
 ```bash
 docker run -d -p 127.0.0.1:3900:3900 -v omnivoice-data:/app/omnivoice_data --name voicestudio palashdeb/omnivoice-studio:stable
@@ -248,7 +255,7 @@ Engine support is capability-specific. Check cloning, language, platform, memory
 | [**Sherpa-ONNX**](docs/engines/sherpa-onnx.md) | 20+ | No | No | CUDA/CPU | CPU | CUDA/CPU | Apache-2.0 |
 | [**IndexTTS 2.5** ⚡](docs/engines/indextts.md) | ZH · EN · JA · ES · AR | Yes | No | CUDA/CPU | CPU | CUDA/CPU | Bilibili model license¹ |
 | [**OmniVoice GGUF** ⚡](docs/engines/omnivoice-gguf.md) | 600+ | Yes | Yes | CUDA/CPU | MPS/CPU | CUDA/CPU | [AGPL-3.0](LICENSE) app · [review the derivative model terms](https://huggingface.co/Serveurperso/OmniVoice-GGUF#license)³ |
-| [**OmniVoice (subprocess)** ⚡](docs/engines/omnivoice-subprocess.md) | 600+ | Yes | Yes | CUDA/CPU | MPS | CUDA/CPU | [AGPL-3.0](LICENSE) app · [Apache-2.0 code, CC-BY-NC weights](https://huggingface.co/k2-fsa/OmniVoice#license)³ |
+| [**OmniVoice (subprocess; opt-in off MPS)** ⚡](docs/engines/omnivoice-subprocess.md) | 600+ | Yes | Yes | CUDA/CPU | MPS via default OmniVoice | CUDA/CPU | [AGPL-3.0](LICENSE) app · [Apache-2.0 code, CC-BY-NC weights](https://huggingface.co/k2-fsa/OmniVoice#license)³ |
 | [**PocketTTS** ⚡](docs/engines/pockettts.md) | EN · FR · DE · PT · IT · ES | Yes | No | CPU | CPU | CPU | CC-BY-4.0, gated² |
 | [**Supertonic 3** ⚡](docs/engines/supertonic3.md) | 31 | No | No | CPU | CPU | CPU | OpenRAIL-M |
 | [**MOSS-TTS-v1.5** ⚡](docs/engines/moss-tts-v15.md) | 31 | Yes | No | CUDA/CPU | CPU | CUDA/CPU | Apache-2.0 |
