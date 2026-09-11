@@ -5,7 +5,7 @@
   "full_name": "Tencent/teamai-cli",
   "url": "https://github.com/Tencent/teamai-cli",
   "description": "Make Every Team AI Native",
-  "readme_sha256": "5b23928867f6a4c9865c7aef7f596269b5eec7efd04b0e283d33945d20563e45"
+  "readme_sha256": "fbb08f3b65f8ddc34ae48afd435b87cec3770028389ee8ea779debe85e2194d6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Tencent/teamai-cli
 - Description: Make Every Team AI Native
-- README SHA256: `5b23928867f6a4c9865c7aef7f596269b5eec7efd04b0e283d33945d20563e45`
+- README SHA256: `fbb08f3b65f8ddc34ae48afd435b87cec3770028389ee8ea779debe85e2194d6`
 
 ## README
 
@@ -122,9 +122,12 @@ Team-wide settings an admin configures once and delivers to every member on `tea
 
 | Capability | Command | What it does |
 |------------|---------|--------------|
+| **Projects** | `teamai projects` | Bind a working directory to one or more logical projects so it syncs that project's skills, knowledge, and isolated learnings. Orthogonal to roles. |
 | **Roles** | `teamai roles` | Define role → namespace mappings so each member syncs only the skills for their role. |
 | **Tags** | `teamai tags` | Tag skills / rules so members subscribe to just the tags they need. |
 | **Sources** | `teamai source` | Subscribe to additional skill repos — other teams' public repos, or shared/public repos within your own org; subscribed skills sync automatically on pull. |
+
+Learnings isolation: `learnings/` at the repo root is shared with everyone; `learnings/<project-id>/` is project-private. See the [usage guide](docs/usage-guide.md#multi-project-project-as-a-dimension-orthogonal-to-role).
 
 ## Team Execution
 
@@ -210,6 +213,7 @@ Matched: conflict | Missing: port
 teamai import --from-repo https://github.com/org/repo
 teamai import --from-org myorg              # batch import all repos
 teamai codebase --extract /path/to/repo     # local extract into teamwiki/
+teamai codebase --deep-enrich --project my-service --output /path/to/repo # generate deep knowledge docs
 teamai codebase --reconcile --output /path/to/repo # map product docs to code pages
 teamai codebase --lint --output /path/to/repo # check the locally extracted graph
 ```
@@ -255,7 +259,7 @@ Insight into how the team actually uses its AI tools, and a starting point for t
 | `teamai pull` | Pull team resources and inject into local AI tools |
 | `teamai push` | Push local resources to a branch and open a Merge Request |
 | `teamai packages [install] [target]` | Install declared npm packages and Claude plugins; with a target, also update `teamai.yaml`. Bare `teamai packages` installs everything; `teamai packages install <target>` adds one |
-| `teamai status` | Show local vs team repo diff |
+| `teamai status` | Show local vs team repo diff and resource counts, including namespaced skills and nested docs |
 | `teamai contribute` | Share session experience to team repo |
 | `teamai recall <query>` | Search the team knowledge base (BM25 + graph-boost) |
 | `teamai recall enable/disable/status` | Toggle or check recall state |
@@ -263,10 +267,12 @@ Insight into how the team actually uses its AI tools, and a starting point for t
 | `teamai recall maintenance` | Maintain knowledge base health: prune low-confidence learnings, writeback confidence scores, flag stale entries |
 | `teamai import` | Import knowledge (`--dir`, `--from-repo`, `--from-org`, `--from-repo-list`, `--from-mr`) |
 | `teamai codebase --extract [path]` | Extract code facts and build the local graph under `teamwiki/` |
+| `teamai codebase --deep-enrich` | Generate deep knowledge docs from extracted evidence |
 | `teamai codebase --reconcile` | Reconcile product documentation with extracted code knowledge |
 | `teamai codebase --lint` | Knowledge graph health check |
 | `teamai ci extract-mr --url <url>` | CI: extract knowledge from MR, post comments, write after merge |
 | `teamai members` | List team members |
+| `teamai projects` | Bind a working directory to one or more logical projects |
 | `teamai roles` | Manage team roles and namespaces |
 | `teamai tags` | Manage tag-based skill/rule filtering |
 | `teamai skill exclude add/remove/list` | Manage skills excluded from local sync ([usage guide](docs/usage-guide.md#excluding-skills-you-dont-need)) |

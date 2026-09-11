@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f"
+  "readme_sha256": "164122bcb86a77ef0d53b83a746feb38049603832e9568872681ec00b17211ba"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `55c3a1323906a910b38151935f2159ef13adddf295e43b9d2c4f7e646889396f`
+- README SHA256: `164122bcb86a77ef0d53b83a746feb38049603832e9568872681ec00b17211ba`
 
 ## README
 
@@ -55,11 +55,6 @@ Using Cursor? Open the [agent-aware quick start](https://tt-a1i.github.io/archif
 **No repository is required:** describe the system in any agent chat.
 
 ## ❤️ Sponsors
-
-<table>
-  <tr><td align="center" width="240"><a href="https://apinebula.ai/ref/wywnaATT"><img src="docs/assets/sponsors/apinebula-archify.jpg" alt="APINEBULA" width="200" /></a><br/><strong><a href="https://apinebula.ai/ref/wywnaATT">APINEBULA</a></strong></td><td>APINEBULA sponsors Archify with one API for Claude, GPT, Gemini, and more. <a href="https://apinebula.ai/ref/wywnaATT">Register through Archify</a> and use <strong><code>Archify</code></strong> for <strong>10% off</strong>.</td></tr>
-  <tr><td align="center" width="240"><a href="https://github.com/EverMind-AI/Raven"><img src="docs/assets/sponsors/evermind-archify-raven.png" alt="Archify × Raven" width="200" /></a><br/><strong><a href="https://github.com/EverMind-AI">EverMind</a> · <a href="https://github.com/EverMind-AI/Raven">Raven</a></strong></td><td>EverMind sponsors Archify and builds memory infrastructure for agents. Its <a href="https://github.com/EverMind-AI/Raven"><strong>Raven</strong></a> harness supports Archify as a Skill for verified, interactive system maps.</td></tr>
-</table>
 
 > Want to sponsor Archify? [Contact us by email.](mailto:2801884530@qq.com)
 

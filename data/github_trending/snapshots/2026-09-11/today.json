@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "df3ba2657a4c6be2eb1dc8189fdce5ba5001a19e1711fefc68e04613da90e1d6",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 2,
+      "readme_sha256": "36cd9279418420b2821344909dd487a343b84400ba1b70ef43e03b1569d2b563",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 3,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "full_name": "alsk1992/CloddsBot",
+      "project_file": "projects/alsk1992__CloddsBot.md",
+      "rank": 4,
+      "readme_sha256": "be2d1553916db9c5cd03ad097417fcd8fd05d9d46e18fe60dd34d8c84f7ae9a3",
+      "url": "https://github.com/alsk1992/CloddsBot"
+    },
+    {
+      "description": "Make Every Team AI Native",
+      "full_name": "Tencent/teamai-cli",
+      "project_file": "projects/Tencent__teamai-cli.md",
+      "rank": 5,
+      "readme_sha256": "fbb08f3b65f8ddc34ae48afd435b87cec3770028389ee8ea779debe85e2194d6",
+      "url": "https://github.com/Tencent/teamai-cli"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 6,
+      "readme_sha256": "db90c2a42cfcb82836cb547c8ba0043006679e4cc7ee41a97d60bf0bb939a1f9",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "full_name": "liquidslr/system-design-notes",
+      "project_file": "projects/liquidslr__system-design-notes.md",
+      "rank": 7,
+      "readme_sha256": "955ff40f792461a14676676b478fd41f3a1d0e6780aa13e4dfa155402739f4eb",
+      "url": "https://github.com/liquidslr/system-design-notes"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 8,
+      "readme_sha256": "0c4983c9ee6387e382e7840990bcc8c9ca7f438e21586ce7f6e7c3581a9152cb",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 9,
+      "readme_sha256": "5ce993a91445f34252dc66138f5d1bfaa065b5a52a4945a18b160be0a5ab4516",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Graphics Creation Tools",
+      "full_name": "armory3d/armorpaint",
+      "project_file": "projects/armory3d__armorpaint.md",
+      "rank": 10,
+      "readme_sha256": "005883548a1c64633a2ff47a40295b383d5ea8513ce903473f949875584452ec",
+      "url": "https://github.com/armory3d/armorpaint"
+    },
+    {
+      "description": "Never stop coding. Free MIT AI gateway: one endpoint, 352 providers (150+ free), 1200+ models Kimi, Claude, GPT, Gemini, GLM, DeepSeek, MiniMax. Works with Claude Code, Codex, Cursor, OpenCode, Cline & Copilot. Quota-aware auto-fallback, RTK+Caveman compression saves 15-95% tokens, MCP/A2A, Desktop/PWA. Built by 550+ contributors",
+      "full_name": "diegosouzapw/OmniRoute",
+      "project_file": "projects/diegosouzapw__OmniRoute.md",
+      "rank": 11,
+      "readme_sha256": "ec4596df17bd484c33266f700c73fcf2c774060e44f771673f76f4032415d61d",
+      "url": "https://github.com/diegosouzapw/OmniRoute"
+    },
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 12,
+      "readme_sha256": "4cc0c7eabca5da42b4e2e111bef34c5832f03fd586f3e45252ef546174b9f832",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 13,
+      "readme_sha256": "5c281dc872e6b834f6501abc2b507af377faa643d92cda7f2f4072ace629e17f",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "full_name": "nashsu/llm_wiki",
+      "project_file": "projects/nashsu__llm_wiki.md",
+      "rank": 14,
+      "readme_sha256": "e3c063d5275dcfce8b1e387a9fc8116f3ee4cfe7fa977445d97ee30a7c0f76b5",
+      "url": "https://github.com/nashsu/llm_wiki"
+    },
+    {
+      "description": "The open agent skills tool - npx skills",
+      "full_name": "vercel-labs/skills",
+      "project_file": "projects/vercel-labs__skills.md",
+      "rank": 15,
+      "readme_sha256": "b974874366d77133a0125e3c25c190211b4394df014563b7650804c2e4f780a5",
+      "url": "https://github.com/vercel-labs/skills"
+    },
+    {
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "full_name": "vastsa/PI-Desktop",
+      "project_file": "projects/vastsa__PI-Desktop.md",
+      "rank": 16,
+      "readme_sha256": "436ca50084d816f97a724a54ad8e0292b8487439df1a4e92331de4a83e6fc0bc",
+      "url": "https://github.com/vastsa/PI-Desktop"
+    }
+  ],
+  "snapshot_date": "2026-09-11",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

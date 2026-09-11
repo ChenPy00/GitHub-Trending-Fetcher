@@ -5,7 +5,7 @@
   "full_name": "cathrynlavery/diagram-design",
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-  "readme_sha256": "5ac37af3267c2d2529aecb7c5eb038a2f44a3229ba620c99d4cd6f662d5db2f2"
+  "readme_sha256": "0c4983c9ee6387e382e7840990bcc8c9ca7f438e21586ce7f6e7c3581a9152cb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cathrynlavery/diagram-design
 - Description: 38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.
-- README SHA256: `5ac37af3267c2d2529aecb7c5eb038a2f44a3229ba620c99d4cd6f662d5db2f2`
+- README SHA256: `0c4983c9ee6387e382e7840990bcc8c9ca7f438e21586ce7f6e7c3581a9152cb`
 
 ## README
 
@@ -152,6 +152,15 @@ codex plugin add diagram-design@diagram-design
 
 Codex refreshes configured Git marketplaces at startup. To fetch immediately, run `codex plugin marketplace upgrade diagram-design` and start a new session.
 
+**GitHub Copilot:**
+
+```bash
+copilot plugin marketplace add cathrynlavery/diagram-design
+copilot plugin install diagram-design@diagram-design
+```
+
+Copilot installs the shared Diagram Design skill plus its doctor, export, import, and profile capabilities from the existing repository marketplace. Confirm discovery with `copilot skill list` (or `/skills` in an interactive session), then ask for a diagram in natural language. To fetch a merged update, run `copilot plugin marketplace update diagram-design`, then `copilot plugin update diagram-design@diagram-design`.
+
 **Factory Droid:**
 
 ```bash
@@ -197,15 +206,16 @@ pi install ~/code/diagram-design
 ln -s ~/code/diagram-design/skills/diagram-design ~/.claude/skills/diagram-design
 
 # Other Agent Skills hosts: create only the roots you use
-mkdir -p ~/.agents/skills ~/.cursor/skills ~/.cline/skills ~/.kiro/skills ~/.config/opencode/skills
+mkdir -p ~/.agents/skills ~/.cursor/skills ~/.cline/skills ~/.kiro/skills ~/.config/opencode/skills ~/.copilot/skills
 ln -s ~/code/diagram-design/skills/diagram-design ~/.agents/skills/diagram-design
 ln -s ~/code/diagram-design/skills/diagram-design ~/.cursor/skills/diagram-design
 ln -s ~/code/diagram-design/skills/diagram-design ~/.cline/skills/diagram-design
 ln -s ~/code/diagram-design/skills/diagram-design ~/.kiro/skills/diagram-design
 ln -s ~/code/diagram-design/skills/diagram-design ~/.config/opencode/skills/diagram-design
+ln -s ~/code/diagram-design/skills/diagram-design ~/.copilot/skills/diagram-design
 ```
 
-The shared skill lives at `skills/diagram-design/`. Pi discovers it through the repo's standard `skills/` package directory; Claude Code, Codex, Factory Droid, and other Agent Skills-compatible tools use the same files.
+The shared skill lives at `skills/diagram-design/`. Pi discovers it through the repo's standard `skills/` package directory; Claude Code, GitHub Copilot, Codex, Factory Droid, and other Agent Skills-compatible tools use the same files.
 
 ---
 

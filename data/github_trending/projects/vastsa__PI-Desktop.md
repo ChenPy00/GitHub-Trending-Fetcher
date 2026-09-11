@@ -5,7 +5,7 @@
   "full_name": "vastsa/PI-Desktop",
   "url": "https://github.com/vastsa/PI-Desktop",
   "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
-  "readme_sha256": "c2c6a0aaf7789273d2f7b205f4812e3c9b8d6171956d553a33730b5ec0f3af2c"
+  "readme_sha256": "436ca50084d816f97a724a54ad8e0292b8487439df1a4e92331de4a83e6fc0bc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vastsa/PI-Desktop
 - Description: Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins
-- README SHA256: `c2c6a0aaf7789273d2f7b205f4812e3c9b8d6171956d553a33730b5ec0f3af2c`
+- README SHA256: `436ca50084d816f97a724a54ad8e0292b8487439df1a4e92331de4a83e6fc0bc`
 
 ## README
 
@@ -266,6 +266,16 @@ calling local Agent the same authority as the desktop for those operations —
 ### Subagents
 
 Create specialized agents with their own instructions, tools, and model choices, then delegate work to them from another agent.
+
+### pi extensions
+
+Extensions written for the [pi](https://github.com/badlogic/pi-mono) CLI run
+inside PI-Desktop's agent unchanged: a plugin lists them under
+`contributes.agentExtensions`, and Plugins → "Import pi extension" wraps an
+existing extension file or directory in a plugin for you. They register
+tools, slash commands, and hooks on every turn, tool call, and provider
+request, and run with the same access as the agent's own tools, which the
+`agent.extension` permission asks you to confirm.
 
 ### Plugins
 
@@ -538,3 +548,11 @@ See [LICENSE](LICENSE) for details.
 <sub>macOS · Windows · Linux</sub>
 
 </div>
+
+---
+
+## Code Signing
+
+Windows releases of PI-Desktop are digitally signed with free code signing
+provided by [SignPath.io](https://signpath.io/), using a certificate from the
+[SignPath Foundation](https://signpath.org/).

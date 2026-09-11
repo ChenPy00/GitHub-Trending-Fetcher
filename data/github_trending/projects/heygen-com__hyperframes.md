@@ -5,7 +5,7 @@
   "full_name": "heygen-com/hyperframes",
   "url": "https://github.com/heygen-com/hyperframes",
   "description": "Write HTML. Render video. Built for agents.",
-  "readme_sha256": "f040188b33cb623866b64ade4ce4038c4492157c439ef9ea39b553e1ae074ba1"
+  "readme_sha256": "9907b9f61fe5e8d04afdf52dd6c9e42fda4c09cf530f5aa322e67ce030847a80"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/heygen-com/hyperframes
 - Description: Write HTML. Render video. Built for agents.
-- README SHA256: `f040188b33cb623866b64ade4ce4038c4492157c439ef9ea39b553e1ae074ba1`
+- README SHA256: `9907b9f61fe5e8d04afdf52dd6c9e42fda4c09cf530f5aa322e67ce030847a80`
 
 ## README
 
@@ -60,7 +60,7 @@ Install the HyperFrames skills, then describe the video you want:
 npx skills add heygen-com/hyperframes
 ```
 
-> The picker opens with nothing pre-selected — the **Core Skills** group is all you need: the `/hyperframes` router installs each creation workflow on demand. Agents and non-interactive runs should use `npx hyperframes skills update` instead — it installs exactly the core set, whereas `skills add --all` installs every `SKILL.md` in the repo — the 20 published skills plus six repo-internal ones under `.claude/skills` / `.agents/skills`. For the full published set use `npx hyperframes skills`.
+> The picker opens with nothing pre-selected — the **Core Skills** group is all you need: the `/hyperframes` router installs each creation workflow on demand. Agents and non-interactive runs should use `npx hyperframes skills update` instead — it installs exactly the core set, whereas `skills add --all` installs all 20 published skills. The six repo-internal skills under `.claude/skills` / `.agents/skills` are excluded by default. For the full published set use `npx hyperframes skills`.
 >
 > `skills add` resolves the skills.sh registry blob, which can lag `main` by hours. `npx hyperframes skills update` installs from the current `main`, so reach for it when you need the newest copy of a skill.
 

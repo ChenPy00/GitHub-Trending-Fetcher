@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "eba9f8e130e7162417b5ae32ed1d51b0fb77e8e0b24072dc043044489ca05312"
+  "readme_sha256": "df3ba2657a4c6be2eb1dc8189fdce5ba5001a19e1711fefc68e04613da90e1d6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- README SHA256: `eba9f8e130e7162417b5ae32ed1d51b0fb77e8e0b24072dc043044489ca05312`
+- README SHA256: `df3ba2657a4c6be2eb1dc8189fdce5ba5001a19e1711fefc68e04613da90e1d6`
 
 ## README
 
@@ -95,7 +95,7 @@ A skill for your coding assistant that stops it from burying the answer. Action 
 6. Specific time estimates (minutes, not "a bit").
 7. Make wins visible.
 8. Matter-of-fact errors.
-9. Rank and group long lists; aim for at most five items per group without omitting relevant items.
+9. Cap lists to 5 items.
 10. No preamble. No recap. No closers.
 
 ## Tune it

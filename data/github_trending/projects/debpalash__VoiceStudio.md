@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "cfb74e49685c37d3b63b776cc47066c329407f1b0a0b7f9bba9918ae4fe1bda9"
+  "readme_sha256": "becb2974292e1df43950580bb09c75929c7c1cfa5a7c06211e73d5ea509e4c66"
 }
 ```
 
@@ -13,11 +13,14 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `cfb74e49685c37d3b63b776cc47066c329407f1b0a0b7f9bba9918ae4fe1bda9`
+- README SHA256: `becb2974292e1df43950580bb09c75929c7c1cfa5a7c06211e73d5ea509e4c66`
 
 ## README
 
 <div align="center">
+
+  <h3>NOTE: Electron Rewrite Ongoing: Please dont't create desktop app related issues and pr</h3>
+ 
   <p><img src="docs/logo.png" alt="VoiceStudio logo" width="120" height="120" /></p>
   <h1>VoiceStudio</h1>
   <p>

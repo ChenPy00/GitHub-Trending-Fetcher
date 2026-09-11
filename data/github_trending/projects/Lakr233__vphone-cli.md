@@ -5,7 +5,7 @@
   "full_name": "Lakr233/vphone-cli",
   "url": "https://github.com/Lakr233/vphone-cli",
   "description": "",
-  "readme_sha256": "bf06f68073edea91ddaa1d6f2d3ff634f1eee9eb7eb93c5525281645790b7f80"
+  "readme_sha256": "59f859b30ae6cd97fb864421f56db94b5523568e3f8d229b25bd7cefc8b430f2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Lakr233/vphone-cli
 - Description: No description
-- README SHA256: `bf06f68073edea91ddaa1d6f2d3ff634f1eee9eb7eb93c5525281645790b7f80`
+- README SHA256: `59f859b30ae6cd97fb864421f56db94b5523568e3f8d229b25bd7cefc8b430f2`
 
 ## README
 
@@ -187,12 +187,14 @@ vphone-amfidont         # .build/vphone-cli.app/Contents/Resources/vphone-amfido
 | Mac16,11 27.0b2 | `17,3_26.5.2_23F84`   | `26.4-23E5207q` |
 | Mac16,6 26.4.1  | `17,3_26.6_23G71`     | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_26.6.1_23G83`   | `26.4-23E5207q` |
+| Mac16,6 26.6.1  | `17,3_26.6.2_23G90`   | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_27.0_24A5380h`  | `26.4-23E5207q` |
 | Mac16,6 26.4.1  | `17,3_27.0_24A5390f`  | `26.4-23E5207q` |
 | Mac16,6 26.6.1  | `17,3_27.0_24A5408d`  | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_27.0_24A5418b`  | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_27.0_24A5424a`  | `26.4-23E5207q` |
 | Mac16,11 27.0b2 | `17,3_27.0_24A5430a`  | `26.4-23E5207q` |
+| Mac16,6 26.6.1  | `17,3_27.0_24A435`    | `26.4-23E5207q` |
 
 ## FAQ
 
