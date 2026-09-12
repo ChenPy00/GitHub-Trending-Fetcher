@@ -5,7 +5,7 @@
   "full_name": "NVIDIA-NeMo/Switchyard",
   "url": "https://github.com/NVIDIA-NeMo/Switchyard",
   "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
-  "readme_sha256": "1309ec534b75991c6c6af8cd88d167d71298cd2cc896ca6d2c00af3149a3e716"
+  "readme_sha256": "4f923a14ac90a7698770b7885ac11d8af6818365c6a75cb77d81b7c5b4aa335d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA-NeMo/Switchyard
 - Description: Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.
-- README SHA256: `1309ec534b75991c6c6af8cd88d167d71298cd2cc896ca6d2c00af3149a3e716`
+- README SHA256: `4f923a14ac90a7698770b7885ac11d8af6818365c6a75cb77d81b7c5b4aa335d`
 
 ## README
 
@@ -190,17 +190,15 @@ switchyard-protocol = { git = "https://github.com/NVIDIA-NeMo/Switchyard.git", b
 tokio = { version = "1", features = ["macros", "rt"] }
 ```
 
-**2. Construct an algorithm.** Target names are whatever your harness calls its
-models. This is the stage router from the benchmark; `random`,
-`llm_task_classifier`, and `llm_classifier` are built the same way.
+**2. Construct an algorithm.** Models are supplied when each request runs. This
+is the stage router from the benchmark; `random`, `llm_task_classifier`, and
+`llm_classifier` are built the same way.
 
 ```python
 from switchyard.libsy import LlmResponse, Step
 from switchyard.libsy.algorithms import stage_router
 
 algorithm = stage_router(
-    "capable",
-    "efficient",
     picker="efficient_first",
     confidence_threshold=0.5,
 )
@@ -224,8 +222,15 @@ async def call_with_fallback(request: dict, models: list[str], clients: dict) ->
     raise error or RuntimeError("no candidate models")
 
 
+runtime_models = {
+    "efficient": ["fast"],
+    "capable": ["quality"],
+    "any": ["quality", "fast"],
+}
+
+
 async def route(request: dict, clients: dict) -> LlmResponse.Agg | LlmResponse.Stream:
-    async for step in algorithm.run_stream(request):
+    async for step in algorithm.run_stream(request, runtime_models):
         match step:
             case Step.CallModel(call):
                 try:
@@ -241,7 +246,8 @@ async def route(request: dict, clients: dict) -> LlmResponse.Agg | LlmResponse.S
     raise RuntimeError("algorithm ended without a decision")
 ```
 
-`clients` maps each target name to your existing client; each `call` takes a
+`runtime_models` groups the model IDs available for this request by category.
+`clients` maps each model ID to your existing client; each `call` takes a
 normalized request dict and returns a normalized response dict. `call.models`
 and `outcome.selected_model_ids` list candidates in order, so the helper tries
 each one before giving up. `outcome.request` is the request to send, which may

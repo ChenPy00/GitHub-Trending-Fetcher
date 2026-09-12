@@ -5,7 +5,7 @@
   "full_name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "readme_sha256": "a3c37e15abee7ac58dd0986c16fdb9cfab6dd20d4649e50fb3ac68396cfbf8fa"
+  "readme_sha256": "0af25aa87d75486d5e60d4f6389f6a0366b06da32a16ca47b17dbb48376463b2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/affaan-m/ECC
 - Description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- README SHA256: `a3c37e15abee7ac58dd0986c16fdb9cfab6dd20d4649e50fb3ac68396cfbf8fa`
+- README SHA256: `0af25aa87d75486d5e60d4f6389f6a0366b06da32a16ca47b17dbb48376463b2`
 
 ## README
 
@@ -155,12 +155,12 @@ Instead of rebuilding that process in every prompt, you install it once and make
 
 ECC is MIT-licensed open source. It works best with Claude Code today, has a supported Codex sync path, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the [support status matrix](#platform-support) before assuming feature parity.
 
-Access to 68 agents, 291 skills, and 94 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
+Access to 68 agents, 292 skills, and 94 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
 
 | Included         |       Count | What it gives you                                                                    |
 | ---------------- | ----------: | ------------------------------------------------------------------------------------ |
 | Agents           |   68 agents | Planning, review, build repair, security, architecture, and domain work              |
-| Skills           |  291 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
+| Skills           |  292 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
 | Commands         | 94 commands | Convenient entry points while ECC moves to a skills-first surface                    |
 | Hooks and memory |     Runtime | Enforcement, session summaries, continuous learning, instincts, and context controls |
 | Rules            |   Selective | Always-loaded standards you choose by language or project                            |
@@ -388,7 +388,7 @@ cd ECC
 | Harness | Install or setup | Notes |
 |---|---|---|
 | Cursor | `./install.sh --profile minimal --target cursor` | Project-local `.cursor/` adapter |
-| OpenCode | `npm install && npm run build:opencode && ./install.sh --profile full --target opencode` | Builds the plugin payload before the full install |
+| OpenCode | `npm install && npm run build:opencode && ./install.sh --profile full --target opencode --enable-hooks` | Builds the plugin payload before the full install |
 | Gemini CLI | `./install.sh --profile minimal --target gemini` | Project-local `.gemini/` config |
 | Zed | `./install.sh --profile minimal --target zed` | Project-local `.zed/` adapter |
 | Antigravity | `./install.sh --profile minimal --target antigravity` | See the [Antigravity guide](docs/ANTIGRAVITY-GUIDE.md) |
@@ -813,7 +813,7 @@ Stable graduation of the 2.0 line: control-pane substrate, worktree lifecycle se
 ```text
 ECC/
 |-- agents/           # 68 specialized subagents for delegation
-|-- skills/           # 291 reusable workflows loaded on demand
+|-- skills/           # 292 reusable workflows loaded on demand
 |-- commands/         # 94 maintained slash-command shims
 |-- rules/            # opt-in common and language standards
 |-- hooks/            # runtime automation and enforcement
@@ -906,6 +906,7 @@ ECC/
 |   |-- quarkus-security/           # Quarkus security
 |   |-- quarkus-tdd/                # Quarkus TDD
 |   |-- quarkus-verification/       # Quarkus verification
+|   |-- rails-patterns/             # Rails architecture patterns
 |   |-- springboot-patterns/        # Java Spring Boot patterns
 |   |-- springboot-security/        # Spring Boot security
 |   |-- springboot-tdd/             # Spring Boot TDD

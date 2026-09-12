@@ -1,0 +1,193 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 1,
+      "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 2,
+      "readme_sha256": "f29d75c8c2bb47a1bf1c9edd6f46875eb99915f83730c3ec7f3626f604044359",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 3,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Meta-Framework of Spatiotemporal Composability",
+      "full_name": "cordiverse/cordis",
+      "project_file": "projects/cordiverse__cordis.md",
+      "rank": 4,
+      "readme_sha256": "19dab093b65d126f083c5ccdaa09dc27ca77ee0cd59974d51cfedf8af7708762",
+      "url": "https://github.com/cordiverse/cordis"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 5,
+      "readme_sha256": "2025b6cc9eaee97af45551b93187d30e32560ce4342f26343728bd4ab70d585a",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 6,
+      "readme_sha256": "0c4983c9ee6387e382e7840990bcc8c9ca7f438e21586ce7f6e7c3581a9152cb",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 7,
+      "readme_sha256": "ba38a5864df295f683dd7f61ffa5fe1451a20ccd6e06d848a68ff2bc8da13f68",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "full_name": "volcengine/OpenViking",
+      "project_file": "projects/volcengine__OpenViking.md",
+      "rank": 8,
+      "readme_sha256": "123b7076dbebe3222ec7e06e9949fdedbbd517ca424bc2d865cdbbb5ceaee0c8",
+      "url": "https://github.com/volcengine/OpenViking"
+    },
+    {
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 9,
+      "readme_sha256": "e60d642df4bb9ca1c9d104b735b754106c14d6261b3c2d341f3d0dbc0f55e9d8",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 10,
+      "readme_sha256": "f9c0582473dd4e27b54ba8c71e369ab693a4a1451aecd65e6d1c694e206976ee",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Algorithm powering the For You feed on X",
+      "full_name": "xai-org/x-algorithm",
+      "project_file": "projects/xai-org__x-algorithm.md",
+      "rank": 11,
+      "readme_sha256": "203d9b6ee7495c7160cb59185125d3aaaa6b3bd75ecb4e48b3af6a5c4c8938e5",
+      "url": "https://github.com/xai-org/x-algorithm"
+    },
+    {
+      "description": "Free and open-source macOS menu bar toolkit.",
+      "full_name": "vorssaint/vorssaint-utils",
+      "project_file": "projects/vorssaint__vorssaint-utils.md",
+      "rank": 12,
+      "readme_sha256": "5c06e47969a5dd46f05230fbc1a1764067a14ad08a9937b005e2119e21f1dbce",
+      "url": "https://github.com/vorssaint/vorssaint-utils"
+    },
+    {
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "full_name": "semantica-agi/semantica",
+      "project_file": "projects/semantica-agi__semantica.md",
+      "rank": 13,
+      "readme_sha256": "a60fea0ff0427f99f4335de42809ddf296232a0a26f7b02228b7bcc9dc21353a",
+      "url": "https://github.com/semantica-agi/semantica"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 14,
+      "readme_sha256": "aa416a10cbdc02677922a878be06851c535794dafd74b9fc004a3753fe7bd9e1",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 15,
+      "readme_sha256": "becb2974292e1df43950580bb09c75929c7c1cfa5a7c06211e73d5ea509e4c66",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 16,
+      "readme_sha256": "8829fc45b455c87d464dd3ae0b37d3dde22e7f6a2ab097193e4de238aaeca553",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "Switchyard lets LLM applications route traffic across models and providers while preserving native OpenAI and Anthropic API compatibility - enabling flexible model selection, benchmarking, and cost/performance optimization.",
+      "full_name": "NVIDIA-NeMo/Switchyard",
+      "project_file": "projects/NVIDIA-NeMo__Switchyard.md",
+      "rank": 17,
+      "readme_sha256": "4f923a14ac90a7698770b7885ac11d8af6818365c6a75cb77d81b7c5b4aa335d",
+      "url": "https://github.com/NVIDIA-NeMo/Switchyard"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 18,
+      "readme_sha256": "df3ba2657a4c6be2eb1dc8189fdce5ba5001a19e1711fefc68e04613da90e1d6",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 19,
+      "readme_sha256": "59f859b30ae6cd97fb864421f56db94b5523568e3f8d229b25bd7cefc8b430f2",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "Hundreds of models & providers. One command to find what runs on your hardware.",
+      "full_name": "AlexsJones/llmfit",
+      "project_file": "projects/AlexsJones__llmfit.md",
+      "rank": 20,
+      "readme_sha256": "db90c2a42cfcb82836cb547c8ba0043006679e4cc7ee41a97d60bf0bb939a1f9",
+      "url": "https://github.com/AlexsJones/llmfit"
+    },
+    {
+      "description": "A collective list of free APIs",
+      "full_name": "public-apis/public-apis",
+      "project_file": "projects/public-apis__public-apis.md",
+      "rank": 21,
+      "readme_sha256": "c0a7a882f443f017367981d71ec7fbfe669358def6bd2008f149fa261acfed3c",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 22,
+      "readme_sha256": "2f60c904352e67fff28042a550b520a097c5a268ee7945a371aa6b4f6840ea3d",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+      "full_name": "cactus-compute/needle",
+      "project_file": "projects/cactus-compute__needle.md",
+      "rank": 23,
+      "readme_sha256": "9719db4e38f758256e70b584ca02ccdc2c08f98919382e14429246007d3135d3",
+      "url": "https://github.com/cactus-compute/needle"
+    }
+  ],
+  "snapshot_date": "2026-09-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

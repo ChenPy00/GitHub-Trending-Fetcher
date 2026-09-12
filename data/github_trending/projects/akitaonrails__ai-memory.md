@@ -5,7 +5,7 @@
   "full_name": "akitaonrails/ai-memory",
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-  "readme_sha256": "ca68b434be46820c8269a6471ff2a365f2aa3d9df88c0f8bc07b372bf6ad0499"
+  "readme_sha256": "8829fc45b455c87d464dd3ae0b37d3dde22e7f6a2ab097193e4de238aaeca553"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/akitaonrails/ai-memory
 - Description: Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-- README SHA256: `ca68b434be46820c8269a6471ff2a365f2aa3d9df88c0f8bc07b372bf6ad0499`
+- README SHA256: `8829fc45b455c87d464dd3ae0b37d3dde22e7f6a2ab097193e4de238aaeca553`
 
 ## README
 
@@ -132,6 +132,7 @@ caveats is in [`docs/support-matrix.md`](docs/support-matrix.md).
 | Pool | Hooks-only |
 | VS Code Copilot | MCP-only |
 | Zed | MCP-only |
+| Muse Code | MCP-only |
 | Hermes Agent | Community |
 | LLM/auth providers | Supported |
 | Embedding providers | Supported |
@@ -370,7 +371,7 @@ diagram, crate breakdown, schema notes, and invariants.
 - [`docs/ROADMAP-2.0.md`](docs/ROADMAP-2.0.md) - the plan for the 2.0 release, one item at a time.
 - [`docs/okf.md`](docs/okf.md) - the wiki is natively an Open Knowledge Format (OKF v0.2) bundle; design and field mapping.
 - [`docs/typed-edges.md`](docs/typed-edges.md) - typed relation edges (`causes` / `fixes` / `contradicts`) and how lint uses them.
-- [`docs/temporal.md`](docs/temporal.md) - ingestion-time validity on the entity index and `as_of` time-travel queries.
+- [`docs/temporal.md`](docs/temporal.md) - ingestion-time validity on the entity index and page versions, and `as_of` time-travel queries (entity timeline + version-filtered FTS).
 - [`docs/local-embeddings.md`](docs/local-embeddings.md) - in-process embeddings with no API key (`embedding_provider = "local"`).
 - [`docs/experience.md`](docs/experience.md) - the opt-in cross-session abstraction pass: knowledge visible only across trajectories.
 - [`docs/MIGRATION-2.0.md`](docs/MIGRATION-2.0.md) - upgrading an existing store to 2.0: the backup-gated automatic migration and how to restore.

@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "df3ba2657a4c6be2eb1dc8189fdce5ba5001a19e1711fefc68e04613da90e1d6",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 2,
+      "readme_sha256": "5d59ad5812010a7620276bce7bad44fc25e2887d1148b0d104d68aca4486a0fe",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "User friendly sideloader",
+      "full_name": "nab138/iloader",
+      "project_file": "projects/nab138__iloader.md",
+      "rank": 3,
+      "readme_sha256": "cf7bc32651c037c2934372ecc21592beacaaaaa3b576e426bdf3624f237dbe36",
+      "url": "https://github.com/nab138/iloader"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 4,
+      "readme_sha256": "d6ee05c7d434a6df92f445f4d3e2fe757d471d5b55eb027602634f080b78fa15",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "description": "Local-first AI coding agent desktop: Electron + Rust host core + pi Agent Harness + user-installable plugins",
+      "full_name": "vastsa/PI-Desktop",
+      "project_file": "projects/vastsa__PI-Desktop.md",
+      "rank": 5,
+      "readme_sha256": "d76cf932e32d1e2c8878cc2d6918c89af03c53f2dc207c1725b99e005e1a0c4f",
+      "url": "https://github.com/vastsa/PI-Desktop"
+    },
+    {
+      "description": "Graphics Creation Tools",
+      "full_name": "armory3d/armorpaint",
+      "project_file": "projects/armory3d__armorpaint.md",
+      "rank": 6,
+      "readme_sha256": "005883548a1c64633a2ff47a40295b383d5ea8513ce903473f949875584452ec",
+      "url": "https://github.com/armory3d/armorpaint"
+    },
+    {
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "full_name": "alsk1992/CloddsBot",
+      "project_file": "projects/alsk1992__CloddsBot.md",
+      "rank": 7,
+      "readme_sha256": "60a9c70c935bbd51c2b3d96f66109ca01d35a55cd07403e257c43381fa6929cc",
+      "url": "https://github.com/alsk1992/CloddsBot"
+    },
+    {
+      "description": "LLM Wiki is a cross-platform desktop application that turns your documents into an organized, interlinked knowledge base — automatically. Instead of traditional RAG (retrieve-and-answer from scratch every time), the LLM incrementally builds and maintains a persistent wiki from your sources。",
+      "full_name": "nashsu/llm_wiki",
+      "project_file": "projects/nashsu__llm_wiki.md",
+      "rank": 8,
+      "readme_sha256": "e3c063d5275dcfce8b1e387a9fc8116f3ee4cfe7fa977445d97ee30a7c0f76b5",
+      "url": "https://github.com/nashsu/llm_wiki"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 9,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Smart PVR for newsgroup and bittorrent users.",
+      "full_name": "Sonarr/Sonarr",
+      "project_file": "projects/Sonarr__Sonarr.md",
+      "rank": 10,
+      "readme_sha256": "564f70398f6741ad94a6073a5709ab6a01bc7c209c4e4b306f2233404f576bbe",
+      "url": "https://github.com/Sonarr/Sonarr"
+    },
+    {
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "full_name": "jihe520/MathModelAgent",
+      "project_file": "projects/jihe520__MathModelAgent.md",
+      "rank": 11,
+      "readme_sha256": "90c9d04c722944a921981344418c5019f100b95679b8feef79c8a4bbfd438bc8",
+      "url": "https://github.com/jihe520/MathModelAgent"
+    },
+    {
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "full_name": "p1neappleXpress/OpenFlux",
+      "project_file": "projects/p1neappleXpress__OpenFlux.md",
+      "rank": 12,
+      "readme_sha256": "66ce8633b32fd8ef7ef7a48eca452048e3615670f52f4fe2c4505d6a52162af7",
+      "url": "https://github.com/p1neappleXpress/OpenFlux"
+    },
+    {
+      "description": "Agent-driven research knowledge base. Agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+      "full_name": "jordan-gibbs/hyperresearch",
+      "project_file": "projects/jordan-gibbs__hyperresearch.md",
+      "rank": 13,
+      "readme_sha256": "ba5f3cae1e9987b02a2053c8ced9208d1667e977788af5118745b779e5a0ac57",
+      "url": "https://github.com/jordan-gibbs/hyperresearch"
+    },
+    {
+      "description": "Run parallel research agents with any model",
+      "full_name": "alphaXiv/OpenResearch",
+      "project_file": "projects/alphaXiv__OpenResearch.md",
+      "rank": 14,
+      "readme_sha256": "c24dda222454af5b973214ff779c4c8dfbdf42e8d8685ab733ccb622e6f3888e",
+      "url": "https://github.com/alphaXiv/OpenResearch"
+    },
+    {
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "full_name": "github/spec-kit",
+      "project_file": "projects/github__spec-kit.md",
+      "rank": 15,
+      "readme_sha256": "cba3c17953bd9453e8f53d378ed4fa4c5272c3633ad313ad600de5bb4979a17a",
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "description": "Open-source 3D architectural editor with a local CLI, MCP tools, and practical workflows for humans and AI agents.",
+      "full_name": "pascalorg/editor",
+      "project_file": "projects/pascalorg__editor.md",
+      "rank": 16,
+      "readme_sha256": "6582eb0adc6be1c10ddd8d433ef4c9e063b651baed785c424262a9a28733761f",
+      "url": "https://github.com/pascalorg/editor"
+    }
+  ],
+  "snapshot_date": "2026-09-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

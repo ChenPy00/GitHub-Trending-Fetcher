@@ -5,7 +5,7 @@
   "full_name": "bilawalsidhu/gods-eye-view",
   "url": "https://github.com/bilawalsidhu/gods-eye-view",
   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-  "readme_sha256": "36cd9279418420b2821344909dd487a343b84400ba1b70ef43e03b1569d2b563"
+  "readme_sha256": "5d59ad5812010a7620276bce7bad44fc25e2887d1148b0d104d68aca4486a0fe"
 }
 ```
 
@@ -13,13 +13,15 @@
 
 - URL: https://github.com/bilawalsidhu/gods-eye-view
 - Description: A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-- README SHA256: `36cd9279418420b2821344909dd487a343b84400ba1b70ef43e03b1569d2b563`
+- README SHA256: `5d59ad5812010a7620276bce7bad44fc25e2887d1148b0d104d68aca4486a0fe`
 
 ## README
 
 <div align="center">
 
 # 🌐 God's Eye View
+
+[![CI](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bilawalsidhu/gods-eye-view/actions/workflows/ci.yml)
 
 ### A spy-satellite simulator in your browser — then you realize the sources are public and the data is real.
 

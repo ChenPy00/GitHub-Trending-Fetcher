@@ -1,0 +1,193 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "df3ba2657a4c6be2eb1dc8189fdce5ba5001a19e1711fefc68e04613da90e1d6",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 2,
+      "readme_sha256": "0af25aa87d75486d5e60d4f6389f6a0366b06da32a16ca47b17dbb48376463b2",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 3,
+      "readme_sha256": "a226c5747abb3e738cacc27d68b1dcf121f1ef2e687f901d9163d7abe3220bf8",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "",
+      "full_name": "humanlayer/skills",
+      "project_file": "projects/humanlayer__skills.md",
+      "rank": 4,
+      "readme_sha256": "8123e666e2c8a5cb27f7211557f65544383178c7d1ad816b350d08bede2e323e",
+      "url": "https://github.com/humanlayer/skills"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 5,
+      "readme_sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 6,
+      "readme_sha256": "f29d75c8c2bb47a1bf1c9edd6f46875eb99915f83730c3ec7f3626f604044359",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 7,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 8,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "full_name": "blader/humanizer",
+      "project_file": "projects/blader__humanizer.md",
+      "rank": 9,
+      "readme_sha256": "d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "description": "Skills Catalog for Codex",
+      "full_name": "openai/skills",
+      "project_file": "projects/openai__skills.md",
+      "rank": 10,
+      "readme_sha256": "0f6a07580f3c627253e15a58dd0439e135049ec38eb16cf3587f7e50abc6f590",
+      "url": "https://github.com/openai/skills"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 11,
+      "readme_sha256": "9907b9f61fe5e8d04afdf52dd6c9e42fda4c09cf530f5aa322e67ce030847a80",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 12,
+      "readme_sha256": "0c4983c9ee6387e382e7840990bcc8c9ca7f438e21586ce7f6e7c3581a9152cb",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "A modern formatting library",
+      "full_name": "fmtlib/fmt",
+      "project_file": "projects/fmtlib__fmt.md",
+      "rank": 13,
+      "readme_sha256": "d560c28c4649a888af9b725231f828f9475978c146efcc2b0aa1049bc4cf12a8",
+      "url": "https://github.com/fmtlib/fmt"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 14,
+      "readme_sha256": "5d59ad5812010a7620276bce7bad44fc25e2887d1148b0d104d68aca4486a0fe",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "full_name": "coreyhaines31/marketingskills",
+      "project_file": "projects/coreyhaines31__marketingskills.md",
+      "rank": 15,
+      "readme_sha256": "6f370f8f639f0dd4c86e4057328b95ac3761b9d97cd9f02957fb70ac890349b2",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 16,
+      "readme_sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 17,
+      "readme_sha256": "86bd5a9a670f24c03ab000c4432271816aefe503e206c64e11f678c7793fb376",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "The agent that grows with you",
+      "full_name": "NousResearch/hermes-agent",
+      "project_file": "projects/NousResearch__hermes-agent.md",
+      "rank": 18,
+      "readme_sha256": "1d733df90c2836c1b9cd8d7307d2d222023456b7b55b5036c2fbb54fd8bcfdf4",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    {
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 19,
+      "readme_sha256": "4602f42d7e6a7625d4c08bfc81c1f2fdc0eb00a874b202600ca97c7da572d3de",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 20,
+      "readme_sha256": "f9c0582473dd4e27b54ba8c71e369ab693a4a1451aecd65e6d1c694e206976ee",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 21,
+      "readme_sha256": "5c3d68de05958c3674cc82b8ef9470298a75eea9946d491438270827ae6b07f4",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "A collection of agent skills that help you build a great interface.",
+      "full_name": "jakubkrehel/skills",
+      "project_file": "projects/jakubkrehel__skills.md",
+      "rank": 22,
+      "readme_sha256": "23ec1197487073154b35060bcfa9064ae6a732fcd9012d934a24de59ce6f9763",
+      "url": "https://github.com/jakubkrehel/skills"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 23,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    }
+  ],
+  "snapshot_date": "2026-09-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

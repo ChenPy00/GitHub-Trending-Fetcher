@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "164122bcb86a77ef0d53b83a746feb38049603832e9568872681ec00b17211ba"
+  "readme_sha256": "f29d75c8c2bb47a1bf1c9edd6f46875eb99915f83730c3ec7f3626f604044359"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `164122bcb86a77ef0d53b83a746feb38049603832e9568872681ec00b17211ba`
+- README SHA256: `f29d75c8c2bb47a1bf1c9edd6f46875eb99915f83730c3ec7f3626f604044359`
 
 ## README
 
@@ -55,6 +55,13 @@ Using Cursor? Open the [agent-aware quick start](https://tt-a1i.github.io/archif
 **No repository is required:** describe the system in any agent chat.
 
 ## ❤️ Sponsors
+
+<table>
+<tr>
+  <td align="center" width="240"><a href="https://supercode.sh/?utm_source=archify"><img src="https://cdn.supercode.sh/sponsors/supercode-logo.png" alt="Supercode" width="200"/></a><br/><strong><a href="https://supercode.sh/?utm_source=archify">supercode.sh</a></strong></td>
+<td><a href="https://supercode.sh/?utm_source=archify">Supercode</a> sponsors Archify and enhances Codex and Cursor with token optimization, curated Skills, and spec-driven development. Archify is featured as a <a href="https://supercode.sh/en/skills/tt-a1i/archify/archify">Supercode Editor’s Choice</a> skill.<br/><br/><a href="https://supercode.sh/en/skills/tt-a1i/archify/archify"><img src="https://supercode.sh/badges/editors-choice.svg" alt="Supercode Editor’s Choice — Archify" width="240" height="55"/></a></td>
+</tr>
+</table>
 
 > Want to sponsor Archify? [Contact us by email.](mailto:2801884530@qq.com)
 

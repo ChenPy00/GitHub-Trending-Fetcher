@@ -5,7 +5,7 @@
   "full_name": "alsk1992/CloddsBot",
   "url": "https://github.com/alsk1992/CloddsBot",
   "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
-  "readme_sha256": "be2d1553916db9c5cd03ad097417fcd8fd05d9d46e18fe60dd34d8c84f7ae9a3"
+  "readme_sha256": "60a9c70c935bbd51c2b3d96f66109ca01d35a55cd07403e257c43381fa6929cc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alsk1992/CloddsBot
 - Description: Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.
-- README SHA256: `be2d1553916db9c5cd03ad097417fcd8fd05d9d46e18fe60dd34d8c84f7ae9a3`
+- README SHA256: `60a9c70c935bbd51c2b3d96f66109ca01d35a55cd07403e257c43381fa6929cc`
 
 ## README
 
@@ -32,11 +32,11 @@
 </p>
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/clodds"><img src="https://img.shields.io/npm/v/clodds?color=blue" alt="npm version"></a>
+  <a href="https://github.com/alsk1992/CloddsBot/releases/latest"><img src="https://img.shields.io/github/v/release/alsk1992/CloddsBot?display_name=tag&color=blue" alt="GitHub release"></a>
   <img src="https://img.shields.io/badge/node-%3E%3D22-brightgreen" alt="Node.js">
   <img src="https://img.shields.io/badge/typescript-5.3-blue" alt="TypeScript">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-yellow" alt="MIT License"></a>
-  <img src="https://img.shields.io/badge/skills-119%2B-purple" alt="119+ Skills">
+  <img src="https://img.shields.io/badge/skills-121%2B-purple" alt="121+ Skills">
   <img src="https://img.shields.io/badge/markets-1000%2B-orange" alt="1000+ Markets">
   <img src="https://img.shields.io/badge/Colosseum-Agent%20Hackathon-blueviolet" alt="Built for Colosseum Hackathon">
   <img src="https://img.shields.io/badge/clones%2F14d-10.7k-brightgreen" alt="10.7k clones in 14 days">
@@ -70,10 +70,14 @@ Powered by Claude with 118+ trading strategies, whale tracking, arbitrage detect
 
 ## Quick Start
 
+> **Requirement:** Node.js 22 or newer. Node.js 20 is not supported and dependency installation may fail.
+
 ```bash
-npm install -g clodds --loglevel=error
+npm install -g https://github.com/alsk1992/CloddsBot/releases/latest/download/clodds.tgz --loglevel=error
 clodds onboard
 ```
+
+> The old `clodds` package on npmjs.com is no longer maintained. Install the current release from GitHub using the command above.
 
 That's it. The setup wizard walks you through everything — API key, messaging channel, and starts the gateway. WebChat opens at `http://localhost:18789/webchat`.
 
@@ -95,7 +99,7 @@ npm run build && npm start
 [![Watch the demo video](https://img.shields.io/badge/▶-Watch%20Demo-blue?style=for-the-badge)](https://cloddsbot.com/onboard.mp4)
 
 The demo shows:
-- `npm install -g clodds` → `clodds onboard`
+- Install the latest GitHub Release → `clodds onboard`
 - Onboarding wizard walks through credentials setup
 - Fetches live 15-minute BTC prediction markets from Polymarket (in real-time)
 - One command away from trading
@@ -166,12 +170,12 @@ See [docs/USER_GUIDE.md](./docs/USER_GUIDE.md) for all commands.
 | **Trading Strategies** | 118+ strategies including momentum, mean reversion, penny clipper, expiry fade, DCA bots, smart routing, whale tracking, copy trading |
 | **Risk Management** | Unified risk engine with circuit breaker, VaR/CVaR, volatility regime detection, stress testing, Kelly sizing, daily loss limits, kill switch |
 | **Backtesting** | Configurable strategy backtesting with historical data, SL/TP validation, P&L analysis |
-| **Skills System** | 119 bundled skills + lazy-loaded extensions (no missing dependencies crash) — chat-driven automation |
+| **Skills System** | 121 bundled skills + lazy-loaded extensions (no missing dependencies crash) — chat-driven automation |
 | **Token Security** | GoPlus-powered audits — honeypot detection, rug-pull analysis, holder concentration, risk scoring |
 | **Security Shield** | Code scanning (75 rules), scam DB (70+ addresses), multi-chain address checking, pre-trade tx validation |
 | **Trading** | Order execution on 16+ platforms (prediction markets, futures, Solana DEXs, EVM DEXs), portfolio tracking, P&L, DCA |
 | **Market Data** | Real-time orderbooks, candles, liquidity tracking, depth analysis, price feeds across all platforms |
-| **MCP Server** | Expose all 119 skills as MCP tools for Claude Desktop and Claude Code |
+| **MCP Server** | Expose all 121 skills as MCP tools for Claude Desktop and Claude Code |
 | **Arbitrage** | Cross-platform detection, combinatorial analysis, semantic matching, real-time scanning |
 | **AI** | 8 LLM providers, 4 specialized agents, semantic memory, 18 tools |
 | **Data Persistence** | SQLite (local), LanceDB (semantic memory + embeddings), PostgreSQL (analytics) — unlimited WebChat history, trade database, context compacting, hybrid search, user profiles |
@@ -389,7 +393,7 @@ Enable: `clodds config set ledger.enabled true`
 ┌──────────────────────────────────────────┴─────────────────────────────────────┐
 │                            AI AGENTS LAYER (4)                                 │
 │  Main (Claude) • Trading (Exec) • Research (Data) • Alerts (Monitor)          │
-│  119+ Skills • 18 Tools • LanceDB Memory • Semantic Reasoning                  │
+│  121+ Skills • 18 Tools • LanceDB Memory • Semantic Reasoning                  │
 └──────────────────────────────────────────┬─────────────────────────────────────┘
                                            │
 ┌──────────────────────────────────────────┴─────────────────────────────────────┐
@@ -641,7 +645,7 @@ docker compose up --build
 | Prediction Markets | **10** |
 | Futures Exchanges | **7** |
 | AI Tools | **18** |
-| Skills | **119** |
+| Skills | **121** |
 | LLM Providers | **8** |
 | Solana DeFi Protocols | **9** |
 | Trading Strategies | **4** |
