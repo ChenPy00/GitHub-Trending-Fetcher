@@ -5,7 +5,7 @@
   "full_name": "Shubhamsaboo/awesome-llm-apps",
   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
   "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-  "readme_sha256": "05653bf7f79142b23872e4310416c7b0c11fd5abe637d969a22e7d597f9b3ef9"
+  "readme_sha256": "4f5942866dc8a1a93cc4b487b48659f7011f5b7df573fe8036eaba388f48d411"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Shubhamsaboo/awesome-llm-apps
 - Description: 100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.
-- README SHA256: `05653bf7f79142b23872e4310416c7b0c11fd5abe637d969a22e7d597f9b3ef9`
+- README SHA256: `4f5942866dc8a1a93cc4b487b48659f7011f5b7df573fe8036eaba388f48d411`
 
 ## README
 
@@ -96,31 +96,6 @@ streamlit run travel_agent.py
 
 > 📬 New templates drop weekly. [Get them in your inbox on Unwind AI](https://www.theunwindai.com).
 
-## 🙏 Thanks to our sponsors
-
-<table align="center" cellpadding="16" cellspacing="12">
-  <tr>
-    <td align="center">
-      <a href="https://devtoolsacademy.link/shubham" target="_blank" rel="noopener" title="Vorflux">
-        <img src="docs/banner/sponsors/vorflux.png" alt="Vorflux" width="500">
-      </a>
-      <br>
-      <a href="https://devtoolsacademy.link/shubham" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-        Vorflux
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://sponsorunwindai.com/" title="Become a Sponsor">
-        <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Become a Sponsor" width="500">
-      </a>
-      <br>
-      <a href="https://sponsorunwindai.com/" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-        Become a Sponsor
-      </a>
-    </td>
-  </tr>
-</table>
-
 ## 📂 Browse all templates
 
 ### 🧩 Agent Skills
@@ -128,10 +103,11 @@ streamlit run travel_agent.py
 *Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](agent_skills/)*
 
 *   [⚰️ Project Graveyard](agent_skills/project-graveyard/) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
+*   [👁️ First Reader](agent_skills/first-reader/) - Simulates real readers going through your draft and reports where they lose interest, where they stop reading, and what they remember afterward, without rewriting a word
 *   [🔭 Scope Creep Detector](agent_skills/scope-creep-detector/) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
 *   [🏺 Commit Archaeologist](agent_skills/commit-archaeologist/) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
 *   [🩺 Dependency Doctor](agent_skills/dependency-doctor/) - Checks a dependency manifest for standard-library pins, obsolete backports, unpinned entries, duplicate constraints, and yanked releases
-*   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Fable 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.7 Flash as worker
+*   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Fable 5.1 as advisor, GPT-6 Astra as orchestrator, and Gemini 3.8 Flash as worker
 *   [♾️ Self-Improving Agent Skills](agent_skills/self-improving-agent-skills/) - Automatically optimize agent skills using Gemini and ADK
 
 ### 🌱 Starter AI Agents
@@ -145,6 +121,7 @@ streamlit run travel_agent.py
 *   [😂 AI Meme Generator Agent (Browser)](starter_ai_agents/ai_meme_generator_agent_browseruse/) - Makes memes by driving a real browser, not an image API
 *   [🎵 AI Music Generator Agent](starter_ai_agents/ai_music_generator_agent/) - Prompt in, MP3 track out
 *   [🛫 AI Travel Agent (Local & Cloud)](starter_ai_agents/ai_travel_agent/) - Personalized day-by-day travel itineraries
+*   [💸 AI x402 Paying Agent](starter_ai_agents/ai_x402_paying_agent/) - An agent with a wallet that pays per-call for the data it needs — no API keys
 *   [✨ Gemini Multimodal Agent](starter_ai_agents/multimodal_ai_agent/) - Video analysis plus web search in one agent
 *   [🔄 Mixture of Agents](starter_ai_agents/mixture_of_agents/) - Multiple LLMs answer, one aggregates the best response
 *   [📊 xAI Finance Agent](starter_ai_agents/xai_finance_agent/) - Real-time stock analysis powered by Grok
@@ -175,7 +152,7 @@ streamlit run travel_agent.py
 *   [🧬 AI Self-Evolving Agent](advanced_ai_agents/multi_agent_apps/ai_self_evolving_agent/) - Agents that rewrite their own workflows with EvoAgentX
 *   [👨🏻‍💼 AI Sales Intelligence Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team) - Generates competitive sales battle cards in real time
 *   [🎧 AI Social Media News and Podcast Agent](advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/) - Curates your trusted sources into briefs and generated podcasts
-*   [🌐 Openwork - Open Browser Automation Agent](https://github.com/accomplish-ai/openwork) <sub>↗ external</sub> - Open-source agent that operates a real browser
+*   [🌐 Openwork - Open Browser Automation Agent](https://github.com/accomplish-ai/coworker) <sub>↗ external</sub> - Open-source agent that operates a real browser
 *   [🛡️ Trust-Gated Multi-Agent Research Team](advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/) - Every agent verified, every action in a hash-chained audit trail
 
 ### 🛰️ Always-on Agents

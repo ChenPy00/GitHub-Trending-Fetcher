@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "2025b6cc9eaee97af45551b93187d30e32560ce4342f26343728bd4ab70d585a"
+  "readme_sha256": "1751f1abdfc53cd1345471f210354024b451da464cddfc674faa7efb26260cbb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `2025b6cc9eaee97af45551b93187d30e32560ce4342f26343728bd4ab70d585a`
+- README SHA256: `1751f1abdfc53cd1345471f210354024b451da464cddfc674faa7efb26260cbb`
 
 ## README
 
@@ -99,6 +99,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `meltwater` | [Meltwater](third_party/meltwater/) | Cursor | Integrations | Search media and social mentions and pull analytics. |
 | `daloopa` | [Daloopa](third_party/daloopa/) | Cursor | Integrations | Pull source-linked fundamentals, KPIs, filings, and prices. |
 | `excalidraw` | [Excalidraw](third_party/excalidraw/) | Cursor | Integrations | Draw and export hand-drawn diagrams from chat. |
+| `google-cloud-bigquery` | [Google Cloud BigQuery](third_party/google-cloud-bigquery/) | Cursor | Integrations | Explore datasets and tables and run SQL queries. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure

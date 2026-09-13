@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 1,
+      "readme_sha256": "5d59ad5812010a7620276bce7bad44fc25e2887d1148b0d104d68aca4486a0fe",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 2,
+      "readme_sha256": "d6ee05c7d434a6df92f445f4d3e2fe757d471d5b55eb027602634f080b78fa15",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 3,
+      "readme_sha256": "56561de0db21b9c49748c18e077041c7ce9fc74cbfc636d0335c2a5aae97fc90",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "User friendly sideloader",
+      "full_name": "nab138/iloader",
+      "project_file": "projects/nab138__iloader.md",
+      "rank": 4,
+      "readme_sha256": "cf7bc32651c037c2934372ecc21592beacaaaaa3b576e426bdf3624f237dbe36",
+      "url": "https://github.com/nab138/iloader"
+    },
+    {
+      "description": "",
+      "full_name": "Flowseal/zapret-discord-youtube",
+      "project_file": "projects/Flowseal__zapret-discord-youtube.md",
+      "rank": 5,
+      "readme_sha256": "22f675ea1a15db4b5439406198f4fedc73ab8002c2350b6206201be68f751667",
+      "url": "https://github.com/Flowseal/zapret-discord-youtube"
+    },
+    {
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "full_name": "jihe520/MathModelAgent",
+      "project_file": "projects/jihe520__MathModelAgent.md",
+      "rank": 6,
+      "readme_sha256": "90c9d04c722944a921981344418c5019f100b95679b8feef79c8a4bbfd438bc8",
+      "url": "https://github.com/jihe520/MathModelAgent"
+    },
+    {
+      "description": "Smart PVR for newsgroup and bittorrent users.",
+      "full_name": "Sonarr/Sonarr",
+      "project_file": "projects/Sonarr__Sonarr.md",
+      "rank": 7,
+      "readme_sha256": "564f70398f6741ad94a6073a5709ab6a01bc7c209c4e4b306f2233404f576bbe",
+      "url": "https://github.com/Sonarr/Sonarr"
+    },
+    {
+      "description": "Open Source AI trading agent that operates autonomously across 1000+ markets - Polymarket, Kalshi, Binance, Hyperliquid, Solana DEXs, 5 EVM chains. Scans for edge, executes instantly, manages risk while you sleep. Agent commerce protocol for machine-to-machine payments. Self-hosted. Built on Claude.",
+      "full_name": "alsk1992/CloddsBot",
+      "project_file": "projects/alsk1992__CloddsBot.md",
+      "rank": 8,
+      "readme_sha256": "60a9c70c935bbd51c2b3d96f66109ca01d35a55cd07403e257c43381fa6929cc",
+      "url": "https://github.com/alsk1992/CloddsBot"
+    },
+    {
+      "description": "Browse media content with your own rules on Android TV",
+      "full_name": "yuliskov/SmartTube",
+      "project_file": "projects/yuliskov__SmartTube.md",
+      "rank": 9,
+      "readme_sha256": "ced70467167c99853877e24f4fc2415668100a2bcceb704233420a46de5538b9",
+      "url": "https://github.com/yuliskov/SmartTube"
+    },
+    {
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "project_file": "projects/Shubhamsaboo__awesome-llm-apps.md",
+      "rank": 10,
+      "readme_sha256": "4f5942866dc8a1a93cc4b487b48659f7011f5b7df573fe8036eaba388f48d411",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps"
+    },
+    {
+      "description": "Network stack research tool. TCP tunnel with pluggable transports.",
+      "full_name": "p1neappleXpress/OpenFlux",
+      "project_file": "projects/p1neappleXpress__OpenFlux.md",
+      "rank": 11,
+      "readme_sha256": "66ce8633b32fd8ef7ef7a48eca452048e3615670f52f4fe2c4505d6a52162af7",
+      "url": "https://github.com/p1neappleXpress/OpenFlux"
+    },
+    {
+      "description": "Graphics Creation Tools",
+      "full_name": "armory3d/armorpaint",
+      "project_file": "projects/armory3d__armorpaint.md",
+      "rank": 12,
+      "readme_sha256": "005883548a1c64633a2ff47a40295b383d5ea8513ce903473f949875584452ec",
+      "url": "https://github.com/armory3d/armorpaint"
+    },
+    {
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "full_name": "SnailSploit/Claude-Red",
+      "project_file": "projects/SnailSploit__Claude-Red.md",
+      "rank": 13,
+      "readme_sha256": "310ae4d46cf86dbbe9b608665125c0e2db04c6e347316a781e8561c9e5ae1def",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+    },
+    {
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "full_name": "multimodal-art-projection/YuE",
+      "project_file": "projects/multimodal-art-projection__YuE.md",
+      "rank": 14,
+      "readme_sha256": "824f64f621cc0ce6d7cf4f635328e6525aa9d049b8ef9548ea7af849c356949a",
+      "url": "https://github.com/multimodal-art-projection/YuE"
+    },
+    {
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "full_name": "max-sixty/worktrunk",
+      "project_file": "projects/max-sixty__worktrunk.md",
+      "rank": 15,
+      "readme_sha256": "1fcd367d4ff3d8dfad2a580b7d543781216df77bba246c8fd7ee2d67d16d85e4",
+      "url": "https://github.com/max-sixty/worktrunk"
+    },
+    {
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "full_name": "vxcontrol/pentagi",
+      "project_file": "projects/vxcontrol__pentagi.md",
+      "rank": 16,
+      "readme_sha256": "f91792dc299570b8c4680621b4fc7da9b513567814ded613ee4a6513f0142f08",
+      "url": "https://github.com/vxcontrol/pentagi"
+    }
+  ],
+  "snapshot_date": "2026-09-13",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

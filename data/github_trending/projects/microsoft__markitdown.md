@@ -5,7 +5,7 @@
   "full_name": "microsoft/markitdown",
   "url": "https://github.com/microsoft/markitdown",
   "description": "Python tool for converting files and office documents to Markdown.",
-  "readme_sha256": "86bd5a9a670f24c03ab000c4432271816aefe503e206c64e11f678c7793fb376"
+  "readme_sha256": "a0bc5d3345066248062ceefc858edc606f2f7a93bafc2b382a5cb7a43a6b8d9e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/microsoft/markitdown
 - Description: Python tool for converting files and office documents to Markdown.
-- README SHA256: `86bd5a9a670f24c03ab000c4432271816aefe503e206c64e11f678c7793fb376`
+- README SHA256: `a0bc5d3345066248062ceefc858edc606f2f7a93bafc2b382a5cb7a43a6b8d9e`
 
 ## README
 
@@ -306,11 +306,15 @@ To use Large Language Models for image descriptions (currently only for pptx and
 from markitdown import MarkItDown
 from openai import OpenAI
 
-client = OpenAI()
+client = OpenAI(max_retries=5)
 md = MarkItDown(llm_client=client, llm_model="gpt-4o", llm_prompt="optional custom prompt")
 result = md.convert("example.jpg")
 print(result.markdown)
 ```
+
+`max_retries` controls the OpenAI client's automatic retries for retryable errors (the default is 2); `5` allows up to six attempts with backoff. See the [OpenAI SDK retry documentation](https://github.com/openai/openai-python#retries).
+
+If any attempt succeeds, image conversion continues normally. If the client raises an error after exhausting its retries, or encounters a non-retryable error, MarkItDown tries other applicable converters and raises `FileConversionException` only if none succeeds.
 
 ### Docker
 
