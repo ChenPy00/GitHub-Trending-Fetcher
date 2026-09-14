@@ -4,16 +4,16 @@
   "name": "OpenResearch",
   "full_name": "alphaXiv/OpenResearch",
   "url": "https://github.com/alphaXiv/OpenResearch",
-  "description": "Run parallel research agents with any model",
-  "readme_sha256": "c24dda222454af5b973214ff779c4c8dfbdf42e8d8685ab733ccb622e6f3888e"
+  "description": "Turn your coding agents into research agents",
+  "readme_sha256": "0c9042c88d535e3d061dd16e7a3a672ba3e06f25026ab81a92c6b48692bde752"
 }
 ```
 
 # alphaXiv/OpenResearch
 
 - URL: https://github.com/alphaXiv/OpenResearch
-- Description: Run parallel research agents with any model
-- README SHA256: `c24dda222454af5b973214ff779c4c8dfbdf42e8d8685ab733ccb622e6f3888e`
+- Description: Turn your coding agents into research agents
+- README SHA256: `0c9042c88d535e3d061dd16e7a3a672ba3e06f25026ab81a92c6b48692bde752`
 
 ## README
 
@@ -23,38 +23,45 @@
 
 **The local-first workspace for research agents and autoresearch.**
 
-<p>Turn <img src=".github/readme-assets/claude.svg" alt="" width="18" /> Claude Code,
-<img src=".github/readme-assets/codex.svg" alt="" width="18" /> Codex,
-<img src=".github/readme-assets/opencode.svg" alt="" width="18" /> OpenCode, or
-Cursor into research agents that can review
+<p>Turn <img src=".github/readme-assets/claude.svg" alt="" width="16" height="16" align="texttop" /> Claude Code,
+<img src=".github/readme-assets/codex.svg" alt="" width="16" height="16" align="texttop" /> Codex,
+<img src=".github/readme-assets/opencode.svg" alt="" width="16" height="16" align="texttop" /> OpenCode, or
+<img src=".github/readme-assets/cursor.svg" alt="" width="16" height="16" align="texttop" /> Cursor into research agents that can review
 literature, develop hypotheses, run experiments, and produce research artifacts.</p>
 
-[Download the desktop app](https://openresearch.sh/download) ·
-[Documentation](https://openresearch.sh/docs) ·
-[Releases](https://github.com/alphaXiv/OpenResearch/releases)
+<p>
+<a href="https://github.com/alphaXiv/OpenResearch/releases/latest/download/OpenResearch.dmg"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme-assets/download-macos-dark.svg"><img src=".github/readme-assets/download-macos.svg" alt="Download OpenResearch for macOS" width="220" height="44" /></picture></a>
+<a href="https://github.com/alphaXiv/OpenResearch/releases/latest/download/openresearch-cli-x86_64-pc-windows-msvc.zip"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme-assets/download-windows-dark.svg"><img src=".github/readme-assets/download-windows.svg" alt="Download OpenResearch for Windows (Beta)" width="220" height="44" /></picture></a>
+<a href="#get-started"><picture><source media="(prefers-color-scheme: dark)" srcset=".github/readme-assets/install-linux-centered-dark.svg"><img src=".github/readme-assets/install-linux-centered.svg" alt="Install OpenResearch for Linux" width="220" height="44" /></picture></a>
+</p>
+
+<p>
+<a href="https://openresearch.sh/docs"><img src=".github/readme-assets/action-documentation.svg" alt="Documentation" width="132" height="24" /></a><img src=".github/readme-assets/action-separator.svg" alt=" · " width="12" height="24" />
+<a href="https://github.com/alphaXiv/OpenResearch/releases"><img src=".github/readme-assets/action-releases.svg" alt="Releases" width="78" height="24" /></a>
+</p>
+
+<p><sub>macOS 11+ · Windows beta requires <a href="docs/windows.md">Git for Windows</a></sub></p>
+
+<p><a href="https://trendshift.io/repositories/89363"><img src="https://trendshift.io/api/badge/repositories/89363" alt="GitHub Trending: #1 Repository of the Day" width="250" height="55" /></a></p>
 
 </div>
 
 ## Get started
 
-Download the local desktop app from
-[openresearch.sh/download](https://openresearch.sh/download), or install the
-CLI on macOS or Linux:
+Install the CLI on macOS or Linux, then launch OpenResearch:
 
 ```sh
 curl -LsSf https://openresearch.sh/install.sh | sh
 orx up
 ```
 
+On Windows, use the beta download above after installing
+[Git for Windows](docs/windows.md).
+
 `orx up` opens the local dashboard at `http://127.0.0.1:4791`.
 
-On Windows, install from
-[Releases](https://github.com/alphaXiv/OpenResearch/releases) and read
-[the Windows notes](docs/windows.md) first — Git for Windows is required, and
-support is still in beta.
-
-To use LM Studio, oMLX, Ollama, or a custom endpoint with OpenCode, see
-[connecting local models](docs/local-models.md).
+[Connect a local model](docs/local-models.md) to use LM Studio, oMLX, Ollama,
+or a custom endpoint with OpenCode.
 
 Create an account at [openresearch.sh](https://openresearch.sh) to receive email
 updates and use managed OpenResearch compute.

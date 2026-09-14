@@ -5,7 +5,7 @@
   "full_name": "asgeirtj/system_prompts_leaks",
   "url": "https://github.com/asgeirtj/system_prompts_leaks",
   "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
-  "readme_sha256": "56561de0db21b9c49748c18e077041c7ce9fc74cbfc636d0335c2a5aae97fc90"
+  "readme_sha256": "8ce38a30c466ff7c941f072c528250d9a0ba4283d6b8f13b0aaf1ab3634551d5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/asgeirtj/system_prompts_leaks
 - Description: Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.
-- README SHA256: `56561de0db21b9c49748c18e077041c7ce9fc74cbfc636d0335c2a5aae97fc90`
+- README SHA256: `8ce38a30c466ff7c941f072c528250d9a0ba4283d6b8f13b0aaf1ab3634551d5`
 
 ## README
 
@@ -54,6 +54,8 @@ Leaked system prompts, captured verbatim — the hidden instructions and rules t
 
 | What | Date | Link |
 |------|------|------|
+| **ChatGPT Work Codex (local)** | September 13, 2026 | [ChatGPT Work Codex local system prompt](OpenAI/Codex/gpt-6-astra-chatgpt-work-local.md) |
+| **Gemini 3.8 Flash** | September 13, 2026 | [Gemini 3.8 Flash System Prompt](Google/gemini-3.8-flash.md) |
 | **Claude Code headless (Fable 5.1)** | September 5, 2026 | [Claude Code headless system prompt (Fable 5.1)](Anthropic/claude-code/claude-code-headless-fable-5.1.md) |
 | **Codex GPT-6-Astra** | September 4, 2026 | [Codex GPT-6-Astra system prompt](OpenAI/Codex/gpt-6-astra.md) |
 | **Claude Fable 5.1** | September 1, 2026 | [Claude Fable 5.1 system prompt](Anthropic/claude-fable-5.1.md) · [Claude Code (Fable 5.1)](Anthropic/claude-code/claude-code-fable-5.1.md) |

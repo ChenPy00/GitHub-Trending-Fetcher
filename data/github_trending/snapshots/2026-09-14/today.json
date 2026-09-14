@@ -1,0 +1,161 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 1,
+      "readme_sha256": "7bcdf06bb42a102ef6c57f924bb6d494ecd85a965f7a666acab1237d5b05b44a",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "full_name": "ever-co/ever-gauzy",
+      "project_file": "projects/ever-co__ever-gauzy.md",
+      "rank": 2,
+      "readme_sha256": "b16afed92f9977d934ad3f7bbfbf74a3e7e2ed82d4ef003503fd37c137b764fe",
+      "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 3,
+      "readme_sha256": "40c2b76633440b33786db4f3d55728960eb33b2e9440181c004780c61234b584",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "full_name": "tech-leads-club/agent-skills",
+      "project_file": "projects/tech-leads-club__agent-skills.md",
+      "rank": 4,
+      "readme_sha256": "3cc51b23cd98b637d3769016e295711087636b12117f2c703cd587c2b2c50789",
+      "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 5,
+      "readme_sha256": "d6ee05c7d434a6df92f445f4d3e2fe757d471d5b55eb027602634f080b78fa15",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 6,
+      "readme_sha256": "0431403a913bb4a132e090f4dbd0343852473aa62d67a3a3912294129482906b",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 7,
+      "readme_sha256": "8ce38a30c466ff7c941f072c528250d9a0ba4283d6b8f13b0aaf1ab3634551d5",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "full_name": "vxcontrol/pentagi",
+      "project_file": "projects/vxcontrol__pentagi.md",
+      "rank": 8,
+      "readme_sha256": "f91792dc299570b8c4680621b4fc7da9b513567814ded613ee4a6513f0142f08",
+      "url": "https://github.com/vxcontrol/pentagi"
+    },
+    {
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "full_name": "multimodal-art-projection/YuE",
+      "project_file": "projects/multimodal-art-projection__YuE.md",
+      "rank": 9,
+      "readme_sha256": "824f64f621cc0ce6d7cf4f635328e6525aa9d049b8ef9548ea7af849c356949a",
+      "url": "https://github.com/multimodal-art-projection/YuE"
+    },
+    {
+      "description": "Browse media content with your own rules on Android TV",
+      "full_name": "yuliskov/SmartTube",
+      "project_file": "projects/yuliskov__SmartTube.md",
+      "rank": 10,
+      "readme_sha256": "ced70467167c99853877e24f4fc2415668100a2bcceb704233420a46de5538b9",
+      "url": "https://github.com/yuliskov/SmartTube"
+    },
+    {
+      "description": "Turn your coding agents into research agents",
+      "full_name": "alphaXiv/OpenResearch",
+      "project_file": "projects/alphaXiv__OpenResearch.md",
+      "rank": 11,
+      "readme_sha256": "0c9042c88d535e3d061dd16e7a3a672ba3e06f25026ab81a92c6b48692bde752",
+      "url": "https://github.com/alphaXiv/OpenResearch"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 12,
+      "readme_sha256": "becb2974292e1df43950580bb09c75929c7c1cfa5a7c06211e73d5ea509e4c66",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "full_name": "SnailSploit/Claude-Red",
+      "project_file": "projects/SnailSploit__Claude-Red.md",
+      "rank": 13,
+      "readme_sha256": "310ae4d46cf86dbbe9b608665125c0e2db04c6e347316a781e8561c9e5ae1def",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+    },
+    {
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 14,
+      "readme_sha256": "d5ac674a566b5258b8ece90cf770bf9237cc310e906ffcb7f1102d9b6f9ba662",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "🤖📐专为数学建模设计的 Agent & skills ,自动完成数学建模，生成一份完整的可以直接提交的论文。 An Agent Designed for Mathematical Modeling ,Automatically complete mathmodel and generate a complete paper ready for submission.",
+      "full_name": "jihe520/MathModelAgent",
+      "project_file": "projects/jihe520__MathModelAgent.md",
+      "rank": 15,
+      "readme_sha256": "90c9d04c722944a921981344418c5019f100b95679b8feef79c8a4bbfd438bc8",
+      "url": "https://github.com/jihe520/MathModelAgent"
+    },
+    {
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "full_name": "tonhowtf/omniget",
+      "project_file": "projects/tonhowtf__omniget.md",
+      "rank": 16,
+      "readme_sha256": "a9387603f7d94d021d155e5e5c63d901bf4a7577f06907bcf3685fed3d8e5f12",
+      "url": "https://github.com/tonhowtf/omniget"
+    },
+    {
+      "description": "A practical Douyin downloader for both single-item and profile batch downloads, with progress display, retries, SQLite deduplication, and browser fallback support. 抖音批量下载工具，去水印，支持视频、图集、合集、音乐(原声)。",
+      "full_name": "jiji262/douyin-downloader",
+      "project_file": "projects/jiji262__douyin-downloader.md",
+      "rank": 17,
+      "readme_sha256": "56aa157919dd861e98166689c4ee3ace2c2820ca19cb8153b0870da5637dc183",
+      "url": "https://github.com/jiji262/douyin-downloader"
+    },
+    {
+      "description": "A good looking terminal emulator which mimics the old cathode display...",
+      "full_name": "Swordfish90/cool-retro-term",
+      "project_file": "projects/Swordfish90__cool-retro-term.md",
+      "rank": 18,
+      "readme_sha256": "0a155d07beb90d57898d69a8953639111e0b95dfefa9dc989dc5a1777770afc0",
+      "url": "https://github.com/Swordfish90/cool-retro-term"
+    },
+    {
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "full_name": "huggingface/transformers",
+      "project_file": "projects/huggingface__transformers.md",
+      "rank": 19,
+      "readme_sha256": "9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382",
+      "url": "https://github.com/huggingface/transformers"
+    }
+  ],
+  "snapshot_date": "2026-09-14",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

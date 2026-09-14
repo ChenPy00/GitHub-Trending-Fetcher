@@ -5,7 +5,7 @@
   "full_name": "huggingface/transformers",
   "url": "https://github.com/huggingface/transformers",
   "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-  "readme_sha256": "4882b6ecd6e7c866ca7a7d2c3517eca22d6ef8fce18601958e19092cb63afd51"
+  "readme_sha256": "9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/transformers
 - Description: 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
-- README SHA256: `4882b6ecd6e7c866ca7a7d2c3517eca22d6ef8fce18601958e19092cb63afd51`
+- README SHA256: `9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382`
 
 ## README
 
@@ -56,24 +56,25 @@ limitations under the License.
 <h4 align="center">
     <p>
         <b>English</b> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hans.md">简体中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_zh-hant.md">繁體中文</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ko.md">한국어</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_es.md">Español</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ja.md">日本語</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_hd.md">हिन्दी</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ru.md">Русский</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_pt-br.md">Português</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_te.md">తెలుగు</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fr.md">Français</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_de.md">Deutsch</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_it.md">Italiano</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_vi.md">Tiếng Việt</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ar.md">العربية</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_ur.md">اردو</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_bn.md">বাংলা</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_fa.md">فارسی</a> |
-        <a href="https://github.com/huggingface/transformers/blob/main/i18n/README_tr.md">Türkçe</a> |
+        <a href="i18n/README_zh-hans.md">简体中文</a> |
+        <a href="i18n/README_zh-hant.md">繁體中文</a> |
+        <a href="i18n/README_ko.md">한국어</a> |
+        <a href="i18n/README_es.md">Español</a> |
+        <a href="i18n/README_ja.md">日本語</a> |
+        <a href="i18n/README_hd.md">हिन्दी</a> |
+        <a href="i18n/README_ru.md">Русский</a> |
+        <a href="i18n/README_pt-br.md">Português</a> |
+        <a href="i18n/README_te.md">తెలుగు</a> |
+        <a href="i18n/README_fr.md">Français</a> |
+        <a href="i18n/README_de.md">Deutsch</a> |
+        <a href="i18n/README_it.md">Italiano</a> |
+        <a href="i18n/README_vi.md">Tiếng Việt</a> |
+        <a href="i18n/README_ar.md">العربية</a> |
+        <a href="i18n/README_ur.md">اردو</a> |
+        <a href="i18n/README_bn.md">বাংলা</a> |
+        <a href="i18n/README_fa.md">فارسی</a> |
+        <a href="i18n/README_ro.md">Română</a> |
+        <a href="i18n/README_tr.md">Türkçe</a>
     </p>
 </h4>
 
