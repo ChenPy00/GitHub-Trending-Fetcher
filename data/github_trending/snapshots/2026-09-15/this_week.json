@@ -1,0 +1,193 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 1,
+      "readme_sha256": "cd83c450c40cd0f4c09279f37597302a77d580ec63e8a827353f83c86b9db39f",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 2,
+      "readme_sha256": "51aba2c66e4f6d9a864a028e4580e368a85ad2ce001cfee2d58ad5a861fd2b94",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 3,
+      "readme_sha256": "0af25aa87d75486d5e60d4f6389f6a0366b06da32a16ca47b17dbb48376463b2",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "OpenAI Plugins",
+      "full_name": "openai/plugins",
+      "project_file": "projects/openai__plugins.md",
+      "rank": 4,
+      "readme_sha256": "b3681ebd15797bdee1d638c6520c7ba10a36e676760ea5c251530f53f843c852",
+      "url": "https://github.com/openai/plugins"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 5,
+      "readme_sha256": "7c36893a7cef4e42a303ff3d29aed1e4c0a7ed405fda07f04b275938e9a868a4",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 6,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 7,
+      "readme_sha256": "9907b9f61fe5e8d04afdf52dd6c9e42fda4c09cf530f5aa322e67ce030847a80",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 8,
+      "readme_sha256": "72c641ab2df957fe045c60e1d8fb0515e43118cc31213e9ee0dfb7923a8e71b7",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Skills Catalog for Codex",
+      "full_name": "openai/skills",
+      "project_file": "projects/openai__skills.md",
+      "rank": 9,
+      "readme_sha256": "0f6a07580f3c627253e15a58dd0439e135049ec38eb16cf3587f7e50abc6f590",
+      "url": "https://github.com/openai/skills"
+    },
+    {
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "full_name": "microsoft/markitdown",
+      "project_file": "projects/microsoft__markitdown.md",
+      "rank": 10,
+      "readme_sha256": "a0bc5d3345066248062ceefc858edc606f2f7a93bafc2b382a5cb7a43a6b8d9e",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 11,
+      "readme_sha256": "4cd0e751210f24a5e4788730e7b5bb145b4d03a2b2c71202721454481a5c5e81",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Agent skill that removes signs of AI-generated writing from text",
+      "full_name": "blader/humanizer",
+      "project_file": "projects/blader__humanizer.md",
+      "rank": 12,
+      "readme_sha256": "d546538831ce8423587208d4a86dbe2be1f1f63445505d284dc558e6de86dac0",
+      "url": "https://github.com/blader/humanizer"
+    },
+    {
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "full_name": "max-sixty/worktrunk",
+      "project_file": "projects/max-sixty__worktrunk.md",
+      "rank": 13,
+      "readme_sha256": "1fcd367d4ff3d8dfad2a580b7d543781216df77bba246c8fd7ee2d67d16d85e4",
+      "url": "https://github.com/max-sixty/worktrunk"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 14,
+      "readme_sha256": "f9c0582473dd4e27b54ba8c71e369ab693a4a1451aecd65e6d1c694e206976ee",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 15,
+      "readme_sha256": "0c4983c9ee6387e382e7840990bcc8c9ca7f438e21586ce7f6e7c3581a9152cb",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Chrome DevTools for coding agents",
+      "full_name": "ChromeDevTools/chrome-devtools-mcp",
+      "project_file": "projects/ChromeDevTools__chrome-devtools-mcp.md",
+      "rank": 16,
+      "readme_sha256": "059a0349daaef6bda98eae6d9384ed349ac94b8033b18be817c317a01b472024",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 17,
+      "readme_sha256": "e61c428699e8b4fb7c2288f30de13598a3a72086f1735fe8d4ce4b6a4058ea11",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "full_name": "coreyhaines31/marketingskills",
+      "project_file": "projects/coreyhaines31__marketingskills.md",
+      "rank": 18,
+      "readme_sha256": "6f370f8f639f0dd4c86e4057328b95ac3761b9d97cd9f02957fb70ac890349b2",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "A library of agent skills for CAD, CAE and CAM",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 19,
+      "readme_sha256": "9870f21b7ade3f3a5c8f9b0bc39bfc288505ff5f6b4c93f08cbffa22c452f142",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Removes 20+ patterns of AI slop from any piece of writing.",
+      "full_name": "petergyang/no-ai-slop",
+      "project_file": "projects/petergyang__no-ai-slop.md",
+      "rank": 20,
+      "readme_sha256": "a2e24837d6531c2e827876123d05ea482a21bcfc25358dbdacbf581fb1e51d81",
+      "url": "https://github.com/petergyang/no-ai-slop"
+    },
+    {
+      "description": "💫 Toolkit to help you get started with Spec-Driven Development",
+      "full_name": "github/spec-kit",
+      "project_file": "projects/github__spec-kit.md",
+      "rank": 21,
+      "readme_sha256": "cba3c17953bd9453e8f53d378ed4fa4c5272c3633ad313ad600de5bb4979a17a",
+      "url": "https://github.com/github/spec-kit"
+    },
+    {
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 22,
+      "readme_sha256": "5e6401cba450622345288e0d4a5c1fe77260699801f9ef1a95f8e2cd1e5de988",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Talk to one agent. Ship with a crew.",
+      "full_name": "kunchenguid/firstmate",
+      "project_file": "projects/kunchenguid__firstmate.md",
+      "rank": 23,
+      "readme_sha256": "09d4aee65d20a34dcbb2ef5b1506727ba202a7717f94172627f4a9fea073f9e6",
+      "url": "https://github.com/kunchenguid/firstmate"
+    }
+  ],
+  "snapshot_date": "2026-09-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

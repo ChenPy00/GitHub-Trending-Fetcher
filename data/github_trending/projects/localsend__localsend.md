@@ -5,7 +5,7 @@
   "full_name": "localsend/localsend",
   "url": "https://github.com/localsend/localsend",
   "description": "An open-source cross-platform alternative to AirDrop",
-  "readme_sha256": "d93cba094aae37a5149c4e601f8aa6dea22e4628bd907228665fdd1621f38737"
+  "readme_sha256": "5625cab3d26d35ae61566c4fc86e70b68bf9025424e6569c14896063212bd6db"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/localsend/localsend
 - Description: An open-source cross-platform alternative to AirDrop
-- README SHA256: `d93cba094aae37a5149c4e601f8aa6dea22e4628bd907228665fdd1621f38737`
+- README SHA256: `5625cab3d26d35ae61566c4fc86e70b68bf9025424e6569c14896063212bd6db`
 
 ## README
 
@@ -32,7 +32,7 @@
 
 [Homepage][homepage] • [Discord][discord] • [GitHub][github] • [Codeberg][codeberg]
 
-[English (Default)](README.md) • [Español](/support/readme/README_ES.md) • [فارسی](/support/readme/README_FA.md) • [Filipino](/support/readme/README_PH.md) • [Français](/support/readme/README_FR.md) • [Indonesia](/support/readme/README_ID.md) • [Italiano](/support/readme/README_IT.md) • [日本語](/support/readme/README_JA.md) • [ភាសាខ្មែរ](/support/readme/README_KM.md) • [한국어](/support/readme/README_KO.md) • [Polski](/support/readme/README_PL.md) • [Português Brasil](/support/readme/README_PT_BR.md) • [Русский](/support/readme/README_RU.md) • [ภาษาไทย](/support/readme/README_TH.md) • [Türkçe](/support/readme/README_TR.md) • [Українська](/support/readme/README_UK.md) • [Tiếng Việt](/support/readme/README_VI.md) • [中文](/support/readme/README_ZH.md)
+[English (Default)](README.md) • [中文](/support/readme/README_ZH.md)
 
 [homepage]: https://localsend.org
 [discord]: https://discord.gg/GSRWmQNP87
@@ -48,6 +48,7 @@ LocalSend is a free, open-source app that allows you to securely share files and
 - [How It Works](#how-it-works)
 - [Dependency Hierarchy](#dependency-hierarchy)
 - [Getting Started](#getting-started)
+- [Command Line Interface](#command-line-interface)
 - [Contributing](#contributing)
   - [Translation](#translation)
   - [Bug Fixes and Improvements](#bug-fixes-and-improvements)
@@ -134,6 +135,8 @@ In most cases, LocalSend should work out of the box. However, if you are having 
 | Incoming     | TCP, UDP | 53317 | Allow  |
 | Outgoing     | TCP, UDP | Any   | Allow  |
 
+On Linux, for example with `ufw`: `sudo ufw allow 53317`. With `firewalld`: `sudo firewall-cmd --permanent --add-port=53317/tcp`, `sudo firewall-cmd --permanent --add-port=53317/udp`, then `sudo firewall-cmd --reload`.
+
 Also make sure to disable AP isolation on your router. It should be usually disabled by default but some routers may have it enabled (especially guest networks).
 See [troubleshooting](#troubleshooting) for more information.
 
@@ -180,6 +183,35 @@ To compile LocalSend from the source code, follow these steps:
 > To make development more consistent, LocalSend uses [fvm](https://fvm.app) to manage the project Flutter version.
 > After installing `fvm`, run `fvm flutter` instead of `flutter`.
 
+## Command Line Interface
+
+The LocalSend CLI is a terminal client built on LocalSend Protocol v2.
+Run `localsend-cli --help` to see every available option and hotkey.
+
+Use the `send` command with one or more files, directories, or a mixture of both:
+
+```shell
+localsend-cli send report.pdf photo.jpg ./project-backup
+```
+
+The command opens the discovered-device list; select the destination interactively
+and press Enter to start the transfer.
+
+To select the destination without an interactive device list, pass its exact alias
+or IP address:
+
+```shell
+localsend-cli send --to "Cute Tomato" report.pdf
+localsend-cli send --to 192.168.27.26 report.pdf
+```
+
+An alias must uniquely identify a discovered device. An IP address is probed directly
+over HTTPS on LocalSend's default port (`53317`).
+
+Directories are collected recursively. Their selected root names and nested paths
+are preserved on the receiver. Empty directories are not sent because LocalSend
+transfers file entries rather than directory entries.
+
 ## Contributing
 
 We welcome contributions from anyone interested in helping improve LocalSend. If you'd like to contribute, there are a few ways to get involved:
@@ -212,6 +244,8 @@ For more information, see the [contributing guide](https://github.com/localsend/
 | Device not visible | Any                | Any                  | Make sure to disable AP-Isolation on your router. If it is enabled, connections between devices are forbidden.                          |
 | Device not visible | Any                | Windows              | Make sure to configure your network as a "private" network. Windows might be more restrictive when the network is configured as public. |
 | Device not visible | macOS, iOS         | Any                  | You can try to toggle the "Local Network" permission under "Privacy" in the OS settings.                                                |
+| Device not visible | Any                | Any                  | If a VPN is active, allow local/LAN traffic or temporarily disable the VPN. Some VPNs block local network connections by default.       |
+| Device not visible | Any                | Any                  | Use manual sending to enter the receiver's IP address directly. If that works, add the device to favorites so it is probed directly.    |
 | Speed too slow     | Any                | Any                  | Use 5 Ghz; Disable encryption on both devices                                                                                           |
 | Speed too slow     | Any                | Android              | Known issue. https://github.com/flutter-cavalry/saf_stream/issues/4                                                                     |
 

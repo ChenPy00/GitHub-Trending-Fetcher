@@ -5,7 +5,7 @@
   "full_name": "kunchenguid/firstmate",
   "url": "https://github.com/kunchenguid/firstmate",
   "description": "Talk to one agent. Ship with a crew.",
-  "readme_sha256": "f9c678915ae3ff0e16a1cee49a7fd235d677ee2683aaea41e8fb0b39b41048d6"
+  "readme_sha256": "09d4aee65d20a34dcbb2ef5b1506727ba202a7717f94172627f4a9fea073f9e6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kunchenguid/firstmate
 - Description: Talk to one agent. Ship with a crew.
-- README SHA256: `f9c678915ae3ff0e16a1cee49a7fd235d677ee2683aaea41e8fb0b39b41048d6`
+- README SHA256: `09d4aee65d20a34dcbb2ef5b1506727ba202a7717f94172627f4a9fea073f9e6`
 
 ## README
 
@@ -206,7 +206,7 @@ Claude and grok use the slash form shown here; codex uses the same names with `$
 | `/quiet`           | Enter quiet supervision mode: the same token-saving sub-supervisor tradeoff as `/afk`, for a captain who is staying and chatting - ordinary messages do not exit it, only an explicit `/quiet off` does |
 | `/ahoy`            | Recap visible session events since the prior real captain message plus visibly unanswered captain decisions, then guide the captain through any open decisions one at a time in agent-judged impact order; fall back to Bearings when invoked as the session's first real captain message |
 | `/bearings`        | Generate a concise four-section chat digest from bounded fleet state, including registered remote-home ledgers; use `/bearings file` to also replace today's dated report in `data/`, and add `include PRs` for live GitHub enrichment |
-| `/updatefirstmate` | Fast-forward the running firstmate and its secondmates, then persist and restart every live mate successfully left on the target commit - including already-current homes - with an honest re-read nudge only when restart cannot be proven |
+| `/updatefirstmate` | Guardedly update the running firstmate and its secondmates - fast-forward, or reconcile a redundant post-squash-merge divergence - then persist and restart every live mate successfully left on the target commit - including already-current homes - with an honest re-read nudge only when restart cannot be proven |
 | `/stow`            | Sweep the session for uncaptured durable knowledge, persist the open work records this session knows are unfiled or now wrong, curate tiered startup memory with decay and cold archival, enforce each home's budget or surface the required decision, cascade to registered second mates, and report what is safe to reset |
 
 Bearings invocation examples:

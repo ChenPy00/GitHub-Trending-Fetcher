@@ -5,7 +5,7 @@
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
   "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "d5ac674a566b5258b8ece90cf770bf9237cc310e906ffcb7f1102d9b6f9ba662"
+  "readme_sha256": "5e6401cba450622345288e0d4a5c1fe77260699801f9ef1a95f8e2cd1e5de988"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/open-code-review
 - Description: Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `d5ac674a566b5258b8ece90cf770bf9237cc310e906ffcb7f1102d9b6f9ba662`
+- README SHA256: `5e6401cba450622345288e0d4a5c1fe77260699801f9ef1a95f8e2cd1e5de988`
 
 ## README
 
@@ -48,7 +48,7 @@
   <a href="#supported-agents"><img alt="Cursor" src="https://img.shields.io/badge/Cursor-supported-blueviolet.svg" /></a>
 </p>
 <p align="center">
-  English | <a href="README.zh-CN.md">简体中文</a> | <a href="README.ja-JP.md">日本語</a> | <a href="README.ko-KR.md">한국어</a> | <a href="README.ru-RU.md">Русский</a>
+  English | <a href="docs/i18n/README.zh-CN.md">简体中文</a> | <a href="docs/i18n/README.ja-JP.md">日本語</a> | <a href="docs/i18n/README.ko-KR.md">한국어</a> | <a href="docs/i18n/README.ru-RU.md">Русский</a>
 </p>
 
 ---

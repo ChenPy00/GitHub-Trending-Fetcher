@@ -5,7 +5,7 @@
   "full_name": "multimodal-art-projection/YuE",
   "url": "https://github.com/multimodal-art-projection/YuE",
   "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-  "readme_sha256": "824f64f621cc0ce6d7cf4f635328e6525aa9d049b8ef9548ea7af849c356949a"
+  "readme_sha256": "e99c8882dab6704d8e169820fbebc9a47fecdfad5d7690cc8a687fc43cbcb7d8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/multimodal-art-projection/YuE
 - Description: YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.
-- README SHA256: `824f64f621cc0ce6d7cf4f635328e6525aa9d049b8ef9548ea7af849c356949a`
+- README SHA256: `e99c8882dab6704d8e169820fbebc9a47fecdfad5d7690cc8a687fc43cbcb7d8`
 
 ## README
 
@@ -264,4 +264,4 @@ The YuE2 technical report is coming soon. For now, please cite **[MERT](https://
 
 ## Contact
 
-For collaborations, licensing, and data partnerships, please contact [gezhang@umich.edu](mailto:gezhang@umich.edu).
+For collaboration and licensing inquiries, please contact [ryuanab@connect.ust.hk](mailto:ryuanab@connect.ust.hk). For data partnerships, please contact [gezhang@umich.edu](mailto:gezhang@umich.edu).

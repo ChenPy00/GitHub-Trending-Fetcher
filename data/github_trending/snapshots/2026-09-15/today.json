@@ -1,0 +1,169 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 1,
+      "readme_sha256": "7bcdf06bb42a102ef6c57f924bb6d494ecd85a965f7a666acab1237d5b05b44a",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 2,
+      "readme_sha256": "5e6401cba450622345288e0d4a5c1fe77260699801f9ef1a95f8e2cd1e5de988",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
+      "full_name": "multimodal-art-projection/YuE",
+      "project_file": "projects/multimodal-art-projection__YuE.md",
+      "rank": 3,
+      "readme_sha256": "e99c8882dab6704d8e169820fbebc9a47fecdfad5d7690cc8a687fc43cbcb7d8",
+      "url": "https://github.com/multimodal-art-projection/YuE"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 4,
+      "readme_sha256": "becb2974292e1df43950580bb09c75929c7c1cfa5a7c06211e73d5ea509e4c66",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A Simple and Universal Swarm Intelligence Engine, Predicting Anything. 简洁通用的群体智能引擎，预测万物",
+      "full_name": "666ghj/MiroFish",
+      "project_file": "projects/666ghj__MiroFish.md",
+      "rank": 5,
+      "readme_sha256": "5109feef87d494dd77c0eb225486d4278fe3eb61b303574600bcf8c3c339d034",
+      "url": "https://github.com/666ghj/MiroFish"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "bb5f0a470e565f867ea0133e7f930353ace67e356596fb00a733b52327264836",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Extracted system prompts from Anthropic - Claude Fable 5.1, Opus 5, Claude Design, Claude Code. OpenAI - ChatGPT GPT-6-Astra, Codex. Google - Gemini 3.8 Flash, 3.1 Pro, Antigravity. xAI - Grok, Grok Bot, Cursor, Kimi and more! Updated regularly.",
+      "full_name": "asgeirtj/system_prompts_leaks",
+      "project_file": "projects/asgeirtj__system_prompts_leaks.md",
+      "rank": 7,
+      "readme_sha256": "8ce38a30c466ff7c941f072c528250d9a0ba4283d6b8f13b0aaf1ab3634551d5",
+      "url": "https://github.com/asgeirtj/system_prompts_leaks"
+    },
+    {
+      "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
+      "full_name": "rlaope/oh-my-hermes",
+      "project_file": "projects/rlaope__oh-my-hermes.md",
+      "rank": 8,
+      "readme_sha256": "b17b04ce43d03ac50131525324838e6b4cb9cd44e5232a71c4fccd3f4426afae",
+      "url": "https://github.com/rlaope/oh-my-hermes"
+    },
+    {
+      "description": "An open-source cross-platform alternative to AirDrop",
+      "full_name": "localsend/localsend",
+      "project_file": "projects/localsend__localsend.md",
+      "rank": 9,
+      "readme_sha256": "5625cab3d26d35ae61566c4fc86e70b68bf9025424e6569c14896063212bd6db",
+      "url": "https://github.com/localsend/localsend"
+    },
+    {
+      "description": "Unofficial Bitwarden compatible server written in Rust, formerly known as bitwarden_rs",
+      "full_name": "dani-garcia/vaultwarden",
+      "project_file": "projects/dani-garcia__vaultwarden.md",
+      "rank": 10,
+      "readme_sha256": "5c7e29e287f600fe1979d196d53f94cd8f87f9c0de1acf6481fde510fbfdd4fc",
+      "url": "https://github.com/dani-garcia/vaultwarden"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 11,
+      "readme_sha256": "f2c1d2f2a205f40d74775f97689c1f12f216187ae5c0d0d0deb390022b91b79d",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 12,
+      "readme_sha256": "bf998c8e4bd4184c1f412e21fecdcb6c2d96df33363c517d7a98e8e48aa33bd6",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "full_name": "tech-leads-club/agent-skills",
+      "project_file": "projects/tech-leads-club__agent-skills.md",
+      "rank": 13,
+      "readme_sha256": "3cc51b23cd98b637d3769016e295711087636b12117f2c703cd587c2b2c50789",
+      "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    {
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "OpenBMB/VoxCPM",
+      "project_file": "projects/OpenBMB__VoxCPM.md",
+      "rank": 14,
+      "readme_sha256": "f670fdf5f3faea03a71f717d25057b3bc100742edd9feb24d375443b091cc61f",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "full_name": "huggingface/transformers",
+      "project_file": "projects/huggingface__transformers.md",
+      "rank": 15,
+      "readme_sha256": "9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382",
+      "url": "https://github.com/huggingface/transformers"
+    },
+    {
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "full_name": "ever-co/ever-gauzy",
+      "project_file": "projects/ever-co__ever-gauzy.md",
+      "rank": 16,
+      "readme_sha256": "b16afed92f9977d934ad3f7bbfbf74a3e7e2ed82d4ef003503fd37c137b764fe",
+      "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    {
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "project_file": "projects/Crosstalk-Solutions__project-nomad.md",
+      "rank": 17,
+      "readme_sha256": "1936b0b553adadef5c1021c71eb4b8aaa3d72587e840660926092e53132dc04d",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    {
+      "description": "A modern platform for visual, flexible, and extensible graph-based investigations. For cybersecurity analysts and investigators.",
+      "full_name": "reconurge/flowsint",
+      "project_file": "projects/reconurge__flowsint.md",
+      "rank": 18,
+      "readme_sha256": "f3d9611a410e9ff8b5c5b946421fa6d261367f59a1696ffe30ab479cd31e9cb6",
+      "url": "https://github.com/reconurge/flowsint"
+    },
+    {
+      "description": "Free, open-source Sidecar/Duet alternative — use your iPhone or iPad as a true second monitor for your Mac over USB or WiFi. Low latency H.264, Retina HiDPI, touch input.",
+      "full_name": "peetzweg/opendisplay",
+      "project_file": "projects/peetzweg__opendisplay.md",
+      "rank": 19,
+      "readme_sha256": "e0ff358785dabdafe5e29d34098a7c14e11bac0412620d84a0f7e908cdfa3ea7",
+      "url": "https://github.com/peetzweg/opendisplay"
+    },
+    {
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "full_name": "SnailSploit/Claude-Red",
+      "project_file": "projects/SnailSploit__Claude-Red.md",
+      "rank": 20,
+      "readme_sha256": "310ae4d46cf86dbbe9b608665125c0e2db04c6e347316a781e8561c9e5ae1def",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+    }
+  ],
+  "snapshot_date": "2026-09-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
