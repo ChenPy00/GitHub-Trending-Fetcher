@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 1,
+      "readme_sha256": "597e01cfa020437ab697019d909f59db9f670d9338238ae7b66a1ae55a7892aa",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 2,
+      "readme_sha256": "d9b31274b693f739122d8a19068546acb7c978cae50e96227d5689470d964edf",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "full_name": "ever-co/ever-gauzy",
+      "project_file": "projects/ever-co__ever-gauzy.md",
+      "rank": 3,
+      "readme_sha256": "1a9aa24203c3a318e4b102b27aee65f9a4117e9d2bec5278eee6c78ac1180bea",
+      "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 4,
+      "readme_sha256": "429aab27f76b31a90177d64a927ab4cb46ebf0a3fffa686c4c508899935cf7c3",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "📺 Homebrew's official macOS GUI",
+      "full_name": "Homebrew/BrewUI",
+      "project_file": "projects/Homebrew__BrewUI.md",
+      "rank": 5,
+      "readme_sha256": "ef258bd3ef7fab688aa060337faa0aedba0ffd27571ae050b60992bd0c79da67",
+      "url": "https://github.com/Homebrew/BrewUI"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 6,
+      "readme_sha256": "d6ee05c7d434a6df92f445f4d3e2fe757d471d5b55eb027602634f080b78fa15",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "description": "Turn your coding agents into research agents",
+      "full_name": "alphaXiv/OpenResearch",
+      "project_file": "projects/alphaXiv__OpenResearch.md",
+      "rank": 7,
+      "readme_sha256": "0c9042c88d535e3d061dd16e7a3a672ba3e06f25026ab81a92c6b48692bde752",
+      "url": "https://github.com/alphaXiv/OpenResearch"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 8,
+      "readme_sha256": "bc211b0cd68a0a586a07b1cccea28aec99c8aa695d888405fd7ffa4533807a35",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "full_name": "danny-avila/LibreChat",
+      "project_file": "projects/danny-avila__LibreChat.md",
+      "rank": 9,
+      "readme_sha256": "3f109e0c748e15c27e2b4197af1f0e06c42563d033beace1fb5a2f1c87ba66cb",
+      "url": "https://github.com/danny-avila/LibreChat"
+    },
+    {
+      "description": "Source control for agents. Use multiple coding agents, track their changes and query them in one place",
+      "full_name": "pacifio/atlas",
+      "project_file": "projects/pacifio__atlas.md",
+      "rank": 10,
+      "readme_sha256": "ec64929b930c319141472aa651329e39dc8806218d86a7091b19d5ed2dafe2e9",
+      "url": "https://github.com/pacifio/atlas"
+    },
+    {
+      "description": "ASC is a super FAST Android decompiler front-end designed for Agents/Mobile Researchers.",
+      "full_name": "MG1937/ASC",
+      "project_file": "projects/MG1937__ASC.md",
+      "rank": 11,
+      "readme_sha256": "7606e754d85bdad5c491e9eb1659d534ba3652248d0d4daa7a6b4fdc7ba57bef",
+      "url": "https://github.com/MG1937/ASC"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 12,
+      "readme_sha256": "6f48c235841ebc78e963da01ecc83337fee26a6126d0d1409a239e3e2d4a9da2",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Download Udemy and Hotmart courses, YouTube videos, music and books — 1,800+ sites, no terminal. Free open-source desktop app for Windows, macOS and Linux, with a built-in course player, PDF/EPUB reader and music library. Powered by yt-dlp. Your files stay on your computer.",
+      "full_name": "tonhowtf/omniget",
+      "project_file": "projects/tonhowtf__omniget.md",
+      "rank": 13,
+      "readme_sha256": "02d8c879456b1d230f57e0eace3fd853e595300b4fa404bebc4d5aab203281ac",
+      "url": "https://github.com/tonhowtf/omniget"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 14,
+      "readme_sha256": "e0ca2fd607c5ce7c7646964ee1da7495ac1c4b68a2b1d05faad24f224df74c8b",
+      "url": "https://github.com/earendil-works/pi"
+    }
+  ],
+  "snapshot_date": "2026-09-16",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

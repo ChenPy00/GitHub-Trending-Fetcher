@@ -5,7 +5,7 @@
   "full_name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-  "readme_sha256": "0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad"
+  "readme_sha256": "e0ca2fd607c5ce7c7646964ee1da7495ac1c4b68a2b1d05faad24f224df74c8b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earendil-works/pi
 - Description: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
-- README SHA256: `0fc693dc1b7ede6acc205710ab67e5928ae7aea09cd27ea2a2dd5910e1b894ad`
+- README SHA256: `e0ca2fd607c5ce7c7646964ee1da7495ac1c4b68a2b1d05faad24f224df74c8b`
 
 ## README
 
@@ -46,6 +46,7 @@ To learn more about Pi:
 
 | Package | Description |
 |---------|-------------|
+| **[@earendil-works/chord](packages/chord)** | Standalone application-composition runtime for services, replicated state, RPC, and plugins |
 | **[@earendil-works/pi-telemetry](packages/telemetry)** | Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas |
 | **[@earendil-works/pi-ai](packages/ai)** | Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) |
 | **[@earendil-works/pi-agent-core](packages/agent)** | Agent runtime with tool calling and state management |
@@ -90,7 +91,7 @@ cd "pi-${VERSION}"
 ./scripts/build-binaries.sh --offline-model-data --platform linux-x64 --out "$PWD/out"
 ```
 
-The source archive includes the generated provider model data used for the release. `--offline-model-data` builds with that snapshot instead of refreshing it from live provider catalogs. The script still installs dependencies, builds the monorepo, compiles the Bun executable, and stages its runtime assets. Package maintainers who provide dependencies separately can pass `--skip-install --skip-deps`.
+The archive includes release model data and native prebuilds. `--offline-model-data` uses that model data without refreshing provider catalogs. The script installs dependencies and builds the executable with its runtime assets; pass `--skip-install` if dependencies are already provided.
 
 ## Supply-chain hardening
 

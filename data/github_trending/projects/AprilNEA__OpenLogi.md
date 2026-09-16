@@ -5,7 +5,7 @@
   "full_name": "AprilNEA/OpenLogi",
   "url": "https://github.com/AprilNEA/OpenLogi",
   "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
-  "readme_sha256": "ba38a5864df295f683dd7f61ffa5fe1451a20ccd6e06d848a68ff2bc8da13f68"
+  "readme_sha256": "6701398949588c538d2afbdd0327ec35cbf24fb4a3107d8c7c3921d1a023eda3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/AprilNEA/OpenLogi
 - Description: ⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.
-- README SHA256: `ba38a5864df295f683dd7f61ffa5fe1451a20ccd6e06d848a68ff2bc8da13f68`
+- README SHA256: `6701398949588c538d2afbdd0327ec35cbf24fb4a3107d8c7c3921d1a023eda3`
 
 ## README
 
@@ -64,7 +64,7 @@ Things OpenLogi does that Options+ won't:
 
 - **Stay light.** Native Rust + GPUI.
 - **Run on Linux.** Linux is a first-class platform in OpenLogi.
-- **Gestures on any button.** Give the gesture role to any physical button — or turn gestures off entirely.
+- **Gestures on supported buttons.** Assign gesture actions to supported controls — or turn gestures off entirely.
 - **Plain-text config.** Everything is one TOML file you can sync between machines however you like.
 - **Script it.** A real CLI alongside the GUI.
 
@@ -78,7 +78,9 @@ Things OpenLogi does that Options+ won't:
 **Mouse**
 
 - Capture and remap the middle, mode-shift, and thumbwheel buttons (middle everywhere, the rest where the device exposes them)
-- Per-direction gesture bindings with live capture, on any capable button
+- Per-direction gesture bindings with live capture on supported buttons: Back/Forward, DPI/ModeShift, the dedicated gesture button, and the haptic panel
+  - DPI/ModeShift gestures require device-reported diversion and raw-XY support.
+  - Primary clicks and wheel controls cannot be newly assigned gestures; existing Middle Click gesture bindings are preserved.
 - Actions Ring: a cursor-centred, eight-slot overlay of actions (`ShowActionsRing`), with per-application layouts
 - DPI control with presets and Cycle / Set-preset actions (`0x2201`)
 - SmartShift wheel: mode toggle, sensitivity, and a permanent-ratchet panel (`0x2111`)

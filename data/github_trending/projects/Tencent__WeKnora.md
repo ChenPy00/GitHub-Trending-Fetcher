@@ -5,7 +5,7 @@
   "full_name": "Tencent/WeKnora",
   "url": "https://github.com/Tencent/WeKnora",
   "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-  "readme_sha256": "e61c428699e8b4fb7c2288f30de13598a3a72086f1735fe8d4ce4b6a4058ea11"
+  "readme_sha256": "78cff4b42a213b35b0ee2e1ea34724c7e9de1850f536c1075c331577e455f2e2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Tencent/WeKnora
 - Description: Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
-- README SHA256: `e61c428699e8b4fb7c2288f30de13598a3a72086f1735fe8d4ce4b6a4058ea11`
+- README SHA256: `78cff4b42a213b35b0ee2e1ea34724c7e9de1850f536c1075c331577e455f2e2`
 
 ## README
 
@@ -320,7 +320,7 @@ WeKnora serves as the core technology framework for the [WeChat Dialog Open Plat
 
 ## 📘 API Reference
 
-**Official product documentation**: [`website-docs/`](./website-docs/README.md) — the complete documentation set organized as Getting Started → Architecture → Features → API → Clients → Development, covering ~360 API endpoints, ~150 environment variables, and 9 extension points. The directory is also a VitePress site: run `cd website-docs && npm install && npm run dev` to preview locally, or deploy it standalone with the `Dockerfile` inside.
+**Official website and product documentation**: [`website-docs/`](./website-docs/README.md) contains the product homepage and the complete documentation set organized as Getting Started → Architecture → Features → API → Clients → Development. With Node.js 24, run `cd website-docs && npm run setup && npm run build && npm run preview` to preview both together. The unified static output serves the homepage at `/` and documentation at `/docs/`; see the directory's README for Nginx and Docker deployment.
 
 Troubleshooting FAQ: [Troubleshooting FAQ](./docs/QA.md)
 

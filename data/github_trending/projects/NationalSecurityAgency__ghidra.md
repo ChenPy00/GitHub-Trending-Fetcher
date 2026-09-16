@@ -5,7 +5,7 @@
   "full_name": "NationalSecurityAgency/ghidra",
   "url": "https://github.com/NationalSecurityAgency/ghidra",
   "description": "Ghidra is a software reverse engineering (SRE) framework",
-  "readme_sha256": "2faa6dccc53717b9542825babbf086ecaad8bbdc3c524d15d1c1e4accf865ac6"
+  "readme_sha256": "bc211b0cd68a0a586a07b1cccea28aec99c8aa695d888405fd7ffa4533807a35"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NationalSecurityAgency/ghidra
 - Description: Ghidra is a software reverse engineering (SRE) framework
-- README SHA256: `2faa6dccc53717b9542825babbf086ecaad8bbdc3c524d15d1c1e4accf865ac6`
+- README SHA256: `bc211b0cd68a0a586a07b1cccea28aec99c8aa695d888405fd7ffa4533807a35`
 
 ## README
 
@@ -46,7 +46,7 @@ of how you might be impacted.
 
 ## Install
 To install an official pre-built multi-platform Ghidra release:  
-* Install [JDK 21 64-bit][jdk]
+* Install [JDK 25 64-bit][jdk]
 * Download a Ghidra [release file][releases]
   - **NOTE:** The official multi-platform release file is named 
     `ghidra_<version>_<release>_<date>.zip` which can be found under the "Assets" drop-down.

@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "cd83c450c40cd0f4c09279f37597302a77d580ec63e8a827353f83c86b9db39f"
+  "readme_sha256": "ab650865b7da21fafe5fb50c50820bd2beb1660c9ef5555e26297ed72f06616f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- README SHA256: `cd83c450c40cd0f4c09279f37597302a77d580ec63e8a827353f83c86b9db39f`
+- README SHA256: `ab650865b7da21fafe5fb50c50820bd2beb1660c9ef5555e26297ed72f06616f`
 
 ## README
 
@@ -30,6 +30,7 @@
 <p align="center">
   <strong title="English" aria-label="English">🇬🇧</strong> ·
   <a href=".github/readme/README.zh-CN.md" title="简体中文" aria-label="简体中文">🇨🇳</a> ·
+  <a href=".github/readme/README.es.md" title="Español" aria-label="Español">🇪🇸</a> ·
   <a href=".github/readme/README.pt-BR.md" title="Português (Brasil)" aria-label="Português (Brasil)">🇧🇷</a> ·
   <a href=".github/readme/README.ja.md" title="日本語" aria-label="日本語">🇯🇵</a> ·
   <a href=".github/readme/README.vi.md" title="Tiếng Việt" aria-label="Tiếng Việt">🇻🇳</a> ·
@@ -110,7 +111,7 @@ claude plugin marketplace add <your-username>/i-have-adhd
 claude plugin install i-have-adhd@i-have-adhd
 ```
 
-Restart Claude Code, then re-invoke `/i-have-adhd`.
+Restart your coding assistant, then re-invoke `/i-have-adhd`.
 
 ## Credits
 
@@ -118,6 +119,6 @@ Loosely based on *The Adult ADHD Tool Kit* by J. Russell Ramsay and Anthony L. R
 
 ## License
 
-MIT.
+[MIT](LICENSE).
 
 Star ⭐ if it saved you one scroll past one "Great question!"

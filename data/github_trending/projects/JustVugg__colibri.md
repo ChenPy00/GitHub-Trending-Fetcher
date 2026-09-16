@@ -5,7 +5,7 @@
   "full_name": "JustVugg/colibri",
   "url": "https://github.com/JustVugg/colibri",
   "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
-  "readme_sha256": "7bcdf06bb42a102ef6c57f924bb6d494ecd85a965f7a666acab1237d5b05b44a"
+  "readme_sha256": "d9b31274b693f739122d8a19068546acb7c978cae50e96227d5689470d964edf"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/JustVugg/colibri
 - Description: Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
-- README SHA256: `7bcdf06bb42a102ef6c57f924bb6d494ecd85a965f7a666acab1237d5b05b44a`
+- README SHA256: `d9b31274b693f739122d8a19068546acb7c978cae50e96227d5689470d964edf`
 
 ## README
 
@@ -731,4 +731,4 @@ these is used or reimplemented in the tree today:
 
 ## License
 
-Apache 2.0. GLM-5.2 weights are released by Z.ai under MIT.
+Apache 2.0, Copyright 2026 Vincenzo Fornaro. See [LICENSE](LICENSE) and [NOTICE](NOTICE). GLM-5.2 weights are released by Z.ai under MIT.

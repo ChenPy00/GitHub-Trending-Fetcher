@@ -5,7 +5,7 @@
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
   "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "5e6401cba450622345288e0d4a5c1fe77260699801f9ef1a95f8e2cd1e5de988"
+  "readme_sha256": "597e01cfa020437ab697019d909f59db9f670d9338238ae7b66a1ae55a7892aa"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/open-code-review
 - Description: Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `5e6401cba450622345288e0d4a5c1fe77260699801f9ef1a95f8e2cd1e5de988`
+- README SHA256: `597e01cfa020437ab697019d909f59db9f670d9338238ae7b66a1ae55a7892aa`
 
 ## README
 
@@ -28,8 +28,13 @@
   <a href="https://trendshift.io/repositories/41087?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-41087" target="_blank" rel="noopener noreferrer">
     <img src="https://trendshift.io/api/badge/repositories/41087" alt="alibaba%2Fopen-code-review | Trendshift" style="width: 280px; height: 60px;" width="280" height="60" />
   </a>
+</p>
+<p align="center">
   <a href="https://trendshift.io/repositories/41087" target="_blank">
     <img src="https://trendshift.io/api/badge/trendshift/repositories/41087/weekly?language=Go" alt="alibaba%2Fopen-code-review | Trendshift" style="width: 280px; height: 60px;" width="280" height="60" />
+  </a>
+  <a href="https://trendshift.io/repositories/41087" target="_blank">
+    <img src="https://trendshift.io/api/badge/trendshift/repositories/41087/monthly?language=Go" alt="alibaba%2Fopen-code-review | Trendshift" style="width: 280px; height: 60px;" width="280" height="60" />
   </a>
 </p>
 <p align="center">
