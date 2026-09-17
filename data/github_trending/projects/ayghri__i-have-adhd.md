@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "ab650865b7da21fafe5fb50c50820bd2beb1660c9ef5555e26297ed72f06616f"
+  "readme_sha256": "75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- README SHA256: `ab650865b7da21fafe5fb50c50820bd2beb1660c9ef5555e26297ed72f06616f`
+- README SHA256: `75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db`
 
 ## README
 
@@ -54,7 +54,7 @@ Or 🔗 [check the installation instructions](INSTALL.md).
 
 A skill for your coding assistant that stops it from burying the answer. Action first. Steps numbered. No "Hope this helps!"
 
-
+[Kacper Rutkiewicz | AI Made Simple](https://youtu.be/NEl8kPWZP_Y) has made a good breakdown of an earlier version of the skill.
 ## What changes
 
 

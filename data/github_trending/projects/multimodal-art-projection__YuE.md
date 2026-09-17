@@ -5,7 +5,7 @@
   "full_name": "multimodal-art-projection/YuE",
   "url": "https://github.com/multimodal-art-projection/YuE",
   "description": "YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.",
-  "readme_sha256": "e99c8882dab6704d8e169820fbebc9a47fecdfad5d7690cc8a687fc43cbcb7d8"
+  "readme_sha256": "51008e86c725a9d3b5d43dff27d467401c37da0c0a2ead81a4f44c143d703fa4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/multimodal-art-projection/YuE
 - Description: YuE2: frontier music generation with symbolic planning, zero-shot covers, and agentic music editing.
-- README SHA256: `e99c8882dab6704d8e169820fbebc9a47fecdfad5d7690cc8a687fc43cbcb7d8`
+- README SHA256: `51008e86c725a9d3b5d43dff27d467401c37da0c0a2ead81a4f44c143d703fa4`
 
 ## README
 
@@ -36,6 +36,7 @@
 
 <p align="center">
   <a href="https://map-yue2.github.io/">🎧 Demos</a> ·
+  <a href="https://arena.3-148-255-99.sslip.io:8080">🗳️ Music Arena</a> ·
   <a href="https://huggingface.co/m-a-p/YuE2-3B">🤗 YuE2</a> ·
   <a href="#quick-start">🚀 Quick start</a> ·
   <a href="#agent-skill">🤖 Agent skill</a> ·
@@ -48,6 +49,14 @@
 </p>
 
 **YuE2 brings frontier song quality to music generation with an editable composition.** Give it lyrics and a style prompt: it writes a melody-and-chord plan, then realizes that plan as a complete song with vocals and accompaniment.
+
+<a id="music-arena"></a>
+
+> **🎧 YuE2 needs your ears**
+>
+> We're running a public listening study comparing YuE2 with leading proprietary music generation systems. Listen to anonymous music clips and choose A, B, or a tie. Your honest feedback helps us understand how YuE2 sounds to real listeners.
+>
+> **[Listen & vote →](https://arena.3-148-255-99.sslip.io:8080)** · No account needed. Headphones recommended.
 
 - **Frontier quality.** YuE2 is competitive with Suno v5/v6 on WildSongBench. YuE2 (best-of-8) achieves **6.9632 SongBench Avg**, the highest observed mean among all evaluated settings.
 - **White-box music generation through symbolic planning.** Read, play, and change the composition before rendering it. Melody and chords become explicit controls that a person or an agent can inspect and edit.
@@ -230,11 +239,19 @@ MERT2 feature extraction is optional for generation. YuE2's pipeline does not re
 
 ## License
 
-YuE2's first-party code, agent skill, and documentation are licensed under **[Apache 2.0](LICENSE)**. Copyright (c) 2026 the YuE2 authors.
+| Use | Terms |
+| --- | --- |
+| **Personal users, content creators, and musicians** | Free to use YuE2 and monetize generated outputs, with **no fees or royalties payable to us**. |
+| **Academic research and education** | Free for **non-commercial use**. |
+| **Commercial use by companies** | [Contact us](#contact) to discuss a commercial license for the model weights. |
 
-Model weights are separately licensed under **[CC BY-NC 4.0](MODEL_LICENSE)**. Third-party components retain their [original licenses](THIRD_PARTY_NOTICES.md). The archived [YuE-v1 branch](https://github.com/multimodal-art-projection/YuE/tree/YuE-v1) retains its original license.
+We strongly encourage crediting **YuE2** or using **#YuE2** when sharing generated work; attribution is optional.
 
-Apache 2.0 applies to the current repository source; the earlier `yue2-v0.1.6` download archives retain their bundled licenses.
+**Responsible use.** The additional creator permission prohibits illegal, harmful, deceptive, or unethical use. YuE2 is provided **as is, without warranties**. Users are responsible for their inputs, outputs, and use; liability limits are set out in the [full terms](MODEL_LICENSE).
+
+**Code, agent skill, and documentation:** [Apache 2.0](LICENSE). **Model weights:** [CC BY-NC 4.0 with additional creator permission](MODEL_LICENSE).
+
+*Copyright (c) 2026 the YuE2 authors. [Third-party components](THIRD_PARTY_NOTICES.md) and earlier releases retain their respective licenses.*
 
 ## Citation
 
@@ -264,4 +281,31 @@ The YuE2 technical report is coming soon. For now, please cite **[MERT](https://
 
 ## Contact
 
-For collaboration and licensing inquiries, please contact [ryuanab@connect.ust.hk](mailto:ryuanab@connect.ust.hk). For data partnerships, please contact [gezhang@umich.edu](mailto:gezhang@umich.edu).
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong><img src="assets/wechat.svg" width="20" height="20" alt="" />&nbsp;WeChat</strong><br>
+      <sub>Chinese-speaking users</sub>
+    </td>
+    <td align="center" width="50%">
+      <a href="https://discord.gg/ssAyWMnMzu"><strong><img src="assets/discord.svg" width="20" height="20" alt="" />&nbsp;Join&nbsp;Discord</strong></a><br>
+      <sub>Global users</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <details>
+        <summary><strong>Show WeChat QR code</strong></summary>
+        <br>
+        <a href="assets/wechat-yue2-group.png">
+          <img src="assets/wechat-yue2-group.png" alt="YuE2 WeChat group QR code" width="240" />
+        </a><br>
+        <sub>Click to enlarge<br>Valid until Sep 23, 2026</sub>
+      </details>
+    </td>
+  </tr>
+</table>
+
+- **Licensing inquiries:** [lauryliuyang@hkgai.org](mailto:lauryliuyang@hkgai.org)
+- **Data partnerships:** [gezhang@umich.edu](mailto:gezhang@umich.edu)
+- **Academic collaboration:** [ryuanab@connect.ust.hk](mailto:ryuanab@connect.ust.hk)

@@ -5,7 +5,7 @@
   "full_name": "ever-co/ever-gauzy",
   "url": "https://github.com/ever-co/ever-gauzy",
   "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-  "readme_sha256": "1a9aa24203c3a318e4b102b27aee65f9a4117e9d2bec5278eee6c78ac1180bea"
+  "readme_sha256": "e85cb6240b2c1c67797bfd7458a682d4533457687ce168e438e3850a531ad6f4"
 }
 ```
 
@@ -13,13 +13,13 @@
 
 - URL: https://github.com/ever-co/ever-gauzy
 - Description: Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co
-- README SHA256: `1a9aa24203c3a318e4b102b27aee65f9a4117e9d2bec5278eee6c78ac1180bea`
+- README SHA256: `e85cb6240b2c1c67797bfd7458a682d4533457687ce168e438e3850a531ad6f4`
 
 ## README
 
 # Ever Gauzy Platform
 
-<a href="https://trendshift.io/repositories/1775" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1775" alt="ever-co%2Fever-gauzy | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://trendshift.io/repositories/1775" target="_blank"><img src="https://trendshift.io/api/badge/repositories/1775" alt="ever-co%2Fever-gauzy | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a> <a href="https://trendshift.io/repositories/1775?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-1775" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/1775/daily?language=TypeScript" alt="ever-co%2Fever-gauzy | Trendshift" width="250" height="55"/></a>
 
 [uri_gauzy]: https://gauzy.co
 [uri_license]: https://www.gnu.org/licenses/agpl-3.0.html
@@ -339,7 +339,7 @@ See more details in the [LICENSES.md](LICENSES.md).
 
 In a production setup, all client-side to server-side (backend, APIs) communications should be encrypted using HTTPS/WSS/SSL (REST APIs, GraphQL endpoint, Socket.io WebSockets, etc.).
 
-If you discover any issue regarding security, please disclose the information responsibly by sending an email to <mailto:security@ever.co> or on [![huntr](https://cdn.huntr.dev/huntr_security_badge_mono.svg)](https://huntr.dev) and not by creating a GitHub issue.
+If you discover any issue regarding security, please disclose the information responsibly by sending an email to <mailto:security@ever.co> or on [huntr](https://huntr.com) and not by creating a GitHub issue.
 
 ## 🛡️ License
 

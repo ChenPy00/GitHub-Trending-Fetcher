@@ -5,7 +5,7 @@
   "full_name": "roboflow/supervision",
   "url": "https://github.com/roboflow/supervision",
   "description": "We write your reusable computer vision tools. 💜",
-  "readme_sha256": "44e628d6ce0f0baa6912db0e765124fb64655220e7c1f818fdd773f2fc23d0f6"
+  "readme_sha256": "763f75cba29aa85b429a5d3ed20c145d18242a5978470a8b8fb49ddee51995db"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/roboflow/supervision
 - Description: We write your reusable computer vision tools. 💜
-- README SHA256: `44e628d6ce0f0baa6912db0e765124fb64655220e7c1f818fdd773f2fc23d0f6`
+- README SHA256: `763f75cba29aa85b429a5d3ed20c145d18242a5978470a8b8fb49ddee51995db`
 
 ## README
 
@@ -35,7 +35,7 @@
 
 [![version](https://badge.fury.io/py/supervision.svg)](https://badge.fury.io/py/supervision) [![downloads](https://img.shields.io/pypi/dm/supervision)](https://pypistats.org/packages/supervision) [![license](https://img.shields.io/pypi/l/supervision)](LICENSE.md) [![python-version](https://img.shields.io/pypi/pyversions/supervision)](https://badge.fury.io/py/supervision) [![codecov](https://codecov.io/gh/roboflow/supervision/graph/badge.svg?token=HMNJ5FVZ36)](https://codecov.io/gh/roboflow/supervision)
 
-[![snyk](https://snyk.io/advisor/python/supervision/badge.svg)](https://snyk.io/advisor/python/supervision) [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb) [![gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Roboflow/Annotators) [![discord](https://img.shields.io/discord/1159501506232451173?logo=discord&label=discord&labelColor=fff&color=5865f2&link=https%3A%2F%2Fdiscord.gg%2FGbfgXGJ8Bk)](https://discord.gg/GbfgXGJ8Bk)
+[![Snyk Security](https://img.shields.io/badge/Snyk-Security-4C4A73?logo=snyk)](https://security.snyk.io/package/pip/supervision) [![colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/roboflow/supervision/blob/main/demo.ipynb) [![gradio](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Roboflow/Annotators) [![discord](https://img.shields.io/discord/1159501506232451173?logo=discord&label=discord&labelColor=fff&color=5865f2&link=https%3A%2F%2Fdiscord.gg%2FGbfgXGJ8Bk)](https://discord.gg/GbfgXGJ8Bk)
 
 <div align="center">
     <a href="https://trendshift.io/repositories/124"  target="_blank"><img src="https://trendshift.io/api/badge/repositories/124" alt="roboflow%2Fsupervision | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -71,7 +71,7 @@ Pip install the supervision package in a [**Python>=3.10**](https://www.python.o
 pip install supervision
 ```
 
-Read more about conda, mamba, and installing from source in our [guide](https://roboflow.github.io/supervision/).
+Read more about conda, mamba, and installing from source in our [guide](https://supervision.roboflow.com/).
 
 ## 🔥 Quickstart
 
@@ -281,7 +281,7 @@ https://github.com/roboflow/supervision/assets/26109316/3ac6982f-4943-4108-9b7f-
 
 ## 📚 Documentation
 
-Visit our [documentation](https://roboflow.github.io/supervision) page to learn how supervision can help you build computer vision applications faster and more reliably.
+Visit our [documentation](https://supervision.roboflow.com/) page to learn how supervision can help you build computer vision applications faster and more reliably.
 
 ## 🏆 Contribution
 

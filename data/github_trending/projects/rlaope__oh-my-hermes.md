@@ -5,7 +5,7 @@
   "full_name": "rlaope/oh-my-hermes",
   "url": "https://github.com/rlaope/oh-my-hermes",
   "description": "All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages",
-  "readme_sha256": "b17b04ce43d03ac50131525324838e6b4cb9cd44e5232a71c4fccd3f4426afae"
+  "readme_sha256": "8a4a085af2c8536ecccd8bded29b3b610d94847ab8f073d29f8b3f3d30ab0f78"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rlaope/oh-my-hermes
 - Description: All in one plugin for Hermes Agent ⚚ the coding intelligence, a long-term memory system and model optimized workflow packages
-- README SHA256: `b17b04ce43d03ac50131525324838e6b4cb9cd44e5232a71c4fccd3f4426afae`
+- README SHA256: `8a4a085af2c8536ecccd8bded29b3b610d94847ab8f073d29f8b3f3d30ab0f78`
 
 ## README
 
@@ -240,9 +240,9 @@ Astra: the same answers for $0.66 instead of $4.29, in 5 minutes instead of
 ### 02 · Categories you own, per executor
 
 `ultrabrain`, `deep`, `architect`, `unspecified-high`, `unspecified-low`,
-`quick`, `writing`, `visual-engineering`, `artistry`: each is an editable
-chain of model + effort, the same nine listed under Recommended models below,
-read and overridden in one file. A chain advances when a provider rejects a model, and a
+`quick`, `writing`, `visual-engineering`, `artistry`, `capable`, `simple-work`,
+`deep-work`: each is an editable chain of model + effort, the same twelve listed
+under Recommended models below, read and overridden in one file. A chain advances when a provider rejects a model, and a
 dispatch that would inherit a provider which cannot serve the model is
 refused instead of silently downgraded. Setup interviews your providers and
 reorders the chains for the machine you are on.
@@ -589,7 +589,7 @@ live in [Workflow Reference](docs/WORKFLOWS.md).
 | --- | --- |
 | 🧭 **Mixture-of-models routing** | Every delegated lane lands on a category (model + reasoning effort) at dispatch time. Chains fall through when a provider rejects a model, and a child that did no work shows `failed`, never a green row. |
 | 🎛️ **Per-family calibration** | Prompting is tuned per model family and generation — GPT-6 Astra, GPT-5.6, Claude 5.1, GLM 5.3, Kimi, Gemini, Qwen, DeepSeek and more — and each tune is kept only while the benchmark pair says it helps. |
-| 🗂️ **Categories you own** | Nine shipped categories per executor, with `omh model-chains set` to reorder, an entitlement interview that reorders chains per machine, and a live view of what a request would route to before it runs. |
+| 🗂️ **Categories you own** | Twelve shipped categories per executor, with `omh model-chains set` to reorder, an entitlement interview that reorders chains per machine, and a live view of what a request would route to before it runs. |
 | 🖥️ **Native TUI surface** | The OMH HUD (live rows with category, turns, cost, cache), the phase todo above the prompt, `parallel shot ×N`, full-row diff bands, and managed skins — installed beside Hermes, never patching it. |
 | ⚡ **Observed parallel work** | Independent work splits into fanout units with disjoint file ownership, admission control under provider pressure, typed result sidecars, and verification gates that read what came back. |
 | 🎼 **Maestro handoffs** | An explicit second lane for Codex, Claude Code, or another CLI: readiness probes, capability snapshots, owner-fit reports, and per-run model and effort — opt-in, and never the default path. |
