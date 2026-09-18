@@ -5,7 +5,7 @@
   "full_name": "abue-ammar/tinycast",
   "url": "https://github.com/abue-ammar/tinycast",
   "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-  "readme_sha256": "a27b149fa5383baf2aa685f04e35eceada06333f954a2cae1ff06815c08237ca"
+  "readme_sha256": "5512a3ac3d837bb4d39303945341f79cefa147c8dc580ca7eb9588ae90a97533"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/abue-ammar/tinycast
 - Description: Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
-- README SHA256: `a27b149fa5383baf2aa685f04e35eceada06333f954a2cae1ff06815c08237ca`
+- README SHA256: `5512a3ac3d837bb4d39303945341f79cefa147c8dc580ca7eb9588ae90a97533`
 
 ## README
 
@@ -69,6 +69,8 @@ keep it actively maintained. GitHub Sponsors isn't available in my country, so p
 - **Per-app hotkeys** — bind a key to an app; press it to toggle (focus/hide).
 - **Search Files** — open files and folders from the folders you choose, through Spotlight, with no
   index of our own.
+- **Dictionary** — look a word up with the Define Word command, or define whatever you typed from the
+  launcher's fallbacks, read from the Mac's own dictionaries.
 - **Clipboard history** — text and images, searchable, pasted back into the app you were using.
 - **Calculator** — do math, unit, live currency and crypto conversions inline, right in the palette.
 - **Quicklinks** — turn a URL, search, file or deeplink into a command, with placeholders for typed
@@ -103,11 +105,10 @@ brew tap abue-ammar/tinycast
 
 Then run the one line that matches your Mac:
 
-| Your Mac                                           | Install                                  |
-| -------------------------------------------------- | ---------------------------------------- |
-| Apple silicon, macOS 26 or newer                   | `brew install --cask tinycast`           |
-| Intel, macOS 26                                    | `brew install --cask tinycast-universal` |
-| macOS 15 Sequoia <sub>(no longer maintained)</sub> | `brew install --cask tinycast-sequoia`   |
+| Your Mac                         | Install                                  |
+| -------------------------------- | ---------------------------------------- |
+| Apple silicon, macOS 26 or newer | `brew install --cask tinycast`           |
+| Intel, macOS 26                  | `brew install --cask tinycast-universal` |
 
 Not sure which you have? **Apple menu → About This Mac.** Homebrew checks too, and refuses the
 wrong one.

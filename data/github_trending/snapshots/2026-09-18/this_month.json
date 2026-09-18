@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 1,
+      "readme_sha256": "72c641ab2df957fe045c60e1d8fb0515e43118cc31213e9ee0dfb7923a8e71b7",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 2,
+      "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 3,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 4,
+      "readme_sha256": "b34db2167c2eab0cbd8a2819bab93689b98f24e88b3661b88e10c24705c82932",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 5,
+      "readme_sha256": "6701398949588c538d2afbdd0327ec35cbf24fb4a3107d8c7c3921d1a023eda3",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 6,
+      "readme_sha256": "5f26234bf104ecadf0587a0aadd56874af1b5887eaedad786f13c206a3dd57d0",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 7,
+      "readme_sha256": "e60d642df4bb9ca1c9d104b735b754106c14d6261b3c2d341f3d0dbc0f55e9d8",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 8,
+      "readme_sha256": "75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Free and open-source macOS menu bar toolkit.",
+      "full_name": "vorssaint/vorssaint-utils",
+      "project_file": "projects/vorssaint__vorssaint-utils.md",
+      "rank": 9,
+      "readme_sha256": "2f1461958af80e65b3291a7d601481f230994c92c504c4d0dc221cd8f07b10ab",
+      "url": "https://github.com/vorssaint/vorssaint-utils"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 10,
+      "readme_sha256": "33ab0a5723fb421b6f9605ab13efc03f217a0f4a26a5b041063a4f14e07fc4af",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "38 editorial diagram types for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 11,
+      "readme_sha256": "134b685b3ba91de4c469f4c6d691b6bd7093f30ebcc1dcc0c2f91dfde01bceba",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 12,
+      "readme_sha256": "01ccaf1cbd9192432226a78d4c7d193e33011f2f1b8d62d11cd72e258eaff9ca",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "Apache Maka (Incubating) is a high-performance agent workspace that keeps a complete record of everything it did.",
+      "full_name": "apache/maka",
+      "project_file": "projects/apache__maka.md",
+      "rank": 13,
+      "readme_sha256": "2f60c904352e67fff28042a550b520a097c5a268ee7945a371aa6b4f6840ea3d",
+      "url": "https://github.com/apache/maka"
+    },
+    {
+      "description": "A local multi-agent harness that works with your existing Claude Code, Codex subscriptions, allows you to run an office of agents",
+      "full_name": "chaitanyagiri/munder-difflin",
+      "project_file": "projects/chaitanyagiri__munder-difflin.md",
+      "rank": 14,
+      "readme_sha256": "f2db4ebd0f287f8eaf10662dc0b16f7f88f7b84d3509636037f673b270e116ff",
+      "url": "https://github.com/chaitanyagiri/munder-difflin"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 15,
+      "readme_sha256": "cd387ead54358c4034e051c4b1a2c9c82b7db700c49b17b2dae929fd835b343a",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 16,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "The Modular Platform (includes MAX & Mojo)",
+      "full_name": "modular/modular",
+      "project_file": "projects/modular__modular.md",
+      "rank": 17,
+      "readme_sha256": "aa416a10cbdc02677922a878be06851c535794dafd74b9fc004a3753fe7bd9e1",
+      "url": "https://github.com/modular/modular"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 18,
+      "readme_sha256": "520d4bca0d806e7fe8679db3b1648eab89c420440fecf71eb1dc1db42c7c0840",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "full_name": "tech-leads-club/agent-skills",
+      "project_file": "projects/tech-leads-club__agent-skills.md",
+      "rank": 19,
+      "readme_sha256": "3cc51b23cd98b637d3769016e295711087636b12117f2c703cd587c2b2c50789",
+      "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    {
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "full_name": "abue-ammar/tinycast",
+      "project_file": "projects/abue-ammar__tinycast.md",
+      "rank": 20,
+      "readme_sha256": "5512a3ac3d837bb4d39303945341f79cefa147c8dc580ca7eb9588ae90a97533",
+      "url": "https://github.com/abue-ammar/tinycast"
+    },
+    {
+      "description": "Open-source personal finance manager. Self-hosted, privacy-first.",
+      "full_name": "securo-finance/securo",
+      "project_file": "projects/securo-finance__securo.md",
+      "rank": 21,
+      "readme_sha256": "a3406ff6f89e06a24760ef33ae7e4297c4e03d2d1f6f0aeacdacfe9bb12e49fe",
+      "url": "https://github.com/securo-finance/securo"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 22,
+      "readme_sha256": "0cacaedb20bc72e139a45987428a017996b012d31d5fced6fb6f6c9c619c265b",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    }
+  ],
+  "snapshot_date": "2026-09-18",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

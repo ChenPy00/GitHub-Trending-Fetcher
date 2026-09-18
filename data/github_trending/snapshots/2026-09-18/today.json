@@ -1,0 +1,169 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 1,
+      "readme_sha256": "9dd403b069e64856091ae6ed3c7e7b21e7e1b35818325919c1ecfd9fe4ed5b67",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 2,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 3,
+      "readme_sha256": "0956874d6ba30f65d45ff90a9d51e615627a836e22745f43b7aece14537bb028",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "full_name": "Tencent/BrowserSkill",
+      "project_file": "projects/Tencent__BrowserSkill.md",
+      "rank": 4,
+      "readme_sha256": "7eba9ea318896f1433845f39e0595f2dceb1ca17b6a5ea19fb1f1c1841206614",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    {
+      "description": "Turn your coding agents into research agents",
+      "full_name": "alphaXiv/OpenResearch",
+      "project_file": "projects/alphaXiv__OpenResearch.md",
+      "rank": 5,
+      "readme_sha256": "0c9042c88d535e3d061dd16e7a3a672ba3e06f25026ab81a92c6b48692bde752",
+      "url": "https://github.com/alphaXiv/OpenResearch"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 6,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 7,
+      "readme_sha256": "bc211b0cd68a0a586a07b1cccea28aec99c8aa695d888405fd7ffa4533807a35",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 8,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 9,
+      "readme_sha256": "78cff4b42a213b35b0ee2e1ea34724c7e9de1850f536c1075c331577e455f2e2",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "full_name": "abue-ammar/tinycast",
+      "project_file": "projects/abue-ammar__tinycast.md",
+      "rank": 10,
+      "readme_sha256": "5512a3ac3d837bb4d39303945341f79cefa147c8dc580ca7eb9588ae90a97533",
+      "url": "https://github.com/abue-ammar/tinycast"
+    },
+    {
+      "description": "eBPF-based Networking, Security, and Observability",
+      "full_name": "cilium/cilium",
+      "project_file": "projects/cilium__cilium.md",
+      "rank": 11,
+      "readme_sha256": "e9e50bdafcee30394949bbd81201909afa55a13865eb9ef1d9dec065fd13af41",
+      "url": "https://github.com/cilium/cilium"
+    },
+    {
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "full_name": "jamiepine/voicebox",
+      "project_file": "projects/jamiepine__voicebox.md",
+      "rank": 12,
+      "readme_sha256": "da442448d30ea2a951419df5e1998ac6587748e8d685ae023e05f601c5adde99",
+      "url": "https://github.com/jamiepine/voicebox"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 13,
+      "readme_sha256": "68adf06810670b6b5f2ec6334d34205829fce50d0cdc1e079f7eae36e37e8960",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "We write your reusable computer vision tools. 💜",
+      "full_name": "roboflow/supervision",
+      "project_file": "projects/roboflow__supervision.md",
+      "rank": 14,
+      "readme_sha256": "763f75cba29aa85b429a5d3ed20c145d18242a5978470a8b8fb49ddee51995db",
+      "url": "https://github.com/roboflow/supervision"
+    },
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 15,
+      "readme_sha256": "d9b31274b693f739122d8a19068546acb7c978cae50e96227d5689470d964edf",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 16,
+      "readme_sha256": "49da304758f448a2196cc2a92b1bfca9a999e13ea66325f75eae24d116e0717e",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "full_name": "ever-co/ever-gauzy",
+      "project_file": "projects/ever-co__ever-gauzy.md",
+      "rank": 17,
+      "readme_sha256": "59bb20e2a3bd54402508d396e83ec72c28712b26f9bf737b93096e9c2011b8e8",
+      "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    {
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "full_name": "cline/cline",
+      "project_file": "projects/cline__cline.md",
+      "rank": 18,
+      "readme_sha256": "e68470af087a1f3a7abe00a725e42e5d4a9da56c204047df2211986ddd844d24",
+      "url": "https://github.com/cline/cline"
+    },
+    {
+      "description": "Secure environments for developers and their agents",
+      "full_name": "coder/coder",
+      "project_file": "projects/coder__coder.md",
+      "rank": 19,
+      "readme_sha256": "73cef0dadba0644af80a0c31619000df414fd75222a7e9863d951f304431daa9",
+      "url": "https://github.com/coder/coder"
+    },
+    {
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "full_name": "n8n-io/n8n",
+      "project_file": "projects/n8n-io__n8n.md",
+      "rank": 20,
+      "readme_sha256": "75c64f04b8b1e7d435496f6ebd2dbf3ea5ff7d3ff3d944d7fcf98cf1a7df2242",
+      "url": "https://github.com/n8n-io/n8n"
+    }
+  ],
+  "snapshot_date": "2026-09-18",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
