@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 2,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 3,
+      "readme_sha256": "9dd403b069e64856091ae6ed3c7e7b21e7e1b35818325919c1ecfd9fe4ed5b67",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 4,
+      "readme_sha256": "6188096c7d6302810346918f5a80d49aada2f2502f48a59c06334c96622377b4",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "full_name": "Tencent/BrowserSkill",
+      "project_file": "projects/Tencent__BrowserSkill.md",
+      "rank": 5,
+      "readme_sha256": "7eba9ea318896f1433845f39e0595f2dceb1ca17b6a5ea19fb1f1c1841206614",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 6,
+      "readme_sha256": "0956874d6ba30f65d45ff90a9d51e615627a836e22745f43b7aece14537bb028",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 7,
+      "readme_sha256": "e223834edb2bc9f8a64f6c87937eb9a48ed959b3a082f875d19f51e06115c953",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "full_name": "Fission-AI/OpenSpec",
+      "project_file": "projects/Fission-AI__OpenSpec.md",
+      "rank": 8,
+      "readme_sha256": "8dfb6463a17792ef80b574b46850ae7c30fc4bae81326ef0bc0506030eda5c15",
+      "url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    {
+      "description": "Anki is a smart spaced repetition flashcard program",
+      "full_name": "ankitects/anki",
+      "project_file": "projects/ankitects__anki.md",
+      "rank": 9,
+      "readme_sha256": "56bc155d5a0f40257693dc46470d86f1175ba3cc7ab423740177fef08e2fef73",
+      "url": "https://github.com/ankitects/anki"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 10,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Memory and context engine + app that is extremely fast, scalable, and can be run fully locally. The Memory API for the AI era.",
+      "full_name": "supermemoryai/supermemory",
+      "project_file": "projects/supermemoryai__supermemory.md",
+      "rank": 11,
+      "readme_sha256": "7a8b801a3bc586b5ef494f0cadf682caa6a0a1f84f6850937e33afe9da07ee91",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    {
+      "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
+      "full_name": "tradesdontlie/tradingview-mcp",
+      "project_file": "projects/tradesdontlie__tradingview-mcp.md",
+      "rank": 12,
+      "readme_sha256": "c52470ccb9d7c55c57a2e9b41127ad5f9297eea3171282640b290a43e073f30e",
+      "url": "https://github.com/tradesdontlie/tradingview-mcp"
+    },
+    {
+      "description": "RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.",
+      "full_name": "rustfs/rustfs",
+      "project_file": "projects/rustfs__rustfs.md",
+      "rank": 13,
+      "readme_sha256": "b3197df366f95a0a88e84ff50975ddc6c9e5a726187d29ed7e215bea8fb487d0",
+      "url": "https://github.com/rustfs/rustfs"
+    },
+    {
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "full_name": "supabase/supabase",
+      "project_file": "projects/supabase__supabase.md",
+      "rank": 14,
+      "readme_sha256": "c1a23ddcd6f67625de1bdad0be99dccf59e80c9e772e52a5c855072e783c15d4",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "description": "Secure environments for developers and their agents",
+      "full_name": "coder/coder",
+      "project_file": "projects/coder__coder.md",
+      "rank": 15,
+      "readme_sha256": "73cef0dadba0644af80a0c31619000df414fd75222a7e9863d951f304431daa9",
+      "url": "https://github.com/coder/coder"
+    },
+    {
+      "description": "Free, simple, fast interactive diagrams for any GitHub repository",
+      "full_name": "ahmedkhaleel2004/gitdiagram",
+      "project_file": "projects/ahmedkhaleel2004__gitdiagram.md",
+      "rank": 16,
+      "readme_sha256": "917ad5ebd9d5df86e02fa2b9daab9734b07a34909457671ee7daacff79d67f40",
+      "url": "https://github.com/ahmedkhaleel2004/gitdiagram"
+    },
+    {
+      "description": "Your own search engine",
+      "full_name": "asciimoo/hister",
+      "project_file": "projects/asciimoo__hister.md",
+      "rank": 17,
+      "readme_sha256": "5ed2a38068b59517d92f629f3594624c08a6de9a1351e5e7a3ebd588ec873dec",
+      "url": "https://github.com/asciimoo/hister"
+    }
+  ],
+  "snapshot_date": "2026-09-19",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

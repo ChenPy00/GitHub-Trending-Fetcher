@@ -5,7 +5,7 @@
   "full_name": "tradesdontlie/tradingview-mcp",
   "url": "https://github.com/tradesdontlie/tradingview-mcp",
   "description": "AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation",
-  "readme_sha256": "b298072d44264babb759235aff9820552064d0481f80fde1e68bba505a8fc104"
+  "readme_sha256": "c52470ccb9d7c55c57a2e9b41127ad5f9297eea3171282640b290a43e073f30e"
 }
 ```
 
@@ -13,11 +13,13 @@
 
 - URL: https://github.com/tradesdontlie/tradingview-mcp
 - Description: AI-assisted TradingView chart analysis — connect Claude Code to your TradingView Desktop for personal workflow automation
-- README SHA256: `b298072d44264babb759235aff9820552064d0481f80fde1e68bba505a8fc104`
+- README SHA256: `c52470ccb9d7c55c57a2e9b41127ad5f9297eea3171282640b290a43e073f30e`
 
 ## README
 
 # TradingView MCP Bridge
+
+[![MCP Toplist](https://mcptoplist.com/badge/glama%2Ftradesdontlie%2Ftradingview-mcp.svg)](https://mcptoplist.com/server/glama%2Ftradesdontlie%2Ftradingview-mcp)
 
 Personal AI assistant for your TradingView Desktop charts. Connects Claude Code to your locally running TradingView app via Chrome DevTools Protocol for AI-assisted chart analysis, Pine Script development, and workflow automation.
 

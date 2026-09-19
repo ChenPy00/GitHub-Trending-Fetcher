@@ -5,7 +5,7 @@
   "full_name": "abue-ammar/tinycast",
   "url": "https://github.com/abue-ammar/tinycast",
   "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-  "readme_sha256": "5512a3ac3d837bb4d39303945341f79cefa147c8dc580ca7eb9588ae90a97533"
+  "readme_sha256": "245c99276e45ac89df2117405b20c66936d520f54efe113ba0c970f5a84c7d46"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/abue-ammar/tinycast
 - Description: Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
-- README SHA256: `5512a3ac3d837bb4d39303945341f79cefa147c8dc580ca7eb9588ae90a97533`
+- README SHA256: `245c99276e45ac89df2117405b20c66936d520f54efe113ba0c970f5a84c7d46`
 
 ## README
 
@@ -87,7 +87,7 @@ keep it actively maintained. GitHub Sponsors isn't available in my country, so p
 - **Calendar and meetings** — your next meeting on the empty palette and in the menu bar, one key to
   join it, or let it join itself.
 - **Notes** — an unlimited collection of plain Markdown files in one floating editor, searchable from
-  the palette.
+  the palette and rendered as you write.
 - **Emoji picker** — a searchable emoji grid, one keystroke away.
 - **AI chat** — use your own key or an installed AI account, chat from the palette. Off out of the box, like every AI feature.
 - **Quick Actions** — fix grammar, rewrite, translate or summarize the selected text in any app.
@@ -159,6 +159,16 @@ in the **[pull request template](.github/PULL_REQUEST_TEMPLATE.md)**. Security i
 [SECURITY.md](SECURITY.md), not the issue tracker.
 
 Questions, ideas, or just want to follow along? **[Join the Discord](https://discord.gg/v2Eeb4QQy3)**.
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=abue-ammar%2Ftinycast&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=abue-ammar/tinycast&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=abue-ammar/tinycast&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=abue-ammar/tinycast&type=date&legend=top-left" />
+ </picture>
+</a>
 
 ## License
 
