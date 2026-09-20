@@ -5,7 +5,7 @@
   "full_name": "asciimoo/hister",
   "url": "https://github.com/asciimoo/hister",
   "description": "Your own search engine",
-  "readme_sha256": "5ed2a38068b59517d92f629f3594624c08a6de9a1351e5e7a3ebd588ec873dec"
+  "readme_sha256": "ec79dbcca987f73855468a7189b857f3504b8a8426a51d02b63f859a13b17ce8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/asciimoo/hister
 - Description: Your own search engine
-- README SHA256: `5ed2a38068b59517d92f629f3594624c08a6de9a1351e5e7a3ebd588ec873dec`
+- README SHA256: `ec79dbcca987f73855468a7189b857f3504b8a8426a51d02b63f859a13b17ce8`
 
 ## README
 
@@ -53,7 +53,7 @@ Hister is a private search engine for the pages you visit and the files you keep
 
 No configuration is required for a local personal setup. See the [complete quickstart](https://hister.org/docs/quickstart) to choose what Hister indexes.
 
-To search existing content, [import browser history](https://hister.org/docs/import#importing-browser-history), [index local directories](https://hister.org/docs/configuration#local-directory-indexing), or [import files](https://hister.org/docs/import#importing-files).
+To search existing content, [import browser history](https://hister.org/docs/import#importing-browser-history), [import browser bookmarks](https://hister.org/docs/import#importing-browser-bookmarks), [index local directories](https://hister.org/docs/configuration#local-directory-indexing), or [import files](https://hister.org/docs/import#importing-files).
 
 Alternative installation methods include Homebrew (`brew install hister`), Docker, and Nix. See the [installation guide](https://hister.org/docs/installing) for instructions.
 
@@ -64,7 +64,7 @@ Alternative installation methods include Homebrew (`brew install hister`), Docke
 - **Automatic browser indexing**: Save newly visited pages with the Firefox or Chrome extension.
 - **Powerful queries**: Use field filters, phrases, wildcards, negation, aliases, and result priorities.
 - **Optional semantic search**: Find documents by meaning through an embeddings endpoint you configure.
-- **Crawler and browser import**: Index websites or bring in existing browser history.
+- **Crawler and browser import**: Index websites or bring in existing browser history and bookmarks.
 - **Web, terminal, and MCP clients**: Search from the browser, TUI, command line, or an AI assistant.
 - **Multi user support**: Keep each user's documents and search results separate on a shared server.
 

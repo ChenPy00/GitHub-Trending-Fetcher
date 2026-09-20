@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db"
+  "readme_sha256": "9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- README SHA256: `75b1bf9134409650acbfa03bb2a5aea61ba4f0aef7d4039a076a360f74d620db`
+- README SHA256: `9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914`
 
 ## README
 
@@ -36,7 +36,8 @@
   <a href=".github/readme/README.vi.md" title="Tiếng Việt" aria-label="Tiếng Việt">🇻🇳</a> ·
   <a href=".github/readme/README.ko.md" title="한국어" aria-label="한국어">🇰🇷</a> ·
   <a href=".github/readme/README.fa.md" title="فارسی" aria-label="فارسی">🇮🇷</a> ·
-  <a href=".github/readme/README.th.md" title="ภาษาไทย" aria-label="ภาษาไทย">🇹🇭</a>
+  <a href=".github/readme/README.th.md" title="ภาษาไทย" aria-label="ภาษาไทย">🇹🇭</a> ·
+  <a href=".github/readme/README.ar.md" title="العربية" aria-label="العربية">🇸🇦</a>
 </p>
 
 

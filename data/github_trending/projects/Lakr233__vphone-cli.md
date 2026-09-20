@@ -5,7 +5,7 @@
   "full_name": "Lakr233/vphone-cli",
   "url": "https://github.com/Lakr233/vphone-cli",
   "description": "",
-  "readme_sha256": "01ccaf1cbd9192432226a78d4c7d193e33011f2f1b8d62d11cd72e258eaff9ca"
+  "readme_sha256": "89a1460fed61aa75c1250ec3d1b28b1db8c994baca1c1227a1c3a8e19ccd583f"
 }
 ```
 
@@ -13,11 +13,11 @@
 
 - URL: https://github.com/Lakr233/vphone-cli
 - Description: No description
-- README SHA256: `01ccaf1cbd9192432226a78d4c7d193e33011f2f1b8d62d11cd72e258eaff9ca`
+- README SHA256: `89a1460fed61aa75c1250ec3d1b28b1db8c994baca1c1227a1c3a8e19ccd583f`
 
 ## README
 
-<div align="right"><strong><a href="./docs/README_ko.md">🇰🇷한국어</a></strong> | <strong><a href="./docs/README_ja.md">🇯🇵日本語</a></strong> | <strong><a href="./docs/README_zh.md">🇨🇳中文</a></strong> | <strong><a href="./docs/README_ru.md">🇷🇺Русский</a></strong> | <strong>🇬🇧English</strong></div>
+<div align="right"><strong><a href="./docs/README_ko.md">🇰🇷한국어</a></strong> | <strong><a href="./docs/README_ja.md">🇯🇵日本語</a></strong> | <strong><a href="./docs/README_zh.md">🇨🇳中文</a></strong> | <strong><a href="./docs/README_ru.md">🇷🇺Русский</a></strong> | <strong><a href="./docs/README_pt.md">🇧🇷Português</a></strong> | <strong>🇬🇧English</strong></div>
 
 # vphone-cli
 

@@ -5,7 +5,7 @@
   "full_name": "abue-ammar/tinycast",
   "url": "https://github.com/abue-ammar/tinycast",
   "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-  "readme_sha256": "245c99276e45ac89df2117405b20c66936d520f54efe113ba0c970f5a84c7d46"
+  "readme_sha256": "220f9fa7a377763eb21195f64d61d5013708e2a4e45daf6bd44874651364581a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/abue-ammar/tinycast
 - Description: Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
-- README SHA256: `245c99276e45ac89df2117405b20c66936d520f54efe113ba0c970f5a84c7d46`
+- README SHA256: `220f9fa7a377763eb21195f64d61d5013708e2a4e45daf6bd44874651364581a`
 
 ## README
 
@@ -36,7 +36,7 @@ RAM.**
   <a href="https://discord.gg/v2Eeb4QQy3">
     <img alt="Join the Tinycast Discord"
          src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white"></a>
-  <a href="https://buy.polar.sh/polar_cl_NDVFC20DKQpLcNawsh97QzbARBXD3WNn8v35R0mbJmT">
+  <a href="https://tinycast.dev/support">
     <img alt="Support Tinycast"
          src="https://img.shields.io/badge/Support-Tip%20the%20dev-EA4AAA?style=flat&logo=polar&logoColor=white"></a>
 </p>
@@ -56,7 +56,7 @@ Tinycast is **free, and it stays that way**. If it earns a place in your daily f
 keep it actively maintained. GitHub Sponsors isn't available in my country, so please support here:
 
 <p align="center">
-  <a href="https://buy.polar.sh/polar_cl_NDVFC20DKQpLcNawsh97QzbARBXD3WNn8v35R0mbJmT">
+  <a href="https://tinycast.dev/support">
     <img alt="Support Tinycast" width="188" height="44" src="docs/support-button.svg"></a><br>
   <sub>Payments are handled securely by <a href="https://polar.sh">Polar.sh</a>.</sub>
 </p>

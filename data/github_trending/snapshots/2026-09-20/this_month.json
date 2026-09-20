@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 1,
+      "readme_sha256": "72c641ab2df957fe045c60e1d8fb0515e43118cc31213e9ee0dfb7923a8e71b7",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 2,
+      "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Community plugin marketplace for Claude Cowork and Claude Code. Read-only mirror — submit plugins at clau.de/plugin-directory-submission.",
+      "full_name": "anthropics/claude-plugins-community",
+      "project_file": "projects/anthropics__claude-plugins-community.md",
+      "rank": 3,
+      "readme_sha256": "a4e71cd7fc5b6b67bb74d556ac17985c3858aa70b755cc6c50685b2f3450fb64",
+      "url": "https://github.com/anthropics/claude-plugins-community"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 4,
+      "readme_sha256": "5f26234bf104ecadf0587a0aadd56874af1b5887eaedad786f13c206a3dd57d0",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Prompt as Code | GPT Image 2 / 2.5 提示词与案例库，530+ 个案例、20+ 套工业级模板与可复用 Skills，新增 2.5 同提示词对比专区，附完整提示词与生成记录，持续更新。",
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "project_file": "projects/freestylefly__awesome-gpt-image-2.md",
+      "rank": 5,
+      "readme_sha256": "e60d642df4bb9ca1c9d104b735b754106c14d6261b3c2d341f3d0dbc0f55e9d8",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 6,
+      "readme_sha256": "6bd737a80502980a28489a899eb048915b065c207c1414ed64322bea63bd9e08",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 7,
+      "readme_sha256": "d1a90fbdc189d876271bca526ddec34bdce2a83e96a6d3b60146bc572b34792b",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "full_name": "AprilNEA/OpenLogi",
+      "project_file": "projects/AprilNEA__OpenLogi.md",
+      "rank": 8,
+      "readme_sha256": "6701398949588c538d2afbdd0327ec35cbf24fb4a3107d8c7c3921d1a023eda3",
+      "url": "https://github.com/AprilNEA/OpenLogi"
+    },
+    {
+      "description": "Free and open-source macOS menu bar toolkit.",
+      "full_name": "vorssaint/vorssaint-utils",
+      "project_file": "projects/vorssaint__vorssaint-utils.md",
+      "rank": 9,
+      "readme_sha256": "41d84da5b1963222f7455892633c39afbe89b4f02617b06c12b5600d3ffa4aa9",
+      "url": "https://github.com/vorssaint/vorssaint-utils"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 10,
+      "readme_sha256": "9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 11,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 12,
+      "readme_sha256": "89a1460fed61aa75c1250ec3d1b28b1db8c994baca1c1227a1c3a8e19ccd583f",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 13,
+      "readme_sha256": "9dd403b069e64856091ae6ed3c7e7b21e7e1b35818325919c1ecfd9fe4ed5b67",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, and Pi. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 14,
+      "readme_sha256": "a36aa0b061c53d34500c77fe8ecee959e1b1f5bde767d0b2cafaa4ee6ddd1a53",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 15,
+      "readme_sha256": "cd387ead54358c4034e051c4b1a2c9c82b7db700c49b17b2dae929fd835b343a",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 16,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 17,
+      "readme_sha256": "78cff4b42a213b35b0ee2e1ea34724c7e9de1850f536c1075c331577e455f2e2",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 18,
+      "readme_sha256": "520d4bca0d806e7fe8679db3b1648eab89c420440fecf71eb1dc1db42c7c0840",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "full_name": "tech-leads-club/agent-skills",
+      "project_file": "projects/tech-leads-club__agent-skills.md",
+      "rank": 19,
+      "readme_sha256": "3cc51b23cd98b637d3769016e295711087636b12117f2c703cd587c2b2c50789",
+      "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 20,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 21,
+      "readme_sha256": "5897a5bbf49ba4e2948126b99cda2f5e5c829315445ac80fe68de3a67429d0bf",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
+      "full_name": "abue-ammar/tinycast",
+      "project_file": "projects/abue-ammar__tinycast.md",
+      "rank": 22,
+      "readme_sha256": "220f9fa7a377763eb21195f64d61d5013708e2a4e45daf6bd44874651364581a",
+      "url": "https://github.com/abue-ammar/tinycast"
+    }
+  ],
+  "snapshot_date": "2026-09-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

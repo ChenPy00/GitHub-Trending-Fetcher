@@ -5,7 +5,7 @@
   "full_name": "kunchenguid/firstmate",
   "url": "https://github.com/kunchenguid/firstmate",
   "description": "Talk to one agent. Ship with a crew.",
-  "readme_sha256": "6dfad436252a2ffbc3807a2f6945e0ea97e738f4a029fbcdc48538c5abfe32b2"
+  "readme_sha256": "527deb6aaf18182889d45226fd8e8d357ccf2ca4c235a5b5fcd52f4be89f194d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/kunchenguid/firstmate
 - Description: Talk to one agent. Ship with a crew.
-- README SHA256: `6dfad436252a2ffbc3807a2f6945e0ea97e738f4a029fbcdc48538c5abfe32b2`
+- README SHA256: `527deb6aaf18182889d45226fd8e8d357ccf2ca4c235a5b5fcd52f4be89f194d`
 
 ## README
 
@@ -61,7 +61,7 @@ Launching a supported harness inside it for your primary session instantiates yo
 ## Features
 
 - **One liaison** - you talk only to the first mate; it dispatches, supervises, escalates only real decisions, and reports plain outcomes.
-- **A visible crew** - every crewmate works in its own tmux window, Herdr tab, or experimental zellij tab, cmux workspace, or Orca terminal you can watch or type into; the first mate reconciles.
+- **A visible crew** - every crewmate works in its own tmux window or Herdr tab, or in an experimental Zellij tab, experimental cmux workspace, or experimental Orca terminal you can watch or type into; the first mate reconciles.
 - **Disposable worktrees** - each task runs in a clean [treehouse](https://github.com/kunchenguid/treehouse) git worktree, or an Orca-managed worktree when `backend=orca`, so parallel work on one repo never collides.
 - **Two task shapes** - ship tasks deliver authorized changes; scout tasks leave standalone investigation reports when the intake contract warrants separate research.
 - **Explicit project modes** - each project ships via `no-mistakes`, `direct-PR`, or `local-only`, with an optional `+yolo` merge-autonomy flag.

@@ -5,7 +5,7 @@
   "full_name": "Open-Dev-Society/OpenStock",
   "url": "https://github.com/Open-Dev-Society/OpenStock",
   "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-  "readme_sha256": "d1016414661b206b9acaec4b8062906838e579362629a751030b7fe2d55ed279"
+  "readme_sha256": "d88966d6164a06f42e51c52e8cf73588c302fa60c3447beeb9df40c2c16ab422"
 }
 ```
 
@@ -13,21 +13,27 @@
 
 - URL: https://github.com/Open-Dev-Society/OpenStock
 - Description: OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
-- README SHA256: `d1016414661b206b9acaec4b8062906838e579362629a751030b7fe2d55ed279`
+- README SHA256: `d88966d6164a06f42e51c52e8cf73588c302fa60c3447beeb9df40c2c16ab422`
 
 ## README
 
-<div align="center">
-  Checkout new amazing projects also, <a href="github.com/open-dev-society/openreadme" target="_blank">OpenReadme </a> is live
-</div>  
-<a href="https://hellogithub.com/repository/Open-Dev-Society/OpenStock" target="_blank"><img src="https://abroad.hellogithub.com/v1/widgets/recommend.svg?rid=5c4337a9e2dd4a8ba8aba87a88f04b8b&claim_uid=07HezcXv9puSGKQ&theme=neutral" alt="Featured｜HelloGitHub" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-<a href="https://peerlist.io/ravixalgorithm/project/openstock" target="_blank" rel="noreferrer">
-				<img
-					src="https://peerlist.io/api/v1/projects/embed/PRJH8OED7MBL9MGB9HRMKAKLM66KNN?showUpvote=true&theme=light"
-					alt="OpenStock"
-					style="width: auto; height: 54px;"
-				/>
-			</a>
+<p align="center">
+  <b>New from Open Dev Society:</b> <a href="https://github.com/Open-Dev-Society/kitbash"><b>kitbash</b></a>. Before you build, find out which parts already exist on GitHub. Borrow them, adapt them, or write the rest.
+</p>
+
+<p align="center">
+ <a href="https://www.star-history.com/open-dev-society/openstock">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=Open-Dev-Society/OpenStock&type=trending" /></picture>
+ </a>
+</p>
+
+<p align="center">
+  <a href="https://trendshift.io/repositories/15728?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-15728" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/15728" alt="Open-Dev-Society%2FOpenStock | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/15728?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-15728" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/15728/daily?language=TypeScript" alt="Open-Dev-Society%2FOpenStock | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/15728?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-15728" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/15728/weekly?language=TypeScript" alt="Open-Dev-Society%2FOpenStock | Trendshift" width="250" height="55"/></a>
+  <a href="https://trendshift.io/repositories/15728?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-15728" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/15728/monthly?language=TypeScript" alt="Open-Dev-Society%2FOpenStock | Trendshift" width="250" height="55"/></a>
+
+</p>
 <div align="center">
   <br />
   <a href="#" target="_blank">
@@ -70,11 +76,12 @@ Note: OpenStock is community-built and not a brokerage. Market data may be delay
 7. 🔐 [Environment Variables](#environment-variables)
 8. 🧱 [Project Structure](#project-structure)
 9. 📡 [Data & Integrations](#data--integrations)
-10. 🧪 [Scripts & Tooling](#scripts--tooling)
-11. 🤝 [Contributing](#contributing)
-12. 🛡️ [Security](#security)
-13. 📜 [License](#license)
-14. 🙏 [Acknowledgements](#acknowledgements)
+10. 🌍 [Market Support](#market-support)
+11. 🧪 [Scripts & Tooling](#scripts--tooling)
+12. 🤝 [Contributing](#contributing)
+13. 🛡️ [Security](#security)
+14. 📜 [License](#license)
+15. 🙏 [Acknowledgements](#acknowledgements)
 
 ## ✨ Introduction <a name="introduction"></a>
 
@@ -412,6 +419,26 @@ public/assets/images/   # logos and screenshots
 - Email (Nodemailer)
     - Gmail transport. Update credentials or switch to your SMTP provider.
     - Templates for welcome and news summary emails.
+
+
+## 🌍 Market Support <a name="market-support"></a>
+
+OpenStock supports **30+ international stock exchanges** including NSE, LSE, TSX, and more. However, please be aware of important limitations based on our data providers.
+
+**Quick Facts**:
+- ✅ Finnhub supports most global exchanges
+- ⚠️ TradingView free tier has restrictions on emerging markets (India NSE, Vietnam, etc.)
+- 📊 Real-time data for non-US stocks is delayed by 15+ minutes on free tier
+
+**See [MARKET_SUPPORT.md](./MARKET_SUPPORT.md) for**:
+- Complete list of supported exchanges
+- Known limitations and workarounds
+- Why "This symbol is only available on TradingView" appears
+- How to upgrade for broader market coverage
+- Future improvements planned
+
+For the latest supported symbols and exchanges, see [Finnhub's exchange list](https://finnhub.io/docs/api/symbol-lookup).
+
 
 ## 🧪 Scripts & Tooling <a name="scripts--tooling"></a>
 

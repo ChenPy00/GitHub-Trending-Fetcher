@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-  "readme_sha256": "7558fabe07933160df7ae7c50849f9c2632c10835186ca7e3111975c6bc2633d"
+  "readme_sha256": "63427cb09c527b9df39ea02d7407d94958dac7481f26e7e12304fd115aeddbbb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
-- README SHA256: `7558fabe07933160df7ae7c50849f9c2632c10835186ca7e3111975c6bc2633d`
+- README SHA256: `63427cb09c527b9df39ea02d7407d94958dac7481f26e7e12304fd115aeddbbb`
 
 ## README
 
@@ -55,7 +55,7 @@
 
 Monitor and steer your agents from your phone — get notified when an agent finishes and send follow-ups from anywhere.
 
-[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.48](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.48/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
+[iOS App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) · [TestFlight](https://testflight.apple.com/join/YjeGMQBA) · [Android APK 0.0.50](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.50/app-release.apk) · [Docs →](https://www.onorca.dev/docs/mobile)
 
 </td>
 <td width="50%">
@@ -249,7 +249,7 @@ yay -S stably-orca-bin
 Pair with your desktop app to monitor and steer your agents from your phone.
 
 - **iOS:** [Download on the App Store](https://apps.apple.com/us/app/orca-ide/id6766130217) or [join TestFlight](https://testflight.apple.com/join/YjeGMQBA)
-- **Android:** [Download APK 0.0.48](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.48/app-release.apk) · [Install guide](https://www.onorca.dev/docs/android-apk)
+- **Android:** [Download APK 0.0.50](https://github.com/stablyai/orca/releases/download/mobile-android-v0.0.50/app-release.apk) · [Install guide](https://www.onorca.dev/docs/android-apk)
 
 ---
 
