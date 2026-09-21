@@ -5,7 +5,7 @@
   "full_name": "Tencent/BrowserSkill",
   "url": "https://github.com/Tencent/BrowserSkill",
   "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
-  "readme_sha256": "7eba9ea318896f1433845f39e0595f2dceb1ca17b6a5ea19fb1f1c1841206614"
+  "readme_sha256": "51ac7c2c4ba4ceafd472cd1e8fcc68a2367dd261b2caba03b2351e550199b8e1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Tencent/BrowserSkill
 - Description: Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.
-- README SHA256: `7eba9ea318896f1433845f39e0595f2dceb1ca17b6a5ea19fb1f1c1841206614`
+- README SHA256: `51ac7c2c4ba4ceafd472cd1e8fcc68a2367dd261b2caba03b2351e550199b8e1`
 
 ## README
 
@@ -267,6 +267,9 @@ and finished help requests are not reopened. Allowing help makes `request-help` 
 not require every browser action to ask for permission. Task authorization and host approvals still apply.
 
 Start tasks with `bsk session start`; add `--no-focus` to avoid focusing the Agent Window.
+For a specific Chrome profile, use **Copy profile instructions** in that profile's extension
+popup and send them to your agent. This pins each new session to its instance with `--browser`,
+even when only one browser is online. See [browser profile selection](docs/browser-profiles.md).
 For unattended operation, turn off the corresponding settings in the extension. `--unattended`,
 `tab borrow --no-confirm`, and `BSK_REQUEST_HELP=off` remain accepted for compatibility but are
 deprecated and cannot override the switches. The CLI logs a notice when these inputs are used;

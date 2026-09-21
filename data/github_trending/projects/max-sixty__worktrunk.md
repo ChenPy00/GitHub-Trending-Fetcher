@@ -5,7 +5,7 @@
   "full_name": "max-sixty/worktrunk",
   "url": "https://github.com/max-sixty/worktrunk",
   "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
-  "readme_sha256": "fb2a1bf82481c234cf292218423a385c13e6e3853a7fb3ff20cdfbc783195540"
+  "readme_sha256": "e627eb18fd1f383a0bbdc43531675fc2c93e6c8ab2290bc54c817ae23f4ad0aa"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/max-sixty/worktrunk
 - Description: Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows
-- README SHA256: `fb2a1bf82481c234cf292218423a385c13e6e3853a7fb3ff20cdfbc783195540`
+- README SHA256: `e627eb18fd1f383a0bbdc43531675fc2c93e6c8ab2290bc54c817ae23f4ad0aa`
 
 ## README
 
@@ -36,7 +36,7 @@
 
 Worktrunk is a CLI for git worktree management, designed for running AI agents in parallel.
 
-Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows.
+Worktrunk's three core commands make worktrees as easy as branches. Plus, Worktrunk has a bunch of quality-of-life features to simplify working with many parallel changes, including hooks to automate local workflows & copy-on-write build caches.
 
 A quick demo:
 
@@ -184,7 +184,7 @@ This creates a new branch and worktree, then switches to it. Do your work, then 
 ```console
 $ wt list
   Branch        Status      HEAD±     main↕    main…±    Remote⇅  Commit    Age  Message
-@ feature-auth  +   ↑      +27   -8   ↑1       +31                4bc72dc    2h  Add authenticati…
+@ feature-auth  +   ↑      +27   -8   ↑1       +31                4bc72dc    2h  Add authenticatio…
 ^ main              ^⇡                                    ⇡1      0e631ad    1d  Initial commit
 
 ○ Showing 2 worktrees, 1 with changes, 1 ahead, hidden: Path

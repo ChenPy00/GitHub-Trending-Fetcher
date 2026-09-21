@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "d1a90fbdc189d876271bca526ddec34bdce2a83e96a6d3b60146bc572b34792b"
+  "readme_sha256": "f0fbcc456104086786017396eb70cdf987715e85c85b311c06399ad165346e7d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `d1a90fbdc189d876271bca526ddec34bdce2a83e96a6d3b60146bc572b34792b`
+- README SHA256: `f0fbcc456104086786017396eb70cdf987715e85c85b311c06399ad165346e7d`
 
 ## README
 
@@ -98,7 +98,7 @@ Detect my OS, CPU architecture, GPU, available RAM/VRAM, free disk space,
 and any existing VoiceStudio installation, backend, or downloaded models.
 Reuse existing data and models. Prefer the latest stable Electron installer
 for my OS and architecture; select an asset named VoiceStudio-Electron.
-For source setup, follow electron/README.md: bun install, then bun run dev
+For source setup, follow electron/README.md: bun install, bun run setup:api, then bun run dev
 from the repository root. Let Electron supervise the backend; do not start
 a second backend or use legacy tauri scripts.
 If migrating from Tauri, follow docs/electron-migration.md and back up first.
@@ -124,6 +124,7 @@ identify any permissions or manual steps you cannot perform.
 git clone https://github.com/debpalash/VoiceStudio.git
 cd VoiceStudio
 bun install
+bun run setup:api  # prepare Python dependencies before starting Electron
 bun run dev
 ```
 

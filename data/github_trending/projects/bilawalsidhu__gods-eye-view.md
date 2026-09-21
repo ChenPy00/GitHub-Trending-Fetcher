@@ -5,7 +5,7 @@
   "full_name": "bilawalsidhu/gods-eye-view",
   "url": "https://github.com/bilawalsidhu/gods-eye-view",
   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-  "readme_sha256": "6a3774dce579bea0095a5eb621b43ce7022ccb16d8af79ed7fc333483fd9fa0b"
+  "readme_sha256": "17323eef65998c17d80e3bbb1ef6393e490d8250d4768ef36bf700c179bb744b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/bilawalsidhu/gods-eye-view
 - Description: A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-- README SHA256: `6a3774dce579bea0095a5eb621b43ce7022ccb16d8af79ed7fc333483fd9fa0b`
+- README SHA256: `17323eef65998c17d80e3bbb1ef6393e490d8250d4768ef36bf700c179bb744b`
 
 ## README
 
@@ -53,7 +53,7 @@ _“pretty cool”_ — [Brendan Eich](https://x.com/BrendanEich/status/20945920
 
 <div align="center">
 
-**[Quick Start](#-quick-start) · [First Five Minutes](#-the-first-five-minutes) · [Talk to It](#-talk-to-it) · [What's Live](#-whats-on-the-globe) · [Under the Hood](#-under-the-hood) · [Keys & Costs](#-api-keys)**
+**[Quick Start](#-quick-start) · [First Five Minutes](#-the-first-five-minutes) · [Talk to It](#-talk-to-it) · [What's Live](#-whats-on-the-globe) · [Under the Hood](#-under-the-hood) · [Keys & Costs](#-api-keys) · [Contributing](CONTRIBUTING.md)**
 
 </div>
 
@@ -433,8 +433,10 @@ Add these if you need higher polling allowances.
 where each configured provider was found without printing credential values.
 On macOS its Keychain-aware result previews `./scripts/dev-fresh.sh`; plain
 `npm run dev` reads only explicit environment and Vite dotenv values. The
-OpenSky summary reports only OAuth client-pair presence, not the resolved
-runtime mode or credential validity; Basic and credentials-file modes remain
+OpenSky summary reports keyless anonymous access for explicit `anon` or an
+OAuth mode without a client pair, retains presence-only wording for a complete
+OAuth pair, and identifies selected Basic or auto mode without guessing which
+credentials runtime will accept. Basic and credentials-file modes remain
 advanced `dev-fresh.sh` configuration.
 
 <details>
