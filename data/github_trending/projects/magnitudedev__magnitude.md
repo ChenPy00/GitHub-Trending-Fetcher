@@ -4,16 +4,16 @@
   "name": "magnitude",
   "full_name": "magnitudedev/magnitude",
   "url": "https://github.com/magnitudedev/magnitude",
-  "description": "Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.",
-  "readme_sha256": "028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3"
+  "description": "Open source inference engine optimized for consumer hardware. Profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
+  "readme_sha256": "6c840d1c875fbc8a3d20c6e13b90d407558a2619c067610682630af597ce9d08"
 }
 ```
 
 # magnitudedev/magnitude
 
 - URL: https://github.com/magnitudedev/magnitude
-- Description: Open source inference server that runs the best local models for your hardware, plugged into the agent you already use. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline.
-- README SHA256: `028fa607db34ee48d29a247a7ff1073e874af0638efbcd110000b7e63e6702c3`
+- Description: Open source inference engine optimized for consumer hardware. Profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.
+- README SHA256: `6c840d1c875fbc8a3d20c6e13b90d407558a2619c067610682630af597ce9d08`
 
 ## README
 
@@ -27,59 +27,40 @@
 
 <h1 align="center">Magnitude</h1>
 
-<p align="center"><strong>Run your agent on local models. Free, private, and offline.</strong></p>
+<p align="center"><strong>Run the best local models for your machine</strong></p>
 
 <p align="center">
+  <a href="https://magnitude.dev/download"><img src="https://img.shields.io/badge/-Download-gray?style=flat-square&labelColor=0369a1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIuMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTEyIDN2MTIiLz48cGF0aCBkPSJtNyAxMCA1IDUgNS01Ii8%2BPHBhdGggZD0iTTQgMTd2MmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ2LTIiLz48L3N2Zz4%3D" alt="Download Magnitude"></a>
   <a href="https://docs.magnitude.dev"><img src="https://img.shields.io/badge/%F0%9F%93%95-Docs-0369a1?style=flat-square&labelColor=0369a1&color=gray" alt="Documentation"></a>
-  <a href="https://discord.gg/EHt48pPWdC"><img src="https://img.shields.io/badge/Discord-Join-5865F2?style=flat-square&logo=discord&logoColor=white&labelColor=5865F2&color=gray" alt="Discord"></a>
-  <a href="https://x.com/usemagnitude"><img src="https://img.shields.io/badge/Twitter-Follow-000000?style=flat-square&logo=x&logoColor=white&labelColor=000000&color=gray" alt="Follow Magnitude on Twitter"></a>
+  <a href="https://discord.gg/EHt48pPWdC"><img src="https://img.shields.io/badge/-Discord-gray?style=flat-square&logo=discord&logoColor=white&labelColor=5865F2" alt="Discord"></a>
+  <a href="https://x.com/usemagnitude"><img src="https://img.shields.io/badge/-Twitter-gray?style=flat-square&logo=x&logoColor=white&labelColor=000000" alt="Follow Magnitude on Twitter"></a>
   <a href="https://github.com/magnitudedev/magnitude/stargazers"><img src="https://img.shields.io/github/stars/magnitudedev/magnitude" alt="GitHub Repo stars"></a>
-  <a href="https://www.npmjs.com/package/@magnitudedev/cli"><img src="https://img.shields.io/npm/v/%40magnitudedev%2Fcli" alt="npm version"></a>
 </p>
 
-Magnitude is an open source inference server that runs the best local models for your hardware, plugged into the agent you already use. It profiles your machine, recommends the models that fit, then downloads, tunes, and runs them. Works with Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline, or use the built-in harness.
+Magnitude is an open source inference engine optimized for consumer hardware. It profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. One click connects the agent you already use. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.
+
+**[Download Magnitude for macOS, Windows, or Linux](https://magnitude.dev/download)**
 
 ⭐ Help us reach more developers and grow the Magnitude community. Star this repo!
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/ecosystem-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="assets/readme/ecosystem-light.png">
-  <img alt="Pi, OpenCode, Hermes, Codex, Claude Code, and OpenClaw connected to Magnitude, which runs local models for your hardware." src="assets/readme/ecosystem-light.png">
-</picture>
+https://github.com/user-attachments/assets/8317d05b-8a6e-40e0-b45d-81011ecbc329
 
 ## Get started
 
-### Set up with your agent
+1. [Download Magnitude](https://magnitude.dev/download), install it, and open the app.
+2. Choose a recommended model in **Discover** and download it.
+3. Connect your agent in **Connections** and start using it.
 
-Send this prompt to your agent:
-
-```text
-Set up local models for me with the Magnitude CLI. Install it with `npm i -g @magnitudedev/cli` (or my package manager), then run `magnitude docs onboarding` and follow the instructions.
-```
-
-Your agent will profile your hardware, walk you through the best local models for it, download the ones you pick, and switch itself over to them.
-
-### Install manually
-
-Run these commands in your terminal:
-
-```sh
-npm i -g @magnitudedev/cli
-magnitude setup
-```
-
-The interactive setup profiles your hardware, lets you choose from the recommended models, downloads your selection, and connects it to your harness.
-
-Magnitude supports macOS and Linux. Windows is supported through WSL.
+The desktop app includes the `magnitude` CLI. No separate installation is needed.
 
 ## Why Magnitude?
 
+- **Knows your machine:** profiles your hardware and estimates tok/s before you download
+- **Recommends the best models:** ranked by speed, accuracy, intelligence, and memory
+- **Tuned end to end:** speculative decoding and more, all set for your hardware
+- **Works with your agent:** one click to connect Pi, OpenCode, Hermes, and more
 - **Free to run:** no token costs, API keys, or rate limits
 - **Fully private and offline:** models, prompts, and files stay on your machine
-- **Agent-first setup:** one prompt and your agent walks you through the rest
-- **Knows your hardware:** profiles your chip, memory, and bandwidth
-- **Recommends what fits:** the best models for your machine, with estimated tok/s
-- **Tuned end to end:** speculative decoding, concurrency, all set for your machine
 - **Models on demand:** loaded on request, unloaded when idle or memory fills
 - **Open source:** Apache 2.0, yours to modify
 
@@ -87,35 +68,35 @@ Magnitude supports macOS and Linux. Windows is supported through WSL.
 
 ### What is Magnitude?
 
-An open source inference server that runs the best local models for your hardware, plugged into the agent you already use. It profiles your machine, recommends the models that fit, then downloads, tunes, and runs them.
+An open source inference engine optimized for consumer hardware. The desktop app profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. One click connects the agent you already use.
+
+### How does it know what my machine can run?
+
+Magnitude profiles your hardware and estimates tok/s for every model in the catalog before you download anything. It ranks them by speed, accuracy, intelligence, and memory so you can pick.
+
+### How is this different from Ollama or LM Studio?
+
+They run whatever model you pick. Magnitude helps you pick. It estimates how every model and quant will perform on your machine before you download, then tunes the one you choose for your exact hardware, from context size to speculative decoding.
 
 ### What hardware do I need?
 
-There's no fixed minimum. Magnitude profiles your hardware and recommends the best models for your machine. More memory lets you run larger models.
+There's no fixed minimum. Magnitude profiles your machine and recommends what runs well on it. More memory lets you run larger models.
 
-### Why not just have my agent set up Ollama?
+### What systems does Magnitude support?
 
-Your agent would be guessing. It doesn't know your hardware, which quant fits, or how fast it'll run. Magnitude gives it a catalog with recommendations computed for your machine, an onboarding flow that writes your harness config, and inference built for agent workloads. Models load just in time and unload when idle or memory gets tight.
+The desktop app is native on macOS, Linux, and Windows. It runs on Apple Silicon, NVIDIA and AMD GPUs, and CPU-only machines, including unified-memory boxes like DGX Spark and Strix Halo.
 
 ### Which harnesses work with it?
 
-Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline. During setup, your agent connects your harness to the model you pick. Or use Magnitude's built-in harness.
+Pi, OpenCode, Hermes, OpenClaw, Codex, Claude Code, Oh My Pi, and Cline. Pick a model and connect your harness in one click.
 
-### Do I need to manage Magnitude after setup?
+### Do I need to manage it after setup?
 
-No. It runs in the background, loads models when your agent needs them, and unloads them when idle or memory gets tight. Your agent can install or switch models through the Magnitude CLI anytime.
+No. It runs in the background, loads models when your agent needs them, and unloads them when idle or memory gets tight.
 
-### Does my data go to the cloud?
+### Is it private?
 
-No. Prompts, files, and models stay on your machine.
-
-### Can it run completely offline?
-
-Yes. Once Magnitude and a model are downloaded, no internet connection needed.
-
-### Can I use models outside the catalog?
-
-Yes. You can [download compatible GGUF models from Hugging Face](https://docs.magnitude.dev/models#download-a-model-outside-the-catalog) and use them in Magnitude.
+Yes. Prompts, files, and models stay on your machine. Once a model is downloaded, no internet connection is needed.
 
 ## Learn more
 

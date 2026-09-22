@@ -5,7 +5,7 @@
   "full_name": "omacom/omarchy",
   "url": "https://github.com/omacom/omarchy",
   "description": "Beautiful, Modern & Opinionated Linux",
-  "readme_sha256": "661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b"
+  "readme_sha256": "5bf8370906b45cca994fba5b617fffe804ce2ec6fa46353ab8fdeaa4b061bd98"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/omacom/omarchy
 - Description: Beautiful, Modern & Opinionated Linux
-- README SHA256: `661a0208f2fb226d587eab16b0c35389bcecfe41ad94a315ab35ccf48bb06e6b`
+- README SHA256: `5bf8370906b45cca994fba5b617fffe804ce2ec6fa46353ab8fdeaa4b061bd98`
 
 ## README
 
@@ -25,9 +25,7 @@ Read more at [omarchy.org](https://omarchy.org).
 
 ## The Omarchy Manual
 
-The manual lives in [`manual/`](manual/), which is its authoritative source. It's
-mirrored to [learn.omacom.io](https://learn.omacom.io/2/the-omarchy-manual), where
-its screenshots are also hosted.
+The manual lives in [`manual/`](manual/), which is its authoritative source.
 
 - [Welcome to Omarchy!](manual/01-welcome-to-omarchy.md)
 

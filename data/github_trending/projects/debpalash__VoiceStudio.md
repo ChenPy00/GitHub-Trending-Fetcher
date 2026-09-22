@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "f0fbcc456104086786017396eb70cdf987715e85c85b311c06399ad165346e7d"
+  "readme_sha256": "96fb7fcc47bf96eba7d9201b35a306e19c506a99841b09a7f021071ba88415a0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `f0fbcc456104086786017396eb70cdf987715e85c85b311c06399ad165346e7d`
+- README SHA256: `96fb7fcc47bf96eba7d9201b35a306e19c506a99841b09a7f021071ba88415a0`
 
 ## README
 
@@ -73,6 +73,28 @@ Local workflows run on your hardware. Remote services are optional; usage analyt
 </details>
 
 ## Get started
+
+### One-command install (macOS / Linux)
+
+```sh
+# Latest Electron release
+curl -fsSL https://voicestudio.sh/install | sh
+
+# A specific published Electron release (replace X.Y.Z)
+curl -fsSL https://voicestudio.sh/install | sh -s -- --version X.Y.Z
+
+# Build current main and install the desktop app
+curl -fsSL https://voicestudio.sh/install | sh -s -- --main
+
+# Uninstall the app, keeping your data
+curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall
+```
+
+Release downloads require curl and a SHA-256 tool. `--main` requires Git,
+Node.js 22+, Bun, Rust/Cargo, and platform build tools; see
+[installer prerequisites and behavior](docs/install/script.md).
+The installer preserves your settings, projects, and models. Older versions
+must contain Electron packages; it never falls back to archived Tauri builds.
 
 Download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest), then follow your platform guide:
 

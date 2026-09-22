@@ -1,0 +1,105 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A framework for building agentic apps",
+      "full_name": "BuilderIO/agent-native",
+      "project_file": "projects/BuilderIO__agent-native.md",
+      "rank": 1,
+      "readme_sha256": "752c4493d39b868498bbe7e884f38f30a44c82a608a83459e05c75063bc86452",
+      "url": "https://github.com/BuilderIO/agent-native"
+    },
+    {
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "full_name": "trycua/cua",
+      "project_file": "projects/trycua__cua.md",
+      "rank": 2,
+      "readme_sha256": "44e346af15e7f6368c5693282a36f8bde8579bbada7149a88deb7ab155edc92b",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "full_name": "Open-Dev-Society/OpenStock",
+      "project_file": "projects/Open-Dev-Society__OpenStock.md",
+      "rank": 3,
+      "readme_sha256": "9a339e76756e5211106c91430e103bcb376318485450594af684b0eafb1a2409",
+      "url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 4,
+      "readme_sha256": "1d0a918f3dc0c8234aff97b75e78d6ac4143cac9ad9127e77fb0fca2077b8eda",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "Secure environments for developers and their agents",
+      "full_name": "coder/coder",
+      "project_file": "projects/coder__coder.md",
+      "rank": 5,
+      "readme_sha256": "73cef0dadba0644af80a0c31619000df414fd75222a7e9863d951f304431daa9",
+      "url": "https://github.com/coder/coder"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 6,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "full_name": "cloudflare/quiche",
+      "project_file": "projects/cloudflare__quiche.md",
+      "rank": 7,
+      "readme_sha256": "b508071b040d926dbd06ef71535cb9d06e649dcbb317390bade2013449152b86",
+      "url": "https://github.com/cloudflare/quiche"
+    },
+    {
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "full_name": "mvt-project/mvt",
+      "project_file": "projects/mvt-project__mvt.md",
+      "rank": 8,
+      "readme_sha256": "1a7fd73ce5d4dce4ec0b5eca65f7f9074377960f306c34ad78f62350598caefd",
+      "url": "https://github.com/mvt-project/mvt"
+    },
+    {
+      "description": "AutoClip : AI-powered video clipping and highlight generation · 一款智能高光提取与剪辑的二创工具",
+      "full_name": "zhouxiaoka/autoclip",
+      "project_file": "projects/zhouxiaoka__autoclip.md",
+      "rank": 9,
+      "readme_sha256": "a6f12b28771fe891059461267b3a796186125ca053675b93a45ccfe10aa5048b",
+      "url": "https://github.com/zhouxiaoka/autoclip"
+    },
+    {
+      "description": "科技爱好者周刊，每周五发布",
+      "full_name": "ruanyf/weekly",
+      "project_file": "projects/ruanyf__weekly.md",
+      "rank": 10,
+      "readme_sha256": "53b9e08bf611326e28e26705bbd7c27f2dbe5c305daf0452d8b046e409c7163f",
+      "url": "https://github.com/ruanyf/weekly"
+    },
+    {
+      "description": "Project NOMAD is an offline-first knowledge and education server. Wikipedia, thousands of books, courses, maps, and optional local AI, all running on hardware you own with no internet required.",
+      "full_name": "Crosstalk-Solutions/project-nomad",
+      "project_file": "projects/Crosstalk-Solutions__project-nomad.md",
+      "rank": 11,
+      "readme_sha256": "1936b0b553adadef5c1021c71eb4b8aaa3d72587e840660926092e53132dc04d",
+      "url": "https://github.com/Crosstalk-Solutions/project-nomad"
+    },
+    {
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
+      "full_name": "yynxxxxx/Codex-X",
+      "project_file": "projects/yynxxxxx__Codex-X.md",
+      "rank": 12,
+      "readme_sha256": "857ef58fa39607eed90ee393ca33b0a12981004736612a956f2876e3a5452445",
+      "url": "https://github.com/yynxxxxx/Codex-X"
+    }
+  ],
+  "snapshot_date": "2026-09-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

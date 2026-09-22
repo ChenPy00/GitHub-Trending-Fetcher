@@ -5,7 +5,7 @@
   "full_name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "readme_sha256": "4af0d3294957ba7ee0b2f7ee43cff5ae647f128de0c2b92573da825a25710e78"
+  "readme_sha256": "dcbf0fed53414a8061996ee47610c79926687402aee140c0f89ebc7677adbabc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/affaan-m/ECC
 - Description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- README SHA256: `4af0d3294957ba7ee0b2f7ee43cff5ae647f128de0c2b92573da825a25710e78`
+- README SHA256: `dcbf0fed53414a8061996ee47610c79926687402aee140c0f89ebc7677adbabc`
 
 ## README
 
@@ -191,6 +191,31 @@ For Claude Code plugin setup, updates, scope changes, and hook-profile changes:
 ```bash
 npx ecc-universal@2.2.2 setup
 ```
+
+#### Windows first-time walkthrough
+
+If you are new to command-line tools, use this copy-and-paste path:
+
+1. Install Node.js 18 or newer, Git, and Claude Code.
+2. Open **PowerShell** from the Windows Start menu.
+3. Confirm that each prerequisite is available:
+
+   ```powershell
+   node --version
+   git --version
+   claude --version
+   ```
+
+4. Run the guided installer:
+
+   ```powershell
+   npx ecc-universal@2.2.2 setup
+   ```
+
+5. For a typical personal setup, choose **Global user**, choose **Standard** hooks, and confirm.
+6. Start a new Claude Code session and run `/plugin list` to verify that `ecc@ecc` is enabled.
+
+This path does not require cloning the repository. If any prerequisite command is not found, install or repair that prerequisite before rerunning ECC setup.
 
 If npm reports a version or cache error, confirm the registry version before retrying:
 
