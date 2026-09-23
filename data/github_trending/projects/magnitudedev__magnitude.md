@@ -4,16 +4,16 @@
   "name": "magnitude",
   "full_name": "magnitudedev/magnitude",
   "url": "https://github.com/magnitudedev/magnitude",
-  "description": "Open source inference engine optimized for consumer hardware. Profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
-  "readme_sha256": "6c840d1c875fbc8a3d20c6e13b90d407558a2619c067610682630af597ce9d08"
+  "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
+  "readme_sha256": "fd8791936581f360dfc12d4d2374f0532b2987e74e8fd6b35783de2152869ef8"
 }
 ```
 
 # magnitudedev/magnitude
 
 - URL: https://github.com/magnitudedev/magnitude
-- Description: Open source inference engine optimized for consumer hardware. Profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.
-- README SHA256: `6c840d1c875fbc8a3d20c6e13b90d407558a2619c067610682630af597ce9d08`
+- Description: Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.
+- README SHA256: `fd8791936581f360dfc12d4d2374f0532b2987e74e8fd6b35783de2152869ef8`
 
 ## README
 
@@ -27,7 +27,7 @@
 
 <h1 align="center">Magnitude</h1>
 
-<p align="center"><strong>Run the best local models for your machine</strong></p>
+<p align="center"><strong>Run the best open models for your machine</strong></p>
 
 <p align="center">
   <a href="https://magnitude.dev/download"><img src="https://img.shields.io/badge/-Download-gray?style=flat-square&labelColor=0369a1&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjZmZmZmZmIiBzdHJva2Utd2lkdGg9IjIuMjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI%2BPHBhdGggZD0iTTEyIDN2MTIiLz48cGF0aCBkPSJtNyAxMCA1IDUgNS01Ii8%2BPHBhdGggZD0iTTQgMTd2MmEyIDIgMCAwIDAgMiAyaDEyYTIgMiAwIDAgMCAyLTJ2LTIiLz48L3N2Zz4%3D" alt="Download Magnitude"></a>
@@ -37,7 +37,7 @@
   <a href="https://github.com/magnitudedev/magnitude/stargazers"><img src="https://img.shields.io/github/stars/magnitudedev/magnitude" alt="GitHub Repo stars"></a>
 </p>
 
-Magnitude is an open source inference engine optimized for consumer hardware. It profiles your machine, recommends the best models for it, then downloads, tunes, and runs them. One click connects the agent you already use. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.
+Magnitude is the open source inference engine for the hardware you already own. It profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. One click connects your favorite agent (Pi, OpenCode, Hermes, etc.). Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.
 
 **[Download Magnitude for macOS, Windows, or Linux](https://magnitude.dev/download)**
 

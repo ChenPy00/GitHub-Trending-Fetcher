@@ -1,0 +1,73 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 1,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "Agent Substrate: the core system",
+      "full_name": "agent-substrate/substrate",
+      "project_file": "projects/agent-substrate__substrate.md",
+      "rank": 2,
+      "readme_sha256": "7e0a509b8f54933cf3313210c0132388a040252537f2f55a5ca06fe12769bbfb",
+      "url": "https://github.com/agent-substrate/substrate"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 3,
+      "readme_sha256": "b28e262802e70d923bfb3c11aada4b200aa9d2e7077a3fcf7cfbafb0ef09fe49",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "full_name": "davila7/claude-code-templates",
+      "project_file": "projects/davila7__claude-code-templates.md",
+      "rank": 4,
+      "readme_sha256": "e4b0e967737caca99869aac02bbec1c0d18cbf50bcdeb5eead50f69dade457c4",
+      "url": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "description": "Google's open agentic orchestration runtime",
+      "full_name": "google/ax",
+      "project_file": "projects/google__ax.md",
+      "rank": 5,
+      "readme_sha256": "95d27df32ff26887224cdde472b890952b192ae1fb169f40963c3feefb679db1",
+      "url": "https://github.com/google/ax"
+    },
+    {
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "full_name": "mvt-project/mvt",
+      "project_file": "projects/mvt-project__mvt.md",
+      "rank": 6,
+      "readme_sha256": "1a7fd73ce5d4dce4ec0b5eca65f7f9074377960f306c34ad78f62350598caefd",
+      "url": "https://github.com/mvt-project/mvt"
+    },
+    {
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "full_name": "superdesigndev/treg",
+      "project_file": "projects/superdesigndev__treg.md",
+      "rank": 7,
+      "readme_sha256": "64d1ae9ab75056d03994678d3ef2616e2feb1e04b433440b8581a430bd797b7d",
+      "url": "https://github.com/superdesigndev/treg"
+    },
+    {
+      "description": "Edit videos with coding agents",
+      "full_name": "browser-use/video-use",
+      "project_file": "projects/browser-use__video-use.md",
+      "rank": 8,
+      "readme_sha256": "612bca23557cfc4501e80d3ce4babbe086dba77a70fa3a74ae5c0170393ece8f",
+      "url": "https://github.com/browser-use/video-use"
+    }
+  ],
+  "snapshot_date": "2026-09-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

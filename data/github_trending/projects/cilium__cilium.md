@@ -5,7 +5,7 @@
   "full_name": "cilium/cilium",
   "url": "https://github.com/cilium/cilium",
   "description": "eBPF-based Networking, Security, and Observability",
-  "readme_sha256": "e9e50bdafcee30394949bbd81201909afa55a13865eb9ef1d9dec065fd13af41"
+  "readme_sha256": "00659e01fe4ecb9dbe8309f28b1eeaabd032280bc9b67a155a822cfefac2c901"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cilium/cilium
 - Description: eBPF-based Networking, Security, and Observability
-- README SHA256: `e9e50bdafcee30394949bbd81201909afa55a13865eb9ef1d9dec065fd13af41`
+- README SHA256: `00659e01fe4ecb9dbe8309f28b1eeaabd032280bc9b67a155a822cfefac2c901`
 
 ## README
 
@@ -222,8 +222,8 @@ operators gain the benefits of fine-grained traffic control, encryption, observa
 and access control without the cost and complexity of traditional proxy-based
 designs. Key features include:
 
-* **Mutual authentication** with automatic identity-based encryption between
-  workloads using IPSec or WireGuard.
+* **Transparent encryption** secures traffic between workloads using IPsec,
+  WireGuard, or ztunnel.
 
 * **L7-aware policy enforcement** for security and compliance.
 

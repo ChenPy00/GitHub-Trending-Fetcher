@@ -1,0 +1,169 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 1,
+      "readme_sha256": "9dd403b069e64856091ae6ed3c7e7b21e7e1b35818325919c1ecfd9fe4ed5b67",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 2,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 3,
+      "readme_sha256": "bff11524e5fa0c913189c21c851547c279ec9335755c8763d43ae7cac25e9476",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 4,
+      "readme_sha256": "dcbf0fed53414a8061996ee47610c79926687402aee140c0f89ebc7677adbabc",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 5,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 6,
+      "readme_sha256": "0956874d6ba30f65d45ff90a9d51e615627a836e22745f43b7aece14537bb028",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 7,
+      "readme_sha256": "0f043e2003e4f090d354cf15f8e13e42621d78e5edb8c65a0b66b8e986e58ba4",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 8,
+      "readme_sha256": "92ad67de1feaae1b1e4b6a28ca1ea02a98baad56ebccc258a9ea59e82d230fb6",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 9,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 10,
+      "readme_sha256": "05d4797479617513263b43010df5096580cbcdd28917e4740c5f1404a284bf6d",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Enhanced ChatGPT Clone: Features Agents, MCP, Skills, DeepSeek, Anthropic, AWS, OpenAI, Responses API, Azure, Groq, o1, GPT-5, Mistral, OpenRouter, Vertex AI, Gemini, Artifacts, AI model switching, message search, Code Interpreter, langchain, DALL-E-3, OpenAPI Actions, Functions, Secure Multi-User Auth, Presets, open-source for self-hosting. Active",
+      "full_name": "danny-avila/LibreChat",
+      "project_file": "projects/danny-avila__LibreChat.md",
+      "rank": 11,
+      "readme_sha256": "0ab2e9465f8e75c9981e21240dd0bc4891cd1402674945a8feae022380e3e82b",
+      "url": "https://github.com/danny-avila/LibreChat"
+    },
+    {
+      "description": "🏡 Open source home automation that puts local control and privacy first.",
+      "full_name": "home-assistant/core",
+      "project_file": "projects/home-assistant__core.md",
+      "rank": 12,
+      "readme_sha256": "c9955c50630b0e2582cbc56b13f077e778a8c03c8002ce8966a38444a30c4d93",
+      "url": "https://github.com/home-assistant/core"
+    },
+    {
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "full_name": "cline/cline",
+      "project_file": "projects/cline__cline.md",
+      "rank": 13,
+      "readme_sha256": "e68470af087a1f3a7abe00a725e42e5d4a9da56c204047df2211986ddd844d24",
+      "url": "https://github.com/cline/cline"
+    },
+    {
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "full_name": "cloudflare/quiche",
+      "project_file": "projects/cloudflare__quiche.md",
+      "rank": 14,
+      "readme_sha256": "b508071b040d926dbd06ef71535cb9d06e649dcbb317390bade2013449152b86",
+      "url": "https://github.com/cloudflare/quiche"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 15,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "full_name": "supabase/supabase",
+      "project_file": "projects/supabase__supabase.md",
+      "rank": 16,
+      "readme_sha256": "c1a23ddcd6f67625de1bdad0be99dccf59e80c9e772e52a5c855072e783c15d4",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "description": "eBPF-based Networking, Security, and Observability",
+      "full_name": "cilium/cilium",
+      "project_file": "projects/cilium__cilium.md",
+      "rank": 17,
+      "readme_sha256": "00659e01fe4ecb9dbe8309f28b1eeaabd032280bc9b67a155a822cfefac2c901",
+      "url": "https://github.com/cilium/cilium"
+    },
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 18,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
+      "full_name": "Open-Dev-Society/OpenStock",
+      "project_file": "projects/Open-Dev-Society__OpenStock.md",
+      "rank": 19,
+      "readme_sha256": "9a339e76756e5211106c91430e103bcb376318485450594af684b0eafb1a2409",
+      "url": "https://github.com/Open-Dev-Society/OpenStock"
+    },
+    {
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "full_name": "Tencent/BrowserSkill",
+      "project_file": "projects/Tencent__BrowserSkill.md",
+      "rank": 20,
+      "readme_sha256": "9d8aa147804deefd12d1b95a996dcd5fa8d63ebb8ba61a16f9be28184373c632",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    }
+  ],
+  "snapshot_date": "2026-09-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
