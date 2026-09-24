@@ -5,7 +5,7 @@
   "full_name": "alibaba/open-code-review",
   "url": "https://github.com/alibaba/open-code-review",
   "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
-  "readme_sha256": "9dd403b069e64856091ae6ed3c7e7b21e7e1b35818325919c1ecfd9fe4ed5b67"
+  "readme_sha256": "76228cb397c4e64a13fa03ee893ae8a46df310f7073bd690e7ad0dc6cfc1aa43"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/alibaba/open-code-review
 - Description: Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
-- README SHA256: `9dd403b069e64856091ae6ed3c7e7b21e7e1b35818325919c1ecfd9fe4ed5b67`
+- README SHA256: `76228cb397c4e64a13fa03ee893ae8a46df310f7073bd690e7ad0dc6cfc1aa43`
 
 ## README
 
@@ -31,7 +31,7 @@
 </p>
 <p align="center">
   <a href="https://trendshift.io/repositories/41087" target="_blank">
-    <img src="https://trendshift.io/api/badge/trendshift/repositories/41087/weekly?language=Go" alt="alibaba%2Fopen-code-review | Trendshift" style="width: 280px; height: 60px;" width="280" height="60" />
+    <img src="https://trendshift.io/api/badge/trendshift/repositories/41087/weekly" alt="alibaba%2Fopen-code-review | Trendshift" style="width: 280px; height: 60px;" width="280" height="60" />
   </a>
   <a href="https://trendshift.io/repositories/41087" target="_blank">
     <img src="https://trendshift.io/api/badge/trendshift/repositories/41087/monthly?language=Go" alt="alibaba%2Fopen-code-review | Trendshift" style="width: 280px; height: 60px;" width="280" height="60" />

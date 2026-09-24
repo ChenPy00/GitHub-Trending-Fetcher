@@ -5,7 +5,7 @@
   "full_name": "HKUDS/CLI-Anything",
   "url": "https://github.com/HKUDS/CLI-Anything",
   "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
-  "readme_sha256": "02aa432938b60c2c26117a860f6c17cafc5d6bf264663133a9a625176d4a249a"
+  "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9"
 }
 ```
 
@@ -13,14 +13,14 @@
 
 - URL: https://github.com/HKUDS/CLI-Anything
 - Description: "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
-- README SHA256: `02aa432938b60c2c26117a860f6c17cafc5d6bf264663133a9a625176d4a249a`
+- README SHA256: `24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9`
 
 ## README
 
 <h1 align="center"><img src="assets/icon.png" alt="" width="64" style="vertical-align: middle;">&nbsp; CLI-Anything: Making ALL Software Agent-Native</h1>
 
 <div align="center">
-<a href="https://trendshift.io/repositories/22991" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22991" alt="HKUDS%2FCLI-Anything | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
+<a href="https://www.star-history.com/hkuds/cli-anything"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending&amp;theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending"><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=trending" height="55"></picture></a>&#32;<a href="https://trendshift.io/repositories/22991" target="_blank"><img src="https://trendshift.io/api/badge/repositories/22991" alt="HKUDS/CLI-Anything | Trendshift" height="55"></a>&#32;<a href="https://www.star-history.com/hkuds/cli-anything"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=rank&amp;theme=dark"><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=rank"><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=HKUDS/CLI-Anything&amp;type=rank" height="55"></picture></a>
 </div>
 
 <p align="center">
@@ -274,7 +274,7 @@ Use the CLI-Anything generator when you need a new harness for software, a codeb
 
 - **Python 3.10+**
 - Target software or source repo available locally or online
-- A supported AI coding agent: [Claude Code](#-claude-code) | [Pi](#-pi-coding-agent) | [OpenClaw](#-openclaw) | [OpenCode](#-opencode) | [Codex](#-codex) | [Hermes](#-hermes) | [Reasonix](#-reasonix) | [Qodercli](#-qodercli) | [GitHub Copilot CLI](#-github-copilot-cli) | [More Platforms](#-more-platforms-coming-soon)
+- A supported AI coding agent: [Claude Code](#-claude-code) | [Cursor](#-cursor) | [Pi](#-pi-coding-agent) | [OpenClaw](#-openclaw) | [OpenCode](#-opencode) | [Codex](#-codex) | [Hermes](#-hermes) | [Reasonix](#-reasonix) | [Qodercli](#-qodercli) | [GitHub Copilot CLI](#-github-copilot-cli) | [More Platforms](#-more-platforms-coming-soon)
 
 ### Pick Your Agent Platform
 
@@ -552,6 +552,63 @@ The skill follows the same 7-phase methodology as Claude Code and OpenCode.
 
 <details>
 
+<summary><h4 id="-cursor">⚡ Cursor</h4></summary>
+
+Cursor gets **both** tracks:
+
+| Track | Purpose | Install |
+|-------|---------|---------|
+| **Generator** | Build new harnesses with `/cli-anything` (and refine/test/validate/list) | Cursor plugin in `cursor-plugin/` |
+| **Consumer** | Find/install/use published CLIs from CLI-Hub | `npx skills` + `cli-hub` (unchanged) |
+
+**Generator — install the Cursor plugin**
+
+```bash
+git clone https://github.com/HKUDS/CLI-Anything.git
+bash CLI-Anything/cursor-plugin/scripts/install.sh
+```
+
+Windows PowerShell:
+
+```powershell
+.\CLI-Anything\cursor-plugin\scripts\install.ps1
+```
+
+Upgrade with `--force` / `-Force`. Default install path is
+`~/.cursor/plugins/local/cli-anything` (override with `CURSOR_PLUGINS_HOME` pointing at a
+directory named `plugins`). The installer vendors `cli-anything-plugin/` methodology
+resources and writes `PLUGIN_ROOT.txt` plus `~/.cursor/cli-anything-generator.root`
+so Cursor agents can resolve absolute methodology paths.
+
+Reload the Cursor window (**Developer: Reload Window**), then:
+
+```text
+/cli-anything ./gimp
+/cli-anything-refine ./shotcut "picture-in-picture workflows"
+/cli-anything-test ./libreoffice
+/cli-anything-validate ./libreoffice
+/cli-anything-list
+```
+
+**Consumer — Hub / skills (separate from the generator plugin)**
+
+```bash
+npx skills add HKUDS/CLI-Anything --skill cli-hub-meta-skill -g -y
+# or a per-app skill, e.g. cli-anything-blender
+pip install cli-anything-hub
+```
+
+Verify the plugin installer locally:
+
+```bash
+bash CLI-Anything/cursor-plugin/tests/test_install.sh
+```
+
+See [`cursor-plugin/README.md`](cursor-plugin/README.md) for troubleshooting local plugin loading.
+</details>
+
+<details>
+
 <summary><h4 id="-codex">⚡ Codex <sup><code>Experimental</code></sup> <sup><code>Community</code></sup></h4></summary>
 
 **Step 1: Install the Skill**
@@ -715,8 +772,8 @@ This installs the CLI-Anything plugin to GitHub Copilot CLI. The plugin should n
 
 CLI-Anything is designed to be platform-agnostic. Support for more AI coding agents is planned:
 
+- **Cursor** — available via the Cursor plugin in `cursor-plugin/` (generator) plus Hub/skills (consumer)
 - **Codex** — available via the bundled skill in `codex-skill/`
-- **Cursor** — coming soon
 - **Windsurf** — coming soon
 - **Your favorite tool** — contributions welcome! See the `opencode-commands/` directory for a reference implementation.
 
@@ -1448,6 +1505,13 @@ cli-anything/
 │   └── scripts/
 │       └── setup-cli-anything.sh         # Setup script
 │
+├── 🖱️ cursor-plugin/                     # Cursor Desktop generator plugin
+│   ├── .cursor-plugin/plugin.json        # Cursor plugin manifest
+│   ├── commands/                         # /cli-anything slash commands
+│   ├── skills/                           # Supporting generator skill
+│   ├── rules/                            # Phase-gate guidance
+│   ├── scripts/                          # Bash/PowerShell installers + vendored helpers
+│   └── tests/                            # Installer resource-sync regression tests
 ├── 🤖 codex-skill/                      # Self-contained Codex skill installer
 │   ├── SKILL.md                         # Codex workflow entry point
 │   ├── agents/                          # Codex UI metadata

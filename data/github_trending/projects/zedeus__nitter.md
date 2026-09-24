@@ -5,7 +5,7 @@
   "full_name": "zedeus/nitter",
   "url": "https://github.com/zedeus/nitter",
   "description": "Alternative Twitter front-end",
-  "readme_sha256": "4d947eca46b243c0fa971f4e9bbe708b4f3306fb8cdfcd502dddf9ed07c0ac70"
+  "readme_sha256": "00719354481c6e6a48157bc143d3b7587e54d454d2f3dd09085852f3898444cb"
 }
 ```
 
@@ -13,49 +13,55 @@
 
 - URL: https://github.com/zedeus/nitter
 - Description: Alternative Twitter front-end
-- README SHA256: `4d947eca46b243c0fa971f4e9bbe708b4f3306fb8cdfcd502dddf9ed07c0ac70`
+- README SHA256: `00719354481c6e6a48157bc143d3b7587e54d454d2f3dd09085852f3898444cb`
 
 ## README
 
 # Nitter
 
 > [!NOTE]
-> On 24 August 2026 cease and desist letters were sent by X Corp. demanding a permanent takedown of Nitter instances and the project's repository.
+> On 24 August 2026, cease and desist letters were sent by X Corp. demanding a permanent takedown of Nitter instances and the project's repository. \
+> **UPDATE:** Following legal advice, the Nitter project will continue. More details will be announced soon.
 
 A free and open source alternative Twitter front-end focused on privacy and
 performance. \
 Inspired by the [Invidious](https://github.com/iv-org/invidious) project.
 
-## Donations
-
-**Liberapay**: https://liberapay.com/zedeus<br>
-**Patreon**: https://patreon.com/nitter<br>
-**Ko-fi**: https://ko-fi.com/zedeus<br>
-**BTC**: bc1qpqpzjkcpgluhzf7x9yqe7jfe8gpfm5v08mdr55<br>
-**ETH**: 0x24a0DB59A923B588c7A5EBd0dBDFDD1bCe9c4460<br>
-**XMR**: 42hKayRoEAw4D6G6t8mQHPJHQcXqofjFuVfavqKeNMNUZfeJLJAcNU19i1bGdDvcdN6romiSscWGWJCczFLe9RFhM3d1zpL<br>
-**SOL**: FF5bheiD5AqPEdc3eyjymJ8AoMRF1hS78Ht6FiSZZF1t<br>
-**$Nitter**: 4fSxCKc91ELQYVdv3tmHW8R15KoALPwEngyoQe1Xpump<br>
-**ZEC**: u1vndfqtzyy6qkzhkapxelel7ams38wmfeccu3fdpy2wkuc4erxyjm8ncjhnyg747x6t0kf0faqhh2hxyplgaum08d2wnj4n7cyu9s6zhxkqw2aef4hgd4s6vh5hpqvfken98rg80kgtgn64ff70djy7s8f839z00hwhuzlcggvefhdlyszkvwy3c7yw623vw3rvar6q6evd3xcvveypt
+[![Test Matrix](https://github.com/zedeus/nitter/workflows/Tests/badge.svg)](https://github.com/zedeus/nitter/actions/workflows/run-tests.yml)
+[![Test Matrix](https://github.com/zedeus/nitter/workflows/Docker/badge.svg)](https://github.com/zedeus/nitter/actions/workflows/build-docker.yml)
+[![License](https://img.shields.io/github/license/zedeus/nitter?style=flat)](#license)
 
 ## Features
 
-- No JavaScript or ads
+- No JavaScript required
+- Zero ads
 - All requests go through the backend, client never talks to Twitter
 - Prevents Twitter from tracking your IP or JavaScript fingerprint
 - Uses Twitter's unofficial API (no developer account required)
 - Lightweight (for [@nim_lang](https://nitter.net/nim_lang), 60KB vs 784KB from twitter.com)
-- RSS feeds
+- RSS feeds (instance-specific, often disabled due to abuse)
 - Themes
 - Mobile support (responsive design)
 - AGPLv3 licensed, no proprietary instances permitted
 
 ## Roadmap
 
-- Embeds
+- ~~Embeds~~ (see https://github.com/zedeus/nitter/wiki/Embeds-guide)
 - Account system with timeline support
-- Archiving tweets/profiles
-- Developer API
+
+## Donations
+
+[![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-EA4AAA?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/zedeus)
+[![Patreon](https://img.shields.io/badge/Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/nitter)
+[![Liberapay](https://img.shields.io/badge/Liberapay-F6C915?style=for-the-badge&logo=liberapay&logoColor=black)](https://liberapay.com/zedeus)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/zedeus)
+
+**BTC**: bc1qpqpzjkcpgluhzf7x9yqe7jfe8gpfm5v08mdr55<br>
+**ETH**: 0x24a0DB59A923B588c7A5EBd0dBDFDD1bCe9c4460<br>
+**XMR**: 42hKayRoEAw4D6G6t8mQHPJHQcXqofjFuVfavqKeNMNUZfeJLJAcNU19i1bGdDvcdN6romiSscWGWJCczFLe9RFhM3d1zpL<br>
+**SOL**: FF5bheiD5AqPEdc3eyjymJ8AoMRF1hS78Ht6FiSZZF1t<br>
+**$Nitter**: 4fSxCKc91ELQYVdv3tmHW8R15KoALPwEngyoQe1Xpump<br>
+**ZEC**: u1vndfqtzyy6qkzhkapxelel7ams38wmfeccu3fdpy2wkuc4erxyjm8ncjhnyg747x6t0kf0faqhh2hxyplgaum08d2wnj4n7cyu9s6zhxkqw2aef4hgd4s6vh5hpqvfken98rg80kgtgn64ff70djy7s8f839z00hwhuzlcggvefhdlyszkvwy3c7yw623vw3rvar6q6evd3xcvveypt
 
 ## Resources
 
@@ -226,4 +232,4 @@ lines). If you're running the Docker image, you can do this:
 Feel free to join our [Matrix channel](https://matrix.to/#/#nitter:matrix.org).
 You can email me at zedeus@pm.me if you wish to contact me personally.
 
-For legal inquiries, contact legal@poast.org
+For legal inquiries and DMCA requests, contact legal@poast.org

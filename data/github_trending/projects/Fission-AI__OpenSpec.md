@@ -5,7 +5,7 @@
   "full_name": "Fission-AI/OpenSpec",
   "url": "https://github.com/Fission-AI/OpenSpec",
   "description": "Spec-driven development (SDD) for AI coding assistants.",
-  "readme_sha256": "8dfb6463a17792ef80b574b46850ae7c30fc4bae81326ef0bc0506030eda5c15"
+  "readme_sha256": "14a4fee5fce958d256221869f1a742c63171abb4c117dcdd6d2ad5853c572c42"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Fission-AI/OpenSpec
 - Description: Spec-driven development (SDD) for AI coding assistants.
-- README SHA256: `8dfb6463a17792ef80b574b46850ae7c30fc4bae81326ef0bc0506030eda5c15`
+- README SHA256: `14a4fee5fce958d256221869f1a742c63171abb4c117dcdd6d2ad5853c572c42`
 
 ## README
 
@@ -141,12 +141,18 @@ Solo, OpenSpec keeps you and your AI honest on a single repo. On a team, the har
 
 ## Quick Start
 
-**Requires Node.js 20.19.0 or higher.**
+**Requires Node.js 20.19.0 or higher.** Homebrew installs it as a dependency.
 
 Install OpenSpec globally:
 
 ```bash
 npm install -g @fission-ai/openspec@latest
+```
+
+Or install the official [Homebrew formula](https://formulae.brew.sh/formula/openspec) on macOS or Linux:
+
+```bash
+brew install openspec
 ```
 
 Then navigate to your project directory and initialize:
@@ -156,7 +162,7 @@ cd your-project
 openspec init
 ```
 
-> **Want your AI to do it?** Paste the [setup prompt](docs/installation.md#install-with-your-ai-assistant) into your coding assistant — it installs the CLI, runs `openspec init`, and verifies the result.
+> **Want your AI to do it?** Paste the [setup prompt](docs-lab/start/installation.md#install-with-your-ai-assistant) into your coding assistant — it installs the CLI, runs `openspec init`, and verifies the result.
 
 Now talk to your AI:
 
@@ -170,7 +176,7 @@ Both are in the default profile. If you want the expanded workflow (`/opsx:new`,
 > [!NOTE]
 > Not sure if your tool is supported? [View the full list](docs/supported-tools.md) – we support 30+ tools and growing.
 >
-> Also works with pnpm, yarn, bun, and nix. [See installation options](docs/installation.md).
+> Also works with Homebrew, pnpm, yarn, bun, and Nix. [See installation options](docs-lab/start/installation.md).
 
 ## Docs
 
@@ -225,6 +231,12 @@ AI coding assistants are powerful but unpredictable when requirements live only 
 
 ```bash
 npm install -g @fission-ai/openspec@latest
+```
+
+If you installed OpenSpec with Homebrew:
+
+```bash
+brew upgrade openspec
 ```
 
 **Refresh agent instructions**

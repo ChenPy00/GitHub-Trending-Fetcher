@@ -5,7 +5,7 @@
   "full_name": "tt-a1i/archify",
   "url": "https://github.com/tt-a1i/archify",
   "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
-  "readme_sha256": "f13800bf9995b0ae3a1f62ba61bf257591f47d3284b2ce7a833c4e0531765bf3"
+  "readme_sha256": "4dd2e9cb045b8b008c7b4b2c582352df646e1597b0fc7df4c6b08424f3d75a1e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tt-a1i/archify
 - Description: Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.
-- README SHA256: `f13800bf9995b0ae3a1f62ba61bf257591f47d3284b2ce7a833c4e0531765bf3`
+- README SHA256: `4dd2e9cb045b8b008c7b4b2c582352df646e1597b0fc7df4c6b08424f3d75a1e`
 
 ## README
 
@@ -58,6 +58,8 @@
   <a href="https://x.com/t20000622yy"><img src="https://img.shields.io/badge/Creator_on_X-181717?style=for-the-badge&amp;logo=x&amp;logoColor=white" alt="Follow the creator on X" /></a>
 </p>
 
+<p align="center"><a href="#sponsors"><strong>❤️ Partners & sponsors: Kimi Work · Supercode · EverMind/Raven</strong></a></p>
+
 ## See Archify in action
 
 <p align="center">
@@ -91,7 +93,15 @@ Then continue: “Add authentication”, “Highlight the cache-miss path”, or
 
 [Choose your agent](https://tt-a1i.github.io/archify/start.html?agent=cursor&type=architecture) · [Installation details and update checks](#quick-start)
 
+<a id="sponsors"></a>
+
 ## ❤️ Sponsors
+
+<p align="center">
+  <a href="https://www.kimi.ai/?aff=archify"><img src="docs/assets/sponsors/archify-kimi-work.png" alt="Archify × Kimi Work collaboration banner" width="800" /></a>
+</p>
+
+**Archify × Kimi Work.** Find Archify in the Kimi Work plugin store as **Interactive Architecture Diagram**. Describe your system in one sentence to create an interactive diagram. **[Try it in Kimi Work →](https://www.kimi.ai/?aff=archify)**
 
 <table>
 <tr>

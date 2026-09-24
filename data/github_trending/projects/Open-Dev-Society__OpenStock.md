@@ -5,7 +5,7 @@
   "full_name": "Open-Dev-Society/OpenStock",
   "url": "https://github.com/Open-Dev-Society/OpenStock",
   "description": "OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.",
-  "readme_sha256": "9a339e76756e5211106c91430e103bcb376318485450594af684b0eafb1a2409"
+  "readme_sha256": "a39ede8116a389a8863cca2a19a08d9b3be8f2a8099e522c5ce18634d6964705"
 }
 ```
 
@@ -13,12 +13,12 @@
 
 - URL: https://github.com/Open-Dev-Society/OpenStock
 - Description: OpenStock is an open-source alternative to expensive market platforms. Track real-time prices, set personalized alerts, and explore detailed company insights — built openly, for everyone, forever free.
-- README SHA256: `9a339e76756e5211106c91430e103bcb376318485450594af684b0eafb1a2409`
+- README SHA256: `a39ede8116a389a8863cca2a19a08d9b3be8f2a8099e522c5ce18634d6964705`
 
 ## README
 
 <p align="center">
-  Ca: B6F3rUqfPfPmHXeMJaVttkrP9tfy5Eq2MUAaubFxpump
+  
 </p>
 
 <p align="center">

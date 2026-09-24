@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "7e0a509b8f54933cf3313210c0132388a040252537f2f55a5ca06fe12769bbfb"
+  "readme_sha256": "89a032c5ccbf8206bdcdf9010744afc369e9e683944eae128533c59d4b245868"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `7e0a509b8f54933cf3313210c0132388a040252537f2f55a5ca06fe12769bbfb`
+- README SHA256: `89a032c5ccbf8206bdcdf9010744afc369e9e683944eae128533c59d4b245868`
 
 ## README
 
@@ -62,7 +62,7 @@ Agent Substrate is designed to be **framework and agent harness agnostic**. Beca
 
 ## Ecosystem & Examples
 
-*   **[Agent Executor](https://github.com/google/ax):** A distributed agent runtime that demonstrates building a secure, hyper-scalable agent harness on Agent Substrate (see the [announcement blog](https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime) and [integration guide](https://github.com/google/ax/blob/main/manifests/README.md)).
+*   **[Agent Executor](https://github.com/google/ax):** A distributed agent runtime that demonstrates building a secure, hyper-scalable agent harness on Agent Substrate (see the [announcement blog](https://cloud.google.com/blog/products/ai-machine-learning/agent-executor-googles-distributed-agent-runtime) and [integration guide](https://github.com/google/ax#2-deploy-the-control-plane)).
 *   **[kagent](https://github.com/kagent-dev/kagent):** A CNCF Sandbox project and Kubernetes-native framework for building, deploying, and managing AI agents that uses Agent Substrate to run sandboxed, stateful agent workloads (see the [announcement blog](https://kagent.dev/blog/the-future-of-kagent)).
 
 ## Status and compatibility
