@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 1,
+      "readme_sha256": "e65435a0190b0d5d88019b92838a387c1e142699178c3d8881c86de2283804d7",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 2,
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 3,
+      "readme_sha256": "a9a1e3b3b734a44ea2ff258679515eda3ed8b46c9be24987f15d4b68cacf3ebb",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "description": "Google's open agentic orchestration runtime",
+      "full_name": "google/ax",
+      "project_file": "projects/google__ax.md",
+      "rank": 4,
+      "readme_sha256": "370487fb416cf2bfebf83da16c2c9cf459558313c980aab8f4be3811285be6a6",
+      "url": "https://github.com/google/ax"
+    },
+    {
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "full_name": "NVIDIA/Model-Optimizer",
+      "project_file": "projects/NVIDIA__Model-Optimizer.md",
+      "rank": 5,
+      "readme_sha256": "98212d8ad90c80739a73892f07840e9098e61519a166019796c225d28827d532",
+      "url": "https://github.com/NVIDIA/Model-Optimizer"
+    },
+    {
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "full_name": "FxEmbed/FxEmbed",
+      "project_file": "projects/FxEmbed__FxEmbed.md",
+      "rank": 6,
+      "readme_sha256": "8d55f960b5af92ba2a7f3b8492df3ca4ebed6e99a14226999449e10a17daa1dd",
+      "url": "https://github.com/FxEmbed/FxEmbed"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 7,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 8,
+      "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "MVT (Mobile Verification Toolkit) helps with conducting forensics of mobile devices in order to find signs of a potential compromise.",
+      "full_name": "mvt-project/mvt",
+      "project_file": "projects/mvt-project__mvt.md",
+      "rank": 9,
+      "readme_sha256": "1a7fd73ce5d4dce4ec0b5eca65f7f9074377960f306c34ad78f62350598caefd",
+      "url": "https://github.com/mvt-project/mvt"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 10,
+      "readme_sha256": "04fd40756d26d5f2132ddfbc5c3c35335b02bb456197308975f9d12eaa522382",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Build an agent harness and control it end-to-end. Open-source SDK for production AI agents in Python & TypeScript - any model, any cloud.",
+      "full_name": "strands-agents/harness-sdk",
+      "project_file": "projects/strands-agents__harness-sdk.md",
+      "rank": 11,
+      "readme_sha256": "47f5add99f81e7e04c8514afe89e0d14b751dae5dfeafee44ede23a98f1aed43",
+      "url": "https://github.com/strands-agents/harness-sdk"
+    },
+    {
+      "description": "An offline-first photo manager for large local libraries",
+      "full_name": "julyx10/lap",
+      "project_file": "projects/julyx10__lap.md",
+      "rank": 12,
+      "readme_sha256": "12d7095c3cc91d23d62fc217005f0220ff48dc40a59ac38a2c4ce4f39a78d2fb",
+      "url": "https://github.com/julyx10/lap"
+    },
+    {
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "full_name": "superdesigndev/treg",
+      "project_file": "projects/superdesigndev__treg.md",
+      "rank": 13,
+      "readme_sha256": "7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e",
+      "url": "https://github.com/superdesigndev/treg"
+    },
+    {
+      "description": "Diffusion model(SD,Flux,Wan,Qwen Image,Z-Image,...) inference in pure C/C++",
+      "full_name": "leejet/stable-diffusion.cpp",
+      "project_file": "projects/leejet__stable-diffusion.cpp.md",
+      "rank": 14,
+      "readme_sha256": "81c3a6586bacd348323468f4397fa18b749a82ea8a005b5ad4b98289e6ee0e6e",
+      "url": "https://github.com/leejet/stable-diffusion.cpp"
+    }
+  ],
+  "snapshot_date": "2026-09-25",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

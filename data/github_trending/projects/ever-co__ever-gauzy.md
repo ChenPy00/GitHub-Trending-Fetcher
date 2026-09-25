@@ -5,7 +5,7 @@
   "full_name": "ever-co/ever-gauzy",
   "url": "https://github.com/ever-co/ever-gauzy",
   "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
-  "readme_sha256": "59bb20e2a3bd54402508d396e83ec72c28712b26f9bf737b93096e9c2011b8e8"
+  "readme_sha256": "1c6746925eda640e42a89fa4fe2c12a1536b5f1a203c2ad826114f5ca367f537"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ever-co/ever-gauzy
 - Description: Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co
-- README SHA256: `59bb20e2a3bd54402508d396e83ec72c28712b26f9bf737b93096e9c2011b8e8`
+- README SHA256: `1c6746925eda640e42a89fa4fe2c12a1536b5f1a203c2ad826114f5ca367f537`
 
 ## README
 
@@ -324,6 +324,15 @@ Notes:
 #### Deploy on RepoCloud
 
 Deploy Ever Gauzy instantly with one click on [RepoCloud](https://repocloud.io/details/Ever%20Gauzy/).
+
+#### Deploy on Easypanel
+
+[Easypanel](https://easypanel.io) is a self-hosted Docker deployment platform, and Ever Gauzy has a one-click deployment template there:
+
+[![Deploy on Easypanel][easypanel-btn]][easypanel-deploy]
+
+[easypanel-btn]: https://easypanel.io/img/deploy-on-easypanel-40.svg
+[easypanel-deploy]: https://easypanel.io/templates/ever-gauzy
 
 ## 💌 Contact Us
 

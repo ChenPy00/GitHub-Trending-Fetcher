@@ -5,7 +5,7 @@
   "full_name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "readme_sha256": "dcbf0fed53414a8061996ee47610c79926687402aee140c0f89ebc7677adbabc"
+  "readme_sha256": "6f6bc61fa36232cfd35af70a525b002d1b3c8ee5ccf8814e8657927b01b3d17d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/affaan-m/ECC
 - Description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- README SHA256: `dcbf0fed53414a8061996ee47610c79926687402aee140c0f89ebc7677adbabc`
+- README SHA256: `6f6bc61fa36232cfd35af70a525b002d1b3c8ee5ccf8814e8657927b01b3d17d`
 
 ## README
 
@@ -422,7 +422,7 @@ cd ECC
 | Qwen CLI | `./install.sh --profile minimal --target qwen` | See the [Qwen guide](docs/QWEN-GUIDE.md) |
 | Hermes | `./install.sh --profile minimal --target hermes` | See the [Hermes setup guide](docs/HERMES-SETUP.md) |
 | OpenClaw | `./install.sh --profile minimal --target openclaw` | Managed home-directory install |
-| Kimi Code CLI | `./install.sh --profile minimal --target kimi` | Project-local `.kimi-code/` install · [Get Kimi Code](https://www.kimi.com/code?aff=ecc) |
+| Kimi Code CLI | `./install.sh --profile minimal --target kimi` | Project-local `.kimi-code/` install · [Get Kimi Code](https://www.kimi.ai/code?aff=ecc) |
 | CodeBuddy | `./install.sh --profile minimal --target codebuddy` | Project-local `.codebuddy/` install |
 | JoyCode | `./install.sh --profile minimal --target joycode` | Project-local `.joycode/` install |
 

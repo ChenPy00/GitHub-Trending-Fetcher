@@ -5,7 +5,7 @@
   "full_name": "superdesigndev/treg",
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-  "readme_sha256": "64d1ae9ab75056d03994678d3ef2616e2feb1e04b433440b8581a430bd797b7d"
+  "readme_sha256": "7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/superdesigndev/treg
 - Description: OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-- README SHA256: `64d1ae9ab75056d03994678d3ef2616e2feb1e04b433440b8581a430bd797b7d`
+- README SHA256: `7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e`
 
 ## README
 
@@ -169,7 +169,8 @@ Out of balance is an HTTP **402** carrying `balance_micro`, `estimated_cost_micr
 so an agent can act on it without reading prose.
 
 **Enrich Arena** lives at `/enrich-arena`, outside the dashboard. Compare enrichment answers with each vendor’s cost and speed,
-vote for the best answer in one click, or watch a sequential waterfall. Browsing is
+vote for the best answer in one click, or watch a sequential waterfall. Capability-compatible
+async providers participate too; Arena handles submit and polling internally. Browsing is
 public; submitting requires login, and billable attempts use your team's credits. See the
 [Arena guide](docs/context/interface/enrich-arena.md).
 

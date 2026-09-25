@@ -5,7 +5,7 @@
   "full_name": "Lakr233/vphone-cli",
   "url": "https://github.com/Lakr233/vphone-cli",
   "description": "",
-  "readme_sha256": "bf1c981d4c7661fcc39f4f7941ad7a597d99c7cea1bdb0f4fe0d6d30f5667d9c"
+  "readme_sha256": "b6829bc1d753fb45e0c749b516d0f64ab75278ff2203ef814fb588fdd1e008fc"
 }
 ```
 
@@ -13,82 +13,83 @@
 
 - URL: https://github.com/Lakr233/vphone-cli
 - Description: No description
-- README SHA256: `bf1c981d4c7661fcc39f4f7941ad7a597d99c7cea1bdb0f4fe0d6d30f5667d9c`
+- README SHA256: `b6829bc1d753fb45e0c749b516d0f64ab75278ff2203ef814fb588fdd1e008fc`
 
 ## README
 
-<div align="right"><strong>English</strong> · <a href="docs/README_zh.md">中文</a> · <a href="docs/README_ja.md">日本語</a> · <a href="docs/README_ko.md">한국어</a> · <a href="docs/README_ru.md">Русский</a> · <a href="docs/README_pt.md">Português</a></div>
+<div align="right"><a href="Documents/README.md">Docs</a> · <a href="Documents/README_zh.md">中文</a> · <a href="Documents/README_ja.md">日本語</a> · <a href="Documents/README_ko.md">한국어</a></div>
 
 # vphone-cli
 
-Boot a virtual iPhone with Apple's Virtualization.framework and PCC research VM infrastructure.
+> [!WARNING]
+> Version 2.0 is under construction. For the stable version, use [1.0.14](https://github.com/Lakr233/vphone-cli/tree/1.0.14).
 
-![Virtual iPhone running on macOS](docs/demo.jpeg)
+Create and run a virtual iPhone on an Apple Silicon Mac. vphone-cli uses Apple's Virtualization.framework and PCC research VM infrastructure.
 
-The supported firmware flow is **JB only**. It applies the required system patches and installs **vphoned** for host control. It leaves the guest user environment alone: no package manager, SSH server, VNC server, or first-boot bootstrap is installed.
+![Virtual iPhone running on macOS](Documents/demo.jpeg)
 
-## Quick start
+Version 2.0 removes much of 1.0's heavy host setup and simplifies the system fixes needed by custom firmware. The core flow is now stable enough for a single **JB** configuration: the self-contained `VPhone.bundle` handles firmware download, installation, and launch through its CLI.
 
-Use an Apple Silicon Mac running macOS 15 or newer. The host must permit PV=3 research guests and the private entitlements on `vphone-vm`; see [host setup](docs/guides/host-setup.md) before the first boot. A Mac running inside another VM cannot boot this guest.
+For now, the recommended host setup runs `csrutil enable --without debug` and `csrutil allow-research-guests enable` in macOS Recovery. SIP remains enabled with debugging restrictions relaxed. Allowing the VM binary through AMFI requires root; see [host setup](Documents/Guides/host-setup.md) and the [amfi-allow research](https://github.com/Lakr233/amfi-allow). A future `vphone-ui.app` will make setup easier and offer switches for installation-time fixes.
+
+## Get started
+
+You need an Apple Silicon Mac running macOS 15 or newer, Xcode to build from source, an iPhone restore IPSW, and a compatible cloudOS IPSW. Follow [host setup](Documents/Guides/host-setup.md) to permit the VM's private entitlements, then check the [verified firmware pairs](Documents/Guides/compatibility.md). A nested macOS VM cannot run the guest.
 
 ```sh
+git clone https://github.com/Lakr233/vphone-cli.git
+cd vphone-cli
+xcodebuild -workspace VPhone.xcworkspace -scheme VPhone \
+  -configuration Debug -destination 'platform=macOS,arch=arm64' \
+  -derivedDataPath .build/XcodeBundle build
+export PATH="$PWD/.build/XcodeBundle/Build/Products/Debug/VPhone.bundle/Contents/MacOS:$PATH"
+
+vphone-cli host preflight
 vphone-cli vm create myphone \
   --iphone-source /path/to/iPhone17,3_Restore.ipsw \
   --cloudos-source /path/to/cloudOS.ipsw
-
 vphone-cli vm launch myphone
 ```
 
-To expose the guest HTTP and WebSocket API on the host for local tools or an
-app using `VPhoneAPIKit`, opt in when launching:
+`vm create` prepares and restores the guest, installs the JB system changes, and checks that `vphoned` responds. It stops the verification boot when finished; `vm launch` starts the VM window for use. Creation needs network access and administrator privileges for CFW installation. See [create and run](Documents/Guides/create-and-run.md) for details.
 
-```sh
-vphone-cli vm launch myphone --api-listen 127.0.0.1:8765
-```
+Version 2.x starts only VMs created with its `schemaVersion=2` format. Older VMs must be recreated.
 
-The guest runs `icli` commands through the API. See the [API design and usage](research/vphoned_http_api.md)
-for routes, WebSocket messages, and the Swift Kit client.
+## Custom Firmware Bootstrap
 
-`vm create` prepares and patches firmware, restores the VM, installs the JB system changes and vphoned, then boots once to check a real vphoned ping. **It stops that verification boot before returning.** Run `vm launch` to keep using the VM. The create flow needs network access for Apple's restore ticket and asks for administrator authentication during CFW installation.
+After launching the VM, choose **Guest > Install Bootstrap…** from the macOS menu bar and select a layout. This installs Irisin in the guest.
 
-For local validation, iPhone17,3 **26.6.2 (23G90)** and **27.0 (24A435)** both reached the lock screen and answered vphoned ping with cloudOS **26.4 (23E5207q)**. See [compatibility and evidence](docs/guides/compatibility.md); other firmware combinations are not implied by these results.
+For the first setup, select `apt` and `bash` in Irisin. Press and hold the **Install** button, then choose **Bootstrap Install**. This mode unpacks all packages in the installation before running the installation steps again. It resolves the initial dependency cycle where `debianutils` needs `bash`, but `bash` needs `debianutils` to have been configured. Use regular installation after this setup is complete.
 
-## Install or build
+## Everyday use
 
-A distributed `.app` uses macOS system tools and its own bundled binaries; it does not need Homebrew, Python, or Xcode to run. Building from source does not install a separate runtime environment.
-
-Building from source needs Xcode, including its iPhoneOS SDK for vphoned:
-
-```sh
-git clone --recurse-submodules https://github.com/Lakr233/vphone-cli.git
-cd vphone-cli
-zsh scripts/build.sh
-.build/release/vphone-cli --help
-```
-
-`scripts/build.sh` builds, signs, and bundles the binaries. Run `swift test` for the Swift tests and `zsh scripts/check_aux.sh` for the bundle checks. After every rebuild, a host using the AMFI allowlist must allow the new signed binaries because their cdhashes change. See [host setup](docs/guides/host-setup.md).
-
-## Everyday commands
+The VM window provides app and file browsing, clipboard and preference tools, screenshots, recording, and diagnostics. For local automation, launch with `--api-listen 127.0.0.1:8765`; see the [guest API](Research/vphoned_http_api.md).
 
 | Task | Command |
 | --- | --- |
 | List VMs | `vphone-cli vm list` |
 | Inspect a VM | `vphone-cli vm info myphone` |
-| Start its window | `vphone-cli vm launch myphone` |
-| Stop it | `vphone-cli vm stop myphone` |
-| Back it up | `vphone-cli vm export myphone --out myphone.tzst` |
-| Restore a backup | `vphone-cli vm import myphone.tzst --name restored` |
-| Inspect firmware pairings | `vphone-cli fw catalog` |
-| Check the host | `vphone-cli host preflight` |
+| Start the VM window | `vphone-cli vm launch myphone` |
+| Stop a VM | `vphone-cli vm stop myphone` |
+| Export a backup | `vphone-cli vm export myphone --out myphone.tzst` |
+| Import a backup | `vphone-cli vm import myphone.tzst --name restored` |
 
-VMs and downloaded firmware live under `~/.vphone/` by default. `VPHONE_ROOT` relocates the tree; `VPHONE_LIBRARY_ROOT` overrides just the VM library. Use `vphone-cli <group> --help` for current command options.
+VMs live under `~/.vphone/` by default. Run `vphone-cli <group> --help` for more commands.
 
-## Documentation
+## How it fits together
 
-- [Documentation index](docs/README.md) — setup, workflows, compatibility, troubleshooting, and translations.
-- [Create and run a VM](docs/guides/create-and-run.md) — full flow, manual stages, storage, and vphoned.
-- [Research index](research/README.md) — patch inventory, firmware analysis, restore work, and historical notes.
-- [Patch inventory](research/0_binary_patch_comparison.md) — per-component patch breakdown and historical variant comparison. Only JB is exposed by the current CLI.
+`vphone-cli` prepares firmware, restores VMs, and manages their lifecycle. The bundled `vphone-vm` runs the guest and owns its macOS window. Inside the guest, `vphoned` provides the controls used by the window and the optional HTTP and WebSocket API. The `VPhone` Xcode scheme builds and validates the self-contained `VPhone.bundle`.
+
+## Repository map
+
+| Path | Contents |
+| --- | --- |
+| [`VPhoneExecutable/`](VPhoneExecutable/) | CLI, VM process, firmware patcher, and restore backend |
+| [`VPhoneKit/`](VPhoneKit/) | Shared host libraries and API client |
+| [`VPhoneDaemon/`](VPhoneDaemon/) | Guest control daemon, `vphoned` |
+| [`VPhoneGuestComponents/`](VPhoneGuestComponents/) | Guest hooks and support binaries |
+| [`Documents/`](Documents/README.md) | Setup, usage, compatibility, and troubleshooting guides |
+| [`Research/`](Research/README.md) | Patch and implementation notes |
 
 ## Acknowledgements
 

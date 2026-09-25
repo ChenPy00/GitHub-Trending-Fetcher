@@ -1,0 +1,185 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 1,
+      "readme_sha256": "eac4feae53e21a0f5e876d630615b048b4db07886ef88505c70e3845ba90046f",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 2,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 3,
+      "readme_sha256": "4dd2e9cb045b8b008c7b4b2c582352df646e1597b0fc7df4c6b08424f3d75a1e",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 4,
+      "readme_sha256": "70918564e34753d87f2c1db035e3027368e637f03666c2ceb8aa2fbcd911b32a",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 5,
+      "readme_sha256": "76228cb397c4e64a13fa03ee893ae8a46df310f7073bd690e7ad0dc6cfc1aa43",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "full_name": "superdesigndev/treg",
+      "project_file": "projects/superdesigndev__treg.md",
+      "rank": 6,
+      "readme_sha256": "7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e",
+      "url": "https://github.com/superdesigndev/treg"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 7,
+      "readme_sha256": "a27d24be67d226f16c31a8166cbf1717d7ce4a15f1280c1ec6fbcef4252ebacc",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 8,
+      "readme_sha256": "9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 9,
+      "readme_sha256": "45e901536187e52a8443ede8c315a5792c8f8a82f59d48bdcf4981fc800f93bb",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Open source inference engine for the hardware you already own. Profiles your machine, recommends the best open models for it, and tunes them for your exact hardware. Works on Apple Silicon, NVIDIA, AMD, or nothing but a CPU.",
+      "full_name": "magnitudedev/magnitude",
+      "project_file": "projects/magnitudedev__magnitude.md",
+      "rank": 10,
+      "readme_sha256": "fd8791936581f360dfc12d4d2374f0532b2987e74e8fd6b35783de2152869ef8",
+      "url": "https://github.com/magnitudedev/magnitude"
+    },
+    {
+      "description": "",
+      "full_name": "Lakr233/vphone-cli",
+      "project_file": "projects/Lakr233__vphone-cli.md",
+      "rank": 11,
+      "readme_sha256": "b6829bc1d753fb45e0c749b516d0f64ab75278ff2203ef814fb588fdd1e008fc",
+      "url": "https://github.com/Lakr233/vphone-cli"
+    },
+    {
+      "description": "Help AI coding agents write modern Go",
+      "full_name": "JetBrains/go-modern-guidelines",
+      "project_file": "projects/JetBrains__go-modern-guidelines.md",
+      "rank": 12,
+      "readme_sha256": "20eacd817e9e34f858451219d17d09e17e75866097c83e83f3604a1e5c3a504e",
+      "url": "https://github.com/JetBrains/go-modern-guidelines"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 13,
+      "readme_sha256": "63733f25438fec7493a0ef3f87da9047ddc9f0534e95c332d4db02460fa2eef6",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "The secure, validated skill registry for professional AI coding agents. Extend Antigravity, Claude Code, Cursor, Copilot and more with absolute confidence.",
+      "full_name": "tech-leads-club/agent-skills",
+      "project_file": "projects/tech-leads-club__agent-skills.md",
+      "rank": 14,
+      "readme_sha256": "3cc51b23cd98b637d3769016e295711087636b12117f2c703cd587c2b2c50789",
+      "url": "https://github.com/tech-leads-club/agent-skills"
+    },
+    {
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "full_name": "google-research/timesfm",
+      "project_file": "projects/google-research__timesfm.md",
+      "rank": 15,
+      "readme_sha256": "cd387ead54358c4034e051c4b1a2c9c82b7db700c49b17b2dae929fd835b343a",
+      "url": "https://github.com/google-research/timesfm"
+    },
+    {
+      "description": "Open source alternative to Semrush and Ahrefs",
+      "full_name": "every-app/open-seo",
+      "project_file": "projects/every-app__open-seo.md",
+      "rank": 16,
+      "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0",
+      "url": "https://github.com/every-app/open-seo"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 17,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "full_name": "Tencent/BrowserSkill",
+      "project_file": "projects/Tencent__BrowserSkill.md",
+      "rank": 18,
+      "readme_sha256": "9d8aa147804deefd12d1b95a996dcd5fa8d63ebb8ba61a16f9be28184373c632",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    {
+      "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
+      "full_name": "melgarafael/DeskcommCRM",
+      "project_file": "projects/melgarafael__DeskcommCRM.md",
+      "rank": 19,
+      "readme_sha256": "5897a5bbf49ba4e2948126b99cda2f5e5c829315445ac80fe68de3a67429d0bf",
+      "url": "https://github.com/melgarafael/DeskcommCRM"
+    },
+    {
+      "description": "Beautiful, Modern & Opinionated Linux",
+      "full_name": "omacom/omarchy",
+      "project_file": "projects/omacom__omarchy.md",
+      "rank": 20,
+      "readme_sha256": "5bf8370906b45cca994fba5b617fffe804ce2ec6fa46353ab8fdeaa4b061bd98",
+      "url": "https://github.com/omacom/omarchy"
+    },
+    {
+      "description": "Ever® Gauzy™ - Open Business Management Platform (ERP/CRM/HRM/ATS/PM) - https://gauzy.co",
+      "full_name": "ever-co/ever-gauzy",
+      "project_file": "projects/ever-co__ever-gauzy.md",
+      "rank": 21,
+      "readme_sha256": "1c6746925eda640e42a89fa4fe2c12a1536b5f1a203c2ad826114f5ca367f537",
+      "url": "https://github.com/ever-co/ever-gauzy"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 22,
+      "readme_sha256": "d81f605b83c30fff32b144479284299303d832ef87487a9908a09d5d42c81af4",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    }
+  ],
+  "snapshot_date": "2026-09-25",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
