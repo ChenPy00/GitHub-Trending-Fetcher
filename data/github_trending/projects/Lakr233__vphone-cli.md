@@ -5,7 +5,7 @@
   "full_name": "Lakr233/vphone-cli",
   "url": "https://github.com/Lakr233/vphone-cli",
   "description": "",
-  "readme_sha256": "b6829bc1d753fb45e0c749b516d0f64ab75278ff2203ef814fb588fdd1e008fc"
+  "readme_sha256": "5b1cad6c3092513badda0f7f77b7b511c131373920a4e3d9036ef414a5210fbe"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Lakr233/vphone-cli
 - Description: No description
-- README SHA256: `b6829bc1d753fb45e0c749b516d0f64ab75278ff2203ef814fb588fdd1e008fc`
+- README SHA256: `5b1cad6c3092513badda0f7f77b7b511c131373920a4e3d9036ef414a5210fbe`
 
 ## README
 
@@ -21,37 +21,26 @@
 
 # vphone-cli
 
-> [!WARNING]
-> Version 2.0 is under construction. For the stable version, use [1.0.14](https://github.com/Lakr233/vphone-cli/tree/1.0.14).
+> Looking for vphone-cli 1.x? See the [1.0.14 release](https://github.com/Lakr233/vphone-cli/releases/tag/1.0.14).
 
 Create and run a virtual iPhone on an Apple Silicon Mac. vphone-cli uses Apple's Virtualization.framework and PCC research VM infrastructure.
 
 ![Virtual iPhone running on macOS](Documents/demo.jpeg)
 
-Version 2.0 removes much of 1.0's heavy host setup and simplifies the system fixes needed by custom firmware. The core flow is now stable enough for a single **JB** configuration: the self-contained `VPhone.bundle` handles firmware download, installation, and launch through its CLI.
+Version 2.x applies the complete firmware patch set, including changes previously offered as EXP. There are no selectable patch variants. The self-contained `VPhone.bundle` handles firmware preparation, restore, and VM control; `vphone-launchpad` installs the bundle and guides you through creating and running a VM.
 
-For now, the recommended host setup runs `csrutil enable --without debug` and `csrutil allow-research-guests enable` in macOS Recovery. SIP remains enabled with debugging restrictions relaxed. Allowing the VM binary through AMFI requires root; see [host setup](Documents/Guides/host-setup.md) and the [amfi-allow research](https://github.com/Lakr233/amfi-allow). A future `vphone-ui.app` will make setup easier and offer switches for installation-time fixes.
+The recommended host setup runs `csrutil enable --without debug` and `csrutil allow-research-guests enable` in macOS Recovery. SIP remains enabled with debugging restrictions relaxed. Launchpad checks the host and uses its privileged helper to allow each verified VM binary through AMFI; see [host setup](Documents/Guides/host-setup.md) for details.
 
 ## Get started
 
-You need an Apple Silicon Mac running macOS 15 or newer, Xcode to build from source, an iPhone restore IPSW, and a compatible cloudOS IPSW. Follow [host setup](Documents/Guides/host-setup.md) to permit the VM's private entitlements, then check the [verified firmware pairs](Documents/Guides/compatibility.md). A nested macOS VM cannot run the guest.
+Use the notarized [vphone-launchpad 2.0.8](https://github.com/Lakr233/vphone-cli/releases/download/2.0.8/vphone-launchpad-2.0.8-notarized.zip) on a physical Apple Silicon Mac running macOS 15 or newer. The release needs no Xcode, Python, or Homebrew at runtime.
 
-```sh
-git clone https://github.com/Lakr233/vphone-cli.git
-cd vphone-cli
-xcodebuild -workspace VPhone.xcworkspace -scheme VPhone \
-  -configuration Debug -destination 'platform=macOS,arch=arm64' \
-  -derivedDataPath .build/XcodeBundle build
-export PATH="$PWD/.build/XcodeBundle/Build/Products/Debug/VPhone.bundle/Contents/MacOS:$PATH"
+1. In macOS Recovery, run `csrutil enable --without debug` and `csrutil allow-research-guests enable`, then restart. See [host setup](Documents/Guides/host-setup.md) for details.
+2. Unzip and open the app. Complete **Host Setup**, including Developer Tools access and installation of the privileged helper.
+3. In **Core Bundle**, choose **Download and Install** for the latest `VPhone.bundle`. Launchpad verifies the download and prepares its VM binary for the host.
+4. In **Machines**, choose **New Machine**, select a firmware pairing from the catalog, and click **Create**. Launchpad completes the first-boot check and leaves the VM running.
 
-vphone-cli host preflight
-vphone-cli vm create myphone \
-  --iphone-source /path/to/iPhone17,3_Restore.ipsw \
-  --cloudos-source /path/to/cloudOS.ipsw
-vphone-cli vm launch myphone
-```
-
-`vm create` prepares and restores the guest, installs the JB system changes, and checks that `vphoned` responds. It stops the verification boot when finished; `vm launch` starts the VM window for use. Creation needs network access and administrator privileges for CFW installation. See [create and run](Documents/Guides/create-and-run.md) for details.
+Catalog pairings download firmware. Creating a VM needs network access for restore tickets and substantial free disk space, even with local IPSWs. You can supply your own compatible iPhone and cloudOS IPSWs. See [compatibility](Documents/Guides/compatibility.md) for verified pairs. For source builds and terminal workflows, see [host setup](Documents/Guides/host-setup.md) and [create and run](Documents/Guides/create-and-run.md).
 
 Version 2.x starts only VMs created with its `schemaVersion=2` format. Older VMs must be recreated.
 
@@ -63,7 +52,7 @@ For the first setup, select `apt` and `bash` in Irisin. Press and hold the **Ins
 
 ## Everyday use
 
-The VM window provides app and file browsing, clipboard and preference tools, screenshots, recording, and diagnostics. For local automation, launch with `--api-listen 127.0.0.1:8765`; see the [guest API](Research/vphoned_http_api.md).
+The VM window provides app and file browsing, clipboard and preference tools, screenshots, recording, and diagnostics. For local automation, launch with `--api-listen 127.0.0.1:8765`. The VM prints a new API token at each launch as `[api] token: …`, or uses `VPHONE_API_TOKEN` when you set it. Send the token with every request, for example `curl -H "Authorization: Bearer $TOKEN" http://127.0.0.1:8765/v1/health`. Requests without the token are refused, and so are requests from web pages. See the [guest API](Research/vphoned_http_api.md).
 
 | Task | Command |
 | --- | --- |

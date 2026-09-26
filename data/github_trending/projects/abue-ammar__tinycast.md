@@ -5,7 +5,7 @@
   "full_name": "abue-ammar/tinycast",
   "url": "https://github.com/abue-ammar/tinycast",
   "description": "Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.",
-  "readme_sha256": "220f9fa7a377763eb21195f64d61d5013708e2a4e45daf6bd44874651364581a"
+  "readme_sha256": "e8627a4ee46c2d0ba540269122aa937845a4610cdb1b98689e96c5c8078ed8b1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/abue-ammar/tinycast
 - Description: Tinycast — a tiny, fully native macOS launcher, hotkeys, and clipboard history.
-- README SHA256: `220f9fa7a377763eb21195f64d61d5013708e2a4e45daf6bd44874651364581a`
+- README SHA256: `e8627a4ee46c2d0ba540269122aa937845a4610cdb1b98689e96c5c8078ed8b1`
 
 ## README
 
@@ -89,7 +89,9 @@ keep it actively maintained. GitHub Sponsors isn't available in my country, so p
 - **Notes** — an unlimited collection of plain Markdown files in one floating editor, searchable from
   the palette and rendered as you write.
 - **Emoji picker** — a searchable emoji grid, one keystroke away.
-- **AI chat** — use your own key or an installed AI account, chat from the palette. Off out of the box, like every AI feature.
+- **AI chat** — use your own key or an installed AI account: ask Quick AI from the palette, or keep
+  longer conversations in the AI Chat window, with a searchable, pinnable history. Off out of the box,
+  like every AI feature.
 - **Quick Actions** — fix grammar, rewrite, translate or summarize the selected text in any app.
 - **Raycast extensions** — run the ones you already have natively, rendered as SwiftUI.
 - **Backup and import** — export your settings to a file, or import your setup from Raycast.

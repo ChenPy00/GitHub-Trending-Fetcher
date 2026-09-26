@@ -1,0 +1,177 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 2,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 3,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 4,
+      "readme_sha256": "76228cb397c4e64a13fa03ee893ae8a46df310f7073bd690e7ad0dc6cfc1aa43",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 5,
+      "readme_sha256": "6f6bc61fa36232cfd35af70a525b002d1b3c8ee5ccf8814e8657927b01b3d17d",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 6,
+      "readme_sha256": "63733f25438fec7493a0ef3f87da9047ddc9f0534e95c332d4db02460fa2eef6",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 7,
+      "readme_sha256": "0956874d6ba30f65d45ff90a9d51e615627a836e22745f43b7aece14537bb028",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 8,
+      "readme_sha256": "6d21264e9352e1fd2553092d0bdb638c695b36385d69880e457d314da7318c40",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 9,
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 10,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "full_name": "davila7/claude-code-templates",
+      "project_file": "projects/davila7__claude-code-templates.md",
+      "rank": 11,
+      "readme_sha256": "e4b0e967737caca99869aac02bbec1c0d18cbf50bcdeb5eead50f69dade457c4",
+      "url": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 12,
+      "readme_sha256": "e534958eedeeeb641c980e2a2b5e23143743f83bdf5a2866b2697a46944263aa",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "full_name": "pytorch/pytorch",
+      "project_file": "projects/pytorch__pytorch.md",
+      "rank": 13,
+      "readme_sha256": "afb5b1b86ca2152e1442eed3ae809f26a5b92bb94401ea631bc55fd464c85d5d",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 14,
+      "readme_sha256": "36ae6bdaf7cb34bf73382032a9340e0e10134a4ce1c08620dbd123d5b7b5e8ec",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "🥧 Savoury implementation of the QUIC transport protocol and HTTP/3",
+      "full_name": "cloudflare/quiche",
+      "project_file": "projects/cloudflare__quiche.md",
+      "rank": 15,
+      "readme_sha256": "b508071b040d926dbd06ef71535cb9d06e649dcbb317390bade2013449152b86",
+      "url": "https://github.com/cloudflare/quiche"
+    },
+    {
+      "description": "Spec-driven development (SDD) for AI coding assistants.",
+      "full_name": "Fission-AI/OpenSpec",
+      "project_file": "projects/Fission-AI__OpenSpec.md",
+      "rank": 16,
+      "readme_sha256": "14a4fee5fce958d256221869f1a742c63171abb4c117dcdd6d2ad5853c572c42",
+      "url": "https://github.com/Fission-AI/OpenSpec"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 17,
+      "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "full_name": "superdesigndev/treg",
+      "project_file": "projects/superdesigndev__treg.md",
+      "rank": 18,
+      "readme_sha256": "7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e",
+      "url": "https://github.com/superdesigndev/treg"
+    },
+    {
+      "description": "Autonomous coding agent as an SDK, IDE extension, or CLI assistant.",
+      "full_name": "cline/cline",
+      "project_file": "projects/cline__cline.md",
+      "rank": 19,
+      "readme_sha256": "e68470af087a1f3a7abe00a725e42e5d4a9da56c204047df2211986ddd844d24",
+      "url": "https://github.com/cline/cline"
+    },
+    {
+      "description": "Odoo. Open Source Apps To Grow Your Business.",
+      "full_name": "odoo/odoo",
+      "project_file": "projects/odoo__odoo.md",
+      "rank": 20,
+      "readme_sha256": "964c3dc18f056f667fd488efde0d25847aca0f7a8c99feca06d6dd6ef9657659",
+      "url": "https://github.com/odoo/odoo"
+    },
+    {
+      "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+      "full_name": "bojieli/ai-agent-book",
+      "project_file": "projects/bojieli__ai-agent-book.md",
+      "rank": 21,
+      "readme_sha256": "21195bfba51235eeba6f272e6454ab046f0791b3b2bf260417c56b8f4abb95a2",
+      "url": "https://github.com/bojieli/ai-agent-book"
+    }
+  ],
+  "snapshot_date": "2026-09-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

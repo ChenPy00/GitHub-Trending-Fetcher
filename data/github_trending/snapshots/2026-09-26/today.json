@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 1,
+      "readme_sha256": "e534958eedeeeb641c980e2a2b5e23143743f83bdf5a2866b2697a46944263aa",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 2,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 3,
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 4,
+      "readme_sha256": "04fd40756d26d5f2132ddfbc5c3c35335b02bb456197308975f9d12eaa522382",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 5,
+      "readme_sha256": "4079d981bc2ac0a52aaf2c76d1c1476f4297937a8ff3a2e2322b6b730dc2d4f6",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 6,
+      "readme_sha256": "a9a1e3b3b734a44ea2ff258679515eda3ed8b46c9be24987f15d4b68cacf3ebb",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "description": "Public repository for Agent Skills",
+      "full_name": "anthropics/skills",
+      "project_file": "projects/anthropics__skills.md",
+      "rank": 7,
+      "readme_sha256": "2fb9c4cc026366ea6e21c60cb23c908a4d27c62071819cc06beffaac102d0694",
+      "url": "https://github.com/anthropics/skills"
+    },
+    {
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+      "full_name": "androoAGI/starnet",
+      "project_file": "projects/androoAGI__starnet.md",
+      "rank": 8,
+      "readme_sha256": "4b8dd90437e07ea1324203f6c4e0b62204413cb827d90f7fd195308a5fe7dd92",
+      "url": "https://github.com/androoAGI/starnet"
+    },
+    {
+      "description": "Wifite but USB-only & cross-platform.",
+      "full_name": "derv82/wifit3",
+      "project_file": "projects/derv82__wifit3.md",
+      "rank": 9,
+      "readme_sha256": "d1d64d631dd8d5db1d4cd3dd78270d3b9a0faa5f60a2608599e2d9c9abbfa583",
+      "url": "https://github.com/derv82/wifit3"
+    },
+    {
+      "description": "Bootstrap Kubernetes the hard way. No scripts.",
+      "full_name": "kelseyhightower/kubernetes-the-hard-way",
+      "project_file": "projects/kelseyhightower__kubernetes-the-hard-way.md",
+      "rank": 10,
+      "readme_sha256": "2a6676b5aeb4f965b9d2bb80aeed8323d019dc5ae49f266199add002629cb298",
+      "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 11,
+      "readme_sha256": "e65435a0190b0d5d88019b92838a387c1e142699178c3d8881c86de2283804d7",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源",
+      "full_name": "shy3130/tick-stock-panel",
+      "project_file": "projects/shy3130__tick-stock-panel.md",
+      "rank": 12,
+      "readme_sha256": "a6c1012e8019d2e88461e6eaaebb8d4821e7b37566483c5b182368ac0cea2a2f",
+      "url": "https://github.com/shy3130/tick-stock-panel"
+    },
+    {
+      "description": "Google's open agentic orchestration runtime",
+      "full_name": "google/ax",
+      "project_file": "projects/google__ax.md",
+      "rank": 13,
+      "readme_sha256": "370487fb416cf2bfebf83da16c2c9cf459558313c980aab8f4be3811285be6a6",
+      "url": "https://github.com/google/ax"
+    },
+    {
+      "description": "A unified library of SOTA model optimization techniques like quantization, distillation, pruning, neural architecture search, speculative decoding, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM, TensorRT, vLLM, etc. to optimize inference speed.",
+      "full_name": "NVIDIA/Model-Optimizer",
+      "project_file": "projects/NVIDIA__Model-Optimizer.md",
+      "rank": 14,
+      "readme_sha256": "98212d8ad90c80739a73892f07840e9098e61519a166019796c225d28827d532",
+      "url": "https://github.com/NVIDIA/Model-Optimizer"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 15,
+      "readme_sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "OpenBao is a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys.",
+      "full_name": "openbao/openbao",
+      "project_file": "projects/openbao__openbao.md",
+      "rank": 16,
+      "readme_sha256": "d0cff252352ee71e85b9bbca2d7567fe980d8579497f40280d0833a0170ea8b3",
+      "url": "https://github.com/openbao/openbao"
+    }
+  ],
+  "snapshot_date": "2026-09-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
