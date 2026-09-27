@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "a27d24be67d226f16c31a8166cbf1717d7ce4a15f1280c1ec6fbcef4252ebacc"
+  "readme_sha256": "4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `a27d24be67d226f16c31a8166cbf1717d7ce4a15f1280c1ec6fbcef4252ebacc`
+- README SHA256: `4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a`
 
 ## README
 
@@ -133,7 +133,7 @@ Add `-- --install` for the networked managed-runtime installation check.
 
 </details>
 
-> **Electron is the only maintained desktop app.** Version 0.5.3 was the final Tauri release. Existing Tauri users must [install Electron separately](docs/electron-migration.md). Root development, build, test, and release commands target Electron; Tauri source is archived and receives no further updates.
+> **Electron is the only desktop app and web UI.** Version 0.5.3 was the final Tauri release. Existing Tauri users must [install Electron separately](docs/electron-migration.md). The retired Tauri shell and legacy UI entry points have been removed.
 
 ## Documentation
 

@@ -5,7 +5,7 @@
   "full_name": "MakazhanAlpamys/Soup",
   "url": "https://github.com/MakazhanAlpamys/Soup",
   "description": "Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.",
-  "readme_sha256": "7290aaff80de33e3f75a8f21ce238552f764097f51f5549139ace559feef45be"
+  "readme_sha256": "61e824bf0ff576ba7af3cb43ffc518b864603a9a4c28a961255fbfc050e49681"
 }
 ```
 
@@ -13,9 +13,11 @@
 
 - URL: https://github.com/MakazhanAlpamys/Soup
 - Description: Fine-tune LLMs from one YAML. Layer streaming trains an 8B model on a 4 GB laptop GPU.
-- README SHA256: `7290aaff80de33e3f75a8f21ce238552f764097f51f5549139ace559feef45be`
+- README SHA256: `61e824bf0ff576ba7af3cb43ffc518b864603a9a4c28a961255fbfc050e49681`
 
 ## README
+
+<p align="center">🌍 <strong>English</strong> | <a href="README.tr.md">Türkçe</a> | <a href="README.ar.md">العربية</a> | <a href="README.ja.md">日本語</a></p>
 
 <p align="center">
   <img src="soup.png" alt="Soup" width="280">
@@ -30,11 +32,13 @@
 <p align="center">
   <a href="https://trysoup.dev">Website</a> &middot;
   <a href="#quick-start">Quick Start</a> &middot;
+  <a href="#web-ui">Web UI</a> &middot;
   <a href="#configuration">Config</a> &middot;
   <a href="#documentation">Docs</a> &middot;
   <a href="docs/commands.md">Commands</a> &middot;
   <a href="docs/models.md">Models</a> &middot;
-  <a href="https://discord.gg/8RgVbFA6Zq">Discord</a> &middot;
+  <a href="https://discord.gg/dgd2pJcjwP">Discord</a> &middot;
+  <a href="https://t.me/souptasters">Telegram</a> &middot;
   <a href="https://www.producthunt.com/products/soup-cli">Product Hunt</a>
 </p>
 
@@ -46,7 +50,8 @@
   <a href="https://github.com/MakazhanAlpamys/Soup/actions"><img src="https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MakazhanAlpamys/65fdc943f85f3b2c46ecddb415c2b779/raw/soup_tests.json" alt="Tests"></a>
   <a href="https://github.com/MakazhanAlpamys/Soup/actions"><img src="https://github.com/MakazhanAlpamys/Soup/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
   <a href="https://trysoup.dev"><img src="https://img.shields.io/badge/website-trysoup.dev-blue" alt="Website"></a>
-  <a href="https://discord.gg/8RgVbFA6Zq"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://discord.gg/dgd2pJcjwP"><img src="https://img.shields.io/badge/Discord-join-5865F2?logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://t.me/souptasters"><img src="https://img.shields.io/badge/Telegram-join-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
   <a href="https://doi.org/10.5281/zenodo.21771064"><img src="https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21771064-blue?logo=zenodo&logoColor=white" alt="DOI: 10.5281/zenodo.21771064"></a>
 </p>
 
@@ -76,8 +81,9 @@ soup train
 VRAM and feeds it to the GPU one decoder layer at a time. Measured on an RTX 3050 Laptop 4 GB:
 Llama-3.1-8B-Instruct + NF4 at **119.6 tok/s, 3.32 GB peak** — bit-exact against a normal
 resident run, and reproduced independently on an H100 at 113.00 tok/s in the same 3.32 GB.
-(The tok/s figure was measured on v0.72.2, before the v0.73.0 correctness repair that cost
-−4.8% at 32B; it has not been re-run on a 4 GB card since.) Opt-in (`stream_layers: true`)
+(Both figures were measured on v0.72.2, before the v0.73.0 correctness repair that cost
+−4.8% at 32B; neither has been re-run on a 4 GB card since — re-measurement pending in
+issue [#361](https://github.com/MakazhanAlpamys/Soup/issues/361).) Opt-in (`stream_layers: true`)
 and still BETA —
 [how it works](docs/performance-and-quantization.md#layer-streaming-beta-v0720-nf4-v0722-disk--wider-archs-v0723-preference-losses-v0724) ·
 [all measurements](benchmarks/) · [paper](https://doi.org/10.5281/zenodo.21771064) ·
@@ -85,8 +91,8 @@ and still BETA —
 4 GB, then asserts a streamed model is bit-identical to a normal one)
 
 <p align="center">
-  <a href="https://youtu.be/T1LCErE943E"><img src="docs/assets/layer-streaming.gif" alt="soup train pre-flight for Llama-3.1-8B on a 4 GB card: a 3.60 GB base store pinned in RAM across 32 layers and two 113 MB VRAM buffers, then a measured peak of 3.32 GB at 119.6 tok/s, stopping short of the 4 GB line"></a><br>
-  <sub>Llama-3.1-8B-Instruct + NF4, LoRA, batch 1, seq 512 on an RTX 3050 Laptop 4 GB — <b>3.32 GB peak, 119.6 tok/s</b>. <a href="https://youtu.be/T1LCErE943E">Full video (90s)</a></sub>
+  <a href="https://youtu.be/T1LCErE943E"><img src="docs/assets/layer-streaming.gif" alt="soup train pre-flight for Llama-3.1-8B on a 4 GB card: a 3.60 GB base store pinned in RAM across 32 layers and two 113 MB VRAM buffers, then a measured peak of 3.32 GB at 119.6 tok/s, stopping short of the 4 GB line (measured on v0.72.2, before the #331 repair; re-measurement pending in issue #361)"></a><br>
+  <sub>Llama-3.1-8B-Instruct + NF4, LoRA, batch 1, seq 512 on an RTX 3050 Laptop 4 GB — <b>3.32 GB peak, 119.6 tok/s</b> (measured on v0.72.2, before the #331 repair; re-measurement pending in issue #361). <a href="https://youtu.be/T1LCErE943E">Full video (90s)</a></sub>
 </p>
 
 ## Why Soup?
@@ -101,111 +107,89 @@ infrastructure instead of improving models. Soup fixes that.
 
 ## What's New
 
-**v0.74.0 — the frozen base was being loaded in fp32 the whole time.** Fixing that
-alone cuts peak VRAM 2.59x on an unchanged config. **116 of the 120 merged pull
-requests in this release came from outside the maintainer**, by 25 people.
+**v0.75.0 — the same `soup.yaml` trained a different recipe on MLX than on transformers,
+silently.** Six training options were validated, documented, accepted — and read by nothing
+on that backend. **All 60 pull requests in this release came from outside the maintainer**,
+by 22 people.
 
-- **Every SFT load silently upcast the frozen base to fp32.** A base that never
-  receives an optimizer step was materialised at twice its checkpoint precision, on
-  all three load paths. Measured on an H100 with Llama-3.1-8B + LoRA: **48,241 MiB →
-  18,658 MiB peak — 2.59x, 28.9 GB**, byte-identical across three repeats. A trainable
-  base still loads fp32, deliberately.
-- **Transformers 5.x, TRL 0.29, PEFT 0.20.** Qwen3.5-family text decoders train on the
-  Transformers path, and `pip install "soup-cli[train,mlx]"` resolves again — the two
-  extras previously declared ranges that could not be satisfied together.
-- **The free Colab/Kaggle tier could not stream at all.** T4 / P100 / V100 / GTX 16xx
-  crashed layer streaming, because peft creates LoRA adapters in the checkpoint's dtype
-  while the fp16 GradScaler needs fp32 gradients.
-- **Four SSRF bypasses of the same shape.** Abbreviated, decimal, hex and octal IPv4
-  spellings (`127.1`, `2130706433`, `0x7f000001`, `0177.0.0.1`) reached the telemetry
-  and webhook guard — and, through a path the first fix never touched, the OTLP
-  tracing validator.
-- **Breaking: `soup serve` now exits 2** when bound to a non-loopback host without
-  `--tool-auth-token`, instead of printing a warning. `/v1/tools/bash` is re-enabled
-  behind real OS-level isolation, so the endpoint it protects now actually executes.
-- **`soup train --cloud lambda`**, plan-only by default, with termination in a
-  `finally` that also polls to confirm it happened.
-
-> Known limitation: the declared `torch>=2.5.0` floor does not work with `trl>=0.29` —
-> at torch 2.5.1 trl cannot import. A fresh install resolves a newer torch and is
-> unaffected; a pinned 2.5.x environment is not. See
-> [#651](https://github.com/MakazhanAlpamys/Soup/issues/651).
+- **Breaking: an unknown config key now refuses the load.** v0.74 warned and named this
+  release as the deadline. A typo like `quantizaton`, or a key that only exists on a newer
+  Soup, used to be dropped while the run proceeded with the setting not applied; it now
+  fails on the CLI (exit 1) and in the API (`ValueError`), naming the field you probably
+  meant. The detector applies the root-level `lora:` remap the schema has honoured
+  since v0.40.1, so that spelling is accepted, not refused; the two `soup fetch examples`
+  files using it moved to the canonical `training.lora`. Every recipe and template loads
+  clean, key names are escaped before they reach the terminal, and the scan is bounded.
+- **MLX honours the config it accepted.** `train_on_responses_only`, `warmup_ratio` /
+  `scheduler` / `weight_decay` / `optimizer`, `max_grad_norm`, `gradient_accumulation_steps`
+  and `gradient_checkpointing` were each validated and then dropped on `backend: mlx`. Only
+  8 of the 32 optimizer names have an MLX equivalent; the other 24 are refused by name
+  instead of silently becoming AdamW. MLX also drives the live dashboard, the tracker and
+  `soup ui`, and `soup doctor --config` lists the settings a backend does not read.
+- **Validation loss existed nowhere.** It was computed on every backend and thrown away:
+  no metrics column, no event field, nothing on the panel. It is now recorded, streamed
+  and displayed.
+- **Breaking: `grpo_variant: gspo` is the published sequence-level objective**
+  (arXiv:2507.18071), replacing a column-centering heuristic in which a padding token also
+  shifted the gradient of every row sharing its column. Existing gspo configs will not
+  reproduce prior runs.
+- **Web UI read endpoints and SSE require auth**, with short-lived single-use tickets
+  instead of a token in a query string; `--public` no longer serves `/docs` and
+  `/openapi.json` to the LAN; and a training subprocess no longer hangs when nothing
+  reads its output.
+- **`torch>=2.6.0`** closes v0.74.0's known limitation: at 2.5.1 `trl>=0.29` could not
+  import and every preference trainer was dead. Also fixed: `training.loraplus_lr_ratio`
+  crashed every run that set it, and `packing: true` raised on TRL 0.29.
 
 > Python **3.10–3.12** only. On 3.13+, pip used to resolve untested PyTorch wheels that
 > crash in the native extension before Soup runs at all.
 
-<details>
-<summary>Previous release — v0.73.3, every pull request came from outside the maintainer</summary>
-
-**v0.73.3 — every pull request in this release came from someone other than the
-maintainer.** All 24 of them, from eight people, five of whom appear here for the first
-time. What they found is the interesting part: four separate flags that were validated,
-documented, and then read by nothing.
-- **Assistant-only masking trained on zero tokens, with a normal loss curve.** A
-  tokenizer returning `BatchEncoding` — which is not a `dict` — slipped past the guard,
-  so the label mask was built from the mapping's **key strings**. No exception, no
-  warning, a loss curve that looks like training. Found by reading the type, not by
-  hitting the bug.
-- **On Apple Silicon, `quantization: 4bit` was silently rewritten to `none`.**
-
-</details>
-
-<details>
-<summary>Previous release — v0.72.4, align on a laptop (DPO / ORPO / SimPO / KTO over layer streaming)</summary>
-
-Layer streaming used to support supervised fine-tuning only; v0.72.4 opened it to the
-preference losses. The risk was one thing: DPO needs a reference model, and a second copy
-would double memory and defeat the point. Soup uses *the same streamed base with its
-adapters switched off* — measured at **0.914×** the SFT peak, where forcing a real second
-instance cost **+730 MB, exactly one copy of the weights**. Bit-exact against a normal
-non-streamed run for all four. Honest cost: free in *memory*, not in *time* — DPO reads the
-layer stack **1.52×** as often per step. `grpo` / `ppo` stay excluded on purpose.
-
-> **Trained with `stream_layers: true` on v0.72.0?** That adapter is inert — its tensors were
-> saved under keys with an extra `.inner.` segment, so every loader returned the untuned base.
-> Fixed in v0.72.1; re-run or re-save. Check with:
-> `python -c "from safetensors.torch import load_file; print([k for k in load_file('adapter_model.safetensors') if '.inner.' in k][:3])"`
-
-</details>
-
-<details>
-<summary>Previous release — v0.71.40, soup reward synth (generate a reward verifier from your data)</summary>
-
-Point `soup reward synth` at a JSONL of reference outputs and it infers a deterministic verifier,
-writes a readable / committable `.py` reward function, and — the part nobody else does — *refuses* to
-emit one that can't tell your references from bad answers (four families: `numeric` / `json_schema` /
-`regex` / `tool_call`; a mandatory calibration report is the moat). Reward ensembles
-(`reward_fn: "accuracy,format"`) also train now. (#311)
-
-```bash
-soup reward synth references.jsonl -o reward.py --output-report calib.json
-```
-
-</details>
-
-
-Full history: [CHANGELOG.md](CHANGELOG.md) &middot; [GitHub Releases](https://github.com/MakazhanAlpamys/Soup/releases).
+Older highlights live on the [GitHub Releases](https://github.com/MakazhanAlpamys/Soup/releases) page.
 
 ## Quick Start
 
 ### 1. Install
 
+Soup is a command-line application, so the cleanest install gives it its own
+environment and puts `soup` on your `PATH`:
+
 ```bash
 # Light core: CLI + config + data tools, no PyTorch
-pip install soup-cli
+pipx install soup-cli
+uv tool install soup-cli          # same idea, if you already use uv
 
 # Add the training stack (torch, transformers, peft, trl, datasets, …)
-pip install "soup-cli[train]"
+pipx install "soup-cli[train]"
 
 # Everything (train + serve + ui + data) in one shot
-pip install "soup-cli[all]"
+pipx install "soup-cli[all]"
 
 # Or from GitHub (latest dev)
+pipx install "git+https://github.com/MakazhanAlpamys/Soup.git"
+```
+
+Already inside a virtualenv, a Colab notebook, or a Docker image? Use `pip`
+directly, with the same names and extras:
+
+```bash
+pip install soup-cli
+pip install "soup-cli[train]"
+pip install "soup-cli[all]"
 pip install git+https://github.com/MakazhanAlpamys/Soup.git
 ```
 
+Use `pip` rather than `pipx` if you also want to `import soup_cli` from your own
+code, since pipx deliberately isolates the application from everything else.
+
 The full extras table (`fast`, `mlx`, `serve`, `eval`, `ui`, `vision`, `audio`, …) lives in
 [`docs/models.md`](docs/models.md#optional-extras).
+
+> **`error: externally-managed-environment`?** That is
+> [PEP 668](https://peps.python.org/pep-0668/), not a Soup problem. Debian 12,
+> Ubuntu 23.04 and later stop `pip` from writing into the system Python, because
+> `apt` manages those files too. `pipx` and `uv tool` sidestep it by giving Soup
+> its own environment, which is why they are listed first above. `python3 -m venv
+> .venv && source .venv/bin/activate` then plain `pip` works just as well.
 
 > **Double quotes, not single.** `"soup-cli[train]"` is the only spelling that works in every
 > shell — `cmd.exe`, PowerShell, bash and zsh. If you copied `'soup-cli[train]'` from an older
@@ -239,6 +223,21 @@ soup export --model ./output --format gguf --quant q4_k_m   # GGUF for Ollama / 
 More export targets (ONNX, TensorRT, AWQ, GPTQ, BitNet) and deployment options live in
 [`docs/serving-and-export.md`](docs/serving-and-export.md).
 
+## Web UI
+
+Prefer a browser? `soup ui` serves a local dashboard for experiments,
+training setup, live metrics, dataset exploration and model chat.
+
+```bash
+pip install "soup-cli[ui]"
+soup ui
+# Opens http://127.0.0.1:7860
+```
+
+![Soup Web UI — New Training](docs/assets/web-ui-new-training.png)
+
+[Web UI documentation](docs/serving-and-export.md#web-ui)
+
 ## Configuration
 
 A complete `soup.yaml`:
@@ -268,13 +267,12 @@ output: ./output
 `config/schema.py` is the single source of truth for every field. Advanced data, training,
 and PEFT options are documented under [Documentation](#documentation).
 
-> **Unknown config keys warn today and will be rejected in v0.75.** A key no model
-> declares — a typo like `quantizaton`, or a field that only exists on a newer Soup —
-> used to validate clean and be discarded, so the run proceeded with the setting simply
-> not applied. It is now reported at load with the field you probably meant. From
-> **v0.75** the same config will fail to load instead of warning, so fix or remove the
-> key rather than relying on it being ignored. See
-> [Unknown config keys](docs/backends-and-ops.md#unknown-config-keys).
+> **Unknown config keys are rejected since v0.75.** A key no model declares — a typo
+> like `quantizaton`, or a field that only exists on a newer Soup — used to validate
+> clean and be discarded, so the run proceeded with the setting simply not applied.
+> v0.74 reported it at load with the field you probably meant; from **v0.75** the same
+> config fails to load, so fix or remove the key rather than relying on it being
+> ignored. See [Unknown config keys](docs/backends-and-ops.md#unknown-config-keys).
 
 ## Documentation
 
@@ -310,6 +308,7 @@ soup train  --config soup.yaml        # train (SFT/DPO/GRPO/PPO/KTO/ORPO/SimPO/I
 soup infer  --model ./output --input prompts.jsonl   # batch inference
 soup chat   --model ./output          # interactive chat
 soup serve  --model ./output          # OpenAI-compatible API server
+soup ui                               # local browser dashboard
 soup merge  --adapter ./output        # merge LoRA into the base model
 soup export --model ./output --format gguf           # export for deployment
 soup eval   benchmark --model ./output               # evaluate
@@ -366,10 +365,7 @@ All training tasks run on CPU for testing (quantization auto-disabled). Optional
 soup doctor    # GPU, system resources, dependencies, and version in one place
 ```
 
-- **`ImportError: DLL load failed while importing _C` (Windows).** PyPI's torch
-  wheel is CPU-only. Reinstall a CUDA build; `soup doctor` prints the
-  `pip install` command for the wheel your driver can run.
-- **`soup version` ≠ `pip show soup-cli`** — multiple Python installs; use a virtualenv.
+CUDA wheels, version mismatches: [`docs/backends-and-ops.md`](docs/backends-and-ops.md#troubleshooting).
 
 ## Development
 
@@ -381,12 +377,13 @@ pip install -e ".[dev]"
 ruff check src/soup_cli/ tests/    # lint
 pytest tests/ -v                   # unit tests (fast, no GPU)
 pytest tests/ -m smoke -v          # smoke tests (downloads a tiny model, trains)
+pytest tests/ -m gpu --no-cov -v   # GPU tests (need a CUDA card; report results, see CONTRIBUTING.md)
 
 pre-commit install                 # optional: ruff lint+format on commit
 ```
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for the full workflow and [SECURITY.md](SECURITY.md) to
-report a vulnerability.
+report a vulnerability. Telemetry is strictly opt-in (`SOUP_TELEMETRY=1`, default off; see [Privacy Policy](docs/backends-and-ops.md#privacy-policy)).
 
 ## Support Soup
 
@@ -427,7 +424,8 @@ Bugs and feature requests belong in the
 and help the next person with the same problem.
 
 For live chat, setup help, and everything that reads better as a conversation, join the
-[Discord](https://discord.gg/8RgVbFA6Zq). Anything that should still be findable in six months
+[Discord](https://discord.gg/dgd2pJcjwP) or the [Telegram community](https://t.me/souptasters).
+Anything that should still be findable in six months
 belongs in Issues or Discussions — a Discord answer helps one person, an issue helps everyone
 who hits the same thing. The [Code of Conduct](CODE_OF_CONDUCT.md) applies there too.
 
@@ -460,7 +458,8 @@ published**, which is also the shortest way to describe what the paper is for:
   the replication survives in a weaker form — the constraint is common to both machines and is
   not the GPU's compute.
 - **Replication on hardware nothing like the original** (added in v2): 119.6 tok/s on the RTX
-  3050 against a median 113.00 on an H100, at the same 3.32 GB peak.
+  3050 against a median 113.00 on an H100, at the same 3.32 GB peak. Both pre-date the #331
+  repair; the 4 GB re-measurement is pending in issue #361.
 - **A silent wrong-gradient defect, found and repaired.** On NF4 above ~165 MiB per layer the
   forward stayed bit-exact and the loss curve looked healthy while the gradients were wrong. The
   cause is named in the upstream library and reported there; the repair is gated against controls

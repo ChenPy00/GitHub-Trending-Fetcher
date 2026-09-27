@@ -5,7 +5,7 @@
   "full_name": "melgarafael/DeskcommCRM",
   "url": "https://github.com/melgarafael/DeskcommCRM",
   "description": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.",
-  "readme_sha256": "5897a5bbf49ba4e2948126b99cda2f5e5c829315445ac80fe68de3a67429d0bf"
+  "readme_sha256": "2d9463604dd1e56e29032358dcf7b97f10951597440ff0e260b237fce989bfa4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/melgarafael/DeskcommCRM
 - Description: Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA). Open alternative to Kommo, Octadesk & Intercom for any business that sells by chat. MCP-ready, multi-tenant, LGPD.
-- README SHA256: `5897a5bbf49ba4e2948126b99cda2f5e5c829315445ac80fe68de3a67429d0bf`
+- README SHA256: `2d9463604dd1e56e29032358dcf7b97f10951597440ff0e260b237fce989bfa4`
 
 ## README
 
@@ -451,7 +451,8 @@ Entre os invariantes está o **teste de isolamento RLS**: cria 2 organizações,
 | [`docs/runbooks/deploy.md`](docs/runbooks/deploy.md) | Deploy em produção |
 | [`CLAUDE.md`](CLAUDE.md) | Convenções não-negociáveis (leitura obrigatória pra contribuir) |
 | [`ARCHITECTURE.md`](ARCHITECTURE.md) | Visão de 1 página da arquitetura |
-| [`docs/index.md`](docs/index.md) | Índice dos 157 documentos, com regra de precedência |
+| [`docs/index.md`](docs/index.md) | Índice geral da documentação, com a regra de precedência |
+| [`docs/handoffs/`](docs/handoffs/) | Diário dos épicos (`HANDOFF*.md`), com o índice em [`docs/handoffs/README.md`](docs/handoffs/README.md) |
 | [`docs/prd/`](docs/prd/) · [`docs/specs/`](docs/specs/) | PRDs e specs técnicas (schema SQL, payloads, MCP, governança) |
 
 ---

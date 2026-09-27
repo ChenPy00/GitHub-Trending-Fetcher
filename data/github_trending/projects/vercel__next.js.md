@@ -5,7 +5,7 @@
   "full_name": "vercel/next.js",
   "url": "https://github.com/vercel/next.js",
   "description": "The React Framework",
-  "readme_sha256": "4d9da0db1d2883ae6dfa15535d81eca4dfbad493040cb512bf830a22595ce9f6"
+  "readme_sha256": "ffa6adaf68f660c0faf601e55bf65ec228a7842aef7e9dcef54ef5162e74a94f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vercel/next.js
 - Description: The React Framework
-- README SHA256: `4d9da0db1d2883ae6dfa15535d81eca4dfbad493040cb512bf830a22595ce9f6`
+- README SHA256: `ffa6adaf68f660c0faf601e55bf65ec228a7842aef7e9dcef54ef5162e74a94f`
 
 ## README
 
@@ -48,7 +48,7 @@ Visit [https://nextjs.org/docs](https://nextjs.org/docs) to view the full docume
 
 The Next.js community can be found on [GitHub Discussions](https://github.com/vercel/next.js/discussions) where you can ask questions, voice ideas, and share your projects with other people.
 
-To chat with other community members you can join the Next.js [Discord](https://nextjs.org/discord) server.
+To chat with other community members, you can join the Next.js [Discord](https://nextjs.org/discord) server.
 
 Do note that our [Code of Conduct](https://github.com/vercel/next.js/blob/canary/CODE_OF_CONDUCT.md) applies to all Next.js community channels. Users are **highly encouraged** to read and adhere to it to avoid repercussions.
 
