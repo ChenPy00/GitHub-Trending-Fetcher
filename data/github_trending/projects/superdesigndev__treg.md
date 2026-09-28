@@ -5,7 +5,7 @@
   "full_name": "superdesigndev/treg",
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-  "readme_sha256": "7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e"
+  "readme_sha256": "44b8ba03c8ab94c37c05aae56a573b95ec4cd6df7eaf3342e909529bbab52037"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/superdesigndev/treg
 - Description: OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-- README SHA256: `7340c2bf1bb7139a7cd4b75592373635648ae8325a5e4a980ce44485bbbf421e`
+- README SHA256: `44b8ba03c8ab94c37c05aae56a573b95ec4cd6df7eaf3342e909529bbab52037`
 
 ## README
 
@@ -22,7 +22,7 @@
 ![treg — the tool catalog for your agent](docs/assets/treg-hero.png)
 
 **OpenRouter, but for agent tools instead of models.** Point an agent at one base URL with one token
-and it can do the job: **3,000+ catalogued endpoints across 60+ providers** — SEO and backlinks,
+and it can do the job: **a curated catalog of thousands of endpoints across many providers** — SEO and backlinks,
 social and trends, people and company enrichment, ads, scraping, image and video generation —
 **priced per call, from a cent**,
 with no provider signup. Plus your own team's keys, skills and CLIs, callable by every teammate's

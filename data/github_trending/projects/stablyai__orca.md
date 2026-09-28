@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-  "readme_sha256": "6d21264e9352e1fd2553092d0bdb638c695b36385d69880e457d314da7318c40"
+  "readme_sha256": "fb72837ade22683ef5d500efe0b1d42bc835c7f6d04a26be930cacc0a9b5f874"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the ADE for working with a fleet of parallel agents. Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
-- README SHA256: `6d21264e9352e1fd2553092d0bdb638c695b36385d69880e457d314da7318c40`
+- README SHA256: `fb72837ade22683ef5d500efe0b1d42bc835c7f6d04a26be930cacc0a9b5f874`
 
 ## README
 
@@ -198,6 +198,7 @@ Works with **any CLI agent** — if it runs in a terminal, it runs in Orca.
   <a href="https://cursor.com/cli"><kbd><img src="https://www.google.com/s2/favicons?domain=cursor.com&sz=64" alt="Cursor logo" width="16" valign="middle" /> Cursor</kbd></a> &nbsp;
   <a href="https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-cli"><kbd><img src="https://www.google.com/s2/favicons?domain=github.com&sz=64" alt="GitHub Copilot logo" width="16" valign="middle" /> GitHub Copilot</kbd></a> &nbsp;
   <a href="https://dev.meta.ai/docs/muse-code"><kbd><img src="src/shared/agent-icons/muse.png" alt="Muse logo" width="16" valign="middle" /> Muse</kbd></a> &nbsp;
+  <a href="https://deepseek-harness.github.io/deepseek-harness/"><kbd><img src="src/shared/agent-icons/dsh.png" alt="DeepSeek Harness logo" width="16" valign="middle" /> DeepSeek Harness</kbd></a> &nbsp;
   <a href="https://zcode.z.ai/en/docs"><kbd><img src="src/shared/agent-icons/zcode.png" alt="ZCode logo" width="16" valign="middle" /> ZCode</kbd></a> &nbsp;
   <a href="https://opencode.ai/docs/cli/"><kbd><img src="https://www.google.com/s2/favicons?domain=opencode.ai&sz=64" alt="OpenCode logo" width="16" valign="middle" /> OpenCode</kbd></a> &nbsp;
   <a href="https://mimo.xiaomi.com/coder"><kbd><img src="https://www.google.com/s2/favicons?domain=mimo.xiaomi.com&sz=64" alt="MiMo Code logo" width="16" valign="middle" /> MiMo Code</kbd></a> &nbsp;

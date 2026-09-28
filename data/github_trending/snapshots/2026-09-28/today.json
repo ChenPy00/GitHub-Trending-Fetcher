@@ -1,0 +1,81 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 1,
+      "readme_sha256": "e534958eedeeeb641c980e2a2b5e23143743f83bdf5a2866b2697a46944263aa",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 2,
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 3,
+      "readme_sha256": "4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "e65435a0190b0d5d88019b92838a387c1e142699178c3d8881c86de2283804d7",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "An open-source Android app to let you browse YouTube and other services freely.",
+      "full_name": "InfinityLoop1308/PipePipe",
+      "project_file": "projects/InfinityLoop1308__PipePipe.md",
+      "rank": 5,
+      "readme_sha256": "fe3585d56206267f5a352d722c3fcd43ab7dc2d274fa2c9b703a4daca7675803",
+      "url": "https://github.com/InfinityLoop1308/PipePipe"
+    },
+    {
+      "description": "TypeScript-to-Native Compiler",
+      "full_name": "vercel-labs/scriptc",
+      "project_file": "projects/vercel-labs__scriptc.md",
+      "rank": 6,
+      "readme_sha256": "950ec16a3ec2f730bfb3fc0932bcebcf3f3bce25a51922aa07cf9cb328091a53",
+      "url": "https://github.com/vercel-labs/scriptc"
+    },
+    {
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 7,
+      "readme_sha256": "ff4569a8cf4840d196e5ba1c022128c8db6fc6ce6cbee0b907f1c53e74368157",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 8,
+      "readme_sha256": "a9a1e3b3b734a44ea2ff258679515eda3ed8b46c9be24987f15d4b68cacf3ebb",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "full_name": "willfaust/Madeira",
+      "project_file": "projects/willfaust__Madeira.md",
+      "rank": 9,
+      "readme_sha256": "7c397fb6394f8fcc1bcb636268506ca4a9a2ca25324dcc6ea5e5c55552b600f8",
+      "url": "https://github.com/willfaust/Madeira"
+    }
+  ],
+  "snapshot_date": "2026-09-28",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
