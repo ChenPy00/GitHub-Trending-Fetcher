@@ -5,7 +5,7 @@
   "full_name": "elastic/elasticsearch",
   "url": "https://github.com/elastic/elasticsearch",
   "description": "Free and Open Source, Distributed, RESTful Search Engine",
-  "readme_sha256": "08f81c149c32baec7f7bda391d2889413743a69c3a6c1c172786dcd96dad7261"
+  "readme_sha256": "57e97a757d09ab40a40a44646cfeffba5979da7de35316c968decb3ba9905d47"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/elastic/elasticsearch
 - Description: Free and Open Source, Distributed, RESTful Search Engine
-- README SHA256: `08f81c149c32baec7f7bda391d2889413743a69c3a6c1c172786dcd96dad7261`
+- README SHA256: `57e97a757d09ab40a40a44646cfeffba5979da7de35316c968decb3ba9905d47`
 
 ## README
 
@@ -23,8 +23,8 @@ Elasticsearch is a distributed search and analytics engine, scalable data store 
 
 Use cases enabled by Elasticsearch include:
 
-* https://www.elastic.co/search-labs/blog/articles/retrieval-augmented-generation-rag[Retrieval Augmented Generation (RAG)]
-* https://www.elastic.co/search-labs/blog/categories/vector-search[Vector search]
+* https://www.elastic.co/search-labs/blog/retrieval-augmented-generation-rag[Retrieval Augmented Generation (RAG)]
+* https://www.elastic.co/search-labs/blog/category/vector-search[Vector search]
 * Full-text search
 * Logs
 * Metrics

@@ -1,0 +1,73 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 1,
+      "readme_sha256": "4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 2,
+      "readme_sha256": "e534958eedeeeb641c980e2a2b5e23143743f83bdf5a2866b2697a46944263aa",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 3,
+      "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "full_name": "NawfalMotii79/PLFM_RADAR",
+      "project_file": "projects/NawfalMotii79__PLFM_RADAR.md",
+      "rank": 4,
+      "readme_sha256": "1c7bf488209adbdd6a12c191c6946543cc20d3a7fb4d20f0b44ad9001848edac",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR"
+    },
+    {
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "full_name": "cs341-illinois/coursebook",
+      "project_file": "projects/cs341-illinois__coursebook.md",
+      "rank": 5,
+      "readme_sha256": "78924f3e1b1d94c33495e8fcbf22d73e7b5958152c3f9f72f0bc764fe64ecda3",
+      "url": "https://github.com/cs341-illinois/coursebook"
+    },
+    {
+      "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
+      "full_name": "byoungd/up",
+      "project_file": "projects/byoungd__up.md",
+      "rank": 6,
+      "readme_sha256": "f969b81cfef6febefa4d7e93a937eac94546db4332e4210b7dc42d960d79be29",
+      "url": "https://github.com/byoungd/up"
+    },
+    {
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 7,
+      "readme_sha256": "db2550f29887c31083da54e71a0e3a7b3a0289b026802b67421dc38d66f15751",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 8,
+      "readme_sha256": "520497c9c2d738493bba920c20457365dffdee83040c37f6d03d929810e04fa2",
+      "url": "https://github.com/dream-num/univer"
+    }
+  ],
+  "snapshot_date": "2026-09-29",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

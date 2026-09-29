@@ -5,7 +5,7 @@
   "full_name": "bilawalsidhu/gods-eye-view",
   "url": "https://github.com/bilawalsidhu/gods-eye-view",
   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-  "readme_sha256": "eac4feae53e21a0f5e876d630615b048b4db07886ef88505c70e3845ba90046f"
+  "readme_sha256": "4816dbde008e827414360aacdc2e2edc3bfed4fd111028eea6651c6ac8c3171d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/bilawalsidhu/gods-eye-view
 - Description: A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-- README SHA256: `eac4feae53e21a0f5e876d630615b048b4db07886ef88505c70e3845ba90046f`
+- README SHA256: `4816dbde008e827414360aacdc2e2edc3bfed4fd111028eea6651c6ac8c3171d`
 
 ## README
 
@@ -117,6 +117,10 @@ For photorealistic 3D, add a **Cesium ion token** for eligible personal,
 non-commercial use, or a **Google Maps key** for the direct, metered route and
 Google place search. Provider terms and quotas apply. Add keys through the
 app's **POWER UP** panel; [Keys & Costs](#-api-keys) explains the options.
+
+> **Already installed?** Update to the latest version. Older versions query
+> public OpenStreetMap Overpass servers, which now refuse them, so Traffic,
+> Mapped Installations and ALPR stay empty until you update.
 
 ### Path 1 — One click, no terminal
 

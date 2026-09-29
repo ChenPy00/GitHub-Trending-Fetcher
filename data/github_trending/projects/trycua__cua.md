@@ -5,7 +5,7 @@
   "full_name": "trycua/cua",
   "url": "https://github.com/trycua/cua",
   "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-  "readme_sha256": "44e346af15e7f6368c5693282a36f8bde8579bbada7149a88deb7ab155edc92b"
+  "readme_sha256": "00cafa2ef221ffffbaf66b0b6eb0511625b9762f77454ba5f59059b21c082651"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/trycua/cua
 - Description: Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
-- README SHA256: `44e346af15e7f6368c5693282a36f8bde8579bbada7149a88deb7ab155edc92b`
+- README SHA256: `00cafa2ef221ffffbaf66b0b6eb0511625b9762f77454ba5f59059b21c082651`
 
 ## README
 
@@ -209,8 +209,23 @@ MIT License — see [LICENSE](LICENSE.md) for details.
 Third-party components have their own licenses:
 
 - [Kasm](libs/kasm/LICENSE) (MIT)
-- [OmniParser](https://github.com/microsoft/OmniParser/blob/master/LICENSE) (CC-BY-4.0)
-- Optional `cua-agent[omni]` includes ultralytics (AGPL-3.0)
+- [`cua-som`](libs/python/som) is an optional package licensed under
+  AGPL-3.0-or-later. Its Ultralytics dependency retains its own license; inspect
+  the resolved dependency version and its notices before redistribution.
+- The Microsoft OmniParser repository [states
+  CC-BY-4.0](https://github.com/microsoft/OmniParser/blob/master/LICENSE) for its
+  repository content. Model files downloaded from the separate OmniParser model
+  repository are distinct artifacts; verify the terms published with the exact
+  model revision before redistributing them.
+- The optional `cua-perception` extension is installed separately from the MIT
+  Cua Driver, from the signed assets of a `cua-perception-v<version>` GitHub
+  release. Each release combines an AGPL-3.0-only OmniParser model artifact,
+  Apache-2.0 PP-OCR model artifacts, and a separately packaged ONNX Runtime.
+  The extension is not MIT licensed. Redistributing it, or offering it
+  to users over a network, can trigger AGPL-3.0 source obligations. Cua does
+  not relicense the detector and cannot grant other terms for it. Read the
+  [perception third-party notices and precautions](libs/cua-driver/docs/perception-third-party-notices.md)
+  before you install, redistribute, or host an extension artifact.
 
 ## Trademarks
 

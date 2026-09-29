@@ -5,7 +5,7 @@
   "full_name": "akitaonrails/ai-memory",
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-  "readme_sha256": "cf759a182563429439f9d16ba52c17763b2b640a5ffba8c6b275ca3cece5898b"
+  "readme_sha256": "1a25e11682e56830534abb774fb53adb3926691cd357c23d6d22048b7a481c0d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/akitaonrails/ai-memory
 - Description: Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-- README SHA256: `cf759a182563429439f9d16ba52c17763b2b640a5ffba8c6b275ca3cece5898b`
+- README SHA256: `1a25e11682e56830534abb774fb53adb3926691cd357c23d6d22048b7a481c0d`
 
 ## README
 
@@ -467,6 +467,7 @@ diagram, crate breakdown, schema notes, and invariants.
 | [`docs/users.md`](docs/users.md) | **Multi-user attribution and human login.** Four-rung bearer ladder, password sessions, `ai-memory user` / `api-key` walkthrough, brownfield migration. |
 | [`docs/https-via-proxy.md`](docs/https-via-proxy.md) | **HTTPS via a reverse proxy.** When you need TLS and when you don't, with copy-paste Caddy / nginx / Cloudflare Tunnel templates and the "secure when you're not" failure modes. |
 | [`docs/lifecycle-ops.md`](docs/lifecycle-ops.md) | **Read before purge / rename / backup / restore / reset / reindex / restore-page.** Safety matrix, per-project disk layout, checkpoint page recovery, and operator workflows. |
+| [`docs/backup.md`](docs/backup.md) | Backing up the wiki + data dir to a remote git repository: what to include, what to exclude, scheduled push pattern, restore, and security posture. Companion to `docs/lifecycle-ops.md` (which covers the on-box `ai-memory backup` snapshot). |
 | [`docs/llm-providers.md`](docs/llm-providers.md) | Provider configuration for consolidation and embeddings. |
 | [`docs/security.md`](docs/security.md) | The full security model. |
 | [`docs/support-matrix.md`](docs/support-matrix.md) | The full agent/platform matrix with notes. |
