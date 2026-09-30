@@ -5,7 +5,7 @@
   "full_name": "superdesigndev/treg",
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-  "readme_sha256": "cbf4a8065b4ff4bce502e1c53851790bc00fbe1f71e674d03aa29b5e33d0a7b7"
+  "readme_sha256": "bb890e2c1a775d38c884185d9a99050e3360c42e023a433feedb29124810d8a9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/superdesigndev/treg
 - Description: OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-- README SHA256: `cbf4a8065b4ff4bce502e1c53851790bc00fbe1f71e674d03aa29b5e33d0a7b7`
+- README SHA256: `bb890e2c1a775d38c884185d9a99050e3360c42e023a433feedb29124810d8a9`
 
 ## README
 
@@ -150,7 +150,7 @@ catalog endpoints and separates read calls from write calls so Claude receives a
 signals. The existing `/mcp/` surface remains available for catalog endpoints, team-owned tools,
 and imported skills. See the [MCP and OAuth architecture](docs/context/architecture/mcp-oauth.md)
 for the boundary and implementation, and the
-[submission runbook](docs/CLAUDE-CONNECTOR-SUBMISSION.md) for release gates.
+[submission runbook](https://github.com/superdesigndev/treg-internal/blob/main/docs/distribution/CLAUDE-CONNECTOR-SUBMISSION.md) for release gates.
 
 ## Call a tool you don't have a key for
 
@@ -399,7 +399,9 @@ No `.env` is needed for local dev — every setting has a working default (ephem
 decrypt its secret(s) → apply each binding's injector → stream to the upstream → fire-and-forget
 audit record. The infra relay streams bytes without business logic. The call application buffers
 responses needing settlement or ownership evidence up to 8 MiB; larger responses return a 502
-without charging instead of a truncated success. Authorized free final downloads needing no body
+without charging instead of a truncated success. Endpoints that inline media (Gemini images)
+declare `spooled_response`: their metered answer is read to a temp file instead, settled from its
+reported usage, and relayed whole. Authorized free final downloads needing no body
 evidence stream in full, as do own-key and own-tool responses.
 
 **Module map** (`src/treg/`):

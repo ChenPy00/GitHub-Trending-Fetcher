@@ -5,7 +5,7 @@
   "full_name": "vectorize-io/hindsight",
   "url": "https://github.com/vectorize-io/hindsight",
   "description": "Hindsight: Agent Memory That Learns",
-  "readme_sha256": "376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f"
+  "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vectorize-io/hindsight
 - Description: Hindsight: Agent Memory That Learns
-- README SHA256: `376c6b0b83bd2be65a2d1c843680c56a7cc1bc4d8553dee9f227074e59239a6f`
+- README SHA256: `a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a`
 
 ## README
 
@@ -21,7 +21,7 @@
 
 ![Hindsight Banner](./hindsight-docs/static/img/hindsight-github-banner.png)
 
-[Documentation](https://hindsight.vectorize.io) • [Integrations](https://hindsight.vectorize.io/integrations) • [Cookbook](https://hindsight.vectorize.io/cookbook) • [Benchmarks](https://benchmarks.hindsight.vectorize.io/) • [Paper](https://arxiv.org/abs/2512.12818) • [Hindsight Cloud](https://ui.hindsight.vectorize.io/signup)
+[Documentation](https://hindsight.vectorize.io) • [Integrations](https://hindsight.vectorize.io/integrations) • [Cookbook](https://hindsight.vectorize.io/cookbook) • [Benchmarks](https://benchmarks.hindsight.vectorize.io/) • [Paper](https://arxiv.org/abs/2512.12818) • [Hindsight Cloud](https://ui.hindsight.vectorize.io)
 
 [![Release](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml/badge.svg)](https://github.com/vectorize-io/hindsight/actions/workflows/release.yml)
 [![Version](https://img.shields.io/pypi/v/hindsight-api?logo=python&logoColor=white&label=version&color=blue)](https://pypi.org/project/hindsight-api/)
@@ -133,7 +133,7 @@ helm install hindsight oci://ghcr.io/vectorize-io/charts/hindsight \
 
 [Hindsight Cloud](https://vectorize.io/pricing) is the hosted option: managed infrastructure that scales automatically, plus a dashboard, backups, team collaboration and a 99.9% uptime SLA. Billing is usage-based with free credits to start — no fixed monthly or per-seat fee. Point any client at `https://api.hindsight.vectorize.io` with your API key and skip the deployment entirely.
 
-[Compare self-hosted, Cloud and Enterprise →](https://vectorize.io/pricing) · [Sign up →](https://ui.hindsight.vectorize.io/signup)
+[Compare self-hosted, Cloud and Enterprise →](https://vectorize.io/pricing) · [Sign up →](https://ui.hindsight.vectorize.io)
 
 All options, including Windows and air-gapped setups, are covered in the [installation guide](https://hindsight.vectorize.io/developer/installation).
 

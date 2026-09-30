@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 1,
+      "readme_sha256": "4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 2,
+      "readme_sha256": "02476232ed61e0145765379e8b5fed62abc8f81fa3f2e7af095e4dc1804421a4",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 3,
+      "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 4,
+      "readme_sha256": "e534958eedeeeb641c980e2a2b5e23143743f83bdf5a2866b2697a46944263aa",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "25 MB lightweight cross-platform database client for 100+ databases, including MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, SQL Server, and Dameng. Built-in AI, MCP Server, CLI, desktop and Docker. | 轻量级跨平台数据库管理工具，支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、达梦等 100+ 数据库，提供桌面端、Docker、CLI、内置 AI 助手和 MCP。",
+      "full_name": "t8y2/dbx",
+      "project_file": "projects/t8y2__dbx.md",
+      "rank": 5,
+      "readme_sha256": "81b9167e734307a5ea72b1761eae05ddb54e331279ba94087d418ca07159e9ce",
+      "url": "https://github.com/t8y2/dbx"
+    },
+    {
+      "description": "Multi-agent harness that runs Claude Code and Codex together as one system",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 6,
+      "readme_sha256": "00374f18a4ca69aa4c5ebf6920da9042a7b5a0acc043f3ca3213802bd7801023",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "Self-hosted deployment platform",
+      "full_name": "oblien/openship",
+      "project_file": "projects/oblien__openship.md",
+      "rank": 7,
+      "readme_sha256": "4f5743346d77ed6ed039bb65b44200f5e620a9efcb52c937beb966191a31fa59",
+      "url": "https://github.com/oblien/openship"
+    },
+    {
+      "description": "Download videos from almost any website. Lightweight, self-hosted media downloader with a clean web UI.",
+      "full_name": "averygan/reclip",
+      "project_file": "projects/averygan__reclip.md",
+      "rank": 8,
+      "readme_sha256": "9d6fbe406f7bdb470b8071d9b9f93b21319ab2b35106ea437adc446541fff43d",
+      "url": "https://github.com/averygan/reclip"
+    },
+    {
+      "description": "Open Source Introductory Systems Programming Textbook for the University of Illinois",
+      "full_name": "cs341-illinois/coursebook",
+      "project_file": "projects/cs341-illinois__coursebook.md",
+      "rank": 9,
+      "readme_sha256": "78924f3e1b1d94c33495e8fcbf22d73e7b5958152c3f9f72f0bc764fe64ecda3",
+      "url": "https://github.com/cs341-illinois/coursebook"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 10,
+      "readme_sha256": "e65435a0190b0d5d88019b92838a387c1e142699178c3d8881c86de2283804d7",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "full_name": "VectifyAI/PageIndex",
+      "project_file": "projects/VectifyAI__PageIndex.md",
+      "rank": 11,
+      "readme_sha256": "fc08d3fad45b28810d578c1fe71859619abc06e7849daf9025982c0168a42308",
+      "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    {
+      "description": "Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT",
+      "full_name": "willfaust/Madeira",
+      "project_file": "projects/willfaust__Madeira.md",
+      "rank": 12,
+      "readme_sha256": "7c397fb6394f8fcc1bcb636268506ca4a9a2ca25324dcc6ea5e5c55552b600f8",
+      "url": "https://github.com/willfaust/Madeira"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 13,
+      "readme_sha256": "520497c9c2d738493bba920c20457365dffdee83040c37f6d03d929810e04fa2",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "description": "HTTP load generator, ApacheBench (ab) replacement",
+      "full_name": "rakyll/hey",
+      "project_file": "projects/rakyll__hey.md",
+      "rank": 14,
+      "readme_sha256": "45224023b4b88d26638a1c4875aab997f5fdae265e985426c8023f3b6b667d18",
+      "url": "https://github.com/rakyll/hey"
+    }
+  ],
+  "snapshot_date": "2026-09-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

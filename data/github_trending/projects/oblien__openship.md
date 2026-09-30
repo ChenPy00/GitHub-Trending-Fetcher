@@ -5,7 +5,7 @@
   "full_name": "oblien/openship",
   "url": "https://github.com/oblien/openship",
   "description": "Self-hosted deployment platform",
-  "readme_sha256": "85ccaf0f0982c28ab9200a4a4b8a9b9272d0c6218ef7c8a904a97b98b348641c"
+  "readme_sha256": "4f5743346d77ed6ed039bb65b44200f5e620a9efcb52c937beb966191a31fa59"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/oblien/openship
 - Description: Self-hosted deployment platform
-- README SHA256: `85ccaf0f0982c28ab9200a4a4b8a9b9272d0c6218ef7c8a904a97b98b348641c`
+- README SHA256: `4f5743346d77ed6ed039bb65b44200f5e620a9efcb52c937beb966191a31fa59`
 
 ## README
 
@@ -202,11 +202,12 @@ Databases, domains, SSL, CDN, mail, and backups are managed from the same place.
 
 ## Interfaces
 
-Three ways to drive the same backend:
+Choose how to work with OpenShip:
 
 - **Desktop app** — full GUI, real-time logs, one-click everything. Best for solo.
 - **Web dashboard** — the same UI in the browser, built for teams.
 - **CLI** — scriptable and CI-friendly; also how you install and manage a self-hosted instance.
+- **Ship SDK** — deploy and manage resources from JavaScript or TypeScript. Connect to an existing instance with `OpenshipClient`, or embed the engine with `createShip`. Install with `npm install openship` (0.8.0+, Node.js 22+) and follow the [SDK guide](https://openship.io/docs/api/sdk).
 
 An **MCP** endpoint (for AI agents) and a **REST API** round it out for automation. Only routes that opt in are exposed as MCP tools, every call re-checks your permissions, and credential/token routes can never become tools. Full reference at [openship.io/docs](https://openship.io/docs).
 
@@ -272,8 +273,9 @@ first reports.
 
 ## License
 
-Openship is **open-source** software, licensed under the [Apache License 2.0](LICENSE).
-
-You may use, run, modify, self-host, and distribute it — including in commercial
-and closed-source products — under the terms of the Apache 2.0 license. See
-[LICENSE](LICENSE) for the full text.
+Openship-authored code is licensed under the [Apache License 2.0](LICENSE).
+Bundled third-party components retain their own licenses. In particular,
+the [iRedMail engine](apps/email/engine/LICENSE) is GPL-licensed and is included
+in several control-plane distributions even when mail setup is not used.
+See the [component and packaging inventory](docs/licensing.md) for the recorded
+license boundaries and outstanding upstream notice review.

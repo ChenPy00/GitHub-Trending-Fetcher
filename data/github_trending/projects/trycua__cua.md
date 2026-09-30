@@ -5,7 +5,7 @@
   "full_name": "trycua/cua",
   "url": "https://github.com/trycua/cua",
   "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-  "readme_sha256": "00cafa2ef221ffffbaf66b0b6eb0511625b9762f77454ba5f59059b21c082651"
+  "readme_sha256": "7e690d36ddb37ac209b6f141667e6ebf24edf4880fa95419dc44d96910ce5b84"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/trycua/cua
 - Description: Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
-- README SHA256: `00cafa2ef221ffffbaf66b0b6eb0511625b9762f77454ba5f59059b21c082651`
+- README SHA256: `7e690d36ddb37ac209b6f141667e6ebf24edf4880fa95419dc44d96910ce5b84`
 
 ## README
 
@@ -204,7 +204,8 @@ We welcome contributions! See our [Contributing Guidelines](CONTRIBUTING.md) for
 
 ## License
 
-MIT License — see [LICENSE](LICENSE.md) for details.
+MIT License — see [LICENSE](LICENSE.md) for details. Some subdirectories carry
+their own licence; [LICENSING.md](LICENSING.md) lists each one.
 
 Third-party components have their own licenses:
 

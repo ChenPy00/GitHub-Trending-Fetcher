@@ -5,7 +5,7 @@
   "full_name": "every-app/open-seo",
   "url": "https://github.com/every-app/open-seo",
   "description": "Open source alternative to Semrush and Ahrefs",
-  "readme_sha256": "597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0"
+  "readme_sha256": "a77c943a24dcf21e458e1d87a88c74b2cea2c1822a8e8280cbeaee0afb04e339"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/every-app/open-seo
 - Description: Open source alternative to Semrush and Ahrefs
-- README SHA256: `597dff1b0c28f833817f2f25b609dc39dce8f8c8bc53c6c31eebb0a7a8b5bde0`
+- README SHA256: `a77c943a24dcf21e458e1d87a88c74b2cea2c1822a8e8280cbeaee0afb04e339`
 
 ## README
 
@@ -27,7 +27,7 @@ OpenSEO is an SEO tool for _the people_. If tools like Semrush or Ahrefs are too
 
 Connect with any agent like Claude Code, OpenClaw or Hermes. We have pre-built skills, but you can build your own to tailor OpenSEO to your needs.
 
-<img width="1385" height="794" alt="Image" src="https://github.com/user-attachments/assets/fd208249-44ea-4849-bb4b-5fc896aeab73" />
+<img width="100%" alt="openseo-keyword-research" src="https://github.com/user-attachments/assets/8ebdc439-3e72-41ab-8bde-8cda771ef2e8" />
 
 ## Hosted Version
 
