@@ -1,0 +1,193 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 1,
+      "readme_sha256": "4816dbde008e827414360aacdc2e2edc3bfed4fd111028eea6651c6ac8c3171d",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 2,
+      "readme_sha256": "76228cb397c4e64a13fa03ee893ae8a46df310f7073bd690e7ad0dc6cfc1aa43",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 3,
+      "readme_sha256": "e4ce58161b3c1d67c0bf6b7b607328d3c92fdf5d74b86481b0df0bc4afd8e675",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 4,
+      "readme_sha256": "9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "full_name": "tt-a1i/archify",
+      "project_file": "projects/tt-a1i__archify.md",
+      "rank": 5,
+      "readme_sha256": "344ac3ac6393fbac334771fc3275866b5519dd5e26d0f43cac77af8ead629df0",
+      "url": "https://github.com/tt-a1i/archify"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 6,
+      "readme_sha256": "63733f25438fec7493a0ef3f87da9047ddc9f0534e95c332d4db02460fa2eef6",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
+      "full_name": "superdesigndev/treg",
+      "project_file": "projects/superdesigndev__treg.md",
+      "rank": 7,
+      "readme_sha256": "bb890e2c1a775d38c884185d9a99050e3360c42e023a433feedb29124810d8a9",
+      "url": "https://github.com/superdesigndev/treg"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 8,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 9,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 10,
+      "readme_sha256": "19bbd5aaa6dd343bbabb736f089cc977bf2d5520a0b0a9d09d5a7a54cb900d8f",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 11,
+      "readme_sha256": "7c36893a7cef4e42a303ff3d29aed1e4c0a7ed405fda07f04b275938e9a868a4",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 12,
+      "readme_sha256": "aff852e0f586d5ce546d553398535453371ae3a30aeb46adb6febb678e10b079",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 13,
+      "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "full_name": "THU-MAIC/OpenMAIC",
+      "project_file": "projects/THU-MAIC__OpenMAIC.md",
+      "rank": 14,
+      "readme_sha256": "50b4657e9ecd7f70b51fb899b31b30d29876d22ed9c64de874ca68c2f944a3f1",
+      "url": "https://github.com/THU-MAIC/OpenMAIC"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 15,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "full_name": "jingyaogong/minimind",
+      "project_file": "projects/jingyaogong__minimind.md",
+      "rank": 16,
+      "readme_sha256": "1af72ca8351d90c9786b3936ce5a5faa125f4429f11e04099bd2eba2c0c4ac58",
+      "url": "https://github.com/jingyaogong/minimind"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 17,
+      "readme_sha256": "1811bdcc286f072e30371aadef0968289c2265a901e1a32d9e2537e6e0b849c4",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "full_name": "trycua/cua",
+      "project_file": "projects/trycua__cua.md",
+      "rank": 18,
+      "readme_sha256": "7e690d36ddb37ac209b6f141667e6ebf24edf4880fa95419dc44d96910ce5b84",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 19,
+      "readme_sha256": "a7394d9830f08a86e2bcb1f4802a692c4c9dfabfcc8007b797db5587862df514",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 20,
+      "readme_sha256": "cfb4d139680b189f64f60d8ad52495ccb1422796f3021fcf57b04c19fbf00192",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "full_name": "max-sixty/worktrunk",
+      "project_file": "projects/max-sixty__worktrunk.md",
+      "rank": 21,
+      "readme_sha256": "e627eb18fd1f383a0bbdc43531675fc2c93e6c8ab2290bc54c817ae23f4ad0aa",
+      "url": "https://github.com/max-sixty/worktrunk"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 22,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "full_name": "longbridge/gpui-kit",
+      "project_file": "projects/longbridge__gpui-kit.md",
+      "rank": 23,
+      "readme_sha256": "4c535f781dd2ac0c6687e50b9a55cf7acbb049086d09b2ef64f1538224518d89",
+      "url": "https://github.com/longbridge/gpui-kit"
+    }
+  ],
+  "snapshot_date": "2026-10-01",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
