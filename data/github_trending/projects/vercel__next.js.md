@@ -5,7 +5,7 @@
   "full_name": "vercel/next.js",
   "url": "https://github.com/vercel/next.js",
   "description": "The React Framework",
-  "readme_sha256": "ffa6adaf68f660c0faf601e55bf65ec228a7842aef7e9dcef54ef5162e74a94f"
+  "readme_sha256": "63db2890be2ea3ccd65c358e57f9177d568e237aace2164a3d28c1258d070bfa"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/vercel/next.js
 - Description: The React Framework
-- README SHA256: `ffa6adaf68f660c0faf601e55bf65ec228a7842aef7e9dcef54ef5162e74a94f`
+- README SHA256: `63db2890be2ea3ccd65c358e57f9177d568e237aace2164a3d28c1258d070bfa`
 
 ## README
 
@@ -65,4 +65,4 @@ We have a list of **[good first issues](https://github.com/vercel/next.js/labels
 
 If you believe you have found a security vulnerability in Next.js, we encourage you to **_responsibly disclose this and NOT open a public issue_**.
 
-To participate in our Open Source Software Bug Bounty program, please email [responsible.disclosure@vercel.com](mailto:responsible.disclosure@vercel.com). We will add you to the program and provide further instructions for submitting your report.
+To participate in our Open Source Software Bug Bounty program, please visit [https://hackerone.com/vercel](https://hackerone.com/vercel).

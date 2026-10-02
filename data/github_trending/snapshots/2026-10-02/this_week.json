@@ -1,0 +1,153 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 1,
+      "readme_sha256": "19bbd5aaa6dd343bbabb736f089cc977bf2d5520a0b0a9d09d5a7a54cb900d8f",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 2,
+      "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 3,
+      "readme_sha256": "ca0a9a337602e376420b243633dcf4e039fea33fa31dd87ae01fac4117b8269d",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 4,
+      "readme_sha256": "1d744db20989935d6e51569bd0c7008f97467f41aba50057120a6e30df39401a",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 5,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "The React Framework",
+      "full_name": "vercel/next.js",
+      "project_file": "projects/vercel__next.js.md",
+      "rank": 6,
+      "readme_sha256": "63db2890be2ea3ccd65c358e57f9177d568e237aace2164a3d28c1258d070bfa",
+      "url": "https://github.com/vercel/next.js"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 7,
+      "readme_sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 8,
+      "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "full_name": "alirezarezvani/claude-skills",
+      "project_file": "projects/alirezarezvani__claude-skills.md",
+      "rank": 9,
+      "readme_sha256": "f7a1b881bc5abf370e6eb83eaf1a34488b9595a6464de7613d1ec6207acb8195",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "description": "CLI tool for configuring and monitoring Claude Code",
+      "full_name": "davila7/claude-code-templates",
+      "project_file": "projects/davila7__claude-code-templates.md",
+      "rank": 10,
+      "readme_sha256": "e4b0e967737caca99869aac02bbec1c0d18cbf50bcdeb5eead50f69dade457c4",
+      "url": "https://github.com/davila7/claude-code-templates"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 11,
+      "readme_sha256": "a7394d9830f08a86e2bcb1f4802a692c4c9dfabfcc8007b797db5587862df514",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "Agent Substrate: the core system",
+      "full_name": "agent-substrate/substrate",
+      "project_file": "projects/agent-substrate__substrate.md",
+      "rank": 12,
+      "readme_sha256": "2da894f6849da87dcd55a5921eff72398acef0ba69c0e4cbad3910a9415f610c",
+      "url": "https://github.com/agent-substrate/substrate"
+    },
+    {
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "full_name": "tile-ai/tilelang",
+      "project_file": "projects/tile-ai__tilelang.md",
+      "rank": 13,
+      "readme_sha256": "0ed9386786b622560c51ef8290537b2e62cd211b6a61d4181fb35377cfa53a4e",
+      "url": "https://github.com/tile-ai/tilelang"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/claude-code-action",
+      "project_file": "projects/anthropics__claude-code-action.md",
+      "rank": 14,
+      "readme_sha256": "a381c47399445c97480d025a406f485644fdd5f4f7ffd880be0567ac2f7b4640",
+      "url": "https://github.com/anthropics/claude-code-action"
+    },
+    {
+      "description": "The Office Harness for AI Agents — Spreadsheets, Docs, Slides, Canvas, Relational Tables, and PDF in one runtime.",
+      "full_name": "dream-num/univer",
+      "project_file": "projects/dream-num__univer.md",
+      "rank": 15,
+      "readme_sha256": "520497c9c2d738493bba920c20457365dffdee83040c37f6d03d929810e04fa2",
+      "url": "https://github.com/dream-num/univer"
+    },
+    {
+      "description": "Fix X/Twitter and Bluesky embeds! Use multiple images, videos, polls, translations and more on Discord, Telegram and others",
+      "full_name": "FxEmbed/FxEmbed",
+      "project_file": "projects/FxEmbed__FxEmbed.md",
+      "rank": 16,
+      "readme_sha256": "8d55f960b5af92ba2a7f3b8492df3ca4ebed6e99a14226999449e10a17daa1dd",
+      "url": "https://github.com/FxEmbed/FxEmbed"
+    },
+    {
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "full_name": "flutter/flutter",
+      "project_file": "projects/flutter__flutter.md",
+      "rank": 17,
+      "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a",
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
+      "full_name": "androoAGI/starnet",
+      "project_file": "projects/androoAGI__starnet.md",
+      "rank": 18,
+      "readme_sha256": "4b8dd90437e07ea1324203f6c4e0b62204413cb827d90f7fd195308a5fe7dd92",
+      "url": "https://github.com/androoAGI/starnet"
+    }
+  ],
+  "snapshot_date": "2026-10-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

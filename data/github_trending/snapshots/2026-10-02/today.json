@@ -1,0 +1,129 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 1,
+      "readme_sha256": "7c36893a7cef4e42a303ff3d29aed1e4c0a7ed405fda07f04b275938e9a868a4",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 2,
+      "readme_sha256": "a0ec5e84e3412c62340b17ce641aa6be96988f9e89e967bbce7c1c0597dae333",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 3,
+      "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "Firebase SDK for Apple App Development",
+      "full_name": "firebase/firebase-ios-sdk",
+      "project_file": "projects/firebase__firebase-ios-sdk.md",
+      "rank": 4,
+      "readme_sha256": "38475ff6703df16cbdab775f8247fb97b51cfb17cdfaacda4020b38802c5b442",
+      "url": "https://github.com/firebase/firebase-ios-sdk"
+    },
+    {
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 5,
+      "readme_sha256": "93d1c450a740fff5739eebe7bc12a09cacd412b34a5651c575cbaded64cf54ae",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 6,
+      "readme_sha256": "1811bdcc286f072e30371aadef0968289c2265a901e1a32d9e2537e6e0b849c4",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 7,
+      "readme_sha256": "04fd40756d26d5f2132ddfbc5c3c35335b02bb456197308975f9d12eaa522382",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 8,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 9,
+      "readme_sha256": "aff852e0f586d5ce546d553398535453371ae3a30aeb46adb6febb678e10b079",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
+      "full_name": "earendil-works/pi",
+      "project_file": "projects/earendil-works__pi.md",
+      "rank": 10,
+      "readme_sha256": "fe13915e217f905739b64124cbb03b72758fa2081b7198cabeefaee4914a6f14",
+      "url": "https://github.com/earendil-works/pi"
+    },
+    {
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "full_name": "tile-ai/tilelang",
+      "project_file": "projects/tile-ai__tilelang.md",
+      "rank": 11,
+      "readme_sha256": "0ed9386786b622560c51ef8290537b2e62cd211b6a61d4181fb35377cfa53a4e",
+      "url": "https://github.com/tile-ai/tilelang"
+    },
+    {
+      "description": "yoink any video from your terminal. no shady ads.",
+      "full_name": "pablostanley/yoinks",
+      "project_file": "projects/pablostanley__yoinks.md",
+      "rank": 12,
+      "readme_sha256": "f68c0b18f2ceac9d2a5a5ec28fdad53c7f3056034839fb37d7f2d40ef346c718",
+      "url": "https://github.com/pablostanley/yoinks"
+    },
+    {
+      "description": "Useful tool to track location or mobile number",
+      "full_name": "HunxByts/GhostTrack",
+      "project_file": "projects/HunxByts__GhostTrack.md",
+      "rank": 13,
+      "readme_sha256": "87178ec01cec5fcc35bd2b3f5db650dcf2107fa5951a11c8e315a4e40f3346c7",
+      "url": "https://github.com/HunxByts/GhostTrack"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 14,
+      "readme_sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "[SIGGRAPH Asia 2026] UniMate: One Unified Model to Animate Diverse Skeletons",
+      "full_name": "Friedrich-M/UniMate",
+      "project_file": "projects/Friedrich-M__UniMate.md",
+      "rank": 15,
+      "readme_sha256": "8a4f4a361c5e88bf5a21292a9be6899f32487f36de384b94690d0f06d086f141",
+      "url": "https://github.com/Friedrich-M/UniMate"
+    }
+  ],
+  "snapshot_date": "2026-10-02",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

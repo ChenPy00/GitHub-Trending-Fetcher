@@ -5,7 +5,7 @@
   "full_name": "tashfeenahmed/freellmapi",
   "url": "https://github.com/tashfeenahmed/freellmapi",
   "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-  "readme_sha256": "870ab71f7ee83a2b2d3e5069d706cab7ad78554318f642722bbca59152709e90"
+  "readme_sha256": "650d668d31f09b67e4e2f66ccbb18bbd10bcc6cb4d938816c2be72803b36b066"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tashfeenahmed/freellmapi
 - Description: 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
-- README SHA256: `870ab71f7ee83a2b2d3e5069d706cab7ad78554318f642722bbca59152709e90`
+- README SHA256: `650d668d31f09b67e4e2f66ccbb18bbd10bcc6cb4d938816c2be72803b36b066`
 
 ## README
 
@@ -152,6 +152,7 @@ The full, always-current list lives at **[freellmapi.co/models](https://freellma
 <td align="center"><img src="repo-assets/agents/atomcode.png" width="44" alt="AtomCode"><br/><b>AtomCode</b></td>
 <td align="center"><img src="repo-assets/agents/openclaw.png" width="44" alt="OpenClaw"><br/><b>OpenClaw</b></td>
 <td align="center"><img src="repo-assets/agents/hermes-agent.png" width="44" alt="Hermes Agent"><br/><b>Hermes Agent</b></td>
+<td align="center"><img src="repo-assets/agents/pi.png" width="44" alt="Pi"><br/><b>Pi</b></td>
 </tr>
 </table>
 
@@ -187,7 +188,7 @@ Based on public documentation, July 2026 — corrections welcome.
 - **Prompt compression (opt-in)** — a shared, fail-open request pipeline can deduplicate prompts, filter tool output, compact repeated JSON, and trim stale context before cache lookup and routing. [Details →](docs/en/compression/01-compression-pipeline.md)
 - **Encrypted keys, one token out** — provider keys are AES-256-GCM encrypted in SQLite and decrypted in-memory per request; your apps only ever see a single unified `freellmapi-…` bearer token.
 - **Admin dashboard & analytics** — React UI to manage keys, reorder the chain, run a playground, and read p50/p95/TTFT analytics over 24h–90d windows; login-gated, dark/light themes, [60 languages](#languages).
-- **MCP server & interactive docs** — agents can introspect usable models, provider health, and routing strategy over `/mcp`; a dependency-free OpenAPI viewer lives at `/v1/docs`. [Coding agents →](docs/en/clients/01-agent-clients.md)
+- **ChatGPT-ready MCP server & interactive docs** — ChatGPT and other MCP clients can call FreeLLMAPI inference, list usable models, inspect provider health/usage/cache/routing metadata, and manage the routing strategy over `/mcp`; a dependency-free OpenAPI viewer lives at `/v1/docs`. [ChatGPT and coding agents →](docs/en/clients/01-agent-clients.md#mcp-server)
 - **Ops niceties** — opt-in response cache, encrypted DB backups, periodic key health checks, bulk key import/export, declarative startup config. [Install & deploy →](docs/en/install/01-install.md)
 - **Runs anywhere Node 20+ runs** — Windows, macOS, Linux servers, or a small ARM SBC (Raspberry Pi included). ~40 MB RSS at idle behind PM2 / systemd / whatever supervisor you prefer.
 
@@ -223,6 +224,13 @@ For macOS 12 Monterey or later, choose **arm64 (Apple Silicon)** or **x64 (Intel
 
 Anything that can target an OpenAI-compatible base URL works: set it to `http://localhost:3001/v1` with the unified key from the dashboard. **Claude Code**, **Codex CLI**, **Cline / Roo Code**, **Continue** (including inline autocomplete), **Aider**, **opencode**, and **Cursor** each have a short recipe in **[docs/en/clients/01-agent-clients.md](docs/en/clients/01-agent-clients.md)** — and the router doubles as an MCP server your agents can introspect mid-session.
 
+**ChatGPT** connects to the same local router through a private Secure MCP Tunnel. The
+`ask_freellmapi` MCP tool routes a ChatGPT-requested task through `/v1/chat/completions` and
+returns the answer with served-model, fallback, cache, execution, and token metadata. Base
+URL and bearer authentication live in the tunnel-client configuration; the default model is
+set with `MCP_INFERENCE_DEFAULT_MODEL` (`auto` when unset). No key belongs in Git or in the
+MCP URL. **[ChatGPT setup →](docs/en/clients/01-agent-clients.md#chatgpt-private-secure-mcp-tunnel)**
+
 The fastest setup is generated from the models available on your live server:
 
 ```bash
@@ -230,6 +238,8 @@ npx freellmapi setup-claude --url http://localhost:3001 --api-key <unified-key>
 ```
 
 Every generator supports `--dry-run`, creates a timestamped backup before changing an existing file, and merges into the user's configuration. Launchers keep credentials out of config files entirely: `npx freellmapi launch` for Claude Code and `npx freellmapi launch-codex` for Codex.
+
+Provider keys can be managed from the terminal too, with a dashboard session token (`FREELLMAPI_DASHBOARD_TOKEN` or `--token`): `npx freellmapi keys add|list|remove|test <platform>`, where `keys test` re-checks stored keys. See [cli/README.md](cli/README.md#provider-keys).
 
 | Agent | Automated setup | Base URL |
 | --- | --- | --- |
@@ -247,6 +257,7 @@ Every generator supports `--dry-run`, creates a timestamped backup before changi
 | AtomCode | `setup-atomcode` | `/v1` |
 | OpenClaw | `setup-openclaw` | `/v1` |
 | Hermes Agent | `setup-hermes` | `/v1` |
+| Pi | `setup-pi` | `/v1` |
 | Cursor | `setup-cursor` guide | public `/v1` URL |
 
 FreeLLMAPI is local-first and single-user by design. Your provider keys stay in your SQLite database, encrypted at rest, and requests go from your machine to the upstream providers you enabled.
@@ -513,6 +524,14 @@ Contributors very welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for the dev lo
 <a href="https://github.com/rome-xi"><img src="https://images.weserv.nl/?url=github.com/rome-xi.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@rome-xi" /></a>
 <a href="https://github.com/bsi-bcp"><img src="https://images.weserv.nl/?url=github.com/bsi-bcp.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@bsi-bcp" /></a>
 <a href="https://github.com/rodion-gudz"><img src="https://images.weserv.nl/?url=github.com/rodion-gudz.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@rodion-gudz" /></a>
+<a href="https://github.com/bjornmage"><img src="https://images.weserv.nl/?url=github.com/bjornmage.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@bjornmage" /></a>
+<a href="https://github.com/kenanlabs"><img src="https://images.weserv.nl/?url=github.com/kenanlabs.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@kenanlabs" /></a>
+<a href="https://github.com/xzyj50609"><img src="https://images.weserv.nl/?url=github.com/xzyj50609.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@xzyj50609" /></a>
+<a href="https://github.com/Ahmedtahoon2"><img src="https://images.weserv.nl/?url=github.com/Ahmedtahoon2.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@Ahmedtahoon2" /></a>
+<a href="https://github.com/Inference1"><img src="https://images.weserv.nl/?url=github.com/Inference1.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@Inference1" /></a>
+<a href="https://github.com/yzhkali"><img src="https://images.weserv.nl/?url=github.com/yzhkali.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@yzhkali" /></a>
+<a href="https://github.com/levonk"><img src="https://images.weserv.nl/?url=github.com/levonk.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@levonk" /></a>
+<a href="https://github.com/tripstar6000"><img src="https://images.weserv.nl/?url=github.com/tripstar6000.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@tripstar6000" /></a>
 
 ## Disclaimer
 

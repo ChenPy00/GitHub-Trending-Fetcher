@@ -5,7 +5,7 @@
   "full_name": "flutter/flutter",
   "url": "https://github.com/flutter/flutter",
   "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
-  "readme_sha256": "a31d2b32ddf89aa3cf098f2267997c54cc871e004b6268d9c3ad0baddacfc019"
+  "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/flutter/flutter
 - Description: Flutter makes it easy and fast to build beautiful apps for mobile and beyond
-- README SHA256: `a31d2b32ddf89aa3cf098f2267997c54cc871e004b6268d9c3ad0baddacfc019`
+- README SHA256: `4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a`
 
 ## README
 
@@ -30,7 +30,6 @@
 [![Discord badge][]][Discord instructions]
 [![Twitter handle][]][Twitter badge]
 [![BlueSky badge][]][BlueSky handle]
-[![codecov](https://codecov.io/gh/flutter/flutter/branch/master/graph/badge.svg?token=11yDrJU2M2)](https://codecov.io/gh/flutter/flutter)
 [![LFX Health Score](https://insights.linuxfoundation.org/api/badge/health-score?project=flutter)](https://insights.linuxfoundation.org/project/flutter)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/5631/badge)](https://bestpractices.coreinfrastructure.org/projects/5631)
 [![SLSA 1](https://slsa.dev/images/gh-badge-level1.svg)](https://slsa.dev)
@@ -112,7 +111,7 @@ editor plug-ins for both [Visual Studio Code] and [IntelliJ / Android Studio].
 Flutter provides [tens of thousands of packages][Flutter packages] to speed your
 development, regardless of your target platform. And accessing other native code
 is easy, with support for both FFI ([on Android][Android FFI], [on iOS][iOS FFI],
-[on macOS][macOS FFI], and [on Windows][Windows FFI]) as well as
+[on macOS][macOS FFI], [on Linux][Linux FFI], and [on Windows][Windows FFI]) as well as
 [platform-specific APIs][platform channels].
 
 Flutter is a fully open-source project, and we welcome contributions.
@@ -141,6 +140,7 @@ Information on how to get started can be found in our
 [Android FFI]: https://docs.flutter.dev/platform-integration/android/c-interop
 [iOS FFI]: https://docs.flutter.dev/platform-integration/ios/c-interop
 [macOS FFI]: https://docs.flutter.dev/platform-integration/macos/c-interop
+[Linux FFI]: https://docs.flutter.dev/platform-integration/linux/building#integrate-with-linux
 [Windows FFI]: https://docs.flutter.dev/platform-integration/windows/building#integrating-with-windows
 [platform channels]: https://docs.flutter.dev/platform-integration/platform-channels
 [interop example]: https://github.com/flutter/flutter/tree/main/examples/platform_channel

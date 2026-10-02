@@ -5,7 +5,7 @@
   "full_name": "rohitg00/ai-engineering-from-scratch",
   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
   "description": "Learn it. Build it. Ship it for others.",
-  "readme_sha256": "e65435a0190b0d5d88019b92838a387c1e142699178c3d8881c86de2283804d7"
+  "readme_sha256": "1d744db20989935d6e51569bd0c7008f97467f41aba50057120a6e30df39401a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rohitg00/ai-engineering-from-scratch
 - Description: Learn it. Build it. Ship it for others.
-- README SHA256: `e65435a0190b0d5d88019b92838a387c1e142699178c3d8881c86de2283804d7`
+- README SHA256: `1d744db20989935d6e51569bd0c7008f97467f41aba50057120a6e30df39401a`
 
 ## README
 
@@ -46,7 +46,19 @@
   <a href="https://aiengineeringfromscratch.com"><img src="https://img.shields.io/badge/web-aiengineeringfromscratch.com-3553ff?style=flat-square&labelColor=fafaf5" alt="Website"></a>
 </p>
 
-## From the creator of [Agent Memory - #1 Persistent memory ⭐](https://github.com/rohitg00/agentmemory) <a href="https://github.com/rohitg00/agentmemory/stargazers"><img src="https://img.shields.io/github/stars/rohitg00/agentmemory?style=flat-square&labelColor=fafaf5&color=3553ff" alt="GitHub stars"></a> which naturally works with any agents or chat assistants.
+### Sponsors
+
+<a href="https://serpapi.com/ai-engineering-from-scratch">
+  <img align="left" src="assets/sponsors/serpapi-banner.png" alt="SerpApi. Web Search API for your AI apps. Available in Markdown and JSON for any integration." width="600">
+</a>
+
+<p><br><b>Thank you to our sponsors.</b></p>
+<p>Your support keeps every lesson free and open source.</p>
+<p>
+  <a href="#supporters">See all supporters</a><br>
+  <a href="SPONSORS.md">Become a sponsor</a>
+  <br clear="all">
+</p>
 
 ```text
 ░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒░░░▒▒▒
@@ -87,20 +99,6 @@ Not sure where you fit? Use the [`start-learning` placement tutor](skills/start-
 or the [website prerequisites guide](https://aiengineeringfromscratch.com/prereqs.html).
 
 Compare four core domains and six career routes in the [AI Engineering Learning Paths](https://aiengineeringfromscratch.com/learning-paths.html).
-
-### Sponsors
-
-<a href="https://serpapi.com/ai-engineering-from-scratch">
-  <img align="left" src="assets/sponsors/serpapi-banner.png" alt="SerpApi. Web Search API for your AI apps. Available in Markdown and JSON for any integration." width="600">
-</a>
-
-<p><br><b>Thank you to our sponsors.</b></p>
-<p>Your support keeps every lesson free and open source.</p>
-<p>
-  <a href="#supporters">See all supporters</a><br>
-  <a href="SPONSORS.md">Become a sponsor</a>
-  <br clear="all">
-</p>
 
 ### Use every lesson the same way
 

@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "89a032c5ccbf8206bdcdf9010744afc369e9e683944eae128533c59d4b245868"
+  "readme_sha256": "2da894f6849da87dcd55a5921eff72398acef0ba69c0e4cbad3910a9415f610c"
 }
 ```
 
@@ -13,16 +13,13 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `89a032c5ccbf8206bdcdf9010744afc369e9e683944eae128533c59d4b245868`
+- README SHA256: `2da894f6849da87dcd55a5921eff72398acef0ba69c0e4cbad3910a9415f610c`
 
 ## README
 
 # Agent Substrate
 
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-NOTE: This is not an officially supported Google product. This project is not
-eligible for the [Google Open Source Software Vulnerability Rewards Program](https://bughunters.google.com/open-source-security).
 
 ## What is Agent Substrate?
 
@@ -67,10 +64,9 @@ Agent Substrate is designed to be **framework and agent harness agnostic**. Beca
 
 ## Status and compatibility
 
-Agent Substrate is currently in early development.  It is not ready for
-production use, and the APIs are almost guaranteed to change.  We are not
-making any guarantees about backward compatibility at this stage, and
-everything in this project may be changed.
+Agent Substrate is pre-1.0.  We are not making any guarantees about backward
+compatibility at this stage, and APIs and behavior may still change
+significantly.
 
 ### Supported Kubernetes Releases
 
@@ -269,3 +265,12 @@ We provide several sample applications demonstrating Agent Substrate's capabilit
 * `cmd/benchmarking`: Synthetic workloads used by the load tests, including `glutton`, which consumes RAM, disk, and file descriptors on demand.
 * `tools/setup-gcp`: A provisioning utility to set up the necessary GCP infrastructure resources (GKE, GCS, IAM).
 * `demos/`: Sample applications demonstrating Agent Substrate capabilities.
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=agent-substrate%2Fsubstrate&type=date&legend=top-left">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=agent-substrate/substrate&type=date&theme=dark&legend=top-left">
+    <img alt="Star history chart for agent-substrate/substrate" src="https://api.star-history.com/svg?repos=agent-substrate/substrate&type=date&legend=top-left">
+  </picture>
+</a>

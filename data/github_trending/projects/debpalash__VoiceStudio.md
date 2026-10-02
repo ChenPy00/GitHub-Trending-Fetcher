@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a"
+  "readme_sha256": "ca0a9a337602e376420b243633dcf4e039fea33fa31dd87ae01fac4117b8269d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `4fb9d23ab4dbc0fa269f282652515c0988a0c15fd58c4693ec5aa16f000a470a`
+- README SHA256: `ca0a9a337602e376420b243633dcf4e039fea33fa31dd87ae01fac4117b8269d`
 
 ## README
 
@@ -30,7 +30,8 @@
     <a href="#get-started">Get started</a> ·
     <a href="#documentation">Docs</a> ·
     <a href="https://discord.gg/bzQavDfVV9">Discord</a> ·
-    <a href="README_CN.md">简体中文</a>
+    <a href="README_CN.md">简体中文</a> ·
+    <a href="README_JA.md">日本語</a>
   </p>
   <p>
     <a href="https://github.com/debpalash/VoiceStudio/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/debpalash/VoiceStudio/ci.yml?branch=main" alt="CI" /></a>
@@ -99,6 +100,14 @@ must contain Electron packages; it never falls back to archived Tauri builds.
 Download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest), then follow your platform guide:
 
 **[macOS](docs/install/macos.md) · [Windows](docs/install/windows.md) · [Linux](docs/install/linux.md) · [Docker](docs/install/docker.md)**
+
+| Hardware | Support |
+|---|---|
+| NVIDIA GPU (Windows / Linux) | CUDA acceleration |
+| Apple Silicon | Metal (MPS) acceleration |
+| No dedicated GPU (Intel/AMD integrated graphics, older PCs) | Fully usable on the CPU, slower; setup installs the small CPU build of PyTorch (about 5 GB free disk) |
+| Windows on ARM (Snapdragon X etc.) | **Experimental**, validation pending: native ARM64 app, x64 Python backend under emulation, CPU only |
+| Intel Mac | App UI only; connect to a remote backend ([why](docs/install/macos.md)) |
 
 Open **Voice cloning**, choose a voice or add a clean reference recording, enter your text, and generate. Install the required model when prompted. Hardware needs vary by engine; see [performance](docs/performance.md).
 

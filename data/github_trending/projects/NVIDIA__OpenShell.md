@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/OpenShell",
   "url": "https://github.com/NVIDIA/OpenShell",
   "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-  "readme_sha256": "02476232ed61e0145765379e8b5fed62abc8f81fa3f2e7af095e4dc1804421a4"
+  "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/OpenShell
 - Description: OpenShell is the safe, private runtime for autonomous AI agents.
-- README SHA256: `02476232ed61e0145765379e8b5fed62abc8f81fa3f2e7af095e4dc1804421a4`
+- README SHA256: `b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883`
 
 ## README
 
@@ -97,7 +97,7 @@ SDKs connect applications to an OpenShell gateway. They do not install the CLI. 
 - **Roadmap:** [OpenShell Roadmap](https://github.com/orgs/NVIDIA/projects/233) and the [RFC board](https://github.com/orgs/NVIDIA/projects/233/views/6)
 - **Try it in the cloud:** [Brev Launchable](https://brev.nvidia.com/launchable/deploy/now?launchableID=env-3Ap3tL55zq4a8kew1AuW0FpSLsg)
 
-OpenShell is built agent-first: it is developed with the same agent-driven workflows it enables. See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and the contribution workflow, and [AGENTS.md](AGENTS.md) for the contributor agent skills and workflow chains.
+OpenShell is built agent-first: it is developed with the same agent-driven workflows it enables. See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and the contribution workflow, and [AGENTS.md](AGENTS.md) for repository coding conventions.
 
 ## Telemetry
 

@@ -5,7 +5,7 @@
   "full_name": "earendil-works/pi",
   "url": "https://github.com/earendil-works/pi",
   "description": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI",
-  "readme_sha256": "e0ca2fd607c5ce7c7646964ee1da7495ac1c4b68a2b1d05faad24f224df74c8b"
+  "readme_sha256": "fe13915e217f905739b64124cbb03b72758fa2081b7198cabeefaee4914a6f14"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earendil-works/pi
 - Description: AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI
-- README SHA256: `e0ca2fd607c5ce7c7646964ee1da7495ac1c4b68a2b1d05faad24f224df74c8b`
+- README SHA256: `fe13915e217f905739b64124cbb03b72758fa2081b7198cabeefaee4914a6f14`
 
 ## README
 
@@ -49,6 +49,7 @@ To learn more about Pi:
 | **[@earendil-works/chord](packages/chord)** | Standalone application-composition runtime for services, replicated state, RPC, and plugins |
 | **[@earendil-works/pi-telemetry](packages/telemetry)** | Vendor-neutral telemetry contracts, reference adapter, conformance tests, and typed schemas |
 | **[@earendil-works/pi-ai](packages/ai)** | Unified multi-provider LLM API (OpenAI, Anthropic, Google, etc.) |
+| **[@earendil-works/pi-durable](packages/durable)** | Durable conversation, task, and document runtime |
 | **[@earendil-works/pi-agent-core](packages/agent)** | Agent runtime with tool calling and state management |
 | **[@earendil-works/pi-coding-agent](packages/coding-agent)** | Interactive coding agent CLI |
 | **[@earendil-works/pi-tui](packages/tui)** | Terminal UI library with differential rendering |
