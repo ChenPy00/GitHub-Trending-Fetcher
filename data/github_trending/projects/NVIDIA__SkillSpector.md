@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/SkillSpector",
   "url": "https://github.com/NVIDIA/SkillSpector",
   "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
-  "readme_sha256": "cfb4d139680b189f64f60d8ad52495ccb1422796f3021fcf57b04c19fbf00192"
+  "readme_sha256": "b6e808e72915a6aa3b0b86c154e32494f7f25bcea143c84003d6da8ec6b133bf"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/SkillSpector
 - Description: Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.
-- README SHA256: `cfb4d139680b189f64f60d8ad52495ccb1422796f3021fcf57b04c19fbf00192`
+- README SHA256: `b6e808e72915a6aa3b0b86c154e32494f7f25bcea143c84003d6da8ec6b133bf`
 
 ## README
 
@@ -261,7 +261,7 @@ inference gateways.
 | `claude_cli` | _(none — uses local CLI auth)_ | local `claude` binary | local Claude runtime fallback, or `SKILLSPECTOR_MODEL` |
 | `codex_cli` | _(none — uses local CLI auth)_ | local `codex` binary | local Codex runtime fallback, or `SKILLSPECTOR_MODEL` |
 | `gemini_cli` | _(none — uses local CLI auth)_ | local `gemini` binary | local Gemini runtime fallback, or `SKILLSPECTOR_MODEL` |
-| `opencode_cli` | _(none — uses local CLI auth)_ | local `opencode` 1.18.32 binary | local OpenCode runtime fallback, or `SKILLSPECTOR_MODEL` |
+| `opencode_cli` | _(none — uses local CLI auth)_ | local `opencode` 1.18.33 binary | local OpenCode runtime fallback, or `SKILLSPECTOR_MODEL` |
 
 Structured output is requested through LangChain's `with_structured_output`,
 whose default forces a tool call. Some models reject a forced tool call with
@@ -669,7 +669,7 @@ Issues (2)
 
 > **CLI providers** (`claude_cli`, `codex_cli`, `gemini_cli`, `opencode_cli`): No API key is needed. Authentication is managed entirely by the agent CLI's own login session. SkillSpector never reads or forwards API keys when these providers are active. The subprocess is run with capabilities restricted, and untrusted skill content is delivered only via stdin.
 >
-> `opencode_cli` currently fails closed unless the installed OpenCode version is exactly `1.18.32`, the version whose configuration precedence and deny-all semantics are verified by this release.
+> `opencode_cli` currently fails closed unless the installed OpenCode version is exactly `1.18.33`, the version whose configuration precedence and deny-all semantics are verified by this release.
 
 ### CLI Options
 

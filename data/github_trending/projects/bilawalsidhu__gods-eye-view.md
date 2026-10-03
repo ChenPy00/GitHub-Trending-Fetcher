@@ -5,7 +5,7 @@
   "full_name": "bilawalsidhu/gods-eye-view",
   "url": "https://github.com/bilawalsidhu/gods-eye-view",
   "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
-  "readme_sha256": "4816dbde008e827414360aacdc2e2edc3bfed4fd111028eea6651c6ac8c3171d"
+  "readme_sha256": "e1b45ca06b68b7af5071dd4454f5ba228cb1555994177d01b308f7494f7a3bd8"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/bilawalsidhu/gods-eye-view
 - Description: A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.
-- README SHA256: `4816dbde008e827414360aacdc2e2edc3bfed4fd111028eea6651c6ac8c3171d`
+- README SHA256: `e1b45ca06b68b7af5071dd4454f5ba228cb1555994177d01b308f7494f7a3bd8`
 
 ## README
 
@@ -298,6 +298,8 @@ _Ask for radio near anywhere and the globe starts broadcasting — every station
 
 ---
 
+**💬 Or ask from Claude and Codex.** God's Eye View is also an MCP server: ask Claude Desktop, Codex or ChatGPT desktop to show a place, and the live globe opens right in the conversation. Setup takes a minute — see [docs/MCP_SETUP.md](docs/MCP_SETUP.md).
+
 ## 🛰️ What's on the Globe
 
 Nineteen layers and map sources. **Seventeen have a keyless path.** Some offer additional capabilities with a provider key. (🟢 no key · 🟡 free key · 🔴 metered.)
@@ -529,7 +531,7 @@ Everything above is the deliberately cheap baseline — enough to get a real tas
 
 ### 🔒 Sharing an instance
 
-By default nobody else can reach your server — it binds to localhost. To share on your LAN, opt in explicitly (`npm run dev -- --host 0.0.0.0 --port 4173`, or `HOST=0.0.0.0 ./scripts/dev-fresh.sh` on macOS/Linux) — but know that ⚠️ **a LAN-visible server brokers your configured API keys to anyone who can reach it.** Set the per-IP throttles (`GEV_RATELIMIT_OPENAI_PER_MIN`, `GEV_RATELIMIT_GOOGLE_PER_MIN` — see `.env.example`) and, before anything else, **configure provider quotas, usage limits, and billing alerts**: app-level throttles are not billing caps, and a budget alert alone does not stop spending. Full threat model in [SECURITY.md](SECURITY.md).
+By default nobody else can reach your server — it binds to localhost. To share on your LAN, opt in explicitly (`npm run dev -- --host 0.0.0.0 --port 4173`, or `HOST=0.0.0.0 ./scripts/dev-fresh.sh` on macOS/Linux). IP addresses work as they are; if you use a LAN hostname, add it with `GEV_ALLOWED_HOSTS=globe.lan`, since binding to `0.0.0.0` does not trust arbitrary Host headers. But know that ⚠️ **a LAN-visible server brokers your configured API keys to anyone who can reach it.** Per-IP throttles on the cost-bearing endpoints are on by default (`GEV_RATELIMIT_OPENAI_PER_MIN`, `GEV_RATELIMIT_GOOGLE_PER_MIN` — see `.env.example` to tune them), but before anything else, **configure provider quotas, usage limits, and billing alerts**: app-level throttles are not billing caps, and a budget alert alone does not stop spending. Full threat model in [SECURITY.md](SECURITY.md).
 
 Provider Settings is disabled when the server is shared, so remote users cannot
 access the key-entry panel.

@@ -1,0 +1,145 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 1,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 2,
+      "readme_sha256": "9e64dabd0ce3334629cf5f5dbaea5b833840fa3959cefc8ebfb6102860662c95",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 3,
+      "readme_sha256": "04fd40756d26d5f2132ddfbc5c3c35335b02bb456197308975f9d12eaa522382",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 4,
+      "readme_sha256": "8a102d7654df3b78d87e9a0cb8ed7605518f5c288692475319e89b3bbd31dfac",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 5,
+      "readme_sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 6,
+      "readme_sha256": "a0ec5e84e3412c62340b17ce641aa6be96988f9e89e967bbce7c1c0597dae333",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 7,
+      "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "full_name": "coreyhaines31/marketingskills",
+      "project_file": "projects/coreyhaines31__marketingskills.md",
+      "rank": 8,
+      "readme_sha256": "5c8f6e559e35ff584971297c13b79f31132f0389b82138c1d05c3230fa6072a8",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 9,
+      "readme_sha256": "aff852e0f586d5ce546d553398535453371ae3a30aeb46adb6febb678e10b079",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 10,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Agent Skills for Google products and technologies",
+      "full_name": "google/skills",
+      "project_file": "projects/google__skills.md",
+      "rank": 11,
+      "readme_sha256": "9132477b86d93b0de8960428d5382112185b4932653a15f23a34aaa5dc910d5a",
+      "url": "https://github.com/google/skills"
+    },
+    {
+      "description": "Developer-first error tracking and performance monitoring",
+      "full_name": "getsentry/sentry",
+      "project_file": "projects/getsentry__sentry.md",
+      "rank": 12,
+      "readme_sha256": "0c46c110a5ade487b9c5aa486f9d21f279fabd9ffb74ed4ca898647c238c3470",
+      "url": "https://github.com/getsentry/sentry"
+    },
+    {
+      "description": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, CoPilot, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
+      "full_name": "colbymchenry/codegraph",
+      "project_file": "projects/colbymchenry__codegraph.md",
+      "rank": 13,
+      "readme_sha256": "eb84996efef40925f8a1acea1978537d18a3d1560e960e76ef7b081e5c03a071",
+      "url": "https://github.com/colbymchenry/codegraph"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 14,
+      "readme_sha256": "1811bdcc286f072e30371aadef0968289c2265a901e1a32d9e2537e6e0b849c4",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 15,
+      "readme_sha256": "b512ba986693d526f817ffeafe17f276bb2d7cdf48776744cc9f1a7a6c37f5e6",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "Build production-ready applications in TypeScript",
+      "full_name": "Effect-TS/effect",
+      "project_file": "projects/Effect-TS__effect.md",
+      "rank": 16,
+      "readme_sha256": "cf2ed34e5059106b2c467579b02e731eab19c5b64c8b42259cabcc332812c901",
+      "url": "https://github.com/Effect-TS/effect"
+    },
+    {
+      "description": "yoink any video from your terminal. no shady ads.",
+      "full_name": "pablostanley/yoinks",
+      "project_file": "projects/pablostanley__yoinks.md",
+      "rank": 17,
+      "readme_sha256": "f68c0b18f2ceac9d2a5a5ec28fdad53c7f3056034839fb37d7f2d40ef346c718",
+      "url": "https://github.com/pablostanley/yoinks"
+    }
+  ],
+  "snapshot_date": "2026-10-03",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

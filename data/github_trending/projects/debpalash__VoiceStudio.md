@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "ca0a9a337602e376420b243633dcf4e039fea33fa31dd87ae01fac4117b8269d"
+  "readme_sha256": "a4fa9787ad433be80bd48d617c964a2f0ee7322b989c5b8ad2c85e86b5c461b3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `ca0a9a337602e376420b243633dcf4e039fea33fa31dd87ae01fac4117b8269d`
+- README SHA256: `a4fa9787ad433be80bd48d617c964a2f0ee7322b989c5b8ad2c85e86b5c461b3`
 
 ## README
 
@@ -91,13 +91,14 @@ curl -fsSL https://voicestudio.sh/install | sh -s -- --main
 curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall
 ```
 
+On Windows, run `irm https://voicestudio.sh/install | iex` in PowerShell.
 Release downloads require curl and a SHA-256 tool. `--main` requires Git,
 Node.js 22+, Bun, Rust/Cargo, and platform build tools; see
 [installer prerequisites and behavior](docs/install/script.md).
 The installer preserves your settings, projects, and models. Older versions
 must contain Electron packages; it never falls back to archived Tauri builds.
 
-Download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest), then follow your platform guide:
+Or download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest) (macOS `.dmg`, Windows `.exe`, Linux `.AppImage` or `.deb`) and follow your platform guide:
 
 **[macOS](docs/install/macos.md) · [Windows](docs/install/windows.md) · [Linux](docs/install/linux.md) · [Docker](docs/install/docker.md)**
 

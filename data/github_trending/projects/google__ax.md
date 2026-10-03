@@ -5,7 +5,7 @@
   "full_name": "google/ax",
   "url": "https://github.com/google/ax",
   "description": "Google's open agentic orchestration runtime",
-  "readme_sha256": "370487fb416cf2bfebf83da16c2c9cf459558313c980aab8f4be3811285be6a6"
+  "readme_sha256": "2db486ed4e7700f60f62c25887668f8cd71c27597786f1dcdad807f74728693c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/ax
 - Description: Google's open agentic orchestration runtime
-- README SHA256: `370487fb416cf2bfebf83da16c2c9cf459558313c980aab8f4be3811285be6a6`
+- README SHA256: `2db486ed4e7700f60f62c25887668f8cd71c27597786f1dcdad807f74728693c`
 
 ## README
 
@@ -23,9 +23,9 @@
 </h1>
 
 > [!WARNING]
-> We are still actively refining our core concepts, protocols,
-> and specifications. We will likely to introduce major breaking
-> changes prior to a stable release.
+> AX and several of its features are in heavy development. We are actively
+> refining our core concepts, protocols, and specifications, and will likely
+> introduce major breaking changes prior to a stable release.
 
 **Declare an agentic task with workspaces and model specifications. AX sandboxes it, wires up its workspace, and helps running it at scale.**
 

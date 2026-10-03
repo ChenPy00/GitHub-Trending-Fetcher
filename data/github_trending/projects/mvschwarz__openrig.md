@@ -5,7 +5,7 @@
   "full_name": "mvschwarz/openrig",
   "url": "https://github.com/mvschwarz/openrig",
   "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-  "readme_sha256": "93d1c450a740fff5739eebe7bc12a09cacd412b34a5651c575cbaded64cf54ae"
+  "readme_sha256": "b512ba986693d526f817ffeafe17f276bb2d7cdf48776744cc9f1a7a6c37f5e6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mvschwarz/openrig
 - Description: Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
-- README SHA256: `93d1c450a740fff5739eebe7bc12a09cacd412b34a5651c575cbaded64cf54ae`
+- README SHA256: `b512ba986693d526f817ffeafe17f276bb2d7cdf48776744cc9f1a7a6c37f5e6`
 
 ## README
 
@@ -119,16 +119,17 @@ using a published package, since repository guidance can be ahead of npm.
 The provider files are separate from instance state. Here `~` means the daemon
 user's home; changing `OPENRIG_HOME` alone does not isolate provider configuration.
 
-- **Claude Code:** managed startup writes workspace trust and onboarding completion
-  to `~/.claude.json`. In the workspace, `.claude/settings.local.json` receives
+- **Claude Code:** startup writes workspace trust and onboarding completion.
+  With an explicit permission mode, it uses the launch-selected `HOME/.claude.json`,
+  or `<CLAUDE_CONFIG_DIR>/.claude.json` when that variable is set. Classic startup
+  retains the daemon's `~/.claude.json` path. In the workspace, `.claude/settings.local.json` receives
   the context collector's `statusLine` command and selected activity hooks;
   helper scripts live under `.openrig/`. Selected settings/MCP resources can also
   change that settings file and `.mcp.json`. The shared settings resource sets
   `permissions.defaultMode` to `acceptEdits` and enables Exa/Context7 MCP entries;
   selected MCP resources configure those external services. Built-in bootstrap
   no longer writes a command allowlist to `~/.claude/settings.json` or removes
-  older allowances. The trust writer uses the daemon home, so a custom
-  `CLAUDE_CONFIG_DIR` is not a general relocation of these writes.
+  older allowances. `CLAUDE_CONFIG_DIR` does not relocate the project-local writes.
 - **Codex:** writes the daemon's `CODEX_HOME/config.toml` (normally
   `~/.codex/config.toml`). Startup enables hooks, adds the OpenRig activity relay
   commands and pre-writes trust hashes for those commands. Seat startup adds

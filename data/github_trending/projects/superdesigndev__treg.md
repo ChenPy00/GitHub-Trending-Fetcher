@@ -5,7 +5,7 @@
   "full_name": "superdesigndev/treg",
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-  "readme_sha256": "bb890e2c1a775d38c884185d9a99050e3360c42e023a433feedb29124810d8a9"
+  "readme_sha256": "2c7dd58ea0bec5de0c75d5563c3c31c2b2eab256bbda1c13b2ba7727f08eff79"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/superdesigndev/treg
 - Description: OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-- README SHA256: `bb890e2c1a775d38c884185d9a99050e3360c42e023a433feedb29124810d8a9`
+- README SHA256: `2c7dd58ea0bec5de0c75d5563c3c31c2b2eab256bbda1c13b2ba7727f08eff79`
 
 ## README
 
@@ -195,6 +195,13 @@ vote for the best answer in one click, or watch a sequential waterfall. Capabili
 async providers participate too; Arena handles submit and polling internally. Browsing is
 public; submitting requires login, and billable attempts use your team's credits. See the
 [Arena guide](docs/context/interface/enrich-arena.md).
+
+**Web Arena** compares Web Search, Web Fetch, and Sitemap providers at `/web-arena`.
+Battle calls selected providers for the same input; Waterfall tries them in order. The
+live leaderboard combines direct provider-call hit rates and response times with checked
+Web Arena quality results over a rolling 30-day window. The pages open when the feature
+is enabled. See the
+[Web Arena guide](docs/context/interface/web-arena.md).
 
 ## Share & use your own tools
 

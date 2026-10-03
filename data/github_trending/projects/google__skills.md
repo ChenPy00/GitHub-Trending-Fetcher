@@ -5,7 +5,7 @@
   "full_name": "google/skills",
   "url": "https://github.com/google/skills",
   "description": "Agent Skills for Google products and technologies",
-  "readme_sha256": "6957415a120f4424070b31004a020512f049e945c9337af9de340d20a4241fff"
+  "readme_sha256": "9132477b86d93b0de8960428d5382112185b4932653a15f23a34aaa5dc910d5a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/google/skills
 - Description: Agent Skills for Google products and technologies
-- README SHA256: `6957415a120f4424070b31004a020512f049e945c9337af9de340d20a4241fff`
+- README SHA256: `9132477b86d93b0de8960428d5382112185b4932653a15f23a34aaa5dc910d5a`
 
 ## README
 
@@ -23,9 +23,6 @@
 
 This repository contains [Agent Skills](https://agentskills.io/home) for Google
 products and technologies, including [Google Cloud](https://cloud.google.com).
-
-> [!NOTE]
-> This repository is under active development.
 
 ## Installation
 
@@ -72,10 +69,10 @@ repo to install.
   - [**Gemini API in Agent Platform**](./skills/cloud/gemini-api)
   - [**Gemini Enterprise Agent Platform - Managed Agents API Skill**](./skills/cloud/gemini-agents-api)
   - [**Gemini Interactions API Skill**](./skills/cloud/gemini-interactions-api)
-  - [**Genkit Dart**](./skills/cloud/genkit-dart)
-  - [**Genkit Go**](./skills/cloud/genkit-go)
-  - [**Genkit JS**](./skills/cloud/genkit-js)
-  - [**Genkit Python**](./skills/cloud/genkit-python)
+  - [**Genkit Dart**](./skills/cloud/developing-genkit-dart)
+  - [**Genkit Go**](./skills/cloud/developing-genkit-go)
+  - [**Genkit JS**](./skills/cloud/developing-genkit-js)
+  - [**Genkit Python**](./skills/cloud/developing-genkit-python)
   - [**LiveAPI Service Skill**](./skills/cloud/gemini-live-api)
   - [**Migrating from Gemini API in AI Studio to Agent Platform**](./skills/cloud/agent-platform-migrate-from-ai-studio)
   - [**Skill Registry**](./skills/cloud/agent-platform-skill-registry)
@@ -101,11 +98,16 @@ repo to install.
   - [**GKE Reliability**](./skills/cloud/gke-reliability)
   - [**GKE Service Networking Skill**](./skills/cloud/gke-service-networking)
   - [**GKE Storage**](./skills/cloud/gke-storage)
+  - [**GKE Storage Troubleshooting Skill**](./skills/cloud/gke-storage-troubleshooting)
   - [**GKE TPU Dynamic Slices Monitoring & Management**](./skills/cloud/gke-ai-troubleshooting-tpu-dynamic-slices-monitoring)
   - [**GKE Upgrades & Maintenance**](./skills/cloud/gke-upgrades)
   - [**GKE Workload Scaling**](./skills/cloud/gke-workload-scaling)
+  - [**GKE Workload Scaling Troubleshooting Skill**](./skills/cloud/gke-workload-scaling-troubleshooting)
   - [**GKE Workload Troubleshooting Skill**](./skills/cloud/gke-workload-troubleshooting)
+  - [**Google Cloud Filestore Auditing Skill**](./skills/cloud/google-cloud-filestore-auditing)
   - [**Google Cloud Filestore Autoscale**](./skills/cloud/google-cloud-filestore-autoscale)
+  - [**Google Cloud Filestore Log-Based Troubleshooting**](./skills/cloud/google-cloud-filestore-log-troubleshooting)
+  - [**Google Cloud Filestore NFS File Browser**](./skills/cloud/google-cloud-filestore-nfs-browser)
   - [**Google Cloud global external Application Load Balancer Configuration Skill**](./skills/cloud/google-cloud-global-frontend-configuration)
   - [**Google Cloud Networking Observability Expert**](./skills/cloud/google-cloud-networking-observability)
   - [**Google Cloud Storage Basics**](./skills/cloud/google-cloud-storage-basics)
@@ -116,9 +118,14 @@ repo to install.
   - [**BigFrames (BigQuery DataFrame) basics**](./skills/cloud/bigquery-bigframes)
   - [**BigQuery Asset Impact Analysis**](./skills/cloud/datalineage-bigquery-asset-impact-analysis)
   - [**BigQuery Basics**](./skills/cloud/bigquery-basics)
+  - [**BigQuery Observability**](./skills/cloud/bigquery-observability)
+  - [**BigQuery Optimization Workflow**](./skills/cloud/bigquery-optimization)
+  - [**BigQuery slot and cost optimizer**](./skills/cloud/bigquery-slot-cost-optimizer)
+  - [**BigQuery Troubleshooting**](./skills/cloud/bigquery-troubleshooting)
   - [**Bigtable Basics**](./skills/cloud/bigtable-basics)
   - [**Cloud SQL Basics**](./skills/cloud/cloud-sql-basics)
   - [**Data Lineage Summary**](./skills/cloud/datalineage-summary)
+  - [**dbt Snowflake to BigQuery Translator**](./skills/cloud/dbt-sf-to-bq-translator)
   - [**GCP Managed Airflow DAG Authoring Guide**](./skills/cloud/managed-airflow-dag-authoring)
   - [**Google Cloud Database Onboarding Skill**](./skills/cloud/cloud-databases-onboarding)
   - [**Managed Service for Apache Airflow (formerly Cloud Composer) DAG troubleshooting guide**](./skills/cloud/managed-airflow-dag-troubleshooting)
@@ -156,12 +163,21 @@ repo to install.
 - **Security and identity**
   - [**DPoP Adoption & Identity Security Architecture**](./skills/identity/dpop-adoption)
   - [**GKE Platform Security**](./skills/cloud/gke-platform-security)
+  - [**GKE Workload Identity Federation Troubleshooting Skill**](./skills/cloud/gke-workload-identity)
   - [**GKE Workload Security**](./skills/cloud/gke-workload-security)
+  - [**Google Cloud IAM Access Troubleshooter & Remediation Orchestrator**](./skills/cloud/iam-helper-for-troubleshooting)
   - [**Google Cloud Security Command Center Query Skill**](./skills/cloud/google-cloud-scc-query)
+  - [**Google SecOps Case Management Skill for AI Agents**](./skills/cloud/secops-cases)
+  - [**Google SecOps Detection Engineering Skill**](./skills/cloud/secops-detection-engineering)
+  - [**Google SecOps Incident & Entity Investigation Skill**](./skills/cloud/secops-investigate)
+  - [**Google SecOps Security Alert Triage Specialist**](./skills/cloud/secops-triage)
+  - [**Google SecOps Threat Hunting Skill**](./skills/cloud/secops-hunt)
+  - [**IAM Helper for Policy Management**](./skills/cloud/iam-helper-for-policy-management)
   - [**IAM Policy Simulator (v1 Allow)**](./skills/cloud/iam-helper-for-policy-simulator)
   - [**Privileged Access Manager (PAM)**](./skills/cloud/iam-helper-for-privileged-access-management)
   - [**SecOps Detection Coverage Skill**](./skills/cloud/detection-engineering-coverage-evaluation)
 - **Web and app hosting**
+  - [**Cloud Run Alert Configuration**](./skills/cloud/cloud-run-alert-configuration)
   - [**Cloud Run Basics**](./skills/cloud/cloud-run-basics)
   - [**Firebase Basics**](./skills/cloud/firebase-basics)
 - **Advertising**
