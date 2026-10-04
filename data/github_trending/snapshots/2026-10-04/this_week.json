@@ -1,0 +1,161 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 1,
+      "readme_sha256": "19bbd5aaa6dd343bbabb736f089cc977bf2d5520a0b0a9d09d5a7a54cb900d8f",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 2,
+      "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 3,
+      "readme_sha256": "a4fa9787ad433be80bd48d617c964a2f0ee7322b989c5b8ad2c85e86b5c461b3",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 4,
+      "readme_sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 5,
+      "readme_sha256": "1d744db20989935d6e51569bd0c7008f97467f41aba50057120a6e30df39401a",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 6,
+      "readme_sha256": "aff852e0f586d5ce546d553398535453371ae3a30aeb46adb6febb678e10b079",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "The React Framework",
+      "full_name": "vercel/next.js",
+      "project_file": "projects/vercel__next.js.md",
+      "rank": 7,
+      "readme_sha256": "63db2890be2ea3ccd65c358e57f9177d568e237aace2164a3d28c1258d070bfa",
+      "url": "https://github.com/vercel/next.js"
+    },
+    {
+      "description": "Build production-ready applications in TypeScript",
+      "full_name": "Effect-TS/effect",
+      "project_file": "projects/Effect-TS__effect.md",
+      "rank": 8,
+      "readme_sha256": "cf2ed34e5059106b2c467579b02e731eab19c5b64c8b42259cabcc332812c901",
+      "url": "https://github.com/Effect-TS/effect"
+    },
+    {
+      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "full_name": "alirezarezvani/claude-skills",
+      "project_file": "projects/alirezarezvani__claude-skills.md",
+      "rank": 9,
+      "readme_sha256": "f7a1b881bc5abf370e6eb83eaf1a34488b9595a6464de7613d1ec6207acb8195",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "full_name": "flutter/flutter",
+      "project_file": "projects/flutter__flutter.md",
+      "rank": 10,
+      "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a",
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 11,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 12,
+      "readme_sha256": "a7394d9830f08a86e2bcb1f4802a692c4c9dfabfcc8007b797db5587862df514",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "full_name": "tile-ai/tilelang",
+      "project_file": "projects/tile-ai__tilelang.md",
+      "rank": 13,
+      "readme_sha256": "0ed9386786b622560c51ef8290537b2e62cd211b6a61d4181fb35377cfa53a4e",
+      "url": "https://github.com/tile-ai/tilelang"
+    },
+    {
+      "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
+      "full_name": "longbridge/gpui-kit",
+      "project_file": "projects/longbridge__gpui-kit.md",
+      "rank": 14,
+      "readme_sha256": "4c535f781dd2ac0c6687e50b9a55cf7acbb049086d09b2ef64f1538224518d89",
+      "url": "https://github.com/longbridge/gpui-kit"
+    },
+    {
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "full_name": "pytorch/pytorch",
+      "project_file": "projects/pytorch__pytorch.md",
+      "rank": 15,
+      "readme_sha256": "9b578510b74e89d2001463987d8751216539937f97d1b3da4f90500d8d78728c",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 16,
+      "readme_sha256": "eaae6cc4f72d911b73d8724fe73f2d5b8597a330b4258af5ec90eec1e767b5d0",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "yoink any video from your terminal. no shady ads.",
+      "full_name": "pablostanley/yoinks",
+      "project_file": "projects/pablostanley__yoinks.md",
+      "rank": 17,
+      "readme_sha256": "f68c0b18f2ceac9d2a5a5ec28fdad53c7f3056034839fb37d7f2d40ef346c718",
+      "url": "https://github.com/pablostanley/yoinks"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 18,
+      "readme_sha256": "3122b9523b1efe16fd66f9dfad96461b7c900ffbd93273f1b806e991134f4309",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Useful tool to track location or mobile number",
+      "full_name": "HunxByts/GhostTrack",
+      "project_file": "projects/HunxByts__GhostTrack.md",
+      "rank": 19,
+      "readme_sha256": "87178ec01cec5fcc35bd2b3f5db650dcf2107fa5951a11c8e315a4e40f3346c7",
+      "url": "https://github.com/HunxByts/GhostTrack"
+    }
+  ],
+  "snapshot_date": "2026-10-04",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

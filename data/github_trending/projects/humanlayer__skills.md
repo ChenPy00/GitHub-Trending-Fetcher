@@ -5,7 +5,7 @@
   "full_name": "humanlayer/skills",
   "url": "https://github.com/humanlayer/skills",
   "description": "",
-  "readme_sha256": "8123e666e2c8a5cb27f7211557f65544383178c7d1ad816b350d08bede2e323e"
+  "readme_sha256": "1ed3b876d72ce8ac3913166a4da2008894e32bd2ab504613362ad32f630cbd38"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/humanlayer/skills
 - Description: No description
-- README SHA256: `8123e666e2c8a5cb27f7211557f65544383178c7d1ad816b350d08bede2e323e`
+- README SHA256: `1ed3b876d72ce8ac3913166a4da2008894e32bd2ab504613362ad32f630cbd38`
 
 ## README
 
@@ -28,6 +28,34 @@ npx skills add humanlayer/skills --skill SKILLNAME
 ```
 
 ## Available Skills
+
+### show-me
+
+Explains the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.
+
+```bash
+npx skills add humanlayer/skills --skill show-me
+```
+
+Then invoke:
+
+```
+/show-me
+```
+
+### visual-pr
+
+Creates or updates a pull request with a concise visual outline that helps reviewers understand the change.
+
+```bash
+npx skills add humanlayer/skills --skill visual-pr
+```
+
+Then invoke:
+
+```
+/visual-pr
+```
 
 ### improve-claude-md
 
@@ -83,18 +111,4 @@ Then in your project:
 
 ```
 /design-control-loop
-```
-
-### show-me
-
-Explains the current topic with concise diagrams, code-shape sketches, and focused HTML artifacts.
-
-```bash
-npx skills add humanlayer/skills --skill show-me
-```
-
-Then invoke:
-
-```
-/show-me
 ```
