@@ -1,0 +1,137 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "full_name": "tester-army/e2e",
+      "project_file": "projects/tester-army__e2e.md",
+      "rank": 1,
+      "readme_sha256": "671cc2d9273698bf21f2e9be6791fc692c221beb7114e0ad680d34bb674285a0",
+      "url": "https://github.com/tester-army/e2e"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 2,
+      "readme_sha256": "4dfa2740321ca339244080e37f44721ea5d9cd3e15513d13cb1ac57beff7e29f",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and growth engineering.",
+      "full_name": "coreyhaines31/marketingskills",
+      "project_file": "projects/coreyhaines31__marketingskills.md",
+      "rank": 3,
+      "readme_sha256": "5c8f6e559e35ff584971297c13b79f31132f0389b82138c1d05c3230fa6072a8",
+      "url": "https://github.com/coreyhaines31/marketingskills"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 4,
+      "readme_sha256": "7d4d426ff56c7e28ca135a8b56843413ad24a987f161c456a21eec349158947a",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Give your agent CAD superpowers.",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 5,
+      "readme_sha256": "2e6f1a28d38e0c05afb38d6c7096b4ccd11064295df6f86c86547593fa94a3d2",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Developer-first error tracking and performance monitoring",
+      "full_name": "getsentry/sentry",
+      "project_file": "projects/getsentry__sentry.md",
+      "rank": 7,
+      "readme_sha256": "0c46c110a5ade487b9c5aa486f9d21f279fabd9ffb74ed4ca898647c238c3470",
+      "url": "https://github.com/getsentry/sentry"
+    },
+    {
+      "description": "World's first open-source, agentic video production system. 12 production pipelines, 100+ tools, 700+ agent skill and production-knowledge files. Turn your AI coding assistant into a full video production studio.",
+      "full_name": "calesthio/OpenMontage",
+      "project_file": "projects/calesthio__OpenMontage.md",
+      "rank": 8,
+      "readme_sha256": "0431403a913bb4a132e090f4dbd0343852473aa62d67a3a3912294129482906b",
+      "url": "https://github.com/calesthio/OpenMontage"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 9,
+      "readme_sha256": "1e61dfaa3754fbb2a11ae92f62fc5abe5f4fa22dc37f0e1cf832968022ec5c8b",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "full_name": "caddyserver/caddy",
+      "project_file": "projects/caddyserver__caddy.md",
+      "rank": 10,
+      "readme_sha256": "0bc5939a26994a481e65b84b4e1b9ee44dd06796df4a196c75e9bdcdd4868b18",
+      "url": "https://github.com/caddyserver/caddy"
+    },
+    {
+      "description": "Claude Code, Codex, Pi, OpenCode, Gemini, and Prime Agent versions of Poteto's pstack. Rigorous agent workflows with Cursor primitives translated for other harnesses.",
+      "full_name": "michael-denyer/pstack-claude",
+      "project_file": "projects/michael-denyer__pstack-claude.md",
+      "rank": 11,
+      "readme_sha256": "332e3159532765d0199ea9af50ec01b7e5f1a807394b45b79dfb08e6d729e7de",
+      "url": "https://github.com/michael-denyer/pstack-claude"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 12,
+      "readme_sha256": "4bae14d9c56e00b5ac22a46df829beb33bf7c51163cac12c0fa433bd26efbd6e",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 13,
+      "readme_sha256": "0a51343609296b2778648cd8e428027af444de574d334654549b32c9162747ff",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "full_name": "garrytan/gstack",
+      "project_file": "projects/garrytan__gstack.md",
+      "rank": 14,
+      "readme_sha256": "44b4fa05b16537a970e400a9a0845cd6b9f82e748c3cc803ebf7a14d16716704",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    {
+      "description": "The open-source CapCut alternative",
+      "full_name": "OpenCut-app/OpenCut",
+      "project_file": "projects/OpenCut-app__OpenCut.md",
+      "rank": 15,
+      "readme_sha256": "95ccfeb63ebca77afdde080e2923b5f29b680db6b42a9be8b9098ea7ba25c050",
+      "url": "https://github.com/OpenCut-app/OpenCut"
+    },
+    {
+      "description": "DeepSeek 4 Flash and PRO local inference engine for Metal, CUDA and ROCm",
+      "full_name": "antirez/ds4",
+      "project_file": "projects/antirez__ds4.md",
+      "rank": 16,
+      "readme_sha256": "d61ff9a3153916ab88917cbfab0ca1a8c2e42b138b71a1ca0d74d05f391ff113",
+      "url": "https://github.com/antirez/ds4"
+    }
+  ],
+  "snapshot_date": "2026-10-05",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

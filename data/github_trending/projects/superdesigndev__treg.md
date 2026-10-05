@@ -5,7 +5,7 @@
   "full_name": "superdesigndev/treg",
   "url": "https://github.com/superdesigndev/treg",
   "description": "OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn",
-  "readme_sha256": "2c7dd58ea0bec5de0c75d5563c3c31c2b2eab256bbda1c13b2ba7727f08eff79"
+  "readme_sha256": "135fbdac02dba9a18678c7d151be1e93975c496befefb6c75e0d6aaaaebf4176"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/superdesigndev/treg
 - Description: OpenRouter for agent tools. Join community here: https://discord.gg/6mQYYfFMAn
-- README SHA256: `2c7dd58ea0bec5de0c75d5563c3c31c2b2eab256bbda1c13b2ba7727f08eff79`
+- README SHA256: `135fbdac02dba9a18678c7d151be1e93975c496befefb6c75e0d6aaaaebf4176`
 
 ## README
 
@@ -130,8 +130,9 @@ Ready-made recipes your agent runs end to end, every call through treg:
 | [`treg`](skills/treg/SKILL.md) | Find and call any tool in the catalog, plus your own tools |
 | [`lead-signals`](skills/lead-signals/SKILL.md) | Find in-market buyers from public signals (complaints, job changes, hiring, funding, tool adoption) and monitor a topic, competitor or account list for them ([treg.to/leads-signals](https://treg.to/leads-signals)) |
 | [`make-ugc`](skills/make-ugc/SKILL.md) | Make AI UGC videos: trending hooks, a presenter, talking-head clips, captions ([treg.to/ugc](https://treg.to/ugc)) |
+| [`jev-memory`](skills/jev-memory/SKILL.md) | Give Claude Code a memory: a Claude Code mod where Jev judges each prompt after the turn and keeps your lasting preferences, installed ready-made or built from one prompt ([the mod](examples/claude-code-mods/jev-memory)) |
 
-`install.sh` installs all of them for you. To add them to an existing agent instead
+`install.sh` installs all of them for you except `jev-memory`, which is opt-in. To add them to an existing agent instead
 ([skills.sh](https://skills.sh) CLI):
 
 ```bash

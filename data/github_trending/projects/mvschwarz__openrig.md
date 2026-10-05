@@ -5,7 +5,7 @@
   "full_name": "mvschwarz/openrig",
   "url": "https://github.com/mvschwarz/openrig",
   "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
-  "readme_sha256": "b512ba986693d526f817ffeafe17f276bb2d7cdf48776744cc9f1a7a6c37f5e6"
+  "readme_sha256": "b889f3aa9444ac0a9895781dbad5eeb27328233720610b3e420e8359c9db8411"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/mvschwarz/openrig
 - Description: Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.
-- README SHA256: `b512ba986693d526f817ffeafe17f276bb2d7cdf48776744cc9f1a7a6c37f5e6`
+- README SHA256: `b889f3aa9444ac0a9895781dbad5eeb27328233720610b3e420e8359c9db8411`
 
 ## README
 
@@ -111,7 +111,7 @@ using a published package, since repository guidance can be ahead of npm.
 | When | What changes and why |
 | --- | --- |
 | **npm installation** | Installs the CLI, bundled components and dependencies under your npm prefix (with Bun, under Bun's global directory). OpenRig's postinstall checks the Node.js version and that the SQLite module loads; Bun may block this script. It does not run daemon or provider setup. |
-| **`rig setup`** | Attempts missing tools and writes an OpenRig block in `~/.tmux.conf` for mouse support and scrollback. On macOS it can install cmux and enable its automation socket control in `~/.config/cmux/settings.json`. `--full` adds workstation tools. `--dry-run` shows setup's plan without applying it. |
+| **`rig setup`** | Attempts missing tools and writes an OpenRig block in `~/.tmux.conf` for mouse support and scrollback. On macOS it can install cmux and enable its automation socket control in `~/.config/cmux/settings.json`; cmux defaults `automation.socketControlMode` to `cmuxOnly`, which only accepts processes started inside cmux and so blocks OpenRig's control, so setup switches it to `automation`. `--full` adds workstation tools. `--dry-run` shows setup's plan without applying it. |
 | **Daemon startup** | Creates/updates instance state under `OPENRIG_HOME` (normally `~/.openrig`), including its database and managed plugin resources. Seeds the `openrig-skills` discovery skill in `~/.claude/skills` and `~/.agents/skills`, subject to existing version ownership. With `runtime.codex.hooks_enabled` enabled (the default), writes Codex hook configuration and trust records as described below—even before a rig launches. |
 | **Rig/seat launch and attachment** | Creates tmux sessions, supplies seat identity and daemon connection environment, and projects selected guidance, skills, plugins and runtime resources into the workspace. Managed startup pre-trusts the workspace. Claude context collection can also be provisioned for attached sessions and refreshed during monitoring. |
 | **Explicit permission configuration** | The built-in bootstrap does **not** add `rig` command allow rules. Agent-guided setup recommends Yes and requires your actual answer before the agent [adds rules at your chosen scope](docs/reference/getting-started.md#have-your-agent-configure-permissions). No/no answer preserves settings; existing choices and stricter rules remain relevant. Broader access is separate. |
