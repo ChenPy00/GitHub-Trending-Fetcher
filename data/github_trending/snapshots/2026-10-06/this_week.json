@@ -1,0 +1,177 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 1,
+      "readme_sha256": "23c3a4f81263247f866bdcf39c82c1eca7ab8eca5df91a912f1e3ea6f2d45f1d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 2,
+      "readme_sha256": "19bbd5aaa6dd343bbabb736f089cc977bf2d5520a0b0a9d09d5a7a54cb900d8f",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 3,
+      "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 4,
+      "readme_sha256": "9034fa85fc17a64b5b71a194b0a1a5b8894f53c98b032b1e26e63fd9df8fda24",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 5,
+      "readme_sha256": "a4fa9787ad433be80bd48d617c964a2f0ee7322b989c5b8ad2c85e86b5c461b3",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 6,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Build production-ready applications in TypeScript",
+      "full_name": "Effect-TS/effect",
+      "project_file": "projects/Effect-TS__effect.md",
+      "rank": 7,
+      "readme_sha256": "cf2ed34e5059106b2c467579b02e731eab19c5b64c8b42259cabcc332812c901",
+      "url": "https://github.com/Effect-TS/effect"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 8,
+      "readme_sha256": "91003183a7242883345aa6f8fbd7bc5f130b23c5b5ead1906ca2ac3f5aa61553",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "A terminal window manager that knows what your agents are doing. Tiling panes, workspaces, sessions that survive restarts, and one Inbox for every coding agent.",
+      "full_name": "Gaurav-Gosain/tuios",
+      "project_file": "projects/Gaurav-Gosain__tuios.md",
+      "rank": 9,
+      "readme_sha256": "ead8b767fe25c427e925761cd9d6c38f783cf28a5c00e262726eea2e501ae981",
+      "url": "https://github.com/Gaurav-Gosain/tuios"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 10,
+      "readme_sha256": "1e61dfaa3754fbb2a11ae92f62fc5abe5f4fa22dc37f0e1cf832968022ec5c8b",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "Learn it. Build it. Ship it for others.",
+      "full_name": "rohitg00/ai-engineering-from-scratch",
+      "project_file": "projects/rohitg00__ai-engineering-from-scratch.md",
+      "rank": 11,
+      "readme_sha256": "cbae04a95bfefb02f0a7469aa61da32c75ee028a0431cb400158b748ab0f4c12",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    {
+      "description": "380 Claude Code skills & agent skills & plugins (30+ Agents, 70+ custom commands, 380+ skills, customizable references, scripts)for Claude Code, Codex, Gemini CLI, Cursor, and 8 more coding agents — engineering, marketing, product, compliance, C-level advisory, research, business operations, commercial & finance, and your daily productivity skills.",
+      "full_name": "alirezarezvani/claude-skills",
+      "project_file": "projects/alirezarezvani__claude-skills.md",
+      "rank": 12,
+      "readme_sha256": "f7a1b881bc5abf370e6eb83eaf1a34488b9595a6464de7613d1ec6207acb8195",
+      "url": "https://github.com/alirezarezvani/claude-skills"
+    },
+    {
+      "description": "Agent workspace built on Cloudflare Workers for creating documents, building apps, and running agents with your company’s context and systems.",
+      "full_name": "cloudflare/cloudflare-os",
+      "project_file": "projects/cloudflare__cloudflare-os.md",
+      "rank": 13,
+      "readme_sha256": "24363f6af9eb1cd04fb432f38301d853e895edbe8d13de36a21ce9ad685f8de8",
+      "url": "https://github.com/cloudflare/cloudflare-os"
+    },
+    {
+      "description": "Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels",
+      "full_name": "tile-ai/tilelang",
+      "project_file": "projects/tile-ai__tilelang.md",
+      "rank": 14,
+      "readme_sha256": "0ed9386786b622560c51ef8290537b2e62cd211b6a61d4181fb35377cfa53a4e",
+      "url": "https://github.com/tile-ai/tilelang"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 15,
+      "readme_sha256": "afad05193dfed1d1e6acd84d4dd7f1f524a14f49b866007287b9a61b322307e6",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 16,
+      "readme_sha256": "52109f347ee8afc826405f686328d4b7ba2cf5bb57bb8808323ac8da522b8084",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "full_name": "harry0703/MoneyPrinterTurbo",
+      "project_file": "projects/harry0703__MoneyPrinterTurbo.md",
+      "rank": 17,
+      "readme_sha256": "eaae6cc4f72d911b73d8724fe73f2d5b8597a330b4258af5ec90eec1e767b5d0",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+    },
+    {
+      "description": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS",
+      "full_name": "caddyserver/caddy",
+      "project_file": "projects/caddyserver__caddy.md",
+      "rank": 18,
+      "readme_sha256": "0bc5939a26994a481e65b84b4e1b9ee44dd06796df4a196c75e9bdcdd4868b18",
+      "url": "https://github.com/caddyserver/caddy"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 19,
+      "readme_sha256": "c3b62b8f48b021ecc8aea23f823a8ddb23afafdf65aaa32d2de88efba6815860",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "yoink any video from your terminal. no shady ads.",
+      "full_name": "pablostanley/yoinks",
+      "project_file": "projects/pablostanley__yoinks.md",
+      "rank": 20,
+      "readme_sha256": "f68c0b18f2ceac9d2a5a5ec28fdad53c7f3056034839fb37d7f2d40ef346c718",
+      "url": "https://github.com/pablostanley/yoinks"
+    },
+    {
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 21,
+      "readme_sha256": "887a172eb4fd36c06f28b65c95ceb2b77d8e098bd14e132ed89f201e9a738075",
+      "url": "https://github.com/mvschwarz/openrig"
+    }
+  ],
+  "snapshot_date": "2026-10-06",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

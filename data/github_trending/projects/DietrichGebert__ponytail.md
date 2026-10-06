@@ -5,7 +5,7 @@
   "full_name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "readme_sha256": "7d4d426ff56c7e28ca135a8b56843413ad24a987f161c456a21eec349158947a"
+  "readme_sha256": "91003183a7242883345aa6f8fbd7bc5f130b23c5b5ead1906ca2ac3f5aa61553"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DietrichGebert/ponytail
 - Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- README SHA256: `7d4d426ff56c7e28ca135a8b56843413ad24a987f161c456a21eec349158947a`
+- README SHA256: `91003183a7242883345aa6f8fbd7bc5f130b23c5b5ead1906ca2ac3f5aa61553`
 
 ## README
 
@@ -54,7 +54,7 @@
 </p>
 
 <p align="center">
-  <sub><a href="README.es.md">Español</a> &middot; <a href="README.ko.md">한국어</a></sub>
+  <sub><a href="i18n/README.es.md">Español</a> &middot; <a href="i18n/README.ko.md">한국어</a> &middot; <a href="i18n/README.zh-CN.md">简体中文</a> &middot; <a href="i18n/README.ja.md">日本語</a></sub>
 </p>
 
 ---
@@ -152,7 +152,7 @@ Lazy, not negligent: trust-boundary validation, data-loss handling, security, an
 | `/ponytail-gain` | Show the measured impact scoreboard (less code, less cost, more speed) from the benchmark. |
 | `/ponytail-help` | Quick reference for the commands above. |
 
-Commands need a skill-capable host (Claude Code, Codex, Devin CLI, OpenCode, Gemini, pi, Swival, Hermes Agent, Qoder, Grok Build). In Codex CLI and the IDE extension they're skills; invoke with `$ponytail-review`. Cursor with the [hooks](INSTALL.md#cursor) gets `/ponytail` level switching only, typed as a plain message. The instruction-only adapters (Cursor's rule file, Windsurf, Cline, Copilot, Kiro, Antigravity) load the always-on ruleset without the commands.
+Commands need a skill-capable host (Claude Code, Codex, Devin CLI, OpenCode, Gemini, pi, Hermes Agent, Qoder, Grok Build). In Codex CLI and the IDE extension they're skills under the plugin's namespace; invoke with `$ponytail:ponytail-review`. Cursor with the [hooks](INSTALL.md#cursor) gets `/ponytail` level switching only, typed as a plain message. The instruction-only adapters (Cursor's rule file, Windsurf, Cline, Copilot, Kiro, Antigravity) load the always-on ruleset without the commands.
 
 ## Numbers
 

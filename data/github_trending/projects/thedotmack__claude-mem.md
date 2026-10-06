@@ -5,7 +5,7 @@
   "full_name": "thedotmack/claude-mem",
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "readme_sha256": "0a51343609296b2778648cd8e428027af444de574d334654549b32c9162747ff"
+  "readme_sha256": "e1b6a2b796a6656f7108ecbd74cd8911e1920ad991d16c6eac7ce63f9d81896f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/thedotmack/claude-mem
 - Description: Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
-- README SHA256: `0a51343609296b2778648cd8e428027af444de574d334654549b32c9162747ff`
+- README SHA256: `e1b6a2b796a6656f7108ecbd74cd8911e1920ad991d16c6eac7ce63f9d81896f`
 
 ## README
 
@@ -78,7 +78,7 @@
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
   </a>
   <a href="package.json">
-    <img src="https://img.shields.io/badge/version-13.31.0-green.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-13.32.0-green.svg" alt="Version">
   </a>
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node">
@@ -178,6 +178,14 @@ Or install for OpenCode:
 ```bash
 npx claude-mem install --ide opencode
 ```
+
+Or install for **T3 Code** (Codex and Claude Code providers):
+
+```bash
+npx claude-mem install --ide t3code
+```
+
+The installer discovers T3 Code's enabled providers, registers native Claude-Mem plugins in their configured homes, and supports T3-managed Codex. Restart T3 Code, trust the provider's hooks when prompted, and start a new thread. See the [T3 Code integration guide](https://docs.claude-mem.ai/t3code-integration) for custom server settings, status, and removal.
 
 Or install for Antigravity CLI ([setup guide](https://docs.claude-mem.ai/antigravity-cli/setup)):
 

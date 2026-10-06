@@ -5,7 +5,7 @@
   "full_name": "tester-army/e2e",
   "url": "https://github.com/tester-army/e2e",
   "description": "Next generation e2e testing framework for web and mobile apps.",
-  "readme_sha256": "671cc2d9273698bf21f2e9be6791fc692c221beb7114e0ad680d34bb674285a0"
+  "readme_sha256": "79c43464b897d291fb865e4eed291e0f9470ca22c0568d2757910a95a3d4e6fd"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tester-army/e2e
 - Description: Next generation e2e testing framework for web and mobile apps.
-- README SHA256: `671cc2d9273698bf21f2e9be6791fc692c221beb7114e0ad680d34bb674285a0`
+- README SHA256: `79c43464b897d291fb865e4eed291e0f9470ca22c0568d2757910a95a3d4e6fd`
 
 ## README
 
@@ -24,6 +24,10 @@
   <a href="https://www.npmjs.com/package/e2e"><img alt="npm version" src="https://img.shields.io/npm/v/e2e.svg?style=for-the-badge&labelColor=000000" /></a>
   <a href="./LICENSE"><img alt="License: Apache-2.0" src="https://img.shields.io/badge/license-Apache--2.0-green.svg?style=for-the-badge&labelColor=000000" /></a>
   <a href="https://tester.army/discord"><img alt="Join the community on Discord" src="https://img.shields.io/badge/Join%20the%20community-5865F2.svg?style=for-the-badge&logo=discord&logoColor=white&labelColor=000000" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.star-history.com/tester-army/e2e"><picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=tester-army/e2e&type=trending&theme=dark" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=tester-army/e2e&type=trending" /></picture></a>
 </p>
 
 # e2e
@@ -58,6 +62,11 @@ npx e2e init
 `init` asks for an engine, web or mobile, and a model provider, then writes a
 config and an example test. The
 [quickstart](https://e2e.tester.army/docs/quickstart) covers the rest.
+
+To see a finished setup in your stack, open
+[`examples/`](https://github.com/tester-army/e2e/tree/main/examples):
+Vite, Next.js, Expo, and SwiftUI, each a standalone project with a passing
+suite.
 
 ## Packages
 

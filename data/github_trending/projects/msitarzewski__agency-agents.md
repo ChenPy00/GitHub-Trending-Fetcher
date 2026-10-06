@@ -5,7 +5,7 @@
   "full_name": "msitarzewski/agency-agents",
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-  "readme_sha256": "a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f"
+  "readme_sha256": "c3b62b8f48b021ecc8aea23f823a8ddb23afafdf65aaa32d2de88efba6815860"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/msitarzewski/agency-agents
 - Description: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- README SHA256: `a8c77138fa0c9c91ad1f89f24220b82b4a26223f856ebfb3b647d034aacdb76f`
+- README SHA256: `c3b62b8f48b021ecc8aea23f823a8ddb23afafdf65aaa32d2de88efba6815860`
 
 ## README
 
@@ -85,7 +85,7 @@ Each agent file contains:
 
 Browse the agents below and copy/adapt the ones you need!
 
-### Option 4: Use with Other Tools (GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Kimi Code, Codex, Osaurus, Hermes, Mistral Vibe)
+### Option 4: Use with Other Tools (GitHub Copilot, Antigravity, Gemini CLI, OpenCode, OpenClaw, Cursor, Aider, Windsurf, Kimi Code, Codex, Osaurus, Hermes, Mistral Vibe, DeepSeek Harness)
 
 ```bash
 # Step 1 -- generate integration files for all supported tools
@@ -108,6 +108,7 @@ Browse the agents below and copy/adapt the ones you need!
 ./scripts/install.sh --tool osaurus
 ./scripts/install.sh --tool hermes
 ./scripts/install.sh --tool vibe
+./scripts/install.sh --tool dsh
 ```
 
 **Install only the teams you need** (not everyone wants every division):
@@ -118,6 +119,15 @@ Browse the agents below and copy/adapt the ones you need!
 ./scripts/install.sh --tool cursor --agent frontend-developer,ui-designer
 ./scripts/install.sh --list teams                       # see every team + agent count
 ./scripts/install.sh --tool opencode --division engineering --dry-run
+```
+
+`--agent` and `--agents-file` take an agent's slug (as `--list agents` prints it), its display name, or its file name without `.md` — the id the [runbook rosters](strategy/runbooks.json) use — so a runbook's team installs as listed:
+
+```bash
+python3 -c 'import json, sys
+for r in json.load(open("strategy/runbooks.json"))["runbooks"]:
+    if r["slug"] == sys.argv[1]: [print(a) for g in r["roster"] for a in g["agents"]]' startup-mvp > team.txt
+./scripts/install.sh --tool claude-code --agents-file team.txt
 ```
 
 > **OpenCode note:** OpenCode's runtime currently registers only ~119 agents and silently drops the rest ([upstream bug](https://github.com/anomalyco/opencode/issues/27988)). Installing a subset with `--division` keeps you under that limit. The installer warns you when a selection would exceed it.
@@ -192,6 +202,13 @@ Building the future, one commit at a time.
 | 🦀 [Rust Refactoring Specialist](engineering/engineering-rust-refactoring-specialist.md) | Behavior-aware Rust refactoring | Reforming crates/traits/modules with evidence-based, behavior-preserving changes |
 | 🧪 [LLM Post-Training Engineer](engineering/engineering-llm-post-training-engineer.md) | Post-training stack (SFT/DPO/GRPO/RLVR) | Evidence-based experiment gating, checkpoint integrity, failure classification |
 | 📈 [Data Visualization Engineer](engineering/engineering-data-visualization-engineer.md) | Perceptually honest data viz | Chart-type selection, colorblind-safe palettes, performant D3/Vega rendering |
+| 🧠 [Knowledge Graph Engineer](engineering/engineering-knowledge-graph-engineer.md) | Knowledge graphs, entity-relationship extraction, graph-enhanced RAG | Structuring documents into queryable Neo4j graphs with LangGraph; provenance, contradiction tracking, subgraph retrieval |
+| 🌏 [China Network Engineer](engineering/engineering-china-network-engineer.md) | Huawei VRP, H3C Comware, Ruijie RGOS, Hillstone StoneOS | Routing/switching/firewall design, NAT, MLPS 2.0 compliant borders, change windows with rollback plans |
+| 🛤️ [Platform Engineer](engineering/engineering-platform-engineer.md) | Internal developer platforms, golden paths, IDPs, self-serve infrastructure | Paved-road scaffolding, developer experience measurement, platform-as-a-product roadmaps |
+| 📑 [PDF Engine Architect](engineering/engineering-pdf-engine-architect.md) | Deterministic HTML-to-PDF compilation, tagged PDF/UA and PDF/A | Playwright render pools, dynamic page sizing, archival-grade document output |
+| 🎯 [ATS Validator Architect](engineering/engineering-ats-validator-architect.md) | Resume parseability, ATS ingestion pipelines | BM25/TF-IDF relevance scoring, layout linearization audits, EU AI Act and NYC LL144 compliance |
+| 📑 [Universal Document Compiler](engineering/engineering-universal-document-compiler.md) | Schema-agnostic document ASTs, data-shape layout inference, paged publishing | Compiling arbitrary YAML trees into proposals, technical specs, executive dossiers |
+| 🛠️ [ServiceNow Developer & Mentor](engineering/engineering-servicenow-developer-mentor.md) | Business Rules, Script Includes, GlideAjax, ACLs, Flow Designer | ServiceNow development and step-by-step instance troubleshooting |
 
 ### 🎨 Design Division
 
@@ -254,6 +271,7 @@ Growing your audience, one authentic interaction at a time.
 | 📱 [TikTok Strategist](marketing/marketing-tiktok-strategist.md) | Viral content, algorithm optimization | TikTok growth, viral content, Gen Z/Millennial audience |
 | 📸 [Instagram Curator](marketing/marketing-instagram-curator.md) | Visual storytelling, community building | Instagram strategy, aesthetic development, visual content |
 | 🤝 [Reddit Community Builder](marketing/marketing-reddit-community-builder.md) | Authentic engagement, value-driven content | Reddit strategy, community trust, authentic marketing |
+| 🌱 [Developer Community Builder](marketing/marketing-developer-community-builder.md) | Discord/forum architecture, contributor programs, community health | Building developer communities that members actually value |
 | 📱 [App Store Optimizer](marketing/marketing-app-store-optimizer.md) | ASO, conversion optimization, discoverability | App marketing, store optimization, app growth |
 | 🌐 [Social Media Strategist](marketing/marketing-social-media-strategist.md) | Cross-platform strategy, campaigns | Overall social strategy, multi-platform campaigns |
 | 📕 [Xiaohongshu Specialist](marketing/marketing-xiaohongshu-specialist.md) | Lifestyle content, trend-driven strategy | Xiaohongshu growth, aesthetic storytelling, Gen Z audience |
@@ -293,6 +311,7 @@ Building the right thing at the right time.
 | 🎯 [Sprint Prioritizer](product/product-sprint-prioritizer.md) | Agile planning, feature prioritization | Sprint planning, resource allocation, backlog management |
 | 🔍 [Trend Researcher](product/product-trend-researcher.md) | Market intelligence, competitive analysis | Market research, opportunity assessment, trend identification |
 | 💬 [Feedback Synthesizer](product/product-feedback-synthesizer.md) | User feedback analysis, insights extraction | Feedback analysis, user insights, product priorities |
+| 🔬 [DX Engineer](product/product-dx-engineer.md) | Onboarding friction, SDK ergonomics, error messages | Cutting a developer's time to first success |
 | 🧠 [Behavioral Nudge Engine](product/product-behavioral-nudge-engine.md) | Behavioral psychology, nudge design, engagement | Maximizing user motivation through behavioral science |
 | 🧭 [Product Manager](product/product-manager.md) | Full lifecycle product ownership | Discovery, PRDs, roadmap planning, GTM, outcome measurement |
 
@@ -433,6 +452,8 @@ The unique specialists who don't fit in a box.
 | 🏺 [Codebase Archaeologist](specialized/specialized-codebase-archaeologist.md) | Multi-tool codebase drift audits | Detecting silent drift across Claude/Cursor/Copilot/Windsurf edits |
 | 🧾 [Resume Tailor](specialized/resume-tailor.md) | Candidate-side resume optimization | JD mapping, ATS keyword alignment, experience-to-requirement matching |
 | 🧡 [Aging Parent Care Companion](specialized/healthcare-aging-parent-care-companion.md) | Family caregiver decision-support | Appointment/medication coordination, care-team comms, caregiver wellbeing (HIPAA-aligned) |
+| 🏛️ [Master Plan Architect](specialized/specialized-master-plan-architect.md) | Architectural teaching, red-team plan critique | Deep architecture teaching, risk critique, comprehensive Markdown implementation plans (no code execution) |
+| 🎧 [Focus Music Architect](specialized/specialized-focus-music-architect.md) | Instrumental focus-music prompt engineering, neuroacoustics | Soundscape architecture, BPM curves, binaural layers for generative audio models |
 
 ### 💵 Finance Division
 
@@ -547,6 +568,16 @@ Building AI agents for regulated clinical and sovereign health contexts.
 | 🩺 [Clinical Evidence Agent](healthcare/healthcare-clinical-evidence-agent.md) | Evidence standards, validated vs unvalidated claims, diagnostic authority boundaries | Making clinical claims credibly without overstepping into diagnostic authority |
 | 🌍 [Sovereign Health Systems Agent](healthcare/healthcare-sovereign-health-systems-agent.md) | Government health mandates, UHC policy, emerging market deployment | Health tech teams operating at the intersection of national health infrastructure and sovereign health policy |
 | 🧭 [Healthcare Innovation Strategist](healthcare/healthcare-innovation-strategist.md) | Narrative architecture for healthcare founders across investor, regulatory, sovereign, and clinical audiences | Healthcare founders who need to translate clinical and financial complexity into language that moves capital and builds trust |
+
+---
+
+### 🔍 Research Division
+
+Finding, evaluating, and synthesizing existing evidence rather than generating new primary data.
+
+| Agent | Specialty | When to Use |
+|-------|-----------|-------------|
+| 🔍 [Research Synthesist](research/research-synthesist.md) | Literature review, source evaluation, citation tracing, evidence synthesis | Turning a scattered pile of sources into a structured, honestly-weighted map of what the evidence supports |
 
 ---
 
@@ -734,7 +765,7 @@ The Agency works natively with Claude Code, and ships conversion + install scrip
 - **[Gemini CLI](https://github.com/google-gemini/gemini-cli)** -- `.md` agent files -> `~/.gemini/agents/`
 - **[OpenCode](https://opencode.ai)** — `.md` agent files → `.opencode/agents/`
 - **[Cursor](https://cursor.sh)** — `.mdc` rule files → `.cursor/rules/`
-- **[Aider](https://aider.chat)** — single `CONVENTIONS.md` → `./CONVENTIONS.md`
+- **[Aider](https://aider.chat)** — `CONVENTIONS.md` roster index → `./CONVENTIONS.md`
 - **[Windsurf](https://codeium.com/windsurf)** — single `.windsurfrules` → `./.windsurfrules`
 - **[OpenClaw](https://github.com/openclaw/openclaw)** — `SOUL.md` + `AGENTS.md` + `IDENTITY.md` per agent
 - **[Qwen Code](https://github.com/QwenLM/qwen-code)** — `.md` SubAgent files → `~/.qwen/agents/`
@@ -742,6 +773,7 @@ The Agency works natively with Claude Code, and ships conversion + install scrip
 - **[Codex](https://developers.openai.com/codex/overview)** — TOML custom agents → `~/.codex/agents/`
 - **Osaurus** -- `SKILL.md` skills -> `~/.osaurus/skills/`
 - **[Hermes](integrations/hermes/README.md)** -- lazy-router plugin -> `~/.hermes/plugins/`
+- **[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)** — `SKILL.md` skills → `~/.dsh/skills/` (user) or `.dsh/skills/` (project)
 
 ---
 
@@ -927,7 +959,10 @@ See [integrations/cursor/README.md](integrations/cursor/README.md) for details.
 <details>
 <summary><strong>Aider</strong></summary>
 
-All agents are compiled into a single `CONVENTIONS.md` file that Aider reads automatically.
+`CONVENTIONS.md` is the roster index — every agent's name, description, and the
+path to its full instructions. Aider keeps a conventions file in context for the
+whole session, and the full agent bodies together are about a million tokens, so the
+file lists the agents rather than inlining them.
 
 ```bash
 cd /your/project
@@ -937,6 +972,11 @@ cd /your/project
 Then reference agents in your Aider session:
 ```
 Use the Frontend Developer agent to refactor this component.
+```
+
+When you want an agent's full instructions, read its file in:
+```
+/read-only /path/to/agency-agents/engineering/engineering-frontend-developer.md
 ```
 
 See [integrations/aider/README.md](integrations/aider/README.md) for details.
@@ -1042,6 +1082,34 @@ Use the Frontend Developer agent to review this component.
 See [integrations/codex/README.md](integrations/codex/README.md) for details.
 </details>
 
+<details>
+<summary><strong>DeepSeek Harness</strong></summary>
+
+Each agent becomes a DSH skill (`SKILL.md` with Agent-Skills frontmatter) in `${DSH_HOME:-$HOME/.dsh}/skills/agency-<slug>/`. Skills are discovered live — no restart needed.
+
+```bash
+./scripts/convert.sh --tool dsh
+./scripts/install.sh --tool dsh
+```
+
+Custom user home:
+```bash
+DSH_HOME=~/.config/dsh ./scripts/install.sh --tool dsh
+```
+
+Project-scoped install (run from your project root):
+```bash
+DSH_SKILLS_DIR=.dsh/skills ./scripts/install.sh --tool dsh
+```
+
+Activate in DeepSeek Harness — user- and model-invocable by default:
+```
+/agency-frontend-developer review this React component
+```
+
+See [integrations/dsh/README.md](integrations/dsh/README.md) for details.
+</details>
+
 ---
 
 ### Regenerating After Changes
@@ -1086,12 +1154,6 @@ Community-maintained translations and regional adaptations. These are independen
 | 🇻🇳 Tiếng Việt (vi-VN) | [@rodonguyen](https://github.com/rodonguyen) | [agency-agents](https://github.com/rodonguyen/agency-agents) | Starter Vietnamese localization focused on README, quick start, and high-use docs |
 
 Want to add a translation? Open an issue and we'll link it here.
-
----
-
-## 🔗 Related Resources
-
-- [awesome-openclaw-agents](https://github.com/mergisi/awesome-openclaw-agents) — Community-maintained OpenClaw agent collection (derived from this repo)
 
 ---
 

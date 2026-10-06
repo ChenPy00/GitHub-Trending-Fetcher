@@ -5,7 +5,7 @@
   "full_name": "tashfeenahmed/freellmapi",
   "url": "https://github.com/tashfeenahmed/freellmapi",
   "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-  "readme_sha256": "be0aafe2176daa957f2ba87dc8a64b90ffdc6b6b384a086ddcd8db6543802b0c"
+  "readme_sha256": "8e2dffec3a48893a19fcb8fd9b2d8e565ca6e9126a33b22b99ccb4ba471ff7c6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tashfeenahmed/freellmapi
 - Description: 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
-- README SHA256: `be0aafe2176daa957f2ba87dc8a64b90ffdc6b6b384a086ddcd8db6543802b0c`
+- README SHA256: `8e2dffec3a48893a19fcb8fd9b2d8e565ca6e9126a33b22b99ccb4ba471ff7c6`
 
 ## README
 
@@ -532,6 +532,8 @@ Contributors very welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for the dev lo
 <a href="https://github.com/yzhkali"><img src="https://images.weserv.nl/?url=github.com/yzhkali.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@yzhkali" /></a>
 <a href="https://github.com/levonk"><img src="https://images.weserv.nl/?url=github.com/levonk.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@levonk" /></a>
 <a href="https://github.com/tripstar6000"><img src="https://images.weserv.nl/?url=github.com/tripstar6000.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@tripstar6000" /></a>
+<a href="https://github.com/alkank"><img src="https://images.weserv.nl/?url=github.com/alkank.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@alkank" /></a>
+<a href="https://github.com/Yi-111-a"><img src="https://images.weserv.nl/?url=github.com/Yi-111-a.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@Yi-111-a" /></a>
 
 ## Disclaimer
 
