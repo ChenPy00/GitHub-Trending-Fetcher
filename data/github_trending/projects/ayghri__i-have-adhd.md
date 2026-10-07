@@ -5,7 +5,7 @@
   "full_name": "ayghri/i-have-adhd",
   "url": "https://github.com/ayghri/i-have-adhd",
   "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
-  "readme_sha256": "9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914"
+  "readme_sha256": "d32e56aff0bba67a459b5faa21f478b69f1d51936b8300c81684c17551eda826"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ayghri/i-have-adhd
 - Description: A skill to stop your coding agent from burying the answer. ADHD-friendly output.
-- README SHA256: `9874b7ae8333ae23239de5a565322e590f282f20095e1f1094c7d56452472914`
+- README SHA256: `d32e56aff0bba67a459b5faa21f478b69f1d51936b8300c81684c17551eda826`
 
 ## README
 
@@ -73,7 +73,7 @@ A skill for your coding assistant that stops it from burying the answer. Action 
 
 ## After
 
-> Run `npm install jsonwebtoken@latest`, then edit `src/auth.ts:42`.
+> Edit `src/auth.ts:42` to update the token validation.
 >
 > 1. Open `src/auth.ts`
 > 2. Replace `verifyToken` (lines 42–58) with the snippet below

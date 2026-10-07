@@ -5,7 +5,7 @@
   "full_name": "DuarteSantos8/openGym",
   "url": "https://github.com/DuarteSantos8/openGym",
   "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-  "readme_sha256": "99a9d596ff935cb717d681edd3f5100af4fa0ecdc69cf7f32acbbc6fcdbb39a1"
+  "readme_sha256": "f3d7e8f714e962f94f49ac084611ecf54177cdc51019ee46e4c03a61305775ec"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DuarteSantos8/openGym
 - Description: Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
-- README SHA256: `99a9d596ff935cb717d681edd3f5100af4fa0ecdc69cf7f32acbbc6fcdbb39a1`
+- README SHA256: `f3d7e8f714e962f94f49ac084611ecf54177cdc51019ee46e4c03a61305775ec`
 
 ## README
 
@@ -42,6 +42,8 @@ on your phone, synced across your devices, behind your own passkey login.
 [Self-hosting guide](docs/SELF_HOSTING.md) ·
 [Roadmap](ROADMAP.md) ·
 [Changelog](CHANGELOG.md)
+
+<a href="https://buymeacoffee.com/duartesantos" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="45" width="163"></a>
 
 </div>
 

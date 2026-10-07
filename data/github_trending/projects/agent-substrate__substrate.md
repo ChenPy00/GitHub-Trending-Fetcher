@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "b12d29ebf9df7d2f41b8216986f3fe388fa4bc819f978f21bca3029c445ea877"
+  "readme_sha256": "3c324b00a58fd06152102ad4fdb2a823b43e5a24547c5dc3ee3ebddbad7ec04a"
 }
 ```
 
@@ -13,13 +13,26 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `b12d29ebf9df7d2f41b8216986f3fe388fa4bc819f978f21bca3029c445ea877`
+- README SHA256: `3c324b00a58fd06152102ad4fdb2a823b43e5a24547c5dc3ee3ebddbad7ec04a`
 
 ## README
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="logo/ate-logo-with-border.svg">
+  <img src="logo/ate-logo.svg" alt="Agent Substrate logo: a green octopus with agent puppets" width="260">
+</picture>
+
 # Agent Substrate
 
+**A secure-by-default runtime for running millions of agent sandboxes on Kubernetes.**
+
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+[Quickstart](#quickstart-development) · [Architecture](docs/architecture.md) · [Roadmap](docs/roadmap.md) · [Contributing](CONTRIBUTING.md)
+
+</div>
 
 ## What is Agent Substrate?
 

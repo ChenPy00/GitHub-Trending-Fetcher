@@ -1,0 +1,105 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 1,
+      "readme_sha256": "b436dafb12ce00596a575aafb480de82a3a0a41e0d0764fed4a36ef6e52ed12a",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 2,
+      "readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 3,
+      "readme_sha256": "e59524cf8b49034ca9e963651ce3b5c9bc7bc1d6107aa7e7e4618538d1f9981e",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 4,
+      "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "full_name": "VectifyAI/PageIndex",
+      "project_file": "projects/VectifyAI__PageIndex.md",
+      "rank": 5,
+      "readme_sha256": "fc08d3fad45b28810d578c1fe71859619abc06e7849daf9025982c0168a42308",
+      "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 6,
+      "readme_sha256": "5acecc5ba8cc43fa6e4cb228c3a76a93147862e1979d3a17d1e2d2f5ffca7614",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "yoink any video from your terminal. no shady ads.",
+      "full_name": "pablostanley/yoinks",
+      "project_file": "projects/pablostanley__yoinks.md",
+      "rank": 7,
+      "readme_sha256": "f68c0b18f2ceac9d2a5a5ec28fdad53c7f3056034839fb37d7f2d40ef346c718",
+      "url": "https://github.com/pablostanley/yoinks"
+    },
+    {
+      "description": "Useful tool to track location or mobile number",
+      "full_name": "HunxByts/GhostTrack",
+      "project_file": "projects/HunxByts__GhostTrack.md",
+      "rank": 8,
+      "readme_sha256": "87178ec01cec5fcc35bd2b3f5db650dcf2107fa5951a11c8e315a4e40f3346c7",
+      "url": "https://github.com/HunxByts/GhostTrack"
+    },
+    {
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "full_name": "DuarteSantos8/openGym",
+      "project_file": "projects/DuarteSantos8__openGym.md",
+      "rank": 9,
+      "readme_sha256": "f3d7e8f714e962f94f49ac084611ecf54177cdc51019ee46e4c03a61305775ec",
+      "url": "https://github.com/DuarteSantos8/openGym"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 10,
+      "readme_sha256": "3122b9523b1efe16fd66f9dfad96461b7c900ffbd93273f1b806e991134f4309",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 11,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。A bilingual guide to English learning and AI-era growth.",
+      "full_name": "byoungd/up",
+      "project_file": "projects/byoungd__up.md",
+      "rank": 12,
+      "readme_sha256": "1e1cef86c8ecebe642b898c434c54b1553eb64001658a1dda0089ef159c2ee27",
+      "url": "https://github.com/byoungd/up"
+    }
+  ],
+  "snapshot_date": "2026-10-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

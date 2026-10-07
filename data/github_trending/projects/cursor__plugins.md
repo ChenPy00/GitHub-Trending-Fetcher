@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "afad05193dfed1d1e6acd84d4dd7f1f524a14f49b866007287b9a61b322307e6"
+  "readme_sha256": "e59524cf8b49034ca9e963651ce3b5c9bc7bc1d6107aa7e7e4618538d1f9981e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `afad05193dfed1d1e6acd84d4dd7f1f524a14f49b866007287b9a61b322307e6`
+- README SHA256: `e59524cf8b49034ca9e963651ce3b5c9bc7bc1d6107aa7e7e4618538d1f9981e`
 
 ## README
 
@@ -112,6 +112,8 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `etoro-trading` | [eToro Trading](third_party/etoro-trading/) | Cursor | Integrations | View your eToro portfolio, balances, positions, and watchlists, research instruments and traders, and prepare and place trades. |
 | `x-money` | [X Money](third_party/x-money/) | Cursor | Integrations | Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history. |
 | `shopify-store` | [Shopify](third_party/shopify-store/) | Cursor | Integrations | Connect your Shopify store so Grok can answer questions about products, orders, customers, inventory, and sales. |
+| `quickbooks-online` | [QuickBooks Online](third_party/quickbooks-online/) | Cursor | Integrations | Read invoices, bills, expenses, customers, accounts, and financial reports. |
+| `workday` | [Workday](third_party/workday/) | Cursor | Integrations | Look up workers, organizations, time off, payroll, and recruiting data in Workday. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure

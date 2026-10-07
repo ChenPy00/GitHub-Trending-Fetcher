@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/Octop",
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-  "readme_sha256": "52109f347ee8afc826405f686328d4b7ba2cf5bb57bb8808323ac8da522b8084"
+  "readme_sha256": "a11baf4e2d4f7ae0212048d7f478c97ad26a3ad683ebdfda6f767a4726fd995f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/Octop
 - Description: A smarter, self-hosted AI assistant — multi-user, multi-agent.
-- README SHA256: `52109f347ee8afc826405f686328d4b7ba2cf5bb57bb8808323ac8da522b8084`
+- README SHA256: `a11baf4e2d4f7ae0212048d7f478c97ad26a3ad683ebdfda6f767a4726fd995f`
 
 ## README
 
@@ -39,7 +39,7 @@
   <a href="https://github.com/astral-sh/ruff"><img alt="Code Style: Ruff" src="https://img.shields.io/badge/code%20style-ruff-000000?logo=ruff&logoColor=white" /></a>
   <a href="https://github.com/TencentCloud/Octop"><img alt="GitHub stars" src="https://img.shields.io/github/stars/TencentCloud/Octop?style=social" /></a>
   <a href="https://github.com/TencentCloud/Octop/fork"><img alt="GitHub forks" src="https://img.shields.io/github/forks/TencentCloud/Octop?style=social" /></a>
-  <a href="https://discord.gg/jPas5J8Ua"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white" /></a>
+  <a href="https://discord.gg/QnWdhJxq9h"><img alt="Discord" src="https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white" /></a>
 </p>
 
 <p align="center">

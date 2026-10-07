@@ -4,23 +4,23 @@
   "name": "up",
   "full_name": "byoungd/up",
   "url": "https://github.com/byoungd/up",
-  "description": "An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语",
-  "readme_sha256": "f969b81cfef6febefa4d7e93a937eac94546db4332e4210b7dc42d960d79be29"
+  "description": "中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。A bilingual guide to English learning and AI-era growth.",
+  "readme_sha256": "1e1cef86c8ecebe642b898c434c54b1553eb64001658a1dda0089ef159c2ee27"
 }
 ```
 
 # byoungd/up
 
 - URL: https://github.com/byoungd/up
-- Description: An advanced guide which might benefit you a lot 🎉 . 韩先凯的人生进阶指南 人生进阶指南 离谱的人生 人生进阶 AI学习 AI指南 韩先凯的AI学习指南 英语学习指南/英语学习教程/英语学习/学英语
-- README SHA256: `f969b81cfef6febefa4d7e93a937eac94546db4332e4210b7dc42d960d79be29`
+- Description: 中英双语终身学习指南：英语学习、AI 协作、真实项目与成长证据。A bilingual guide to English learning and AI-era growth.
+- README SHA256: `1e1cef86c8ecebe642b898c434c54b1553eb64001658a1dda0089ef159c2ee27`
 
 ## README
 
 ---
 title: 人生进阶指南｜AI 时代终身学习
 description: 《人生进阶指南》帮助普通人在 AI 时代持续学习、完成真实项目、穿越人生低谷并留下成长证据。
-updated: 2026-09-02
+updated: 2026-10-04
 ---
 
 # 人生进阶指南
@@ -33,6 +33,7 @@ updated: 2026-09-02
 
 <div class="book-meta" aria-label="书稿信息">
   <span>持续更新书稿</span>
+  <a href="./docs/book-downloads.md">下载中心</a>
   <a href="./docs/public/downloads/life-level-up-guide-zh.epub" download>下载中文 EPUB</a>
   <a href="./docs/public/downloads/life-level-up-guide-en.epub" download>Download English EPUB</a>
   <a href="./docs/public/downloads/life-level-up-guide-zh.pdf" download>下载中文 PDF</a>
@@ -40,6 +41,19 @@ updated: 2026-09-02
   <a href="https://github.com/byoungd/up">源码与勘误</a>
   <a href="./docs/templates/reader-field-note.md">读者实践回执</a>
   <a href="https://creativecommons.org/licenses/by-nc/4.0/">正文 CC BY-NC 4.0</a>
+</div>
+
+<div class="quick-start" aria-labelledby="quick-start-title">
+  <div class="quick-start-heading">
+    <span class="quick-start-kicker">从这里开始</span>
+    <h2 id="quick-start-title">先选一个动作，再决定读多远</h2>
+    <p>第一次来不用读完整本。按今天的需要选一个入口，完成一个小动作，结果会告诉你下一页该去哪里。</p>
+  </div>
+  <div class="quick-start-actions">
+    <a class="quick-start-action" href="./docs/threads/part-0/reader-guide.md"><strong>我还不知道从哪里开始</strong><span>用阅读指南按问题选择入口，知道何时留下证据、何时回来复查。</span></a>
+    <a class="quick-start-action" href="./docs/templates/learning-state.md"><strong>我想在今天做成一件事</strong><span>先用五分钟写下真实问题、已有证据、最小动作和边界，再决定是否需要完整记录。</span></a>
+    <a class="quick-start-action" href="./docs/threads/part-1/0-cefr.md"><strong>我想先测一项英语能力</strong><span>从一个真实场景开始，保存首版，再选择听、说、读、写中的一条训练线。</span></a>
+  </div>
 </div>
 
 AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得到一份解释、一段代码、一张计划表，甚至一个看似笃定的人生建议。可真正稀缺的东西并没有因此消失：**知道什么问题值得追问，辨别什么证据可以相信，把建议变成真实作品，并为最后的判断承担责任。**
@@ -82,6 +96,7 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
     <div class="guide-path-group-items">
       <a class="guide-path" href="./docs/threads/part-1/8-job-search-english.md"><strong>海外求职与远程协作</strong>把岗位描述拆成招聘沟通、项目说明、陌生追问和异步写作，用真实样本判断这一场面试还缺什么。</a>
       <a class="guide-path" href="./docs/threads/part-4/family-learning.md"><strong>家庭与中学生学习</strong>让孩子参与定义目标，让家长保护环境、隐私与安全，用十四天证据替代监控、代做和焦虑加码。</a>
+      <a class="guide-path" href="./docs/threads/part-2/care-and-carry-on.md"><strong>珍惜身边的人</strong>把关心落到倾听、照料与具体分担中，在双方愿意、能力允许时接受支持，为牵挂保留温度，也为彼此保留边界。</a>
       <a class="guide-path" href="./docs/threads/part-2/my-story.md"><strong>人生复盘与恢复</strong>承认失败和代价，在失序之后重新建立判断、秩序与行动。</a>
       <a class="guide-path" href="./docs/projects.md"><strong>作者项目与现实实践</strong>公开关联、用途、更新时间和非赞助关系，让信任不必靠猜。</a>
     </div>
@@ -95,6 +110,16 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
   </section>
 </div>
 
+## 创业、自律与 AI：把方法用起来
+
+从[实践路线图](docs/practice.md)选择当前卡点，用一次小实验把阅读推进到可核对的结果。实操手册与六部主线配合使用，也收录于电子书附录。
+
+| 当前任务 | 实操入口 | 可复制工具 |
+| --- | --- | --- |
+| 创业想法还没有用户证据 | [从问题到首批用户](docs/threads/practice/customer-discovery.md) · [可持续的小生意](docs/threads/practice/sustainable-business.md) | [创业实验卡](docs/templates/startup-experiment.md) |
+| 开始困难，或中断后回不来 | [自律与坚持实操](docs/threads/practice/discipline-and-consistency.md) | [持续行动计划](docs/templates/consistency-plan.md) |
+| AI 能生成，但交付不稳定 | [AI 工作流](docs/threads/practice/ai-workflows.md) · [AI 评测与可靠性](docs/threads/practice/ai-evaluation.md) | [AI 评测记录](docs/templates/ai-evaluation.md) |
+
 ## 书稿主线
 
 如果你愿意完整阅读，请先看[阅读指南：把书放回生活](docs/threads/part-0/reader-guide.md)，再从[序章：先不要急着改变人生](docs/threads/part-0/prologue.md)开始。前者负责告诉你如何选择入口、留下证据和在中断后回来，后者负责把这些方法放回一个人的生命故事。全书不是一条只向上的直线，而是一圈会反复经过的路径：
@@ -105,11 +130,12 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 | --- | --- | --- |
 | 阅读指南与序章 | 我从哪里进入，又为什么要重新开始？ | [阅读指南](docs/threads/part-0/reader-guide.md) · [先不要急着改变人生](docs/threads/part-0/prologue.md) |
 | 第一部：打开输入 | 怎样建立英语和世界之间的通道，并把能力带进面试与远程协作？ | [本部导语](docs/threads/part-1/open-input.md) · [CEFR 自测](docs/threads/part-1/0-cefr.md) · [词汇](docs/threads/part-1/2-vocabulary.md) · [语法](docs/threads/part-1/grammar.md) · [听力](docs/threads/part-1/3-listening.md) · [阅读](docs/threads/part-1/4-reading.md) · [口语](docs/threads/part-1/5-speaking.md) · [写作](docs/threads/part-1/6-writing.md) · [求职英语](docs/threads/part-1/8-job-search-english.md) |
-| 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响？ | [本部导语](docs/threads/part-2/return-to-life.md) · [我的故事](docs/threads/part-2/my-story.md) · [叙事与证据](docs/threads/part-2/narrative-and-evidence.md) · [恢复、选择、关系与创业](docs/threads/part-2/recovery.md) |
+| 第二部：把自己放回生活 | 能力、事业、关系、失败、选择与恢复怎样互相影响，又怎样在珍惜与分担中继续生活？ | [本部导语](docs/threads/part-2/return-to-life.md) · [我的故事](docs/threads/part-2/my-story.md) · [我还在这里：从抑郁焦虑的黑暗中走出来](docs/threads/part-2/depression-anxiety-recovery.md) · [叙事与证据](docs/threads/part-2/narrative-and-evidence.md) · [恢复、选择与关系](docs/threads/part-2/recovery.md) · [珍惜与分担](docs/threads/part-2/care-and-carry-on.md) · [创业](docs/threads/part-2/entrepreneurship.md) |
 | 第三部：借工具放大能力 | 怎样使用 AI，而不把判断力和注意力一起外包？ | [本部导语](docs/threads/part-3/amplify-ability.md) · [AI 学习](docs/threads/part-3/1-ai-learning.md) · [注意力、作品与证据](docs/threads/part-3/3-attention-and-judgment.md) · [项目实践](docs/threads/part-3/2-ai-development-and-resource-layer.md) |
 | 第四部：实践与恢复 | 学习如何回到身体、家庭与日常，并在需要时保护未成年学习者的主体性？ | [本部导语](docs/threads/part-4/practice-and-recovery.md) · [第一周实践](docs/threads/part-4/week-1.md) · [家庭学习](docs/threads/part-4/family-learning.md) · [生活系统](docs/threads/part-4/daily-system.md) · [节律](docs/threads/part-4/rhythm-and-compounding.md) |
 | 第五部：行动与长期改变 | 怎样完成九十天，也让方法在真实项目和九十天以后继续接受检验？ | [本部导语](docs/threads/part-5/long-term-action.md) · [九十天行动篇](docs/threads/part-5/90-day-plan.md) · [本书案例](docs/threads/part-5/book-as-proof.md) · [九十天以后](docs/threads/part-5/after-90-days.md) |
-| 后记 | 进阶之后，我想成为什么样的人？ | [进阶不是离开原来的自己](docs/threads/part-6/afterword.md) |
+| 第六部：与自己做终身朋友 | 怎样了解、认识、善待和提升自己，在变化中与自己长期相处？ | [了解自己](docs/threads/part-6/1-understanding-yourself.md) · [认识自己](docs/threads/part-6/2-knowing-yourself.md) · [善待自己](docs/threads/part-6/3-being-kind-to-yourself.md) · [提升自己](docs/threads/part-6/4-improving-yourself.md) · [与自己做终身朋友](docs/threads/part-6/5-being-your-own-lifelong-friend.md) |
+| 后记 | 进阶之后，我想成为什么样的人？ | [人生最大的进阶，是找到真正的自己](docs/threads/part-6/afterword.md) |
 
 ## 从今天的一件小事开始
 
@@ -124,6 +150,8 @@ AI 正在让答案变得前所未有地廉价。几秒钟里，我们可以得�
 你不需要先看见整条路。今天留下的第一份证据，就是下一步可以站立的地方。
 
 ## AI 学习与项目实践：从回答走向交付
+
+工具变化太快时，先读 [AI 趋势与学习路线](docs/threads/part-3/6-ai-trends-and-learning-roadmap.md)，用[趋势实验卡](docs/templates/ai-trend-radar.md)把一个新能力变成可比较的小实验：核对一手来源，保留人工基线，记录真实成本，再判断是否值得继续。章节将已观察到的能力与未来假设分开，给出多模态、上下文、智能体、评测、本地模型与来源追踪的学习路径。
 
 [使用 AI 学习一切](docs/threads/part-3/1-ai-learning.md)不从“哪个模型最好”开始，而从“我要解决什么问题”开始。[注意力篇](docs/threads/part-3/3-attention-and-judgment.md)进一步处理输入边界、专注和独立判断，[作品篇](docs/threads/part-3/4-artifacts-and-delivery.md)把理解推进到可交付成果，[证据篇](docs/threads/part-3/5-evidence-and-transfer.md)则检查即时表现、延迟保持和真实迁移：AI 可以循序提问、解释概念、比较方案、整理材料和生成练习；人需要确定目标、选择可信来源、识别幻觉，并在关闭对话之后独立解释和使用所学。
 
@@ -169,7 +197,7 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 ## 人生复盘与恢复：经验也需要重新解释
 
-[我的故事](docs/threads/part-2/my-story.md)、[叙事与证据篇](docs/threads/part-2/narrative-and-evidence.md)、[回声篇](docs/threads/part-2/x-misc.md)、[恢复篇](docs/threads/part-2/recovery.md)、[选择篇](docs/threads/part-2/decision.md)、[关系篇](docs/threads/part-2/relationships.md)、[创业篇](docs/threads/part-2/entrepreneurship.md)和[旧文归档](docs/threads/archive/README.md)保留了失败、身体失序、关系变化、离开与重返。回望不是为了把过去装饰成励志故事，而是把事实、伤害、责任和运气重新分开，辨认哪些决定有效、哪些代价不能忽略，以及下一次怎样活得更诚实。
+[我的故事](docs/threads/part-2/my-story.md)、[叙事与证据篇](docs/threads/part-2/narrative-and-evidence.md)、[回声篇](docs/threads/part-2/x-misc.md)、[恢复篇](docs/threads/part-2/recovery.md)、[选择篇](docs/threads/part-2/decision.md)、[关系篇](docs/threads/part-2/relationships.md)、[珍惜篇](docs/threads/part-2/care-and-carry-on.md)、[创业篇](docs/threads/part-2/entrepreneurship.md)和[旧文归档](docs/threads/archive/README.md)保留了失败、身体失序、关系变化、离开与重返。回望不是为了把过去装饰成励志故事，而是把事实、伤害、责任和运气重新分开，辨认哪些决定有效、哪些代价不能忽略，以及下一次怎样活得更诚实。珍惜篇继续把这份理解带回身边的人：练习表达关心、分担实际事务，并在双方愿意时接受支持。
 
 个人经历不是医疗、法律、投资或创业建议。公开内容遵循最少必要原则，不展示不必要的第三方身份信息；涉及他人的照片与故事，只在获得明确授权和尊重隐私的前提下保留。
 
@@ -183,8 +211,8 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
     <figcaption><strong>重新相信相遇</strong>经历关系结束、恢复与重新整理生活之后，韩先凯开启了一段新的恋情。重新开始不会抹去过去，但它证明生活仍然能够向前生长。</figcaption>
   </figure>
   <figure class="latest-update">
-    <img class="latest-update-fan-photo" src="./docs/assets/latest/agentic-db-fans.webp" alt="韩先凯在 Agentic DB 大会与读者合影" width="1100" height="1467" loading="lazy" decoding="async" fetchpriority="low" />
-    <figcaption><strong>在现场相遇</strong>参加阿里巴巴 × NVIDIA Agentic DB 大会，与读者和同行面对面交流，让公开写作回到真实的人与问题之中。</figcaption>
+    <img class="latest-update-visit-photo" src="./docs/assets/latest/current-qwen.jpg" alt="韩先凯在阿里巴巴参观千问大模型展示" width="1706" height="1279" loading="lazy" decoding="async" fetchpriority="low" />
+    <figcaption><strong>走进阿里巴巴</strong>我到阿里巴巴参观考察，在现场了解千问大模型的展示。</figcaption>
   </figure>
 </div>
 
@@ -192,12 +220,14 @@ AI 可以降低探索、学习和创造的门槛，却不能替你建立信誉�
 
 韩先凯参与的产品、公司参访与现实项目统一放在 [作者项目与现实实践](docs/projects.md)。页面明确作者关联、用途、更新时间和非赞助关系。正文不因商业关系改变推荐标准，站点默认不接入广告、分析脚本或追踪器。
 
+也欢迎关注我的 [X](https://x.com/ourleap)，获取 AI 实践、英语学习和个人成长的最新分享。
+
 ## 项目边界
 
-- 本项目是开放内容项目，不是 OSI 意义上的开源软件：正文与作者内容采用 **CC BY-NC 4.0**，站点配置、检查脚本和构建代码采用 **MIT**。详见 [许可证说明](https://github.com/byoungd/up/blob/master/LICENSE.md)。
-- 引用、图片和第三方素材的来源及授权状态记录在 [第三方素材与引用](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md)。
-- 贡献前请阅读 [贡献指南](https://github.com/byoungd/up/blob/master/CONTRIBUTING.md) 和 [行为准则](https://github.com/byoungd/up/blob/master/CODE_OF_CONDUCT.md)。
-- 产品与服务条目的核验日期以各自页面和 [第三方素材与引用](https://github.com/byoungd/up/blob/master/ATTRIBUTIONS.md) 中的记录为准；产品能力、可用性与合规范围仍以官方页面、正式协议和实际验收为准，过期内容欢迎提交 issue。
+- 本项目是开放内容项目，不是 OSI 意义上的开源软件：正文与作者内容采用 **CC BY-NC 4.0**，站点配置、检查脚本和构建代码采用 **MIT**。详见 [许可证说明](https://github.com/byoungd/up/blob/main/LICENSE.md)。
+- 引用、图片和第三方素材的来源及授权状态记录在 [第三方素材与引用](https://github.com/byoungd/up/blob/main/ATTRIBUTIONS.md)。
+- 贡献前请阅读 [贡献指南](https://github.com/byoungd/up/blob/main/CONTRIBUTING.md) 和 [行为准则](https://github.com/byoungd/up/blob/main/CODE_OF_CONDUCT.md)。
+- 产品与服务条目的核验日期以各自页面和 [第三方素材与引用](https://github.com/byoungd/up/blob/main/ATTRIBUTIONS.md) 中的记录为准；产品能力、可用性与合规范围仍以官方页面、正式协议和实际验收为准，过期内容欢迎提交 issue。
 
 ## 在线阅读
 

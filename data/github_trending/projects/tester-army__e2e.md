@@ -5,7 +5,7 @@
   "full_name": "tester-army/e2e",
   "url": "https://github.com/tester-army/e2e",
   "description": "Next generation e2e testing framework for web and mobile apps.",
-  "readme_sha256": "79c43464b897d291fb865e4eed291e0f9470ca22c0568d2757910a95a3d4e6fd"
+  "readme_sha256": "d8ce969cc339e8088de836d06a7152d50b06853f876f3046a46b42be5b687e83"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tester-army/e2e
 - Description: Next generation e2e testing framework for web and mobile apps.
-- README SHA256: `79c43464b897d291fb865e4eed291e0f9470ca22c0568d2757910a95a3d4e6fd`
+- README SHA256: `d8ce969cc339e8088de836d06a7152d50b06853f876f3046a46b42be5b687e83`
 
 ## README
 
@@ -65,8 +65,8 @@ config and an example test. The
 
 To see a finished setup in your stack, open
 [`examples/`](https://github.com/tester-army/e2e/tree/main/examples):
-Vite, Next.js, Expo, and SwiftUI, each a standalone project with a passing
-suite.
+Vite, Next.js, Expo, SwiftUI, Jetpack Compose, Kotlin Multiplatform, and
+Flutter, each a standalone project with a passing suite.
 
 ## Packages
 

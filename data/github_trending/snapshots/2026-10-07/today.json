@@ -1,0 +1,105 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "full_name": "tester-army/e2e",
+      "project_file": "projects/tester-army__e2e.md",
+      "rank": 1,
+      "readme_sha256": "d8ce969cc339e8088de836d06a7152d50b06853f876f3046a46b42be5b687e83",
+      "url": "https://github.com/tester-army/e2e"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 2,
+      "readme_sha256": "cdf5ed0e1b3f2987d2d8c5672eb44fda2fa15475e8cb4fdae142b5a328c19167",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Give your agent CAD superpowers.",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 3,
+      "readme_sha256": "bbf68629d763299a827d7560dc3daf46f8e1c5a3ecf7afc9c8baf6b37ce63eb8",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 4,
+      "readme_sha256": "3122b9523b1efe16fd66f9dfad96461b7c900ffbd93273f1b806e991134f4309",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 5,
+      "readme_sha256": "23c3a4f81263247f866bdcf39c82c1eca7ab8eca5df91a912f1e3ea6f2d45f1d",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 6,
+      "readme_sha256": "5acecc5ba8cc43fa6e4cb228c3a76a93147862e1979d3a17d1e2d2f5ffca7614",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 7,
+      "readme_sha256": "d32e56aff0bba67a459b5faa21f478b69f1d51936b8300c81684c17551eda826",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 8,
+      "readme_sha256": "f443438db49e824bd26f387d6e9ec2fb6f57c937e88d1041b8a656be092b2448",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "full_name": "deepseek-ai/DeepGEMM",
+      "project_file": "projects/deepseek-ai__DeepGEMM.md",
+      "rank": 9,
+      "readme_sha256": "1112521165450d617bf0ff0cc06d8944f7b4548ecf4727e1d16143671014a4d2",
+      "url": "https://github.com/deepseek-ai/DeepGEMM"
+    },
+    {
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "full_name": "msitarzewski/agency-agents",
+      "project_file": "projects/msitarzewski__agency-agents.md",
+      "rank": 10,
+      "readme_sha256": "c3b62b8f48b021ecc8aea23f823a8ddb23afafdf65aaa32d2de88efba6815860",
+      "url": "https://github.com/msitarzewski/agency-agents"
+    },
+    {
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "full_name": "DuarteSantos8/openGym",
+      "project_file": "projects/DuarteSantos8__openGym.md",
+      "rank": 11,
+      "readme_sha256": "f3d7e8f714e962f94f49ac084611ecf54177cdc51019ee46e4c03a61305775ec",
+      "url": "https://github.com/DuarteSantos8/openGym"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 12,
+      "readme_sha256": "5c11caaa547f423e89cbe7b24d43ed41cddbef121826bfd4045f400d8ade2124",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    }
+  ],
+  "snapshot_date": "2026-10-07",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

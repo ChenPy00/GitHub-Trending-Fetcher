@@ -5,7 +5,7 @@
   "full_name": "paperclipai/paperclip",
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
-  "readme_sha256": "19bbd5aaa6dd343bbabb736f089cc977bf2d5520a0b0a9d09d5a7a54cb900d8f"
+  "readme_sha256": "44e38b460033d3b1b6d5f75e8e63cdf936fda42dbe9db7a33c077bf06b22c79a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/paperclipai/paperclip
 - Description: The open-source app everyone uses to manage agents at work
-- README SHA256: `19bbd5aaa6dd343bbabb736f089cc977bf2d5520a0b0a9d09d5a7a54cb900d8f`
+- README SHA256: `44e38b460033d3b1b6d5f75e8e63cdf936fda42dbe9db7a33c077bf06b22c79a`
 
 ## README
 
@@ -435,6 +435,9 @@ pnpm dev
 This starts the UI and API at `http://localhost:3100`. An embedded PostgreSQL database is created automatically — no setup required.
 
 > **Requirements:** Node.js 24.11+, pnpm 9.15+
+
+Local Claude and Codex subscription sign-in also needs Python 3 and the
+corresponding provider CLI on the Paperclip host. The Docker image includes them.
 
 Source development also builds the native Paperclip Runner when enabled (the self-hosted default). Install a Rust toolchain, or set `PAPERCLIP_RUNNER_BINARY` to a compatible prebuilt runner.
 
