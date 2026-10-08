@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/Octop",
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-  "readme_sha256": "a11baf4e2d4f7ae0212048d7f478c97ad26a3ad683ebdfda6f767a4726fd995f"
+  "readme_sha256": "053bdc8fe49ea589bafa6acc02f832a1f710e738d9c926a4edbbe5403cbf71b2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/Octop
 - Description: A smarter, self-hosted AI assistant — multi-user, multi-agent.
-- README SHA256: `a11baf4e2d4f7ae0212048d7f478c97ad26a3ad683ebdfda6f767a4726fd995f`
+- README SHA256: `053bdc8fe49ea589bafa6acc02f832a1f710e738d9c926a4edbbe5403cbf71b2`
 
 ## README
 
@@ -573,7 +573,7 @@ See [CHANGELOG.md](CHANGELOG.md) for release history.
 
 ## 💬 Community
 
-- **Discord** — join the English-speaking community: [discord.gg/jPas5J8Ua](https://discord.gg/jPas5J8Ua)
+- **Discord** — join the English-speaking community: [discord.gg/jPas5J8Ua](https://discord.gg/QnWdhJxq9h)
 
 ### WeCom Customer Group (CN)
 

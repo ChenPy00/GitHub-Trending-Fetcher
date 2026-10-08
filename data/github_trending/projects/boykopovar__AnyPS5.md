@@ -5,7 +5,7 @@
   "full_name": "boykopovar/AnyPS5",
   "url": "https://github.com/boykopovar/AnyPS5",
   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-  "readme_sha256": "3122b9523b1efe16fd66f9dfad96461b7c900ffbd93273f1b806e991134f4309"
+  "readme_sha256": "a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/boykopovar/AnyPS5
 - Description: Tool for automatic PS5 executables porting to Linux and Windows
-- README SHA256: `3122b9523b1efe16fd66f9dfad96461b7c900ffbd93273f1b806e991134f4309`
+- README SHA256: `a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617`
 
 ## README
 
@@ -23,7 +23,7 @@ Tool for automatic executables porting to Linux and Windows.
 
 Includes a [relinker](core/relinker) that converts executable to the target system's native format and implementations of [system prx libraries](core/libs/prx) suitable for dynamic linking. No emulation or separate runtime process.
 
-[Usage](docs/user/USAGE.md), [Build instructions](docs/dev/BUILD.md), [Technical debt of the project](docs/dev/TechnicalDebt.md), [code style conventions](docs/dev/CONVENTIONS.md), [contributing](CONTRIBUTING.md)
+[Usage](docs/user/USAGE.md), [Build instructions](docs/dev/BUILD.md), [Architecture](docs/dev/ARCHITECTURE.md), [Technical debt of the project](docs/dev/TechnicalDebt.md), [code style conventions](docs/dev/CONVENTIONS.md), [contributing](CONTRIBUTING.md)
 
 ## Status
 

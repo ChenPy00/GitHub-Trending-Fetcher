@@ -5,7 +5,7 @@
   "full_name": "paperclipai/paperclip",
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
-  "readme_sha256": "44e38b460033d3b1b6d5f75e8e63cdf936fda42dbe9db7a33c077bf06b22c79a"
+  "readme_sha256": "9896a929b8c598a3049af9d6f31ca11bdc301c2cbb5625f39fa51257c8906fe2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/paperclipai/paperclip
 - Description: The open-source app everyone uses to manage agents at work
-- README SHA256: `44e38b460033d3b1b6d5f75e8e63cdf936fda42dbe9db7a33c077bf06b22c79a`
+- README SHA256: `9896a929b8c598a3049af9d6f31ca11bdc301c2cbb5625f39fa51257c8906fe2`
 
 ## README
 
@@ -33,8 +33,12 @@
 <p align="center">
   <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
   <a href="https://github.com/paperclipai/paperclip/stargazers"><img src="https://img.shields.io/github/stars/paperclipai/paperclip?style=flat" alt="Stars" /></a>
-  <a href="https://www.star-history.com/paperclipai/paperclip"><img src="https://api.star-history.com/badge?repo=paperclipai/paperclip" alt="Star History Rank" /></a>
   <a href="https://discord.gg/m4HZY7xNG3"><img src="https://img.shields.io/badge/discord-join-7289da" alt="Discord" /></a>
+  <a href="https://superagent.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=dark&accent=teal&variant=scanned" /><img src="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=light&accent=teal&variant=scanned" alt="Security posture verified by Superagent" /></picture></a>
+</p>
+
+<p align="center">
+  <a href="https://www.star-history.com/paperclipai/paperclip"><img src="https://api.star-history.com/badge?repo=paperclipai/paperclip" alt="Star History Rank" /></a>
 </p>
 
 <br/>
