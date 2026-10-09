@@ -5,7 +5,7 @@
   "full_name": "thedotmack/claude-mem",
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "readme_sha256": "5acecc5ba8cc43fa6e4cb228c3a76a93147862e1979d3a17d1e2d2f5ffca7614"
+  "readme_sha256": "cab3de3a96cf45d400bf2e06ede89e96b895a14a0b360165b19da0c79b7ede64"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/thedotmack/claude-mem
 - Description: Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
-- README SHA256: `5acecc5ba8cc43fa6e4cb228c3a76a93147862e1979d3a17d1e2d2f5ffca7614`
+- README SHA256: `cab3de3a96cf45d400bf2e06ede89e96b895a14a0b360165b19da0c79b7ede64`
 
 ## README
 
@@ -78,7 +78,7 @@
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
   </a>
   <a href="package.json">
-    <img src="https://img.shields.io/badge/version-13.34.2-green.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-13.35.0-green.svg" alt="Version">
   </a>
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node">
@@ -178,6 +178,8 @@ Or install for OpenCode:
 ```bash
 npx claude-mem install --ide opencode
 ```
+
+This works with OpenCode 1.3.4 or later, including OpenCode 2. Restart OpenCode after installing.
 
 Or install for **T3 Code** (Codex and Claude Code providers):
 

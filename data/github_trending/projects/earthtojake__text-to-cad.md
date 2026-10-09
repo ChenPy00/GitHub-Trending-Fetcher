@@ -5,7 +5,7 @@
   "full_name": "earthtojake/text-to-cad",
   "url": "https://github.com/earthtojake/text-to-cad",
   "description": "Give your agent CAD superpowers.",
-  "readme_sha256": "bbf68629d763299a827d7560dc3daf46f8e1c5a3ecf7afc9c8baf6b37ce63eb8"
+  "readme_sha256": "76e53ad32997b4e7904aa878a114583e360bcc0b95f6ab17554963620d94f488"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earthtojake/text-to-cad
 - Description: Give your agent CAD superpowers.
-- README SHA256: `bbf68629d763299a827d7560dc3daf46f8e1c5a3ecf7afc9c8baf6b37ce63eb8`
+- README SHA256: `76e53ad32997b4e7904aa878a114583e360bcc0b95f6ab17554963620d94f488`
 
 ## README
 
@@ -59,6 +59,11 @@ Send this message to your agent and it will install text-to-cad for you.
 ```text
 Install text-to-cad from https://github.com/earthtojake/text-to-cad
 ```
+
+By default, text-to-cad sends usage stats and crash reports, tagged with a random
+ID and never including your files, paths or prompts; turn them off with
+`uvx cadgen telemetry off`, or ask your agent to. [Telemetry](#telemetry) says
+the rest.
 
 Or install it yourself:
 
@@ -124,7 +129,7 @@ app. If Claude Desktop cannot find `uvx`, give its full path (`which uvx`).
   "mcpServers": {
     "cad": {
       "command": "uvx",
-      "args": ["--no-config", "--managed-python", "--python", "3.13", "--from", "cadgen==0.7.15", "cadgen", "mcp"],
+      "args": ["--no-config", "--managed-python", "--python", "3.13", "--from", "cadgen==0.7.19", "cadgen", "mcp"],
       "env": {"CADGEN_INSTALL_CHANNEL": "claude-desktop"}
     }
   }
@@ -297,18 +302,26 @@ To find out, cadgen fetches `api.texttocad.dev/v1/versions` at most once a day:
 one anonymous request, with no ID, path or anything about you, never in CI and
 never for a copy that something else updates. `CADGEN_UPDATE_CHECK=0` turns it off.
 
-### Usage analytics
+### Telemetry
 
-The CAD app (the plugin's `cad` server) and the browser viewer (`cadgen viewer`) can send anonymous usage counts: a
-random install ID, versions, where you installed it from, your OS and agent app, how often each CAD tool was
-called and views were used, and a one-way code and the format of each distinct
-file shown (to count files, not identify them). Our server also counts installs
-per country, from each request's IP address, as weekly and monthly totals only.
-Never file names, paths, contents or prompts. It is off until you allow it
-in either app's one-time prompt (one answer counts for both); change it later with
-**Share anonymous usage data** in either app's menu (the logo at the top left, over any model), `uvx cadgen analytics on|off`, or by asking your agent to
-turn it off. `DO_NOT_TRACK=1` keeps it off. See the
-[privacy policy](https://www.texttocad.dev/privacy-policy).
+The CAD app (the plugin's `cad` server), the browser viewer (`cadgen viewer`) and the build daemon that builds for
+them and for every `cadgen` command send usage stats by default, tagged with a random install ID: versions, where
+you installed it from, your OS and agent app, and counts -- how often each CAD tool was called and why a call failed
+(one of a fixed set of words, such as "no file at that path" or "no view open", never its message), how often views
+were used, how many files of each format were shown, how many models were built and snapshots rendered, how those ended and
+how long they took, which features were used -- added up over a few minutes before they are sent. When cadgen's own
+code fails, they also send a crash report: the error's type and where in cadgen (or Python, or one of its
+dependencies) it failed, never its message, and with any of your own code a bare placeholder. Our server adds the country each request
+comes from (worked out from its IP address, which it doesn't keep) and stores it all with PostHog. Never file names,
+paths, contents or prompts. The first `cadgen` command says so once, and sending starts then. Turn it off, which
+also deletes what was sent, with `uvx cadgen telemetry off`, **Share usage stats** in either app's menu (the logo at
+the top left, over any model), or by asking your agent. `DO_NOT_TRACK=1` or `CADGEN_TELEMETRY=0` turns it off for
+one process, and `CADGEN_TELEMETRY=1` on, without changing your setting; nothing is sent by default in CI or from a
+development install. Nothing waits to send: what a command counts without the build daemon, and what any part of
+cadgen counted since its last send when it exits, waits in small files in cadgen's state folder until the next part
+of cadgen sends it in the background; turning telemetry off deletes them.
+Offline, nothing is sent and everything works. See
+the [privacy policy](https://www.texttocad.dev/privacy-policy).
 
 ### Windows 11: Smart App Control
 

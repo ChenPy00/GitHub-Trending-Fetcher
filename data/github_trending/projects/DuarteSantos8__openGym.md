@@ -5,7 +5,7 @@
   "full_name": "DuarteSantos8/openGym",
   "url": "https://github.com/DuarteSantos8/openGym",
   "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-  "readme_sha256": "0bb8e0314d52b0b85b1cecc4686aa4fad003468db45a5269152686ff82d69f46"
+  "readme_sha256": "1b61aed6602920f9f8e008c0ba9cd38591dd3418472dca418c6f7a2eb5cf6f8f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DuarteSantos8/openGym
 - Description: Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
-- README SHA256: `0bb8e0314d52b0b85b1cecc4686aa4fad003468db45a5269152686ff82d69f46`
+- README SHA256: `1b61aed6602920f9f8e008c0ba9cd38591dd3418472dca418c6f7a2eb5cf6f8f`
 
 ## README
 
@@ -23,7 +23,7 @@
 
 **A self-hosted gym and body-weight tracker you actually own.**
 
-Plan your week, run guided workouts, log every set and your body weight —<br>
+Plan your week, run guided workouts, log every set and your body weight,<br>
 on your phone, synced across your devices, behind your own passkey login.
 
 [![Discord](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscord.com%2Fapi%2Finvites%2Fe62jY6fwVb%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&label=Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge)](https://discord.gg/e62jY6fwVb)
@@ -280,14 +280,19 @@ The [documentation index](docs/README.md) sorts every guide by who it's for. The
 
 A release roughly every two weeks, each small and themed. The full plan is in
 [ROADMAP.md](ROADMAP.md), and the issues sit in the
-[GitHub milestones](https://github.com/DuarteSantos8/openGym/milestones). The next release is a
-new exercise database; the plan after it is being reshuffled around that.
+[GitHub milestones](https://github.com/DuarteSantos8/openGym/milestones). The next two releases
+finish the community wishes, then comes a new exercise database and a themed release every
+two weeks after it.
 
 | Release | When | Theme |
 |---|---|---|
 | v1.3.10 | released Oct 2026 | New design, rotation, swipe actions, safer sync |
-| v1.4.0 | next | A new exercise database |
-| later | | Google Play and an iOS app, programmes, the progression engine, cardio, database storage |
+| v1.3.11 | next | Fixes, about thirty community pull requests, Health Connect, measurements |
+| v1.3.12 | Nov 2026 | Community features: focus view, widget, timer rework |
+| v1.4.0 | Nov 2026 | A new exercise database |
+| v1.4.1 to v1.4.4 | Dec 2026 and Jan 2027 | Programmes, the progression engine, cardio |
+| v1.4.5 to v1.4.10 | Jan to Apr 2027 | Search, accounts, the iOS app, Android and health, looks |
+| later | | Database storage |
 
 ## Community
 

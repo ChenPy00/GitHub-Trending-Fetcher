@@ -1,0 +1,97 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 1,
+      "readme_sha256": "a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 2,
+      "readme_sha256": "30e5a54b506896f7fb21b515f97b8fcef68159dd8a703aa426d78c4325fd2f41",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 3,
+      "readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "full_name": "EpicGames/raddebugger",
+      "project_file": "projects/EpicGames__raddebugger.md",
+      "rank": 4,
+      "readme_sha256": "ef9b0413c5cf63a51a25010749e09aa569099f948d9b4a27836d768ec7991c61",
+      "url": "https://github.com/EpicGames/raddebugger"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 5,
+      "readme_sha256": "9ea15485fee7ab5793508511634acf32937f24db292b3838f7b8cfa1837b7bf7",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 6,
+      "readme_sha256": "cab3de3a96cf45d400bf2e06ede89e96b895a14a0b360165b19da0c79b7ede64",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 7,
+      "readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 8,
+      "readme_sha256": "7b723bcd4e5992c37ad1c25c3a2badd89c723a105b787fde9d1aa19a215f7ff7",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Give your agent CAD superpowers.",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 9,
+      "readme_sha256": "76e53ad32997b4e7904aa878a114583e360bcc0b95f6ab17554963620d94f488",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "full_name": "DuarteSantos8/openGym",
+      "project_file": "projects/DuarteSantos8__openGym.md",
+      "rank": 10,
+      "readme_sha256": "1b61aed6602920f9f8e008c0ba9cd38591dd3418472dca418c6f7a2eb5cf6f8f",
+      "url": "https://github.com/DuarteSantos8/openGym"
+    },
+    {
+      "description": "yoink any video from your terminal. no shady ads.",
+      "full_name": "pablostanley/yoinks",
+      "project_file": "projects/pablostanley__yoinks.md",
+      "rank": 11,
+      "readme_sha256": "f68c0b18f2ceac9d2a5a5ec28fdad53c7f3056034839fb37d7f2d40ef346c718",
+      "url": "https://github.com/pablostanley/yoinks"
+    }
+  ],
+  "snapshot_date": "2026-10-09",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

@@ -1,0 +1,201 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "full_name": "alibaba/open-code-review",
+      "project_file": "projects/alibaba__open-code-review.md",
+      "rank": 1,
+      "readme_sha256": "e90ddd2234de7d1b3608ed9107287cf94a9c574fb5d5d1c9e3133a83d4556bd6",
+      "url": "https://github.com/alibaba/open-code-review"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 2,
+      "readme_sha256": "a4fa9787ad433be80bd48d617c964a2f0ee7322b989c5b8ad2c85e86b5c461b3",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 3,
+      "readme_sha256": "1f10279b1b74981d3625216e2489c11e3b725f7ac554668bc577647e288b9c9f",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "",
+      "full_name": "anthropics/financial-services",
+      "project_file": "projects/anthropics__financial-services.md",
+      "rank": 4,
+      "readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
+      "url": "https://github.com/anthropics/financial-services"
+    },
+    {
+      "description": "The open-source app everyone uses to manage agents at work",
+      "full_name": "paperclipai/paperclip",
+      "project_file": "projects/paperclipai__paperclip.md",
+      "rank": 5,
+      "readme_sha256": "9896a929b8c598a3049af9d6f31ca11bdc301c2cbb5625f39fa51257c8906fe2",
+      "url": "https://github.com/paperclipai/paperclip"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 6,
+      "readme_sha256": "d21d9a528ba5bf054ff4bd76940608da7ad1c53f6da167c19677af50364e4b5c",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Hindsight: Agent Memory That Learns",
+      "full_name": "vectorize-io/hindsight",
+      "project_file": "projects/vectorize-io__hindsight.md",
+      "rank": 7,
+      "readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    {
+      "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "full_name": "Tencent/WeKnora",
+      "project_file": "projects/Tencent__WeKnora.md",
+      "rank": 8,
+      "readme_sha256": "62401302e2dda12fe190b05f32dc3f43dd9f1322b91e9845de5d114e8a0165b8",
+      "url": "https://github.com/Tencent/WeKnora"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 9,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+      "full_name": "TencentCloud/Octop",
+      "project_file": "projects/TencentCloud__Octop.md",
+      "rank": 10,
+      "readme_sha256": "053bdc8fe49ea589bafa6acc02f832a1f710e738d9c926a4edbbe5403cbf71b2",
+      "url": "https://github.com/TencentCloud/Octop"
+    },
+    {
+      "description": "Agent Substrate: the core system",
+      "full_name": "agent-substrate/substrate",
+      "project_file": "projects/agent-substrate__substrate.md",
+      "rank": 11,
+      "readme_sha256": "3c324b00a58fd06152102ad4fdb2a823b43e5a24547c5dc3ee3ebddbad7ec04a",
+      "url": "https://github.com/agent-substrate/substrate"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 12,
+      "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 13,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 14,
+      "readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "",
+      "full_name": "spotify/portal-ai-plugins",
+      "project_file": "projects/spotify__portal-ai-plugins.md",
+      "rank": 15,
+      "readme_sha256": "353509505f58ab10f026fd5a009737a91a1d87f5df0d597ed78ba3f4f14f0150",
+      "url": "https://github.com/spotify/portal-ai-plugins"
+    },
+    {
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "full_name": "JustVugg/colibri",
+      "project_file": "projects/JustVugg__colibri.md",
+      "rank": 16,
+      "readme_sha256": "66c74005bd185b089950179ba860623e69a6b692dc2bdcdbd9c9f1093dc07d91",
+      "url": "https://github.com/JustVugg/colibri"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 17,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "full_name": "ayghri/i-have-adhd",
+      "project_file": "projects/ayghri__i-have-adhd.md",
+      "rank": 18,
+      "readme_sha256": "d32e56aff0bba67a459b5faa21f478b69f1d51936b8300c81684c17551eda826",
+      "url": "https://github.com/ayghri/i-have-adhd"
+    },
+    {
+      "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+      "full_name": "trycua/cua",
+      "project_file": "projects/trycua__cua.md",
+      "rank": 19,
+      "readme_sha256": "a80099249c7fbb7c3b39f5ba3336a39325235392970ca75a73391f42e43471ba",
+      "url": "https://github.com/trycua/cua"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 20,
+      "readme_sha256": "9ea15485fee7ab5793508511634acf32937f24db292b3838f7b8cfa1837b7bf7",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 21,
+      "readme_sha256": "f6aefb4e882a736a1356c6f55d639280316357d90107eb49a6c5f205837c5564",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 22,
+      "readme_sha256": "55155755e6bd23f230405e6b78d57fbceef5bf4f0d5f279dbe58e2b205778712",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "full_name": "addyosmani/agent-skills",
+      "project_file": "projects/addyosmani__agent-skills.md",
+      "rank": 23,
+      "readme_sha256": "4bae14d9c56e00b5ac22a46df829beb33bf7c51163cac12c0fa433bd26efbd6e",
+      "url": "https://github.com/addyosmani/agent-skills"
+    },
+    {
+      "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "full_name": "max-sixty/worktrunk",
+      "project_file": "projects/max-sixty__worktrunk.md",
+      "rank": 24,
+      "readme_sha256": "54fbcb1004d61b5c297f3ce00bed85536aaa677ad43102e1f9374496bbce7e4a",
+      "url": "https://github.com/max-sixty/worktrunk"
+    }
+  ],
+  "snapshot_date": "2026-10-09",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

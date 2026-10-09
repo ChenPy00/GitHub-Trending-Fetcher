@@ -1,0 +1,81 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 1,
+      "readme_sha256": "a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Factory Droid, and Pi. 42 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 2,
+      "readme_sha256": "5c11caaa547f423e89cbe7b24d43ed41cddbef121826bfd4045f400d8ade2124",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 3,
+      "readme_sha256": "37ac5dcca1820350f82b3e5f8cd589ff643f26b0262ef4c99ae1b9ed63081276",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 4,
+      "readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 5,
+      "readme_sha256": "cab3de3a96cf45d400bf2e06ede89e96b895a14a0b360165b19da0c79b7ede64",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "full_name": "EpicGames/raddebugger",
+      "project_file": "projects/EpicGames__raddebugger.md",
+      "rank": 6,
+      "readme_sha256": "ef9b0413c5cf63a51a25010749e09aa569099f948d9b4a27836d768ec7991c61",
+      "url": "https://github.com/EpicGames/raddebugger"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 7,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "full_name": "storytold/artcraft",
+      "project_file": "projects/storytold__artcraft.md",
+      "rank": 8,
+      "readme_sha256": "77bfd66aa78e0c97ab0dc71ac3d19207d823fc34eb202694cb8d160660565a4b",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "description": "Notes of the book System Desgin Interview - An Insider's Guide",
+      "full_name": "liquidslr/system-design-notes",
+      "project_file": "projects/liquidslr__system-design-notes.md",
+      "rank": 9,
+      "readme_sha256": "955ff40f792461a14676676b478fd41f3a1d0e6780aa13e4dfa155402739f4eb",
+      "url": "https://github.com/liquidslr/system-design-notes"
+    }
+  ],
+  "snapshot_date": "2026-10-09",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
