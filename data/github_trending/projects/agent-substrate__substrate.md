@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "3c324b00a58fd06152102ad4fdb2a823b43e5a24547c5dc3ee3ebddbad7ec04a"
+  "readme_sha256": "191cafb4159e02bcfb767d3e0fff6f0dcae3ed0a7daafc55c277b45ddb15165d"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `3c324b00a58fd06152102ad4fdb2a823b43e5a24547c5dc3ee3ebddbad7ec04a`
+- README SHA256: `191cafb4159e02bcfb767d3e0fff6f0dcae3ed0a7daafc55c277b45ddb15165d`
 
 ## README
 
@@ -283,7 +283,7 @@ We provide several sample applications demonstrating Agent Substrate's capabilit
 * [Enabling man-in-the-middle (MITM) interception for Actor Egress policy](docs/egress-trust-bundle.md): Egress policies such as header injection depend on MITM interception of Actor traffic. This guide explains how an Actor should be configured to enable interception.
 * [Request Parking](docs/request-parking.md): How the router parks requests through transient worker-pool saturation.
 * [Rolling Upgrade Runbook](docs/upgrade.md): Upgrade a running substrate node by node without losing actor state.
-* [Threat Model](docs/threat-model.md): Trust boundaries, assumptions, and known risks.
+* [Security Guide](docs/security.md): Security overview, security principles, and threat modeling.
 * [Roadmap](docs/roadmap.md): Current limitations and what is planned next.
 * [Benchmarking Guide](benchmarking/README.md): Locust-based load tests, monitoring stack, and the orchestrated benchmark harness.
 

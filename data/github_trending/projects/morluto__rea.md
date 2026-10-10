@@ -5,7 +5,7 @@
   "full_name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-  "readme_sha256": "37ac5dcca1820350f82b3e5f8cd589ff643f26b0262ef4c99ae1b9ed63081276"
+  "readme_sha256": "19d43cffdf8581aff87f9118990bae0f1ba4edbcd9b7e52ddde1b6b32467f113"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/morluto/rea
 - Description: Reverse engineer anything with agents, from app behavior down to native binaries.
-- README SHA256: `37ac5dcca1820350f82b3e5f8cd589ff643f26b0262ef4c99ae1b9ed63081276`
+- README SHA256: `19d43cffdf8581aff87f9118990bae0f1ba4edbcd9b7e52ddde1b6b32467f113`
 
 ## README
 
@@ -30,7 +30,7 @@
 [![npm version](https://img.shields.io/npm/v/rea-agents?style=flat-square&color=cb3837)](https://www.npmjs.com/package/rea-agents)
 [![CI](https://img.shields.io/github/actions/workflow/status/morluto/rea/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/morluto/rea/actions/workflows/ci.yml)
 [![MCP tool catalog](https://img.shields.io/badge/MCP-tool_catalog-5c4ee5?style=flat-square)](docs/mcp-contracts.md#generated-catalog)
-[![Node.js 22+](https://img.shields.io/badge/Node.js-22.19%2B-339933?style=flat-square&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Node.js requirements](https://img.shields.io/badge/Node.js-requirements-339933?style=flat-square&logo=nodedotjs&logoColor=white)](#what-you-can-analyze)
 [![skills.sh](https://skills.sh/b/morluto/rea?style=flat-square)](https://skills.sh/morluto/rea/reverse-engineer-anything)
 [![MIT license](https://img.shields.io/badge/license-MIT-f4c430?style=flat-square)](LICENSE)
 [![Discord](https://img.shields.io/discord/1556595354999332884?logo=discord&logoColor=white&label=Discord&color=5865F2)](https://discord.gg/GkcryMnJDM)
@@ -47,7 +47,7 @@
 
 <img src="docs/assets/rea-hopper-analysis.png" alt="REA launching its analysis bridge inside Hopper while inspecting a native binary" width="1200" />
 
-<br />
+<br /><br />
 
 <table aria-label="REA community">
 <tr>
@@ -71,7 +71,7 @@ See a feature in an app that you want in your own product? Ask your agent to inv
 
 REA connects your agent to tools for inspecting native binaries, JavaScript and Electron apps, .NET assemblies, and websites. You can also use the same tools from your terminal. Analysis runs locally, and results include the evidence and limitations behind each conclusion.
 
-Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper or Ghidra installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs neither engine.
+Setup registers REA with your agent and installs matching workflow instructions. Native analysis can use an existing Hopper, Ghidra, or IDA installation; setup can optionally install Hopper with approval. Static JavaScript analysis needs no native analysis engine.
 
 > **[Visit the REA website](https://rea.tools/)** for setup instructions, illustrated guides, and real case studies.
 
@@ -175,8 +175,8 @@ Additional tools and host support depend on the target:
 | JavaScript / Electron  | Modules, imports, source maps, routes, IPC and native add-on relationships           | Node.js and npm; [application analysis](https://rea.tools/guides/javascript/)                                                         |
 | Websites               | Page structure, scripts, network observations and requested screenshots              | A Chrome-family browser; [browser analysis](https://rea.tools/guides/browser/)                                                        |
 | Saved network captures | Requests, responses, exposed payloads and source locations                           | HAR; mitmdump on Linux for native mitmproxy captures; [capture guide](docs/web-network-captures.md)                                   |
-| .NET assemblies        | Metadata, CIL instructions, declared native dependencies and build comparisons       | Static inspection; [managed-code guide](docs/managed-code-analysis.md)                                                                |
-| Android APKs           | Manifest declarations, classes, decompiled methods and references                    | Headless JADX and a full JDK on Linux/macOS; [Android guide](docs/android-analysis.md)                                                |
+| .NET assemblies        | Metadata, CIL instructions, declared native dependencies and build comparisons       | None (static only); [managed-code guide](docs/managed-code-analysis.md)                                                               |
+| Android APKs           | Manifest declarations, classes, decompiled methods and references                    | Headless JADX and a full JDK on Linux/macOS/Windows x64; [Android guide](docs/android-analysis.md)                                    |
 | Firmware               | Regions, extraction results and native-analysis handoffs                             | Binwalk / Unblob on Linux; [firmware guide](docs/firmware-analysis.md)                                                                |
 | Packages and resources | File inventories, digests, plists, Apple bundle anatomy and extracted resources      | [Artifact and JavaScript guide](docs/javascript-artifact-reconstruction.md), [Apple applications](docs/apple-application-analysis.md) |
 | Process behavior       | Terminal output, interactions, exit and filesystem observations, and run comparisons | Linux/macOS with a native PTY; [process capture](docs/process-capture.md)                                                             |
@@ -199,6 +199,8 @@ Check [release availability](docs/installation.md#released-package-and-main)
 for features added since the latest npm release.
 
 ## Showcases
+
+[![Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases](docs/assets/rea-showcases.png)](https://rea.tools/showcase/)
 
 ### DX-Ball: reconstruct a sound-pan calculation
 
@@ -262,7 +264,7 @@ ask you to choose demo mode or activate your license. See
 <details>
 <summary><strong>What does installing the skill from skills.sh do?</strong></summary>
 
-The skill supplies investigation instructions for your agent. Use `rea setup`
+The skill supplies investigation instructions for your agent. Use `npx rea-agents setup`
 to register REA's MCP server and install the matching instructions, then restart
 your agent. See [skill-only installation](docs/installation.md#skill-only-installation).
 
@@ -317,28 +319,14 @@ For exact options, prerequisites and result contracts:
 - [Readiness and troubleshooting](docs/installation.md#check-readiness-for-your-task): diagnose one agent or analysis engine.
 - [CLI and Evidence](docs/cli.md): commands, provider selection, snapshots, import/export and exit statuses.
 - [MCP contracts](docs/mcp-contracts.md) and [agent prompts](docs/mcp-prompts.md): tool results, sessions and guided investigations.
-- [Tool catalog](docs/mcp-contracts.md#generated-catalog): build-generated inventory of tools, providers and CLI commands.
+- [Tool catalog](docs/mcp-contracts.md#generated-catalog): generated inventory of tools, providers and CLI commands.
 - [Roadmap](docs/roadmap.md): planned work and capability trackers.
 
 Report vulnerabilities through [SECURITY.md](SECURITY.md).
 
-## Contributing
-
-We'd love your help with REA! [Open an issue](https://github.com/morluto/rea/issues) to
-report a bug or suggest a feature, or [send a pull request](https://github.com/morluto/rea/pulls)
-to improve the code or docs.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and checks,
-[testing](docs/testing.md) for verification lanes, and the
-[architecture map](docs/architecture.mermaid) for the project structure.
-
-## Project links
-
-[Website](https://rea.tools/) · [npm](https://www.npmjs.com/package/rea-agents) · [skills.sh](https://skills.sh/morluto/rea/reverse-engineer-anything) · [Issues](https://github.com/morluto/rea/issues) · [Security](SECURITY.md)
-
 ## Star history
 
-🎉 **30,000 GitHub stars — thank you!**
+🎉 **50,000 GitHub stars — thank you!**
 
 Thanks to everyone using REA, reporting bugs, requesting features, testing builds, and contributing fixes.
 
@@ -355,6 +343,16 @@ Thanks to everyone using REA, reporting bugs, requesting features, testing build
 REA provides tools for lawful reverse-engineering research, analysis, and reconstruction. You are responsible for obtaining any required authorization and complying with applicable laws. The project does not endorse illegal or unauthorized use.
 
 REA is an open-source software project. We have not issued or endorsed any cryptocurrency or token. Tokens using the REA name are not affiliated with the project.
+
+## Contributing
+
+We'd love your help with REA! [Open an issue](https://github.com/morluto/rea/issues) to
+report a bug or suggest a feature, or [send a pull request](https://github.com/morluto/rea/pulls)
+to improve the code or docs.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and checks,
+[testing](docs/testing.md) for verification lanes, and the
+[architecture map](docs/architecture.mermaid) for the project structure.
 
 ## License
 

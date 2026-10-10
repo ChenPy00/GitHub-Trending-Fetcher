@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "9ea15485fee7ab5793508511634acf32937f24db292b3838f7b8cfa1837b7bf7"
+  "readme_sha256": "d89bf61cd36146d09b3f714a456d2ca844d3987fdf8ea8ad603d38e2f7fde64c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `9ea15485fee7ab5793508511634acf32937f24db292b3838f7b8cfa1837b7bf7`
+- README SHA256: `d89bf61cd36146d09b3f714a456d2ca844d3987fdf8ea8ad603d38e2f7fde64c`
 
 ## README
 
@@ -115,6 +115,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `shopify-store` | [Shopify](third_party/shopify-store/) | Cursor | Integrations | Connect your Shopify store so Grok can answer questions about products, orders, customers, inventory, and sales. |
 | `quickbooks-online` | [QuickBooks Online](third_party/quickbooks-online/) | Cursor | Integrations | Read invoices, bills, expenses, customers, accounts, and financial reports. |
 | `workday` | [Workday](third_party/workday/) | Cursor | Integrations | Look up workers, organizations, time off, payroll, and recruiting data in Workday. |
+| `square` | [Square](third_party/square/) | Cursor | Integrations | Work with payments, orders, catalog, customers, and invoices. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure

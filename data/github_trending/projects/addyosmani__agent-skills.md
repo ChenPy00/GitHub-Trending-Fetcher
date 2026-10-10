@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "4bae14d9c56e00b5ac22a46df829beb33bf7c51163cac12c0fa433bd26efbd6e"
+  "readme_sha256": "1721f3d97679a2d7e6208e7f9af3ed891a4dd29de9a56ccbb6fd7d971cb8c9d4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `4bae14d9c56e00b5ac22a46df829beb33bf7c51163cac12c0fa433bd26efbd6e`
+- README SHA256: `1721f3d97679a2d7e6208e7f9af3ed891a4dd29de9a56ccbb6fd7d971cb8c9d4`
 
 ## README
 
@@ -119,7 +119,7 @@ claude --plugin-dir /path/to/agent-skills
 <details>
 <summary><b>Cursor</b></summary>
 
-Put workflow skills under `.cursor/skills/` (sync from `agent-skills/skills/`) and short policies in `.cursor/rules/*.mdc` — do not paste full skills into rules. See [docs/cursor-setup.md](docs/cursor-setup.md).
+Put workflow skills under `.cursor/skills/` (sync from `agent-skills/skills/`) and short policies in `.cursor/rules/*.mdc` — do not paste full skills into rules. Both directories live in your project; this repo does not ship a `.cursor/` folder. See [docs/cursor-setup.md](docs/cursor-setup.md).
 
 </details>
 
@@ -181,7 +181,7 @@ See [docs/opencode-setup.md](docs/opencode-setup.md).
 <details>
 <summary><b>GitHub Copilot</b></summary>
 
-Use agent definitions from `agents/` as Copilot personas and skill content in `.github/copilot-instructions.md`. See [docs/copilot-setup.md](docs/copilot-setup.md).
+Use agent definitions from `agents/` as Copilot personas and skill content in `.github/copilot-instructions.md`. The lifecycle slash commands (`/spec`, `/plan`, `/build`, `/test`, `/review`, `/ship`) are Claude Code commands and do not appear in Copilot; invoke the skills by name (`/spec-driven-development`, …) instead. See [docs/copilot-setup.md](docs/copilot-setup.md).
 
 Using the standalone `copilot` CLI? Install it as a plugin — see [docs/copilot-cli-setup.md](docs/copilot-cli-setup.md).
 

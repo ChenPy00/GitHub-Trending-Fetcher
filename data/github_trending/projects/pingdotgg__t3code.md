@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "1e61dfaa3754fbb2a11ae92f62fc5abe5f4fa22dc37f0e1cf832968022ec5c8b"
+  "readme_sha256": "07301caabab983a6f1a6c1542cdad4c3d528233b7e0fabd6d76b089d7387a44c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `1e61dfaa3754fbb2a11ae92f62fc5abe5f4fa22dc37f0e1cf832968022ec5c8b`
+- README SHA256: `07301caabab983a6f1a6c1542cdad4c3d528233b7e0fabd6d76b089d7387a44c`
 
 ## README
 
@@ -67,6 +67,12 @@ Install the latest version of the desktop app from [GitHub Releases](https://git
 winget install T3Tools.T3Code
 ```
 
+#### Windows (`scoop`)
+
+```bash
+scoop install extras/t3code
+```
+
 #### macOS (Homebrew)
 
 ```bash
@@ -113,6 +119,7 @@ Full docs live in [docs/](./docs). There's no docs site yet.
 - [Project settings](./docs/user/project-settings.md)
 - [Appearance preferences](./docs/user/appearance.md)
 - [Remote access from a phone or another machine](./docs/user/remote-access.md)
+- [Connect Claude Code, Codex, ChatGPT and other agents over MCP](./docs/user/outside-agents.md)
 - [Keeping app and server in sync](./docs/user/updating.md)
 - [Source control integrations](./docs/user/source-control.md)
 - Multiple accounts: [Codex](./docs/user/providers-codex.md) · [Claude](./docs/user/providers-claude.md)

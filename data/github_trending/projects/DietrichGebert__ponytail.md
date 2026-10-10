@@ -5,7 +5,7 @@
   "full_name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "readme_sha256": "55155755e6bd23f230405e6b78d57fbceef5bf4f0d5f279dbe58e2b205778712"
+  "readme_sha256": "e31b1e24488556f2adb8ec2226331fc4a038297839cd8f61e4a8782a7a0e8705"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DietrichGebert/ponytail
 - Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- README SHA256: `55155755e6bd23f230405e6b78d57fbceef5bf4f0d5f279dbe58e2b205778712`
+- README SHA256: `e31b1e24488556f2adb8ec2226331fc4a038297839cd8f61e4a8782a7a0e8705`
 
 ## README
 
@@ -40,6 +40,10 @@
   <img src="https://img.shields.io/npm/v/@dietrichgebert/ponytail?style=flat-square&color=111111&label=npm" alt="npm">
   <img src="https://img.shields.io/badge/works%20with-20%20agents-111111?style=flat-square" alt="Works with 20 agents">
   <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
+</p>
+
+<p align="center">
+  <a href="https://ponytail.dev/stories"><img src="assets/stories-banner.png" alt="Using Ponytail at work? Tell us your story" width="760"></a>
 </p>
 
 <p align="center">

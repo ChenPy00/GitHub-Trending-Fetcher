@@ -5,7 +5,7 @@
   "full_name": "earthtojake/text-to-cad",
   "url": "https://github.com/earthtojake/text-to-cad",
   "description": "Give your agent CAD superpowers.",
-  "readme_sha256": "76e53ad32997b4e7904aa878a114583e360bcc0b95f6ab17554963620d94f488"
+  "readme_sha256": "8429527420bdabf881e1c9fbbce826bc55d64736c763bf8772cc7bee1a848cc7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earthtojake/text-to-cad
 - Description: Give your agent CAD superpowers.
-- README SHA256: `76e53ad32997b4e7904aa878a114583e360bcc0b95f6ab17554963620d94f488`
+- README SHA256: `8429527420bdabf881e1c9fbbce826bc55d64736c763bf8772cc7bee1a848cc7`
 
 ## README
 
@@ -129,7 +129,7 @@ app. If Claude Desktop cannot find `uvx`, give its full path (`which uvx`).
   "mcpServers": {
     "cad": {
       "command": "uvx",
-      "args": ["--no-config", "--managed-python", "--python", "3.13", "--from", "cadgen==0.7.19", "cadgen", "mcp"],
+      "args": ["--no-config", "--managed-python", "--python", "3.13", "--from", "cadgen==0.7.20", "cadgen", "mcp"],
       "env": {"CADGEN_INSTALL_CHANNEL": "claude-desktop"}
     }
   }
@@ -306,10 +306,13 @@ never for a copy that something else updates. `CADGEN_UPDATE_CHECK=0` turns it o
 
 The CAD app (the plugin's `cad` server), the browser viewer (`cadgen viewer`) and the build daemon that builds for
 them and for every `cadgen` command send usage stats by default, tagged with a random install ID: versions, where
-you installed it from, your OS and agent app, and counts -- how often each CAD tool was called and why a call failed
+you installed it from (as the plugin's CAD app names it, noted in cadgen's state folder for the other two), your OS
+and agent app, and counts -- how often each CAD tool was called and why a call failed
 (one of a fixed set of words, such as "no file at that path" or "no view open", never its message), how often views
-were used, how many files of each format were shown, how many models were built and snapshots rendered, how those ended and
-how long they took, which features were used -- added up over a few minutes before they are sent. When cadgen's own
+were used, how many files of each format were shown, how many models were built and snapshots rendered, how those ended,
+why one failed (again a fixed word, such as "the model's code raised" or "the geometry kernel refused", never its
+message) and how long they took, which features were used -- added up over a few minutes before they are sent, each
+batch under a random ID of its own and the time it was made, so one sent again is counted once. When cadgen's own
 code fails, they also send a crash report: the error's type and where in cadgen (or Python, or one of its
 dependencies) it failed, never its message, and with any of your own code a bare placeholder. Our server adds the country each request
 comes from (worked out from its IP address, which it doesn't keep) and stores it all with PostHog. Never file names,

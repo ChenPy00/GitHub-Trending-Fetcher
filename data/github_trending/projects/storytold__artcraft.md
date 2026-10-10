@@ -5,7 +5,7 @@
   "full_name": "storytold/artcraft",
   "url": "https://github.com/storytold/artcraft",
   "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
-  "readme_sha256": "77bfd66aa78e0c97ab0dc71ac3d19207d823fc34eb202694cb8d160660565a4b"
+  "readme_sha256": "933462209ceb7309defc4ec7df50b110ae17d26d9ab2ff38e241d1081d7045a1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/storytold/artcraft
 - Description: ArtCraft is an intentional crafting engine for artists, designers, and filmmakers
-- README SHA256: `77bfd66aa78e0c97ab0dc71ac3d19207d823fc34eb202694cb8d160660565a4b`
+- README SHA256: `933462209ceb7309defc4ec7df50b110ae17d26d9ab2ff38e241d1081d7045a1`
 
 ## README
 
@@ -155,4 +155,10 @@ Additional provider integrations are planned for Kling, Google, Runway, and Luma
 - [Developer documentation](./_docs)
 - [Desktop build and development scripts](./script/artcraft)
 - [Roadmap](./ROADMAP.md)
-- [License](./LICENSE.md)
+- [License](#license)
+
+## License
+
+ArtCraft is dual-licensed under [MIT](LICENSE-MIT) or [Apache-2.0](LICENSE-APACHE), at your option.
+Copyright (c) 2026 ArtCraft Team and the ArtCraft contributors. Required notices, including
+third-party material not covered by this license, are in [NOTICE](NOTICE).
