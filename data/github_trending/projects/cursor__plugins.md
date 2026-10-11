@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "d89bf61cd36146d09b3f714a456d2ca844d3987fdf8ea8ad603d38e2f7fde64c"
+  "readme_sha256": "be28b87e0f8579d1737c9960181394d73f6fb58dd02ed8e767584a35ca500ba0"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `d89bf61cd36146d09b3f714a456d2ca844d3987fdf8ea8ad603d38e2f7fde64c`
+- README SHA256: `be28b87e0f8579d1737c9960181394d73f6fb58dd02ed8e767584a35ca500ba0`
 
 ## README
 
@@ -78,7 +78,6 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `upwork` | [Upwork](third_party/upwork/) | Cursor | Integrations | Search talent, post jobs, and manage contracts. |
 | `workable` | [Workable](third_party/workable/) | Cursor | Integrations | Search candidates, move pipelines, and manage HR records. |
 | `brex` | [Brex](third_party/brex/) | Cursor | Integrations | Query expenses, receipts, bills, cards, and travel. |
-| `mercury` | [Mercury](third_party/mercury/) | Cursor | Integrations | Read balances, transactions, statements, and cards. |
 | `todoist` | [Todoist](third_party/todoist/) | Cursor | Integrations | Create, find, and complete tasks and projects. |
 | `calendly` | [Calendly](third_party/calendly/) | Cursor | Integrations | Check availability and book, cancel, or reschedule. |
 | `smartsheet` | [Smartsheet](third_party/smartsheet/) | Cursor | Integrations | Query and update sheets, rows, and workspaces. |

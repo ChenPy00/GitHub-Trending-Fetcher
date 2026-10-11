@@ -5,7 +5,7 @@
   "full_name": "longbridge/gpui-kit",
   "url": "https://github.com/longbridge/gpui-kit",
   "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-  "readme_sha256": "4c535f781dd2ac0c6687e50b9a55cf7acbb049086d09b2ef64f1538224518d89"
+  "readme_sha256": "3325bdd3e8e3e2db588cf737db172d2f843e878ba3dbbb0b9ede1dd7ef1136cb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/longbridge/gpui-kit
 - Description: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
-- README SHA256: `4c535f781dd2ac0c6687e50b9a55cf7acbb049086d09b2ef64f1538224518d89`
+- README SHA256: `3325bdd3e8e3e2db588cf737db172d2f843e878ba3dbbb0b9ede1dd7ef1136cb`
 
 ## README
 
@@ -146,6 +146,22 @@ default icon set are on by default. Turn default
 features off to keep only the layers you use. The `gpui-component` features (`inspector`, `decimal`,
 `tree-sitter`, and each `tree-sitter-<language>`) are available under the same
 names.
+
+### GPUI Fast
+
+Enable the optional `gpui-fast` feature to select [GPUI Fast](https://github.com/longbridge/gpui-fast)
+for the core, native platforms, WebAssembly, and every enabled Kit layer:
+
+```toml
+[dependencies]
+gpui-kit = { version = "0.7", features = ["gpui-fast"] }
+```
+
+Keep the same imports, initialization, and test macros; no application `[patch]`
+or crate alias is needed. The default backend remains the pinned upstream GPUI
+snapshot. Cargo features are additive, so upstream packages still compile when
+Fast is selected. See [Getting Started](https://gpui-kit.com/docs/getting-started)
+for feature combinations and comparison commands.
 
 ### Basic Example
 

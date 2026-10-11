@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "30690cf7e234e0690516fe1561142f64394379205fcd0588f8fb6c93e932fbac",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 2,
+      "readme_sha256": "a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "full_name": "storytold/artcraft",
+      "project_file": "projects/storytold__artcraft.md",
+      "rank": 3,
+      "readme_sha256": "933462209ceb7309defc4ec7df50b110ae17d26d9ab2ff38e241d1081d7045a1",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 4,
+      "readme_sha256": "ae53663f000732ab35b1d7363563eeae2ed7e6be0a5fede8390ffe9b5029881f",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 5,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 6,
+      "readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "full_name": "flutter/flutter",
+      "project_file": "projects/flutter__flutter.md",
+      "rank": 7,
+      "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a",
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "full_name": "tensorflow/tensorflow",
+      "project_file": "projects/tensorflow__tensorflow.md",
+      "rank": 8,
+      "readme_sha256": "e2f779cef212fbc54c3f9b1e273583720edac1ac9cc6ce6813b1e0386a968f0d",
+      "url": "https://github.com/tensorflow/tensorflow"
+    },
+    {
+      "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
+      "full_name": "hugohe3/ppt-master",
+      "project_file": "projects/hugohe3__ppt-master.md",
+      "rank": 9,
+      "readme_sha256": "fea82a40b8c7f49f5e709dc2a54ce3aa3e20f2441bae9614dc935bb15a561856",
+      "url": "https://github.com/hugohe3/ppt-master"
+    },
+    {
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "full_name": "pytorch/pytorch",
+      "project_file": "projects/pytorch__pytorch.md",
+      "rank": 10,
+      "readme_sha256": "c839137f1d406e0ba4f641222471a5cbfabb2141b39491f7267f57cf5e2107b9",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+      "full_name": "huggingface/transformers",
+      "project_file": "projects/huggingface__transformers.md",
+      "rank": 11,
+      "readme_sha256": "c7927a5d539f969b9277094b698af45ff864451c0adc432827c48ee7a99c78cb",
+      "url": "https://github.com/huggingface/transformers"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 12,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 13,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    }
+  ],
+  "snapshot_date": "2026-10-11",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

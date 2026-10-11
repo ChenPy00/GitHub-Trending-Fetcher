@@ -5,7 +5,7 @@
   "full_name": "huggingface/transformers",
   "url": "https://github.com/huggingface/transformers",
   "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
-  "readme_sha256": "9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382"
+  "readme_sha256": "c7927a5d539f969b9277094b698af45ff864451c0adc432827c48ee7a99c78cb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/huggingface/transformers
 - Description: 🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.
-- README SHA256: `9f745fda7e49125b047e41f99ff1bf67b1c092c34c61bdfda1c3460feaa95382`
+- README SHA256: `c7927a5d539f969b9277094b698af45ff864451c0adc432827c48ee7a99c78cb`
 
 ## README
 
@@ -103,7 +103,7 @@ Explore the [Hub](https://huggingface.co/) today to find a model and use Transfo
 
 ## Installation
 
-Transformers works with Python 3.10+, and [PyTorch](https://pytorch.org/get-started/locally/) 2.5+.
+Transformers works with Python 3.10+, and [PyTorch](https://pytorch.org/get-started/locally/) 2.6+.
 
 Create and activate a virtual environment with [venv](https://docs.python.org/3/library/venv.html) or [uv](https://docs.astral.sh/uv/), a fast Rust-based Python package and project manager.
 

@@ -5,7 +5,7 @@
   "full_name": "tester-army/e2e",
   "url": "https://github.com/tester-army/e2e",
   "description": "Next generation e2e testing framework for web and mobile apps.",
-  "readme_sha256": "d8ce969cc339e8088de836d06a7152d50b06853f876f3046a46b42be5b687e83"
+  "readme_sha256": "8a83fb0e0e6c608f38a654b7c644e70f92370776486fcf5b8a3f1010964f2971"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tester-army/e2e
 - Description: Next generation e2e testing framework for web and mobile apps.
-- README SHA256: `d8ce969cc339e8088de836d06a7152d50b06853f876f3046a46b42be5b687e83`
+- README SHA256: `8a83fb0e0e6c608f38a654b7c644e70f92370776486fcf5b8a3f1010964f2971`
 
 ## README
 
@@ -65,8 +65,8 @@ config and an example test. The
 
 To see a finished setup in your stack, open
 [`examples/`](https://github.com/tester-army/e2e/tree/main/examples):
-Vite, Next.js, Expo, SwiftUI, Jetpack Compose, Kotlin Multiplatform, and
-Flutter, each a standalone project with a passing suite.
+Vite, Next.js, Astro, Expo, SwiftUI, Jetpack Compose, Kotlin Multiplatform,
+and Flutter, each a standalone project with a passing suite.
 
 ## Packages
 
@@ -78,6 +78,7 @@ Flutter, each a standalone project with a passing suite.
 | [`@e2e-dev/github`](https://www.npmjs.com/package/@e2e-dev/github) | Reporter that posts results as a pull request comment. |
 | [`@e2e-dev/kernel`](https://www.npmjs.com/package/@e2e-dev/kernel) | Kernel hosted browsers for the web engine. |
 | [`@e2e-dev/eas`](https://www.npmjs.com/package/@e2e-dev/eas) | EAS Simulators hosted iOS simulators and Android emulators for the mobile engine. |
+| [`@e2e-dev/smol`](https://www.npmjs.com/package/@e2e-dev/smol) | smol machines browsers for the web engine: by default, each attempt branches a warm Chromium microVM. |
 | [`@e2e-dev/decision`](https://e2e.tester.army/docs/decision-models) | Decision-model executors for bounded semantic actions and assertions. |
 
 ## Documentation
