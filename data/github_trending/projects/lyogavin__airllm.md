@@ -5,7 +5,7 @@
   "full_name": "lyogavin/airllm",
   "url": "https://github.com/lyogavin/airllm",
   "description": "AirLLM 70B inference with single 4GB GPU",
-  "readme_sha256": "3b75364fd412e2a2b0e365c3e603bdb2bc70afcc254319738e58ad7bc305747a"
+  "readme_sha256": "746f35e0bee6598643666792c050c8833b5d441d36e0a60dd0846ae0d34ece73"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/lyogavin/airllm
 - Description: AirLLM 70B inference with single 4GB GPU
-- README SHA256: `3b75364fd412e2a2b0e365c3e603bdb2bc70afcc254319738e58ad7bc305747a`
+- README SHA256: `746f35e0bee6598643666792c050c8833b5d441d36e0a60dd0846ae0d34ece73`
 
 ## README
 
@@ -25,7 +25,7 @@
 [**Example notebooks**](#example-python-notebook) | 
 [**FAQ**](#faq)
 
-**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **405B Llama 3.1** on **8GB**, **DeepSeek-V3 (671B)** on **~12GB**, and **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, because sparse MoE models stream one expert at a time rather than a whole layer.
+**AirLLM** dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, or pruning. You can even run **Kimi K3 (2.8T)** — the largest open-source model released to date — on **under 4GB**, **Qwen3.8-Flash-Next (125B)** on **6GB**, and **DeepSeek-V3 (671B)** on **~12GB**. We now also support training huge models on small VRAM: **Qwen3.8-Flash-Next (125B)** under **6GB**.
 
 <a href="https://github.com/lyogavin/airllm/stargazers">![GitHub Repo stars](https://img.shields.io/github/stars/lyogavin/airllm?style=social)</a>
 [![Downloads](https://static.pepy.tech/personalized-badge/airllm?period=total&units=international_system&left_color=grey&right_color=blue&left_text=downloads)](https://pepy.tech/project/airllm)
@@ -47,9 +47,9 @@
 
 * [Best AI Facial Expression Editor](https://crazyfaceai.com)
 
-* [Bloome — build & run AI agent teams in the cloud, zero setup](https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606)
-
 ## Updates
+[2026/09] **Training** support: stream frozen weights one layer at a time and keep adapters on the GPU. **Qwen3.8-Flash-Next (125B)** trains under **6GB** (RTX 3060 Ti); **Qwen3.8-27B** trains in **~2GB** at seq 512. See [Training](#training).
+
 [2026/08] **Qwen3.8-Flash-Next** support: Qwen's 125B MoE flagship (`Qwen4ExpForConditionalGeneration`) with a ~51B n-gram embedding runs in **5.95GB** of VRAM, measured end to end on one RTX 4090. The n-gram table is file-mapped on the host (a 64GB machine is enough); decoder layers stream. Needs a `transformers` build with in-tree `qwen4_exp` (`pip install git+https://github.com/huggingface/transformers.git` today) and ~360GB of checkpoint disk (`delete_original=True` reclaims the originals after the split).
 
 [2026/08] **Qwen3.8-27B** support: Qwen's new dense VL (Gated DeltaNet + Gated Attention, native vision) runs in **3.33GB** of VRAM, measured end to end on one RTX 3090. Needs `transformers` 5.8+.
@@ -99,6 +99,7 @@
 * [Run on MacOS](#macos)
 * [Example notebooks](#example-python-notebook)
 * [Supported Models](#supported-models)
+* [Training](#training)
 * [Acknowledgement](#acknowledgement)
 * [FAQ](#faq)
 
@@ -316,6 +317,86 @@ The trick: AirLLM only ever keeps **one layer on the GPU at a time**, so the VRA
 
 Same one line of code for all of them — no special setup.
 
+## Training
+
+AirLLM can fine-tune huge models on a small GPU. Frozen base weights stream from disk one decoder layer at a time; only the adapters stay resident. **Qwen3.8-Flash-Next (125B)** trains under **6GB**; **Qwen3.8-27B** trains in **~2GB** at seq 512.
+
+This is not Hugging Face Trainer / bitsandbytes QLoRA. Flash-Next needs a `transformers` build with in-tree `qwen4_exp` (`pip install git+https://github.com/huggingface/transformers.git` today).
+
+### 1. Prepare a dataset
+
+One JSON object per line (`.jsonl`). The usual field is `text` — next-token prediction over the whole string:
+
+```json
+{"text": "Your first training document. Can be a few sentences or a few paragraphs."}
+{"text": "Your second training document."}
+```
+
+Instruction pairs work too. Loss is applied on the completion only:
+
+```json
+{"prompt": "What is AirLLM?", "completion": "A library that runs and trains huge models on small VRAM."}
+{"instruction": "Translate to English", "input": "bonjour", "output": "hello"}
+```
+
+A `.txt` file is also fine: one example per blank-line-separated block. A two-line starter file lives at `air_llm/examples/sft_example.jsonl`.
+
+### 2. Run training
+
+From the repo root, point `--data` at your file:
+
+```bash
+python air_llm/examples/train_qwen38_flash_next_lora.py \
+  --data my_data.jsonl \
+  --seq-len 512 \
+  --epochs 1 \
+  --save-adapter qwen38-flash-next-lora.pt
+```
+
+For the 27B dense model:
+
+```bash
+python air_llm/examples/train_qwen38_lora.py \
+  --data my_data.jsonl \
+  --seq-len 512 \
+  --epochs 1 \
+  --save-adapter qwen38-27b-lora.pt
+```
+
+`--steps N` stops after N examples (useful for a smoke test). Omit `--data` and the script overfits a built-in snippet.
+
+### Python API
+
+```python
+from airllm import AirLLMLoRAQwen4Exp
+
+trainer = AirLLMLoRAQwen4Exp(
+    "Qwen/Qwen3.8-Flash-Next",
+    max_seq_len=512,
+    lora_r=16,
+    delete_original=True,
+)
+
+tok = trainer.tokenizer
+if tok.pad_token_id is None:
+    tok.pad_token = tok.eos_token
+
+encoded = tok(
+    "Your training text here.",
+    return_tensors="pt",
+    truncation=True,
+    max_length=512,
+)
+loss = trainer.train_step(
+    encoded["input_ids"].cuda(),
+    attention_mask=encoded.get("attention_mask"),
+)
+print(loss)
+trainer.save_adapter("qwen38-flash-next-lora.pt")
+```
+
+`AirLLMLoRA` is the same API for `Qwen/Qwen3.8-27B`.
+
 ## Acknowledgement
 
 A lot of the code are based on SimJeg's great work in the Kaggle exam competition. Big shoutout to SimJeg:
@@ -388,19 +469,6 @@ BibTex entry:
   year = {2023},
 }
 ```
-
-
-## Sponsors
-
-<a href="https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606">
-  <img src="https://github.com/lyogavin/airllm/blob/main/assets/bloome.png?raw=true" alt="Bloome — Run AI Agent Teams in the Cloud" width="50%" />
-</a>
-
-### Run AI Agent Teams in the Cloud — Bloome
-
-Bloome is an AI-agent IM platform: build and run AI agent teams in the cloud with zero setup. Add a skill as an agent in a group chat, run it in one click from web or mobile, and share it with your team — think of it as a group chat where your AI assistants are teammates you can @mention and assign tasks to.
-
-👉 Try [Bloome](https://bloome.im/app?ref=G6BYnov0&utm_medium=github&utm_source=lyogavin-airllm-ivor-202606)
 
 
 ## Contribution 

@@ -1,0 +1,73 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "dfca8bde5c54550a9c70f5d28a12ceca7eada00b2e7d4c53798d1414341361e2",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 2,
+      "readme_sha256": "a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "full_name": "storytold/artcraft",
+      "project_file": "projects/storytold__artcraft.md",
+      "rank": 3,
+      "readme_sha256": "933462209ceb7309defc4ec7df50b110ae17d26d9ab2ff38e241d1081d7045a1",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 4,
+      "readme_sha256": "ae53663f000732ab35b1d7363563eeae2ed7e6be0a5fede8390ffe9b5029881f",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 5,
+      "readme_sha256": "1f10279b1b74981d3625216e2489c11e3b725f7ac554668bc577647e288b9c9f",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "full_name": "pytorch/pytorch",
+      "project_file": "projects/pytorch__pytorch.md",
+      "rank": 6,
+      "readme_sha256": "c839137f1d406e0ba4f641222471a5cbfabb2141b39491f7267f57cf5e2107b9",
+      "url": "https://github.com/pytorch/pytorch"
+    },
+    {
+      "description": "AirLLM 70B inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 7,
+      "readme_sha256": "746f35e0bee6598643666792c050c8833b5d441d36e0a60dd0846ae0d34ece73",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "Original Apollo 11 Guidance Computer (AGC) source code for the command and lunar modules.",
+      "full_name": "chrislgarry/Apollo-11",
+      "project_file": "projects/chrislgarry__Apollo-11.md",
+      "rank": 8,
+      "readme_sha256": "51742a8bfc44fd5bc5b32776ebfe11a1d009e55611c35feb4b61ca1fc8d5e7fe",
+      "url": "https://github.com/chrislgarry/Apollo-11"
+    }
+  ],
+  "snapshot_date": "2026-10-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

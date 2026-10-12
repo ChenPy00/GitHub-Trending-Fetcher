@@ -1,0 +1,105 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 1,
+      "readme_sha256": "a7ca56383ddba00b4717a996ae27ff2230508be2f4d889afca6c70eef005e617",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "full_name": "tester-army/e2e",
+      "project_file": "projects/tester-army__e2e.md",
+      "rank": 2,
+      "readme_sha256": "9e40cf50776da5fcf8b16219c5ee5789a401ebd5b9ddf488794190a7c74d78cc",
+      "url": "https://github.com/tester-army/e2e"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 3,
+      "readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 4,
+      "readme_sha256": "cab3de3a96cf45d400bf2e06ede89e96b895a14a0b360165b19da0c79b7ede64",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "full_name": "EpicGames/raddebugger",
+      "project_file": "projects/EpicGames__raddebugger.md",
+      "rank": 5,
+      "readme_sha256": "ef9b0413c5cf63a51a25010749e09aa569099f948d9b4a27836d768ec7991c61",
+      "url": "https://github.com/EpicGames/raddebugger"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 6,
+      "readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 7,
+      "readme_sha256": "be28b87e0f8579d1737c9960181394d73f6fb58dd02ed8e767584a35ca500ba0",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "full_name": "flutter/flutter",
+      "project_file": "projects/flutter__flutter.md",
+      "rank": 8,
+      "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a",
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "description": "Give your agent CAD superpowers.",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 9,
+      "readme_sha256": "7ef03dd64436118c0bfcb00f77366212aa22faac9a6a89874a3746e039b6b402",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Build your own network of agents from Claude Code, Codex and Pi: persistent teams with roles, shared context and owned work.",
+      "full_name": "mvschwarz/openrig",
+      "project_file": "projects/mvschwarz__openrig.md",
+      "rank": 10,
+      "readme_sha256": "c9551ab3b81cd0e0c704b95f8c3ff2b12ed0deba1e64a4a3cfbfcc39274fd04d",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    {
+      "description": "ASD-STE100 Simplified Technical English rules, repurposed as a Claude Code skill for rewriting ambiguous agent-facing English.",
+      "full_name": "danyuchn/asd-ste100-skill",
+      "project_file": "projects/danyuchn__asd-ste100-skill.md",
+      "rank": 11,
+      "readme_sha256": "45380a0fb7892b83bbb4fd0aa8b8ae67ea62f095da721d7893a8df4dd3a1cdb6",
+      "url": "https://github.com/danyuchn/asd-ste100-skill"
+    },
+    {
+      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+      "full_name": "ranxianglei/billion-context",
+      "project_file": "projects/ranxianglei__billion-context.md",
+      "rank": 12,
+      "readme_sha256": "299880d20efe846f7b8a39aa7bd183ebce1625611d3e826af17709a9dceb6433",
+      "url": "https://github.com/ranxianglei/billion-context"
+    }
+  ],
+  "snapshot_date": "2026-10-12",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

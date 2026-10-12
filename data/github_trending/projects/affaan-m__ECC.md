@@ -5,7 +5,7 @@
   "full_name": "affaan-m/ECC",
   "url": "https://github.com/affaan-m/ECC",
   "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
-  "readme_sha256": "4d28b26faf29695f0dfd43877f07578c5cb01ffe14e84ed700645c8ccf25c093"
+  "readme_sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/affaan-m/ECC
 - Description: The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.
-- README SHA256: `4d28b26faf29695f0dfd43877f07578c5cb01ffe14e84ed700645c8ccf25c093`
+- README SHA256: `891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c`
 
 ## README
 
@@ -160,12 +160,12 @@ Instead of rebuilding that process in every prompt, you install it once and make
 
 ECC is MIT-licensed open source. It works best with Claude Code today, has native Codex and Qoder plugin paths, and provides capability-limited adapters for Cursor, OpenCode, Gemini, Zed, GitHub Copilot, Antigravity, Qwen, and other harnesses. See the [support status matrix](#platform-support) before assuming feature parity.
 
-Access to 71 agents, 306 skills, and 97 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
+Access to 71 agents, 311 skills, and 97 legacy command shims, plus hooks, rules, memory, continuous learning, and AgentShield security scanning. The agents are specialized for planning, review, build repair, security, architecture, and domain work.
 
 | Included         |       Count | What it gives you                                                                    |
 | ---------------- | ----------: | ------------------------------------------------------------------------------------ |
 | Agents           |   71 agents | Planning, review, build repair, security, architecture, and domain work              |
-| Skills           |  306 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
+| Skills           |  311 skills | TDD, research, security, docs, frontend, data, ML, operations, and more              |
 | Commands         | 97 commands | Convenient entry points while ECC moves to a skills-first surface                    |
 | Hooks and memory |     Runtime | Enforcement, session summaries, continuous learning, instincts, and context controls |
 | Rules            |   Selective | Always-loaded standards you choose by language or project                            |
@@ -878,7 +878,7 @@ Stable graduation of the 2.0 line: control-pane substrate, worktree lifecycle se
 ```text
 ECC/
 |-- agents/           # 71 specialized subagents for delegation
-|-- skills/           # 306 reusable workflows loaded on demand
+|-- skills/           # 311 reusable workflows loaded on demand
 |-- commands/         # 97 maintained slash-command shims
 |-- rules/            # opt-in common and language standards
 |-- hooks/            # runtime automation and enforcement

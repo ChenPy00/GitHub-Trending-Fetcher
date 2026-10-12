@@ -5,7 +5,7 @@
   "full_name": "trycua/cua",
   "url": "https://github.com/trycua/cua",
   "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
-  "readme_sha256": "a80099249c7fbb7c3b39f5ba3336a39325235392970ca75a73391f42e43471ba"
+  "readme_sha256": "12830b2eeb3edea7af9953b27987f3467fa90803c641e786db09a33643c714d7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/trycua/cua
 - Description: Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
-- README SHA256: `a80099249c7fbb7c3b39f5ba3336a39325235392970ca75a73391f42e43471ba`
+- README SHA256: `12830b2eeb3edea7af9953b27987f3467fa90803c641e786db09a33643c714d7`
 
 ## README
 
@@ -285,10 +285,11 @@ We welcome contributions. See our [Contributing Guidelines](CONTRIBUTING.md) for
 
 ## Licensing
 
-Everything outside Cua Spaces is MIT-licensed ([LICENSE](LICENSE.md)): the cua SDK and its Python, TypeScript, Swift and Kotlin packages, the `cua` command and `cua daemon`, Cua Driver, Lume and the rest of this repository unless a directory says otherwise.
+Everything outside Cua Spaces and Cua Driver Bench is MIT-licensed ([LICENSE](LICENSE.md)): the cua SDK and its Python, TypeScript, Swift and Kotlin packages, the `cua` command and `cua daemon`, Cua Driver, Lume and the rest of this repository unless a directory says otherwise.
 Cua Spaces is source-available under [FSL-1.1-MIT](https://fsl.software): the Spaces apps, cua-spacesd, the Cua Keyvault, teleport, Cua Volume (`cua-volume`) and the streaming client, codecs and viewers. The streaming wire protocol stays MIT. It is free to use, self-host and build on, with no competing hosted service, and each release becomes MIT two years after it ships.
+Cua Driver Bench (`benchmarks/cua-driver-bench`) is under the same [FSL-1.1-MIT](benchmarks/cua-driver-bench/LICENSE); versions published before 11 Oct 2026 (#4973, #4978) were MIT.
 The MIT parts never depend on the FSL parts. Some subdirectories carry their own licence; [LICENSING.md](LICENSING.md) lists each one and how the two fit together.
-Offering Spaces as a hosted or managed service? See [COMMERCIAL.md](COMMERCIAL.md). For use of our names and logo, see [TRADEMARKS.md](TRADEMARKS.md).
+Offering Spaces, or Cua Driver Bench, as a hosted or managed service? See [COMMERCIAL.md](COMMERCIAL.md). For use of our names and logo, see [TRADEMARKS.md](TRADEMARKS.md).
 
 Third-party components have their own licenses:
 

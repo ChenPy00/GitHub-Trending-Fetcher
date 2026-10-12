@@ -5,7 +5,7 @@
   "full_name": "tester-army/e2e",
   "url": "https://github.com/tester-army/e2e",
   "description": "Next generation e2e testing framework for web and mobile apps.",
-  "readme_sha256": "8a83fb0e0e6c608f38a654b7c644e70f92370776486fcf5b8a3f1010964f2971"
+  "readme_sha256": "9e40cf50776da5fcf8b16219c5ee5789a401ebd5b9ddf488794190a7c74d78cc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tester-army/e2e
 - Description: Next generation e2e testing framework for web and mobile apps.
-- README SHA256: `8a83fb0e0e6c608f38a654b7c644e70f92370776486fcf5b8a3f1010964f2971`
+- README SHA256: `9e40cf50776da5fcf8b16219c5ee5789a401ebd5b9ddf488794190a7c74d78cc`
 
 ## README
 
@@ -77,6 +77,7 @@ and Flutter, each a standalone project with a passing suite.
 | [`@e2e-dev/mobile`](https://www.npmjs.com/package/@e2e-dev/mobile) | iOS and Android engine: simulators and emulators through agent-device. |
 | [`@e2e-dev/github`](https://www.npmjs.com/package/@e2e-dev/github) | Reporter that posts results as a pull request comment. |
 | [`@e2e-dev/kernel`](https://www.npmjs.com/package/@e2e-dev/kernel) | Kernel hosted browsers for the web engine. |
+| [`@e2e-dev/limrun`](https://www.npmjs.com/package/@e2e-dev/limrun) | Limrun hosted iOS simulators and Android emulators for mobile tests. |
 | [`@e2e-dev/eas`](https://www.npmjs.com/package/@e2e-dev/eas) | EAS Simulators hosted iOS simulators and Android emulators for the mobile engine. |
 | [`@e2e-dev/smol`](https://www.npmjs.com/package/@e2e-dev/smol) | smol machines browsers for the web engine: by default, each attempt branches a warm Chromium microVM. |
 | [`@e2e-dev/decision`](https://e2e.tester.army/docs/decision-models) | Decision-model executors for bounded semantic actions and assertions. |

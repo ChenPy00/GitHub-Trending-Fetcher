@@ -5,7 +5,7 @@
   "full_name": "earthtojake/text-to-cad",
   "url": "https://github.com/earthtojake/text-to-cad",
   "description": "Give your agent CAD superpowers.",
-  "readme_sha256": "8429527420bdabf881e1c9fbbce826bc55d64736c763bf8772cc7bee1a848cc7"
+  "readme_sha256": "7ef03dd64436118c0bfcb00f77366212aa22faac9a6a89874a3746e039b6b402"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/earthtojake/text-to-cad
 - Description: Give your agent CAD superpowers.
-- README SHA256: `8429527420bdabf881e1c9fbbce826bc55d64736c763bf8772cc7bee1a848cc7`
+- README SHA256: `7ef03dd64436118c0bfcb00f77366212aa22faac9a6a89874a3746e039b6b402`
 
 ## README
 
@@ -129,7 +129,7 @@ app. If Claude Desktop cannot find `uvx`, give its full path (`which uvx`).
   "mcpServers": {
     "cad": {
       "command": "uvx",
-      "args": ["--no-config", "--managed-python", "--python", "3.13", "--from", "cadgen==0.7.20", "cadgen", "mcp"],
+      "args": ["--no-config", "--managed-python", "--python", "3.13", "--from", "cadgen==0.7.21", "cadgen", "mcp"],
       "env": {"CADGEN_INSTALL_CHANNEL": "claude-desktop"}
     }
   }
