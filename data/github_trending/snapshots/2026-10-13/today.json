@@ -1,0 +1,81 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "eaa7f452a3d5aa557fa10789dd1dc3e986e2857f41bf3d3f1507822be32c0f6a",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "A spy satellite simulator in your browser, except the data is real. Live open source spatial intelligence on a photorealistic 3D globe.",
+      "full_name": "bilawalsidhu/gods-eye-view",
+      "project_file": "projects/bilawalsidhu__gods-eye-view.md",
+      "rank": 2,
+      "readme_sha256": "1f10279b1b74981d3625216e2489c11e3b725f7ac554668bc577647e288b9c9f",
+      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 3,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
+      "full_name": "storytold/artcraft",
+      "project_file": "projects/storytold__artcraft.md",
+      "rank": 4,
+      "readme_sha256": "933462209ceb7309defc4ec7df50b110ae17d26d9ab2ff38e241d1081d7045a1",
+      "url": "https://github.com/storytold/artcraft"
+    },
+    {
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "full_name": "open-webui/open-webui",
+      "project_file": "projects/open-webui__open-webui.md",
+      "rank": 5,
+      "readme_sha256": "da3d46f4d7e6c158e13ed91e5e46250d22d278b972d8d1b028f5e0bb62be612b",
+      "url": "https://github.com/open-webui/open-webui"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 6,
+      "readme_sha256": "4b6bacfad9f0c7bcb4d517fecc8d2905948986739e1173c159592e1ccd0f2683",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
+      "full_name": "lyogavin/airllm",
+      "project_file": "projects/lyogavin__airllm.md",
+      "rank": 7,
+      "readme_sha256": "746f35e0bee6598643666792c050c8833b5d441d36e0a60dd0846ae0d34ece73",
+      "url": "https://github.com/lyogavin/airllm"
+    },
+    {
+      "description": "Official inference framework for 1-bit LLMs",
+      "full_name": "microsoft/BitNet",
+      "project_file": "projects/microsoft__BitNet.md",
+      "rank": 8,
+      "readme_sha256": "f4e045fd07ed789ea28095c3f87ef0453d0c31218fb033b74543dff0f16910b0",
+      "url": "https://github.com/microsoft/BitNet"
+    },
+    {
+      "description": "Use Claude Code, Codex, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "full_name": "Alishahryar1/free-claude-code",
+      "project_file": "projects/Alishahryar1__free-claude-code.md",
+      "rank": 9,
+      "readme_sha256": "02fdffdfccab11c4111e57e30388cbfccfe3f6140d7d933cbbb97689f61c4012",
+      "url": "https://github.com/Alishahryar1/free-claude-code"
+    }
+  ],
+  "snapshot_date": "2026-10-13",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

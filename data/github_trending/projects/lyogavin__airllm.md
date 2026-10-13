@@ -4,7 +4,7 @@
   "name": "airllm",
   "full_name": "lyogavin/airllm",
   "url": "https://github.com/lyogavin/airllm",
-  "description": "AirLLM 70B inference with single 4GB GPU",
+  "description": "AirLLM 2.8T LLM inference with single 4GB GPU",
   "readme_sha256": "746f35e0bee6598643666792c050c8833b5d441d36e0a60dd0846ae0d34ece73"
 }
 ```
@@ -12,7 +12,7 @@
 # lyogavin/airllm
 
 - URL: https://github.com/lyogavin/airllm
-- Description: AirLLM 70B inference with single 4GB GPU
+- Description: AirLLM 2.8T LLM inference with single 4GB GPU
 - README SHA256: `746f35e0bee6598643666792c050c8833b5d441d36e0a60dd0846ae0d34ece73`
 
 ## README

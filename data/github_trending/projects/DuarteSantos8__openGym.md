@@ -5,7 +5,7 @@
   "full_name": "DuarteSantos8/openGym",
   "url": "https://github.com/DuarteSantos8/openGym",
   "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
-  "readme_sha256": "d1021be70b3d4bccd07e2381fd08b6e6463a0dc7020a64044993a86d35b4e833"
+  "readme_sha256": "9bc7b6b780c061b9ae4e04f6453b9e1c395e7c11e891db295bf6b9a9f85409a3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DuarteSantos8/openGym
 - Description: Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.
-- README SHA256: `d1021be70b3d4bccd07e2381fd08b6e6463a0dc7020a64044993a86d35b4e833`
+- README SHA256: `9bc7b6b780c061b9ae4e04f6453b9e1c395e7c11e891db295bf6b9a9f85409a3`
 
 ## README
 
@@ -370,5 +370,9 @@ version's source under the same license.
 > 180 px in this repository and on self-hosted servers, larger only inside the app packages. A
 > non-commercial fork may keep them unmodified with the notice; anything else needs your own licence
 > from gymvisual.com. The exercise text in `catalogue/` is openGym's and open to contributions.
+
+**Contributing:** pull requests are signed off once with the [Contributor License Agreement](CLA.md):
+you keep the copyright in your work, openGym may use and relicense it (so the app can stay in the
+App Store and Google Play long term), and every version released under the AGPL stays AGPL.
 
 Full third-party notices, including the body-diagram geometry, are in [NOTICE.md](NOTICE.md).
