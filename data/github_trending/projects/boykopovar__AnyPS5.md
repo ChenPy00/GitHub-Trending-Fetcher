@@ -5,7 +5,7 @@
   "full_name": "boykopovar/AnyPS5",
   "url": "https://github.com/boykopovar/AnyPS5",
   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-  "readme_sha256": "f5c806640a6a0f405ae8f9c6e121e3adbdd97a57c3f394441e5b8dfe5c359e88"
+  "readme_sha256": "5fcfa83416aa16adcacaff65076f9c1e6d6b8bb05150f9b777d45b1c46b6c7e2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/boykopovar/AnyPS5
 - Description: Tool for automatic PS5 executables porting to Linux and Windows
-- README SHA256: `f5c806640a6a0f405ae8f9c6e121e3adbdd97a57c3f394441e5b8dfe5c359e88`
+- README SHA256: `5fcfa83416aa16adcacaff65076f9c1e6d6b8bb05150f9b777d45b1c46b6c7e2`
 
 ## README
 
@@ -21,17 +21,23 @@
 
 Tool for automatic executables porting to Linux and Windows.
 
+[**Web converter**](https://boykopovar.github.io/AnyPS5/) - files stay on your device.
+
+![anyps5_collage1](https://github.com/user-attachments/assets/0f8e13e8-1cb7-4c69-8075-39978e138994)
+
+[Discord](https://discord.gg/BHFztBPUe)
+
 Includes a [relinker](core/relinker) that converts executable to the target system's native format and implementations of [system prx libraries](core/libs/prx) suitable for dynamic linking. No emulation or separate runtime process.
 
 [Usage](docs/user/USAGE.md), [Build instructions](docs/dev/BUILD.md), [Architecture](docs/dev/ARCHITECTURE.md), [Technical debt of the project](docs/dev/TechnicalDebt.md), [code style conventions](docs/dev/CONVENTIONS.md), [contributing](CONTRIBUTING.md)
 
 ## Status
 
-[![libraries](https://boykopovar.github.io/AnyPS5/badge-libraries.svg)](https://boykopovar.github.io/AnyPS5/) [![shaders](https://boykopovar.github.io/AnyPS5/badge-shaders.svg)](https://boykopovar.github.io/AnyPS5/)
+[![libraries](https://boykopovar.github.io/AnyPS5/badge-libraries.svg)](https://boykopovar.github.io/AnyPS5/progress.html) [![shaders](https://boykopovar.github.io/AnyPS5/badge-shaders.svg)](https://boykopovar.github.io/AnyPS5/progress.html)
 
-[![progress map](https://boykopovar.github.io/AnyPS5/progress.svg)](https://boykopovar.github.io/AnyPS5/)
+[![progress map](https://boykopovar.github.io/AnyPS5/progress.svg)](https://boykopovar.github.io/AnyPS5/progress.html)
 
-[![progress history](https://boykopovar.github.io/AnyPS5/history.svg)](https://boykopovar.github.io/AnyPS5/history.html)
+[Progress history](https://boykopovar.github.io/AnyPS5/history.html)
 
 <sub>* System libraries: percentage of the functions known to the project so far (declared in [core/libs/prx](core/libs/prx)), not of every PS5 system function. The total grows as more functions are declared.</sub>
 

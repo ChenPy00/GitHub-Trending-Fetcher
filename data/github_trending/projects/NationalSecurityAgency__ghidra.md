@@ -5,7 +5,7 @@
   "full_name": "NationalSecurityAgency/ghidra",
   "url": "https://github.com/NationalSecurityAgency/ghidra",
   "description": "Ghidra is a software reverse engineering (SRE) framework",
-  "readme_sha256": "bc211b0cd68a0a586a07b1cccea28aec99c8aa695d888405fd7ffa4533807a35"
+  "readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NationalSecurityAgency/ghidra
 - Description: Ghidra is a software reverse engineering (SRE) framework
-- README SHA256: `bc211b0cd68a0a586a07b1cccea28aec99c8aa695d888405fd7ffa4533807a35`
+- README SHA256: `8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec`
 
 ## README
 
@@ -68,7 +68,7 @@ To create the latest development build for your platform from this source reposi
 ##### Install build tools:
 * [JDK 25 64-bit][jdk]
 * [Gradle 9.1.0+][gradle] (or provided Gradle wrapper if Internet connection is available)
-* [Python3][python3] (version 3.9 to 3.14) with bundled pip
+* [Python3][python3] (version 3.9 to 3.15) with bundled pip
 * GCC or Clang, and make (Linux/macOS-only)
 * [Microsoft Visual Studio][vs] 2017+ or [Microsoft C++ Build Tools][vcbuildtools] with the
   following components installed (Windows-only):

@@ -5,7 +5,7 @@
   "full_name": "thedotmack/claude-mem",
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "readme_sha256": "f0ab2745a2def10d8a041684eae3360d440e7d4e74806c18f9d875126672e788"
+  "readme_sha256": "47367f4dea69084ef8bfdcd19fb1ef8afcce02a7d9deaea5b4184d19d00b5799"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/thedotmack/claude-mem
 - Description: Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
-- README SHA256: `f0ab2745a2def10d8a041684eae3360d440e7d4e74806c18f9d875126672e788`
+- README SHA256: `47367f4dea69084ef8bfdcd19fb1ef8afcce02a7d9deaea5b4184d19d00b5799`
 
 ## README
 
@@ -78,7 +78,7 @@
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
   </a>
   <a href="package.json">
-    <img src="https://img.shields.io/badge/version-13.37.0-green.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-13.39.0-green.svg" alt="Version">
   </a>
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node">
@@ -267,7 +267,7 @@ The installer handles dependencies, plugin setup, AI provider configuration, wor
 - **[Overview](https://docs.claude-mem.ai/architecture/overview)** - System components & data flow
 - **[Architecture Evolution](https://docs.claude-mem.ai/architecture-evolution)** - The journey from v3 to v5
 - **[Hooks Architecture](https://docs.claude-mem.ai/hooks-architecture)** - How Claude-Mem uses lifecycle hooks
-- **[Hooks Reference](https://docs.claude-mem.ai/architecture/hooks)** - 7 hook scripts explained
+- **[Hooks Reference](https://docs.claude-mem.ai/architecture/hooks)** - Every hook entry explained
 - **[Worker Service](https://docs.claude-mem.ai/architecture/worker-service)** - HTTP API & Bun management
 - **[Database](https://docs.claude-mem.ai/architecture/database)** - SQLite schema & FTS5 search
 - **[Search Architecture](https://docs.claude-mem.ai/architecture/search-architecture)** - Hybrid search with Chroma vector database
@@ -284,8 +284,8 @@ The installer handles dependencies, plugin setup, AI provider configuration, wor
 
 **Core Components:**
 
-1. **5 Lifecycle Hooks** - SessionStart, UserPromptSubmit, PostToolUse, Stop, SessionEnd (6 hook scripts)
-2. **Smart Install** - Cached dependency checker (pre-hook script, not a lifecycle hook)
+1. **Lifecycle Hooks** - SessionStart, UserPromptSubmit, PreToolUse, PostToolUse, Stop, SessionEnd. Each is one shell-free command, `claude-mem hook claude-code <event>`, run by a small launcher that the installer puts on PATH
+2. **Smart Install** - Cached dependency checker (Setup hook on `claude --init` / `--maintenance`, plus `npx claude-mem install` / `repair`)
 3. **Worker Service** - Local HTTP API with web viewer UI and search endpoints, managed by Bun
 4. **SQLite Database** - Stores sessions, observations, summaries
 5. **mem-search Skill** - Natural language queries with progressive disclosure
@@ -352,6 +352,8 @@ npm : The term 'npm' is not recognized as the name of a cmdlet
 ```
 
 Make sure Node.js and npm are installed and added to your PATH. Download the latest Node.js installer from https://nodejs.org and restart your terminal after installation.
+
+Claude Code hooks do not need Git Bash. Each hook runs `claude-mem` directly, and `npx claude-mem install` places that launcher at `%LOCALAPPDATA%\claude-mem\bin\claude-mem.exe` and adds the folder to your user Path. Restart your terminal or IDE afterwards so Claude Code picks up the new Path. If hooks report `Executable not found in $PATH: "claude-mem"`, run `npx claude-mem doctor` and see [Troubleshooting](https://docs.claude-mem.ai/troubleshooting#claude-mem-command-not-found-in-hooks).
 
 ---
 

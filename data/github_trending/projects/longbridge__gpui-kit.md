@@ -5,7 +5,7 @@
   "full_name": "longbridge/gpui-kit",
   "url": "https://github.com/longbridge/gpui-kit",
   "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-  "readme_sha256": "3325bdd3e8e3e2db588cf737db172d2f843e878ba3dbbb0b9ede1dd7ef1136cb"
+  "readme_sha256": "7ed4da0c4b942614fcef5de14337879155c815d6ae51c36af1364634fb165a6c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/longbridge/gpui-kit
 - Description: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
-- README SHA256: `3325bdd3e8e3e2db588cf737db172d2f843e878ba3dbbb0b9ede1dd7ef1136cb`
+- README SHA256: `7ed4da0c4b942614fcef5de14337879155c815d6ae51c36af1364634fb165a6c`
 
 ## README
 
@@ -46,7 +46,7 @@ gpui-kit             The one crate applications depend on
 
 `gpui-kit` pins the matching GPUI release and re-exports GPUI, base, component,
 and assets, so a Rust application lists a single dependency. JavaScript extension
-hosts add `gpui-shell` separately; `gpui-component-shell` supplies the styled catalog.
+hosts add `gpui-shell` separately; its default `components` feature supplies the styled catalog.
 
 See the [executable application recipe and AI-assisted development acceptance checks](examples/ai_recipes/README.md) for a tested starting point and verification commands.
 

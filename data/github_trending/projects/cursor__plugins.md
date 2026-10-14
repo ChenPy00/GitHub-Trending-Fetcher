@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "b75f85beb75ae7840eb9b02da56011ca87417476ba13bc5e2143786e645a184f"
+  "readme_sha256": "ad85dfaed243bb94319283f88fceae0eaf431918132e87e45fe9f58a2d6035f6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `b75f85beb75ae7840eb9b02da56011ca87417476ba13bc5e2143786e645a184f`
+- README SHA256: `ad85dfaed243bb94319283f88fceae0eaf431918132e87e45fe9f58a2d6035f6`
 
 ## README
 
@@ -116,6 +116,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `workday` | [Workday](third_party/workday/) | Cursor | Integrations | Look up workers, organizations, time off, payroll, and recruiting data in Workday. |
 | `square` | [Square](third_party/square/) | Cursor | Integrations | Work with payments, orders, catalog, customers, and invoices. |
 | `tailscale` | [Tailscale](third_party/tailscale/) | Cursor | Integrations | Let Grok Bot reach MCP servers on your private Tailscale network. Sign in to Tailscale to connect your tailnet; Grok Bot joins it as one tagged device and only reaches the hosts you grant to tag:grokbot. |
+| `highlevel` | [HighLevel](third_party/highlevel/) | Cursor | Integrations | Work with contacts, conversations, opportunities, calendars, and payments. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure

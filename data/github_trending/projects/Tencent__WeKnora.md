@@ -5,7 +5,7 @@
   "full_name": "Tencent/WeKnora",
   "url": "https://github.com/Tencent/WeKnora",
   "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
-  "readme_sha256": "62401302e2dda12fe190b05f32dc3f43dd9f1322b91e9845de5d114e8a0165b8"
+  "readme_sha256": "0394b8bfa95e5db458ebf710476066fd0fe1d27aa2dfa65bc79be5c0b6a6e9ce"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Tencent/WeKnora
 - Description: Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.
-- README SHA256: `62401302e2dda12fe190b05f32dc3f43dd9f1322b91e9845de5d114e8a0165b8`
+- README SHA256: `0394b8bfa95e5db458ebf710476066fd0fe1d27aa2dfa65bc79be5c0b6a6e9ce`
 
 ## README
 
@@ -29,7 +29,7 @@
 <p align="center">
   <a href="https://weknora.weixin.qq.com"><img alt="Website" src="https://img.shields.io/badge/website-weknora.weixin.qq.com-b8863b?style=flat-square&labelColor=101f38"></a>
   <a href="https://weknora.weixin.qq.com/docs/"><img alt="Docs" src="https://img.shields.io/badge/docs-read-b8863b?style=flat-square&labelColor=101f38"></a>
-  <a href="./CHANGELOG.md"><img alt="Release" src="https://img.shields.io/badge/release-v0.8.2-b8863b?style=flat-square&labelColor=101f38"></a>
+  <a href="./CHANGELOG.md"><img alt="Release" src="https://img.shields.io/badge/release-v0.8.3-b8863b?style=flat-square&labelColor=101f38"></a>
   <a href="./LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-b8863b?style=flat-square&labelColor=101f38"></a>
   <a href="https://github.com/Tencent/WeKnora/stargazers"><img alt="Stars" src="https://img.shields.io/github/stars/Tencent/WeKnora?style=flat-square&labelColor=101f38&color=b8863b"></a>
   <br/>
@@ -157,13 +157,13 @@ docker compose down     # Stop services
 If you already have WeKnora running and downloaded a newer release:
 
 ```bash
-# Set WEKNORA_VERSION in .env to the target release (e.g. 0.8.2), or keep latest
+# Set WEKNORA_VERSION in .env to the target release (e.g. 0.8.3), or keep latest
 docker compose pull     # Pull images matching WEKNORA_VERSION
 docker compose up -d    # Recreate containers with new images
 ```
 
 > [!NOTE]
-> `docker compose up -d` alone reuses locally cached images and may leave the UI version out of sync with the release you downloaded. Read the [upgrade notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.2#upgrade-notes) before moving from v0.8.0.
+> `docker compose up -d` alone reuses locally cached images and may leave the UI version out of sync with the release you downloaded. Read the [upgrade notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.3#upgrade-notes) before upgrading. Deployments older than v0.8.2 should also read the [v0.8.2 notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.2#upgrade-notes).
 
 ### Other ways to deploy
 
@@ -184,6 +184,16 @@ All options, hardware requirements and deployment topologies: [Installation guid
 > - regularly update to the latest version for security patches and improvements.
 
 ## What's New
+
+### v0.8.3 <sub>· 2026-10-14 · [release notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.3)</sub>
+
+- **Image gallery**: browse document images and filter by source, caption, OCR and image attributes.
+- **Multimodal Embedding**: support for multimodal embedding models that encode text and images into a shared vector space, including Tencent WeMM-Embedding and Qwen3-VL-Embedding, with opt-in image-vector retrieval and compatible image-aware reranking.
+- **Wiki graph**: clearer group layouts and theme captions, with group focus, switching and return to the full graph.
+- **Source citations**: navigate from an answer to the cited passage in the original document.
+- **Chat and tools**: on-demand attachment reading without a sandbox, unread replies, @ mention search, Docker terminals, Lite host skills and MCP interoperability updates.
+- **Administration and integrations**: platform user management, invitation-only signup mode, administrator model catalog, WeMM embeddings, TEI/Pinecone/Cohere reranking, Seafile and Traditional Chinese.
+- **Reliability**: broad retrieval, parsing, datasource, Wiki, OAuth and CLI fixes. Review [upgrade requirements](https://weknora.weixin.qq.com/docs/07-releases/v0.8.3#upgrade-notes) for registration modes, empty tool lists, database migrations and reindexing.
 
 ### v0.8.2 <sub>· 2026-09-24 · [release notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.2)</sub>
 
@@ -383,7 +393,7 @@ The full product documentation lives at **[weknora.weixin.qq.com/docs](https://w
 | [Configuration](https://weknora.weixin.qq.com/docs/01-getting-started/04-configuration) | Environment variables and models |
 | [Troubleshooting FAQ](https://weknora.weixin.qq.com/docs/01-getting-started/05-troubleshooting) | Common problems and fixes |
 | [API reference](https://weknora.weixin.qq.com/docs/04-api/01-api-overview) | REST API overview |
-| [Release notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.2) | What changed in each release |
+| [Release notes](https://weknora.weixin.qq.com/docs/07-releases/v0.8.3) | What changed in each release |
 
 ## Development
 

@@ -5,7 +5,7 @@
   "full_name": "addyosmani/agent-skills",
   "url": "https://github.com/addyosmani/agent-skills",
   "description": "Production-grade engineering skills for AI coding agents.",
-  "readme_sha256": "1721f3d97679a2d7e6208e7f9af3ed891a4dd29de9a56ccbb6fd7d971cb8c9d4"
+  "readme_sha256": "b74ab722eeee706ff1c5c3ee55f5f2328368ec28c6368900bc80b857b5bc6b72"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/addyosmani/agent-skills
 - Description: Production-grade engineering skills for AI coding agents.
-- README SHA256: `1721f3d97679a2d7e6208e7f9af3ed891a4dd29de9a56ccbb6fd7d971cb8c9d4`
+- README SHA256: `b74ab722eeee706ff1c5c3ee55f5f2328368ec28c6368900bc80b857b5bc6b72`
 
 ## README
 
@@ -53,6 +53,8 @@ Skills encode the workflows, quality gates, and best practices that senior engin
 | Audit web performance | `/webperf` | Measure before you optimize |
 | Simplify the code | `/code-simplify` | Clarity over cleverness |
 | Ship to production | `/ship` | Faster is safer |
+
+In Claude Code these install as plugin commands. Where a built-in command has the same name, as `/review` does, use the namespaced form: `/agent-skills:review`.
 
 Want fewer manual steps once the spec exists? **`/build auto`** generates the plan and implements every task in a single approved pass — you approve the plan once, then it runs autonomously. It removes the human stepping *between* tasks, not the verification: every task is still test-driven and committed individually, and it pauses on failures or risky steps.
 
