@@ -1,0 +1,105 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "571bf65dc6421abea9318e0313fda96e9ac00fd1cfa1526205eb56f4688ff714",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 2,
+      "readme_sha256": "0ba2f591092a12b836cefa8bfa5cd2f804d63ff66d4d1cb4ade0b7a5739b2605",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 3,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions.",
+      "full_name": "nvm-sh/nvm",
+      "project_file": "projects/nvm-sh__nvm.md",
+      "rank": 4,
+      "readme_sha256": "36436f39282bebd81747d950702dd3f174ca56ffb66fcae74a5f53345c7e4a3b",
+      "url": "https://github.com/nvm-sh/nvm"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 5,
+      "readme_sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 6,
+      "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "Independent Auditing of AI Agents. Run by human or the agent itself, to answer the most crucial question in the AI Agent Economy. Is the agent doing what is supposed to do? With iFixAi you can have this answer in less than 120 seconds.",
+      "full_name": "ifixai-ai/iFixAi",
+      "project_file": "projects/ifixai-ai__iFixAi.md",
+      "rank": 7,
+      "readme_sha256": "c0942a6bb6645b124c500542cd0a0b00c371085e31be80234ee8a13dbf3446c1",
+      "url": "https://github.com/ifixai-ai/iFixAi"
+    },
+    {
+      "description": "Fully autonomous AI Agents system capable of performing complex penetration testing tasks",
+      "full_name": "vxcontrol/pentagi",
+      "project_file": "projects/vxcontrol__pentagi.md",
+      "rank": 8,
+      "readme_sha256": "6ec53d1da7b36c7146ea9c55056e07e2e7299f6a2ed23876f7f25a85cbd6ad1f",
+      "url": "https://github.com/vxcontrol/pentagi"
+    },
+    {
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "full_name": "rust-lang/rust",
+      "project_file": "projects/rust-lang__rust.md",
+      "rank": 9,
+      "readme_sha256": "b3f6ef2fef88b98cb9ec013a5c86213095e53e40eb228679574e4d06517f33c8",
+      "url": "https://github.com/rust-lang/rust"
+    },
+    {
+      "description": "Cross-platform Xcode replacement. Build and deploy iOS apps with SwiftPM on Linux, Windows, macOS.",
+      "full_name": "xtool-org/xtool",
+      "project_file": "projects/xtool-org__xtool.md",
+      "rank": 10,
+      "readme_sha256": "a5ad69e621ea705d353b7b8afe89020eef782d2a5827a97b73022c349f5f42bc",
+      "url": "https://github.com/xtool-org/xtool"
+    },
+    {
+      "description": "WinUI app for building smaller, customized Windows 11 images.",
+      "full_name": "ntdevlabs/tiny11builder",
+      "project_file": "projects/ntdevlabs__tiny11builder.md",
+      "rank": 11,
+      "readme_sha256": "3f8053d0f159b1276a04273b785e1b64cf837f5ec1a6c474855b13b8bcdb97a3",
+      "url": "https://github.com/ntdevlabs/tiny11builder"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 12,
+      "readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    }
+  ],
+  "snapshot_date": "2026-10-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

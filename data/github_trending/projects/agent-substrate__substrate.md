@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "6ee6feecebd162d53c1c8095f493448380ac2a3c4bf99c7a702c60eaa375bff0"
+  "readme_sha256": "3d12d4848a33947d8b1077d0bd69521c06ceefe9a70e72ac25676a32308dc680"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `6ee6feecebd162d53c1c8095f493448380ac2a3c4bf99c7a702c60eaa375bff0`
+- README SHA256: `3d12d4848a33947d8b1077d0bd69521c06ceefe9a70e72ac25676a32308dc680`
 
 ## README
 
@@ -262,14 +262,14 @@ We provide several sample applications demonstrating Agent Substrate's capabilit
 * [Architecture](docs/architecture.md): How the control plane, node supervisor, and networking stack fit together.
 * [API Configuration Guide](docs/api-guide.md): Detailed reference for configuring WorkerPools, ActorTemplates, Secrets, and Volumes.
 * [Full CLI Documentation](cmd/kubectl-ate/README.md): Installation and usage for `kubectl-ate`.
-* [Glossary](docs/glossary.md): Core terms (Actor, Atespace, ActorTemplate, WorkerPool, Worker, ate-api-server, atenet, atelet, ateom) and how they relate.
+* [Glossary](docs/glossary.md): Core terms (Actor, Atespace, ActorTemplate, WorkerPool, Worker, ate-api-server, atenet, atelet, ateworker) and how they relate.
 * [Integration Repositories](docs/integration-repos.md): Where integrations live, how their repositories are named, and how fixes flow back to core.
 * [Observability Guide](docs/observability.md): Guide to actor logging, metrics, and distributed tracing.
 * [Authentication Guide](docs/authentication.md): Configure trusted JWT providers and human credentials.
 * [Egress Traffic](docs/egress-traffic.md): Which protocols an Actor may reach the outside world with and which are blocked.
 * [Enabling man-in-the-middle (MITM) interception for Actor Egress policy](docs/egress-trust-bundle.md): Egress policies such as header injection depend on MITM interception of Actor traffic. This guide explains how an Actor should be configured to enable interception.
 * [Request Parking](docs/request-parking.md): How the router parks requests through transient worker-pool saturation.
-* [Rolling Upgrade Runbook](docs/upgrade.md): Upgrade a running substrate node by node without losing actor state.
+* [Upgrade Runbook](docs/upgrade.md): Upgrade a running install to a newer supported release, and roll back if needed.
 * [Security Guide](docs/security.md): Security overview, security principles, and threat modeling.
 * [Roadmap](docs/roadmap.md): Current limitations and what is planned next.
 * [Benchmarking Guide](benchmarking/README.md): Locust-based load tests, monitoring stack, and the orchestrated benchmark harness.
@@ -282,8 +282,8 @@ We provide several sample applications demonstrating Agent Substrate's capabilit
 * `cmd/atelet`: A node-level DaemonSet that supervises physical worker pods, coordinates snapshotting, and manages state transfers.
 * `cmd/atecontroller`: A Kubernetes controller that reconciles WorkerPool custom resources.
 * `cmd/atenet`: A combined networking controller providing Envoy routing and proxy sidecars.
-* `cmd/ateom-gvisor`: An interior-pod helper running inside sandboxed worker pods to execute `runsc` checkpoint and restore commands.
-* `cmd/ateom-microvm`: The micro-VM peer of `ateom-gvisor`, running actors as cloud-hypervisor VMs.
+* `cmd/ateworker-gvisor`: An interior-pod helper running inside sandboxed worker pods to execute `runsc` checkpoint and restore commands.
+* `cmd/ateworker-microvm`: The micro-VM peer of `ateworker-gvisor`, running actors as cloud-hypervisor VMs.
 * `cmd/podcertcontroller`: A "polyfill" that provides Pod Certificate signers that
   will eventually ship in upstream Kubernetes (with different names).
 * `cmd/kubectl-ate`: A CLI tool for managing Agent Substrate resources. See its [README](cmd/kubectl-ate/README.md).

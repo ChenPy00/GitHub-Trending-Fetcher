@@ -5,7 +5,7 @@
   "full_name": "boykopovar/AnyPS5",
   "url": "https://github.com/boykopovar/AnyPS5",
   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-  "readme_sha256": "5fcfa83416aa16adcacaff65076f9c1e6d6b8bb05150f9b777d45b1c46b6c7e2"
+  "readme_sha256": "378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/boykopovar/AnyPS5
 - Description: Tool for automatic PS5 executables porting to Linux and Windows
-- README SHA256: `5fcfa83416aa16adcacaff65076f9c1e6d6b8bb05150f9b777d45b1c46b6c7e2`
+- README SHA256: `378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b`
 
 ## README
 
@@ -23,13 +23,11 @@ Tool for automatic executables porting to Linux and Windows.
 
 [**Web converter**](https://boykopovar.github.io/AnyPS5/) - files stay on your device.
 
-![anyps5_collage1](https://github.com/user-attachments/assets/0f8e13e8-1cb7-4c69-8075-39978e138994)
-
-[Discord](https://discord.gg/BHFztBPUe)
+![anyps5_collage1](https://github.com/user-attachments/assets/ed2f0b2d-33d3-46d7-ab88-767ca872fc99)
 
 Includes a [relinker](core/relinker) that converts executable to the target system's native format and implementations of [system prx libraries](core/libs/prx) suitable for dynamic linking. No emulation or separate runtime process.
 
-[Usage](docs/user/USAGE.md), [Build instructions](docs/dev/BUILD.md), [Architecture](docs/dev/ARCHITECTURE.md), [Technical debt of the project](docs/dev/TechnicalDebt.md), [code style conventions](docs/dev/CONVENTIONS.md), [contributing](CONTRIBUTING.md)
+[**Discord**](https://discord.gg/BHFztBPUe), [Usage](docs/user/USAGE.md), [Build instructions](docs/dev/BUILD.md), [Architecture](docs/dev/ARCHITECTURE.md), [Technical debt of the project](docs/dev/TechnicalDebt.md), [code style conventions](docs/dev/CONVENTIONS.md), [contributing](CONTRIBUTING.md)
 
 ## Status
 

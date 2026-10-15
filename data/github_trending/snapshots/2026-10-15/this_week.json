@@ -1,0 +1,105 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "571bf65dc6421abea9318e0313fda96e9ac00fd1cfa1526205eb56f4688ff714",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 2,
+      "readme_sha256": "378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 3,
+      "readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 4,
+      "readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "A native, user-mode, multi-process, graphical debugger.",
+      "full_name": "EpicGames/raddebugger",
+      "project_file": "projects/EpicGames__raddebugger.md",
+      "rank": 5,
+      "readme_sha256": "ef9b0413c5cf63a51a25010749e09aa569099f948d9b4a27836d768ec7991c61",
+      "url": "https://github.com/EpicGames/raddebugger"
+    },
+    {
+      "description": "Next generation e2e testing framework for web and mobile apps.",
+      "full_name": "tester-army/e2e",
+      "project_file": "projects/tester-army__e2e.md",
+      "rank": 6,
+      "readme_sha256": "9e40cf50776da5fcf8b16219c5ee5789a401ebd5b9ddf488794190a7c74d78cc",
+      "url": "https://github.com/tester-army/e2e"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 7,
+      "readme_sha256": "47367f4dea69084ef8bfdcd19fb1ef8afcce02a7d9deaea5b4184d19d00b5799",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 8,
+      "readme_sha256": "7012736561a70881caa781043e8a5261b4d2fb4f386e99d1c6a91f800b11542f",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "full_name": "twostraws/SwiftUI-Agent-Skill",
+      "project_file": "projects/twostraws__SwiftUI-Agent-Skill.md",
+      "rank": 9,
+      "readme_sha256": "0f696ed7b45632608c27c18efbebfa5b98288629464df30259792e880d5bc012",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
+    },
+    {
+      "description": "Give your agent CAD superpowers.",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 10,
+      "readme_sha256": "7ef03dd64436118c0bfcb00f77366212aa22faac9a6a89874a3746e039b6b402",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "full_name": "flutter/flutter",
+      "project_file": "projects/flutter__flutter.md",
+      "rank": 11,
+      "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a",
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 12,
+      "readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    }
+  ],
+  "snapshot_date": "2026-10-15",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

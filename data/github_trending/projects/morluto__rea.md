@@ -5,7 +5,7 @@
   "full_name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-  "readme_sha256": "005e4c8acaa5a2a56f17bfac8f68b9fc9b3531bb370ed5f410154b65aa3ff124"
+  "readme_sha256": "571bf65dc6421abea9318e0313fda96e9ac00fd1cfa1526205eb56f4688ff714"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/morluto/rea
 - Description: Reverse engineer anything with agents, from app behavior down to native binaries.
-- README SHA256: `005e4c8acaa5a2a56f17bfac8f68b9fc9b3531bb370ed5f410154b65aa3ff124`
+- README SHA256: `571bf65dc6421abea9318e0313fda96e9ac00fd1cfa1526205eb56f4688ff714`
 
 ## README
 
@@ -363,7 +363,7 @@ Report vulnerabilities through [SECURITY.md](SECURITY.md).
 
 ## Star history
 
-🎉 **200,000 GitHub stars — thank you!**
+🎉 **250,000 GitHub stars — thank you!**
 
 Thanks to everyone using REA, reporting bugs, requesting features, testing builds, and contributing fixes.
 
