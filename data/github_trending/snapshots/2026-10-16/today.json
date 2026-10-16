@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "6856a965e4b6cc3ca7b4211c7cfa63fc59e6aa638b30bdb38c46a5eb3e4cfdb2",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 2,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 3,
+      "readme_sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
+      "full_name": "JuliusBrussee/caveman",
+      "project_file": "projects/JuliusBrussee__caveman.md",
+      "rank": 4,
+      "readme_sha256": "4cd253a32f4ea1a8f10f0d8d98efbac52bb62119ff8ed390441ea05503c6494d",
+      "url": "https://github.com/JuliusBrussee/caveman"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 5,
+      "readme_sha256": "8c73b36de0fd92e92452840e5bcb3441eb9c3de2ae17188a6e533edaaa403598",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 6,
+      "readme_sha256": "9b7be460027bf53c29f628eee72dceeebb83e52dd5e94a1b6f9828a64c579198",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 7,
+      "readme_sha256": "114e54cbe85cac51e0a7df96cb108cc859fba3520c5db87e3c8ffb6a5caa4e2d",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 8,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 9,
+      "readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 10,
+      "readme_sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "full_name": "lightseekorg/tokenspeed",
+      "project_file": "projects/lightseekorg__tokenspeed.md",
+      "rank": 11,
+      "readme_sha256": "6ab0f474582cfa16f73b270b24539948133693df80c5b418a13fb542be0d2e56",
+      "url": "https://github.com/lightseekorg/tokenspeed"
+    },
+    {
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "full_name": "xerj-org/xerj",
+      "project_file": "projects/xerj-org__xerj.md",
+      "rank": 12,
+      "readme_sha256": "2abd175233b4659ca76dc9902904fc61205e91abc2833d23a4380ac655018764",
+      "url": "https://github.com/xerj-org/xerj"
+    },
+    {
+      "description": "一分钟搭建影视站，支持Docker等部署方式",
+      "full_name": "LibreSpark/LibreTV",
+      "project_file": "projects/LibreSpark__LibreTV.md",
+      "rank": 13,
+      "readme_sha256": "b4ac63c5f242e190093fc37a9899293f5b6c542053535ada2ce1fc8a36e00d6e",
+      "url": "https://github.com/LibreSpark/LibreTV"
+    }
+  ],
+  "snapshot_date": "2026-10-16",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

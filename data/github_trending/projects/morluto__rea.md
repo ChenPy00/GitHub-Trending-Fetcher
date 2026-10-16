@@ -5,7 +5,7 @@
   "full_name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-  "readme_sha256": "571bf65dc6421abea9318e0313fda96e9ac00fd1cfa1526205eb56f4688ff714"
+  "readme_sha256": "6856a965e4b6cc3ca7b4211c7cfa63fc59e6aa638b30bdb38c46a5eb3e4cfdb2"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/morluto/rea
 - Description: Reverse engineer anything with agents, from app behavior down to native binaries.
-- README SHA256: `571bf65dc6421abea9318e0313fda96e9ac00fd1cfa1526205eb56f4688ff714`
+- README SHA256: `6856a965e4b6cc3ca7b4211c7cfa63fc59e6aa638b30bdb38c46a5eb3e4cfdb2`
 
 ## README
 
@@ -224,7 +224,8 @@ or update either provider.
 
 Native formats and host support vary by provider. See
 [Hopper and Ghidra setup](docs/installation.md#hopper), the
-[IDA guide](docs/ida-provider.md) (including an optional native MCP bridge), and
+[IDA guide](docs/ida-provider.md) (including an optional native MCP bridge), the
+[Kuna decompiler guide](docs/kuna-provider.md), and
 [experimental Windows Ghidra support](docs/windows-ghidra-p0.md).
 Ghidra also supports [16-bit DOS analysis](docs/ghidra-dos.md).
 For large binaries, raise the provider's startup deadline with

@@ -1,0 +1,97 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "full_name": "morluto/rea",
+      "project_file": "projects/morluto__rea.md",
+      "rank": 1,
+      "readme_sha256": "6856a965e4b6cc3ca7b4211c7cfa63fc59e6aa638b30bdb38c46a5eb3e4cfdb2",
+      "url": "https://github.com/morluto/rea"
+    },
+    {
+      "description": "Tool for automatic PS5 executables porting to Linux and Windows",
+      "full_name": "boykopovar/AnyPS5",
+      "project_file": "projects/boykopovar__AnyPS5.md",
+      "rank": 2,
+      "readme_sha256": "378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b",
+      "url": "https://github.com/boykopovar/AnyPS5"
+    },
+    {
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "full_name": "mattpocock/skills",
+      "project_file": "projects/mattpocock__skills.md",
+      "rank": 3,
+      "readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
+      "url": "https://github.com/mattpocock/skills"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 4,
+      "readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+      "full_name": "cathrynlavery/diagram-design",
+      "project_file": "projects/cathrynlavery__diagram-design.md",
+      "rank": 5,
+      "readme_sha256": "95d1168f46727ffffdc5440c07480b318fa72b6fa2f21ab2d9a7e35790403c74",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 6,
+      "readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
+      "full_name": "ranxianglei/billion-context",
+      "project_file": "projects/ranxianglei__billion-context.md",
+      "rank": 7,
+      "readme_sha256": "fd570896cb885c849c3bca971a94f0846df946dbd866166d2a9a2e84eab188f7",
+      "url": "https://github.com/ranxianglei/billion-context"
+    },
+    {
+      "description": "Give your agent CAD superpowers.",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 8,
+      "readme_sha256": "7ef03dd64436118c0bfcb00f77366212aa22faac9a6a89874a3746e039b6b402",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "SwiftUI agent skill for Claude Code, Codex, and other AI tools.",
+      "full_name": "twostraws/SwiftUI-Agent-Skill",
+      "project_file": "projects/twostraws__SwiftUI-Agent-Skill.md",
+      "rank": 9,
+      "readme_sha256": "0f696ed7b45632608c27c18efbebfa5b98288629464df30259792e880d5bc012",
+      "url": "https://github.com/twostraws/SwiftUI-Agent-Skill"
+    },
+    {
+      "description": "Self-hosted gym & body-weight tracker — plan routines, log workouts (supersets, warm-ups, cardio), see which muscles are trained, fatigued or detrained, import from FitNotes/Strong/Hevy, passkey login. Your data, your server.",
+      "full_name": "DuarteSantos8/openGym",
+      "project_file": "projects/DuarteSantos8__openGym.md",
+      "rank": 10,
+      "readme_sha256": "9bc7b6b780c061b9ae4e04f6453b9e1c395e7c11e891db295bf6b9a9f85409a3",
+      "url": "https://github.com/DuarteSantos8/openGym"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 11,
+      "readme_sha256": "0446e3e6c5c47ad38cd92c37e64c0335a5ea24c89152dcbba4c3ef2a4ef127f6",
+      "url": "https://github.com/cursor/plugins"
+    }
+  ],
+  "snapshot_date": "2026-10-16",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

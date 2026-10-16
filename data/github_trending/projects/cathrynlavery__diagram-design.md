@@ -5,7 +5,7 @@
   "full_name": "cathrynlavery/diagram-design",
   "url": "https://github.com/cathrynlavery/diagram-design",
   "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
-  "readme_sha256": "7012736561a70881caa781043e8a5261b4d2fb4f386e99d1c6a91f800b11542f"
+  "readme_sha256": "95d1168f46727ffffdc5440c07480b318fa72b6fa2f21ab2d9a7e35790403c74"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cathrynlavery/diagram-design
 - Description: Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.
-- README SHA256: `7012736561a70881caa781043e8a5261b4d2fb4f386e99d1c6a91f800b11542f`
+- README SHA256: `95d1168f46727ffffdc5440c07480b318fa72b6fa2f21ab2d9a7e35790403c74`
 
 ## README
 
@@ -476,7 +476,7 @@ What never carries over: source or renderer coordinates, source palette, source 
 
 ## Export to PNG / SVG
 
-Diagrams ship as self-contained HTML, but you can export the diagram itself for Figma, slides, or social cards. SVG export also carries CDATA-wrapped diagram CSS, including selectors bound to the original SVG root. Use the slash command for your agent:
+Diagrams ship as self-contained HTML, but you can export the diagram itself for Figma, slides, or social cards. SVG export also carries CDATA-wrapped diagram CSS, including selectors bound to the original SVG root, and preserves quoted selector values containing comment delimiters. Use the slash command for your agent:
 
 **Pi:**
 
@@ -608,6 +608,7 @@ diagram-design/
 │       │   ├── mermaid_extract.py    # Mermaid → structured IR
 │       │   ├── excalidraw_extract.py  # Excalidraw → structured IR
 │       │   ├── export_svg.py         # standalone SVG export
+│       │   ├── export_png.py         # Playwright PNG renderer
 │       │   └── self_check.py         # packaged output self-check (runs installed)
 │       └── assets/
 │           ├── index.html            # live gallery, tabbed
