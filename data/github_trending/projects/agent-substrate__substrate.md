@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "c7d43bdec7700491e1203bd2029fddfe4ef5f45f95cb024d920eac3e2b4bc555"
+  "readme_sha256": "4ee82cb8e4dbc6f38015a50be6813283e2f1fc6522c41a67ea4694e426fd5f17"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `c7d43bdec7700491e1203bd2029fddfe4ef5f45f95cb024d920eac3e2b4bc555`
+- README SHA256: `4ee82cb8e4dbc6f38015a50be6813283e2f1fc6522c41a67ea4694e426fd5f17`
 
 ## README
 
@@ -287,6 +287,7 @@ We provide several sample applications demonstrating Agent Substrate's capabilit
 * `cmd/ateapi`: The core control plane API server exposing gRPC endpoints to manage actor and worker lifecycles.
 * `cmd/atelet`: A node-level DaemonSet that supervises physical worker pods, coordinates snapshotting, and manages state transfers.
 * `cmd/atecontroller`: A Kubernetes controller that reconciles WorkerPool custom resources.
+* `cmd/ate-idp-server`: Serves the OpenID discovery document and key set that relying parties use to verify actor JWTs.
 * `cmd/atenet`: A combined networking controller providing Envoy routing and proxy sidecars.
 * `cmd/ateworker-gvisor`: An interior-pod helper running inside sandboxed worker pods to execute `runsc` checkpoint and restore commands.
 * `cmd/ateworker-microvm`: The micro-VM peer of `ateworker-gvisor`, running actors as cloud-hypervisor VMs.

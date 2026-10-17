@@ -1,0 +1,113 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 1,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "full_name": "K-Dense-AI/scientific-agent-skills",
+      "project_file": "projects/K-Dense-AI__scientific-agent-skills.md",
+      "rank": 2,
+      "readme_sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 3,
+      "readme_sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 4,
+      "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 5,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 6,
+      "readme_sha256": "114e54cbe85cac51e0a7df96cb108cc859fba3520c5db87e3c8ffb6a5caa4e2d",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "",
+      "full_name": "android/skills",
+      "project_file": "projects/android__skills.md",
+      "rank": 7,
+      "readme_sha256": "780925875497fa586663913e42875f3ce5b72abbc993ecf3db3001875efc6233",
+      "url": "https://github.com/android/skills"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 8,
+      "readme_sha256": "9b7be460027bf53c29f628eee72dceeebb83e52dd5e94a1b6f9828a64c579198",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 9,
+      "readme_sha256": "0417309c8305ff7956157985879cf54fd8e91fc7adf7f6f0428ceecad8fbf7f6",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 10,
+      "readme_sha256": "8d43452c68c0b33512159a178401120c6610884774d25af860eed6fa3b7fdfd4",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 11,
+      "readme_sha256": "4fa36bfea4c6274bb27c07db01ccd004f71ba7ded7bf9d4293f98f090db248a0",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "full_name": "hmjz100/LinkSwift",
+      "project_file": "projects/hmjz100__LinkSwift.md",
+      "rank": 12,
+      "readme_sha256": "696a962822dcb9b07a97b00c48fdaf060c96fd775c0167a68e507886231f5dd5",
+      "url": "https://github.com/hmjz100/LinkSwift"
+    },
+    {
+      "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
+      "full_name": "xerj-org/xerj",
+      "project_file": "projects/xerj-org__xerj.md",
+      "rank": 13,
+      "readme_sha256": "2abd175233b4659ca76dc9902904fc61205e91abc2833d23a4380ac655018764",
+      "url": "https://github.com/xerj-org/xerj"
+    }
+  ],
+  "snapshot_date": "2026-10-17",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

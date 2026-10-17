@@ -3899,7 +3899,7 @@
     "HKUDS/CLI-Anything": {
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-15",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
       "name": "CLI-Anything",
       "owner": "HKUDS",
@@ -3981,6 +3981,10 @@
         },
         {
           "date": "2026-10-15",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "today"
         }
       ],
@@ -5559,7 +5563,7 @@
     "K-Dense-AI/scientific-agent-skills": {
       "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 250,000+ scientists worldwide. 177 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "first_seen": "2026-05-24",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "2d4a9f2268c6ed70fc0d0d769921963da6b82966bd71c4b0225e35b0779b2447",
       "name": "scientific-agent-skills",
       "owner": "K-Dense-AI",
@@ -5685,6 +5689,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "today"
         }
       ],
@@ -6743,8 +6751,8 @@
     "MadsLorentzen/ai-job-search": {
       "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
       "first_seen": "2026-07-08",
-      "last_seen": "2026-09-03",
-      "latest_readme_sha256": "f67100ae41b733586f8b36c1eb8a693a7f3d8f6216382f1d0a342a7cba0734ad",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "4fa36bfea4c6274bb27c07db01ccd004f71ba7ded7bf9d4293f98f090db248a0",
       "name": "ai-job-search",
       "owner": "MadsLorentzen",
       "project_file": "projects/MadsLorentzen__ai-job-search.md",
@@ -6792,6 +6800,10 @@
         {
           "date": "2026-08-28",
           "sha256": "f67100ae41b733586f8b36c1eb8a693a7f3d8f6216382f1d0a342a7cba0734ad"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "4fa36bfea4c6274bb27c07db01ccd004f71ba7ded7bf9d4293f98f090db248a0"
         }
       ],
       "seen": [
@@ -6886,6 +6898,10 @@
         {
           "date": "2026-09-03",
           "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "today"
         }
       ],
       "url": "https://github.com/MadsLorentzen/ai-job-search"
@@ -7289,7 +7305,7 @@
     "NVIDIA/OpenShell": {
       "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
       "name": "OpenShell",
       "owner": "NVIDIA",
@@ -7391,6 +7407,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -7767,7 +7787,7 @@
     "NationalSecurityAgency/ghidra": {
       "description": "Ghidra is a software reverse engineering (SRE) framework",
       "first_seen": "2026-08-28",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec",
       "name": "ghidra",
       "owner": "NationalSecurityAgency",
@@ -7865,6 +7885,14 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -10937,7 +10965,7 @@
     "Tencent/WeKnora": {
       "description": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
       "first_seen": "2026-09-12",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "51dae2acad7b70f82631635526e4ab41f47f8910074d234be9c4b1cfed59a4c9",
       "name": "WeKnora",
       "owner": "Tencent",
@@ -11184,6 +11212,10 @@
         {
           "date": "2026-10-16",
           "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/Tencent/WeKnora"
@@ -11295,8 +11327,8 @@
     "TencentCloud/Octop": {
       "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
       "first_seen": "2026-09-18",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "7c474e84a2d7a37933e86516cf7b2b7a38d35fb9abef9b8c781713881ef10032",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "dacd96477113c2f48602c29889978a4c8274fdc63653ce6746a4db9b9d126a7f",
       "name": "Octop",
       "owner": "TencentCloud",
       "project_file": "projects/TencentCloud__Octop.md",
@@ -11348,6 +11380,10 @@
         {
           "date": "2026-10-15",
           "sha256": "7c474e84a2d7a37933e86516cf7b2b7a38d35fb9abef9b8c781713881ef10032"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "dacd96477113c2f48602c29889978a4c8274fdc63653ce6746a4db9b9d126a7f"
         }
       ],
       "seen": [
@@ -11477,6 +11513,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -11927,8 +11967,8 @@
     "VectifyAI/PageIndex": {
       "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-07",
-      "latest_readme_sha256": "fc08d3fad45b28810d578c1fe71859619abc06e7849daf9025982c0168a42308",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "af6c8a70730572d114e9d1abae561a8419522fd23bbfb9a6b14c81f50960df43",
       "name": "PageIndex",
       "owner": "VectifyAI",
       "project_file": "projects/VectifyAI__PageIndex.md",
@@ -11936,6 +11976,10 @@
         {
           "date": "2026-09-30",
           "sha256": "fc08d3fad45b28810d578c1fe71859619abc06e7849daf9025982c0168a42308"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "af6c8a70730572d114e9d1abae561a8419522fd23bbfb9a6b14c81f50960df43"
         }
       ],
       "seen": [
@@ -11950,6 +11994,10 @@
         {
           "date": "2026-10-07",
           "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/VectifyAI/PageIndex"
@@ -12859,7 +12907,7 @@
     "addyosmani/agent-skills": {
       "description": "Production-grade engineering skills for AI coding agents.",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "b74ab722eeee706ff1c5c3ee55f5f2328368ec28c6368900bc80b857b5bc6b72",
       "name": "agent-skills",
       "owner": "addyosmani",
@@ -13230,6 +13278,10 @@
         {
           "date": "2026-10-16",
           "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/addyosmani/agent-skills"
@@ -13259,7 +13311,7 @@
     "affaan-m/ECC": {
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "first_seen": "2026-05-26",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c",
       "name": "ECC",
       "owner": "affaan-m",
@@ -13730,6 +13782,14 @@
         {
           "date": "2026-10-16",
           "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/affaan-m/ECC"
@@ -13927,8 +13987,8 @@
     "agent-substrate/substrate": {
       "description": "Agent Substrate: the core system",
       "first_seen": "2026-08-21",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "c7d43bdec7700491e1203bd2029fddfe4ef5f45f95cb024d920eac3e2b4bc555",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "4ee82cb8e4dbc6f38015a50be6813283e2f1fc6522c41a67ea4694e426fd5f17",
       "name": "substrate",
       "owner": "agent-substrate",
       "project_file": "projects/agent-substrate__substrate.md",
@@ -13976,6 +14036,10 @@
         {
           "date": "2026-10-16",
           "sha256": "c7d43bdec7700491e1203bd2029fddfe4ef5f45f95cb024d920eac3e2b4bc555"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "4ee82cb8e4dbc6f38015a50be6813283e2f1fc6522c41a67ea4694e426fd5f17"
         }
       ],
       "seen": [
@@ -14045,6 +14109,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -15428,6 +15496,28 @@
       ],
       "url": "https://github.com/andrewyng/aisuite"
     },
+    "android/skills": {
+      "description": "",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "780925875497fa586663913e42875f3ce5b72abbc993ecf3db3001875efc6233",
+      "name": "skills",
+      "owner": "android",
+      "project_file": "projects/android__skills.md",
+      "readme_changes": [
+        {
+          "date": "2026-10-17",
+          "sha256": "780925875497fa586663913e42875f3ce5b72abbc993ecf3db3001875efc6233"
+        }
+      ],
+      "seen": [
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        }
+      ],
+      "url": "https://github.com/android/skills"
+    },
     "androoAGI/starnet": {
       "description": "A living pixel-art station where real AI agents do real work. Local-first desktop agent harness - bring your own key, watch your crew actually run.",
       "first_seen": "2026-09-26",
@@ -15577,7 +15667,7 @@
     "anthropics/claude-code": {
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
       "first_seen": "2026-05-30",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
       "name": "claude-code",
       "owner": "anthropics",
@@ -15759,6 +15849,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -16033,7 +16127,7 @@
     "anthropics/claude-plugins-official": {
       "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
       "name": "claude-plugins-official",
       "owner": "anthropics",
@@ -16132,6 +16226,14 @@
         {
           "date": "2026-10-16",
           "period": "today"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_week"
         }
       ],
       "url": "https://github.com/anthropics/claude-plugins-official"
@@ -16169,7 +16271,7 @@
     "anthropics/financial-services": {
       "description": "",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "52f689c6c32bd2a505fb75e774c8857d4a70db77b1b0057353fb10e7a6e5ca42",
       "name": "financial-services",
       "owner": "anthropics",
@@ -16412,6 +16514,10 @@
         {
           "date": "2026-10-16",
           "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/anthropics/financial-services"
@@ -16419,7 +16525,7 @@
     "anthropics/knowledge-work-plugins": {
       "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
       "first_seen": "2026-05-25",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
       "name": "knowledge-work-plugins",
       "owner": "anthropics",
@@ -16669,6 +16775,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -19203,7 +19313,7 @@
     "boykopovar/AnyPS5": {
       "description": "Tool for automatic PS5 executables porting to Linux and Windows",
       "first_seen": "2026-10-04",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b",
       "name": "AnyPS5",
       "owner": "boykopovar",
@@ -19301,6 +19411,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_week"
         }
       ],
@@ -20715,7 +20829,7 @@
     "cathrynlavery/diagram-design": {
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, and Pi. 44 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "first_seen": "2026-08-12",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "95d1168f46727ffffdc5440c07480b318fa72b6fa2f21ab2d9a7e35790403c74",
       "name": "diagram-design",
       "owner": "cathrynlavery",
@@ -21005,6 +21119,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_week"
         }
       ],
@@ -21963,7 +22081,7 @@
     "cloudflare/security-audit-skill": {
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "first_seen": "2026-09-17",
-      "last_seen": "2026-10-08",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
       "name": "security-audit-skill",
       "owner": "cloudflare",
@@ -22074,6 +22192,10 @@
         {
           "date": "2026-10-08",
           "period": "today"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/cloudflare/security-audit-skill"
@@ -22941,8 +23063,8 @@
     "cursor/plugins": {
       "description": "Cursor plugin specification and official plugins",
       "first_seen": "2026-05-25",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "0446e3e6c5c47ad38cd92c37e64c0335a5ea24c89152dcbba4c3ef2a4ef127f6",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "0417309c8305ff7956157985879cf54fd8e91fc7adf7f6f0428ceecad8fbf7f6",
       "name": "plugins",
       "owner": "cursor",
       "project_file": "projects/cursor__plugins.md",
@@ -23050,6 +23172,10 @@
         {
           "date": "2026-10-15",
           "sha256": "0446e3e6c5c47ad38cd92c37e64c0335a5ea24c89152dcbba4c3ef2a4ef127f6"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "0417309c8305ff7956157985879cf54fd8e91fc7adf7f6f0428ceecad8fbf7f6"
         }
       ],
       "seen": [
@@ -23415,6 +23541,14 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -23793,8 +23927,8 @@
     "debpalash/VoiceStudio": {
       "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
       "first_seen": "2026-09-03",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "8c73b36de0fd92e92452840e5bcb3441eb9c3de2ae17188a6e533edaaa403598",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "8d43452c68c0b33512159a178401120c6610884774d25af860eed6fa3b7fdfd4",
       "name": "VoiceStudio",
       "owner": "debpalash",
       "project_file": "projects/debpalash__VoiceStudio.md",
@@ -23870,6 +24004,10 @@
         {
           "date": "2026-10-16",
           "sha256": "8c73b36de0fd92e92452840e5bcb3441eb9c3de2ae17188a6e533edaaa403598"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "8d43452c68c0b33512159a178401120c6610884774d25af860eed6fa3b7fdfd4"
         }
       ],
       "seen": [
@@ -24103,6 +24241,14 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -25671,7 +25817,7 @@
     "earthtojake/text-to-cad": {
       "description": "Give your agent CAD superpowers.",
       "first_seen": "2026-07-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "7ef03dd64436118c0bfcb00f77366212aa22faac9a6a89874a3746e039b6b402",
       "name": "text-to-cad",
       "owner": "earthtojake",
@@ -25813,6 +25959,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_week"
         }
       ],
@@ -29633,7 +29783,7 @@
     "heygen-com/hyperframes": {
       "description": "Write HTML. Render video. Built for agents.",
       "first_seen": "2026-06-23",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "3e8f26d5e35c6a8c32c661bf1439443d8eee332eedc9bf1a32bfe3dc417c218e",
       "name": "hyperframes",
       "owner": "heygen-com",
@@ -29868,6 +30018,14 @@
         {
           "date": "2026-10-16",
           "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_month"
         }
       ],
       "url": "https://github.com/heygen-com/hyperframes"
@@ -29897,6 +30055,28 @@
         }
       ],
       "url": "https://github.com/higgsfield-ai/higgsfield"
+    },
+    "hmjz100/LinkSwift": {
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "first_seen": "2026-10-17",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "696a962822dcb9b07a97b00c48fdaf060c96fd775c0167a68e507886231f5dd5",
+      "name": "LinkSwift",
+      "owner": "hmjz100",
+      "project_file": "projects/hmjz100__LinkSwift.md",
+      "readme_changes": [
+        {
+          "date": "2026-10-17",
+          "sha256": "696a962822dcb9b07a97b00c48fdaf060c96fd775c0167a68e507886231f5dd5"
+        }
+      ],
+      "seen": [
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        }
+      ],
+      "url": "https://github.com/hmjz100/LinkSwift"
     },
     "holaboss-ai/holaOS": {
       "description": "Open-source All in One AI agent workspace. Run any agent — Claude Code, Codex — across your tools (100+ integrations + MCP), apps, browser, and files, with shared memory. Built-in models or BYOK.",
@@ -33415,8 +33595,8 @@
     "longbridge/gpui-kit": {
       "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
       "first_seen": "2026-09-30",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "7ed4da0c4b942614fcef5de14337879155c815d6ae51c36af1364634fb165a6c",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "f146da1d54fe943d95f9fa8351d00d20a9a8081dded1cfbc38d7220d2ce219cd",
       "name": "gpui-kit",
       "owner": "longbridge",
       "project_file": "projects/longbridge__gpui-kit.md",
@@ -33432,6 +33612,10 @@
         {
           "date": "2026-10-14",
           "sha256": "7ed4da0c4b942614fcef5de14337879155c815d6ae51c36af1364634fb165a6c"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "f146da1d54fe943d95f9fa8351d00d20a9a8081dded1cfbc38d7220d2ce219cd"
         }
       ],
       "seen": [
@@ -33469,6 +33653,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -34255,7 +34443,7 @@
     "mattpocock/skills": {
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "345041d56cf1411b6b3ca1cc54014d26c563890f817f4cb9e2cb193dcd771a3e",
       "name": "skills",
       "owner": "mattpocock",
@@ -34745,6 +34933,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_week"
         }
       ],
@@ -36291,7 +36483,7 @@
     "mksglu/context-mode": {
       "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
       "first_seen": "2026-09-08",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
       "name": "context-mode",
       "owner": "mksglu",
@@ -36469,6 +36661,18 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -36835,7 +37039,7 @@
     "morluto/rea": {
       "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
       "first_seen": "2026-10-07",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "6856a965e4b6cc3ca7b4211c7cfa63fc59e6aa638b30bdb38c46a5eb3e4cfdb2",
       "name": "rea",
       "owner": "morluto",
@@ -36933,6 +37137,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_week"
         }
       ],
@@ -38491,7 +38699,7 @@
     "obra/superpowers": {
       "description": "An agentic skills framework & software development methodology that works.",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "9b7be460027bf53c29f628eee72dceeebb83e52dd5e94a1b6f9828a64c579198",
       "name": "superpowers",
       "owner": "obra",
@@ -38729,6 +38937,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "today"
         }
       ],
@@ -40631,7 +40843,7 @@
     "paperclipai/paperclip": {
       "description": "The open-source app everyone uses to manage agents at work",
       "first_seen": "2026-08-11",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "9896a929b8c598a3049af9d6f31ca11bdc301c2cbb5625f39fa51257c8906fe2",
       "name": "paperclip",
       "owner": "paperclipai",
@@ -40809,6 +41021,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -42621,8 +42837,8 @@
     "ranxianglei/billion-context": {
       "description": "A context-compression plugin for small context windows (a 100K context is enough), token savings (5x fewer tokens), and month-long single sessions (billions of tokens).上下文压缩插件，兼顾小窗口(100k上下文足矣)省token(省5倍token)和超长会话(数月级别几十亿token单会话)。billion-context is all you need",
       "first_seen": "2026-10-11",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "fd570896cb885c849c3bca971a94f0846df946dbd866166d2a9a2e84eab188f7",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "9fcb3f1d2c3682ca85e30031640f8f09e45e7cf3d73c239c9ababcfaeb60655b",
       "name": "billion-context",
       "owner": "ranxianglei",
       "project_file": "projects/ranxianglei__billion-context.md",
@@ -42634,6 +42850,10 @@
         {
           "date": "2026-10-16",
           "sha256": "fd570896cb885c849c3bca971a94f0846df946dbd866166d2a9a2e84eab188f7"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "9fcb3f1d2c3682ca85e30031640f8f09e45e7cf3d73c239c9ababcfaeb60655b"
         }
       ],
       "seen": [
@@ -42647,6 +42867,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_week"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_week"
         }
       ],
@@ -43391,7 +43615,7 @@
     "rohitg00/ai-engineering-from-scratch": {
       "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "63d031ab9a9fc1e3428b586e742e29829f661eb73054cf807b20f6ab6d6007b8",
       "name": "ai-engineering-from-scratch",
       "owner": "rohitg00",
@@ -43833,6 +44057,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -44315,7 +44543,7 @@
     "ruvnet/ruflo": {
       "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
       "first_seen": "2026-05-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "114e54cbe85cac51e0a7df96cb108cc859fba3520c5db87e3c8ffb6a5caa4e2d",
       "name": "ruflo",
       "owner": "ruvnet",
@@ -44441,6 +44669,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "today"
         }
       ],
@@ -46029,7 +46261,7 @@
     "storytold/artcraft": {
       "description": "ArtCraft is an intentional crafting engine for artists, designers, and filmmakers",
       "first_seen": "2026-10-09",
-      "last_seen": "2026-10-14",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "933462209ceb7309defc4ec7df50b110ae17d26d9ab2ff38e241d1081d7045a1",
       "name": "artcraft",
       "owner": "storytold",
@@ -46068,6 +46300,10 @@
         {
           "date": "2026-10-14",
           "period": "today"
+        },
+        {
+          "date": "2026-10-17",
+          "period": "this_week"
         }
       ],
       "url": "https://github.com/storytold/artcraft"
@@ -46747,7 +46983,7 @@
     "tashfeenahmed/freellmapi": {
       "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
       "first_seen": "2026-06-22",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "0a8230d94a3895dfaa0ca08ee71628a576a30766eb480174571586e7f4f69f3b",
       "name": "freellmapi",
       "owner": "tashfeenahmed",
@@ -47009,6 +47245,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -47999,8 +48239,8 @@
     "trycua/cua": {
       "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
       "first_seen": "2026-06-16",
-      "last_seen": "2026-10-16",
-      "latest_readme_sha256": "12830b2eeb3edea7af9953b27987f3467fa90803c641e786db09a33643c714d7",
+      "last_seen": "2026-10-17",
+      "latest_readme_sha256": "680e9ec0e2abca5f5bde11a1d0885964beb67af0bc0c8c2aa0a1a2639d4b7c3a",
       "name": "cua",
       "owner": "trycua",
       "project_file": "projects/trycua__cua.md",
@@ -48040,6 +48280,10 @@
         {
           "date": "2026-10-12",
           "sha256": "12830b2eeb3edea7af9953b27987f3467fa90803c641e786db09a33643c714d7"
+        },
+        {
+          "date": "2026-10-17",
+          "sha256": "680e9ec0e2abca5f5bde11a1d0885964beb67af0bc0c8c2aa0a1a2639d4b7c3a"
         }
       ],
       "seen": [
@@ -48141,6 +48385,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -49355,7 +49603,7 @@
     "vectorize-io/hindsight": {
       "description": "Hindsight: Agent Memory That Learns",
       "first_seen": "2026-09-25",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "a3e2745dedec4f9e0d4452857ef054699e60414740f5d8f12d41bd42711d476a",
       "name": "hindsight",
       "owner": "vectorize-io",
@@ -49509,6 +49757,10 @@
         },
         {
           "date": "2026-10-16",
+          "period": "this_month"
+        },
+        {
+          "date": "2026-10-17",
           "period": "this_month"
         }
       ],
@@ -51143,7 +51395,7 @@
     "xerj-org/xerj": {
       "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
       "first_seen": "2026-10-16",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-17",
       "latest_readme_sha256": "2abd175233b4659ca76dc9902904fc61205e91abc2833d23a4380ac655018764",
       "name": "xerj",
       "owner": "xerj-org",
@@ -51157,6 +51409,10 @@
       "seen": [
         {
           "date": "2026-10-16",
+          "period": "today"
+        },
+        {
+          "date": "2026-10-17",
           "period": "today"
         }
       ],

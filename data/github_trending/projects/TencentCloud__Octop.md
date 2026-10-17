@@ -5,7 +5,7 @@
   "full_name": "TencentCloud/Octop",
   "url": "https://github.com/TencentCloud/Octop",
   "description": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
-  "readme_sha256": "7c474e84a2d7a37933e86516cf7b2b7a38d35fb9abef9b8c781713881ef10032"
+  "readme_sha256": "dacd96477113c2f48602c29889978a4c8274fdc63653ce6746a4db9b9d126a7f"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/TencentCloud/Octop
 - Description: A smarter, self-hosted AI assistant — multi-user, multi-agent.
-- README SHA256: `7c474e84a2d7a37933e86516cf7b2b7a38d35fb9abef9b8c781713881ef10032`
+- README SHA256: `dacd96477113c2f48602c29889978a4c8274fdc63653ce6746a4db9b9d126a7f`
 
 ## README
 
@@ -34,7 +34,7 @@
 <p align="center">
   <a href="https://www.python.org/downloads/"><img alt="Python 3.12+" src="https://img.shields.io/badge/python-3.12%2B-blue?logo=python&logoColor=white" /></a>
   <a href="https://github.com/TencentCloud/Octop/blob/main/LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green" /></a>
-  <a href="https://github.com/TencentCloud/Octop/releases"><img alt="Version" src="https://img.shields.io/badge/version-1.0.2b8-orange" /></a>
+  <a href="https://github.com/TencentCloud/Octop/releases"><img alt="Version" src="https://img.shields.io/badge/version-1.0.2b9-orange" /></a>
   <a href="https://pypi.org/project/octop/"><img src="https://img.shields.io/pypi/v/octop" alt="PyPI" /></a>
   <a href="https://github.com/astral-sh/ruff"><img alt="Code Style: Ruff" src="https://img.shields.io/badge/code%20style-ruff-000000?logo=ruff&logoColor=white" /></a>
   <a href="https://github.com/TencentCloud/Octop"><img alt="GitHub stars" src="https://img.shields.io/github/stars/TencentCloud/Octop?style=social" /></a>
