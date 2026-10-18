@@ -5,7 +5,7 @@
   "full_name": "longbridge/gpui-kit",
   "url": "https://github.com/longbridge/gpui-kit",
   "description": "Rust GUI components for building fantastic cross-platform desktop application by using GPUI.",
-  "readme_sha256": "f146da1d54fe943d95f9fa8351d00d20a9a8081dded1cfbc38d7220d2ce219cd"
+  "readme_sha256": "5954b9e237e78df5384a7768f3b2c0921bc07ceab10bf4b4cb33767c8968ec06"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/longbridge/gpui-kit
 - Description: Rust GUI components for building fantastic cross-platform desktop application by using GPUI.
-- README SHA256: `f146da1d54fe943d95f9fa8351d00d20a9a8081dded1cfbc38d7220d2ce219cd`
+- README SHA256: `5954b9e237e78df5384a7768f3b2c0921bc07ceab10bf4b4cb33767c8968ec06`
 
 ## README
 
@@ -274,7 +274,7 @@ See the [comparison with Iced, egui and Qt 6](https://gpui-kit.com/docs/comparis
 
 ## Related project: Native Shell
 
-[Native Shell](https://native-shell.com) ([source](https://github.com/longbridge/native-shell)) is a sibling project that lets AI generate UI and renders it natively on iOS, Android, Linux (GTK) and macOS (AppKit). Its GPUI desktop backend is in development and will be built on GPUI Kit.
+[Native Shell](https://nsh.dev) ([source](https://github.com/longbridge/native-shell)) is a sibling project that lets AI generate UI and renders it natively on iOS, Android, Linux (GTK) and macOS (AppKit). Its GPUI desktop backend is in development and will be built on GPUI Kit.
 
 ## License
 

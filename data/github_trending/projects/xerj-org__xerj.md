@@ -4,16 +4,16 @@
   "name": "xerj",
   "full_name": "xerj-org/xerj",
   "url": "https://github.com/xerj-org/xerj",
-  "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.",
-  "readme_sha256": "2abd175233b4659ca76dc9902904fc61205e91abc2833d23a4380ac655018764"
+  "description": "XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.",
+  "readme_sha256": "7a5c3bce93c6454c753364ef7655529feac5e9efd29cd2746be66c75edf7193e"
 }
 ```
 
 # xerj-org/xerj
 
 - URL: https://github.com/xerj-org/xerj
-- Description: XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep and sed. One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. Elasticsearch compatible, so existing clients just work.
-- README SHA256: `2abd175233b4659ca76dc9902904fc61205e91abc2833d23a4380ac655018764`
+- Description: XERJ is the new way for AI to search data. Its autoindex capability activates agents to know your data without the token waste of grep (1974 tool). One command indexes code, docs, logs and PDFs for search, RAG, security audits and agent memory, using 40x fewer tokens than grep. It’s durable and can replace ElasticSearch saving you x10 infra costs.
+- README SHA256: `7a5c3bce93c6454c753364ef7655529feac5e9efd29cd2746be66c75edf7193e`
 
 ## README
 
@@ -21,7 +21,7 @@
 
 <a href="https://trendshift.io/repositories/116361?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-116361" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/repositories/116361" alt="xerj-org%2Fxerj | Trendshift" width="250" height="55"/></a>
 
-[English](./README.md) | [简体中文](./README.zh-CN.md)
+[English](./README.md) | [简体中文](./README.zh-CN.md) | [日本語](./README.ja-JP.md) | [العربية](./README.ar.md) | [Español](./README.es.md)
 
 [![CI](https://img.shields.io/github/actions/workflow/status/xerj-org/xerj/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/xerj-org/xerj/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/xerj-org/xerj?style=flat-square&label=release)](https://github.com/xerj-org/xerj/releases)
@@ -29,6 +29,8 @@
 [![Stars](https://img.shields.io/github/stars/xerj-org/xerj?style=flat-square)](https://github.com/xerj-org/xerj/stargazers)
 [![Rust](https://img.shields.io/badge/built%20with-Rust-000000?style=flat-square&logo=rust)](https://www.rust-lang.org)
 [![Discussions](https://img.shields.io/github/discussions/xerj-org/xerj?style=flat-square&label=discussions)](https://github.com/xerj-org/xerj/discussions)
+[![Discord](https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/yetXFusXfs)
+[![X](https://img.shields.io/badge/X-%40xerj__org-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/xerj_org)
 
 [![Reference coding](https://img.shields.io/badge/reference%20coding-2.7%C3%97%20fewer%20tokens-ff8c00?style=flat-square)](https://xerj.org/case-studies/reference-coding.html)
 [![Autoindex](https://img.shields.io/badge/autoindex-zero%20config-ff8c00?style=flat-square)](https://xerj.org/docs/cli.html)
@@ -465,7 +467,7 @@ cargo run --release -p es-yaml-runner -- --dir tests/es-compat-yaml/yaml
 ## Documentation
 
 - [Guides and API reference](https://xerj.org/docs/)
-- [Recipes](https://xerj.org/recipes) for common tasks
+- [Recipes](https://xerj.org/docs/recipes/) for common tasks
 - [Roadmap](./ROADMAP.md): what ships today versus what is coming, verified against the
   release binary. Release-by-release view:
   [milestones](https://github.com/xerj-org/xerj/milestones); live status:

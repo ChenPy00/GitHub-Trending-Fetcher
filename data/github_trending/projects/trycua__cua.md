@@ -4,7 +4,7 @@
   "name": "cua",
   "full_name": "trycua/cua",
   "url": "https://github.com/trycua/cua",
-  "description": "Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.",
+  "description": "Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.",
   "readme_sha256": "680e9ec0e2abca5f5bde11a1d0885964beb67af0bc0c8c2aa0a1a2639d4b7c3a"
 }
 ```
@@ -12,7 +12,7 @@
 # trycua/cua
 
 - URL: https://github.com/trycua/cua
-- Description: Scale computer-use 2.0 with open-source drivers, cross-OS fleets, and benchmarks for training, evaluation, and data generation.
+- Description: Scale computer-use 2.0 with open-source drivers, cross-OS sandboxes, and benchmarks for training, evaluation, and data generation.
 - README SHA256: `680e9ec0e2abca5f5bde11a1d0885964beb67af0bc0c8c2aa0a1a2639d4b7c3a`
 
 ## README
