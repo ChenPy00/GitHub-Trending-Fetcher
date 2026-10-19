@@ -5,7 +5,7 @@
   "full_name": "boykopovar/AnyPS5",
   "url": "https://github.com/boykopovar/AnyPS5",
   "description": "Tool for automatic PS5 executables porting to Linux and Windows",
-  "readme_sha256": "378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b"
+  "readme_sha256": "83645464d5569fd51ce58194625995eee1941aed92874babcf5a174e56353ada"
 }
 ```
 
@@ -13,13 +13,15 @@
 
 - URL: https://github.com/boykopovar/AnyPS5
 - Description: Tool for automatic PS5 executables porting to Linux and Windows
-- README SHA256: `378689ee00e8f9cdc37105c4eaad190311adab79099b193a83bead44627b316b`
+- README SHA256: `83645464d5569fd51ce58194625995eee1941aed92874babcf5a174e56353ada`
 
 ## README
 
 # About
 
 Tool for automatic executables porting to Linux and Windows.
+
+The relinker-only build runs on macOS, including Apple silicon.
 
 [**Web converter**](https://boykopovar.github.io/AnyPS5/) - files stay on your device.
 
