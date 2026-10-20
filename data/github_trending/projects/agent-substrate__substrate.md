@@ -5,7 +5,7 @@
   "full_name": "agent-substrate/substrate",
   "url": "https://github.com/agent-substrate/substrate",
   "description": "Agent Substrate: the core system",
-  "readme_sha256": "4ee82cb8e4dbc6f38015a50be6813283e2f1fc6522c41a67ea4694e426fd5f17"
+  "readme_sha256": "7baf981ddf71a0998419cd2d703a1d3e38d0427ec808361f70a40fd9f5b754ff"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/agent-substrate/substrate
 - Description: Agent Substrate: the core system
-- README SHA256: `4ee82cb8e4dbc6f38015a50be6813283e2f1fc6522c41a67ea4694e426fd5f17`
+- README SHA256: `7baf981ddf71a0998419cd2d703a1d3e38d0427ec808361f70a40fd9f5b754ff`
 
 ## README
 
@@ -275,6 +275,7 @@ We provide several sample applications demonstrating Agent Substrate's capabilit
 * [Egress Traffic](docs/egress-traffic.md): Which protocols an Actor may reach the outside world with and which are blocked.
 * [Enabling man-in-the-middle (MITM) interception for Actor Egress policy](docs/egress-trust-bundle.md): Egress policies such as header injection depend on MITM interception of Actor traffic. This guide explains how an Actor should be configured to enable interception.
 * [Request Parking](docs/request-parking.md): How the router parks requests through transient worker-pool saturation.
+* [Sandbox Asset Cache](docs/sandbox-asset-cache.md): How a node caches the sandbox binaries actors run on, decides which runtimes it needs, and evicts to a budget.
 * [Upgrade Runbook](docs/upgrade.md): Upgrade a running install to a newer supported release, and roll back if needed.
 * [Security Guide](docs/security.md): Security overview, security principles, and threat modeling.
 * [Roadmap](docs/roadmap.md): Current limitations and what is planned next.

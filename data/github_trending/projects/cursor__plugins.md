@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "c065fb800897365ec0b7811b3534adb3f50e604bd65b0d0851b55d56c32c863f"
+  "readme_sha256": "e5c6708ca7f6a0298f070e98d26527ee60a5bd3133569c44d0591449f19c31c1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `c065fb800897365ec0b7811b3534adb3f50e604bd65b0d0851b55d56c32c863f`
+- README SHA256: `e5c6708ca7f6a0298f070e98d26527ee60a5bd3133569c44d0591449f19c31c1`
 
 ## README
 
@@ -58,7 +58,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `hubspot` | [HubSpot](third_party/hubspot/) | Cursor | Integrations | Search and update contacts, companies, deals, and tickets. |
 | `intercom` | [Intercom](third_party/intercom/) | Cursor | Integrations | Search conversations, contacts, and Help Center articles. |
 | `zoom` | [Zoom](third_party/zoom/) | Cursor | Integrations | Search meetings, pull transcripts, and work with Zoom Docs. |
-| `x` | [X](third_party/x/) | Cursor | Integrations | Search posts, read timelines, pull trends, manage bookmarks, access X Chat, and schedule X calls. |
+| `x` | [X](third_party/x/) | Cursor | Integrations | Search posts, read timelines, pull trends, manage bookmarks, access X Chat, schedule X calls, and manage livestreams. |
 | `clay` | [Clay](third_party/clay/) | Cursor | Integrations | Enrich people and companies, run AI research agents. |
 | `circleback` | [Circleback](third_party/circleback/) | Cursor | Integrations | Search meetings, transcripts, action items, and emails. |
 | `docusign` | [Docusign](third_party/docusign/) | Cursor | Integrations | Manage envelopes, templates, workflows, and agreements. |

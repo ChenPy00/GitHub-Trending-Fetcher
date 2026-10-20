@@ -5,7 +5,7 @@
   "full_name": "paperclipai/paperclip",
   "url": "https://github.com/paperclipai/paperclip",
   "description": "The open-source app everyone uses to manage agents at work",
-  "readme_sha256": "9896a929b8c598a3049af9d6f31ca11bdc301c2cbb5625f39fa51257c8906fe2"
+  "readme_sha256": "b7c58fc6fe8a5900502c6166950f53fc3e1ff979a0d279cff23d48de9b569d7c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/paperclipai/paperclip
 - Description: The open-source app everyone uses to manage agents at work
-- README SHA256: `9896a929b8c598a3049af9d6f31ca11bdc301c2cbb5625f39fa51257c8906fe2`
+- README SHA256: `b7c58fc6fe8a5900502c6166950f53fc3e1ff979a0d279cff23d48de9b569d7c`
 
 ## README
 
@@ -25,7 +25,7 @@
   <a href="#quickstart"><strong>Quickstart</strong></a> &middot;
   <a href="https://docs.paperclip.ing"><strong>Docs</strong></a> &middot;
   <a href="https://github.com/paperclipai/paperclip"><strong>GitHub</strong></a> &middot;
-  <a href="https://discord.gg/m4HZY7xNG3"><strong>Discord</strong></a> &middot;
+  <a href="https://discord.gg/paperclipai"><strong>Discord</strong></a> &middot;
   <a href="https://x.com/papercliping"><strong>Twitter</strong></a> &middot;
   <a href="https://paperclip.ing"><strong>Website</strong></a>
 </p>
@@ -33,7 +33,7 @@
 <p align="center">
   <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
   <a href="https://github.com/paperclipai/paperclip/stargazers"><img src="https://img.shields.io/github/stars/paperclipai/paperclip?style=flat" alt="Stars" /></a>
-  <a href="https://discord.gg/m4HZY7xNG3"><img src="https://img.shields.io/badge/discord-join-7289da" alt="Discord" /></a>
+  <a href="https://discord.gg/paperclipai"><img src="https://img.shields.io/badge/discord-join-7289da" alt="Discord" /></a>
   <a href="https://superagent.sh"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=dark&accent=teal&variant=scanned" /><img src="https://www.superagent.sh/api/badge/paperclipai/paperclip/shield.svg?theme=light&accent=teal&variant=scanned" alt="Security posture verified by Superagent" /></picture></a>
 </p>
 
@@ -355,7 +355,7 @@ Paperclip is a full control plane, not a wrapper. Before you build any of this y
 | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | **Not just a chatbot.**      | Conversations stay attached to tasks, plans, decisions, and outputs. Experimental Agent Chat can hand work off to assigned tasks.    |
 | **Not an agent framework.**  | We don't tell you how to build agents. We tell you how to run a company made of them.                                |
-| **Not just a workflow builder.** | Routines and experimental pipelines operate within an organization, with roles, goals, budgets, and governance.                  |
+| **Not just a workflow builder.** | Routines operate within an organization, with roles, goals, budgets, and governance.                  |
 | **Not a prompt manager.**    | Agents bring their own prompts, models, and runtimes. Paperclip manages the organization they work in.               |
 | **Not limited to one agent.** | Start with one agent and grow into a team with shared skills, delegation, and review.                                              |
 | **Not only for code review.** | Coding and PR review fit alongside research, operations, content, and other work.                                                  |
@@ -589,7 +589,7 @@ We welcome contributions. See the [contributing guide](CONTRIBUTING.md) for deta
 
 ## Community
 
-- [Discord](https://discord.gg/m4HZY7xNG3) — Join the community
+- [Discord](https://discord.gg/paperclipai) — Join the community
 - [Twitter / X](https://x.com/papercliping) — Follow updates and announcements
 - [GitHub Issues](https://github.com/paperclipai/paperclip/issues) — bugs and feature requests
 - [GitHub Discussions](https://github.com/paperclipai/paperclip/discussions) — ideas and RFC

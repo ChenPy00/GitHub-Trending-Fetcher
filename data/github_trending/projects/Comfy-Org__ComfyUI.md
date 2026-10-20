@@ -5,7 +5,7 @@
   "full_name": "Comfy-Org/ComfyUI",
   "url": "https://github.com/Comfy-Org/ComfyUI",
   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-  "readme_sha256": "c05cda2b7ea64c1ed4cb092be7bff3e18ace9444fe29c7f5492cc1bcfcb1f55d"
+  "readme_sha256": "d812a66af88fe0a08d25d19c2dba3b6ce604ce364f88b1e315c13587d6f7a2eb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Comfy-Org/ComfyUI
 - Description: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-- README SHA256: `c05cda2b7ea64c1ed4cb092be7bff3e18ace9444fe29c7f5492cc1bcfcb1f55d`
+- README SHA256: `d812a66af88fe0a08d25d19c2dba3b6ce604ce364f88b1e315c13587d6f7a2eb`
 
 ## README
 
@@ -87,7 +87,7 @@ See what ComfyUI can do with the [newer template workflows](https://comfy.org/wo
 - Reusable subgraphs, workflow templates, App Mode, and a local API for integrating workflows into applications.
 - Efficient local execution with asynchronous queueing, partial graph re-execution, smart VRAM and RAM management, model offloading, and support for quantized models.
 - Broad native model support. This is a representative list; browse the [workflow library](https://comfy.org/workflows/) for maintained, ready-to-run templates.
-  - [Image generation](https://comfy.org/workflows/tag/text-to-image/): Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2, Qwen Image, Z-Image, Hunyuan Image 2.1, HiDream, Lumina Image 2.0, Chroma, Anima, LongCat Image, Ideogram 4, Krea 2, MageFlow, Microsoft Lens, PixelDiT, Kandinsky 5, and Ernie Image.
+  - [Image generation](https://comfy.org/workflows/tag/text-to-image/): Stable Diffusion 1.5, SDXL, SD3.5, Flux.1, Flux.2, Qwen Image, Z-Image, Hunyuan Image 2.1, HiDream, Lumina Image 2.0, Chroma, Anima, LongCat Image, Ideogram 4, Krea 2, MageFlow, Microsoft Lens, PixelDiT, Kandinsky 5, Ernie Image and Moss Image.
   - [Image editing](https://comfy.org/workflows/tag/image-edit/): Flux Kontext, Flux.2 Klein, Qwen Image Edit, HiDream E1.1 and O1, OmniGen2, Boogu, JoyImage Edit, MageFlow Edit, and LongCat Image Edit.
   - [Video generation](https://comfy.org/workflows/tag/video-generation/): Wan 2.1 and 2.2, LTX-Video 2 and 2.3, HunyuanVideo 1.5, Kandinsky 5 Video, CogVideoX, Cosmos Predict2, Bernini-R, SCAIL 2, and Mochi.
   - [Audio and video generation](https://comfy.org/workflows/): MiniMax H3 and LTX-AV.

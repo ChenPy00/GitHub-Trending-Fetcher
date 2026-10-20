@@ -1,0 +1,105 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "full_name": "MadsLorentzen/ai-job-search",
+      "project_file": "projects/MadsLorentzen__ai-job-search.md",
+      "rank": 1,
+      "readme_sha256": "0e295c5f268bc7b6bc6f218b6b1fe3a826c8b5b70564a9499f8ab74237d1f5e4",
+      "url": "https://github.com/MadsLorentzen/ai-job-search"
+    },
+    {
+      "description": "The open source coding agent.",
+      "full_name": "anomalyco/opencode",
+      "project_file": "projects/anomalyco__opencode.md",
+      "rank": 2,
+      "readme_sha256": "977e6c3f56bca4e93c44309dc61fa3988d43913ee8b747a47af2e9717b8b86f6",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 3,
+      "readme_sha256": "07595ba3ba697ad0a44ec3c85914a316b8ad4c6cb65c693983463531b0673bb9",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "full_name": "Comfy-Org/ComfyUI",
+      "project_file": "projects/Comfy-Org__ComfyUI.md",
+      "rank": 4,
+      "readme_sha256": "d812a66af88fe0a08d25d19c2dba3b6ce604ce364f88b1e315c13587d6f7a2eb",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 5,
+      "readme_sha256": "e452e32ed87c94b2e336811ec088845c436e6d78092fa8745304e92ebca8cc68",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 6,
+      "readme_sha256": "840cccb3ab0b14872570c743b6bf399532116ef60db3d1a85f484d8e682c1113",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "full_name": "headroomlabs-ai/headroom",
+      "project_file": "projects/headroomlabs-ai__headroom.md",
+      "rank": 7,
+      "readme_sha256": "5e0e6f5927c57f30e579697a2732e36616791b90348087c5eac657798ba2438a",
+      "url": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "description": "",
+      "full_name": "withmarbleapp/os-taxonomy",
+      "project_file": "projects/withmarbleapp__os-taxonomy.md",
+      "rank": 8,
+      "readme_sha256": "4d26c3a6c676d59a91f288c442c0871b751b6aab87caf65522e6670d116772cb",
+      "url": "https://github.com/withmarbleapp/os-taxonomy"
+    },
+    {
+      "description": "Video restoration tool",
+      "full_name": "Kruk2/jasna",
+      "project_file": "projects/Kruk2__jasna.md",
+      "rank": 9,
+      "readme_sha256": "000197aedbe0c494050a4364b053ce0891c9e73156ad3a7c969b56e3c8f3e1a6",
+      "url": "https://github.com/Kruk2/jasna"
+    },
+    {
+      "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
+      "full_name": "HKUDS/CLI-Anything",
+      "project_file": "projects/HKUDS__CLI-Anything.md",
+      "rank": 10,
+      "readme_sha256": "24669c9549ad753b173eead4ffc465ebc0b8dc9b4d64e7be73cd5b3b03f56ac9",
+      "url": "https://github.com/HKUDS/CLI-Anything"
+    },
+    {
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "full_name": "anthropics/claude-code",
+      "project_file": "projects/anthropics__claude-code.md",
+      "rank": 11,
+      "readme_sha256": "aa0d8b80ac083e1591be0789273f447058cc9187b4331634a5614155da27778d",
+      "url": "https://github.com/anthropics/claude-code"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 12,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    }
+  ],
+  "snapshot_date": "2026-10-20",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

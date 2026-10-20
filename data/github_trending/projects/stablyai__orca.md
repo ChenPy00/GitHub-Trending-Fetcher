@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-  "readme_sha256": "7fff8237c0eebc35ed411a9ac2b2ca750a99ddb0ce0db33710cb135e3e6ca2ad"
+  "readme_sha256": "840cccb3ab0b14872570c743b6bf399532116ef60db3d1a85f484d8e682c1113"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
-- README SHA256: `7fff8237c0eebc35ed411a9ac2b2ca750a99ddb0ce0db33710cb135e3e6ca2ad`
+- README SHA256: `840cccb3ab0b14872570c743b6bf399532116ef60db3d1a85f484d8e682c1113`
 
 ## README
 
@@ -87,7 +87,7 @@ Ghostty-class terminals with WebGL rendering, infinite splits, and scrollback th
 
 </td>
 <td width="50%">
-  <a href="https://www.onorca.dev/docs/terminal"><picture><source srcset="resources/onboarding/feature-wall/tile-02.gif" type="image/gif"><img src="resources/onboarding/feature-wall/tile-02.poster.jpg" alt="Terminal splits" width="100%" /></picture></a>
+  <a href="https://www.onorca.dev/docs/terminal"><picture><source srcset="resources/onboarding/feature-wall/tile-02.webp" type="image/webp"><img src="resources/onboarding/feature-wall/tile-02.poster.jpg" alt="Terminal splits" width="100%" /></picture></a>
 </td>
 </tr>
 <tr>
@@ -115,7 +115,7 @@ Browse PRs, issues, and project boards in-app — open a worktree from any task 
 
 </td>
 <td width="50%">
-  <a href="https://www.onorca.dev/docs/review/linear"><picture><source srcset="resources/onboarding/feature-wall/tile-03.gif" type="image/gif"><img src="resources/onboarding/feature-wall/tile-03.poster.jpg" alt="GitHub and Linear task workflows in Orca" width="100%" /></picture></a>
+  <a href="https://www.onorca.dev/docs/review/linear"><picture><source srcset="resources/onboarding/feature-wall/tile-03.webp" type="image/webp"><img src="resources/onboarding/feature-wall/tile-03.poster.jpg" alt="GitHub and Linear task workflows in Orca" width="100%" /></picture></a>
 </td>
 </tr>
 <tr>
@@ -129,7 +129,7 @@ Run agents on a beefy remote box with full file editing, git, and terminals — 
 
 </td>
 <td width="50%">
-  <a href="https://www.onorca.dev/docs/ssh"><picture><source srcset="resources/onboarding/feature-wall/tile-06.gif" type="image/gif"><img src="resources/onboarding/feature-wall/tile-06.poster.jpg" alt="Remote worktrees over SSH" width="100%" /></picture></a>
+  <a href="https://www.onorca.dev/docs/ssh"><picture><source srcset="resources/onboarding/feature-wall/tile-06.webp" type="image/webp"><img src="resources/onboarding/feature-wall/tile-06.poster.jpg" alt="Remote worktrees over SSH" width="100%" /></picture></a>
 </td>
 </tr>
 <tr>
@@ -171,7 +171,7 @@ Agents drive Orca too — script every workflow with `orca worktree create`, `sn
 
 </td>
 <td width="50%">
-  <a href="https://www.onorca.dev/docs/cli/overview"><picture><source srcset="resources/onboarding/feature-wall/tile-09.gif" type="image/gif"><img src="resources/onboarding/feature-wall/tile-09.poster.jpg" alt="Script Orca from the CLI" width="100%" /></picture></a>
+  <a href="https://www.onorca.dev/docs/cli/overview"><picture><source srcset="resources/onboarding/feature-wall/tile-09.webp" type="image/webp"><img src="resources/onboarding/feature-wall/tile-09.poster.jpg" alt="Script Orca from the CLI" width="100%" /></picture></a>
 </td>
 </tr>
 </table>

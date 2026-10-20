@@ -5,7 +5,7 @@
   "full_name": "rohitg00/ai-engineering-from-scratch",
   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
   "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-  "readme_sha256": "63d031ab9a9fc1e3428b586e742e29829f661eb73054cf807b20f6ab6d6007b8"
+  "readme_sha256": "5976a6f9aa9688b7280769efee1334c883280ace50f1209ab75a8c59b808eed4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rohitg00/ai-engineering-from-scratch
 - Description: Learn AI Engineering! Learn it. Build it. Ship it for others.
-- README SHA256: `63d031ab9a9fc1e3428b586e742e29829f661eb73054cf807b20f6ab6d6007b8`
+- README SHA256: `5976a6f9aa9688b7280769efee1334c883280ace50f1209ab75a8c59b808eed4`
 
 ## README
 
@@ -86,7 +86,6 @@ Free, open source, MIT. Learn on the website, with a coding agent, or by running
 
 <p align="center">
   <a href="https://serpapi.com/ai-engineering-from-scratch"><picture><source media="(min-width: 768px)" srcset="assets/sponsors/serpapi-banner-compact.png" width="48%"><img src="assets/sponsors/serpapi-banner-compact.png" alt="SerpApi. Web Search API for your AI apps. Available in Markdown and JSON for any integration." width="440"></picture></a>
-  <a href="https://nitrostack.ai/referral/aiengineeringfromscratch"><picture><source media="(min-width: 768px)" srcset="assets/sponsors/nitrostack-banner-equal.png" width="48%"><img src="assets/sponsors/nitrostack-banner-equal.png" alt="NitroStack. Build and deploy your MCP app in 10 minutes. Get your product into ChatGPT and Claude marketplaces with free cloud deployment." width="440"></picture></a>
 </p>
 
 <p align="center">

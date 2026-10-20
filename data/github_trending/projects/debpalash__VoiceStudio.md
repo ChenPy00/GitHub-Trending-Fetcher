@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "2019405cdf4fdabf41a15e0338b660698296ad7c05d9faeb3921bd4495ad39d2"
+  "readme_sha256": "84065b42eec9ca2e964f94d3ed95b13569e2e5bfd1c87cc5ea2bf8650da864a7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `2019405cdf4fdabf41a15e0338b660698296ad7c05d9faeb3921bd4495ad39d2`
+- README SHA256: `84065b42eec9ca2e964f94d3ed95b13569e2e5bfd1c87cc5ea2bf8650da864a7`
 
 ## README
 
@@ -93,6 +93,14 @@ curl -fsSL https://voicestudio.sh/install | sh -s -- --uninstall
 ```
 
 On Windows, run `irm https://voicestudio.sh/install | iex` in PowerShell.
+
+If `voicestudio.sh/install` is unreachable or returns 404, run the same script
+straight from the repository, or clone it and run `scripts/install.sh`:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/debpalash/VoiceStudio/main/scripts/install.sh | sh
+```
+
 Release downloads require curl and a SHA-256 tool. `--main` requires Git,
 Node.js 22+, Bun, Rust/Cargo, and platform build tools; see
 [installer prerequisites and behavior](docs/install/script.md).

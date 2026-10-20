@@ -5,7 +5,7 @@
   "full_name": "MadsLorentzen/ai-job-search",
   "url": "https://github.com/MadsLorentzen/ai-job-search",
   "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
-  "readme_sha256": "07913dc10a82720c40df82f30c0f9d624b64e52d9062e014a1780db6a1b6191c"
+  "readme_sha256": "0e295c5f268bc7b6bc6f218b6b1fe3a826c8b5b70564a9499f8ab74237d1f5e4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/MadsLorentzen/ai-job-search
 - Description: The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.
-- README SHA256: `07913dc10a82720c40df82f30c0f9d624b64e52d9062e014a1780db6a1b6191c`
+- README SHA256: `0e295c5f268bc7b6bc6f218b6b1fe3a826c8b5b70564a9499f8ab74237d1f5e4`
 
 ## README
 
@@ -146,7 +146,7 @@ If the URL can't be fetched (some job portals block automated access), you can p
 /apply <paste the full job description here>
 ```
 
-This runs the full workflow: evaluate fit, draft CV + cover letter, review with a second agent, revise, and present the final output.
+This runs the full workflow: evaluate fit, draft CV + cover letter, review with a second agent, revise, and present the final output. The posting passes a deterministic integrity gate first (hidden text, invisible characters, instruction-shaped lines, hidden links), and its one-line verdict opens the evaluation; the agents that fetch and review read-only.
 
 Postings are treated as untrusted input (the workflow follows no instructions embedded in them and fetches no links from their body), but agentic defenses are instruction-level, not a sandbox - on an unfamiliar job board, skim what was fetched and written before you hit send. Details in [SECURITY.md](SECURITY.md).
 
@@ -227,10 +227,12 @@ ai-job-search/
 │   ├── check_framework_version.py     # CI check: framework_version bumped when skill files change
 │   ├── check_upstream_updates.py      # Preview which personalized files an upstream update touches
 │   ├── convert_salary_excel.py        # Convert salary Excel to JSON
+│   ├── fetch_page.py                  # GET-only browser-header retry for 403s (robots.txt enforced)
 │   ├── install_portal_clis.py         # Install every discovered portal CLI (bun install)
 │   ├── lint_skills.py                 # CI lint for skills, commands, settings.json
+│   ├── posting_guard.py               # Integrity gate: strip hidden text, flag injection-shaped lines
 │   ├── robots_check.py                # Gate the browser-header retry against robots.txt
-│   ├── security_guards.py             # CI guards: permission allowlist, gitignore rules, manifests
+│   ├── security_guards.py             # CI guards: permission allow/ask/deny, skill grants, gitignore, manifests
 │   ├── upstream_triage.py             # Sort upstream commits into worth-reviewing vs probably-skip
 │   ├── verify_layout.py               # Measure a compiled PDF's page layout (holes, orphans, footer collisions)
 │   ├── verify_pdf.py                  # Verify a compiled PDF's page count and extractable text
