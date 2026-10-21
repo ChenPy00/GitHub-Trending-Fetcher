@@ -5,7 +5,7 @@
   "full_name": "msitarzewski/agency-agents",
   "url": "https://github.com/msitarzewski/agency-agents",
   "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
-  "readme_sha256": "c3b62b8f48b021ecc8aea23f823a8ddb23afafdf65aaa32d2de88efba6815860"
+  "readme_sha256": "f509e0108bade376d4101e373c97c38c6cd03cb48e205de36100ad22ead32014"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/msitarzewski/agency-agents
 - Description: A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.
-- README SHA256: `c3b62b8f48b021ecc8aea23f823a8ddb23afafdf65aaa32d2de88efba6815860`
+- README SHA256: `f509e0108bade376d4101e373c97c38c6cd03cb48e205de36100ad22ead32014`
 
 ## README
 
@@ -1021,6 +1021,8 @@ See [integrations/openclaw/README.md](integrations/openclaw/README.md) for detai
 <summary><strong>Qwen Code</strong></summary>
 
 SubAgents are installed to `.qwen/agents/` in your project root (project-scoped).
+
+> Requires Qwen Code 0.25.1 or later. Earlier releases can't launch agents whose code examples contain `${…}` placeholders ([#1081](https://github.com/msitarzewski/agency-agents/issues/1081)).
 
 ```bash
 # Convert and install (run from your project root)

@@ -5,7 +5,7 @@
   "full_name": "VectifyAI/PageIndex",
   "url": "https://github.com/VectifyAI/PageIndex",
   "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-  "readme_sha256": "af6c8a70730572d114e9d1abae561a8419522fd23bbfb9a6b14c81f50960df43"
+  "readme_sha256": "e0769784d6ff76e267b3363a5a88906d546535a782dd6f4e670da1d26d88809b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/VectifyAI/PageIndex
 - Description: 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
-- README SHA256: `af6c8a70730572d114e9d1abae561a8419522fd23bbfb9a6b14c81f50960df43`
+- README SHA256: `e0769784d6ff76e267b3363a5a88906d546535a782dd6f4e670da1d26d88809b`
 
 ## README
 
@@ -49,7 +49,7 @@
 <details open>
 <summary><h2>Updates</h2></summary>
 
-- [Aug '26] 🔥 [**PageIndex SDK**](#quickstart): `pip install -U pageindex` now ships **local mode**: index, retrieve, and chat entirely on your machine with your own LLM key, or point the same client at PageIndex Cloud with an API key.
+- [Aug '26] 🔥 [**PageIndex SDK**](#quickstart): **local** and **cloud** modes — one client to index, retrieve, and chat on your machine (with your own LLM API key) or on [PageIndex Cloud](https://developer.pageindex.ai/).
 - [Aug '26] ⚡ [**PageIndex Flash**](https://pageindex.ai/blog/pageindex-flash): fast tree index generation for text-based PDFs, now the default indexing method in PageIndex SDK local mode.
 - [Scale PageIndex to Millions of Documents](https://pageindex.ai/blog/pageindex-filesystem): *PageIndex File System* is a file-level tree indexing layer that lets PageIndex reason over an entire corpus, not just a single document.
 - [PageIndex App](https://app.pageindex.ai): a human-like document analysis agent for long professional documents.<!-- Also available via [MCP](https://pageindex.ai/developer) or [API](https://pageindex.ai/developer). -->
@@ -119,6 +119,8 @@ print(answer)
 
 - **`index=`: a basic model is sufficient.** The tree structure itself is extracted from the document layout without an LLM; the index model only summarizes and refines it, which a basic model does well.
 - **`chat=`: use the best model you can afford.** The chat model searches the tree to retrieve information. See [Query cost and accuracy](#query-cost-and-accuracy).
+
+**Have a Claude subscription?** PageIndex can use your subscription to call Claude models through Claude Code: usage is covered by your plan, no API key needed. Install with `pip install -U "pageindex[claude]"`, then prefix model names with `claude-code/`, e.g., `index="claude-code/haiku"`, `chat="claude-code/opus"` (see [example](https://github.com/VectifyAI/PageIndex/blob/main/cookbook/pageindex-claude-subscription.py)).
 
 ### [Use PageIndex through the SDK client →](https://docs.pageindex.ai/getting-started)
 

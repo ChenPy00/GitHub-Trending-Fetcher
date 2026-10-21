@@ -5,7 +5,7 @@
   "full_name": "ruvnet/ruflo",
   "url": "https://github.com/ruvnet/ruflo",
   "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-  "readme_sha256": "e452e32ed87c94b2e336811ec088845c436e6d78092fa8745304e92ebca8cc68"
+  "readme_sha256": "01ff62126e598a0b8648258f1d82e63308c78c417e894318fadadea3501ac11c"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ruvnet/ruflo
 - Description: 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
-- README SHA256: `e452e32ed87c94b2e336811ec088845c436e6d78092fa8745304e92ebca8cc68`
+- README SHA256: `01ff62126e598a0b8648258f1d82e63308c78c417e894318fadadea3501ac11c`
 
 ## README
 
@@ -136,6 +136,8 @@ User → Ruflo (CLI/MCP) → Router → Swarm → Agents → Memory → LLM prov
 **Built by [Reuven Cohen (rUv)](https://github.com/ruvnet), originally as Claude Flow.** The [first commit, June 2, 2025](https://github.com/ruvnet/ruflo/commit/7c1f9402d70e7af56c01a879073cbac92564dc4e), describes a code orchestration layer for recursive agent cycles: Claude writes, edits, tests and improves. The [June 10 source snapshot](https://github.com/ruvnet/ruflo/tree/dba545f012ea92a2375a26332bbf3797495e93c9) adds orchestration, task scheduling, memory and terminal modules.
 
 A harness is the workbench around the model: it organizes tasks, carries context between steps and helps check results. **This establishes Ruflo's lineage, not a universal first across every Claude Code tool.** [See the illustrated explainer, exact commits and earlier ecosystem context](docs/harness-origins.md).
+
+**Grok Build:** `npx ruflo init --grok` writes the project host surface (`.grok/`, the team bus, and the operator guide) and nothing outside the project; add `--dry-run` to preview. Setup, the `spawn_subagent` contract, the optional status row, and what to re-check when Grok updates: [the Grok operator guide](v3/@claude-flow/cli/templates/grok/docs/README.md).
 
 <details>
 <summary><strong>📖 Background — where the name comes from</strong></summary>

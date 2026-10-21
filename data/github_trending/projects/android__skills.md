@@ -5,7 +5,7 @@
   "full_name": "android/skills",
   "url": "https://github.com/android/skills",
   "description": "",
-  "readme_sha256": "780925875497fa586663913e42875f3ce5b72abbc993ecf3db3001875efc6233"
+  "readme_sha256": "ddb3ed68437a77d0650011d66435196f291c492989aeb0e673b1f9bf920fffb6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/android/skills
 - Description: No description
-- README SHA256: `780925875497fa586663913e42875f3ce5b72abbc993ecf3db3001875efc6233`
+- README SHA256: `ddb3ed68437a77d0650011d66435196f291c492989aeb0e673b1f9bf920fffb6`
 
 ## README
 
@@ -75,7 +75,8 @@ android skills update wear-compose-m3
 **Claude Code**:
 
 ```
-/plugin install android-skills --marketplace android/skills
+/plugin marketplace add android/skills
+/plugin install android-skills@android-skills
 ```
 
 **Codex:**
