@@ -1,0 +1,105 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "full_name": "vllm-project/vllm",
+      "project_file": "projects/vllm-project__vllm.md",
+      "rank": 2,
+      "readme_sha256": "4dc7399323b9660117f8cc1226afb7a81cdbb912dbb4ae74b66d89052417d11c",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 3,
+      "readme_sha256": "859864c42d8e59b5fd20c52e1996ec5d81a1f875509e9297373629c8c85691c4",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 20% fewer tokens for coding agents, 60-95% fewer tokens for JSON, same answers. Library, proxy, MCP server.",
+      "full_name": "headroomlabs-ai/headroom",
+      "project_file": "projects/headroomlabs-ai__headroom.md",
+      "rank": 4,
+      "readme_sha256": "5e0e6f5927c57f30e579697a2732e36616791b90348087c5eac657798ba2438a",
+      "url": "https://github.com/headroomlabs-ai/headroom"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 5,
+      "readme_sha256": "3428352df7025c06241af37b51540a84418449abbcaf9bbf55a69ecd4f152619",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
+      "full_name": "Comfy-Org/ComfyUI",
+      "project_file": "projects/Comfy-Org__ComfyUI.md",
+      "rank": 6,
+      "readme_sha256": "d812a66af88fe0a08d25d19c2dba3b6ce604ce364f88b1e315c13587d6f7a2eb",
+      "url": "https://github.com/Comfy-Org/ComfyUI"
+    },
+    {
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "full_name": "supabase/supabase",
+      "project_file": "projects/supabase__supabase.md",
+      "rank": 7,
+      "readme_sha256": "c1a23ddcd6f67625de1bdad0be99dccf59e80c9e772e52a5c855072e783c15d4",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "full_name": "twentyhq/twenty",
+      "project_file": "projects/twentyhq__twenty.md",
+      "rank": 8,
+      "readme_sha256": "5c8dc531b01f1bedddb73acba2181252042d0fc663595bda9214c447617627bb",
+      "url": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "description": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "full_name": "shiyu-coder/Kronos",
+      "project_file": "projects/shiyu-coder__Kronos.md",
+      "rank": 9,
+      "readme_sha256": "b815b608192afa4b805a11bcbb66268f3e3db55736218964944318da7865357e",
+      "url": "https://github.com/shiyu-coder/Kronos"
+    },
+    {
+      "description": "freehire — the open-source search engine for job seekers",
+      "full_name": "strelov1/freehire",
+      "project_file": "projects/strelov1__freehire.md",
+      "rank": 10,
+      "readme_sha256": "86626ee6774faf66bb17c8274af6bde4499c11e25f12127690bd2925b9c063a8",
+      "url": "https://github.com/strelov1/freehire"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 11,
+      "readme_sha256": "bd5a71792cb6c5d67ec9bc2c432dbc8cf17fba7364168ef28a524eff0021fb9c",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "full_name": "Graphify-Labs/graphify",
+      "project_file": "projects/Graphify-Labs__graphify.md",
+      "rank": 12,
+      "readme_sha256": "b65a7f15565fbeac0b7be53d205e6c546ea81d5f19ecfe7d1922f8b38194c848",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    }
+  ],
+  "snapshot_date": "2026-10-22",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

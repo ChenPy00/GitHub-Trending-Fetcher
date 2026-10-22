@@ -5,7 +5,7 @@
   "full_name": "rohitg00/ai-engineering-from-scratch",
   "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
   "description": "Learn AI Engineering! Learn it. Build it. Ship it for others.",
-  "readme_sha256": "5976a6f9aa9688b7280769efee1334c883280ace50f1209ab75a8c59b808eed4"
+  "readme_sha256": "42c9352d9666e119d3938e1a5cd3f67cd90eafb893d55534cf2d92c65aff4d2e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/rohitg00/ai-engineering-from-scratch
 - Description: Learn AI Engineering! Learn it. Build it. Ship it for others.
-- README SHA256: `5976a6f9aa9688b7280769efee1334c883280ace50f1209ab75a8c59b808eed4`
+- README SHA256: `42c9352d9666e119d3938e1a5cd3f67cd90eafb893d55534cf2d92c65aff4d2e`
 
 ## README
 
@@ -22,6 +22,12 @@
     <source media="(prefers-color-scheme: dark)" srcset="assets/readme/header-dark.svg">
     <img src="assets/readme/header-light.svg" alt="AI Engineering from Scratch" width="840">
   </picture>
+</p>
+
+<p align="center">
+ <a href="https://www.star-history.com/rohitg00/ai-engineering-from-scratch">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=rohitg00/ai-engineering-from-scratch&type=trending" /></picture>
+ </a>
 </p>
 
 Implement model internals, retrieval pipelines, and agent runtimes. Test them, inspect failures, and keep the code and evaluation results.

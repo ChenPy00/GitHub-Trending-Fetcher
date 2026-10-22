@@ -5,7 +5,7 @@
   "full_name": "pbakaus/impeccable",
   "url": "https://github.com/pbakaus/impeccable",
   "description": "The design language that makes your AI harness better at design.",
-  "readme_sha256": "9c09bd5bfacea1bb0201e64e57158a82c7711d8544bd4d6c54df94ef700caa44"
+  "readme_sha256": "ac43334e913670dd35fd90e456f8e5f996f0a141c75af6186f5ccc6cc78074ad"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pbakaus/impeccable
 - Description: The design language that makes your AI harness better at design.
-- README SHA256: `9c09bd5bfacea1bb0201e64e57158a82c7711d8544bd4d6c54df94ef700caa44`
+- README SHA256: `ac43334e913670dd35fd90e456f8e5f996f0a141c75af6186f5ccc6cc78074ad`
 
 ## README
 
@@ -492,6 +492,8 @@ npx impeccable detect src/                   # scan a directory
 npx impeccable detect index.html             # scan an HTML file
 npx impeccable detect https://example.com    # scan a URL (uses an installed Chrome, Chromium, or Edge)
 npx impeccable detect --json .               # CI-friendly JSON output
+npx impeccable detect --github src/          # GitHub Actions annotations on stdout
+npx impeccable detect --list-rules           # catalog of detector rule ids, names, and descriptions
 npx impeccable detect --no-config src/       # raw scan, ignoring project config/context
 npx impeccable ignores list                  # show detector ignores
 npx impeccable ignores add-file "src/legacy/**"
@@ -500,7 +502,7 @@ npx impeccable ignores add-value overused-font Inter --reason "Brand font"
 
 The detector catches 61 deterministic issues across AI slop (side-tab borders, purple gradients, bounce easing, dark glows) and general design quality (line length, cramped padding, small touch targets, skipped headings, and more).
 
-Human-readable findings are diagnostics written to stderr, so redirect them with `2> findings.txt`. Use `--json` for machine-readable results on stdout. Exit `0` means the scan completed without primary findings, exit `2` means it completed with primary findings, and exit `1` means at least one requested target could not be scanned; operational failure takes precedence for a partial multi-target scan. URL scans inspect the rendered DOM, computed layout, and accessible linked stylesheets; browser security still prevents reading cross-origin CSS without CORS. A clean detector run is evidence, not proof of visual or accessibility quality: it does not replace inspecting the rendered experience across relevant viewports.
+Human-readable findings are diagnostics written to stderr, so redirect them with `2> findings.txt`. Use `--json` for machine-readable results on stdout, or `--github` for GitHub Actions annotations (one workflow command per finding). GitHub displays at most 10 annotations of each type per step and 50 per job, and the rest stay in the log; findings from the HTML engine may carry no line number, so they annotate the file. `--list-rules` prints the detector catalog to stdout and does not scan. Exit `0` means the scan completed without primary findings, exit `2` means it completed with primary findings, and exit `1` means at least one requested target could not be scanned; operational failure takes precedence for a partial multi-target scan. URL scans inspect the rendered DOM, computed layout, and accessible linked stylesheets; browser security still prevents reading cross-origin CSS without CORS. A clean detector run is evidence, not proof of visual or accessibility quality: it does not replace inspecting the rendered experience across relevant viewports.
 
 By default, `detect` respects the same `.impeccable/config.json` and `.impeccable/config.local.json` detector config as the design hook: `detector.ignoreRules`, `detector.ignoreFiles`, `detector.ignoreValues`, and `detector.designSystem.enabled`. Hook lifecycle settings such as `hook.enabled` only affect automatic hook execution.
 

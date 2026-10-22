@@ -5,7 +5,7 @@
   "full_name": "hugohe3/ppt-master",
   "url": "https://github.com/hugohe3/ppt-master",
   "description": "AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He",
-  "readme_sha256": "fea82a40b8c7f49f5e709dc2a54ce3aa3e20f2441bae9614dc935bb15a561856"
+  "readme_sha256": "c98d33b920c6cd7d0c13eee7c94d9cd883458c605f48291cc2acfa54be975187"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/hugohe3/ppt-master
 - Description: AI turns documents or topics into real, native PowerPoint decks—with native shapes, transitions and animations, data-backed charts and tables on demand, audio narration from speaker notes, and support for your own .pptx templates. · by Hugo He
-- README SHA256: `fea82a40b8c7f49f5e709dc2a54ce3aa3e20f2441bae9614dc935bb15a561856`
+- README SHA256: `c98d33b920c6cd7d0c13eee7c94d9cd883458c605f48291cc2acfa54be975187`
 
 ## README
 
@@ -32,9 +32,11 @@
 
 English | [中文](./README_CN.md)
 
+> 🆕 **As a finance professional (CPA · CPV · Consulting Engineer (Investment)), I drew on my expertise and project experience to build a tool website: [Construction Project Economic Evaluation](https://cs.hehugo.com/)** (in Chinese) — enter your project data and get a full financial evaluation online: investment, revenue, cost, debt service, profit, cash flow and balance sheet statements, plus IRR, NPV, sensitivity and break-even analysis, exportable to Excel / Word. Built for energy projects such as wind, solar and storage, with a general-purpose mode for other projects. The site is in an early trial phase; the first 100 accounts get 3 free runs, later accounts get 1.
+
 ## ❤️ Sponsors
 
-This project is kept free and open source with the support of <a href="https://www.kimi.com/code/?aff=ppt-master">Kimi</a>, <a href="https://www.packyapi.ai/register?aff=ppt-master">PackyCode</a>, <a href="https://apikey.fan/register?aff=PPT-MASTER">APIKEY.FAN</a>, <a href="https://runapi.host/register?aff=WMLJ">RunAPI</a>, <a href="https://go.apimart.ai/gh-ppt-master1">APIMart</a> and other sponsors.
+This project is kept free and open source with the support of <a href="https://www.kimi.com/code/?aff=ppt-master">Kimi</a>, <a href="https://www.packyapi.ai/register?aff=ppt-master">PackyCode</a>, <a href="https://apikey.fan/register?aff=PPT-MASTER">APIKEY.FAN</a>, <a href="https://runapi.host/register?aff=WMLJ">RunAPI</a> and other sponsors.
 
 > **[Want to appear here?](SPONSORING.md)**
 
@@ -63,10 +65,6 @@ Thanks to [Kimi](https://www.kimi.com/code/?aff=ppt-master) for sponsoring this 
   <tr>
     <td width="180"><a href="https://runapi.host/register?aff=WMLJ"><img src="docs/assets/sponsors/runapi.png" alt="RunAPI" width="150"></a></td>
     <td>Thanks to RunAPI for sponsoring this project! RunAPI is an efficient and stable API platform — a single API Key gives you access to 150+ leading models, including OpenAI, Claude, Gemini, DeepSeek, and Grok, at prices as low as <strong>10% of official rates</strong>, with exceptional stability and seamless compatibility with tools like Claude Code. RunAPI offers an exclusive perk for PPT Master users: register and contact an administrator via <a href="https://runapi.host/register?aff=WMLJ">our dedicated link</a> to claim <strong>¥7 in free credit</strong>.</td>
-  </tr>
-  <tr>
-    <td width="180"><a href="https://go.apimart.ai/gh-ppt-master1"><img src="docs/assets/sponsors/apimart.png" alt="APIMart" width="150"></a></td>
-    <td>Thanks to APIMart for sponsoring this project! APIMart is a low-cost API platform for AI image & video generation — GPT-Image-2 from <strong>$0.006/image</strong>, 160+ images per dollar. One async API covers both image and video: submit a task, get an ID, fetch results via polling or callback. Batch tens of thousands of images without timeouts, switch models without changing code. Pay-as-you-go with no monthly fee — sign up <a href="https://go.apimart.ai/gh-ppt-master1">here</a> to get started.</td>
   </tr>
 </table>
 
@@ -118,7 +116,7 @@ Generating a new deck from source documents is the main pipeline, but not the on
 On top of that native depth, this form comes with three promises:
 
 - **Transparent, predictable cost** — free and open source; the only cost is your AI model usage, with no PPT subscription on top
-- **Data stays local** — apart from AI model communication, the entire pipeline runs on your machine
+- **Data stays local** — apart from AI model calls and the search, image, and speech services you choose to enable, the entire pipeline runs on your machine
 - **No platform lock-in** — any agent-capable AI IDE can drive it; Claude, GPT, Gemini, Kimi, and other models all work
 
 Why you'd choose it, and where it isn't the right fit → [Why PPT Master](./docs/why-ppt-master.md); the long-term capability boundaries behind these promises → [Project Positioning](./docs/project-positioning.md).
@@ -433,8 +431,6 @@ PPT Master is currently built and maintained primarily by me. Every new template
 &nbsp;
 <a href="https://runapi.host/register?aff=WMLJ"><img src="docs/assets/sponsors/runapi.png" alt="RunAPI" height="40" /></a>
 &nbsp;
-<a href="https://go.apimart.ai/gh-ppt-master1"><img src="docs/assets/sponsors/apimart.png" alt="APIMart" height="40" /></a>
-&nbsp;
 <a href="https://m.do.co/c/547f129aabe1"><img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" alt="Powered by DigitalOcean" height="40" /></a>
 
 **[Want to appear here? →](SPONSORING.md)** — placements, audience and rates.
@@ -446,6 +442,8 @@ If PPT Master has been helpful to you, individual support of any amount helps ke
 <a href="https://paypal.me/hugohe3"><img src="https://img.shields.io/badge/PayPal-Sponsor-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Sponsor via PayPal" /></a>
 
 <img src="docs/assets/alipay-qr.jpg" alt="Alipay QR Code" width="220" />
+
+> 🎁 Sponsor ¥100 or more (in multiples of ¥100) via Alipay and put the email you registered on [Construction Project Economic Evaluation](https://cs.hehugo.com/) in the payment note to receive compute credits on that site. Every ¥100 earns 20 credits (one run costs 1 credit).
 
 ---
 

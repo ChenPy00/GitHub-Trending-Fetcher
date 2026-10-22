@@ -5,7 +5,7 @@
   "full_name": "twentyhq/twenty",
   "url": "https://github.com/twentyhq/twenty",
   "description": "The open alternative to Salesforce, designed for AI.",
-  "readme_sha256": "c071d6f378e7aad1508eb4c0b0cd1b54d37db9de1dbc3b870522ae7cf83ceb53"
+  "readme_sha256": "5c8dc531b01f1bedddb73acba2181252042d0fc663595bda9214c447617627bb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/twentyhq/twenty
 - Description: The open alternative to Salesforce, designed for AI.
-- README SHA256: `c071d6f378e7aad1508eb4c0b0cd1b54d37db9de1dbc3b870522ae7cf83ceb53`
+- README SHA256: `5c8dc531b01f1bedddb73acba2181252042d0fc663595bda9214c447617627bb`
 
 ## README
 
@@ -86,6 +86,14 @@ npx twenty app:publish --private
 ```
 
 See the [app development guide](https://docs.twenty.com/developers/extend/apps/getting-started) for objects, views, agents, and logic functions.
+
+Building with a coding agent? Install the official [Twenty app skills](./packages/twenty-agent-skills), which work in Claude Code, Codex, Cursor, Pi, and any other harness supported by the `skills` CLI:
+
+```bash
+npx skills add https://github.com/twentyhq/twenty/tree/agent-skills --list
+```
+
+The `agent-skills` branch is created by the first successful publish from `main`. Until then, use the [local build instructions](./packages/twenty-agent-skills#local-development). [`SKILLS.md`](./SKILLS.md) explains the other skill families in this repository and who they are for.
 
 ### <img src="./packages/twenty-website/public/images/readme/rocket-icon.svg" width="14" height="14"/> Self-hosting
 
