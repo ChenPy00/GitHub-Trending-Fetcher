@@ -5,7 +5,7 @@
   "full_name": "akitaonrails/ai-memory",
   "url": "https://github.com/akitaonrails/ai-memory",
   "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
-  "readme_sha256": "bd5a71792cb6c5d67ec9bc2c432dbc8cf17fba7364168ef28a524eff0021fb9c"
+  "readme_sha256": "9b10c3cd564dddfd8bab175a6eee43f755e0f307f82fb38f85f45c174d73af51"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/akitaonrails/ai-memory
 - Description: Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors
-- README SHA256: `bd5a71792cb6c5d67ec9bc2c432dbc8cf17fba7364168ef28a524eff0021fb9c`
+- README SHA256: `9b10c3cd564dddfd8bab175a6eee43f755e0f307f82fb38f85f45c174d73af51`
 
 ## README
 
@@ -422,7 +422,9 @@ ai-memory install-hooks --agent  claude-code --apply
 ```
 
 On Linux and macOS, the Docker wrapper runs `install-hooks` through its
-checksum-verified native host client. The installed hooks therefore enforce
+checksum-verified native host client. Global options may precede the command,
+for example `ai-memory --config /path/to/config.toml run codex`; the native
+client receives the complete argument list. The installed hooks therefore enforce
 client-side capture controls such as `[capture] ignore_paths` and allowlist
 mode before an event reaches the spool or network. Set
 `AI_MEMORY_HOOK_PLATFORM=posix` explicitly only when you need the legacy shell

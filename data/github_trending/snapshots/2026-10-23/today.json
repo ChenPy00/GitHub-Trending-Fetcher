@@ -1,0 +1,81 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "The PHP Interpreter",
+      "full_name": "php/php-src",
+      "project_file": "projects/php__php-src.md",
+      "rank": 1,
+      "readme_sha256": "71ba0c02f73f4288e25df82f51d065f1966b1d9ffe13a406bb48f1e848a21a49",
+      "url": "https://github.com/php/php-src"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 2,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 3,
+      "readme_sha256": "3428352df7025c06241af37b51540a84418449abbcaf9bbf55a69ecd4f152619",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 4,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "full_name": "Graphify-Labs/graphify",
+      "project_file": "projects/Graphify-Labs__graphify.md",
+      "rank": 5,
+      "readme_sha256": "b65a7f15565fbeac0b7be53d205e6c546ea81d5f19ecfe7d1922f8b38194c848",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "full_name": "supabase/supabase",
+      "project_file": "projects/supabase__supabase.md",
+      "rank": 6,
+      "readme_sha256": "c1a23ddcd6f67625de1bdad0be99dccf59e80c9e772e52a5c855072e783c15d4",
+      "url": "https://github.com/supabase/supabase"
+    },
+    {
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "full_name": "fastapi/fastapi",
+      "project_file": "projects/fastapi__fastapi.md",
+      "rank": 7,
+      "readme_sha256": "9b44160901909b924c7520227f5cdb44f7785560957b73987ff12379b3f82faa",
+      "url": "https://github.com/fastapi/fastapi"
+    },
+    {
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "full_name": "luongnv89/claude-howto",
+      "project_file": "projects/luongnv89__claude-howto.md",
+      "rank": 8,
+      "readme_sha256": "8222c6cd5d2928704ee2383efdaa99dd72ab6f1d0c8d305deb81e588c5cfa0a3",
+      "url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "description": "Minecraft 启动器 Plain Craft Launcher（PCL）。",
+      "full_name": "Meloong-Git/PCL",
+      "project_file": "projects/Meloong-Git__PCL.md",
+      "rank": 9,
+      "readme_sha256": "b1cd2801a47d1f4274d69761bedd396681d6a2c4b09dcfeb3e1a818eb0dce193",
+      "url": "https://github.com/Meloong-Git/PCL"
+    }
+  ],
+  "snapshot_date": "2026-10-23",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

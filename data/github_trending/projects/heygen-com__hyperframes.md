@@ -5,7 +5,7 @@
   "full_name": "heygen-com/hyperframes",
   "url": "https://github.com/heygen-com/hyperframes",
   "description": "Write HTML. Render video. Built for agents.",
-  "readme_sha256": "020e870b6f4b58f01ecfeffbdb288254390d6d4ed4720e1dc24a2ba0074c20b8"
+  "readme_sha256": "f90b77b82976fe69d697c12f32b1a31ca6651d0342708248f933bf4280034b89"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/heygen-com/hyperframes
 - Description: Write HTML. Render video. Built for agents.
-- README SHA256: `020e870b6f4b58f01ecfeffbdb288254390d6d4ed4720e1dc24a2ba0074c20b8`
+- README SHA256: `f90b77b82976fe69d697c12f32b1a31ca6651d0342708248f933bf4280034b89`
 
 ## README
 
@@ -50,6 +50,8 @@
 </p>
 
 HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.
+
+Using Claude Code, Codex, Cursor, or another coding agent? Run `npx hyperframes skills update` once, then ask your agent to make a video.
 
 ## Quick Start
 

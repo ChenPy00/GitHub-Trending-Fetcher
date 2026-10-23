@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "3cb6fec4f81927ac4613005bbf5359d1fddd87554826e53f433b86122fc8e73b"
+  "readme_sha256": "2c713c37c88341d562dfaf6b7d5befd97fbb1fa64ba89ac390ff15cfd1b15ba7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `3cb6fec4f81927ac4613005bbf5359d1fddd87554826e53f433b86122fc8e73b`
+- README SHA256: `2c713c37c88341d562dfaf6b7d5befd97fbb1fa64ba89ac390ff15cfd1b15ba7`
 
 ## README
 
@@ -97,6 +97,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `meta-ads` | [Meta Ads](third_party/meta-ads/) | Cursor | Integrations | Manage campaigns, ads, audiences, and catalogs, and pull performance insights. |
 | `attio` | [Attio](third_party/attio/) | Cursor | Integrations | Search and update CRM records, lists, notes, and tasks. |
 | `hunter` | [Hunter](third_party/hunter/) | Cursor | Integrations | Find and verify emails, discover companies, and save leads. |
+| `stable` | [Stable](third_party/stable/) | Cursor | Integrations | Find mail, read scanned documents, and call Stable API endpoints. |
 | `gamma` | [Gamma](third_party/gamma/) | Cursor | Integrations | Generate presentations, documents, and webpages. |
 | `teams` | [Teams](third_party/teams/) | Cursor | Productivity | Search, read, and send Microsoft Teams chats and channel messages. |
 | `sharepoint` | [SharePoint](third_party/sharepoint/) | Cursor | Productivity | Search and read Microsoft SharePoint sites, document libraries, files, and lists. |

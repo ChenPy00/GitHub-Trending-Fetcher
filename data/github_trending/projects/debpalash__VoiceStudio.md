@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "84065b42eec9ca2e964f94d3ed95b13569e2e5bfd1c87cc5ea2bf8650da864a7"
+  "readme_sha256": "3d25f376ad17835e0a36885b4d28d1d6966999e06e90f36c54ea40748f20fd15"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `84065b42eec9ca2e964f94d3ed95b13569e2e5bfd1c87cc5ea2bf8650da864a7`
+- README SHA256: `3d25f376ad17835e0a36885b4d28d1d6966999e06e90f36c54ea40748f20fd15`
 
 ## README
 
@@ -168,11 +168,9 @@ Agent skills: `npx skills add debpalash/VoiceStudio` — choose **voicestudio** 
 
 ## Sponsors
 
-<a href="https://forms.gle/2PYCvd39hbwijzX37"><img src="docs/media/sponsor-slot.svg" alt="Your brand — apply for a featured VoiceStudio sponsor slot" width="640" /></a>
+Sponsorship funds maintainer time, development tools, release infrastructure and test hardware; it buys recognition, not features.
 
-**Become a featured partner.** [Apply for a paid placement](https://forms.gle/2PYCvd39hbwijzX37) · [Email us](mailto:partner@voicestudio.sh)
-
-Support development: [GitHub Sponsors](https://github.com/sponsors/debpalash) · [Ko-fi](https://ko-fi.com/debpalash) · [PayPal](https://paypal.me/palashCoder) · [Sponsorship details](SPONSORS.md)
+[GitHub Sponsors](https://github.com/sponsors/debpalash) · [Ko-fi](https://ko-fi.com/debpalash) · [PayPal](https://paypal.me/palashCoder) · [Tiers and recognition](SPONSORS.md) · [Ask for recognition](https://github.com/debpalash/VoiceStudio/issues/new?template=sponsor.yml)
 
 ## License & responsible use
 
