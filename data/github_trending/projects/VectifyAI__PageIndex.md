@@ -5,7 +5,7 @@
   "full_name": "VectifyAI/PageIndex",
   "url": "https://github.com/VectifyAI/PageIndex",
   "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-  "readme_sha256": "e0769784d6ff76e267b3363a5a88906d546535a782dd6f4e670da1d26d88809b"
+  "readme_sha256": "5a8c130e484bc4e29e61379cd3c8215f1ff6cdf60dedc7c8d895b0de574a672e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/VectifyAI/PageIndex
 - Description: 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
-- README SHA256: `e0769784d6ff76e267b3363a5a88906d546535a782dd6f4e670da1d26d88809b`
+- README SHA256: `5a8c130e484bc4e29e61379cd3c8215f1ff6cdf60dedc7c8d895b0de574a672e`
 
 ## README
 
@@ -157,17 +157,15 @@ Indexing time also scales predictably with document length. In the same local se
 
 ### Query cost and accuracy
 
-[**PageIndex-OSS-Benchmark**](https://github.com/VectifyAI/PageIndex-OSS-Benchmark) measures exactly the setup in the quickstart above (`PageIndexClient()` in local mode, flash indexing, no OCR) on 62 lookup questions over 34 PDFs (1,945 pages) drawn from [MMLongBench-Doc-V2](https://github.com/VectifyAI/MMLongBench-Doc-V2). Every question's answer is a fact stated in running text, so a wrong answer is a **retrieval or reading failure**, not a reasoning one.
+[**PageIndex Financial QA Benchmark**](https://github.com/VectifyAI/pageindex-benchmarks/tree/main/financial-qa) compares the accuracy and query cost of 34 configurations of 19 LLMs answering 100 questions over 40 Form 10-K filings from 8 companies, with PageIndex doing the retrieval. Cost is measured per 100-question run and excludes one-time indexing.
 
 <div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VectifyAI/PageIndex/main/assets/results-dark.png">
-  <img src="https://raw.githubusercontent.com/VectifyAI/PageIndex/main/assets/results-light.png" width="75%" alt="Accuracy against average cost per question. Each model forms a near-vertical reasoning-effort ladder; moving between models costs an order of magnitude a step.">
-</picture>
+<a href="https://github.com/VectifyAI/pageindex-benchmarks/tree/main/financial-qa">
+  <img src="https://raw.githubusercontent.com/VectifyAI/pageindex-benchmarks/main/financial-qa/results/accuracy_vs_cost.png" width="90%" alt="PageIndex Financial QA Benchmark: question answering accuracy versus cost per 100-question run across 19 models on 40 Form 10-K filings from 8 companies.">
+</a>
 </div>
 
-
-Full results, data, and the runner are in the [benchmark repo](https://github.com/VectifyAI/PageIndex-OSS-Benchmark).
+Full results, data, and reproduction instructions are in the [benchmark repo](https://github.com/VectifyAI/pageindex-benchmarks/tree/main/financial-qa).
 
 ### Cost per query vs. native PDF input
 

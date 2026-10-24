@@ -1,0 +1,73 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "The PHP Interpreter",
+      "full_name": "php/php-src",
+      "project_file": "projects/php__php-src.md",
+      "rank": 2,
+      "readme_sha256": "71ba0c02f73f4288e25df82f51d065f1966b1d9ffe13a406bb48f1e848a21a49",
+      "url": "https://github.com/php/php-src"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 3,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 4,
+      "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "full_name": "Renhuai123/ziwei-doushu",
+      "project_file": "projects/Renhuai123__ziwei-doushu.md",
+      "rank": 5,
+      "readme_sha256": "4f69dd421d7d265b914f3115e151a3c1a3cb1cf4777a5aa255d87112fb5c7d4f",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    },
+    {
+      "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
+      "full_name": "SnailSploit/Claude-Red",
+      "project_file": "projects/SnailSploit__Claude-Red.md",
+      "rank": 6,
+      "readme_sha256": "82bb9daa054e003caa6a4c33a2f19209cb5c711bcc65e34707b54828ef3698c3",
+      "url": "https://github.com/SnailSploit/Claude-Red"
+    },
+    {
+      "description": "VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning",
+      "full_name": "OpenBMB/VoxCPM",
+      "project_file": "projects/OpenBMB__VoxCPM.md",
+      "rank": 7,
+      "readme_sha256": "f670fdf5f3faea03a71f717d25057b3bc100742edd9feb24d375443b091cc61f",
+      "url": "https://github.com/OpenBMB/VoxCPM"
+    },
+    {
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "full_name": "nodejs/node",
+      "project_file": "projects/nodejs__node.md",
+      "rank": 8,
+      "readme_sha256": "82c4b8ac5dc20ed616402695123295da74854956de6b9768c26699d610dadf45",
+      "url": "https://github.com/nodejs/node"
+    }
+  ],
+  "snapshot_date": "2026-10-24",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

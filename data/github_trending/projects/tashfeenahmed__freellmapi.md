@@ -5,7 +5,7 @@
   "full_name": "tashfeenahmed/freellmapi",
   "url": "https://github.com/tashfeenahmed/freellmapi",
   "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
-  "readme_sha256": "d597be4afa956eb5b3c345460c682019122adb0a228960c419a2b52f9885efb1"
+  "readme_sha256": "71abe8cbe11626c7ec2fff1b1909d6b47f55e348f9a168c06c3a39db3da600d7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/tashfeenahmed/freellmapi
 - Description: 7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.
-- README SHA256: `d597be4afa956eb5b3c345460c682019122adb0a228960c419a2b52f9885efb1`
+- README SHA256: `71abe8cbe11626c7ec2fff1b1909d6b47f55e348f9a168c06c3a39db3da600d7`
 
 ## README
 
@@ -510,6 +510,10 @@ Contributors very welcome! See [CONTRIBUTING.md](CONTRIBUTING.md) for the dev lo
 <a href="https://github.com/Alexis12119"><img src="https://images.weserv.nl/?url=github.com/Alexis12119.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@Alexis12119" /></a>
 <a href="https://github.com/kevin9327"><img src="https://images.weserv.nl/?url=github.com/kevin9327.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@kevin9327" /></a>
 <a href="https://github.com/ilya-bogin-keenable"><img src="https://images.weserv.nl/?url=github.com/ilya-bogin-keenable.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@ilya-bogin-keenable" /></a>
+<a href="https://github.com/harsHdokyc"><img src="https://images.weserv.nl/?url=github.com/harsHdokyc.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@harsHdokyc" /></a>
+<a href="https://github.com/ALANDVO"><img src="https://images.weserv.nl/?url=github.com/ALANDVO.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@ALANDVO" /></a>
+<a href="https://github.com/HyperionBurn"><img src="https://images.weserv.nl/?url=github.com/HyperionBurn.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@HyperionBurn" /></a>
+<a href="https://github.com/emirhantasli"><img src="https://images.weserv.nl/?url=github.com/emirhantasli.png&w=40&h=40&fit=cover&mask=circle" width="40" alt="@emirhantasli" /></a>
 
 ## Disclaimer
 

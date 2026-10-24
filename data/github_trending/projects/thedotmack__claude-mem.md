@@ -5,7 +5,7 @@
   "full_name": "thedotmack/claude-mem",
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "readme_sha256": "47367f4dea69084ef8bfdcd19fb1ef8afcce02a7d9deaea5b4184d19d00b5799"
+  "readme_sha256": "35221b34ed94cb8f2eaedb74621db11d88b0762e022d55d595e6a37b79f821eb"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/thedotmack/claude-mem
 - Description: Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
-- README SHA256: `47367f4dea69084ef8bfdcd19fb1ef8afcce02a7d9deaea5b4184d19d00b5799`
+- README SHA256: `35221b34ed94cb8f2eaedb74621db11d88b0762e022d55d595e6a37b79f821eb`
 
 ## README
 
@@ -78,7 +78,7 @@
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
   </a>
   <a href="package.json">
-    <img src="https://img.shields.io/badge/version-13.39.0-green.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-15.0.2-green.svg" alt="Version">
   </a>
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node">
@@ -236,8 +236,9 @@ The installer handles dependencies, plugin setup, AI provider configuration, wor
 
 - 🧠 **Persistent Memory** - Context survives across sessions
 - 📊 **Progressive Disclosure** - Layered memory retrieval with token cost visibility
-- 🔍 **Skill-Based Search** - Query your project history with mem-search skill
-- 🖥️ **Web Viewer UI** - Real-time memory stream at the worker URL printed on startup
+- 🔍 **Smart Search (Default)** - Query your project history with the three-step mem-search skill
+- 🖥️ **Local My Work** - Live requests, progress, human handoffs and a saved review queue at the worker URL printed on startup. [Guide](https://docs.claude-mem.ai/usage/my-work). Memory, sessions and settings remain at `/viewer`.
+- 👥 **TeamBrain** - An optional shared workspace beside My Work, with real team work lists, member attribution and linked findings. Each person chooses what to share; personal requests and review notes stay separate. [Set up a team](https://cmem.ai/teambrain/start).
 - 💻 **Claude Desktop Skill** - Search memory from Claude Desktop conversations
 - 🔒 **Privacy Control** - Use `<private>` tags to exclude sensitive content from storage
 - ⚙️ **Context Configuration** - Fine-grained control over what context gets injected

@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "2c713c37c88341d562dfaf6b7d5befd97fbb1fa64ba89ac390ff15cfd1b15ba7"
+  "readme_sha256": "61cf33e77687103c9720fdc144165f78825c7123e6209b256b9c4480daffe7c6"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `2c713c37c88341d562dfaf6b7d5befd97fbb1fa64ba89ac390ff15cfd1b15ba7`
+- README SHA256: `61cf33e77687103c9720fdc144165f78825c7123e6209b256b9c4480daffe7c6`
 
 ## README
 
@@ -101,12 +101,14 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `gamma` | [Gamma](third_party/gamma/) | Cursor | Integrations | Generate presentations, documents, and webpages. |
 | `teams` | [Teams](third_party/teams/) | Cursor | Productivity | Search, read, and send Microsoft Teams chats and channel messages. |
 | `sharepoint` | [SharePoint](third_party/sharepoint/) | Cursor | Productivity | Search and read Microsoft SharePoint sites, document libraries, files, and lists. |
+| `power-bi` | [Power BI](third_party/power-bi/) | Cursor | Integrations | Browse Microsoft Power BI workspaces and render report pages. |
 | `finance` | [Finance](third_party/finance/) | Cursor | Integrations | Securely connect your accounts so Grok can help with questions about your spending, subscriptions, balances, and investments. |
 | `webull` | [Webull](third_party/webull/) | Cursor | Integrations | View accounts, positions, orders, watchlists, and market data. |
 | `sp-global` | [S&P Global](third_party/sp-global/) | Cursor | Integrations | Query S&P Capital IQ financials, prices, and transcripts. |
 | `interactive-brokers` | [Interactive Brokers](third_party/interactive-brokers/) | Cursor | Integrations | Review positions, balances, P&L, and draft trade instructions. |
 | `meltwater` | [Meltwater](third_party/meltwater/) | Cursor | Integrations | Search media and social mentions and pull analytics. |
 | `daloopa` | [Daloopa](third_party/daloopa/) | Cursor | Integrations | Pull source-linked fundamentals, KPIs, filings, and prices. |
+| `pitchbook` | [PitchBook](third_party/pitchbook/) | Cursor | Integrations | Research private companies, deals, investors, and funds. |
 | `excalidraw` | [Excalidraw](third_party/excalidraw/) | Cursor | Integrations | Draw and export hand-drawn diagrams from chat. |
 | `google-cloud-bigquery` | [Google Cloud BigQuery](third_party/google-cloud-bigquery/) | Cursor | Integrations | Explore datasets and tables and run SQL queries. |
 | `statsig` | [Statsig](third_party/statsig/) | Cursor | Integrations | Inspect and manage feature gates, experiments, dynamic configs, and metrics. |
@@ -115,7 +117,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `etoro-trading` | [eToro Trading](third_party/etoro-trading/) | Cursor | Integrations | View your eToro portfolio, balances, positions, and watchlists, research instruments and traders, and prepare and place trades. |
 | `x-money` | [X Money](third_party/x-money/) | Cursor | Integrations | Use your X Money Card, send money to users on X, manage your finances, view your balance and browse through your transaction history. |
 | `shopify-store` | [Shopify](third_party/shopify-store/) | Cursor | Integrations | Connect your Shopify store so Grok can answer questions about products, orders, customers, inventory, and sales. |
-| `quickbooks-online` | [QuickBooks Online](third_party/quickbooks-online/) | Cursor | Integrations | Read invoices, bills, expenses, customers, accounts, and financial reports. |
+| `quickbooks-online` | [QuickBooks Online](third_party/quickbooks-online/) | Cursor | Integrations | QuickBooks turns your business's financial data into clear, decision-ready insights, and now takes action on it too. Analyze profitability, cash flow, and balance sheet health, and benchmark your performance against similar businesses in your industry and region. See who owes you money and which bills are coming due with A/R and A/P aging, and break down sales by customer or product to find what is driving revenue. Create, update, send, duplicate, and schedule invoices and estimates. Add customers and products, generate, and send payment links and reminders, always with a clear preview and your confirmation before anything is sent. Get fast read-only answers on payroll and QuickBooks Capital. Look up payroll details, and when you need to, add an employee or set base pay. Check your QuickBooks Capital loans and peer lending benchmarks. |
 | `workday` | [Workday](third_party/workday/) | Cursor | Integrations | Look up workers, organizations, time off, payroll, and recruiting data in Workday. |
 | `whatsapp-business` | [WhatsApp Business](third_party/whatsapp-business/) | Cursor | Integrations | Send messages and manage templates, contacts, and phone numbers in WhatsApp Business. |
 | `zoho-crm` | [Zoho CRM](third_party/zoho-crm/) | Cursor | Integrations | Work with leads, contacts, accounts, deals, and other Zoho CRM records. |

@@ -5,7 +5,7 @@
   "full_name": "SnailSploit/Claude-Red",
   "url": "https://github.com/SnailSploit/Claude-Red",
   "description": "claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.",
-  "readme_sha256": "310ae4d46cf86dbbe9b608665125c0e2db04c6e347316a781e8561c9e5ae1def"
+  "readme_sha256": "82bb9daa054e003caa6a4c33a2f19209cb5c711bcc65e34707b54828ef3698c3"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/SnailSploit/Claude-Red
 - Description: claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a specific attack surface — from SQLi to shellcode, EDR evasion to exploit development.
-- README SHA256: `310ae4d46cf86dbbe9b608665125c0e2db04c6e347316a781e8561c9e5ae1def`
+- README SHA256: `82bb9daa054e003caa6a4c33a2f19209cb5c711bcc65e34707b54828ef3698c3`
 
 ## README
 
@@ -30,6 +30,7 @@
 [![Categories](https://img.shields.io/badge/categories-23-orange.svg)](#categories)
 [![Stars](https://img.shields.io/github/stars/SnailSploit/claude-red?style=social)](https://github.com/SnailSploit/claude-red)
 [![Forks](https://img.shields.io/github/forks/SnailSploit/claude-red?style=social)](https://github.com/SnailSploit/claude-red/network/members)
+<a href="https://trendshift.io/repositories/40579?utm_source=trendshift-badge&amp;utm_medium=badge&amp;utm_campaign=badge-trendshift-40579" target="_blank" rel="noopener noreferrer"><img src="https://trendshift.io/api/badge/trendshift/repositories/40579/weekly?language=Python" alt="SnailSploit%2FClaude-Red | Trendshift" width="250" height="55"/></a>
 
 [Overview](#overview) &bull; [Quickstart](#quickstart) &bull; [Categories](#categories) &bull; [Skill Index](#skill-index) &bull; [Roadmap](#roadmap) &bull; [Contributing](#contributing)
 
@@ -45,6 +46,7 @@ Drop a skill into your Claude environment and it behaves like a domain specialis
 
 **Use cases:** authorized red team engagements, bug bounty triage, security research, CTF preparation, operator training, and methodical attack surface exploration.
 
+**for our actual research using skills -> https://snailsploit.com**
 ---
 
 ## Quickstart

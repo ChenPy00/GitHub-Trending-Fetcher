@@ -5,7 +5,7 @@
   "full_name": "ruvnet/ruflo",
   "url": "https://github.com/ruvnet/ruflo",
   "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-  "readme_sha256": "75c816e67c7fb4ad63311b7078c4a1871c5aa412716289c28437e69b2807238b"
+  "readme_sha256": "867ee05d43acdb5914f09084ce6d65e3c42274a5e70da3a5319ede66de72c180"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ruvnet/ruflo
 - Description: 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
-- README SHA256: `75c816e67c7fb4ad63311b7078c4a1871c5aa412716289c28437e69b2807238b`
+- README SHA256: `867ee05d43acdb5914f09084ce6d65e3c42274a5e70da3a5319ede66de72c180`
 
 ## README
 
@@ -35,6 +35,7 @@
 <br>
 <a href="https://github.com/ruvnet/claude-flow"><img src="https://raw.githubusercontent.com/ruvnet/ruflo/d1e80400bdefe01d3b13e70395f88fffab76bb18/docs/assets/readme/badges/claude.svg" width="300" height="76" alt="Claude Code plugin"></a>
 <a href="https://www.npmjs.com/package/@claude-flow/codex"><img src="https://raw.githubusercontent.com/ruvnet/ruflo/d1e80400bdefe01d3b13e70395f88fffab76bb18/docs/assets/readme/badges/codex.svg" width="300" height="76" alt="Codex plugin"></a>
+<a href="https://chatgpt.com/plugins/plugin_asdk_app_6ab674ff53c48191bb37040c343e31f3"><img src="docs/assets/readme/badges/chatgpt.svg" width="300" height="76" alt="ChatGPT plugin: RuFlo Federation"></a>
 </p>
 
 </div>
@@ -262,7 +263,7 @@ This adds slash commands and agent definitions. `ruflo-core` (installed above) d
 | [**ruflo-browser**](plugins/ruflo-browser/README.md) | Automate browser testing with Playwright |
 | [**ruflo-jujutsu**](plugins/ruflo-jujutsu/README.md) | Analyze git diffs, score risk, suggest reviewers |
 | [**ruflo-docs**](plugins/ruflo-docs/README.md) | Generate and maintain documentation automatically |
-| [**agentic-qe-fleet**](https://github.com/proffesor-for-testing/agentic-qe/tree/v3.15.11/plugins/agentic-qe-fleet) | External, maintained by [Agentic QE](https://github.com/proffesor-for-testing/agentic-qe): 11 QE agents, test generation, coverage, chaos and TDD skills, the `agentic-qe` MCP server, and a guard for AQE learning data (`/plugin install agentic-qe-fleet@ruflo`). Install it from one marketplace only, `agentic-qe` or `ruflo`: enabled from both, its mod and commands load twice |
+| [**agentic-qe-fleet**](https://github.com/proffesor-for-testing/agentic-qe/tree/v3.15.12/plugins/agentic-qe-fleet) | External, maintained by [Agentic QE](https://github.com/proffesor-for-testing/agentic-qe): 11 QE agents, test generation, coverage, chaos and TDD skills, the `agentic-qe` MCP server, and a guard for AQE learning data (`/plugin install agentic-qe-fleet@ruflo`). Install it from one marketplace only, `agentic-qe` or `ruflo`: enabled from both, its mod and commands load twice |
 
 #### Security & Compliance
 

@@ -5,7 +5,7 @@
   "full_name": "morluto/rea",
   "url": "https://github.com/morluto/rea",
   "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
-  "readme_sha256": "fc83410ec623e83f629d19d29d66b51ac6d8a03ecf32c7c93d073152186f10ab"
+  "readme_sha256": "c733aadf7a49f67c7cab66abac4b7feecdd5da24dd4403e42ff517e33cdeb706"
 }
 ```
 
@@ -13,14 +13,14 @@
 
 - URL: https://github.com/morluto/rea
 - Description: Reverse engineer anything with agents, from app behavior down to native binaries.
-- README SHA256: `fc83410ec623e83f629d19d29d66b51ac6d8a03ecf32c7c93d073152186f10ab`
+- README SHA256: `c733aadf7a49f67c7cab66abac4b7feecdd5da24dd4403e42ff517e33cdeb706`
 
 ## README
 
 <div align="center">
 
 **English** · [简体中文](docs/readme/README_zh.md) · [繁體中文](docs/readme/README_zh-TW.md) · [日本語](docs/readme/README_ja.md) · [한국어](docs/readme/README_ko.md) · [Türkçe](docs/readme/README_tr.md) · [Русский](docs/readme/README_ru.md) · [Tiếng Việt](docs/readme/README_vi.md) · [ไทย](docs/readme/README_th.md) · [Deutsch](docs/readme/README_de.md) · [Español](docs/readme/README_es.md) · [Français](docs/readme/README_fr.md) · [Українська](docs/readme/README_uk.md) · [Polski](docs/readme/README_pl.md) · [Português (Brasil)](docs/readme/README_pt-BR.md) · [العربية](docs/readme/README_ar.md) · [فارسی](docs/readme/README_fa.md) · [Bahasa Indonesia](docs/readme/README_id.md) · [Italiano](docs/readme/README_it.md)
-· [Ελληνικά](docs/readme/README_el.md) · [മലയാളം](docs/readme/README_ml.md)
+· [Ελληνικά](docs/readme/README_el.md) · [മലയാളം](docs/readme/README_ml.md) · [Roman Urdu](docs/readme/README_ur-Latn.md)
 
 # REA: Reverse Engineer Anything
 
@@ -196,7 +196,7 @@ CLI commands use the same workflows.
 
 ## What you can analyze
 
-REA requires Node.js 22.x (>=22.19), 24.x (>=24.11), or 26+, plus npm.
+REA requires Node.js 22.x (>=22.23.4), 24.x (>=24.22.1), or 26.12.1+, plus npm.
 Additional tools and host support depend on the target:
 
 | Target                  | What REA returns                                                                                  | Requirements and guide                                                                                                                |
@@ -211,6 +211,7 @@ Additional tools and host support depend on the target:
 | Godot PCK               | Archive inventory and extraction, original header/directory facts and selected content identities | Built-in static formats 2, 3 and 4; no Godot required                                                                                 |
 | Rust binaries           | Embedded cargo-auditable crate names, versions, sources and dependency edges                      | Built-in static ELF/PE/thin Mach-O inspection; [Rust binaries](docs/rust-binaries.md)                                                 |
 | PE certificates         | Authenticode WIN_CERTIFICATE entries and PKCS#7 signer/X.509 identity fields                      | Built-in static PE inspection; [PE certificates](docs/pe-certificates.md)                                                             |
+| PE imports              | Import and delay-load DLL names, ordinals, IAT RVAs and pefile import hash                        | Built-in static PE inspection; [PE imports](docs/pe-imports.md)                                                                       |
 | ELF notes               | PT_NOTE/SHT_NOTE owners, types, GNU build-id and ABI-tag fields                                   | Built-in static ELF inspection; [ELF notes](docs/elf-notes.md)                                                                        |
 | Erlang BEAM             | IFF chunks, atoms, exports, imports, lambdas and the Code header                                  | Built-in static BEAM inspection; [Erlang BEAM](docs/erlang-beam.md)                                                                   |
 | WASM artifact           | Validation, sections, exact import/export WAT forms and decoded WAT                               | Caller-supplied WABT 1.0.42; `inspect_wasm_artifact`                                                                                  |
@@ -260,7 +261,12 @@ for features added since the latest npm release.
 
 ## Showcases
 
-[![Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases](docs/assets/rea-showcases.png)](https://rea.tools/showcase/)
+<a href="https://rea.tools/showcase/">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/rea-showcases-dark.svg" />
+    <img alt="Illustrations of the DX-Ball sound-pan, Notion clipboard-bridge, and TH04 bullet-ring showcases" src="docs/assets/rea-showcases.svg" />
+  </picture>
+</a>
 
 ### DX-Ball: reconstruct a sound-pan calculation
 
@@ -418,7 +424,7 @@ to improve the code or docs.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup and checks,
 [testing](docs/testing.md) for verification lanes, and the
-[architecture map](docs/architecture.mermaid) for the project structure.
+[architecture map](docs/architecture.mermaid) for selected layers and dependency paths.
 
 ## License
 
