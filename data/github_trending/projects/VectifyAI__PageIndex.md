@@ -5,7 +5,7 @@
   "full_name": "VectifyAI/PageIndex",
   "url": "https://github.com/VectifyAI/PageIndex",
   "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-  "readme_sha256": "5a8c130e484bc4e29e61379cd3c8215f1ff6cdf60dedc7c8d895b0de574a672e"
+  "readme_sha256": "3e11de29bbe6d109bd42e335750625cbd8a9831b2d6069180599f643ed2fa198"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/VectifyAI/PageIndex
 - Description: 📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG
-- README SHA256: `5a8c130e484bc4e29e61379cd3c8215f1ff6cdf60dedc7c8d895b0de574a672e`
+- README SHA256: `3e11de29bbe6d109bd42e335750625cbd8a9831b2d6069180599f643ed2fa198`
 
 ## README
 
@@ -222,7 +222,7 @@ print(client.chat("What was the 2023 operating margin?", doc_id=doc_id))
 | Storage | Local directory | Cloud storage |
 | Citations | Page-level | Block-level |
 | OCR & image understanding | — | ✓ |
-| [Metadata](https://docs.pageindex.ai/sdk/documents#metadata-cloud) | — | ✓ |
+| [Metadata](https://docs.pageindex.ai/sdk/documents#metadata) | — | ✓ |
 | [Folders](https://docs.pageindex.ai/sdk/documents#folders-cloud) | — | ✓ |
 | [MCP server](https://docs.pageindex.ai/mcp) | — | ✓ |
 

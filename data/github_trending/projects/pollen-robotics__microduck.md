@@ -5,7 +5,7 @@
   "full_name": "pollen-robotics/microduck",
   "url": "https://github.com/pollen-robotics/microduck",
   "description": "A Tiny biped duck robot 🦆",
-  "readme_sha256": "688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f"
+  "readme_sha256": "28b4c4c092b1a6cf09796290cdd0398210a14e17ea88a23ef262704c4e0d3678"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pollen-robotics/microduck
 - Description: A Tiny biped duck robot 🦆
-- README SHA256: `688c04bbb8e9b677c6ce65a1d76597488a02098ad5d69939a8a1d52f7b05698f`
+- README SHA256: `28b4c4c092b1a6cf09796290cdd0398210a14e17ea88a23ef262704c4e0d3678`
 
 ## README
 
@@ -66,7 +66,7 @@ recipe, and the export to ONNX that this repo loads.
 </tr>
 <tr>
 <td><b>It walks.</b> Pick up a gamepad and drive.</td>
-<td><b>It rolls.</b> Put wheels on, hold D-pad up, and it loads the other brain.</td>
+<td><b>It rolls.</b> Put wheels on, ask for roller mode, and it loads the other brain.</td>
 </tr>
 <tr>
 <td width="50%">

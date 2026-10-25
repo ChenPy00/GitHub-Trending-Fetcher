@@ -5,7 +5,7 @@
   "full_name": "ruvnet/ruflo",
   "url": "https://github.com/ruvnet/ruflo",
   "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
-  "readme_sha256": "867ee05d43acdb5914f09084ce6d65e3c42274a5e70da3a5319ede66de72c180"
+  "readme_sha256": "69e8725e35fbb9d548214d546a545d1447cccc65ae3adf493271f2775e8cfb61"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/ruvnet/ruflo
 - Description: 🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated
-- README SHA256: `867ee05d43acdb5914f09084ce6d65e3c42274a5e70da3a5319ede66de72c180`
+- README SHA256: `69e8725e35fbb9d548214d546a545d1447cccc65ae3adf493271f2775e8cfb61`
 
 ## README
 
@@ -294,7 +294,7 @@ This adds slash commands and agent definitions. `ruflo-core` (installed above) d
 
 | Plugin | What it does |
 |--------|-------------|
-| [**ruflo-agent**](plugins/ruflo-agent/README.md) | Run agents — local WASM sandbox (rvagent) + Anthropic Claude Managed Agents (cloud) |
+| [**ruflo-agent**](plugins/ruflo-agent/README.md) | Run agents — local WASM sandbox (rvagent) + Anthropic Claude Managed Agents (cloud), with opt-in bounded dynamic workflows, gated session controls and verified advisory learning |
 | [**ruflo-plugin-creator**](plugins/ruflo-plugin-creator/README.md) | Scaffold, validate, and publish your own plugins |
 
 #### Domain-Specific

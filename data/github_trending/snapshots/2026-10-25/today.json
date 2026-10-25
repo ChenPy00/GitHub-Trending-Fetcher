@@ -1,0 +1,89 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "full_name": "NVIDIA/OpenShell",
+      "project_file": "projects/NVIDIA__OpenShell.md",
+      "rank": 2,
+      "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883",
+      "url": "https://github.com/NVIDIA/OpenShell"
+    },
+    {
+      "description": "Official, AWS-supported MCP servers, skills, and plugins to help AI agents build on AWS",
+      "full_name": "aws/agent-toolkit-for-aws",
+      "project_file": "projects/aws__agent-toolkit-for-aws.md",
+      "rank": 3,
+      "readme_sha256": "350117971f6132849e675ec7f3af0996c644b6e52f577bb31f05b024e823c6a9",
+      "url": "https://github.com/aws/agent-toolkit-for-aws"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 4,
+      "readme_sha256": "50cf444c6b902b8070b3cd9ca32670055e9dcc469c2374cdf566eb9ab3f5448c",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.",
+      "full_name": "luongnv89/claude-howto",
+      "project_file": "projects/luongnv89__claude-howto.md",
+      "rank": 5,
+      "readme_sha256": "8222c6cd5d2928704ee2383efdaa99dd72ab6f1d0c8d305deb81e588c5cfa0a3",
+      "url": "https://github.com/luongnv89/claude-howto"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 6,
+      "readme_sha256": "2cd828772f12fc196c8f2f4a9b5abbfd82e05a55b7944c47e4e85a57f39d0355",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "A Tiny biped duck robot 🦆",
+      "full_name": "pollen-robotics/microduck",
+      "project_file": "projects/pollen-robotics__microduck.md",
+      "rank": 7,
+      "readme_sha256": "28b4c4c092b1a6cf09796290cdd0398210a14e17ea88a23ef262704c4e0d3678",
+      "url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "full_name": "google-gemini/gemini-cli",
+      "project_file": "projects/google-gemini__gemini-cli.md",
+      "rank": 8,
+      "readme_sha256": "7235196f55461732c246c20ce9996cc56ba2e52641f183ccf4e6493bd93c1c94",
+      "url": "https://github.com/google-gemini/gemini-cli"
+    },
+    {
+      "description": "欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。",
+      "full_name": "jbiaojerry/ebook-treasure-chest",
+      "project_file": "projects/jbiaojerry__ebook-treasure-chest.md",
+      "rank": 9,
+      "readme_sha256": "d28c840c2ea67a9ea042e73d18afb18767d427f114842083eab26f07d635cbbc",
+      "url": "https://github.com/jbiaojerry/ebook-treasure-chest"
+    },
+    {
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "full_name": "makecindy/cindy",
+      "project_file": "projects/makecindy__cindy.md",
+      "rank": 10,
+      "readme_sha256": "d3e7cfae99e0951574d01c2fe7836382bbf861f8e8a1a1eb8220a1a67e244e83",
+      "url": "https://github.com/makecindy/cindy"
+    }
+  ],
+  "snapshot_date": "2026-10-25",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

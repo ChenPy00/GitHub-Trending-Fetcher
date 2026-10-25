@@ -5,7 +5,7 @@
   "full_name": "Graphify-Labs/graphify",
   "url": "https://github.com/Graphify-Labs/graphify",
   "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
-  "readme_sha256": "b65a7f15565fbeac0b7be53d205e6c546ea81d5f19ecfe7d1922f8b38194c848"
+  "readme_sha256": "6c368068b6fadb43db08cabe6858338461b494299b2f4c5102883992b0aa6b5b"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Graphify-Labs/graphify
 - Description: Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.
-- README SHA256: `b65a7f15565fbeac0b7be53d205e6c546ea81d5f19ecfe7d1922f8b38194c848`
+- README SHA256: `6c368068b6fadb43db08cabe6858338461b494299b2f4c5102883992b0aa6b5b`
 
 ## README
 
@@ -266,6 +266,7 @@ for example `graphify claude install --project` or `graphify codex install --pro
 | Cursor | `graphify cursor install` |
 | Devin CLI | `graphify devin install` |
 | Google Antigravity | `graphify antigravity install` |
+| Google Antigravity (Windows) | `graphify antigravity install` (auto-detected on Windows) |
 
 Codex users also need `multi_agent = true` under `[features]` in `~/.codex/config.toml` for parallel extraction. CodeBuddy uses the same Agent tool and PreToolUse hook mechanism as Claude Code. Factory Droid uses the `Task` tool for parallel subagent dispatch. OpenClaw and Aider use sequential extraction (parallel agent support is still early on those platforms). Trae uses the Agent tool for parallel subagent dispatch and does **not** support `PreToolUse` hooks, so AGENTS.md is the always-on mechanism.
 
@@ -287,6 +288,7 @@ Pi has no `PreToolUse` hook, so `graphify pi guard install` registers a native P
 | `google` | Google Sheets rendering | `uv tool install "graphifyy[google]"` |
 | `video` | Video/audio transcription (faster-whisper + yt-dlp) | `uv tool install "graphifyy[video]"` |
 | `mcp` | MCP stdio server | `uv tool install "graphifyy[mcp]"` |
+| `watch` | Auto-rebuild on file changes (`graphify watch`) | `uv tool install "graphifyy[watch]"` |
 | `neo4j` | Neo4j push support | `uv tool install "graphifyy[neo4j]"` |
 | `falkordb` | FalkorDB push support | `uv tool install "graphifyy[falkordb]"` |
 | `svg` | SVG graph export | `uv tool install "graphifyy[svg]"` |
@@ -388,6 +390,16 @@ See the [full command reference](#full-command-reference) below.
 
 ---
 
+## Labeling and rendering limits
+
+- **`--batch-size`**: 100 communities per labeling call by default, sized for a ~16k-token context (~150 tokens/community). Use `--batch-size 40` for an 8k window. Context overflow is not split-retried; failed batches keep hub-derived names.
+- **`--missing-only`**: `label --missing-only` keeps existing labels and names only unnamed / `Community N` entries. Use `label` (full relabel) to refresh names after the community set changes.
+- **`.graphify_labels.json.sig`**: records the community membership signature; labels survive a re-cluster only while it matches.
+- **`export html`**: 5,000-node default; above it graphify renders an aggregated community view. Use `--node-limit N`. `GRAPHIFY_VIZ_NODE_LIMIT` / `.graphifyrc` `viz_node_limit=N` apply to `cluster-only`, `update`, `watch`, and hooks, not `export html`.
+- **Leiden fallback**: without the `leiden` extra, clustering silently uses networkx Louvain. Switching later reshuffles every community, so plan a full relabel.
+
+---
+
 ## Ignoring files
 
 graphify honors `.gitignore` and supports `--exclude` patterns and a project `.graphifyignore`. Details: **[Configuration](https://docs.graphify.com/reference/configuration)**.
@@ -428,6 +440,8 @@ Beyond your AI assistant, query `graph.json` straight from the CLI with `graphif
 ## Environment variables
 
 Backends, API keys, hook behavior, and tuning are controlled by environment variables. Full table: **[Configuration](https://docs.graphify.com/reference/configuration)**.
+
+- **Claude CLI model**: `GRAPHIFY_CLAUDE_CLI_MODEL` overrides the model for the `claude-cli` backend (default: Opus). `haiku` or `sonnet` are usually enough for community naming; the semantic extraction pass benefits from a larger model.
 
 ---
 
