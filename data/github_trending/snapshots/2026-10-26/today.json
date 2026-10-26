@@ -1,0 +1,97 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "full_name": "makecindy/cindy",
+      "project_file": "projects/makecindy__cindy.md",
+      "rank": 1,
+      "readme_sha256": "d3e7cfae99e0951574d01c2fe7836382bbf861f8e8a1a1eb8220a1a67e244e83",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 2,
+      "readme_sha256": "50cf444c6b902b8070b3cd9ca32670055e9dcc469c2374cdf566eb9ab3f5448c",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 3,
+      "readme_sha256": "7d60e691bbdc2a0dff5cb6fb61c45293603a0a068826dbba80a0b0721d72c0e3",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 4,
+      "readme_sha256": "2cd828772f12fc196c8f2f4a9b5abbfd82e05a55b7944c47e4e85a57f39d0355",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "A Tiny biped duck robot 🦆",
+      "full_name": "pollen-robotics/microduck",
+      "project_file": "projects/pollen-robotics__microduck.md",
+      "rank": 5,
+      "readme_sha256": "28b4c4c092b1a6cf09796290cdd0398210a14e17ea88a23ef262704c4e0d3678",
+      "url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 6,
+      "readme_sha256": "fa3c3b517208e804b880c447f72a9f4730d856bc2f414d4618cf41e8c44d0cd7",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "full_name": "Renhuai123/ziwei-doushu",
+      "project_file": "projects/Renhuai123__ziwei-doushu.md",
+      "rank": 7,
+      "readme_sha256": "4f69dd421d7d265b914f3115e151a3c1a3cb1cf4777a5aa255d87112fb5c7d4f",
+      "url": "https://github.com/Renhuai123/ziwei-doushu"
+    },
+    {
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "full_name": "JetBrains/thinkrail",
+      "project_file": "projects/JetBrains__thinkrail.md",
+      "rank": 8,
+      "readme_sha256": "cad7018e8ded3672e9b181c85f51b0574d5df942ae7f8515f29705d59723ed7b",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "description": "An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.",
+      "full_name": "coollabsio/coolify",
+      "project_file": "projects/coollabsio__coolify.md",
+      "rank": 9,
+      "readme_sha256": "9ddd86aae945aa2a6ddb91f32f047ff311772e8a2b0700bd8689f3f6ad8d3cf0",
+      "url": "https://github.com/coollabsio/coolify"
+    },
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 10,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "full_name": "AgriciDaniel/claude-seo",
+      "project_file": "projects/AgriciDaniel__claude-seo.md",
+      "rank": 11,
+      "readme_sha256": "a6f11dbfee5b5ba787bdbb8536a46813c55fc770f875094714c4916178dc1238",
+      "url": "https://github.com/AgriciDaniel/claude-seo"
+    }
+  ],
+  "snapshot_date": "2026-10-26",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
