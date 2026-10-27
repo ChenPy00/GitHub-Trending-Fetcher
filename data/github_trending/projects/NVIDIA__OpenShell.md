@@ -5,7 +5,7 @@
   "full_name": "NVIDIA/OpenShell",
   "url": "https://github.com/NVIDIA/OpenShell",
   "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-  "readme_sha256": "b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883"
+  "readme_sha256": "55cceb7943ed72d109e7699f4e88fe73661dc454529afd61438c8d519074befc"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/NVIDIA/OpenShell
 - Description: OpenShell is the safe, private runtime for autonomous AI agents.
-- README SHA256: `b28bf8191159a5ceb4800f30f44ba5979e7900e87975f8fbcf81e10f40c88883`
+- README SHA256: `55cceb7943ed72d109e7699f4e88fe73661dc454529afd61438c8d519074befc`
 
 ## README
 
@@ -56,6 +56,8 @@ openshell sandbox create --name demo
 ```
 
 The installer sets up the CLI and a local gateway. The default sandbox image is minimal Ubuntu with no agent installed. To run a real agent, follow [Run Your First Agent](https://docs.nvidia.com/openshell/latest/about/run-your-first-agent): it runs OpenCode against a free OpenRouter model and shows how to approve new access as the agent needs it.
+
+For native Windows support through Microsoft MXC, see the [Windows build and runtime guide](https://github.com/NVIDIA/OpenShell/blob/windows/WINDOWS.md) for setup and current limitations.
 
 ## Explore Further
 

@@ -5,7 +5,7 @@
   "full_name": "JetBrains/thinkrail",
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-  "readme_sha256": "cad7018e8ded3672e9b181c85f51b0574d5df942ae7f8515f29705d59723ed7b"
+  "readme_sha256": "b4570af0973fb088151552c621655103082f373c33b47f7c3019d15242c3aaa1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/JetBrains/thinkrail
 - Description: Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-- README SHA256: `cad7018e8ded3672e9b181c85f51b0574d5df942ae7f8515f29705d59723ed7b`
+- README SHA256: `b4570af0973fb088151552c621655103082f373c33b47f7c3019d15242c3aaa1`
 
 ## README
 
@@ -21,6 +21,13 @@
 
 [![JetBrains incubator project](https://jb.gg/badges/incubator-plastic.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
 [![GitHub stars](https://img.shields.io/github/stars/JetBrains/thinkrail?style=social)](https://star-history.com/#JetBrains/thinkrail&Date)
+
+
+<a href="https://www.producthunt.com/products/thinkrail?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-thinkrail" target="_blank" rel="noopener noreferrer">
+  <img alt="ThinkRail - the agentic IDE that gets better every time you use it | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1293188&amp;theme=light&amp;t=1793013338496">
+</a>
+
+
 
 ThinkRail is the agentic IDE that gets better every time you use it — learning your project through
 living specs today, and building its own capabilities tomorrow.
@@ -34,10 +41,17 @@ create the tools it needs based on how you actually work.
 
 ⭐ If you find ThinkRail useful, give it a star — it helps others discover it.
 
+<p align="center">
+ <a href="https://www.star-history.com/jetbrains/thinkrail">
+  <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JetBrains/thinkrail&type=rank&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JetBrains/thinkrail&type=rank" /><img alt="Star History Rank" src="https://api.star-history.com/badge?repo=JetBrains/thinkrail&type=rank" /></picture> <picture><source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/badge?repo=JetBrains/thinkrail&type=trending&theme=dark" /><source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/badge?repo=JetBrains/thinkrail&type=trending" /><img alt="GitHub Trending Repository of the Day" src="https://api.star-history.com/badge?repo=JetBrains/thinkrail&type=trending" /></picture>
+ </a>
+</p>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme-assets/workbench-dark.png">
   <img src=".github/readme-assets/workbench-light.png" alt="ThinkRail workbench: the Projects pane beside the left tool rail listing worktree workspaces and their Settled shelf, a finished pi conversation with its tool steps in the center, the resulting diff beside it, and the Specs tree above the Changes list on the right with their tools on the edge rail" width="900">
 </picture>
+
 
 *A `pi` session and the change it made, scoped to an isolated git-worktree workspace.*
 
@@ -78,6 +92,10 @@ create the tools it needs based on how you actually work.
   servers next to its background commands and subagents.
 - **Your providers, your credentials.** Sign in with [JetBrains AI](https://www.jetbrains.com/ai/) or
   connect any provider through `pi`'s own auth. ThinkRail has no accounts of its own.
+- **Your pi setup.** ThinkRail reads your existing `pi` configuration (`~/.pi/agent`). To use another one
+  — say a personal `~/.pi/agent-personal` — or to pass extra environment variables to the agent, terminals
+  and MCP servers, set them in Settings → Environment; they apply on the next start. A variable you set
+  when launching (`PI_CODING_AGENT_DIR=… thinkrail`) still wins.
 - **Desktop app or browser.** A native desktop app, or the `thinkrail` CLI that opens the same app in your
   browser. Both embed the same engine host; app state lives under `~/.thinkrail`.
 - **Your language.** Settings → Language follows your system language or a language you pick; English and
@@ -101,7 +119,8 @@ Both are published with `SHA256SUMS` on the [releases page](https://github.com/J
 
 Download the `thinkrail-desktop-*` asset for your platform:
 
-- **macOS (Apple Silicon)** — open the DMG. There is no Intel desktop build.
+- **macOS 14+ (Apple Silicon or Intel)** — open the DMG for your architecture:
+  `thinkrail-desktop-darwin-arm64.dmg` or `thinkrail-desktop-darwin-x64.dmg`.
 - **Windows x64** — extract the complete setup ZIP, then run its setup executable in place, next to its
   payload.
 - **Linux x64 / ARM64** — extract the setup tarball and run `installer`. Desktop builds need glibc 2.38+
@@ -184,8 +203,7 @@ manually or reinstalled with the script.
 
 | Platform | Desktop | CLI |
 | --- | --- | --- |
-| macOS Apple Silicon | DMG | signed binary |
-| macOS Intel | no Electrobun build | not prebuilt — [build from source](#developing-thinkrail) |
+| macOS Apple Silicon / Intel | DMG | signed binary |
 | Windows x64 | signed setup executable and app binaries | signed `.exe` |
 | Linux x64 / ARM64 | setup tarball, unsigned | unsigned |
 

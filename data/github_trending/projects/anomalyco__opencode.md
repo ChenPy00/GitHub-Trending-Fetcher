@@ -5,7 +5,7 @@
   "full_name": "anomalyco/opencode",
   "url": "https://github.com/anomalyco/opencode",
   "description": "The open source coding agent.",
-  "readme_sha256": "9d93c425fc5f9f8b93c4fc3d40fc82ef10450403116371736feafce57c875635"
+  "readme_sha256": "a1b20d3212d19d10f7567e80730cc84b32879a1c7bb5b04bfa77610163a589f5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/anomalyco/opencode
 - Description: The open source coding agent.
-- README SHA256: `9d93c425fc5f9f8b93c4fc3d40fc82ef10450403116371736feafce57c875635`
+- README SHA256: `a1b20d3212d19d10f7567e80730cc84b32879a1c7bb5b04bfa77610163a589f5`
 
 ## README
 
@@ -30,7 +30,7 @@
 <p align="center">
   <a href="https://opencode.ai/discord"><img alt="Discord" src="https://img.shields.io/discord/1391832426048651334?style=flat-square&label=discord" /></a>
   <a href="https://www.npmjs.com/package/@opencode/cli"><img alt="npm" src="https://img.shields.io/npm/v/@opencode/cli?style=flat-square" /></a>
-  <a href="https://github.com/anomalyco/opencode/actions/workflows/publish.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/opencode/publish.yml?style=flat-square&branch=dev" /></a>
+  <a href="https://github.com/anomalyco/opencode/actions/workflows/release.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/anomalyco/opencode/release.yml?style=flat-square&branch=dev" /></a>
 </p>
 
 <p align="center">

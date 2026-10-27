@@ -5,7 +5,7 @@
   "full_name": "Comfy-Org/ComfyUI",
   "url": "https://github.com/Comfy-Org/ComfyUI",
   "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
-  "readme_sha256": "d812a66af88fe0a08d25d19c2dba3b6ce604ce364f88b1e315c13587d6f7a2eb"
+  "readme_sha256": "1f5452375de6170925930393ade6380f73a01974d00c7e784d1521a86e5b388a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Comfy-Org/ComfyUI
 - Description: The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
-- README SHA256: `d812a66af88fe0a08d25d19c2dba3b6ce604ce364f88b1e315c13587d6f7a2eb`
+- README SHA256: `1f5452375de6170925930393ade6380f73a01974d00c7e784d1521a86e5b388a`
 
 ## README
 
@@ -311,9 +311,9 @@ You can install ComfyUI in Apple Mac silicon (M1, M2, M3 or M4) with any recent 
 
 > **Note**: Remember to add your models, VAE, LoRAs etc. to the corresponding Comfy folders, as discussed in [ComfyUI manual installation](#manual-install-windows-linux).
 
-#### Ascend NPUs
+#### Huawei Ascend NPUs
 
-For models compatible with Ascend Extension for PyTorch (torch_npu). To get started, ensure your environment meets the prerequisites outlined on the [installation](https://ascend.github.io/docs/sources/ascend/quick_install.html) page. Here's a step-by-step guide tailored to your platform and installation method:
+For models compatible with Huawei Ascend Extension for PyTorch (torch_npu). To get started, ensure your environment meets the prerequisites outlined on the [installation](https://ascend.github.io/docs/sources/ascend/quick_install.html) page. Here's a step-by-step guide tailored to your platform and installation method:
 
 1. Begin by installing the recommended or newer kernel version for Linux as specified in the Installation page of torch-npu, if necessary.
 2. Proceed with the installation of Ascend Basekit, which includes the driver, firmware, and CANN, following the instructions provided for your specific platform.

@@ -5,7 +5,7 @@
   "full_name": "stablyai/orca",
   "url": "https://github.com/stablyai/orca",
   "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
-  "readme_sha256": "859864c42d8e59b5fd20c52e1996ec5d81a1f875509e9297373629c8c85691c4"
+  "readme_sha256": "5a27d00f162dceb0676ffaa27b848f1f191148321a7b534e4da60fa80f9e3c37"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/stablyai/orca
 - Description: Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
-- README SHA256: `859864c42d8e59b5fd20c52e1996ec5d81a1f875509e9297373629c8c85691c4`
+- README SHA256: `5a27d00f162dceb0676ffaa27b848f1f191148321a7b534e4da60fa80f9e3c37`
 
 ## README
 
@@ -242,7 +242,10 @@ _Or via a package manager:_
 
 ```bash
 # macOS (Homebrew)
+# Always use the full name; bare `orca` is an unrelated Plotly cask.
 brew install --cask stablyai/orca/orca
+# Upgrade an existing install
+brew upgrade --cask stablyai/orca/orca
 
 # Arch Linux (AUR) — or stably-orca-git to build from source
 yay -S stably-orca-bin

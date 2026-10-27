@@ -5,7 +5,7 @@
   "full_name": "debpalash/VoiceStudio",
   "url": "https://github.com/debpalash/VoiceStudio",
   "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
-  "readme_sha256": "7d60e691bbdc2a0dff5cb6fb61c45293603a0a068826dbba80a0b0721d72c0e3"
+  "readme_sha256": "20451244cef2d8122212dc7fc67e2fd3c727f7be375b057208abd66372f32f95"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/debpalash/VoiceStudio
 - Description: VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.
-- README SHA256: `7d60e691bbdc2a0dff5cb6fb61c45293603a0a068826dbba80a0b0721d72c0e3`
+- README SHA256: `20451244cef2d8122212dc7fc67e2fd3c727f7be375b057208abd66372f32f95`
 
 ## README
 
@@ -111,19 +111,21 @@ Node.js 22+, Bun, Rust/Cargo, and platform build tools; see
 The installer preserves your settings, projects, and models. Older versions
 must contain Electron packages; it never falls back to archived Tauri builds.
 
-Or download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest) (macOS `.dmg`, Windows `.exe`, Linux `.AppImage` or `.deb`) and follow your platform guide:
+Or download from [Releases](https://github.com/debpalash/VoiceStudio/releases/latest) (macOS `.dmg`, Windows `.exe`, Linux `.AppImage` or `.deb`, Android `.apk`, iPhone `.ipa`; or `sudo snap install voicestudio` on Linux) and follow your platform guide:
 
-**[macOS](docs/install/macos.md) · [Windows](docs/install/windows.md) · [Linux](docs/install/linux.md) · [Docker](docs/install/docker.md)**
+**[macOS](docs/install/macos.md) · [Windows](docs/install/windows.md) · [Linux](docs/install/linux.md) · [Docker](docs/install/docker.md) · [Android and iPhone](docs/mobile.md#install)**
 
 | Hardware | Support |
 |---|---|
 | NVIDIA GPU (Windows / Linux) | CUDA acceleration |
 | AMD Radeon / supported Ryzen AI (Windows) | CPU by default; [opt-in Windows ROCm setup](docs/install/windows-rocm.md) for AMD's Windows 11 hardware matrix. Setup distinguishes package repair from host failures; install the VC++ runtime manually first. Optional engines have separate limits; Vulkan engines retain their own runtime. |
-| Apple Silicon | Metal (MPS) acceleration |
+| Apple Silicon (M1–M5) | Metal (MPS) acceleration |
 | AMD GPU | Opt-in native CosyVoice GGUF can use Vulkan when the community runtime is built with Vulkan; verified on RX 6700 XT ([setup](docs/engines/cosyvoice-gguf.md)) |
 | No dedicated GPU (Intel/AMD integrated graphics, older PCs) | Fully usable on the CPU, slower; setup installs the small CPU build of PyTorch (about 5 GB free disk) |
 | Windows on ARM (Snapdragon X etc.) | **Experimental**, validation pending: native ARM64 app, x64 Python backend under emulation, CPU only |
 | Intel Mac | App UI only; connect to a remote backend ([why](docs/install/macos.md)) |
+| Android phones (Android 10+) | **Preview**: models run on the phone, offline once downloaded ([install](docs/mobile.md#install)) |
+| iPhone and iPad (iOS 17+) | **Preview**: models run on the device; sideload the IPA with your Apple ID ([install](docs/mobile.md#install)) |
 
 Open **Voice cloning**, choose a voice or add a clean reference recording, enter your text, and generate. Install the required model when prompted. Hardware needs vary by engine; see [performance](docs/performance.md).
 

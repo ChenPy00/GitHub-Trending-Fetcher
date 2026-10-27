@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "07301caabab983a6f1a6c1542cdad4c3d528233b7e0fabd6d76b089d7387a44c"
+  "readme_sha256": "ce5857396ae24e1641748d5fad8561906c271b8053526d41f93b0d4de1735908"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `07301caabab983a6f1a6c1542cdad4c3d528233b7e0fabd6d76b089d7387a44c`
+- README SHA256: `ce5857396ae24e1641748d5fad8561906c271b8053526d41f93b0d4de1735908`
 
 ## README
 
@@ -113,6 +113,7 @@ We are (mostly) not accepting contributions yet. Small fixes may be considered. 
 
 Full docs live in [docs/](./docs). There's no docs site yet.
 
+- [FAQ](./docs/user/faq.md)
 - [Install and first run](./docs/user/install.md)
 - [Permission modes](./docs/user/permission-modes.md)
 - [Keyboard shortcuts](./docs/user/keybindings.md)

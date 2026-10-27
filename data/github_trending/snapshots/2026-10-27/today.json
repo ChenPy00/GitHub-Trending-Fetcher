@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 1,
+      "readme_sha256": "50cf444c6b902b8070b3cd9ca32670055e9dcc469c2374cdf566eb9ab3f5448c",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 2,
+      "readme_sha256": "fa3c3b517208e804b880c447f72a9f4730d856bc2f414d4618cf41e8c44d0cd7",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "full_name": "JetBrains/thinkrail",
+      "project_file": "projects/JetBrains__thinkrail.md",
+      "rank": 3,
+      "readme_sha256": "b4570af0973fb088151552c621655103082f373c33b47f7c3019d15242c3aaa1",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "full_name": "makecindy/cindy",
+      "project_file": "projects/makecindy__cindy.md",
+      "rank": 4,
+      "readme_sha256": "241a679ce47953058fa8476fb3744c7a19d91e8eaa305b338bbdd0ba32636a55",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 5,
+      "readme_sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "The design language that makes your AI harness better at design.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 6,
+      "readme_sha256": "89796aaeaffd8a10fd8efa426ab385886a5afb148de1b23a4b4797e89fdf584e",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Security scanner for AI agent skills. Detect vulnerabilities, malicious patterns, security risks, prompt injection, data exfiltration, and supply-chain risks in Claude Code, Codex, and MCP skills before you install them.",
+      "full_name": "NVIDIA/SkillSpector",
+      "project_file": "projects/NVIDIA__SkillSpector.md",
+      "rank": 7,
+      "readme_sha256": "1bfa919d59a94daf50c668d8ccaee83a05124c899613c6f3e06ec0437470e2d2",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    {
+      "description": "A Tiny biped duck robot 🦆",
+      "full_name": "pollen-robotics/microduck",
+      "project_file": "projects/pollen-robotics__microduck.md",
+      "rank": 8,
+      "readme_sha256": "28b4c4c092b1a6cf09796290cdd0398210a14e17ea88a23ef262704c4e0d3678",
+      "url": "https://github.com/pollen-robotics/microduck"
+    },
+    {
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "full_name": "nightly-labs/openbot",
+      "project_file": "projects/nightly-labs__openbot.md",
+      "rank": 9,
+      "readme_sha256": "5f2d2267be924aee8a71b4744ec9e91705164cb1cac4adffb4d66352e1020e39",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 10,
+      "readme_sha256": "679ed9b797891acf06d4605addaef032993b63af67c97ac2bd8be76ea854ce34",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 11,
+      "readme_sha256": "20451244cef2d8122212dc7fc67e2fd3c727f7be375b057208abd66372f32f95",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "full_name": "gitroomhq/postiz-app",
+      "project_file": "projects/gitroomhq__postiz-app.md",
+      "rank": 12,
+      "readme_sha256": "03ca37863c7ea1f663ea620f46277da45708f7e8079b5c5568517a10c042a0c5",
+      "url": "https://github.com/gitroomhq/postiz-app"
+    },
+    {
+      "description": "Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent",
+      "full_name": "alchaincyf/huashu-design",
+      "project_file": "projects/alchaincyf__huashu-design.md",
+      "rank": 13,
+      "readme_sha256": "695017b495712dce57a9476527c403260c88446d33180b1a6ff93d0e0832b04d",
+      "url": "https://github.com/alchaincyf/huashu-design"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 14,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    }
+  ],
+  "snapshot_date": "2026-10-27",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

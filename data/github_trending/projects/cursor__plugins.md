@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "8f98f2af620dcf5d8c39b8dcf2db56b7be098dcd1db75eeb6f74ae53975ae13c"
+  "readme_sha256": "e61af11b2be682ecf1ff741c3cbb9f7ccbca99e821406979fdb71a9a6c00610a"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `8f98f2af620dcf5d8c39b8dcf2db56b7be098dcd1db75eeb6f74ae53975ae13c`
+- README SHA256: `e61af11b2be682ecf1ff741c3cbb9f7ccbca99e821406979fdb71a9a6c00610a`
 
 ## README
 
@@ -136,6 +136,9 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `feishu` | [Feishu](third_party/feishu/) | Cursor | Integrations | Search, create, and update Feishu docs, and read Feishu messages and groups. |
 | `framer` | [Framer](third_party/framer/) | Cursor | Integrations | Design, build, and edit your Framer sites, pages, and CMS content. |
 | `vanta` | [Vanta](third_party/vanta/) | Cursor | Integrations | Query and remediate compliance tests, controls, frameworks, risks, and vulnerabilities in Vanta. |
+| `ringcentral-phone` | [RingCentral Phone](third_party/ringcentral-phone/) | Cursor | Integrations | Read call activity, AI call notes, SMS, voicemail, and fax, and send SMS. |
+| `ringcentral-chat` | [RingCentral Chat](third_party/ringcentral-chat/) | Cursor | Integrations | Read team chats and posts, send messages, and manage teams, tasks, and notes. |
+| `servicenow` | [ServiceNow](third_party/servicenow/) | Cursor | Integrations | Call the tools your admin publishes on a ServiceNow instance. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure
