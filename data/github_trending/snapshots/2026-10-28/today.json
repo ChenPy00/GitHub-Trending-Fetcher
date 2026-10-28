@@ -1,0 +1,97 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "",
+      "full_name": "elayadesign/ai-design-skills",
+      "project_file": "projects/elayadesign__ai-design-skills.md",
+      "rank": 1,
+      "readme_sha256": "8a9de89d3a110b814ed636be8494c8b8ea9f933e50567714a2275f17e1561bab",
+      "url": "https://github.com/elayadesign/ai-design-skills"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 2,
+      "readme_sha256": "785ff305d05e90cac94b2ef72aee499c8408510b2206bcfb796a8288950bef68",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "full_name": "nightly-labs/openbot",
+      "project_file": "projects/nightly-labs__openbot.md",
+      "rank": 3,
+      "readme_sha256": "2f44b61d61b57dd2f1dd6bb81de72c75ad4d782677b7e896fab32d22c607269e",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 4,
+      "readme_sha256": "79f29f50c735862d2e304ea547b4c9aa67d9db6909ff6fb7b5ea922d7bcbc3e7",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 5,
+      "readme_sha256": "89796aaeaffd8a10fd8efa426ab385886a5afb148de1b23a4b4797e89fdf584e",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "full_name": "makecindy/cindy",
+      "project_file": "projects/makecindy__cindy.md",
+      "rank": 6,
+      "readme_sha256": "cacb15f4631f1f92dbdc4f247053493bba7b59b94a223cb8c5c681697eda21b4",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "description": "📨 The ultimate agentic social media scheduling tool 🤖",
+      "full_name": "gitroomhq/postiz-app",
+      "project_file": "projects/gitroomhq__postiz-app.md",
+      "rank": 7,
+      "readme_sha256": "03ca37863c7ea1f663ea620f46277da45708f7e8079b5c5568517a10c042a0c5",
+      "url": "https://github.com/gitroomhq/postiz-app"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 8,
+      "readme_sha256": "891c1db3e717d893e625c9a87194a2dda07185911019a6e0e8b4c4bfd5d3b92c",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 9,
+      "readme_sha256": "6370e5816ffe769bdcaa888485b3b4c50d8887261a694ccb386907eecb6d700b",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "full_name": "JetBrains/thinkrail",
+      "project_file": "projects/JetBrains__thinkrail.md",
+      "rank": 10,
+      "readme_sha256": "c5cbb3c0ede64052387a78df3ff4c8804ccf7e9dc029c596cd4b8bff47aa2ae9",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "full_name": "togg53192-cmd/jailbreaks",
+      "project_file": "projects/togg53192-cmd__jailbreaks.md",
+      "rank": 11,
+      "readme_sha256": "63054efc8f9b669d4d8c236a6fdb5974e812374cda468b86b2b3e093571890e9",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    }
+  ],
+  "snapshot_date": "2026-10-28",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

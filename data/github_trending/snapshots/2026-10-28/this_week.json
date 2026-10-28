@@ -1,0 +1,113 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 2,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "full_name": "AgriciDaniel/claude-seo",
+      "project_file": "projects/AgriciDaniel__claude-seo.md",
+      "rank": 3,
+      "readme_sha256": "a6f11dbfee5b5ba787bdbb8536a46813c55fc770f875094714c4916178dc1238",
+      "url": "https://github.com/AgriciDaniel/claude-seo"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 4,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 5,
+      "readme_sha256": "dbbaf3de3698f39664b2ea40d1e3b3dd92deaf8e1a4f3129d01bd6ff4211229f",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing, every edge explained, no vector store.",
+      "full_name": "Graphify-Labs/graphify",
+      "project_file": "projects/Graphify-Labs__graphify.md",
+      "rank": 6,
+      "readme_sha256": "6c368068b6fadb43db08cabe6858338461b494299b2f4c5102883992b0aa6b5b",
+      "url": "https://github.com/Graphify-Labs/graphify"
+    },
+    {
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 7,
+      "readme_sha256": "fc69b8740e4c3e8791d3d1f2582fe5d873b110025ba2f9d798c4cb9b74505330",
+      "url": "https://github.com/ruvnet/ruflo"
+    },
+    {
+      "description": "The open source coding agent.",
+      "full_name": "anomalyco/opencode",
+      "project_file": "projects/anomalyco__opencode.md",
+      "rank": 8,
+      "readme_sha256": "a1b20d3212d19d10f7567e80730cc84b32879a1c7bb5b04bfa77610163a589f5",
+      "url": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "description": "Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.",
+      "full_name": "stablyai/orca",
+      "project_file": "projects/stablyai__orca.md",
+      "rank": 9,
+      "readme_sha256": "b02b60973051e65ea937b50dd90e1b2e4020c4abc9f8dec20d60ce27468fec28",
+      "url": "https://github.com/stablyai/orca"
+    },
+    {
+      "description": "",
+      "full_name": "android/skills",
+      "project_file": "projects/android__skills.md",
+      "rank": 10,
+      "readme_sha256": "ddb3ed68437a77d0650011d66435196f291c492989aeb0e673b1f9bf920fffb6",
+      "url": "https://github.com/android/skills"
+    },
+    {
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "full_name": "akitaonrails/ai-memory",
+      "project_file": "projects/akitaonrails__ai-memory.md",
+      "rank": 11,
+      "readme_sha256": "9b10c3cd564dddfd8bab175a6eee43f755e0f307f82fb38f85f45c174d73af51",
+      "url": "https://github.com/akitaonrails/ai-memory"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 12,
+      "readme_sha256": "ce5857396ae24e1641748d5fad8561906c271b8053526d41f93b0d4de1735908",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "FastAPI framework, high performance, easy to learn, fast to code, ready for production",
+      "full_name": "fastapi/fastapi",
+      "project_file": "projects/fastapi__fastapi.md",
+      "rank": 13,
+      "readme_sha256": "9b44160901909b924c7520227f5cdb44f7785560957b73987ff12379b3f82faa",
+      "url": "https://github.com/fastapi/fastapi"
+    }
+  ],
+  "snapshot_date": "2026-10-28",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

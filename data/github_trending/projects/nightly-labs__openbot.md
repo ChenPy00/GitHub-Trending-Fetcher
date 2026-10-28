@@ -5,7 +5,7 @@
   "full_name": "nightly-labs/openbot",
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-  "readme_sha256": "5f2d2267be924aee8a71b4744ec9e91705164cb1cac4adffb4d66352e1020e39"
+  "readme_sha256": "2f44b61d61b57dd2f1dd6bb81de72c75ad4d782677b7e896fab32d22c607269e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/nightly-labs/openbot
 - Description: A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
-- README SHA256: `5f2d2267be924aee8a71b4744ec9e91705164cb1cac4adffb4d66352e1020e39`
+- README SHA256: `2f44b61d61b57dd2f1dd6bb81de72c75ad4d782677b7e896fab32d22c607269e`
 
 ## README
 
@@ -536,8 +536,11 @@ Attach MP3 audio and MOV video through the file picker or drag and drop. The lim
 file, 250 MB per message, and 10 files per message. OpenBot gives the agent the original file; it does
 not play, decode, transcribe, or validate the recording during import. Damaged recordings can be
 attached for inspection. Analysis depends on the tools available to the agent. For other audio or
-video formats, export as MP3 or MOV, or attach a text transcript. Remote hosts must advertise the
+video formats, export as MP3, MOV, or MP4, or attach a text transcript. Remote hosts must advertise the
 `media-attachments` capability; update the host if this feature is unavailable.
+
+MP4 video uses the same limits and rules as MOV. Remote hosts must also advertise the
+`mp4-attachments` capability.
 
 ZIP archives use the same limits. OpenBot does not extract or inspect an archive: the agent gets the
 original file and extracts it with its own tools. An agent sends a ZIP archive back with

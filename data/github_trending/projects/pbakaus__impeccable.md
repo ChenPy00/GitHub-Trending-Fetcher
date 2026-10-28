@@ -4,7 +4,7 @@
   "name": "impeccable",
   "full_name": "pbakaus/impeccable",
   "url": "https://github.com/pbakaus/impeccable",
-  "description": "The design language that makes your AI harness better at design.",
+  "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
   "readme_sha256": "89796aaeaffd8a10fd8efa426ab385886a5afb148de1b23a4b4797e89fdf584e"
 }
 ```
@@ -12,7 +12,7 @@
 # pbakaus/impeccable
 
 - URL: https://github.com/pbakaus/impeccable
-- Description: The design language that makes your AI harness better at design.
+- Description: The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.
 - README SHA256: `89796aaeaffd8a10fd8efa426ab385886a5afb148de1b23a4b4797e89fdf584e`
 
 ## README

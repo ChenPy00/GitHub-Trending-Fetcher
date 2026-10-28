@@ -5,7 +5,7 @@
   "full_name": "cursor/plugins",
   "url": "https://github.com/cursor/plugins",
   "description": "Cursor plugin specification and official plugins",
-  "readme_sha256": "e61af11b2be682ecf1ff741c3cbb9f7ccbca99e821406979fdb71a9a6c00610a"
+  "readme_sha256": "9efdd9525452f89963605e0d50fcd5da816c7e97c05fc3243ee7d0bc62763e60"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/cursor/plugins
 - Description: Cursor plugin specification and official plugins
-- README SHA256: `e61af11b2be682ecf1ff741c3cbb9f7ccbca99e821406979fdb71a9a6c00610a`
+- README SHA256: `9efdd9525452f89963605e0d50fcd5da816c7e97c05fc3243ee7d0bc62763e60`
 
 ## README
 
@@ -139,6 +139,7 @@ Official Cursor plugins for popular developer tools, frameworks, and SaaS produc
 | `ringcentral-phone` | [RingCentral Phone](third_party/ringcentral-phone/) | Cursor | Integrations | Read call activity, AI call notes, SMS, voicemail, and fax, and send SMS. |
 | `ringcentral-chat` | [RingCentral Chat](third_party/ringcentral-chat/) | Cursor | Integrations | Read team chats and posts, send messages, and manage teams, tasks, and notes. |
 | `servicenow` | [ServiceNow](third_party/servicenow/) | Cursor | Integrations | Call the tools your admin publishes on a ServiceNow instance. |
+| `rippling` | [Rippling](third_party/rippling/) | Cursor | Integrations | Look up people, time off, and company policy in Rippling, and file time-off requests and draft hires. |
 Author values match each plugin’s `plugin.json` `author.name` (Cursor lists `plugins@cursor.com` in the manifest).
 
 ## Repository structure
