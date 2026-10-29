@@ -5,7 +5,7 @@
   "full_name": "pingdotgg/t3code",
   "url": "https://github.com/pingdotgg/t3code",
   "description": "",
-  "readme_sha256": "ce5857396ae24e1641748d5fad8561906c271b8053526d41f93b0d4de1735908"
+  "readme_sha256": "3e3a911a2832a54e42efd9b9de1a02d11305209341d89252b7f99b56a49d06ec"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/pingdotgg/t3code
 - Description: No description
-- README SHA256: `ce5857396ae24e1641748d5fad8561906c271b8053526d41f93b0d4de1735908`
+- README SHA256: `3e3a911a2832a54e42efd9b9de1a02d11305209341d89252b7f99b56a49d06ec`
 
 ## README
 
@@ -102,6 +102,16 @@ yay -S t3code-nightly-bin
 ```
 
 The AUR packaging is maintained in this repository under [`packaging/aur`](./packaging/aur).
+
+#### Nix (nixpkgs)
+
+```bash
+nix profile add github:NixOS/nixpkgs/nixos-unstable#t3code
+```
+
+The package is maintained in [nixpkgs](https://github.com/NixOS/nixpkgs/tree/nixos-unstable/pkgs/by-name/t3/t3code)
+and includes the desktop app (`t3code-desktop`) and the `t3` command.
+See [Nix installation](./docs/user/install.md#nix-nixpkgs) for NixOS configuration and updates.
 
 ## Some notes
 

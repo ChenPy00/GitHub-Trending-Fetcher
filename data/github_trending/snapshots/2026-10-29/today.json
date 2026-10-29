@@ -1,0 +1,121 @@
+{
+  "github_since": "daily",
+  "period": "today",
+  "repositories": [
+    {
+      "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
+      "full_name": "JetBrains/thinkrail",
+      "project_file": "projects/JetBrains__thinkrail.md",
+      "rank": 1,
+      "readme_sha256": "98467f6ff03b3c0e4686858af06f65e2e7b16ebd6560bccf01f2fc53efffba33",
+      "url": "https://github.com/JetBrains/thinkrail"
+    },
+    {
+      "description": "",
+      "full_name": "elayadesign/ai-design-skills",
+      "project_file": "projects/elayadesign__ai-design-skills.md",
+      "rank": 2,
+      "readme_sha256": "8a9de89d3a110b814ed636be8494c8b8ea9f933e50567714a2275f17e1561bab",
+      "url": "https://github.com/elayadesign/ai-design-skills"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 3,
+      "readme_sha256": "79f29f50c735862d2e304ea547b4c9aa67d9db6909ff6fb7b5ea922d7bcbc3e7",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "DeepTutor: Lifelong Personalized Tutoring. https://deeptutor.info/ .",
+      "full_name": "HKUDS/DeepTutor",
+      "project_file": "projects/HKUDS__DeepTutor.md",
+      "rank": 4,
+      "readme_sha256": "0ba1f81e2c697cd0cec7670f0f2f19b6c4ed364e1b721802a6df4e0d143e67d8",
+      "url": "https://github.com/HKUDS/DeepTutor"
+    },
+    {
+      "description": "Macro is a unified workspace for teams: email, chat, docs, tasks, agents, calls, and CRM — @-linked together with shared AI memory.",
+      "full_name": "macro-inc/macro",
+      "project_file": "projects/macro-inc__macro.md",
+      "rank": 5,
+      "readme_sha256": "21908b0fb2c1a6207edffa305140df704d03965c3c3109b138640dc4e6588af4",
+      "url": "https://github.com/macro-inc/macro"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 6,
+      "readme_sha256": "d21933f906e8b9a2db0d32982b1523a679a89e97dc77a635e124c9a98ac3d8c5",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 7,
+      "readme_sha256": "f42abb6c9f674eb4bde7ee6e6bc6584a186987a87d0589420b5393b03eaf64e8",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。",
+      "full_name": "makecindy/cindy",
+      "project_file": "projects/makecindy__cindy.md",
+      "rank": 8,
+      "readme_sha256": "cacb15f4631f1f92dbdc4f247053493bba7b59b94a223cb8c5c681697eda21b4",
+      "url": "https://github.com/makecindy/cindy"
+    },
+    {
+      "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
+      "full_name": "nightly-labs/openbot",
+      "project_file": "projects/nightly-labs__openbot.md",
+      "rank": 9,
+      "readme_sha256": "2f44b61d61b57dd2f1dd6bb81de72c75ad4d782677b7e896fab32d22c607269e",
+      "url": "https://github.com/nightly-labs/openbot"
+    },
+    {
+      "description": "LIST OF ALL MY JAILBREAKS",
+      "full_name": "togg53192-cmd/jailbreaks",
+      "project_file": "projects/togg53192-cmd__jailbreaks.md",
+      "rank": 10,
+      "readme_sha256": "30a8bf697a9c18732884f4ff508c7eee318014b4fc21a9c61eecd9106ddc8f1c",
+      "url": "https://github.com/togg53192-cmd/jailbreaks"
+    },
+    {
+      "description": "一个基于 JavaScript 的网盘文件下载地址获取工具。基于【网盘直链下载助手】修改 ，支持 百度网盘 / 阿里云盘 / 中国移动云盘 / 天翼云盘 / 迅雷云盘 / 夸克网盘 / UC网盘 / 123云盘 八大网盘",
+      "full_name": "hmjz100/LinkSwift",
+      "project_file": "projects/hmjz100__LinkSwift.md",
+      "rank": 11,
+      "readme_sha256": "696a962822dcb9b07a97b00c48fdaf060c96fd775c0167a68e507886231f5dd5",
+      "url": "https://github.com/hmjz100/LinkSwift"
+    },
+    {
+      "description": "A collection of AI agent skills for working with Expo projects and Expo Application Services",
+      "full_name": "expo/skills",
+      "project_file": "projects/expo__skills.md",
+      "rank": 12,
+      "readme_sha256": "29fe31469d5209d416fb0cf11d6e66ccaf99462406a00dbebca7aefbbd545797",
+      "url": "https://github.com/expo/skills"
+    },
+    {
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "full_name": "ruvnet/RuView",
+      "project_file": "projects/ruvnet__RuView.md",
+      "rank": 13,
+      "readme_sha256": "0d4a04f72df4e891e6644ad57f42a83cf53208bf7a1ad0206f6d581178d7be37",
+      "url": "https://github.com/ruvnet/RuView"
+    },
+    {
+      "description": "One has no future if one couldn't teach themself.",
+      "full_name": "xiaolai/the-craft-of-selfteaching",
+      "project_file": "projects/xiaolai__the-craft-of-selfteaching.md",
+      "rank": 14,
+      "readme_sha256": "3e25097227720a52e4006ccb673bf3a004fc612eb9eeac4952a641f5ac478fad",
+      "url": "https://github.com/xiaolai/the-craft-of-selfteaching"
+    }
+  ],
+  "snapshot_date": "2026-10-29",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

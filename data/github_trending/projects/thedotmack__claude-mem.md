@@ -5,7 +5,7 @@
   "full_name": "thedotmack/claude-mem",
   "url": "https://github.com/thedotmack/claude-mem",
   "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
-  "readme_sha256": "1300957da62a0962f875bd67203c6774b2421ed33e6c286077966d1bc54cc3e8"
+  "readme_sha256": "b4c968caaab43a56367c24684a07caf7eeb6a1eae24ec61d96981cb1c7dfd0b4"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/thedotmack/claude-mem
 - Description: Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More
-- README SHA256: `1300957da62a0962f875bd67203c6774b2421ed33e6c286077966d1bc54cc3e8`
+- README SHA256: `b4c968caaab43a56367c24684a07caf7eeb6a1eae24ec61d96981cb1c7dfd0b4`
 
 ## README
 
@@ -78,7 +78,7 @@
     <img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg" alt="License">
   </a>
   <a href="package.json">
-    <img src="https://img.shields.io/badge/version-15.4.0-green.svg" alt="Version">
+    <img src="https://img.shields.io/badge/version-15.5.0-green.svg" alt="Version">
   </a>
   <a href="package.json">
     <img src="https://img.shields.io/badge/node-%3E%3D20.0.0-brightgreen.svg" alt="Node">

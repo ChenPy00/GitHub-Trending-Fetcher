@@ -5,7 +5,7 @@
   "full_name": "Nutlope/hallmark",
   "url": "https://github.com/Nutlope/hallmark",
   "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
-  "readme_sha256": "785ff305d05e90cac94b2ef72aee499c8408510b2206bcfb796a8288950bef68"
+  "readme_sha256": "d21933f906e8b9a2db0d32982b1523a679a89e97dc77a635e124c9a98ac3d8c5"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/Nutlope/hallmark
 - Description: Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
-- README SHA256: `785ff305d05e90cac94b2ef72aee499c8408510b2206bcfb796a8288950bef68`
+- README SHA256: `d21933f906e8b9a2db0d32982b1523a679a89e97dc77a635e124c9a98ac3d8c5`
 
 ## README
 
@@ -121,6 +121,10 @@ npx skills add nutlope/hallmark -g
 - **From a clone:** `node skills/hallmark/scripts/install.mjs` validates every theme and reference before it copies; `install-hook.mjs` adds an edit-time Floor check to Claude Code.
 - **Lint any page:** `node skills/hallmark/scripts/sloplint.mjs <file-or-dir> --render`.
 - **If it does not fire on its own,** name it: *use hallmark to build ...*.
+
+## Inspired by
+
+[Impeccable](https://github.com/pbakaus/impeccable) · [frontend-design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design) · [Open Design](https://github.com/nexu-io/open-design) · [Kami](https://github.com/tw93/kami) · [taste-skill](https://github.com/Leonxlnx/taste-skill) · [huashu-design](https://github.com/alchaincyf/huashu-design) · [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) · [Emil Kowalski's skills](https://github.com/emilkowalski/skills) · [Web Interface Guidelines](https://github.com/vercel-labs/web-interface-guidelines)
 
 ## Licence
 
