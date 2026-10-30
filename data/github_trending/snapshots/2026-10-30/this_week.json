@@ -1,0 +1,97 @@
+{
+  "github_since": "weekly",
+  "period": "this_week",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "The PHP Interpreter",
+      "full_name": "php/php-src",
+      "project_file": "projects/php__php-src.md",
+      "rank": 2,
+      "readme_sha256": "71ba0c02f73f4288e25df82f51d065f1966b1d9ffe13a406bb48f1e848a21a49",
+      "url": "https://github.com/php/php-src"
+    },
+    {
+      "description": "Universal SEO skill for Claude Code. 26 sub-skills + 19 sub-agents covering technical SEO, E-E-A-T, schema, GEO/AEO, agent readiness (Lighthouse Agentic Browsing, WebMCP, llms.txt), backlinks, local SEO, e-commerce, international SEO, Google APIs, and PDF/Excel reporting. 9 optional extensions for live SEO data.",
+      "full_name": "AgriciDaniel/claude-seo",
+      "project_file": "projects/AgriciDaniel__claude-seo.md",
+      "rank": 3,
+      "readme_sha256": "a6f11dbfee5b5ba787bdbb8536a46813c55fc770f875094714c4916178dc1238",
+      "url": "https://github.com/AgriciDaniel/claude-seo"
+    },
+    {
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 4,
+      "readme_sha256": "f42abb6c9f674eb4bde7ee6e6bc6584a186987a87d0589420b5393b03eaf64e8",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "full_name": "multica-ai/andrej-karpathy-skills",
+      "project_file": "projects/multica-ai__andrej-karpathy-skills.md",
+      "rank": 5,
+      "readme_sha256": "daf314efb31894b86d68b67786c820bd8470bb2126e578ba9cd0e3e2667883f8",
+      "url": "https://github.com/multica-ai/andrej-karpathy-skills"
+    },
+    {
+      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework",
+      "full_name": "TauricResearch/TradingAgents",
+      "project_file": "projects/TauricResearch__TradingAgents.md",
+      "rank": 6,
+      "readme_sha256": "dbbaf3de3698f39664b2ea40d1e3b3dd92deaf8e1a4f3129d01bd6ff4211229f",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "description": "An agentic skills framework & software development methodology that works.",
+      "full_name": "obra/superpowers",
+      "project_file": "projects/obra__superpowers.md",
+      "rank": 7,
+      "readme_sha256": "79f29f50c735862d2e304ea547b4c9aa67d9db6909ff6fb7b5ea922d7bcbc3e7",
+      "url": "https://github.com/obra/superpowers"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 8,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 9,
+      "readme_sha256": "a3e3735d1bd37553801bc09918804f93b8f0a98448f3cb58001332832bb89357",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "A collection of agent skills that help you build great interfaces.",
+      "full_name": "jakubkrehel/skills",
+      "project_file": "projects/jakubkrehel__skills.md",
+      "rank": 10,
+      "readme_sha256": "f5fa3916f407e49520efd2ce8e2a87f667a57c86a65fb123924952681b4ea61f",
+      "url": "https://github.com/jakubkrehel/skills"
+    },
+    {
+      "description": "🌊 The original agent harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, federation, vector RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "full_name": "ruvnet/ruflo",
+      "project_file": "projects/ruvnet__ruflo.md",
+      "rank": 11,
+      "readme_sha256": "0799c7dd2878232d32fe786174bf9253cade487d4a94bdac001d7ecc68595169",
+      "url": "https://github.com/ruvnet/ruflo"
+    }
+  ],
+  "snapshot_date": "2026-10-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}

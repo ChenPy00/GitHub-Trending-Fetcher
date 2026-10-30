@@ -5,7 +5,7 @@
   "full_name": "DietrichGebert/ponytail",
   "url": "https://github.com/DietrichGebert/ponytail",
   "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
-  "readme_sha256": "3428352df7025c06241af37b51540a84418449abbcaf9bbf55a69ecd4f152619"
+  "readme_sha256": "9608191c42ef942138857c44b54037fff7606cfda205d7320f4a3c82a7d8d41e"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/DietrichGebert/ponytail
 - Description: Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.
-- README SHA256: `3428352df7025c06241af37b51540a84418449abbcaf9bbf55a69ecd4f152619`
+- README SHA256: `9608191c42ef942138857c44b54037fff7606cfda205d7320f4a3c82a7d8d41e`
 
 ## README
 
@@ -79,6 +79,12 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/retriever-logo-dark.svg">
     <img src="assets/retriever-logo-light.svg" height="128" alt="Retriever">
+  </picture>
+</a>
+<a href="https://photoreunion.app/?ref=ponytail-gh">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/photoreunion-logo-dark.svg">
+    <img src="assets/photoreunion-logo-light.svg" height="128" alt="PhotoReunion">
   </picture>
 </a>
 

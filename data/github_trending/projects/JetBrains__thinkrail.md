@@ -5,7 +5,7 @@
   "full_name": "JetBrains/thinkrail",
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-  "readme_sha256": "98467f6ff03b3c0e4686858af06f65e2e7b16ebd6560bccf01f2fc53efffba33"
+  "readme_sha256": "c9a2eefbef3466ce994c2370d788c6c75cd9b1a92d65578d8bf15bcd1ef86406"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/JetBrains/thinkrail
 - Description: Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-- README SHA256: `98467f6ff03b3c0e4686858af06f65e2e7b16ebd6560bccf01f2fc53efffba33`
+- README SHA256: `c9a2eefbef3466ce994c2370d788c6c75cd9b1a92d65578d8bf15bcd1ef86406`
 
 ## README
 
@@ -233,6 +233,12 @@ the command line, `thinkrail --no-analytics` (or `THINKRAIL_NO_ANALYTICS=1`) tur
 that run. With additional sharing on, a packaged build may open the ThinkRail blog in your browser once to
 link your installation to the website visit that brought you here — only where you accepted marketing cookies on the
 website or no consent is required — and that link expires after 30 days.
+
+Feedback surveys are separate from usage analytics. ThinkRail may invite you to a short survey, and you can
+also open it from **Settings → Feedback**. Your answers, including anything you type, are sent to the
+ThinkRail team only when you press **Send**, whatever your analytics settings, and are tied to the same
+random installation ID — not to your name or account. Please don't include secrets, code, or personal data;
+to have your answers deleted, email info@thinkrail.ai.
 
 The ThinkRail apps and the ThinkRail website ([thinkrail.ai](https://thinkrail.ai)) use PostHog Inc. services for
 analytics. The website also uses PostHog Surveys to collect feedback after a desktop download and, only if you

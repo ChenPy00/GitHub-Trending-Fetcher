@@ -5,7 +5,7 @@
   "full_name": "nightly-labs/openbot",
   "url": "https://github.com/nightly-labs/openbot",
   "description": "A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.",
-  "readme_sha256": "2f44b61d61b57dd2f1dd6bb81de72c75ad4d782677b7e896fab32d22c607269e"
+  "readme_sha256": "83717388fb253da456aa06657ce9246f4b017b0cd5048b24a35b9764bc4049f7"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/nightly-labs/openbot
 - Description: A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
-- README SHA256: `2f44b61d61b57dd2f1dd6bb81de72c75ad4d782677b7e896fab32d22c607269e`
+- README SHA256: `83717388fb253da456aa06657ce9246f4b017b0cd5048b24a35b9764bc4049f7`
 
 ## README
 
@@ -629,8 +629,8 @@ Copyright 2026 Synthetify Labs spółka z ograniczoną odpowiedzialnością.
 
 Licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE). You may use, modify, and
 distribute the code for permitted noncommercial purposes. Commercial use requires a separate license
-from the copyright owner. For a commercial license, contact
-[licenses@openbot.run](mailto:licenses@openbot.run). Versions up to and including 0.1.11 remain
+from the copyright owner. Buy a commercial license in Settings → Billing (Starter for 1 user, or
+Team for 2 to 10 users), or contact [licenses@openbot.run](mailto:licenses@openbot.run). Versions up to and including 0.1.11 remain
 available under Apache-2.0.
 See [NOTICE](NOTICE) for attribution and third-party notices.
 

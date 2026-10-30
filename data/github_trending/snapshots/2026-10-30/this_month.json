@@ -1,0 +1,161 @@
+{
+  "github_since": "monthly",
+  "period": "this_month",
+  "repositories": [
+    {
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "full_name": "cloudflare/security-audit-skill",
+      "project_file": "projects/cloudflare__security-audit-skill.md",
+      "rank": 1,
+      "readme_sha256": "55e793bbea3563f8246735997c07aaee360e043eeb626f0b56ea6161c8618ae7",
+      "url": "https://github.com/cloudflare/security-audit-skill"
+    },
+    {
+      "description": "Write HTML. Render video. Built for agents.",
+      "full_name": "heygen-com/hyperframes",
+      "project_file": "projects/heygen-com__hyperframes.md",
+      "rank": 2,
+      "readme_sha256": "e1959c0b7ff33f4802a347034324f3eca729b1cd896a1b45fde3be4168cbeb70",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    {
+      "description": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork",
+      "full_name": "anthropics/knowledge-work-plugins",
+      "project_file": "projects/anthropics__knowledge-work-plugins.md",
+      "rank": 3,
+      "readme_sha256": "6db45ae725346e38fa0b6b921aba4fe8489c4d9735986876d366ba5768010b14",
+      "url": "https://github.com/anthropics/knowledge-work-plugins"
+    },
+    {
+      "description": "Design physical products with AI",
+      "full_name": "earthtojake/text-to-cad",
+      "project_file": "projects/earthtojake__text-to-cad.md",
+      "rank": 4,
+      "readme_sha256": "4287043900efb5a89bcb47509a7941c56e5ec1fe2aa356a78f342a86f3367ec0",
+      "url": "https://github.com/earthtojake/text-to-cad"
+    },
+    {
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "full_name": "pbakaus/impeccable",
+      "project_file": "projects/pbakaus__impeccable.md",
+      "rank": 5,
+      "readme_sha256": "f42abb6c9f674eb4bde7ee6e6bc6584a186987a87d0589420b5393b03eaf64e8",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    {
+      "description": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+      "full_name": "debpalash/VoiceStudio",
+      "project_file": "projects/debpalash__VoiceStudio.md",
+      "rank": 6,
+      "readme_sha256": "85976d6d4a97542e8be0577381939d7bd129e0e46b9ad5c1ea1b2903cd87b16e",
+      "url": "https://github.com/debpalash/VoiceStudio"
+    },
+    {
+      "description": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+      "full_name": "anthropics/claude-plugins-official",
+      "project_file": "projects/anthropics__claude-plugins-official.md",
+      "rank": 7,
+      "readme_sha256": "f34b8730d2b61617045c61ea2d9bf3ab08561305bfac77ea061e755bf46aeac2",
+      "url": "https://github.com/anthropics/claude-plugins-official"
+    },
+    {
+      "description": "Context window optimization for AI coding agents. Sandboxes tool output (98% reduction), persists session memory, and enforces routing across 17 platforms via MCP + hooks.",
+      "full_name": "mksglu/context-mode",
+      "project_file": "projects/mksglu__context-mode.md",
+      "rank": 8,
+      "readme_sha256": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+      "url": "https://github.com/mksglu/context-mode"
+    },
+    {
+      "description": "Cursor plugin specification and official plugins",
+      "full_name": "cursor/plugins",
+      "project_file": "projects/cursor__plugins.md",
+      "rank": 9,
+      "readme_sha256": "6427ca0b10de2021e16c371bbda5a7558ce2e0f92a8327a8a3f8b03cbd5d5f1a",
+      "url": "https://github.com/cursor/plugins"
+    },
+    {
+      "description": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions. Works with Claude Code, OpenClaw, Codex, Gemini, Hermes, Copilot, OpenCode + More",
+      "full_name": "thedotmack/claude-mem",
+      "project_file": "projects/thedotmack__claude-mem.md",
+      "rank": 10,
+      "readme_sha256": "4df71dde5dd78bf7e5388e8d56f64d043bf17dd680df5af6fa98693d63b7fc05",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    {
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "full_name": "Nutlope/hallmark",
+      "project_file": "projects/Nutlope__hallmark.md",
+      "rank": 11,
+      "readme_sha256": "d21933f906e8b9a2db0d32982b1523a679a89e97dc77a635e124c9a98ac3d8c5",
+      "url": "https://github.com/Nutlope/hallmark"
+    },
+    {
+      "description": "Ghidra is a software reverse engineering (SRE) framework",
+      "full_name": "NationalSecurityAgency/ghidra",
+      "project_file": "projects/NationalSecurityAgency__ghidra.md",
+      "rank": 12,
+      "readme_sha256": "8d4cc75b5c6d0d6ce218bbfa45adc36029d4719d6bcabb33499a36d66ccbf3ec",
+      "url": "https://github.com/NationalSecurityAgency/ghidra"
+    },
+    {
+      "description": "",
+      "full_name": "pingdotgg/t3code",
+      "project_file": "projects/pingdotgg__t3code.md",
+      "rank": 13,
+      "readme_sha256": "3e3a911a2832a54e42efd9b9de1a02d11305209341d89252b7f99b56a49d06ec",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    {
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "full_name": "flutter/flutter",
+      "project_file": "projects/flutter__flutter.md",
+      "rank": 14,
+      "readme_sha256": "4bc9b330ef1c690f06adb0f90c25018c980977ad47d25d88efca11f45e91930a",
+      "url": "https://github.com/flutter/flutter"
+    },
+    {
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "full_name": "affaan-m/ECC",
+      "project_file": "projects/affaan-m__ECC.md",
+      "rank": 15,
+      "readme_sha256": "bce393127a2e15211583d0f4998599b9771cc30b1189e7c42a26d86b86386d13",
+      "url": "https://github.com/affaan-m/ECC"
+    },
+    {
+      "description": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages",
+      "full_name": "Leonxlnx/taste-skill",
+      "project_file": "projects/Leonxlnx__taste-skill.md",
+      "rank": 16,
+      "readme_sha256": "a3e3735d1bd37553801bc09918804f93b8f0a98448f3cb58001332832bb89357",
+      "url": "https://github.com/Leonxlnx/taste-skill"
+    },
+    {
+      "description": "Give your AI agent eyes to see the entire internet. Read & search Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu — one CLI, zero API fees.",
+      "full_name": "Panniantong/Agent-Reach",
+      "project_file": "projects/Panniantong__Agent-Reach.md",
+      "rank": 17,
+      "readme_sha256": "679ed9b797891acf06d4605addaef032993b63af67c97ac2bd8be76ea854ce34",
+      "url": "https://github.com/Panniantong/Agent-Reach"
+    },
+    {
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "full_name": "DietrichGebert/ponytail",
+      "project_file": "projects/DietrichGebert__ponytail.md",
+      "rank": 18,
+      "readme_sha256": "9608191c42ef942138857c44b54037fff7606cfda205d7320f4a3c82a7d8d41e",
+      "url": "https://github.com/DietrichGebert/ponytail"
+    },
+    {
+      "description": "7.4 billion tokens per month. 34 free LLM providers. 635 free model endpoints. All behind one /v1 endpoint, plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "full_name": "tashfeenahmed/freellmapi",
+      "project_file": "projects/tashfeenahmed__freellmapi.md",
+      "rank": 19,
+      "readme_sha256": "e7e0030ed168d6627a9d15b82fb825a7d3d8cf75caaeb98d2fc69eeba7c93c31",
+      "url": "https://github.com/tashfeenahmed/freellmapi"
+    }
+  ],
+  "snapshot_date": "2026-10-30",
+  "source_url": "https://github.com/trending",
+  "timezone": "Asia/Shanghai"
+}
