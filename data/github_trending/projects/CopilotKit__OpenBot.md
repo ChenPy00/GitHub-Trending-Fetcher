@@ -5,7 +5,7 @@
   "full_name": "CopilotKit/OpenBot",
   "url": "https://github.com/CopilotKit/OpenBot",
   "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-  "readme_sha256": "6ed381e1b5ac3ea7388be8437c3e16ae59f63d40429e4df2c3a9f4a463887c4b"
+  "readme_sha256": "0f5e7069b73b6da07f6a8e8d39b68c1a1e1f3271b0ddaabceff7570f3b247ec1"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/CopilotKit/OpenBot
 - Description: Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
-- README SHA256: `6ed381e1b5ac3ea7388be8437c3e16ae59f63d40429e4df2c3a9f4a463887c4b`
+- README SHA256: `0f5e7069b73b6da07f6a8e8d39b68c1a1e1f3271b0ddaabceff7570f3b247ec1`
 
 ## README
 
@@ -32,6 +32,7 @@ Each coworker gets a real browser with its own logins, its own files, and only t
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 ![Beta](https://img.shields.io/badge/status-beta-yellow.svg)
 
+[![GitHub Trending: #5 Repository Of The Day](https://trendshift.io/api/badge/repositories/175080)](https://trendshift.io/repositories/175080)
 [![Trendshift: #3 Repository Of The Day](https://trendshift.io/api/badge/trendshift/repositories/175080/daily)](https://trendshift.io/repositories/175080)
 
 </div>

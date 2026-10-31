@@ -5,7 +5,7 @@
   "full_name": "heygen-com/hyperframes",
   "url": "https://github.com/heygen-com/hyperframes",
   "description": "Write HTML. Render video. Built for agents.",
-  "readme_sha256": "e1959c0b7ff33f4802a347034324f3eca729b1cd896a1b45fde3be4168cbeb70"
+  "readme_sha256": "6669544f1f193657f6d085e002814bf3834e879b1deb5f909b86b8c5f978e0f9"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/heygen-com/hyperframes
 - Description: Write HTML. Render video. Built for agents.
-- README SHA256: `e1959c0b7ff33f4802a347034324f3eca729b1cd896a1b45fde3be4168cbeb70`
+- README SHA256: `6669544f1f193657f6d085e002814bf3834e879b1deb5f909b86b8c5f978e0f9`
 
 ## README
 
@@ -47,6 +47,13 @@
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f6ff9fae-f33d-4f68-bd54-f3ed4ba6473b" alt="HyperFrames app opening from the Dock: native Mac and Linux app now available" width="800">
+</p>
+
+<p align="center">
+  <b>Download the desktop app:</b>
+  <a href="https://hyperframes.studio/studio/download?os=mac&src=github-readme&utm_source=github&utm_medium=readme">macOS</a> ·
+  <a href="https://hyperframes.studio/studio/download?os=windows&src=github-readme&utm_source=github&utm_medium=readme">Windows</a> ·
+  <a href="https://hyperframes.studio/studio/download?os=deb&src=github-readme&utm_source=github&utm_medium=readme">Linux (.deb)</a>
 </p>
 
 HyperFrames is an open-source framework for turning HTML, CSS, media, and seekable animations into deterministic MP4 videos. Use it locally with the CLI, from AI coding agents with skills, or as the rendering core behind hosted authoring workflows.

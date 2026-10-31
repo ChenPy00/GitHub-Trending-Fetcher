@@ -5,7 +5,7 @@
   "full_name": "JetBrains/thinkrail",
   "url": "https://github.com/JetBrains/thinkrail",
   "description": "Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need",
-  "readme_sha256": "c9a2eefbef3466ce994c2370d788c6c75cd9b1a92d65578d8bf15bcd1ef86406"
+  "readme_sha256": "56ecad584131bf97f9ec0d8aa2cb82ca8d7b25dda5e6b7364d446e2dcd2b7843"
 }
 ```
 
@@ -13,7 +13,7 @@
 
 - URL: https://github.com/JetBrains/thinkrail
 - Description: Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-- README SHA256: `c9a2eefbef3466ce994c2370d788c6c75cd9b1a92d65578d8bf15bcd1ef86406`
+- README SHA256: `56ecad584131bf97f9ec0d8aa2cb82ca8d7b25dda5e6b7364d446e2dcd2b7843`
 
 ## README
 
@@ -79,7 +79,10 @@ create the tools it needs based on how you actually work.
   in the chat instead of guessing, and inline diagrams, option comparisons and file previews rendered right
   in the chat — when the agent proposes a UI change it shows a before/after mockup you can comment on like
   a diff. Settings → Extensions lists the ThinkRail extensions the agent gets and lets you switch each one
-  off. The questions and visualize tools are also published as plain `pi` packages, one each —
+  off — and installs any `pi` package by source (npm, git or a local folder), for you or for a repository,
+  showing what each one adds and letting you switch packages, their individual extensions and skills, and
+  pi's built-ins on or off; open chats pick a change up when their turn ends. The questions and visualize
+  tools are also published as plain `pi` packages, one each —
   `pi install npm:@thinkrail/pi-ask-user-question` for the questions
   ([`@thinkrail/pi-ask-user-question`](https://www.npmjs.com/package/@thinkrail/pi-ask-user-question)) and
   `pi install npm:@thinkrail/pi-visualize` for the diagrams and previews
@@ -96,14 +99,22 @@ create the tools it needs based on how you actually work.
   — say a personal `~/.pi/agent-personal` — or to pass extra environment variables to the agent, terminals
   and MCP servers, set them in Settings → Environment; they apply on the next start. A variable you set
   when launching (`PI_CODING_AGENT_DIR=… thinkrail`) still wins.
+- **Your own model servers.** Settings → Providers → **Custom servers** connects a company LLM gateway or a
+  model running on your own machine — any OpenAI-compatible server, such as LiteLLM, sglang, vLLM, Ollama,
+  LM Studio or llama.cpp. **Find models** lists what the server serves, with the context and capabilities it
+  reports. The server is saved to `pi`'s `models.json`, so its models appear in the chat model picker and in
+  the `pi` CLI alike.
 - **Desktop app or browser.** A native desktop app, or the `thinkrail` CLI that opens the same app in your
   browser. Both embed the same engine host; app state lives under `~/.thinkrail`.
 - **Your language.** Settings → Language follows your system language or a language you pick; English,
-  Japanese, Simplified Chinese, and Spanish are built in. Add a language ThinkRail doesn't ship yet by
+  Japanese, Russian, Simplified Chinese, and Spanish are built in. Add a language ThinkRail doesn't ship yet by
   dropping a translated `en.json` into `~/.thinkrail/locales` — it applies as you save. Agent replies and
   tool output stay as the agent wrote them.
 - **Your themes.** Settings → Appearance ships dark, light, minimal and high-contrast themes. Make your own
   by copying a bundled `*.theme.json`, changing its id and colors, and saving it to `~/.thinkrail/themes`.
+- **Your fonts.** Settings → Appearance picks the interface and code fonts from the bundled Geist and
+  JetBrains Mono, any font installed on your computer, or font files you drop in (kept in
+  `~/.thinkrail/fonts`), with fallback fonts for icon glyphs, a code size, ligatures and a text-weight slider.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset=".github/readme-assets/specs-dark.png">
